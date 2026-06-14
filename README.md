@@ -14,7 +14,7 @@ This repository is the open home of the charter and the working drafts that put 
 
 ## What's here
 
-- **[Manifesto](manifesto/trustworthy-ai-accountable-to-people.md)** — *Trustworthy AI, Accountable to People* (published 14 June 2026). The **why**.
+- **[Manifesto](manifesto/trustworthy-ai-accountable-to-people.md)** — *Trustworthy AI, Accountable to People* (published 14 June 2026). The **why**. ([launch post](manifesto/launch-post.md))
 - **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: the values and the commitments. The **what**.
 - **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — a draft, voluntary *evaluation* protocol for whether a deployed AI "shows its work." The **how**.
   - [One-page version](protocol/one-pager.md) · [How certification would actually work](protocol/certification-model.md)
