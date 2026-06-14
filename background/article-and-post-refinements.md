@@ -1,3 +1,5 @@
+> **Status: WIP / DISCUSSION** — proposals only; NOT applied.
+
 # Proposed refinements to the manifesto (not yet applied)
 
 _Optional, minimal in-place edits to the published article, suggested after the deep dive + the adversarial red-team. These are **proposals** — the [manifesto](../manifesto/trustworthy-ai-accountable-to-people.md) in this repo is the as-published text. Applying any of them would update both the live LinkedIn article and this repo copy._

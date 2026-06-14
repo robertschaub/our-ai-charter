@@ -1,3 +1,5 @@
+> **Status: WIP / DISCUSSION** — earlier framing, superseded by the protocol.
+
 # Contribution Brief v3 — AI Grounding, Provenance & Correction (GPC) Assurance
 ### Auditing whether a developer's deployed AI grounds its claims, calibrates confidence, and corrects errors — *not* whether its outputs are "true"
 

@@ -1,3 +1,5 @@
+> **Status: WORKING DRAFT** — explainer accompanying the protocol.
+
 # How would "trustworthy AI" actually be certified? — a one-page model
 
 _Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft 2026-06-13. Grounded in how certification works in other industries._

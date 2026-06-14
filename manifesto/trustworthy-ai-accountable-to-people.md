@@ -1,7 +1,9 @@
+> **Status: PUBLISHED** — live on LinkedIn, 14 June 2026. Canonical text.
+
 # Trustworthy AI, Accountable to People
 ### A draft manifesto — open for your input
 
-> Published on LinkedIn, 14 June 2026. This is the canonical text.
+
 
 ## What just happened
 

@@ -10,19 +10,31 @@ AI is becoming the infrastructure the world learns, decides, and creates with. *
 - **Contestably controlled** — any power to restrict or recall it is lawful, transparent, and challengeable;
 - **Honest and verifiable** — you can check whether what it tells you is backed by the sources it cites.
 
-This repository is the open home of the charter and the working drafts that put teeth on it.
+This repository is the open home of the charter and the drafts that put teeth on it.
 
-## What's here
+> **Every document is labeled at the top with its status — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION` — so it's always clear what is final and what is still being worked out.**
 
-- **[Manifesto](manifesto/trustworthy-ai-accountable-to-people.md)** — *Trustworthy AI, Accountable to People* (published 14 June 2026). The **why**. ([launch post](manifesto/launch-post.md))
+## Published (live)
+
+- **[Manifesto](manifesto/trustworthy-ai-accountable-to-people.md)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026). The **why**.
+- **[Launch post](manifesto/launch-post.md)** — the accompanying feed post.
+
+## Working drafts (open for comment)
+
 - **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: the values and the commitments. The **what**.
 - **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — a draft, voluntary *evaluation* protocol for whether a deployed AI "shows its work." The **how**.
   - [One-page version](protocol/one-pager.md) · [How certification would actually work](protocol/certification-model.md)
-- **[Background](background/)** — the reasoning behind the above: the [verification / who-drives / declarations deep dive](background/from-manifesto-to-mechanism.md), the [landscape & positioning scan](background/landscape-and-positioning.md), an earlier [information-integrity contribution brief](background/information-integrity-contribution-brief.md), and [proposed manifesto refinements](background/article-and-post-refinements.md).
+
+## Discussion & background (WIP — not adopted positions)
+
+- [Deep dive: verification, who-could-drive-it, and the declarations](background/from-manifesto-to-mechanism.md)
+- [Landscape & positioning](background/landscape-and-positioning.md)
+- [Information-integrity contribution brief](background/information-integrity-contribution-brief.md) — an earlier framing
+- [Proposed manifesto refinements](background/article-and-post-refinements.md) — proposals, not applied
 
 ## Status
 
-Everything here is an early draft, published to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop this *inside* existing bodies, not to found a new silo.
+Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop this *inside* existing bodies, not to found a new silo.
 
 ## How to help
 

@@ -1,3 +1,5 @@
+> **Status: PUBLISHED** — live on LinkedIn, 14 June 2026.
+
 # Launch post
 
 _The LinkedIn feed post that accompanied the [manifesto](trustworthy-ai-accountable-to-people.md). Published 14 June 2026._

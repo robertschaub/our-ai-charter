@@ -1,3 +1,5 @@
+> **Status: WIP / DISCUSSION** — working reasoning, not an adopted position.
+
 # From Manifesto to Mechanism — three deep dives
 
 _Companion to the published article **"Trustworthy AI, Accountable to People"** (2026-06-14). It takes the three sections readers find most abstract — **how you'd know it's real**, **who could drive it**, and **the world has already declared what AI must respect** — and turns each into specific, plain-language solutions a solo founder could actually start._

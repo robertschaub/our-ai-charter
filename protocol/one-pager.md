@@ -1,3 +1,5 @@
+> **Status: WORKING DRAFT** — summary of the protocol draft.
+
 # Can we tell when a factual AI *shows its work*? — a 1-page proposal
 
 **A pilot evaluation protocol for discussion — not a certification, not a standard.** v0.2 · 2026-06-14 · Robert Schaub (fact-checker)

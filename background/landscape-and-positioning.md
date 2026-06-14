@@ -1,3 +1,5 @@
+> **Status: WIP / DISCUSSION** — internal landscape scan, not an adopted position.
+
 # Is the initiative obsolete, or should it join something? — landscape investigation
 
 _Decision-grade scan, 2026-06-14, before committing to build. Six independent analyses: four Claude web-research agents (trust-mark schemes · factuality/grounding evals · open/public-AI coalitions · fact-checking/journalism-trust bodies) + GPT-5.5 + Gemini broad sweeps. Each scored **maturity** (0 idea · 1 pilot/benchmark · 2 operating-with-adopters · 3 established) and gave an **OBSOLETES / JOIN / OVERLAP / ADJACENT** verdict against the distinctive wedge._
