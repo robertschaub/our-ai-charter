@@ -48,6 +48,6 @@ See **[CONTRIBUTING](CONTRIBUTING.md)** for the working norms (open drafts, publ
 
 ## License
 
-Document texts are licensed **[CC BY 4.0](LICENSE)**.
+Document texts are licensed **[CC BY 4.0](LICENSE)**. The initiative's name and any trust mark are **reserved** — see **[NOTICE](NOTICE)**.
 
 **Built by many. Accountable to all.**
