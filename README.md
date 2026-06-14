@@ -18,6 +18,7 @@ This repository is the open home of the charter and the working drafts that put 
 - **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: the values and the commitments. The **what**.
 - **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — a draft, voluntary *evaluation* protocol for whether a deployed AI "shows its work." The **how**.
   - [One-page version](protocol/one-pager.md) · [How certification would actually work](protocol/certification-model.md)
+- **[Background](background/)** — the reasoning behind the above: the [verification / who-drives / declarations deep dive](background/from-manifesto-to-mechanism.md), the [landscape & positioning scan](background/landscape-and-positioning.md), an earlier [information-integrity contribution brief](background/information-integrity-contribution-brief.md), and [proposed manifesto refinements](background/article-and-post-refinements.md).
 
 ## Status
 
