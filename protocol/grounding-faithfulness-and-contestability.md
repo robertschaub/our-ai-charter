@@ -2,7 +2,7 @@
 ### A voluntary evaluation protocol for factual AI systems — *public working draft, open for comment*
 
 **Working Draft v0.2** · 2026‑06‑14 · **Status: open for comment** (a pilot *evaluation* protocol — **not** a certification scheme, not yet a standard)
-**Author / editor:** Robert Schaub (fact‑checker; FactHarbor) · **Text licence:** CC BY 4.0 · **Canonical home:** _[add repo/URL]_ · **Comments:** _[add issue tracker / email]_
+**Author / editor:** Robert Schaub (fact‑checker; FactHarbor) · **Text licence:** CC BY 4.0 · **Canonical home:** _https://github.com/robertschaub/our-ai-charter_ · **Comments:** _GitHub Issues in this repository_
 **Companion to** the manifesto *"Trustworthy AI, Accountable to People."*
 
 ---
