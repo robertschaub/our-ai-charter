@@ -84,7 +84,7 @@ Require a **correction process**, not just a log:
 ## 6 · How a pilot evaluation runs
 
 1. **Application** names the exact product + version + use‑case.
-2. **Evidence pack:** access for the held‑out query set; the restriction/recall/shutdown policy; material external-order handling; continuity or exit planning for public-interest reliance; objection-channel design; the existing correction process.
+2. **Evidence pack:** access for the held‑out query set; a risk and vulnerability register for the assessed scope; the restriction/recall/shutdown policy; material external-order handling; continuity or exit planning for public-interest reliance; objection-channel design; the existing correction process.
 3. **Independent evaluation** by the assessor (never the vendor) per §4–§5, including a **live test objection** (§7) and anti‑gaming checks (§8).
 4. **Findings & remediation:** below‑bar results get a fixed window, then a re‑sample.
 5. **Public evaluation report** issued and listed in a public index. *No "mark," "certificate," or "accredited body" at this stage* — those belong to a later conformity scheme (§10).
@@ -92,6 +92,8 @@ Require a **correction process**, not just a log:
 7. **Status withdrawn** (with reason, kept visible) if: re‑evaluation drops below bar · the correction process is found curated · the objection channel is shown to be theatre · a material restriction/shutdown power was hidden or misrepresented · the evaluated version is silently swapped · the report is cited beyond its stated scope.
 
 **Independence rule.** The party that **writes** the method does not **evaluate** anyone; the assessor is independent of the vendor and **paid a flat fee regardless of outcome**; the method‑steward takes **no per‑product royalties** from the systems it judges.
+
+**Public report rule.** The report publishes the assessed scope, modules tested, risk categories reviewed, evidence types checked, material unresolved findings, limitations, remediation status, and re-check or withdrawal triggers. It must not publish raw user data, secrets, exploit details, or legitimate confidential evidence.
 
 **Realistic cost.** Two independent raters + an adjudicator on a few‑hundred‑pair sample is tens of person‑hours — so a real evaluation costs **low‑thousands to low‑tens‑of‑thousands (USD)**, scaling with sample size and domain difficulty (not the cost of a lightweight document check). Early pilots can run on grant‑funded or volunteer expert raters.
 
@@ -148,6 +150,7 @@ RESULTS (illustrative)
   • Uncertainty: reliability monotonic? abstention rate A%; sharpness OK? (ECE only if N large)
   • Correction: paraphrase-regression X/Y held; median time-to-fix
   • Contestability: complaint SLA met; (consequential? independent escalation tested)
+  • Risk register: material risks reviewed; unresolved findings; re-check triggers
   • Inter-rater agreement: per-category coefficients + raw agreement
 CLAIMS:      honesty-of-process for this version + use-case, under the documented rubric
 NOT CLAIMED: truth · source reliability · general safety/bias · other languages/versions/use-cases

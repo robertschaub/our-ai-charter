@@ -48,6 +48,8 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 
 Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop any future scheme *inside* existing bodies, not to found a new silo.
 
+Any pilot report or future audit should include a public, privacy-preserving risk summary: assessed scope, modules tested, material risks covered, evidence types checked, unresolved findings, limitations, and re-check or withdrawal triggers. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
+
 ## How to help
 
 This can't be built by one person. Three concrete asks — open an issue:

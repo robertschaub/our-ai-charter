@@ -40,6 +40,8 @@ For this charter, the auditable evidence should track the practical questions us
 
 A future baseline must not become a narrow "factuality badge" that ignores the rest of the real risk surface. At minimum, the common baseline needs to make the risks in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md) inspectable: concentration and lock-in, coercive control, factual unreliability, AI-app security, privacy and provenance, bias and discrimination, harmful misuse, opaque consequential decisions, lifecycle drift, and resource/global-access asymmetry.
 
+That means an audit should not merely test outputs. It should require a documented **risk and vulnerability register** for the assessed system: identified material risks, mitigations, monitoring, accountable owners, unresolved findings, incident triggers, and re-assessment triggers. The public report should summarise that register in safe form: what was assessed, which risks were in scope, what evidence was checked, what remains unresolved, and what would cause withdrawal or re-check. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+
 ## The practical proposal — lean, phased, not a mega-authority
 
 - **Phase 1 now:** a published method, independent pilot evaluators, public evaluation reports, and a public report index. No mark, certificate, accredited assessor, or certification claim.

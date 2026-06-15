@@ -48,6 +48,8 @@ Systems that make factual or consequential claims should not ask to be trusted o
 
 The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; and resource or global-access asymmetry. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight.
 
+Any pilot or future audit should require a risk and vulnerability register for the assessed scope, plus a public report summarising what was assessed, which risks were covered, what evidence was checked, what remains unresolved, and what would trigger re-check or withdrawal. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+
 ## Regulation and Certification
 
 State regulation matters because it creates enforceable rights, duties, supervisory powers, and sanctions. But AI regulation is not uniform internationally. A public buyer, media organisation, school, or user cannot rely on one shared legal baseline across jurisdictions.
