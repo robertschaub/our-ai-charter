@@ -23,7 +23,7 @@ A world where AI is a shared, trustworthy foundation for all of humanity — ope
 
 Trustworthy AI — and those who build and run it — must meet three obligations. Not aspirations; tests it can pass or fail.
 
-1. **Resilient and non-captive.** Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, exportable evidence records, version histories, continuity plans, exit paths, and explicit disclosure where exit or substitution is limited.
+1. **Resilient and non-captive.** Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, evidence records that remain independently reviewable, version histories, continuity plans, exit paths, and explicit disclosure where exit or substitution is limited.
 2. **Accountably controlled.** Any significant power to update, restrict, recall, or shut down an AI system needs a named authority, documented basis, proportionate process, evidence record, and challenge route. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
 3. **Evidence-backed and corrigible.** Systems that make factual or consequential claims must let us trace, test, and correct what they tell us — surfacing sources, signalling uncertainty, preserving audit trails, acknowledging errors, logging incidents and significant changes — so claims can be checked, challenged, and acted on, not just believed. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
 

@@ -3,7 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-15
-- **Obligation wording** — renamed the first obligation to "Resilient and non-captive" and changed evidence-record wording to "exportable evidence" to avoid implying that models or user data must move between providers.
+- **Obligation wording** — renamed the first obligation to "Resilient and non-captive" and changed evidence-record wording to emphasize independent review and continuity rather than a prescribed technical mechanism.
 - **Certification comment** — documented the published LinkedIn comment answering "who would actually certify this?"
 - **Manifesto and launch post footers** — added current repository-version and change-summary footers to distinguish published LinkedIn versions from updated repository drafts, and recorded the updated public-facing article footer with a repository source link.
 - **GitHub Pages** — rebuilt the public homepage from the published manifesto and tightened the "Practical Demand" and "Three Obligations" sections around six public questions and three operational duties.

@@ -32,7 +32,7 @@ These questions turn the published manifesto into a concrete charter and an audi
 
 ### 1. Resilient and non-captive
 
-Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, exportable evidence records, continuity plans, version histories, exit paths, and explicit disclosure where exit or substitution is limited.
+Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, evidence records that remain independently reviewable, continuity plans, version histories, exit paths, and explicit disclosure where exit or substitution is limited.
 
 ### 2. Accountably controlled
 

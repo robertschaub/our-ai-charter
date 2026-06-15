@@ -39,7 +39,7 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 
 **Obligation 1 — Resilient & non-captive**
 - **Documented dependencies:** the operator publishes the critical providers, models, data sources, and infrastructure the system depends on, with version pinning for the assessed release.
-- **Exportable evidence record:** audit artefacts (configuration records, evaluation samples, correction logs) are available in an open format so a successor or independent assessor can re-run the checks.
+- **Evidence continuity:** audit artefacts (configuration records, evaluation samples, correction logs) remain usable for independent review, reassessment, and continuity if a provider changes or withdraws.
 - **Continuity and exit path:** the operator documents what happens if a critical provider withdraws, and where exit is constrained, that limit is disclosed up front rather than discovered at failure.
 
 **Obligation 2 — Accountably controlled**
@@ -185,7 +185,7 @@ Each row maps one named principle to a concrete test, and to the obligation it r
 | 10 | Safety & security (UNESCO); reliability, Art. 12 (CoE) | Accuracy/failure rates measured and published; known failure modes disclosed, not hidden. | 3 |
 | 11 | Human dignity & autonomy, Art. 7 (CoE); Art. 1 (UDHR) | No covert manipulation; persuasive/behavioural techniques are disclosed. | 1, 3 |
 | 12 | Awareness & literacy (UNESCO) | Users get plain-language info on the system's limits and how to read its outputs. | 3 |
-| 13 | Multi-stakeholder & adaptive governance (UNESCO); safe innovation, Art. 13 (CoE) | Not single-vendor-locked: the audit record is exportable and reviewable by independent parties. | 1 |
+| 13 | Multi-stakeholder & adaptive governance (UNESCO); safe innovation, Art. 13 (CoE) | Not single-vendor-locked: the audit record remains independently reviewable. | 1 |
 | 14 | Share in scientific advancement, Art. 27 (UDHR); sustainability (UNESCO) | Audit methods and results are openly published so benefits and risks are public knowledge. | 1 |
 
 ## C. A complementary practical tool — the "Developer's Translation Matrix" (Gemini)
