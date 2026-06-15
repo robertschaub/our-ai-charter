@@ -47,6 +47,8 @@ This can't be built by one person. Three concrete asks — open an issue:
 
 See **[CONTRIBUTING](CONTRIBUTING.md)** for the working norms (open drafts, published dissent, conflict-of-interest disclosure).
 
+For suspected leaked secrets, private material, or personal data, do **not** open a public issue. Follow **[SECURITY](SECURITY.md)**.
+
 ## License
 
 Document texts are licensed **[CC BY 4.0](LICENSE)**. The initiative's name and any trust mark are **reserved** — see **[NOTICE](NOTICE)**.

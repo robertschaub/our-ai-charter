@@ -1,0 +1,39 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local agent/runtime artifacts (personal, not shared)
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.aider*
+.codex/runtime-logs/
+
+# Secrets / environment — never commit these to a public repo
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+secrets.*
+
+# Local Claude Code artifacts (personal, not shared)
+.claude/settings.local.json
+.claude/state/
+.claude/worktrees/
+.claude/*.lock
+.claude/*.jsonl
+
+# Jekyll / GitHub Pages local build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
