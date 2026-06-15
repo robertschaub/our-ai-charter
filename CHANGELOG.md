@@ -3,6 +3,9 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-15
+- **Risk and vulnerability audit** — added a grounded WIP audit naming the major real-world risk classes the Charter must cover: concentrated infrastructure, coercive control, factual unreliability, AI-app security, privacy/provenance, bias, harmful misuse, opaque consequential decisions, lifecycle drift, and resource/global-access asymmetry.
+- **Founding Accord v0.6** — expanded the six commitments so the obligations explicitly cover misuse boundaries, models/data/tools/cloud dependencies, security and prompt-injection testing, privacy controls, data provenance, disparate failure rates, harmful misuse, material updates, continuity plans, and resource/access constraints.
+- **Protocol scope discipline** — clarified that Grounding-Faithfulness & Contestability is one evaluation module, not the whole Charter assurance surface; companion modules are needed for security, privacy/data, misuse, bias, lifecycle, value-chain, and continuity risks.
 - **Feasibility audit follow-up** — made the repository-wide phase model explicit: Phase 1 is public drafting and pilot evaluation reports; any Trust Mark, certificate, accredited assessor, registry of certified systems, or formal revocation scheme is Phase 2.
 - **Founding Accord v0.5** — added explicit protection against unaccountable switch-off orders, coercive manipulation, and opaque restriction powers: material control interventions must be attributable, scoped, logged, reviewable where lawful, and paired with continuity or exit planning where public reliance is material.
 - **Protocol v0.2 framing** — kept the protocol as a pilot evaluation method, clarified external-order handling and continuity/exit evidence, and reinforced that the report is not certification and cannot overrule state, court, platform, or infrastructure power.

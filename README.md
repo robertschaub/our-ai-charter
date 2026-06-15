@@ -6,9 +6,9 @@ _Early public draft — open for comment. Not a certification; not yet a standar
 
 AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter** is a public-interest effort to keep that infrastructure trustworthy:
 
-- **Resilient and non-captive** — public-interest uses are not trapped by one unreviewable provider, hidden dependency, unilateral withdrawal, or opaque switch-off order;
-- **Accountable and challengeable** — significant power over systems and people, including restriction or shutdown powers, can be traced, reviewed, justified, and challenged where lawful;
-- **Checkable and corrigible** — factual and consequential claims, failures, and corrections can be tested and acted on.
+- **Resilient and non-captive** — public-interest uses are not trapped by one unreviewable provider, hidden dependency, fragile supply chain, unilateral withdrawal, resource bottleneck, or opaque switch-off order;
+- **Accountable and challengeable** — significant power over systems, data, security, privacy, misuse, and people can be traced, reviewed, justified, and challenged where lawful;
+- **Checkable and corrigible** — factual and consequential claims, safety and security controls, incidents, bias and failure rates, changes, and corrections can be tested and acted on.
 
 This repository is the open home of the charter and the drafts that put teeth on it.
 
@@ -38,10 +38,11 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 ## Discussion & background (WIP — not adopted positions)
 
 - [What the world has already declared](background/what-the-world-has-already-declared.md) — the essence of the UDHR, UNESCO's AI Ethics Recommendation, and the Council of Europe AI treaty, and how they map to the three obligations
+- [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) — the real-world risks the obligations must cover, and the evidence each risk should leave behind
 - [Deep dive: verification, who-could-drive-it, and the declarations](background/from-manifesto-to-mechanism.md)
 - [Landscape & positioning](background/landscape-and-positioning.md)
 - [Information-integrity contribution brief](background/information-integrity-contribution-brief.md) — an earlier framing
-- [Proposed manifesto refinements](background/article-and-post-refinements.md) — proposals, not applied
+- [Proposed manifesto refinements](background/article-and-post-refinements.md) — superseded proposals
 
 ## Status
 

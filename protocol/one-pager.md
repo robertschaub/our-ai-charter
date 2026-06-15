@@ -15,6 +15,8 @@ _Full protocol: [grounding-faithfulness-and-contestability.md](grounding-faithfu
 
 **What it does / doesn't claim.** Says: *honesty-of-process for this version + use-case.* Does **not** say outputs are true, that sources are *reliable* (only that they exist and aren't fiction), or anything about general safety/bias or legal compliance. It's **"aligned with"** UDHR / UNESCO / the Council of Europe AI treaty — never "compliant with."
 
+**What still needs companion modules.** This protocol covers one high-risk slice: factual support, correction, and contestability. A Charter baseline also needs evidence for AI-app security, prompt injection and tool/agent permissions, privacy and data provenance, harmful misuse, disparate failure rates, material lifecycle change, third-party dependencies, and continuity/exit planning. Those risks are mapped in the [risk audit](../background/risk-and-vulnerability-audit.md).
+
 **The method, kept honest** (this is where experts will push — good):
 - **Auditor-controlled, pre-registered held-out query set** (adversarially seeded) — *not* scraped user traffic, to avoid privacy + cherry-picking.
 - **Two blinded raters + adjudication**, a published codebook, per-category agreement reported. "Support" is semantic judgment, made repeatable by the rubric — not a truth call.

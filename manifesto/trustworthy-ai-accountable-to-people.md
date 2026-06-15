@@ -23,9 +23,9 @@ A world where AI is a shared, trustworthy foundation for all of humanity — ope
 
 Trustworthy AI — and those who build and run it — must meet three obligations. Not aspirations; tests it can pass or fail.
 
-1. **Resilient and non-captive.** Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, unilateral withdrawal, or opaque switch-off order. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
-2. **Accountable and challengeable.** Any significant power to update, restrict, recall, or shut down an AI system must be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
-3. **Checkable and corrigible.** Systems that make factual or consequential claims must not ask to be trusted on authority. Their claims, limits, failures, and corrections must be open to challenge and acted on when they are wrong. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
+1. **Resilient and non-captive.** Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, fragile supply chain, unilateral withdrawal, resource bottleneck, or opaque switch-off order. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
+2. **Accountable and challengeable.** Any significant power to update, restrict, recall, misuse, leak data from, discriminate through, or shut down an AI system must be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
+3. **Checkable and corrigible.** Systems that make factual or consequential claims must not ask to be trusted on authority. Their claims, limits, safety and security controls, incidents, bias and failure rates, material changes, and corrections must be open to challenge and acted on when they are wrong. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
 
 None of this means no control. It means accountable control: lawful recall, misuse safeguards, emergency procedures, and named operators who answer for the system publicly — never secret kill-switches.
 
@@ -61,7 +61,7 @@ For resilient, non-captive AI (obligation #1), the builders already exist — op
 
 Checkable, corrigible AI (obligation #3) is the harder frontier — one to demand investment in, not assume away.
 
-If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, who can challenge harms or errors, and what evidence supports public claims. Work toward these three obligations.
+If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. Work toward these three obligations.
 
 If you **buy or depend on** AI: ask the six practical questions — what is this system for, who controls it, who is accountable, how can people challenge it, who can inspect it, and can its claims and failures be checked? Penalise unsupported claims. Shift spending toward systems being built to pass the test.
 
@@ -89,4 +89,4 @@ _Published version: LinkedIn article, 14 June 2026._
 
 _Repository working draft, updated 15 June 2026._
 
-_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders; records the updated LinkedIn article footer with repository source link._
+_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders and broader risk coverage; records the updated LinkedIn article footer with repository source link._

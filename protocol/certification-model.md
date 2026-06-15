@@ -31,12 +31,14 @@ Certification would be useful for a different job. A future **common certificati
 
 For this charter, the auditable evidence should track the practical questions users, buyers, researchers, media, and authorities need answered:
 
-- **What is this system for?** Which system, version, intended uses, prohibited uses, limits, and risk context are being assessed?
-- **Who controls it?** Who operates the system, controls dependencies and updates, and can restrict, manipulate, recall, or shut it down, on what documented basis, including material external orders where disclosure is lawful?
-- **Who is accountable?** Which owner answers for this deployment, jurisdiction, support route, and public claims?
-- **How can people challenge it?** Can affected people get notice, flag errors or harms, appeal consequential decisions, challenge restrictions where legally possible, and obtain a meaningful outcome?
-- **Who can inspect it?** What is public, what can qualified assessors inspect confidentially, what can lawful oversight require, and what protected research is possible under a legal, contractual, or approved research basis?
-- **Can its claims and failures be checked?** Can factual claims, consequential decisions, external restriction decisions, incidents, significant changes, withdrawals, corrections, and exit paths be traced to evidence and tested?
+- **What is this system for?** Which system, version, intended uses, prohibited uses, foreseeable misuse, affected groups, limits, and risk context are being assessed?
+- **Who controls it?** Who operates the system, controls models, data, tools, APIs, retrieval, cloud/compute dependencies, updates, restrictions, recalls, shutdowns, and material external orders where disclosure is lawful?
+- **Who is accountable?** Which owner answers for this deployment, jurisdiction, support route, public claims, safety, security, privacy, discrimination, misuse, and incident handling?
+- **How can people challenge it?** Can affected people get notice, flag errors or harms, appeal consequential decisions, challenge data use, discrimination, or restrictions where legally possible, and obtain a meaningful outcome?
+- **Who can inspect it?** What is public, what can qualified assessors inspect confidentially, what can lawful oversight require, and what protected research is possible for red-team evidence, security tests, privacy controls, data provenance, and model/data-change records?
+- **Can its claims and failures be checked?** Can factual claims, consequential decisions, external restriction decisions, security/privacy/misuse incidents, disparate failure rates, significant changes, withdrawals, corrections, and exit paths be traced to evidence and tested?
+
+A future baseline must not become a narrow "factuality badge" that ignores the rest of the real risk surface. At minimum, the common baseline needs to make the risks in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md) inspectable: concentration and lock-in, coercive control, factual unreliability, AI-app security, privacy and provenance, bias and discrimination, harmful misuse, opaque consequential decisions, lifecycle drift, and resource/global-access asymmetry.
 
 ## The practical proposal — lean, phased, not a mega-authority
 

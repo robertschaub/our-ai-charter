@@ -11,7 +11,7 @@ permalink: /
 
 AI is becoming infrastructure for how people learn, decide, work, and form public opinion. That infrastructure cannot be left to a few private providers, opaque shutdown powers, coercive manipulation, or systems whose factual claims cannot be checked.
 
-Our AI Charter is a public-interest draft for making AI more trustworthy in practice: resilient enough that public-interest uses are not captive to one unreviewable provider, accountable enough that significant power can be challenged, and corrigible enough that factual claims, failures, and corrections can be tested and acted on.
+Our AI Charter is a public-interest draft for making AI more trustworthy in practice: resilient enough that public-interest uses are not captive to one unreviewable provider, accountable enough that significant power and data use can be challenged, and corrigible enough that factual claims, safety controls, incidents, failures, and corrections can be tested and acted on.
 
 [Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md)
 
@@ -19,12 +19,12 @@ Our AI Charter is a public-interest draft for making AI more trustworthy in prac
 
 People who use, buy, study, regulate, or are affected by AI need more than promises. Public authorities, customers, media, researchers, and civil society should be able to demand answers to six questions:
 
-1. **What is this system for?** Intended uses, prohibited uses, covered versions, limits, and risk context must be stated before trust is claimed.
-2. **Who controls it?** Operators, critical providers, dependencies, update powers, restriction powers, shutdown powers, and external orders or pressure to use them must be named and logged where lawful.
-3. **Who is accountable?** Each deployment needs an accountable owner, jurisdiction, contact route, and retained evidence for public claims.
-4. **How can people challenge it?** Affected people need notice, a usable complaint route, response times, human review for consequential uses, and records of outcomes, including restriction or shutdown decisions where challenge is legally possible.
-5. **Who can inspect it?** Public transparency, confidential audit access, lawful regulator access, and protected research access must be distinguished and scoped.
-6. **Can its claims and failures be checked?** Factual claims, consequential decisions, restriction orders, incidents, corrections, significant changes, withdrawals, and exit paths must leave testable evidence.
+1. **What is this system for?** Intended uses, prohibited uses, misuse boundaries, covered versions, limits, affected groups, and risk context must be stated before trust is claimed.
+2. **Who controls it?** Operators, critical providers, models, data, tools, cloud/compute dependencies, update powers, restriction powers, shutdown powers, and external orders or pressure to use them must be named and logged where lawful.
+3. **Who is accountable?** Each deployment needs an accountable owner, jurisdiction, contact route, and retained evidence for public claims, safety, security, privacy, fairness, and misuse handling.
+4. **How can people challenge it?** Affected people need notice, a usable complaint route, response times, human review for consequential uses, and records of outcomes, including data-use, discrimination, restriction, or shutdown decisions where challenge is legally possible.
+5. **Who can inspect it?** Public transparency, confidential audit access, lawful regulator access, protected research access, red-team evidence, security testing, privacy controls, and data provenance must be distinguished and scoped.
+6. **Can its claims and failures be checked?** Factual claims, consequential decisions, restriction orders, security/privacy/misuse incidents, disparate failure rates, corrections, significant changes, withdrawals, and exit paths must leave testable evidence.
 
 These questions turn the published manifesto into a concrete charter and the first auditable modules.
 
@@ -32,17 +32,21 @@ These questions turn the published manifesto into a concrete charter and the fir
 
 ### 1. Resilient and non-captive
 
-Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, or unilateral withdrawal. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
+Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, fragile supply chain, resource bottleneck, or unilateral withdrawal. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
 
 ### 2. Accountable and challengeable
 
-Control is necessary. Unaccountable power is not. Significant power over systems or people should be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis.
+Control is necessary. Unaccountable power is not. Significant power over systems, data, safety, security, privacy, access, or people should be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis.
 
 This is where protection against authoritarian switch-off orders or manipulation belongs. The Charter cannot promise that a system will ignore lawful emergency, court, or regulator orders. It can demand that material restrictions, recalls, shutdowns, and control interventions are scoped, attributable, logged, time-limited where possible, reviewable through lawful channels, and visible to users, buyers, assessors, or oversight bodies unless disclosure is lawfully restricted. Where public reliance is material, there must also be continuity and exit planning.
 
 ### 3. Checkable and corrigible
 
-Systems that make factual or consequential claims should not ask to be trusted on authority. Their claims, limits, failures, and corrections should be open to challenge and acted on when they are wrong.
+Systems that make factual or consequential claims should not ask to be trusted on authority. Their claims, limits, safety and security controls, incidents, bias and failure rates, material changes, and corrections should be open to challenge and acted on when they are wrong.
+
+## Risk Coverage
+
+The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; and resource or global-access asymmetry. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight.
 
 ## Regulation and Certification
 
@@ -73,6 +77,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 - **Short version:** [One-page protocol](protocol/one-pager.md) - the same method in brief.
 - **Certification model:** [How certification could work later](protocol/certification-model.md) - future-state separation of powers, accreditation, funding, and revocation.
 - **Human-rights background:** [What the world has already declared](background/what-the-world-has-already-declared.md) - how UDHR, UNESCO, and the Council of Europe AI treaty map to the obligations.
+- **Risk audit:** [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
 
 ## How To Help
 

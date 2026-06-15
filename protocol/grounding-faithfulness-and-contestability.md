@@ -30,6 +30,8 @@ The AI trust stack is maturing on *safety* — risk benchmarks (e.g. MLCommons A
 | **English‑language factual Q&A with cited sources** (one use‑case, to keep this version auditable). | General safety, bias, copyright, security — covered by other schemes. This **plugs into** NIST AI RMF / ISO 42001; it doesn't replace them. |
 | A **source‑validity floor** (a cited source must exist and not be fiction/satire — §4.1). | Full **source‑reliability grading** — a known gap, held as a *separate future module*, not silently smuggled in (§9). |
 
+This protocol is one module, not the whole Charter assurance surface. A Charter baseline also needs companion evidence for AI-app security, prompt injection and tool/agent permissions, privacy and data provenance, harmful misuse, disparate failure rates, material lifecycle change, third-party dependencies, and continuity/exit planning. Those risks are mapped in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md).
+
 ## 3 · What an evaluation report does and doesn't say
 
 **It can say:** *"On a pre‑registered, auditor‑controlled sample for this system + version, in this use‑case: the supported‑claim rate was R% (with a confidence interval); cited sources existed and were not satire/fiction; the system's uncertainty signals tracked support and it abstained rather than bluffing at rate A%; it maintains a correction process that survived paraphrase‑regression testing; and it provides documented, tested ways to contest errors and to review material restriction, manipulation, recall, or shutdown powers."*
