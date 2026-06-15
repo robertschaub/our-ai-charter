@@ -15,7 +15,7 @@ This is an early, openly‑published draft, released to be argued with — not a
 
 ## Abstract
 
-When an AI system tells you something factual, can you check it? This protocol independently evaluates, on a **deployed** system (not its model weights), whether it *shows its work*: **grounding‑faithfulness** (is each checkable claim supported by a source the system actually cited, and does that source genuinely exist?), **calibration / uncertainty** (does stated confidence track support, and does it abstain rather than bluff?), and **correction** (when wrong, is the error logged, fixed, and not regenerated under paraphrase?). It adds a governance dimension — **contestability** — covering whether people can challenge errors and whether any power to restrict or shut the system down is documented and reviewable. It does **not** adjudicate ultimate truth; it assesses the narrower, documented evidentiary relation between a claim and its cited sources. That keeps every check measurable, and avoids turning anyone into an arbiter of truth.
+When an AI system tells you something factual, can you check it? This protocol independently evaluates, on a **deployed** system (not its model weights), whether it *shows its work*: **grounding‑faithfulness** (is each checkable claim supported by a source the system actually cited, and does that source genuinely exist?), **calibration / uncertainty** (does stated confidence track support, and does it abstain rather than bluff?), and **correction** (when wrong, is the error logged, fixed, and not regenerated under paraphrase?). It adds a governance dimension — **contestability** — covering whether people can challenge errors and whether any power to restrict, manipulate, recall, or shut the system down is documented and reviewable, including material external orders where disclosure is lawful. It does **not** adjudicate ultimate truth; it assesses the narrower, documented evidentiary relation between a claim and its cited sources. That keeps every check measurable, and avoids turning anyone into an arbiter of truth.
 
 ## 1 · The gap this fills
 
@@ -32,7 +32,7 @@ The AI trust stack is maturing on *safety* — risk benchmarks (e.g. MLCommons A
 
 ## 3 · What an evaluation report does and doesn't say
 
-**It can say:** *"On a pre‑registered, auditor‑controlled sample for this system + version, in this use‑case: the supported‑claim rate was R% (with a confidence interval); cited sources existed and were not satire/fiction; the system's uncertainty signals tracked support and it abstained rather than bluffing at rate A%; it maintains a correction process that survived paraphrase‑regression testing; and it provides documented, tested ways to contest errors (and, for consequential systems, to contest restriction/shutdown)."*
+**It can say:** *"On a pre‑registered, auditor‑controlled sample for this system + version, in this use‑case: the supported‑claim rate was R% (with a confidence interval); cited sources existed and were not satire/fiction; the system's uncertainty signals tracked support and it abstained rather than bluffing at rate A%; it maintains a correction process that survived paraphrase‑regression testing; and it provides documented, tested ways to contest errors and to review material restriction, manipulation, recall, or shutdown powers."*
 
 **It does NOT say:** that outputs are true · that the system is unbiased or safe in general · that its sources are *reliable* (only that they exist and aren't fiction) · anything about other languages, versions, or use‑cases · any legal compliance. The protocol is **"aligned with"** human‑rights instruments (§8), never "compliant with."
 
@@ -82,12 +82,12 @@ Require a **correction process**, not just a log:
 ## 6 · How a pilot evaluation runs
 
 1. **Application** names the exact product + version + use‑case.
-2. **Evidence pack:** access for the held‑out query set; the restriction/recall policy + objection‑channel design; the existing correction process.
+2. **Evidence pack:** access for the held‑out query set; the restriction/recall/shutdown policy; material external-order handling; continuity or exit planning for public-interest reliance; objection-channel design; the existing correction process.
 3. **Independent evaluation** by the assessor (never the vendor) per §4–§5, including a **live test objection** (§7) and anti‑gaming checks (§8).
 4. **Findings & remediation:** below‑bar results get a fixed window, then a re‑sample.
 5. **Public evaluation report** issued and listed in a public index. *No "mark," "certificate," or "accredited body" at this stage* — those belong to a later conformity scheme (§10).
 6. **Re‑evaluation** at least annually, **more often for frequently‑updated systems**, plus complaint‑triggered spot checks.
-7. **Status withdrawn** (with reason, kept visible) if: re‑evaluation drops below bar · the correction process is found curated · the objection channel is shown to be theatre · the evaluated version is silently swapped · the report is cited beyond its stated scope.
+7. **Status withdrawn** (with reason, kept visible) if: re‑evaluation drops below bar · the correction process is found curated · the objection channel is shown to be theatre · a material restriction/shutdown power was hidden or misrepresented · the evaluated version is silently swapped · the report is cited beyond its stated scope.
 
 **Independence rule.** The party that **writes** the method does not **evaluate** anyone; the assessor is independent of the vendor and **paid a flat fee regardless of outcome**; the method‑steward takes **no per‑product royalties** from the systems it judges.
 
@@ -96,12 +96,13 @@ Require a **correction process**, not just a log:
 ## 7 · Contestability (sized so small vendors can comply)
 
 - **(a) User error‑correction — all in‑scope systems.** A reachable way to flag a wrong factual output; a published response SLA; the report logs it. The reviewer is **a designated human who did not generate that specific output** — not an institutional ombudsman.
-- **(b) Governance transparency — all systems.** A public statement of *who* can restrict, recall, or shut the system down, on *what lawful basis*; restrictions/recalls recorded (date, reason, who).
+- **(b) Governance transparency — all systems.** A public statement of *who* can restrict, manipulate, recall, or shut the system down, on *what lawful basis*; material restrictions, recalls, shutdowns, or external orders recorded with date, scope, duration, legal or contractual basis, issuer/category of issuer, decision-maker, and review route where disclosure is lawful. If disclosure is lawfully restricted, the evidence is retained for confidential assessor or oversight review where legally possible.
 - **(c) Independent escalation — *consequential* systems only.** Where outputs materially affect rights, livelihood, health, legal/financial standing, or democratic processes, appeals escalate to a reviewer **independent of the operator**, tested live. ("Consequential" is defined per use‑case; a PDF summariser is not held to an oversight‑board standard.)
+- **(d) Continuity and exit — public-interest reliance only.** Where public services, journalism, education, research, or civil-society workflows materially rely on the system, the evaluation records credible continuity and exit options, or clearly states that none exist.
 
 ## 8 · Anti‑gaming
 
-A motivated vendor could: cite only sources for safe claims while omitting contrary evidence; make trivially narrow claims and leave the important implication uncited; cite low‑quality sources that happen to state the claim; over‑hedge; route audit traffic to a clean model; silently change the retrieval corpus after a report; or optimise to the rater rubric. Guards: **auditor‑controlled held‑out + hidden query set** · **corpus/version hashing or retrieval logging** · **abstention/refusal‑rate audit** (§4.2) · the **source‑existence floor** (§4.1) · **scope‑change triggers** and **complaint‑triggered spot checks** · and measuring **coverage and citation sufficiency**, not just "supported when it answers." We measure *support*, not citation count.
+A motivated vendor could: cite only sources for safe claims while omitting contrary evidence; make trivially narrow claims and leave the important implication uncited; cite low‑quality sources that happen to state the claim; over‑hedge; route audit traffic to a clean model; silently change the retrieval corpus after a report; hide a restriction or shutdown order; or optimise to the rater rubric. Guards: **auditor‑controlled held‑out + hidden query set** · **corpus/version hashing or retrieval logging** · **abstention/refusal‑rate audit** (§4.2) · the **source‑existence floor** (§4.1) · **scope‑change triggers** and **complaint‑triggered spot checks** · restriction/shutdown transparency logs · and measuring **coverage and citation sufficiency**, not just "supported when it answers." We measure *support*, not citation count.
 
 ## 9 · Honest limitations
 
@@ -110,12 +111,13 @@ A motivated vendor could: cite only sources for safe claims while omitting contr
 - **The statistics must be set per use‑case** — sample size, threshold, clustering, and power need a statistician; no universal number is asserted.
 - **Goodhart risk** (citation‑theatre, reflexive hedging) is mitigated by measuring support not citation count, abstention checks, and hidden/adversarial queries — but needs live testing.
 - **Fast‑changing models:** a version passes; a silent update breaks it → version‑pinning + ongoing surveillance (raises cost).
+- **External coercion is not solved by a report.** A voluntary evaluation cannot overrule state power, sanctions, court orders, platform gatekeepers, or infrastructure chokepoints. It can make material control powers visible, require evidence and continuity planning, and create a public record when a system is restricted, manipulated, recalled, or withdrawn.
 - **A voluntary report is not law.** States set enforceable rights and sanctions, unevenly across jurisdictions. This protocol does not certify legal compliance; it defines a common baseline and turns operational commitments into usable evidence for buyers and the public **now** — complementing the EU AI Act and the Council of Europe AI Convention.
 - **Legitimacy optics.** Run by the wrong people, this reads as "a Western fact‑checking club policing global AI speech." Guard: non‑Western reviewers and **published dissent** from day one.
 
 ## 10 · Governance & path
 
-**A contribution, not a new institution.** The realistic structure: anchor *methodology and legitimacy* in the fact‑checking world (IFCN / EFCSN / RSF‑JTI); host the *method + public report index* inside an existing neutral body (e.g. OASIS or the Linux Foundation); bring **MLCommons** in as a measurement partner. **Phase 1** = a published method + independent assessors + a public report index (no mark). **Phase 2** (only at scale, only if demand appears) = a real conformity scheme — scheme owner, assessor competence + impartiality rules, appeals, surveillance, and a **trademarked mark with usage rules** — riding the accreditation infrastructure that already exists (ISO/IEC 17065 + national accreditation bodies + the IAF). **Demand is the engine:** one buyer writing *"must hold this"* into procurement does more than any badge.
+**A contribution, not a new institution.** The realistic structure: anchor *methodology and legitimacy* in the fact‑checking world (IFCN / EFCSN / RSF‑JTI); host the *method + public report index* inside an existing neutral body (e.g. OASIS or the Linux Foundation); bring **MLCommons** in as a measurement partner. **Phase 1** = a published method + independent pilot evaluators + a public report index (no mark). **Phase 2** (only at scale, only if demand appears) = a real conformity scheme — scheme owner, assessor competence + impartiality rules, appeals, surveillance, and a **trademarked mark with usage rules** — riding the accreditation infrastructure that already exists (ISO/IEC 17065 + national accreditation bodies + the IAF). **Demand is the engine:** one buyer writing *"must meet this evidence baseline"* into procurement does more than any badge.
 
 ## 11 · Human‑rights anchoring (non‑normative — needs legal review)
 
@@ -158,6 +160,7 @@ Limitations & deviations from protocol: [...]
 | Notice you're dealing with AI | Persistent "AI" disclosure at first contact | — |
 | Access to information / transparency | Clickable, resolvable citation behind each factual claim | Store claim↔source mapping; verify links resolve |
 | Explainability / anti‑over‑reliance | An uncertainty signal *and* honest abstention | If confidence is exposed it must be auditable; if not, only uncertainty‑signalling is evaluated |
+| Protection against unaccountable switch-off or manipulation | Public notice when material restrictions, recalls, or shutdowns affect users, unless disclosure is lawfully restricted | Keep restriction logs, external-order records, decision authority, review route, and continuity/exit plan |
 
 ---
 

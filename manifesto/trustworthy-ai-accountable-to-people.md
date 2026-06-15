@@ -7,7 +7,7 @@
 
 ## What just happened
 
-Last week, a government order forced Anthropic to cut global access to its two newest models. Anthropic complied and publicly objected — calling the process non-transparent and technically ungrounded. It didn't matter.
+Last week, [Anthropic said](https://www.anthropic.com/news/fable-mythos-access) a government order forced it to cut global access to its two newest models. Anthropic complied and publicly objected — calling the process non-transparent and technically ungrounded. It didn't matter.
 
 The precedent is set. The models may return. The precedent won't.
 
@@ -17,19 +17,19 @@ That's the urgency. It won't fix itself.
 
 ## The world to build instead
 
-A world where AI is a shared, trustworthy foundation for all of humanity — open, plural, and answerable to people — that no single company or government can switch off or bend, and whose claims you can actually check.
+A world where AI is a shared, trustworthy foundation for all of humanity — open, plural, and answerable to people — that no single company or government can switch off, bend, or hide from scrutiny, and whose claims you can actually check.
 
 ## The obligations
 
 Trustworthy AI — and those who build and run it — must meet three obligations. Not aspirations; tests it can pass or fail.
 
-1. **Resilient and non-captive.** Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, or unilateral withdrawal. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
+1. **Resilient and non-captive.** Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, unilateral withdrawal, or opaque switch-off order. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
 2. **Accountable and challengeable.** Any significant power to update, restrict, recall, or shut down an AI system must be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
 3. **Checkable and corrigible.** Systems that make factual or consequential claims must not ask to be trusted on authority. Their claims, limits, failures, and corrections must be open to challenge and acted on when they are wrong. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
 
 None of this means no control. It means accountable control: lawful recall, misuse safeguards, emergency procedures, and named operators who answer for the system publicly — never secret kill-switches.
 
-The plain test: can one party withdraw a system people rely on — for everyone, in secret, with no record and no appeal? And when it makes a factual or consequential claim, can you trace, test, and challenge the basis?
+The plain test: can one party withdraw, bend, or restrict a system people rely on — for everyone, in secret, with no record and no route to challenge? And when it makes a factual or consequential claim, can you trace, test, and challenge the basis?
 
 ## How you'd know it's real
 
@@ -39,7 +39,7 @@ Someone writes the standard → independent assessors audit against it → an ac
 
 This is the same chain behind ISO certification, organic and forestry labels, Fairtrade, and journalism's own trust badges. What makes a mark trustworthy is not that an authority issued it, but that no single actor in the chain checks their own work.
 
-Because state regulation differs across jurisdictions, the baseline must cover minimum expectations itself. Stricter local law still prevails; weaker or silent local law does not lower the mark. This can start light and ride accreditation infrastructure that already exists. A direction, not a finished scheme — but the difference between a slogan and a standard.
+Because state regulation differs across jurisdictions, a future certification baseline would have to cover minimum expectations itself. Stricter local law still prevails; weaker or silent local law does not lower the mark. The current step is lighter: pilot evaluation reports, no mark yet. A direction, not a finished scheme — but the difference between a slogan and a standard.
 
 ## Who could drive it
 
@@ -49,9 +49,9 @@ The model: a small founding coalition convenes, the standard is hosted inside an
 
 ## How it would be funded
 
-No single funder holds the leash. Public-interest seed grants start Phase 1 — cheap to launch, light to run. Capped fees from assessed organizations (with hardship waivers, so no one is priced out) fund ongoing operations. A broad, geographically diverse donor base prevents capture. Revenue from the mark itself scales with adoption.
+No single funder holds the leash. Public-interest seed grants start Phase 1 — cheap to launch, light to run. Capped fees from assessed organizations (with hardship waivers, so no one is priced out) can fund pilot evaluations. A broad, geographically diverse donor base prevents capture. If a mark exists later, any mark revenue must be capped and diversified so adoption does not become capture.
 
-Phase 1 needs a small group of founding funders willing to back the standard before the mark has value. That's the real ask.
+Phase 1 needs a small group of founding funders willing to back the method before any mark has value. That's the real ask.
 
 ## What I'm asking
 
@@ -89,4 +89,4 @@ _Published version: LinkedIn article, 14 June 2026._
 
 _Repository working draft, updated 15 June 2026._
 
-_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the common certification baseline across uneven national regulation; records the updated LinkedIn article footer with repository source link._
+_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders; records the updated LinkedIn article footer with repository source link._

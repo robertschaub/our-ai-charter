@@ -3,7 +3,7 @@
 # Contribution Brief v3 — AI Grounding, Provenance & Correction (GPC) Assurance
 ### Auditing whether a developer's deployed AI grounds its claims, calibrates confidence, and corrects errors — *not* whether its outputs are "true"
 
-_Draft 2026-06-13, v3. Rebuilt after two adversarial red-team rounds (GPT-5.5 + Gemini). v3 closes the "false-assurance" contradiction that sank v2: it is renamed for what it actually certifies and adds a measurable behavioural floor. This is a CONTRIBUTION PROPOSAL for a working group — not a finished standard._
+_Historical draft, 2026-06-13, v3. This file is superseded by the current [Grounding-Faithfulness & Contestability protocol](../protocol/grounding-faithfulness-and-contestability.md). It uses older GPC / mark / certificate-card language and should not be read as the current position. The current phase is pilot evaluation reports only — no mark, no certificate, no accredited assessor._
 
 ---
 

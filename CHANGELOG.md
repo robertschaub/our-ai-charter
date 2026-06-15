@@ -3,6 +3,11 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-15
+- **Feasibility audit follow-up** — made the repository-wide phase model explicit: Phase 1 is public drafting and pilot evaluation reports; any Trust Mark, certificate, accredited assessor, registry of certified systems, or formal revocation scheme is Phase 2.
+- **Founding Accord v0.5** — added explicit protection against unaccountable switch-off orders, coercive manipulation, and opaque restriction powers: material control interventions must be attributable, scoped, logged, reviewable where lawful, and paired with continuity or exit planning where public reliance is material.
+- **Protocol v0.2 framing** — kept the protocol as a pilot evaluation method, clarified external-order handling and continuity/exit evidence, and reinforced that the report is not certification and cannot overrule state, court, platform, or infrastructure power.
+- **Source and background discipline** — attributed the Anthropic trigger to Anthropic's public statement, narrowed EU AI Act Article 43 wording, demoted stale background notes, removed private-script provenance from public-facing background text, and clarified that older GPC mark language is superseded.
+- **GitHub feedback hygiene** — changed the pilot issue template so private contact details, credentials, proprietary logs, and user data are not requested in public issues.
 - **Obligation wording** — revised the second and third obligation labels to "Accountable and challengeable" and "Checkable and corrigible" so the obligation layer states intent before the practical tests specify evidence.
 - **Obligation wording** — renamed the first obligation to "Resilient and non-captive" and changed evidence-record wording to emphasize independent review and continuity rather than a prescribed technical mechanism.
 - **Certification comment** — documented the published LinkedIn comment answering "who would actually certify this?"

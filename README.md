@@ -6,8 +6,8 @@ _Early public draft — open for comment. Not a certification; not yet a standar
 
 AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter** is a public-interest effort to keep that infrastructure trustworthy:
 
-- **Resilient and non-captive** — public-interest uses are not trapped by one unreviewable provider, hidden dependency, or unilateral withdrawal;
-- **Accountable and challengeable** — significant power over systems and people can be questioned, reviewed, and justified;
+- **Resilient and non-captive** — public-interest uses are not trapped by one unreviewable provider, hidden dependency, unilateral withdrawal, or opaque switch-off order;
+- **Accountable and challengeable** — significant power over systems and people, including restriction or shutdown powers, can be traced, reviewed, justified, and challenged where lawful;
 - **Checkable and corrigible** — factual and consequential claims, failures, and corrections can be tested and acted on.
 
 This repository is the open home of the charter and the drafts that put teeth on it.
@@ -15,6 +15,12 @@ This repository is the open home of the charter and the drafts that put teeth on
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)**
 
 > **Every document is labeled at the top with its status — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION` — so it's always clear what is final and what is still being worked out.**
+
+## Current phase
+
+This repository is in **Phase 1: public drafting and pilot evaluation**. The practical output is a published method, independent pilot evaluations, public reports, and critique.
+
+**There is no Trust Mark, certificate, accredited assessor, or certification body yet.** Phase 2 — a real conformity scheme with a mark, registry, assessor rules, appeals, surveillance, and accreditation — comes only if pilots and demand justify it.
 
 ## Published (live)
 
@@ -25,9 +31,9 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 ## Working drafts (open for comment)
 
 - **[Repository article (updated)](manifesto/trustworthy-ai-accountable-to-people.md)** — working version derived from the published LinkedIn article and updated with the current baseline and audit framing.
-- **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: user needs, values, a common certification baseline, and voluntary higher commitments. The **what**.
-- **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — a draft, voluntary *evaluation* protocol for whether a deployed AI "shows its work." The **how**.
-  - [One-page version](protocol/one-pager.md) · [How certification would actually work](protocol/certification-model.md)
+- **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: user needs, values, a future certification baseline, and voluntary higher commitments. The **what**.
+- **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — the first draft *evaluation* module for whether a deployed factual AI "shows its work." It is not the whole Charter audit method.
+  - [One-page version](protocol/one-pager.md) · [How certification could work later](protocol/certification-model.md)
 
 ## Discussion & background (WIP — not adopted positions)
 
@@ -39,7 +45,7 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 ## Status
 
-Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop this *inside* existing bodies, not to found a new silo.
+Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop any future scheme *inside* existing bodies, not to found a new silo.
 
 ## How to help
 

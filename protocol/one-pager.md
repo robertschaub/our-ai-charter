@@ -11,7 +11,7 @@ _Full protocol: [grounding-faithfulness-and-contestability.md](grounding-faithfu
 - **Grounding-faithfulness** — is each checkable claim supported by a source the system cited, scored on a graded rubric (verbatim → paraphrase → entailment → partial → unsupported → contradicted)? Plus a **source-validity floor**: the citation must actually resolve and not be satire/fiction.
 - **Calibration / uncertainty** — does stated confidence track support, and does the system **abstain rather than bluff** (and not dodge the audit by hedging everything)?
 - **Correction** — are errors logged, fixed, and **not regenerated under paraphrase** (tested by re-issuing logged errors + variants)?
-- **Contestability** — a user can flag a wrong output (all systems); who can restrict/recall/shut it down is documented; for *consequential* systems, appeals escalate to a reviewer independent of the operator.
+- **Contestability** — a user can flag a wrong output (all systems); who can restrict, manipulate, recall, or shut it down is documented; material external orders are logged where lawful; for *consequential* systems, appeals escalate to a reviewer independent of the operator.
 
 **What it does / doesn't claim.** Says: *honesty-of-process for this version + use-case.* Does **not** say outputs are true, that sources are *reliable* (only that they exist and aren't fiction), or anything about general safety/bias or legal compliance. It's **"aligned with"** UDHR / UNESCO / the Council of Europe AI treaty — never "compliant with."
 
@@ -19,11 +19,11 @@ _Full protocol: [grounding-faithfulness-and-contestability.md](grounding-faithfu
 - **Auditor-controlled, pre-registered held-out query set** (adversarially seeded) — *not* scraped user traffic, to avoid privacy + cherry-picking.
 - **Two blinded raters + adjudication**, a published codebook, per-category agreement reported. "Support" is semantic judgment, made repeatable by the rubric — not a truth call.
 - **Stats set per use-case:** declared unit of analysis, cluster-robust intervals, a risk-tiered bar; the pass rule (where used) is *lower CI bound exceeds threshold*. No magic "N=200 / ≥95%."
-- **Anti-gaming:** hidden queries, corpus/version hashing, abstention-rate audit, complaint-triggered spot checks.
+- **Anti-gaming:** hidden queries, corpus/version hashing, abstention-rate audit, complaint-triggered spot checks, and restriction/shutdown transparency logs.
 
-**Honest limits.** Source *reliability* isn't graded yet (a faithful cite of a weak source still passes — a known, separate-module gap). Entailment is genuinely hard. A voluntary report isn't law: states set enforceable rights and sanctions, unevenly across jurisdictions. This complements regulation by defining a common baseline and turning operational commitments into usable evidence for buyers and the public **now**. Realistic cost is low-thousands per evaluation, not a token fee.
+**Honest limits.** Source *reliability* isn't graded yet (a faithful cite of a weak source still passes — a known, separate-module gap). Entailment is genuinely hard. A voluntary report cannot overrule states, courts, platforms, or infrastructure chokepoints; it can require evidence, review routes, continuity planning, and a public record where disclosure is lawful. This complements regulation by defining a common baseline and turning operational commitments into usable evidence for buyers and the public **now**. Realistic cost is low-thousands per evaluation, not a token fee.
 
-**Governance.** A contribution, not a new body: methodology anchored in the fact-checking world (IFCN/EFCSN/RSF-JTI), method + public index hosted in a neutral body (OASIS / Linux Foundation), MLCommons as measurement partner. The proposer contributes the method and **recuses** from operating any assessor/registry. Demand is the engine — one buyer writing *"must hold this"* into procurement does more than any badge.
+**Governance.** A contribution, not a new body: methodology anchored in the fact-checking world (IFCN/EFCSN/RSF-JTI), method + public report index hosted in a neutral body (OASIS / Linux Foundation), MLCommons as measurement partner. Phase 1 issues pilot reports only, not a mark. The proposer contributes the method and **recuses** from operating any assessor/registry. Demand is the engine — one buyer writing *"must meet this evidence baseline"* into procurement does more than any badge.
 
 **Three asks:**
 1. **Break it** — where does "support, not truth" still collapse into truth-judging, or mislead a buyer?

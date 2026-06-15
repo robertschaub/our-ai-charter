@@ -49,7 +49,7 @@ The instruments do not create the charter's three obligations. They give each ob
 | Charter obligation | UDHR anchor | UNESCO anchor | CoE AI treaty anchor | What a check can look for |
 |---|---|---|---|---|
 | **1. Resilient & non-captive** | Art. 27: share in scientific advancement and its benefits — read as: benefits should not be locked to one private gatekeeper | Sustainability; multi-stakeholder and adaptive governance | Art. 13: safe innovation | Published method; independently reviewable audit record; continuity and exit paths; no single-vendor lock on the standard or evidence |
-| **2. Accountable & challengeable** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Arts. 14-15: remedies and procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, or significant-change decisions |
+| **2. Accountable & challengeable** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Arts. 14-15: remedies and procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, shutdown, external-order, or significant-change decisions |
 | **3. Checkable & corrigible** | Art. 19: seek, receive, and impart information; Art. 12: privacy and reputation; Art. 2: non-discrimination | Transparency and explainability; privacy; fairness; safety and reliability | Arts. 8-12: transparency, accountability, equality, privacy, reliability | AI disclosure; claim-to-source support; uncertainty signals; correction and incident records; published limits and failure rates |
 
 ---
@@ -65,6 +65,7 @@ Obligations: **(1) Resilient & non-captive · (2) Accountable & challengeable ·
 | Right to contest (CoE Art. 15) | Anyone affected by an AI decision can challenge it and get human review | 2 |
 | Remedy (CoE Art. 14; UDHR 8) | A working complaint channel with a published response time; complaints logged | 2 |
 | Accountability (UNESCO P8; CoE Art. 9) | A specific named entity is accountable, not "the algorithm" | 2 |
+| Protection against unaccountable shutdown or manipulation (derived from accountability, remedy, transparency, and safe innovation) | Material restriction, recall, shutdown, or external-order handling is scoped, logged, reviewable, and paired with continuity/exit planning where public reliance is material | 1, 2 |
 | Fairness / non-discrimination (UNESCO P3; CoE Art. 10; UDHR 2) | Tested for disparate error/refusal rates across groups; results on record | 3 |
 | Privacy & data protection (UNESCO P5; CoE Art. 11; UDHR 12) | Data use documented, minimised, lawful; deletion available | 3 |
 | Proportionality / do-no-harm (UNESCO P1) | A pre-deployment impact assessment (UNESCO-style EIA) was done and is available | 3 |
@@ -82,9 +83,9 @@ The declarations **declare**; none of them makes the promise **checkable** for a
 - **UNESCO** — a global consensus, but *soft law*; it commits states politically, not legally.
 - **CoE treaty** — *binding*, and uniquely concrete on contestability and remedy, but it binds **states/public bodies** and leaves the wider private sector to national discretion.
 
-The charter's contribution is the operational layer the declarations lack: an **independent audit** against criteria like those above, a **public registry**, **revocation**, and **procurement teeth** — so the principles become something a deployer is *checked against and can lose a mark for failing.* It especially operationalises the CoE treaty's procedural rights (notice, contest, remedy) and UNESCO's transparency/oversight principles.
+The charter's contribution is the operational layer the declarations lack: first, **pilot evaluation reports** against criteria like those above; later, if justified, a **public registry**, **revocation**, and **procurement teeth** — so the principles become something a deployer is *checked against and can lose public status for failing.* It especially translates the CoE treaty's procedural rights (notice, contest, remedy) and UNESCO's transparency/oversight principles into testable indicators.
 
-**Caveat (non-negotiable framing):** a voluntary mark **is not law**. It cannot enforce a treaty or compel a non-participant. It is **"aligned with"** these instruments, never "compliant with," and it **complements** the EU AI Act / CoE Convention by giving buyers and the public a usable, checkable signal **now** — for the systems and the private deployers the declarations don't yet reach.
+**Caveat (non-negotiable framing):** a voluntary evaluation report or future mark **is not law**. It cannot enforce a treaty or compel a non-participant. It is **"aligned with"** these instruments, never "compliant with," and it **complements** the EU AI Act / CoE Convention by giving buyers and the public usable, checkable evidence **now** — for the systems and the private deployers the declarations don't yet reach.
 
 ---
 

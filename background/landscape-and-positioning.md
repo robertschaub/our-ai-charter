@@ -1,8 +1,8 @@
-> **Status: WIP / DISCUSSION** — internal landscape scan, not an adopted position.
+> **Status: WIP / DISCUSSION** — public landscape scan, not an adopted position.
 
 # Is the initiative obsolete, or should it join something? — landscape investigation
 
-_Decision-grade scan, 2026-06-14, before committing to build. Six independent analyses: four Claude web-research agents (trust-mark schemes · factuality/grounding evals · open/public-AI coalitions · fact-checking/journalism-trust bodies) + GPT-5.5 + Gemini broad sweeps. Each scored **maturity** (0 idea · 1 pilot/benchmark · 2 operating-with-adopters · 3 established) and gave an **OBSOLETES / JOIN / OVERLAP / ADJACENT** verdict against the distinctive wedge._
+_Draft scan, 2026-06-14, for public discussion. It is not a sourced market report and not an adopted position. Specific third-party claims, maturity scores, funding claims, and status claims need direct source verification before citation._
 
 **The wedge under test:** an *independent, audited, revocable* trust mark / evaluation for AI **information integrity** — does a deployed AI *show its work* (claims supported by the sources it cited = grounding-faithfulness, NOT "truth"; calibration; error-correction) — plus **contestability** (documented, challengeable power to restrict/recall/shut down) — run via separation of powers, hosted in existing bodies.
 
@@ -46,7 +46,7 @@ No single "join X and stop" target exists (nobody occupies the wedge), so the mo
 5. **Accreditation mechanics, later → ISO/IEC 17065 logic + AI Verify Foundation / RAII** once a pilot exists.
 6. **Position relative to ISO 42001:** *complement layered inside/on top of it*, never against it — 42001 is becoming the default "AI trust cert" buyers ask for; the wedge must ride it, or be commoditised by it.
 
-**Keep the IP of the standard/criteria; federate the execution.** The founder's unique value is the *translation layer* between algorithmic factuality (tech) and public trust (journalism) — architect of the standard the heavyweights adopt, not a competing certifier.
+**Steward the canonical version and any mark; federate the execution.** The document text remains open under CC BY 4.0. What needs stewardship is the canonical standard process, version history, criteria governance, and any reserved name or trust mark — not exclusive control over the public text.
 
 ## Obsolescence watch list (monitor; none has done it yet)
 
@@ -62,4 +62,4 @@ The repo is still worth creating — but its role is now clearer: it's the **hom
 
 ---
 
-_Sources consolidated across the six analyses (selected): ISO/IEC 42001 cert ecosystem (BSI/SGS/TÜV/Schellman); IEEE CertifAIEd; Nemko AI Trust Mark (digital.nemko.com/ai-trust-mark); TrustArc Responsible AI Cert; Responsible AI Institute (RAISE); AI Verify Foundation / Project Moonshot (IMDA); MLCommons AILuminate; Vectara HHEM + hallucination leaderboard; Patronus Lynx; Galileo; RAGAS; DeepMind SAFE/LongFact; Stanford HELM; ALCE; FActScore; NewsGuard AI False-Claims Monitor; AI Alliance Trust & Safety (thealliance.ai); Public AI Network AI Evaluator Forum; Current AI; DPGA; Mozilla; LF AI & Data; Partnership on AI; CoSAI; IFCN (Poynter); EFCSN (+ FACTEUR grant); RSF/JTI (CEN CWA 17493, Bureau Veritas, 2,000+ outlets); The Trust Project; Credibility Coalition/W3C; C2PA; Swiss Digital Trust Label (dissolved 2025). Full per-source URLs are available in the underlying source analyses._
+_Sources named for follow-up verification (selected): ISO/IEC 42001 cert ecosystem (BSI/SGS/TÜV/Schellman); IEEE CertifAIEd; Nemko AI Trust Mark (digital.nemko.com/ai-trust-mark); TrustArc Responsible AI Cert; Responsible AI Institute (RAISE); AI Verify Foundation / Project Moonshot (IMDA); MLCommons AILuminate; Vectara HHEM + hallucination leaderboard; Patronus Lynx; Galileo; RAGAS; DeepMind SAFE/LongFact; Stanford HELM; ALCE; FActScore; NewsGuard AI False-Claims Monitor; AI Alliance Trust & Safety (thealliance.ai); Public AI Network AI Evaluator Forum; Current AI; DPGA; Mozilla; LF AI & Data; Partnership on AI; CoSAI; IFCN (Poynter); EFCSN (+ FACTEUR grant); RSF/JTI (CEN CWA 17493, Bureau Veritas, 2,000+ outlets); The Trust Project; Credibility Coalition/W3C; C2PA; Swiss Digital Trust Label (dissolved 2025). This scan is not a substitute for direct source review._
