@@ -31,6 +31,14 @@ This repository is **public**. A separate, **private** repository (`FactHarbor-i
 - Commit messages follow **conventional commits**: `type(scope): description` (e.g. `docs(protocol): clarify the support rubric`).
 - Do not add GitHub Actions or build/publish workflows copied from FactHarbor unless the maintainer explicitly asks for a document-only workflow.
 
+## GitHub repository posture
+
+- Repository visibility is **public**; the private sibling `FactHarbor-internal` holds non-public material.
+- Only the maintainer account should have direct repository access. Do not add collaborators, write deploy keys, webhooks, or GitHub Apps without explicit maintainer approval.
+- Public issues and pull requests are enabled for feedback. Wiki, Projects, GitHub Pages, and Actions should stay disabled unless explicitly enabled for a document-only purpose.
+- `main` should be protected against force-pushes and deletion. Personal-account repositories cannot restrict protected-branch push access to a named user, so the practical control is keeping collaborators and write-capable integrations empty.
+- GitHub secret scanning, push protection, Dependabot vulnerability alerts, and private vulnerability reporting should stay enabled.
+
 ## Working norms
 
 - **Open drafts + a dated change log.** Record notable changes in [CHANGELOG.md](CHANGELOG.md) with an ISO date (`YYYY-MM-DD`).

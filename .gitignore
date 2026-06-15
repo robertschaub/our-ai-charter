@@ -37,3 +37,7 @@ secrets.*
 _site/
 .jekyll-cache/
 .jekyll-metadata
+
+# Local assistant handover notes (private — never publish)
+HANDOVER.md
+*.local.md
