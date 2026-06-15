@@ -23,9 +23,9 @@ A world where AI is a shared, trustworthy foundation for all of humanity — ope
 
 Trustworthy AI — and those who build and run it — must meet three obligations. Not aspirations; tests it can pass or fail.
 
-1. **Resilient and non-captive.** Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, evidence records that remain independently reviewable, version histories, continuity plans, exit paths, and explicit disclosure where exit or substitution is limited.
-2. **Accountably controlled.** Any significant power to update, restrict, recall, or shut down an AI system needs a named authority, documented basis, proportionate process, evidence record, and challenge route. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
-3. **Evidence-backed and corrigible.** Systems that make factual or consequential claims must let us trace, test, and correct what they tell us — surfacing sources, signalling uncertainty, preserving audit trails, acknowledging errors, logging incidents and significant changes — so claims can be checked, challenged, and acted on, not just believed. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
+1. **Resilient and non-captive.** Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, or unilateral withdrawal. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
+2. **Accountable and challengeable.** Any significant power to update, restrict, recall, or shut down an AI system must be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
+3. **Checkable and corrigible.** Systems that make factual or consequential claims must not ask to be trusted on authority. Their claims, limits, failures, and corrections must be open to challenge and acted on when they are wrong. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
 
 None of this means no control. It means accountable control: lawful recall, misuse safeguards, emergency procedures, and named operators who answer for the system publicly — never secret kill-switches.
 
@@ -59,7 +59,7 @@ This can't be built by one person or one organization.
 
 For resilient, non-captive AI (obligation #1), the builders already exist — open-model labs, public compute, public-interest coalitions on every inhabited continent. What's missing is not capability or principles. It's the will to connect them around standards, evidence records, continuity plans, and exit paths.
 
-Evidence-backed, corrigible AI (obligation #3) is the harder frontier — one to demand investment in, not assume away.
+Checkable, corrigible AI (obligation #3) is the harder frontier — one to demand investment in, not assume away.
 
 If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, who can challenge harms or errors, and what evidence supports public claims. Work toward these three obligations.
 
@@ -89,4 +89,4 @@ _Published version: LinkedIn article, 14 June 2026._
 
 _Repository working draft, updated 15 June 2026._
 
-_Changes: repository draft now uses the operational obligations **Resilient and non-captive**, **Accountably controlled**, and **Evidence-backed and corrigible**; consolidates the Practical Demand into six questions; clarifies the common certification baseline across uneven national regulation; records the updated LinkedIn article footer with repository source link._
+_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the common certification baseline across uneven national regulation; records the updated LinkedIn article footer with repository source link._

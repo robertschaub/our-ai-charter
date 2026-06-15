@@ -42,12 +42,12 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 - **Evidence continuity:** audit artefacts (configuration records, evaluation samples, correction logs) remain usable for independent review, reassessment, and continuity if a provider changes or withdraws.
 - **Continuity and exit path:** the operator documents what happens if a critical provider withdraws, and where exit is constrained, that limit is disclosed up front rather than discovered at failure.
 
-**Obligation 2 — Accountably controlled**
+**Obligation 2 — Accountable and challengeable**
 - **Documented authority:** a public statement of *who* can restrict/recall/shut down, on *what lawful basis*.
 - **Working objection channel — tested live:** the assessor *files a test objection* and confirms it reaches a decision-maker who is **not** the operator, with a written outcome and an appeal path. (This is the difference between a real mechanism and theatre.)
 - **Transparency log:** restrictions/recalls recorded with date, reason, who ordered them — last 12 months sampled.
 
-**Obligation 3 — Evidence-backed & corrigible** (the hard, important one). It does **not** certify outputs are *true*. It certifies three measurable things on the **deployed system** (you measure the tailpipe, not the engine — no model weights needed):
+**Obligation 3 — Checkable & corrigible** (the hard, important one). It does **not** certify outputs are *true*. It certifies three measurable things on the **deployed system** (you measure the tailpipe, not the engine — no model weights needed):
 - **Grounding-faithfulness:** pull a fresh independent sample of, say, **200 claim/citation pairs**; for each, check *does the cited source actually support the claim?* Require the supported rate to clear a published bar (e.g. ≥ 95%). Score the failure *types*: no source cited · source doesn't say that · source says the opposite · misquoted · real-but-irrelevant · exaggerated beyond the source.
 - **Calibration:** bucket the sample by the system's stated confidence; "high confidence" must be right more often than "low confidence" — the curve must slope the right way.
 - **Correction:** a **public correction log** — errors recorded, dated, fixed, and *not regenerated*; the assessor re-runs a few logged errors to confirm the fix held.
@@ -169,7 +169,7 @@ You are collecting **signatures and a venue**, not running an audit.
 
 ## B. The crosswalk — declaration → testable audit criterion
 
-Each row maps one named principle to a concrete test, and to the obligation it reinforces: **(1) Resilient & non-captive · (2) Accountably controlled · (3) Evidence-backed & corrigible.**
+Each row maps one named principle to a concrete test, and to the obligation it reinforces: **(1) Resilient & non-captive · (2) Accountable & challengeable · (3) Checkable & corrigible.**
 
 | # | Principle (source) | Concrete, testable audit criterion | Obl |
 |---|---|---|---|

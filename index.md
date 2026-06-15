@@ -11,7 +11,7 @@ permalink: /
 
 AI is becoming infrastructure for how people learn, decide, work, and form public opinion. That infrastructure cannot be left to a few private providers, opaque shutdown powers, or systems whose factual claims cannot be checked.
 
-Our AI Charter is a public-interest draft for making AI more trustworthy in practice: resilient enough that public-interest uses are not captive to one unreviewable provider, controlled in ways that can be challenged, and corrigible enough that factual claims, failures, and corrections can be traced and tested.
+Our AI Charter is a public-interest draft for making AI more trustworthy in practice: resilient enough that public-interest uses are not captive to one unreviewable provider, accountable enough that significant power can be challenged, and corrigible enough that factual claims, failures, and corrections can be tested and acted on.
 
 [Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md)
 
@@ -32,15 +32,15 @@ These questions turn the published manifesto into a concrete charter and an audi
 
 ### 1. Resilient and non-captive
 
-Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, evidence records that remain independently reviewable, continuity plans, version histories, exit paths, and explicit disclosure where exit or substitution is limited.
+Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, or unilateral withdrawal. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
 
-### 2. Accountably controlled
+### 2. Accountable and challengeable
 
-Control is necessary. Unaccountable control is not. Significant control powers, including model updates, data or tool access changes, restrictions, recalls, and shutdowns, need a named authority, documented basis, proportionate process, evidence record, and challenge route.
+Control is necessary. Unaccountable power is not. Significant power over systems or people should be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis.
 
-### 3. Evidence-backed and corrigible
+### 3. Checkable and corrigible
 
-Systems that make factual or consequential claims need checkable support and a real correction loop. Users and auditors should be able to see the system's scope and limits, whether cited sources exist and support the claims made, whether uncertainty is signalled, and whether errors, incidents, significant changes, withdrawals, and corrections are logged and acted on.
+Systems that make factual or consequential claims should not ask to be trusted on authority. Their claims, limits, failures, and corrections should be open to challenge and acted on when they are wrong.
 
 ## Regulation and Certification
 

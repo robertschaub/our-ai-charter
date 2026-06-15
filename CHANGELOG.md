@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-15
+- **Obligation wording** — revised the second and third obligation labels to "Accountable and challengeable" and "Checkable and corrigible" so the obligation layer states intent before the practical tests specify evidence.
 - **Obligation wording** — renamed the first obligation to "Resilient and non-captive" and changed evidence-record wording to emphasize independent review and continuity rather than a prescribed technical mechanism.
 - **Certification comment** — documented the published LinkedIn comment answering "who would actually certify this?"
 - **Manifesto and launch post footers** — added current repository-version and change-summary footers to distinguish published LinkedIn versions from updated repository drafts, and recorded the updated public-facing article footer with a repository source link.

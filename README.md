@@ -7,8 +7,8 @@ _Early public draft — open for comment. Not a certification; not yet a standar
 AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter** is a public-interest effort to keep that infrastructure trustworthy:
 
 - **Resilient and non-captive** — public-interest uses are not trapped by one unreviewable provider, hidden dependency, or unilateral withdrawal;
-- **Accountably controlled** — significant control powers are named, recorded, proportionate, and challengeable;
-- **Evidence-backed and corrigible** — factual and consequential claims, failures, and corrections can be checked and acted on.
+- **Accountable and challengeable** — significant power over systems and people can be questioned, reviewed, and justified;
+- **Checkable and corrigible** — factual and consequential claims, failures, and corrections can be tested and acted on.
 
 This repository is the open home of the charter and the drafts that put teeth on it.
 

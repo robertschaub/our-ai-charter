@@ -49,14 +49,14 @@ The instruments do not create the charter's three obligations. They give each ob
 | Charter obligation | UDHR anchor | UNESCO anchor | CoE AI treaty anchor | What a check can look for |
 |---|---|---|---|---|
 | **1. Resilient & non-captive** | Art. 27: share in scientific advancement and its benefits — read as: benefits should not be locked to one private gatekeeper | Sustainability; multi-stakeholder and adaptive governance | Art. 13: safe innovation | Published method; independently reviewable audit record; continuity and exit paths; no single-vendor lock on the standard or evidence |
-| **2. Accountably controlled** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Arts. 14-15: remedies and procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, or significant-change decisions |
-| **3. Evidence-backed & corrigible** | Art. 19: seek, receive, and impart information; Art. 12: privacy and reputation; Art. 2: non-discrimination | Transparency and explainability; privacy; fairness; safety and reliability | Arts. 8-12: transparency, accountability, equality, privacy, reliability | AI disclosure; claim-to-source support; uncertainty signals; correction and incident records; published limits and failure rates |
+| **2. Accountable & challengeable** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Arts. 14-15: remedies and procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, or significant-change decisions |
+| **3. Checkable & corrigible** | Art. 19: seek, receive, and impart information; Art. 12: privacy and reputation; Art. 2: non-discrimination | Transparency and explainability; privacy; fairness; safety and reliability | Arts. 8-12: transparency, accountability, equality, privacy, reliability | AI disclosure; claim-to-source support; uncertainty signals; correction and incident records; published limits and failure rates |
 
 ---
 
 ## 5. Crosswalk — declared principle → testable check → obligation
 
-Obligations: **(1) Resilient & non-captive · (2) Accountably controlled · (3) Evidence-backed & corrigible.**
+Obligations: **(1) Resilient & non-captive · (2) Accountable & challengeable · (3) Checkable & corrigible.**
 
 | Declared principle (source) | A concrete, testable check | Obl. |
 |---|---|---|
