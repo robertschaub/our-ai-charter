@@ -17,3 +17,11 @@ I've written a short, first-draft manifesto for what that could look like: three
 If you build AI, fund it, study it, govern it, teach it, or simply rely on it — you belong here. 👇 Let me know your thoughts and ideas.
 
 `#AI #TrustworthyAI #AIGovernance #OpenSource #PublicAI`
+
+---
+
+_Published version: LinkedIn feed post, 14 June 2026._
+
+_Current repository version: published mirror, updated 15 June 2026._
+
+_Changes: no substantive changes to the post body; repository links now point to the updated working article and charter drafts._

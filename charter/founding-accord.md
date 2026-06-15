@@ -1,9 +1,9 @@
-> **Status: WORKING DRAFT (v0.2)** — open for comment; not final.
+> **Status: WORKING DRAFT (v0.4)** — open for comment; not final.
 
 # Our AI Charter — the Founding Accord
 ### A public charter for trustworthy AI — built together, answerable to people.
 
-_Draft v0.2 (2026-06-13). Open for comment._
+_Draft v0.4 (2026-06-15). Open for comment._
 
 ---
 
@@ -25,24 +25,43 @@ We commit to building that foundation together, and to being held to the values 
 
 - **Supporter** — any person or institution may publicly endorse this Accord.
 - **Member** — organisations that join the Charter, accept its shared, capture-resistant governance, and commit to the path below.
-- **Trust-Mark holder** — members whose specific model or system has passed independent audit against the commitments. The Mark is granted **per model and version — never as a blanket badge for an organisation** — and may be revoked.
+- **Trust-Mark candidate / holder** — once a conformity scheme exists, members may submit a specific model or system for independent audit against the commitments. Any future Mark is granted **per model and version — never as a blanket badge for an organisation** — and may be revoked.
 
-**Our commitments** (to earn and keep the Trust Mark for a given model or system, under independent audit):
+**Key term**
 
-1. **Independent safety evaluation.** Third-party safety and robustness checks before release. We do not grade our own homework.
-2. **Auditable transparency, ethically sourced.** We disclose, in verifiable form, our training-data sources, known limitations, and incidents — and we source data lawfully and with consent. Transparency about wrongdoing does not excuse it.
-3. **Privacy and consent by default.** Lawful, clear data handling; no covert surveillance or non-consensual use of people's data.
-4. **Fair, capture-resistant participation.** We uphold the federation's anti-domination rules, take no more than our fair share of control, and accept that the Mark can be withdrawn for breach. _(This governs conduct within the federation; it does not require members to restructure their own companies.)_
+**"Material"** means significant enough that a reasonable user, buyer, regulator, assessor, or affected person would weigh it when deciding whether to trust, procure, oversee, or challenge the system. Examples include model-family changes, critical provider or data-source changes, restriction or shutdown powers, and AI use in a consequential decision.
 
-We further strive toward open and verifiable models, interoperability and real exit rights, security by design, and giving back to the commons.
+**What people need to be able to demand**
+
+People who use, buy, study, regulate, or are affected by AI need more than promises. They need to know:
+
+- **What is this system for?** The intended uses, prohibited uses, assessed version, known limits, and risk context.
+- **Who controls it?** The operator, material dependencies, and any power to update, restrict, recall, or shut it down.
+- **Who is accountable?** The entity that answers when the system is deployed, procured, or embedded in a public workflow.
+- **How can people challenge it?** The routes for objection, review, correction, reversal, withdrawal, or escalation where harm or consequential decisions are involved.
+- **Who can inspect it?** The boundary between public transparency, confidential audit, lawful oversight, and protected research access.
+- **Can its claims and failures be checked?** The evidence trail for factual claims, consequential decisions, incidents, material changes, corrections, withdrawals, and exit paths.
+
+Those needs are the bridge from the manifesto's three obligations to concrete commitments.
+
+**Our commitments** (to earn and keep any future Trust Mark for a given model or system, under independent audit):
+
+1. **Purpose and scope.** We state the assessed system, version, intended uses, prohibited uses, known limits, and risk tier before claiming alignment with the Charter.
+2. **Control and dependencies.** We publish and maintain a clear map of the operator, accountable deployment owner, material providers, jurisdictions, critical dependencies, and powers to update, restrict, recall, or shut the system down. The basis and use of those powers are documented and logged.
+3. **Accountability.** We name the entity that answers for the deployed system, the public claims made about it, the support route, the relevant jurisdiction, and the records retained to substantiate those claims.
+4. **Challenge and remedy.** We provide a working complaint and appeal route, with notice where AI is materially involved, published response times, human review for consequential uses, and privacy-preserving outcome records. Where appropriate, review can lead to correction, reversal, withdrawal, or escalation.
+5. **Inspection access.** We define what is public, what independent assessors can inspect confidentially, what lawful oversight bodies can require, and what protected researchers may access where a legal, contractual, or approved research basis exists, under privacy and security safeguards.
+6. **Evidence, failures, and correction.** For factual use-cases and consequential decisions, we make sources, evidence, limits, and uncertainty viewable; maintain correction records, incident records, material-change logs, withdrawal records, reassessments, and documented exit paths; and let independent assessors test whether cited sources or documented evidence support the claims made. Unsupported marketing or capability claims are a breach.
+
+Because state regulation is not uniform across jurisdictions, this Accord cannot simply sit above one shared legal floor. A **common certification baseline** is the minimum set of operational commitments any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the baseline. Higher tiers or modules can add stronger commitments beyond the baseline.
 
 **Independent and fair by design**
 
-Audits are conducted by accredited, independent assessors — not chosen or paid directly by the audited party — against a published standard. A **subsidised and peer-verification tier** keeps the Mark within reach of small, open-source, and Global-South builders, so trust is never a privilege of the well-funded.
+Audits are conducted by accredited, independent assessors — not chosen or paid directly by the audited party — against a published standard. A **subsidised and peer-verification tier** keeps any future Mark within reach of small, open-source, and Global-South builders, so trust is never a privilege of the well-funded.
 
 **How this binds us**
 
-These are commitments to be checked, not admired. The Trust Mark is earned through independent audit and may be withdrawn. Values with teeth — or they are only words.
+These are commitments to be checked, not admired. They create a common baseline for the Charter, but they do not certify legal compliance in every jurisdiction. If a Trust Mark is created, it is earned through independent audit and may be withdrawn. Values with teeth — or they are only words.
 
 **An open invitation**
 
@@ -58,8 +77,9 @@ _Signed,_
 
 ## Open decisions (next phase)
 
-- **"Open & verifiable": mandatory, tiered, or aspirational?** Decide the tier.
+- **Baseline and higher tiers:** decide which commitments belong in the common baseline and which become stronger optional modules.
 - **Governance pack** (the credibility layer): funding caps + conflict-of-interest policy; independent board/assembly with Global-South & civil-society seats *by rule*; auditor accreditation; appeals/remediation; public audit + revocation history.
+- **Legal floor, certification baseline, higher tiers:** define how the Accord relates to uneven state regulation, procurement rules, notified-body regimes, and buyer requirements without implying legal compliance.
 - **Security assurance model:** threat model; audit scope (weights/APIs/data/agents/infra/supply chain); audit frequency + continuous monitoring; incident-reporting timelines; transparency logs for signatures/provenance; defence against audit-shopping & "provenance theater" (signing ≠ lawful/consensual data).
 - **Go-to-market:** buyers-first (procurement pledges) + a narrow testable v1 (one standard, one governance model, one audit method, one public registry, 3–5 diverse regional pilots; publish pass/fail/revocation early).
 - **Positioning:** explicitly complement/extend the Digital Public Goods Alliance's registry model and the Coalition for Secure AI's security standards rather than duplicate them.

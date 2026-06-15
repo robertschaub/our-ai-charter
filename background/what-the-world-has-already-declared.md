@@ -42,9 +42,21 @@ Articles most relevant to AI:
 
 ---
 
-## 4. Crosswalk — declared principle → testable check → obligation
+## 4. At a glance: declarations -> obligations
 
-Obligations: **(1) Open & distributed · (2) Contestably controlled · (3) Honest & verifiable.**
+The instruments do not create the charter's three obligations. They give each obligation public-law and public-ethics roots. The charter's move is to make those roots inspectable for a deployed system. These mappings are interpretive, not authoritative readings of the instruments.
+
+| Charter obligation | UDHR anchor | UNESCO anchor | CoE AI treaty anchor | What a check can look for |
+|---|---|---|---|---|
+| **1. Resilient & portable** | Art. 27: share in scientific advancement and its benefits — read as: benefits should not be locked to one private gatekeeper | Sustainability; multi-stakeholder and adaptive governance | Art. 13: safe innovation | Published method; portable audit record; continuity and exit paths; no single-vendor lock on the standard or evidence |
+| **2. Accountably controlled** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Arts. 14-15: remedies and procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, or significant-change decisions |
+| **3. Evidence-backed & corrigible** | Art. 19: seek, receive, and impart information; Art. 12: privacy and reputation; Art. 2: non-discrimination | Transparency and explainability; privacy; fairness; safety and reliability | Arts. 8-12: transparency, accountability, equality, privacy, reliability | AI disclosure; claim-to-source support; uncertainty signals; correction and incident records; published limits and failure rates |
+
+---
+
+## 5. Crosswalk — declared principle → testable check → obligation
+
+Obligations: **(1) Resilient & portable · (2) Accountably controlled · (3) Evidence-backed & corrigible.**
 
 | Declared principle (source) | A concrete, testable check | Obl. |
 |---|---|---|
@@ -63,7 +75,7 @@ Obligations: **(1) Open & distributed · (2) Contestably controlled · (3) Hones
 
 ---
 
-## 5. What's still missing — and what the charter adds
+## 6. What's still missing — and what the charter adds
 
 The declarations **declare**; none of them makes the promise **checkable** for a given system, or gives a buyer a lever today:
 - **UDHR** — a value, not a mechanism.

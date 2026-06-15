@@ -110,7 +110,7 @@ A motivated vendor could: cite only sources for safe claims while omitting contr
 - **The statistics must be set per use‑case** — sample size, threshold, clustering, and power need a statistician; no universal number is asserted.
 - **Goodhart risk** (citation‑theatre, reflexive hedging) is mitigated by measuring support not citation count, abstention checks, and hidden/adversarial queries — but needs live testing.
 - **Fast‑changing models:** a version passes; a silent update breaks it → version‑pinning + ongoing surveillance (raises cost).
-- **A voluntary report is not law.** It can't enforce a treaty, fine, or compel a non‑participant; it complements the EU AI Act / Council of Europe AI Convention by giving buyers and the public a usable signal **now**.
+- **A voluntary report is not law.** States set enforceable rights and sanctions, unevenly across jurisdictions. This protocol does not certify legal compliance; it defines a common baseline and turns operational commitments into usable evidence for buyers and the public **now** — complementing the EU AI Act and the Council of Europe AI Convention.
 - **Legitimacy optics.** Run by the wrong people, this reads as "a Western fact‑checking club policing global AI speech." Guard: non‑Western reviewers and **published dissent** from day one.
 
 ## 10 · Governance & path

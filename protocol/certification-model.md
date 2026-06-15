@@ -21,9 +21,24 @@ Credible certification never rests on one anointed body's say-so. It rests on a 
 
 The EU AI Act introduces **"notified bodies"** — independent third parties designated by member states — for high-risk-AI conformity assessment. But as of early 2026 few are designated, and **most high-risk AI still uses self-assessment**. The structure exists in law but is nascent — leaving a real gap, especially on *information integrity*, that a credible voluntary mark could fill.
 
+## The split: enforceable law vs common certification baseline
+
+State regulation sets enforceable duties, rights, supervisory powers, and sanctions inside each jurisdiction. But those legal floors are not uniform internationally. A voluntary mark cannot replace law, weaken it, or certify legal compliance across every jurisdiction.
+
+Certification is useful for a different job. A **common certification baseline** is the minimum set of operational commitments any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the baseline. A builder or deployer can say, "we accept this international baseline, and an independent assessor can test whether we meet it in operation."
+
+For this charter, the auditable evidence should track the practical questions users, buyers, researchers, media, and authorities need answered:
+
+- **What is this system for?** Which system, version, intended uses, prohibited uses, limits, and risk context are being assessed?
+- **Who controls it?** Who operates the system, controls dependencies and updates, and can restrict, recall, or shut it down, on what documented basis?
+- **Who is accountable?** Which owner answers for this deployment, jurisdiction, support route, and public claims?
+- **How can people challenge it?** Can affected people get notice, flag errors or harms, appeal consequential decisions, and obtain a meaningful outcome?
+- **Who can inspect it?** What is public, what can qualified assessors inspect confidentially, what can lawful oversight require, and what protected research is possible under a legal, contractual, or approved research basis?
+- **Can its claims and failures be checked?** Can factual claims, consequential decisions, incidents, significant changes, withdrawals, corrections, and exit paths be traced to evidence and tested?
+
 ## The practical proposal — lean, not a mega-authority
 
-- **A small standard-steward** (a nonprofit "Trust Council") owns the standard, the mark, and a **public registry** — and audits no one itself. Capture-resistant governance: multi-stakeholder board, capped influence, those-bound-help-write-the-rules, two-assessor + academic re-evaluation for contested cases. *(Models: IFCN/Poynter, GOTS, Creative Commons.)*
+- **A small standard-steward** (a nonprofit "Trust Council," working name) owns the standard, the mark, and a **public registry** — and audits no one itself. Capture-resistant governance: multi-stakeholder board, capped influence, those-bound-help-write-the-rules, two-assessor + academic re-evaluation for contested cases. *(Models: IFCN/Poynter, GOTS, Creative Commons.)*
 - **Independent accredited assessors** (ML + domain + regional expertise) do the audits — independent of both vendor and steward.
 - **Ride the accreditation infrastructure that already exists** (ISO/IEC 17065 + national accreditation bodies + IAF) instead of reinventing "who checks the auditors."
 - **Inclusion built in:** tiered (free self-assessment → audited mark), hardship waivers, a solidarity fund — so small and Global-South builders aren't priced out.

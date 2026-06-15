@@ -21,7 +21,7 @@ _Full protocol: [grounding-faithfulness-and-contestability.md](grounding-faithfu
 - **Stats set per use-case:** declared unit of analysis, cluster-robust intervals, a risk-tiered bar; the pass rule (where used) is *lower CI bound exceeds threshold*. No magic "N=200 / ≥95%."
 - **Anti-gaming:** hidden queries, corpus/version hashing, abstention-rate audit, complaint-triggered spot checks.
 
-**Honest limits.** Source *reliability* isn't graded yet (a faithful cite of a weak source still passes — a known, separate-module gap). Entailment is genuinely hard. A voluntary report isn't law — it complements regulation by giving buyers a usable signal **now**. Realistic cost is low-thousands per evaluation, not a token fee.
+**Honest limits.** Source *reliability* isn't graded yet (a faithful cite of a weak source still passes — a known, separate-module gap). Entailment is genuinely hard. A voluntary report isn't law: states set enforceable rights and sanctions, unevenly across jurisdictions. This complements regulation by defining a common baseline and turning operational commitments into usable evidence for buyers and the public **now**. Realistic cost is low-thousands per evaluation, not a token fee.
 
 **Governance.** A contribution, not a new body: methodology anchored in the fact-checking world (IFCN/EFCSN/RSF-JTI), method + public index hosted in a neutral body (OASIS / Linux Foundation), MLCommons as measurement partner. The proposer contributes the method and **recuses** from operating any assessor/registry. Demand is the engine — one buyer writing *"must hold this"* into procurement does more than any badge.
 
