@@ -13,7 +13,7 @@ Do not open a public issue or pull request if you find:
 - material that belongs in the private `FactHarbor-internal` repository;
 - a GitHub or repository-configuration problem that could expose non-public material.
 
-Contact the maintainer privately, or use GitHub private vulnerability reporting.
+Contact the maintainer privately at [info@factharbor.ch](mailto:info@factharbor.ch), or use GitHub private vulnerability reporting.
 
 ## Public Issues Are For
 

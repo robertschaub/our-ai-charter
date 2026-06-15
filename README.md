@@ -12,6 +12,8 @@ AI is becoming the infrastructure the world learns, decides, and creates with. *
 
 This repository is the open home of the charter and the drafts that put teeth on it.
 
+Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)**
+
 > **Every document is labeled at the top with its status — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION` — so it's always clear what is final and what is still being worked out.**
 
 ## Published (live)
@@ -47,7 +49,7 @@ This can't be built by one person. Three concrete asks — open an issue:
 
 See **[CONTRIBUTING](CONTRIBUTING.md)** for the working norms (open drafts, published dissent, conflict-of-interest disclosure).
 
-For suspected leaked secrets, private material, or personal data, do **not** open a public issue. Follow **[SECURITY](SECURITY.md)**.
+For suspected leaked secrets, private material, or personal data, do **not** open a public issue. Contact **[info@factharbor.ch](mailto:info@factharbor.ch)** or follow **[SECURITY](SECURITY.md)**.
 
 ## License
 

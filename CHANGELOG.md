@@ -5,6 +5,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 ## 2026-06-15
 - **Repository governance** — added document-only agent and GitHub safety scaffolding adapted from FactHarbor: public/private boundary guidance, destructive-git guard references, a security policy, PR checklist, and local artifact ignores.
 - **GitHub setup** — documented the public-repository posture, added CODEOWNERS, and hardened GitHub settings for a documents-only repo.
+- **GitHub Pages** — added a simple Markdown/Jekyll public site index and contact route for private reports.
 
 ## 2026-06-14
 - **Manifesto** — *Trustworthy AI, Accountable to People* published.
