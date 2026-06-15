@@ -1,0 +1,79 @@
+> **Status: WIP / DISCUSSION** — the summaries of the instruments are factual reference; the mapping to the three obligations is a proposed reading, open for comment.
+
+# What the world has already declared (and what's still missing)
+
+_Reference companion to the manifesto line: "The world has already declared what AI must respect — the Universal Declaration of Human Rights, UNESCO's AI ethics recommendation, the Council of Europe's AI treaty. This is the part that turns those declarations into something you can insist on."_
+
+_Three instruments already say what AI must respect. They differ in force — one is foundational, one is a global consensus, one is binding law — and none of them, on its own, makes those promises checkable. This page captures their essence and maps them to the charter's three obligations. (A fuller crosswalk and reasoning is in [from-manifesto-to-mechanism.md](from-manifesto-to-mechanism.md).)_
+
+---
+
+## 1. Universal Declaration of Human Rights (UDHR, 1948)
+
+**Status:** foundational, **non-binding** declaration; the moral bedrock under most later human-rights law.
+
+Articles most relevant to AI:
+- **Art. 1** — dignity and equality
+- **Art. 2** — non-discrimination
+- **Art. 8** — the right to an effective remedy
+- **Art. 12** — privacy, honour, and reputation
+- **Art. 19** — freedom of opinion and expression, including the right to seek, receive, and impart information
+- **Art. 27** — the right to share in scientific advancement and its benefits
+
+## 2. UNESCO Recommendation on the Ethics of AI (2021)
+
+**Status:** adopted by **all 193 member states** (Nov 2021); the first global AI-ethics standard, but **non-binding (soft law)**.
+
+**4 values:** human rights & dignity · a flourishing environment and ecosystems · diversity & inclusiveness · peaceful, just, interconnected societies.
+
+**10 principles:** (1) proportionality & do-no-harm · (2) safety & security · (3) fairness & non-discrimination · (4) sustainability · (5) right to privacy & data protection · (6) human oversight & determination · (7) transparency & explainability · (8) responsibility & accountability · (9) awareness & literacy · (10) multi-stakeholder & adaptive governance.
+
+**What makes it more than a list — implementation tools:** the **Ethical Impact Assessment (EIA)** (a structured pre-deployment review) and the **Readiness Assessment Methodology (RAM)** (a state's capacity self-assessment), plus ~11 policy action areas (data, education, labour/economy, health, gender, culture, communication & information, environment…).
+
+## 3. Council of Europe Framework Convention on AI (2024)
+
+**Status:** the **first legally binding international treaty on AI** (CETS No. 225) — adopted 17 May 2024, opened for signature 5 Sept 2024. Frame: AI and **human rights, democracy, and the rule of law**.
+
+**Core principles (Ch. III):** Art. 7 human dignity & autonomy · Art. 8 transparency & oversight · Art. 9 accountability & responsibility · Art. 10 equality & non-discrimination · Art. 11 privacy & data protection · Art. 12 reliability · Art. 13 safe innovation.
+
+**Unusually concrete procedural rights (Ch. IV):** **Art. 14 — remedies** for rights violations; **Art. 15 — procedural safeguards**, including the right to be **told you're interacting with an AI** and the ability to **contest** an AI-based decision. **Art. 16** adds a risk- and impact-management duty (with the option to ban/pause incompatible systems).
+
+**Honest caveats:** binding, but with a **scope gap** — it directly covers AI used by **public authorities** (and private actors acting for them), and leaves the **wider private sector** to each party's discretion. And it is a *framework*: high-level obligations implemented through national law.
+
+---
+
+## 4. Crosswalk — declared principle → testable check → obligation
+
+Obligations: **(1) Open & distributed · (2) Contestably controlled · (3) Honest & verifiable.**
+
+| Declared principle (source) | A concrete, testable check | Obl. |
+|---|---|---|
+| Transparency / explainability (UNESCO P7; CoE Art. 8); receive information (UDHR 19) | User is told it's AI; the sources behind a factual claim are viewable | 3 |
+| Human oversight (UNESCO P6; CoE Art. 8) | A named human can review, override, or halt consequential outputs; the path is documented | 2 |
+| Right to contest (CoE Art. 15) | Anyone affected by an AI decision can challenge it and get human review | 2 |
+| Remedy (CoE Art. 14; UDHR 8) | A working complaint channel with a published response time; complaints logged | 2 |
+| Accountability (UNESCO P8; CoE Art. 9) | A specific named entity is accountable, not "the algorithm" | 2 |
+| Fairness / non-discrimination (UNESCO P3; CoE Art. 10; UDHR 2) | Tested for disparate error/refusal rates across groups; results on record | 3 |
+| Privacy & data protection (UNESCO P5; CoE Art. 11; UDHR 12) | Data use documented, minimised, lawful; deletion available | 3 |
+| Proportionality / do-no-harm (UNESCO P1) | A pre-deployment impact assessment (UNESCO-style EIA) was done and is available | 3 |
+| Safety/security & reliability (UNESCO P2; CoE Art. 12) | Accuracy and failure rates measured and published; known failure modes disclosed | 3 |
+| Human dignity & autonomy (CoE Art. 7; UDHR 1) | No covert manipulation; persuasive/behavioural techniques disclosed | 1, 3 |
+| Multi-stakeholder & adaptive governance (UNESCO P10); safe innovation (CoE Art. 13) | Not single-vendor-locked; the audit record is portable and independently reviewable | 1 |
+| Share in scientific advancement (UDHR 27); sustainability (UNESCO P4) | Audit methods and results openly published | 1 |
+
+---
+
+## 5. What's still missing — and what the charter adds
+
+The declarations **declare**; none of them makes the promise **checkable** for a given system, or gives a buyer a lever today:
+- **UDHR** — a value, not a mechanism.
+- **UNESCO** — a global consensus, but *soft law*; it commits states politically, not legally.
+- **CoE treaty** — *binding*, and uniquely concrete on contestability and remedy, but it binds **states/public bodies** and leaves the wider private sector to national discretion.
+
+The charter's contribution is the operational layer the declarations lack: an **independent audit** against criteria like those above, a **public registry**, **revocation**, and **procurement teeth** — so the principles become something a deployer is *checked against and can lose a mark for failing.* It especially operationalises the CoE treaty's procedural rights (notice, contest, remedy) and UNESCO's transparency/oversight principles.
+
+**Caveat (non-negotiable framing):** a voluntary mark **is not law**. It cannot enforce a treaty or compel a non-participant. It is **"aligned with"** these instruments, never "compliant with," and it **complements** the EU AI Act / CoE Convention by giving buyers and the public a usable, checkable signal **now** — for the systems and the private deployers the declarations don't yet reach.
+
+---
+
+_Sources: UDHR (un.org); UNESCO Recommendation on the Ethics of AI, 2021 (unesco.org); Council of Europe Framework Convention on AI, CETS No. 225, 2024 (coe.int). Article references verified against the instruments; the obligation-mapping is this project's proposed reading._

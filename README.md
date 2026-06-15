@@ -27,6 +27,7 @@ This repository is the open home of the charter and the drafts that put teeth on
 
 ## Discussion & background (WIP — not adopted positions)
 
+- [What the world has already declared](background/what-the-world-has-already-declared.md) — the essence of the UDHR, UNESCO's AI Ethics Recommendation, and the Council of Europe AI treaty, and how they map to the three obligations
 - [Deep dive: verification, who-could-drive-it, and the declarations](background/from-manifesto-to-mechanism.md)
 - [Landscape & positioning](background/landscape-and-positioning.md)
 - [Information-integrity contribution brief](background/information-integrity-contribution-brief.md) — an earlier framing
