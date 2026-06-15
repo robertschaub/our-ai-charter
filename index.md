@@ -48,7 +48,7 @@ Systems that make factual or consequential claims should not ask to be trusted o
 
 The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; and resource or global-access asymmetry. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight.
 
-Any pilot or future audit should require a risk and vulnerability register for the assessed scope, plus a public report summarising what was assessed, which risks were covered, what evidence was checked, what remains unresolved, and what would trigger re-check or withdrawal. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+Any provider claiming alignment with the Charter should publish a privacy-preserving **risk-measures report at least yearly** for each assessed system: what scope is covered, which risks are addressed, what measures are in place, what evidence exists, what remains unresolved, and what would trigger re-check or withdrawal. Pilot reports and future audits should verify that this public reporting exists, is current, and matches the confidential evidence pack. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
 
 ## Regulation and Certification
 

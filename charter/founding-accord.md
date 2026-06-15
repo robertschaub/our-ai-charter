@@ -1,9 +1,9 @@
-> **Status: WORKING DRAFT (v0.6)** — open for comment; not final.
+> **Status: WORKING DRAFT (v0.7)** — open for comment; not final.
 
 # Our AI Charter — the Founding Accord
 ### A public charter for trustworthy AI — built together, answerable to people.
 
-_Draft v0.6 (2026-06-15). Open for comment._
+_Draft v0.7 (2026-06-15). Open for comment._
 
 ---
 
@@ -52,13 +52,13 @@ Those needs are the bridge from the manifesto's three obligations to concrete co
 3. **Accountability for harms and claims.** We name the entity that answers for the deployed system, the public claims made about it, the support route, the relevant jurisdiction, and the records retained to substantiate those claims. Accountability covers safety, security, privacy, discrimination, misuse, incidents, and unsupported marketing or capability claims.
 4. **Challenge and remedy.** We provide a working complaint and appeal route, with notice where AI is materially involved, published response times, human review for consequential uses, and privacy-preserving outcome records. Where appropriate, review can lead to correction, reversal, deletion or access action, withdrawal, escalation, or a lawful challenge to a restriction or shutdown decision.
 5. **Inspection access and protected scrutiny.** We define what is public, what independent assessors can inspect confidentially, what lawful oversight bodies can require, and what protected researchers may access where a legal, contractual, or approved research basis exists, under privacy and security safeguards. Inspection scope includes risk assessments, red-team results, security and prompt-injection tests, tool/agent permission boundaries, privacy controls, data provenance, model/data-change records, and incident evidence.
-6. **Evidence, failures, monitoring, and correction.** For factual use-cases and consequential decisions, we make sources, evidence, limits, and uncertainty viewable; maintain correction records, security/privacy/misuse incident records, disparate-performance records where relevant, restriction and withdrawal records, material-change logs, reassessments, and documented exit paths; and let independent assessors test whether cited sources or documented evidence support the claims made. Material updates require re-checks; repeated or hidden failures trigger withdrawal of public status.
+6. **Evidence, failures, monitoring, and correction.** For factual use-cases and consequential decisions, we make sources, evidence, limits, and uncertainty viewable; maintain correction records, security/privacy/misuse incident records, disparate-performance records where relevant, restriction and withdrawal records, material-change logs, reassessments, and documented exit paths; and let independent assessors test whether cited sources or documented evidence support the claims made. We publish a privacy-preserving risk-measures report for each assessed system at least yearly. Material updates require re-checks; repeated or hidden failures trigger withdrawal of public status.
 
 **Risk coverage baseline**
 
 A system cannot satisfy the Charter while hiding critical infrastructure dependencies, security and prompt-injection weaknesses, sensitive-data leakage, data/provenance gaps, discriminatory failure patterns, misuse incidents, material updates, or lack of continuity planning. These are not optional extras; they are the real-world risks the commitments must make inspectable.
 
-Any pilot evaluation or future certification audit should therefore require a **risk and vulnerability register** for the assessed system: the material risks identified, how each is mitigated or monitored, who owns it, what evidence exists, what remains unresolved, and what triggers re-assessment or withdrawal. The full evidence pack may contain confidential security, privacy, legal, or proprietary material, but the **public report must publish a safe summary**: scope, modules assessed, material risks covered, mitigations checked, unresolved findings, limitations, and any status withdrawal or re-check conditions.
+Any pilot evaluation or future certification audit should therefore require a **risk and vulnerability register** for the assessed system: the material risks identified, how each is mitigated or monitored, who owns it, what evidence exists, what remains unresolved, and what triggers re-assessment or withdrawal. The provider should publish and keep current a **public risk-measures report** at least yearly. The full evidence pack may contain confidential security, privacy, legal, or proprietary material, but the public report must safely disclose the assessed scope, modules covered, material risks, measures taken, evidence types, unresolved findings, limitations, and status withdrawal or re-check conditions.
 
 This is the protection against authoritarian switch-off orders or manipulation: not a fantasy that private systems can ignore every lawful state act, but a requirement that material control interventions are attributable, proportionate, evidenced, logged, reviewable, and paired with continuity or exit planning when public reliance is material. Secret, unilateral, unreviewable control is not compatible with the Charter.
 
@@ -92,6 +92,6 @@ _Signed,_
 - **Coercive-order handling:** define how systems document, disclose, challenge, and recover from government, platform, provider, or other external orders to restrict, manipulate, recall, or shut down a system, including what can be public and what must be held for confidential oversight.
 - **Security assurance model:** threat model; audit scope (weights/APIs/data/agents/infra/supply chain); audit frequency + continuous monitoring; incident-reporting timelines; transparency logs for signatures/provenance; defence against audit-shopping & "provenance theater" (signing ≠ lawful/consensual data).
 - **Risk modules:** define which risks are in the common baseline and which require specialised modules: AI-app security, privacy/data governance, harmful misuse, bias/disparate impact, value-chain resilience, and resource/global-access impact.
-- **Public report format:** define the mandatory public summary fields for each pilot or future audit, while protecting raw user data, exploit details, secrets, and legitimate confidential evidence.
+- **Public risk-measures report format:** define the mandatory yearly provider disclosure fields, while protecting raw user data, exploit details, secrets, and legitimate confidential evidence.
 - **Go-to-market:** buyers-first (procurement pledges) + a narrow testable v1 (one standard, one governance model, one audit method, one public report index, 3–5 diverse regional pilots; publish results and withdrawals early).
 - **Positioning:** explicitly complement/extend the Digital Public Goods Alliance's registry model and the Coalition for Secure AI's security standards rather than duplicate them.

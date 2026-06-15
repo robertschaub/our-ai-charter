@@ -93,7 +93,7 @@ Require a **correction process**, not just a log:
 
 **Independence rule.** The party that **writes** the method does not **evaluate** anyone; the assessor is independent of the vendor and **paid a flat fee regardless of outcome**; the method‑steward takes **no per‑product royalties** from the systems it judges.
 
-**Public report rule.** The report publishes the assessed scope, modules tested, risk categories reviewed, evidence types checked, material unresolved findings, limitations, remediation status, and re-check or withdrawal triggers. It must not publish raw user data, secrets, exploit details, or legitimate confidential evidence.
+**Public risk-measures rule.** The provider publishes a privacy-preserving risk-measures report for the assessed system at least yearly. The pilot report verifies whether that public report exists, is current, covers the assessed scope and material risks, matches the confidential evidence pack, and states unresolved findings, limitations, remediation status, and re-check or withdrawal triggers. It must not publish raw user data, secrets, exploit details, or legitimate confidential evidence.
 
 **Realistic cost.** Two independent raters + an adjudicator on a few‑hundred‑pair sample is tens of person‑hours — so a real evaluation costs **low‑thousands to low‑tens‑of‑thousands (USD)**, scaling with sample size and domain difficulty (not the cost of a lightweight document check). Early pilots can run on grant‑funded or volunteer expert raters.
 
@@ -150,7 +150,7 @@ RESULTS (illustrative)
   • Uncertainty: reliability monotonic? abstention rate A%; sharpness OK? (ECE only if N large)
   • Correction: paraphrase-regression X/Y held; median time-to-fix
   • Contestability: complaint SLA met; (consequential? independent escalation tested)
-  • Risk register: material risks reviewed; unresolved findings; re-check triggers
+  • Risk-measures report: present/current? material risks covered? unresolved findings? re-check triggers?
   • Inter-rater agreement: per-category coefficients + raw agreement
 CLAIMS:      honesty-of-process for this version + use-case, under the documented rubric
 NOT CLAIMED: truth · source reliability · general safety/bias · other languages/versions/use-cases

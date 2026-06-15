@@ -17,7 +17,7 @@ _Full protocol: [grounding-faithfulness-and-contestability.md](grounding-faithfu
 
 **What still needs companion modules.** This protocol covers one high-risk slice: factual support, correction, and contestability. A Charter baseline also needs evidence for AI-app security, prompt injection and tool/agent permissions, privacy and data provenance, harmful misuse, disparate failure rates, material lifecycle change, third-party dependencies, and continuity/exit planning. Those risks are mapped in the [risk audit](../background/risk-and-vulnerability-audit.md).
 
-**Risk documentation and public reports.** Every pilot or future audit should require a risk and vulnerability register for the assessed scope, and publish a safe public summary: modules tested, material risks covered, evidence types checked, unresolved findings, limitations, and re-check or withdrawal triggers. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of the public report.
+**Risk documentation and yearly public reporting.** Every pilot or future audit should require a risk and vulnerability register for the assessed scope. Providers claiming alignment should publish a privacy-preserving risk-measures report at least yearly: modules covered, material risks, measures taken, evidence types, unresolved findings, limitations, and re-check or withdrawal triggers. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of the public report.
 
 **The method, kept honest** (this is where experts will push — good):
 - **Auditor-controlled, pre-registered held-out query set** (adversarially seeded) — *not* scraped user traffic, to avoid privacy + cherry-picking.

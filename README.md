@@ -48,7 +48,7 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 
 Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop any future scheme *inside* existing bodies, not to found a new silo.
 
-Any pilot report or future audit should include a public, privacy-preserving risk summary: assessed scope, modules tested, material risks covered, evidence types checked, unresolved findings, limitations, and re-check or withdrawal triggers. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
+Providers claiming alignment with the Charter should publish a privacy-preserving **risk-measures report at least yearly** for each assessed system: assessed scope, modules covered, material risks, measures taken, evidence types, unresolved findings, limitations, and re-check or withdrawal triggers. Pilot reports and future audits should verify that this public reporting exists and is credible. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
 
 ## How to help
 
