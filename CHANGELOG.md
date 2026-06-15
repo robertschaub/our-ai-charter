@@ -4,6 +4,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
 - **Founding Accord v0.9** — hardened the release-risk-assessment requirement after adversarial review: defined assessed releases and material updates, limited public claims to assessed scope, added assurance-depth labels, safe redaction expectations, active-deployment currentness checks, and a no-review/no-claim rule for opaque control interventions.
+- **Published article footer** — recorded that the LinkedIn article footer now states: "Working draft, updated 16 June 2026. Source and work in progress: robertschaub/our-ai-charter."
 
 ## 2026-06-15
 - **Founding Accord v0.8** — replaced yearly risk-measures reporting with a release-based requirement: every assessed release or material update should publish a privacy-preserving release risk assessment, and audits verify that the stated measures are actually in place. Superseded by the v0.9 hardening above.

@@ -1,4 +1,4 @@
-> **Status: WORKING DRAFT** — updated repository version, derived from the LinkedIn article published 14 June 2026.
+> **Status: WORKING DRAFT** — updated repository version, derived from the LinkedIn article published 14 June 2026 and footer-updated on LinkedIn 16 June 2026.
 > Original canonical post: [https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)
 
 # Trustworthy AI, Accountable to People — Repository Draft
@@ -81,12 +81,12 @@ _If you build AI, fund it, study it, govern it, teach it, or rely on it — you 
 
 ---
 
-Working draft, 14 June 2026. Source and work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter).
+Working draft, updated 16 June 2026. Source and work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter).
 
 ---
 
-_Published version: LinkedIn article, 14 June 2026._
+_Published version: LinkedIn article, 14 June 2026; footer updated on LinkedIn 16 June 2026._
 
 _Repository working draft, updated 16 June 2026._
 
-_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders, release risk assessments, assessed-scope limits, and broader risk coverage; records the updated LinkedIn article footer with repository source link._
+_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders, release risk assessments, assessed-scope limits, and broader risk coverage; records the LinkedIn article footer updated 16 June 2026 with repository source link._

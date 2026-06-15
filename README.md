@@ -24,7 +24,7 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 
 ## Published (live)
 
-- **[Original manifesto post](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026). The **why**.
+- **[Original manifesto post](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; footer updated 16 June 2026). The **why**.
 - **[Launch post](manifesto/launch-post.md)** — the accompanying feed post.
 - **[Certification comment](manifesto/certification-comment.md)** — the short LinkedIn comment answering "who would actually certify this?"
 
