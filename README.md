@@ -6,7 +6,7 @@ _Early public draft — open for comment. Not a certification; not yet a standar
 
 AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter** is a public-interest effort to keep that infrastructure trustworthy:
 
-- **Resilient and portable** — public-interest uses do not depend on one unreviewable provider;
+- **Resilient and non-captive** — public-interest uses are not trapped in one unreviewable provider, infrastructure path, or evidence format;
 - **Accountably controlled** — significant control powers are named, recorded, proportionate, and challengeable;
 - **Evidence-backed and corrigible** — factual and consequential claims, failures, and corrections can be checked and acted on.
 

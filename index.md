@@ -11,7 +11,7 @@ permalink: /
 
 AI is becoming infrastructure for how people learn, decide, work, and form public opinion. That infrastructure cannot be left to a few private providers, opaque shutdown powers, or systems whose factual claims cannot be checked.
 
-Our AI Charter is a public-interest draft for making AI more trustworthy in practice: resilient enough that public-interest uses do not depend on one unreviewable provider, controlled in ways that can be challenged, and corrigible enough that factual claims, failures, and corrections can be traced and tested.
+Our AI Charter is a public-interest draft for making AI more trustworthy in practice: resilient enough that public-interest uses are not captive to one unreviewable provider, controlled in ways that can be challenged, and corrigible enough that factual claims, failures, and corrections can be traced and tested.
 
 [Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md)
 
@@ -30,9 +30,9 @@ These questions turn the published manifesto into a concrete charter and an audi
 
 ## Three Obligations
 
-### 1. Resilient and portable
+### 1. Resilient and non-captive
 
-Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, portable evidence records, continuity plans, version histories, exit paths, and explicit disclosure where portability is limited.
+Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, exportable evidence records, continuity plans, version histories, exit paths, and explicit disclosure where exit or substitution is limited.
 
 ### 2. Accountably controlled
 

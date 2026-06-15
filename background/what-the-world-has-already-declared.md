@@ -48,7 +48,7 @@ The instruments do not create the charter's three obligations. They give each ob
 
 | Charter obligation | UDHR anchor | UNESCO anchor | CoE AI treaty anchor | What a check can look for |
 |---|---|---|---|---|
-| **1. Resilient & portable** | Art. 27: share in scientific advancement and its benefits — read as: benefits should not be locked to one private gatekeeper | Sustainability; multi-stakeholder and adaptive governance | Art. 13: safe innovation | Published method; portable audit record; continuity and exit paths; no single-vendor lock on the standard or evidence |
+| **1. Resilient & non-captive** | Art. 27: share in scientific advancement and its benefits — read as: benefits should not be locked to one private gatekeeper | Sustainability; multi-stakeholder and adaptive governance | Art. 13: safe innovation | Published method; exportable audit record; continuity and exit paths; no single-vendor lock on the standard or evidence |
 | **2. Accountably controlled** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Arts. 14-15: remedies and procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, or significant-change decisions |
 | **3. Evidence-backed & corrigible** | Art. 19: seek, receive, and impart information; Art. 12: privacy and reputation; Art. 2: non-discrimination | Transparency and explainability; privacy; fairness; safety and reliability | Arts. 8-12: transparency, accountability, equality, privacy, reliability | AI disclosure; claim-to-source support; uncertainty signals; correction and incident records; published limits and failure rates |
 
@@ -56,7 +56,7 @@ The instruments do not create the charter's three obligations. They give each ob
 
 ## 5. Crosswalk — declared principle → testable check → obligation
 
-Obligations: **(1) Resilient & portable · (2) Accountably controlled · (3) Evidence-backed & corrigible.**
+Obligations: **(1) Resilient & non-captive · (2) Accountably controlled · (3) Evidence-backed & corrigible.**
 
 | Declared principle (source) | A concrete, testable check | Obl. |
 |---|---|---|
@@ -70,7 +70,7 @@ Obligations: **(1) Resilient & portable · (2) Accountably controlled · (3) Evi
 | Proportionality / do-no-harm (UNESCO P1) | A pre-deployment impact assessment (UNESCO-style EIA) was done and is available | 3 |
 | Safety/security & reliability (UNESCO P2; CoE Art. 12) | Accuracy and failure rates measured and published; known failure modes disclosed | 3 |
 | Human dignity & autonomy (CoE Art. 7; UDHR 1) | No covert manipulation; persuasive/behavioural techniques disclosed | 1, 3 |
-| Multi-stakeholder & adaptive governance (UNESCO P10); safe innovation (CoE Art. 13) | Not single-vendor-locked; the audit record is portable and independently reviewable | 1 |
+| Multi-stakeholder & adaptive governance (UNESCO P10); safe innovation (CoE Art. 13) | Not single-vendor-locked; the audit record is exportable and independently reviewable | 1 |
 | Share in scientific advancement (UDHR 27); sustainability (UNESCO P4) | Audit methods and results openly published | 1 |
 
 ---

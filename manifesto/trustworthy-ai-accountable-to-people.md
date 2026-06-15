@@ -23,7 +23,7 @@ A world where AI is a shared, trustworthy foundation for all of humanity — ope
 
 Trustworthy AI — and those who build and run it — must meet three obligations. Not aspirations; tests it can pass or fail.
 
-1. **Resilient and portable.** Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, portable evidence records, version histories, continuity plans, exit paths, and explicit disclosure where portability is limited.
+1. **Resilient and non-captive.** Public-interest AI deployments should not depend on an unreviewable single point of failure. They need disclosed dependencies, documented standards, exportable evidence records, version histories, continuity plans, exit paths, and explicit disclosure where exit or substitution is limited.
 2. **Accountably controlled.** Any significant power to update, restrict, recall, or shut down an AI system needs a named authority, documented basis, proportionate process, evidence record, and challenge route. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
 3. **Evidence-backed and corrigible.** Systems that make factual or consequential claims must let us trace, test, and correct what they tell us — surfacing sources, signalling uncertainty, preserving audit trails, acknowledging errors, logging incidents and significant changes — so claims can be checked, challenged, and acted on, not just believed. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
 
@@ -57,7 +57,7 @@ Phase 1 needs a small group of founding funders willing to back the standard bef
 
 This can't be built by one person or one organization.
 
-For resilient, portable AI (obligation #1), the builders already exist — open-model labs, public compute, public-interest coalitions on every inhabited continent. What's missing is not capability or principles. It's the will to connect them around standards, evidence records, continuity plans, and exit paths.
+For resilient, non-captive AI (obligation #1), the builders already exist — open-model labs, public compute, public-interest coalitions on every inhabited continent. What's missing is not capability or principles. It's the will to connect them around standards, evidence records, continuity plans, and exit paths.
 
 Evidence-backed, corrigible AI (obligation #3) is the harder frontier — one to demand investment in, not assume away.
 
@@ -89,4 +89,4 @@ _Published version: LinkedIn article, 14 June 2026._
 
 _Repository working draft, updated 15 June 2026._
 
-_Changes: repository draft now uses the operational obligations **Resilient and portable**, **Accountably controlled**, and **Evidence-backed and corrigible**; consolidates the Practical Demand into six questions; clarifies the common certification baseline across uneven national regulation; records the updated LinkedIn article footer with repository source link._
+_Changes: repository draft now uses the operational obligations **Resilient and non-captive**, **Accountably controlled**, and **Evidence-backed and corrigible**; consolidates the Practical Demand into six questions; clarifies the common certification baseline across uneven national regulation; records the updated LinkedIn article footer with repository source link._

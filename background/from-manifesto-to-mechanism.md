@@ -37,9 +37,9 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 
 ## B. What an audit *actually checks* (concrete, not hand-wavy)
 
-**Obligation 1 — Resilient & portable**
+**Obligation 1 — Resilient & non-captive**
 - **Documented dependencies:** the operator publishes the critical providers, models, data sources, and infrastructure the system depends on, with version pinning for the assessed release.
-- **Portable evidence record:** audit artefacts (configuration records, evaluation samples, correction logs) are exportable in an open format so a successor or independent assessor can re-run the checks.
+- **Exportable evidence record:** audit artefacts (configuration records, evaluation samples, correction logs) are available in an open format so a successor or independent assessor can re-run the checks.
 - **Continuity and exit path:** the operator documents what happens if a critical provider withdraws, and where exit is constrained, that limit is disclosed up front rather than discovered at failure.
 
 **Obligation 2 — Accountably controlled**
@@ -169,7 +169,7 @@ You are collecting **signatures and a venue**, not running an audit.
 
 ## B. The crosswalk — declaration → testable audit criterion
 
-Each row maps one named principle to a concrete test, and to the obligation it reinforces: **(1) Resilient & portable · (2) Accountably controlled · (3) Evidence-backed & corrigible.**
+Each row maps one named principle to a concrete test, and to the obligation it reinforces: **(1) Resilient & non-captive · (2) Accountably controlled · (3) Evidence-backed & corrigible.**
 
 | # | Principle (source) | Concrete, testable audit criterion | Obl |
 |---|---|---|---|
@@ -185,7 +185,7 @@ Each row maps one named principle to a concrete test, and to the obligation it r
 | 10 | Safety & security (UNESCO); reliability, Art. 12 (CoE) | Accuracy/failure rates measured and published; known failure modes disclosed, not hidden. | 3 |
 | 11 | Human dignity & autonomy, Art. 7 (CoE); Art. 1 (UDHR) | No covert manipulation; persuasive/behavioural techniques are disclosed. | 1, 3 |
 | 12 | Awareness & literacy (UNESCO) | Users get plain-language info on the system's limits and how to read its outputs. | 3 |
-| 13 | Multi-stakeholder & adaptive governance (UNESCO); safe innovation, Art. 13 (CoE) | Not single-vendor-locked: the audit record is portable and reviewable by independent parties. | 1 |
+| 13 | Multi-stakeholder & adaptive governance (UNESCO); safe innovation, Art. 13 (CoE) | Not single-vendor-locked: the audit record is exportable and reviewable by independent parties. | 1 |
 | 14 | Share in scientific advancement, Art. 27 (UDHR); sustainability (UNESCO) | Audit methods and results are openly published so benefits and risks are public knowledge. | 1 |
 
 ## C. A complementary practical tool — the "Developer's Translation Matrix" (Gemini)
