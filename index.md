@@ -38,7 +38,7 @@ Public-interest AI deployments should not leave people trapped behind one unrevi
 
 Control is necessary. Unaccountable power is not. Significant power over systems, data, safety, security, privacy, access, or people should be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis.
 
-This is where protection against authoritarian switch-off orders or manipulation belongs. The Charter cannot promise that a system will ignore lawful emergency, court, or regulator orders. It can demand that material restrictions, recalls, shutdowns, and control interventions are scoped, attributable, logged, time-limited where possible, reviewable through lawful channels, and visible to users, buyers, assessors, or oversight bodies unless disclosure is lawfully restricted. Where public reliance is material, there must also be continuity and exit planning.
+This is where protection against authoritarian switch-off orders or manipulation belongs. The Charter cannot promise that a system will ignore lawful emergency, court, or regulator orders. It can demand that material restrictions, recalls, shutdowns, and control interventions are scoped, attributable, logged, time-limited where possible, reviewable through lawful channels, and visible to users, buyers, assessors, or oversight bodies unless disclosure is lawfully restricted. If a material control intervention cannot be disclosed publicly and also cannot be independently reviewed under confidentiality or lawful oversight, the affected system should not keep a Charter alignment claim for that scope. Where public reliance is material, there must also be continuity and exit planning.
 
 ### 3. Checkable and corrigible
 
@@ -48,7 +48,7 @@ Systems that make factual or consequential claims should not ask to be trusted o
 
 The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; and resource or global-access asymmetry. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight.
 
-Any provider claiming alignment with the Charter should publish a privacy-preserving **risk-measures report at least yearly** for each assessed system: what scope is covered, which risks are addressed, what measures are in place, what evidence exists, what remains unresolved, and what would trigger re-check or withdrawal. Pilot reports and future audits should verify that this public reporting exists, is current, and matches the confidential evidence pack. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+Pilot participants and future Trust Mark candidates or holders should only make public claims for a specific assessed system, version, and use-case. Before the claim, they should publish a privacy-preserving **release risk assessment** for that assessed release, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The public assessment should state what scope is covered, which modules are covered or not assessed, which material risk classes are addressed, what safe summary of measures exists, what evidence types support them, what remains unresolved, and what would trigger re-check or withdrawal. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
 
 ## Regulation and Certification
 
@@ -67,7 +67,7 @@ A trustworthy mark, if created, cannot be self-declared. It needs separation of 
 3. An accreditor licenses and polices assessors.
 4. A peer body keeps accreditors honest.
 
-The current practical step is lighter: a published evaluation protocol, independent pilot assessments, public reports, and visible withdrawal when a system stops meeting the pilot scope. Nothing in this repository certifies anyone yet. A mark, registry of certified systems, assessor accreditation, and formal revocation rules are Phase 2 work.
+The current practical step is lighter: a published evaluation protocol, independent pilot assessments, public reports, and visible withdrawal when a system stops meeting the pilot scope or when a report is cited beyond what was assessed. Nothing in this repository certifies anyone yet. A mark, registry of certified systems, assessor accreditation, and formal revocation rules are Phase 2 work.
 
 ## Current Drafts
 

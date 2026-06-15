@@ -41,7 +41,7 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 - **Documented dependencies:** the operator publishes the critical providers, models, data sources, and infrastructure the system depends on, with version pinning for the assessed release.
 - **Evidence continuity:** audit artefacts (configuration records, evaluation samples, correction logs) remain usable for independent review, reassessment, and continuity if a provider changes or withdraws.
 - **Continuity and exit path:** the operator documents what happens if a critical provider withdraws, and where exit is constrained, that limit is disclosed up front rather than discovered at failure.
-- **External-order handling:** material orders or pressure to restrict, manipulate, recall, or shut down the system are logged with scope, basis, decision-maker, and review route where disclosure is lawful; where disclosure is restricted, evidence is retained for confidential oversight where legally possible.
+- **External-order handling:** material orders or pressure to restrict, manipulate, recall, or shut down the system are logged with scope, basis, decision-maker, and review route where disclosure is lawful; where disclosure is restricted, evidence is retained for confidential oversight where legally possible. If neither public disclosure nor confidential independent review is possible, the affected scope cannot keep a pilot listing or future mark claim.
 
 **Obligation 2 — Accountable and challengeable**
 - **Documented authority:** a public statement of *who* can restrict/recall/shut down, on *what lawful basis*.
@@ -58,7 +58,7 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 ### C. Worked example — "Lab X volunteers for a pilot report" (8 steps)
 
 1. **Volunteer** for an independent pilot evaluation, naming the exact product + version ("ClarityAssistant v4.2"); pay a flat fee if pilots are not grant-funded.
-2. **Evidence pack:** the open-standard licence + provider list (Obl 1); the control/recall policy + objection-channel design (Obl 2); query access + the existing correction log (Obl 3).
+2. **Evidence pack:** the open-standard licence + provider list (Obl 1); the control/recall policy + objection-channel design (Obl 2); query access + the existing correction log (Obl 3); a risk register and privacy-preserving release risk assessment for the assessed release.
 3. **Independent sampling:** the *assessor* (not Lab X) draws a fresh 200 claim/citation pairs from live use and scores faithfulness, calibration, correction — and **files one test objection** to see if it sticks.
 4. **Findings & remediation:** say faithfulness lands below the proposed bar — findings issued, fixed window to remediate, re-sampled. The report records the result; no certificate or mark is issued in Phase 1.
 5. **The pilot report card** (what's actually published):
@@ -66,10 +66,10 @@ Read top to bottom: **someone writes the standard → an independent assessor au
    > Scope: English Q&A with cited sources · Evaluated 2026-09-01
    > Evaluator: [independent body/person] · Method: [draft version]
    > **Reports:** grounding-faithfulness rate on independent sample; correction process; tested objection mechanism.
-   > **Does NOT claim:** certification, truth, legal compliance, other languages, versions, or use-cases.
+   > **Does NOT claim:** certification, truth, legal compliance, other languages, versions, use-cases, or modules not assessed.
 6. **Public report entry** (free): product + version, scope, dates, evaluator, method version, link to a redacted evaluation summary. Any future mark would need a registry; the current phase needs a public report index.
-7. **Surveillance:** annual re-sampling at minimum (IFCN re-checks yearly), plus spot-checks on complaints — and *more often* for systems that ship weekly updates.
-8. **Withdrawal triggers** (report index says *withdrawn, with reason*): re-check drops below reported bar · correction log found falsified · objection channel shown to be theatre · evaluated version silently swapped · report marketed beyond its stated scope.
+7. **Surveillance:** annual re-sampling at minimum (IFCN re-checks yearly), plus spot-checks on complaints, material incidents, and assessor-reviewable material updates — and *more often* for systems that ship weekly updates.
+8. **Withdrawal triggers** (report index says *withdrawn, with reason*): re-check drops below reported bar · correction log found falsified · objection channel shown to be theatre · material control intervention cannot be independently reviewed · evaluated version silently swapped · release risk assessment materially false or over-redacted · report marketed beyond its stated scope.
 
 ### D. Anti-gaming guards — each tied to a real failure
 
@@ -86,7 +86,7 @@ Consumers largely ignore trust badges and privacy labels. **Enterprises don't** 
 
 ### F. Phase 1 vs Phase 2 — start light, ride existing rails
 
-- **Phase 1 (now, run by a few people):** a **published code → independent pilot evaluators → public evaluation reports → visible withdrawal if the report is misused or the evaluated system changes materially**. No mark, no certificate, no accredited assessor yet. **Call it a *pilot evaluation* or *pre-standard test*, not "certification," until it's earned**.
+- **Phase 1 (now, run by a few people):** a **published code → independent pilot evaluators → public evaluation reports → visible withdrawal if the report is misused, the evaluated system changes materially, or a material control intervention cannot be independently reviewed**. No mark, no certificate, no accredited assessor yet. **Call it a *pilot evaluation* or *pre-standard test*, not "certification," until it's earned**.
 - **Phase 2 (only at scale):** formalise the chain — assessors accredited to **ISO/IEC 17065**, a national accreditation body as accreditor, **IAF peer review under ISO/IEC 17011** across borders. The path organic and Fairtrade already walked.
 
 **Honest hard parts (not solved by structure alone):** (1) setting the faithfulness threshold + sample size so they're *affordable for a pilot yet statistically meaningful*; (2) auditing fast-changing models — v4.2 passes, a silent update breaks it — which is why every report is pinned to an exact version and frequent updates require re-checks.

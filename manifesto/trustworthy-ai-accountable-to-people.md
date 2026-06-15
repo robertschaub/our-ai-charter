@@ -61,7 +61,7 @@ For resilient, non-captive AI (obligation #1), the builders already exist — op
 
 Checkable, corrigible AI (obligation #3) is the harder frontier — one to demand investment in, not assume away.
 
-If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. Work toward these three obligations.
+If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. If you claim alignment for a specific release, publish a privacy-preserving release risk assessment and say clearly which modules were not assessed. Work toward these three obligations.
 
 If you **buy or depend on** AI: ask the six practical questions — what is this system for, who controls it, who is accountable, how can people challenge it, who can inspect it, and can its claims and failures be checked? Penalise unsupported claims. Shift spending toward systems being built to pass the test.
 
@@ -87,6 +87,6 @@ Working draft, 14 June 2026. Source and work in progress: [robertschaub/our-ai-c
 
 _Published version: LinkedIn article, 14 June 2026._
 
-_Repository working draft, updated 15 June 2026._
+_Repository working draft, updated 16 June 2026._
 
-_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders and broader risk coverage; records the updated LinkedIn article footer with repository source link._
+_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders, release risk assessments, assessed-scope limits, and broader risk coverage; records the updated LinkedIn article footer with repository source link._

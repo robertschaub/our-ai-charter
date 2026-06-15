@@ -2,9 +2,13 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-06-16
+- **Founding Accord v0.9** — hardened the release-risk-assessment requirement after adversarial review: defined assessed releases and material updates, limited public claims to assessed scope, added assurance-depth labels, safe redaction expectations, active-deployment currentness checks, and a no-review/no-claim rule for opaque control interventions.
+
 ## 2026-06-15
-- **Founding Accord v0.7** — changed risk disclosure from an audit-summary-first model to an ongoing provider obligation: each assessed system should publish a privacy-preserving risk-measures report at least yearly, with audits verifying that reporting against the confidential evidence pack.
-- **Risk reporting baseline** — added the risk and vulnerability register as an audit evidence requirement, with public reporting limited to privacy-preserving provider risk-measures reports and audit verification of their currency and credibility.
+- **Founding Accord v0.8** — replaced yearly risk-measures reporting with a release-based requirement: every assessed release or material update should publish a privacy-preserving release risk assessment, and audits verify that the stated measures are actually in place. Superseded by the v0.9 hardening above.
+- **Founding Accord v0.7** — changed risk disclosure from an audit-summary-first model to an ongoing provider obligation: each assessed system should publish a privacy-preserving risk-measures report at least yearly, with audits verifying that reporting against the confidential evidence pack. Superseded by the release-based v0.8 wording above.
+- **Risk reporting baseline** — added the risk and vulnerability register as an audit evidence requirement, with public reporting limited to privacy-preserving provider release risk assessments and audit verification of their currency, credibility, and implementation.
 - **Risk and vulnerability audit** — added a grounded WIP audit naming the major real-world risk classes the Charter must cover: concentrated infrastructure, coercive control, factual unreliability, AI-app security, privacy/provenance, bias, harmful misuse, opaque consequential decisions, lifecycle drift, and resource/global-access asymmetry.
 - **Founding Accord v0.6** — expanded the six commitments so the obligations explicitly cover misuse boundaries, models/data/tools/cloud dependencies, security and prompt-injection testing, privacy controls, data provenance, disparate failure rates, harmful misuse, material updates, continuity plans, and resource/access constraints.
 - **Protocol scope discipline** — clarified that Grounding-Faithfulness & Contestability is one evaluation module, not the whole Charter assurance surface; companion modules are needed for security, privacy/data, misuse, bias, lifecycle, value-chain, and continuity risks.

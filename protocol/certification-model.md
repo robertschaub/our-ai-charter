@@ -32,7 +32,7 @@ Certification would be useful for a different job. A future **common certificati
 For this charter, the auditable evidence should track the practical questions users, buyers, researchers, media, and authorities need answered:
 
 - **What is this system for?** Which system, version, intended uses, prohibited uses, foreseeable misuse, affected groups, limits, and risk context are being assessed?
-- **Who controls it?** Who operates the system, controls models, data, tools, APIs, retrieval, cloud/compute dependencies, updates, restrictions, recalls, shutdowns, and material external orders where disclosure is lawful?
+- **Who controls it?** Who operates the system, controls models, data, tools, APIs, retrieval, cloud/compute dependencies, updates, restrictions, recalls, shutdowns, and material external orders where disclosure is lawful, and what happens to any claim if independent review is impossible?
 - **Who is accountable?** Which owner answers for this deployment, jurisdiction, support route, public claims, safety, security, privacy, discrimination, misuse, and incident handling?
 - **How can people challenge it?** Can affected people get notice, flag errors or harms, appeal consequential decisions, challenge data use, discrimination, or restrictions where legally possible, and obtain a meaningful outcome?
 - **Who can inspect it?** What is public, what can qualified assessors inspect confidentially, what can lawful oversight require, and what protected research is possible for red-team evidence, security tests, privacy controls, data provenance, and model/data-change records?
@@ -40,7 +40,7 @@ For this charter, the auditable evidence should track the practical questions us
 
 A future baseline must not become a narrow "factuality badge" that ignores the rest of the real risk surface. At minimum, the common baseline needs to make the risks in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md) inspectable: concentration and lock-in, coercive control, factual unreliability, AI-app security, privacy and provenance, bias and discrimination, harmful misuse, opaque consequential decisions, lifecycle drift, and resource/global-access asymmetry.
 
-That means an audit should not merely test outputs. It should require a documented **risk and vulnerability register** for the assessed system: identified material risks, mitigations, monitoring, accountable owners, unresolved findings, incident triggers, and re-assessment triggers. The provider should publish a privacy-preserving **risk-measures report at least yearly** for each assessed system. The audit checks that the public report is current, covers the required risk areas, matches the confidential evidence pack, and states what remains unresolved and what would cause withdrawal or re-check. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+That means an audit should not merely test outputs. It should require a documented **risk and vulnerability register** for the assessed system: identified material risks, mitigations, monitoring, accountable owners, unresolved findings, incident triggers, and re-assessment triggers. A provider should publish a privacy-preserving **release risk assessment** before making a public claim for a specific assessed release, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The audit checks that the public assessment is current for the release, covers the required risk areas, matches the confidential evidence pack, and safely separates public summary from protected evidence. It labels assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
 
 ## The practical proposal — lean, phased, not a mega-authority
 
@@ -54,7 +54,7 @@ That means an audit should not merely test outputs. It should require a document
 
 ## How it resists authoritarian switch-off or manipulation
 
-No voluntary mark can stop a state, court, platform, or infrastructure provider from exercising power. The certification job is narrower and practical: make material control powers visible before reliance, require logs for restrictions and shutdowns, require lawful-basis and scope records, require review routes where available, and require continuity or exit planning for public-interest use. A system should not be able to claim the Charter while hiding who can bend it, silence it, or withdraw it.
+No voluntary mark can stop a state, court, platform, or infrastructure provider from exercising power. The certification job is narrower and practical: make material control powers visible before reliance, require logs for restrictions and shutdowns, require lawful-basis and scope records, require review routes where available, and require continuity or exit planning for public-interest use. A system should not be able to claim the Charter while hiding who can bend it, silence it, or withdraw it. If a material control intervention cannot be disclosed publicly and cannot be independently reviewed under confidentiality or lawful oversight, the affected scope should lose the pilot listing or future mark claim.
 
 ## Who could drive this?
 
