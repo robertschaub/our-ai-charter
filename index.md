@@ -75,9 +75,10 @@ A trustworthy mark, if created, cannot be self-declared. It needs separation of 
 
 The current practical step is lighter: a published evaluation protocol, independent pilot assessments, public reports, and visible withdrawal when a system stops meeting the pilot scope or when a report is cited beyond what was assessed. Nothing in this repository certifies anyone yet. A mark, registry of certified systems, assessor accreditation, and formal revocation rules are Phase 2 work.
 
-## Current Drafts
+## Document Index
 
 - **Original published article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto and starting point.
+- **Launch post:** [Launch post](manifesto/launch-post.md) - the accompanying LinkedIn feed post.
 - **Published comment:** [Who would actually certify this?](manifesto/certification-comment.md) - the short answer: build the test, borrow the machinery.
 - **Updated repository article:** [Trustworthy AI, Accountable to People](manifesto/trustworthy-ai-accountable-to-people.md) - the working version updated with the current baseline and audit framing.
 - **Charter:** [The Founding Accord](charter/founding-accord.md) - user needs, values, five public obligations, and operational duties that structure pilot reports and may later form a certification baseline.
@@ -86,6 +87,10 @@ The current practical step is lighter: a published evaluation protocol, independ
 - **Certification model:** [How certification could work later](protocol/certification-model.md) - future-state separation of powers, accreditation, funding, and revocation.
 - **Human-rights background:** [What the world has already declared](background/what-the-world-has-already-declared.md) - how UDHR, UNESCO, and the Council of Europe AI treaty map to the obligations.
 - **Risk audit:** [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
+- **Deep dive:** [From Manifesto to Mechanism](background/from-manifesto-to-mechanism.md) - verification, who could drive it, and the human-rights declarations.
+- **Landscape & positioning:** [Landscape & positioning](background/landscape-and-positioning.md) - WIP context on adjacent efforts and differentiation.
+- **Information-integrity brief:** [Information-integrity contribution brief](background/information-integrity-contribution-brief.md) - earlier framing, superseded by the protocol.
+- **Superseded refinements:** [Proposed manifesto refinements](background/article-and-post-refinements.md) - earlier proposals kept for traceability.
 
 ## How To Help
 

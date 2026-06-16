@@ -3,6 +3,8 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
+- **GitHub Pages index** — aligned the homepage document index with the README by adding the launch post and remaining background/WIP documents.
+- **Launch post mirror** — clarified that the published 14 June post still preserves the earlier three-obligation wording while the current repository drafts now use five public obligations.
 - **Founding Accord v0.10** — replaced the three-obligation public spine with five public obligations and reorganised the Accord into eight operational duties covering policy/ownership, impact and misuse, risk registers, dependencies, safety/security/privacy, fairness/human oversight/remedy, transparency/provenance, and lifecycle monitoring; clarified pilot-module limits, proportional evidence, misuse/abuse handling, and resource/access disclosure.
 - **Founding Accord v0.9** — hardened the release-risk-assessment requirement after adversarial review: defined assessed releases and material updates, limited public claims to assessed scope, added assurance-depth labels, safe redaction expectations, active-deployment currentness checks, and a no-review/no-claim rule for opaque control interventions.
 - **Published article footer** — recorded that the LinkedIn article footer now states: "Working draft, updated 16 June 2026. Source and work in progress: robertschaub/our-ai-charter."
