@@ -1,3 +1,5 @@
+> **Status: WORKING DRAFT** — repository overview and document index.
+
 # Our AI Charter
 
 **A charter for trustworthy AI — open, plural, and accountable to people.**
@@ -18,6 +20,10 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 > **Every document is labeled at the top with its status — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION` — so it's always clear what is final and what is still being worked out.**
 
+## Current reader path
+
+Start with the [repository article](manifesto/trustworthy-ai-accountable-to-people.md) for the argument, the [Founding Accord](charter/founding-accord.md) for the obligations, the [risk audit](background/risk-and-vulnerability-audit.md) for coverage, the [protocol](protocol/grounding-faithfulness-and-contestability.md) for the first pilot module, and the [certification model](protocol/certification-model.md) for the future assurance structure.
+
 ## Current phase
 
 This repository is in **Phase 1: public drafting and pilot evaluation**. The practical output is a published method, independent pilot evaluations, public reports, and critique.
@@ -28,7 +34,7 @@ Any future Charter claim should sit on a three-layer assurance stack: **provider
 
 ## Published (live)
 
-- **[Original manifesto post](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; footer updated 16 June 2026). The **why**.
+- **[Published manifesto article](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; updated on LinkedIn 16 June 2026). The **why**.
 - **[Launch post](manifesto/launch-post.md)** — the accompanying feed post.
 - **[Certification comment](manifesto/certification-comment.md)** — the short LinkedIn comment answering "who would actually certify this?"
 
@@ -43,9 +49,8 @@ Any future Charter claim should sit on a three-layer assurance stack: **provider
 
 - [What the world has already declared](background/what-the-world-has-already-declared.md) — the essence of the UDHR, UNESCO's AI Ethics Recommendation, and the Council of Europe AI treaty, and how they map to the five public obligations
 - [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) — the real-world risks the obligations must cover, and the evidence each risk should leave behind
-- [Deep dive: verification, who-could-drive-it, and the declarations](background/from-manifesto-to-mechanism.md)
+- [Mechanism synthesis note](background/from-manifesto-to-mechanism.md) — historical synthesis retained for traceability
 - [Landscape & positioning](background/landscape-and-positioning.md)
-- [Proposed manifesto refinements](background/article-and-post-refinements.md) — historical edit log, superseded by the current repository article
 
 ## Status
 

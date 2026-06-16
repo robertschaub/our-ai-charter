@@ -20,12 +20,12 @@ If you build AI, fund it, study it, govern it, teach it, or simply rely on it â€
 
 ---
 
-_Repository note: the Anthropic event referenced above is attributed in the updated repository article to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access). This published mirror preserves the 14 June wording, including "three testable obligations"; the current repository drafts now use five public obligations._
+_Repository note: the Anthropic event referenced above is attributed in the updated repository article to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access). This published feed-post mirror preserves the original 14 June launch wording, including "three testable obligations"; the LinkedIn article and current repository drafts now use five public obligations._
 
 ---
 
 _Published version: LinkedIn feed post, 14 June 2026._
 
-_Current repository version: published mirror, updated 15 June 2026._
+_Current repository version: published mirror, updated 16 June 2026._
 
-_Changes: no substantive changes to the post body; repository links now point to the updated working article and charter drafts; added a repository note pointing readers to the attributed source context and the later move from three to five public obligations._
+_Changes: no substantive changes to the feed-post body; repository links now point to the updated working article and charter drafts; repository note records the attributed source context, the LinkedIn article's move from three to five public obligations, and the stricter Phase 1 no-certification/no-alignment-claim discipline._

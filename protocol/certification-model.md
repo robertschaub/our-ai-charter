@@ -55,7 +55,7 @@ ISO/IEC 42001 is useful here as a management-system reference because it require
 ## The practical proposal — lean, phased, not a mega-authority
 
 - **Phase 1 now:** a published method, independent pilot evaluators, public evaluation reports, and a public report index. No mark, certificate, accredited assessor, or certification claim.
-- **Phase 2 only if demand appears:** a small standard-steward (a nonprofit "Trust Council," working name) owns the standard, the mark, and a **public registry** — and audits no one itself. Capture-resistant governance: multi-stakeholder board, capped influence for those bound by or helping write the rules, and two-assessor plus academic re-evaluation for contested cases. *(Models: IFCN/Poynter, GOTS, Creative Commons.)*
+- **Phase 2 only if demand appears:** a small standard steward, hosted in or accountable to an existing neutral body, maintains the standard, mark rules, and **public registry** — and audits no one itself. Capture-resistant governance: multi-stakeholder board, capped influence for those bound by or helping write the rules, and two-assessor plus academic re-evaluation for contested cases. *(Models: IFCN/Poynter, GOTS, Creative Commons.)*
 - **Independent accredited assessors** (ML + domain + regional expertise) would do the audits — independent of both vendor and steward.
 - **Ride the accreditation infrastructure that already exists** (ISO/IEC 17065 + national accreditation bodies + IAF) instead of reinventing "who checks the auditors," once the scheme is mature enough to justify it.
 - **Inclusion built in:** tiered (free self-assessment → audited mark), hardship waivers, a solidarity fund — so small and Global-South builders aren't priced out.

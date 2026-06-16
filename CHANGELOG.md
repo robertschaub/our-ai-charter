@@ -3,7 +3,12 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
-- **Lean-docs cleanup** — removed the superseded information-integrity brief and reduced the superseded article-refinement file to a short historical stub.
+- **Git versioning convention** — documented that published article and post mirrors keep stable filenames; Git history, status labels, changelog entries, and document notes carry versioning.
+- **Published-article metadata correction** — corrected repository notes to reflect that the LinkedIn article itself was updated to the five-obligation version on 16 June 2026, not only the repository draft.
+- **Launch-post mirror note** — updated the repository-only note to point readers from the published three-obligation launch wording to the current five-obligation and no-claim discipline.
+- **Targeted review follow-up** — narrowed Phase 1 protocol wording so pilot reports state evaluated method, scope, and results rather than quasi-badge claims; added legal-review caution to human-rights alignment wording; and removed the "Trust Council" signal from the future certification model.
+- **Current reader path** — shortened the old mechanism deep dive into a synthesis note and made the article -> Founding Accord -> risk audit -> protocol -> certification model path explicit in the README and site index.
+- **Lean-docs cleanup** — removed superseded background stubs for the information-integrity brief and article/post refinements; Git history now carries those versions.
 - **Repository documentation guard** — added a `/doc-guard` skill and agent rule to keep documentation edits lean, readable, and free of unnecessary filler or duplicated framing.
 - **Founding Accord v0.11** — added the assurance stack: legal floor, common Charter baseline, and public-interest modules; introduced the legal-scope map; and clarified that Charter claims do not certify legal compliance.
 - **Assurance-stack review follow-up** — tightened the legal-scope map as provider-declared rather than legal clearance, added responsibility maps, clarified that not-assessed modules do not waive baseline duties, and added currentness and assurance-depth requirements for release risk assessments.
@@ -13,10 +18,10 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 - **Repository article claim discipline** — changed the builder call from present-tense alignment-claim wording to Phase 1 pilot-evaluation wording.
 - **Repository article wording** — aligned the control paragraph with the LinkedIn edit: removed "None of this means no control" and tightened the point around contestable control.
 - **GitHub Pages index** — aligned the homepage document index with the README by adding the launch post and remaining background/WIP documents.
-- **Launch post mirror** — clarified that the published 14 June post still preserves the earlier three-obligation wording while the current repository drafts now use five public obligations.
+- **Launch post mirror** — clarified that the published 14 June feed post still preserves the earlier three-obligation wording while the LinkedIn article and current repository drafts now use five public obligations.
 - **Founding Accord v0.10** — replaced the three-obligation public spine with five public obligations and reorganised the Accord into eight operational duties covering policy/ownership, impact and misuse, risk registers, dependencies, safety/security/privacy, fairness/human oversight/remedy, transparency/provenance, and lifecycle monitoring; clarified pilot-module limits, proportional evidence, misuse/abuse handling, and resource/access disclosure.
 - **Founding Accord v0.9** — hardened the release-risk-assessment requirement after adversarial review: defined assessed releases and material updates, limited public claims to assessed scope, added assurance-depth labels, safe redaction expectations, active-deployment currentness checks, and a no-review/no-claim rule for opaque control interventions.
-- **Published article footer** — recorded that the LinkedIn article footer now states: "Working draft, updated 16 June 2026. Source and work in progress: robertschaub/our-ai-charter."
+- **Published article update** — recorded that the LinkedIn article was updated on 16 June 2026 and now points to the repository source.
 
 ## 2026-06-15
 - **Founding Accord v0.8** — replaced yearly risk-measures reporting with a release-based requirement: every assessed release or material update should publish a privacy-preserving release risk assessment, and audits verify that the stated measures are actually in place. Superseded by the v0.9 hardening above.

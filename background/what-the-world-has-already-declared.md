@@ -4,7 +4,7 @@
 
 _Reference companion to the manifesto line: "The world has already declared what AI must respect — the Universal Declaration of Human Rights, UNESCO's AI ethics recommendation, the Council of Europe's AI treaty. This is the part that turns those declarations into something you can insist on."_
 
-_Three instruments already say what AI must respect. They differ in force — one is foundational, one is a global consensus, one is binding law — and none of them, on its own, makes those promises checkable. This page captures their essence and maps them to the charter's five public obligations. (A fuller crosswalk and reasoning is in [from-manifesto-to-mechanism.md](from-manifesto-to-mechanism.md).)_
+_Three instruments already say what AI must respect. They differ in force — one is foundational, one is a global consensus, one is binding law — and none of them, on its own, makes those promises checkable. This page captures their essence and maps them to the charter's five public obligations. Current mechanism details are split across the [Founding Accord](../charter/founding-accord.md), [certification model](../protocol/certification-model.md), and [protocol](../protocol/grounding-faithfulness-and-contestability.md)._
 
 ---
 

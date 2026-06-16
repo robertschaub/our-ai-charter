@@ -1,4 +1,4 @@
-> **Status: WORKING DRAFT** — updated repository version, derived from the LinkedIn article published 14 June 2026 and footer-updated on LinkedIn 16 June 2026.
+> **Status: WORKING DRAFT** — updated repository version, derived from the LinkedIn article published 14 June 2026 and updated on LinkedIn 16 June 2026.
 > Original canonical post: [https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)
 
 # Trustworthy AI, Accountable to People — Repository Draft
@@ -87,8 +87,8 @@ Working draft, updated 16 June 2026. Source and work in progress: [robertschaub/
 
 ---
 
-_Published version: LinkedIn article, 14 June 2026; footer updated on LinkedIn 16 June 2026._
+_Published version: LinkedIn article, 14 June 2026; updated on LinkedIn 16 June 2026._
 
 _Repository working draft, updated 16 June 2026._
 
-_Changes: repository draft now uses five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds the legal-floor/common-baseline/public-interest-module assurance stack; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; aligns the builder call with Phase 1 no-alignment-claim discipline; tightens the control paragraph around contestable control; records the LinkedIn article footer updated 16 June 2026 with repository source link._
+_Changes: the LinkedIn article and repository draft now use five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; the repository draft additionally consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds the legal-floor/common-baseline/public-interest-module assurance stack; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; aligns the builder call with Phase 1 no-alignment-claim discipline; tightens the control paragraph around contestable control; and records the LinkedIn article update of 16 June 2026 with repository source link._

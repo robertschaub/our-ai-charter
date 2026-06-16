@@ -36,7 +36,7 @@ This protocol is one public-interest module, not the whole Charter assurance sur
 
 **It can say:** *"On a pre‑registered, auditor‑controlled sample for this system + version, in this use‑case and module: the supported‑claim rate was R% (with a confidence interval); cited sources existed and were not satire/fiction; the system's uncertainty signals tracked support and it abstained rather than bluffing at rate A%; it maintains a correction process that survived paraphrase‑regression testing; and it provides documented, tested ways to contest errors and to review material restriction, manipulation, recall, or shutdown powers."*
 
-**It does NOT say:** that outputs are true · that the system is unbiased or safe in general · that its sources are *reliable* (only that they exist and aren't fiction) · anything about other languages, versions, use‑cases, or companion modules not assessed · any legal compliance. The protocol is **"aligned with"** human‑rights instruments (§8), never "compliant with."
+**It does NOT say:** that outputs are true · that the system is unbiased or safe in general · that its sources are *reliable* (only that they exist and aren't fiction) · anything about other languages, versions, use‑cases, or companion modules not assessed · any legal compliance. The human-rights mapping (§11) is an interpretive anchor for alignment, not a legal-compliance claim, and needs legal review before public reliance.
 
 ## 4 · The honesty checks
 
@@ -152,8 +152,8 @@ RESULTS (illustrative)
   • Contestability: complaint SLA met; (consequential? independent escalation tested)
   • Release risk assessment: present/current? legal-scope and responsibility maps included? baseline scope and modules covered/not assessed? material risks covered? redactions justified? assurance depth?
   • Inter-rater agreement: per-category coefficients + raw agreement
-CLAIMS:      honesty-of-process for this version + use-case, under the documented rubric
-NOT CLAIMED: truth · source reliability · general safety/bias · other languages/versions/use-cases · modules marked not assessed
+PUBLIC STATEMENT: evaluated under v0.2 for this version + use-case; see results, scope, and limitations above
+NOT CLAIMED: Charter alignment · certification · Trust Mark status · truth · source reliability · general safety/bias · legal compliance · other languages/versions/use-cases · modules marked not assessed
 Limitations & deviations from protocol: [...]
 ```
 

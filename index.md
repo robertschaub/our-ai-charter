@@ -13,7 +13,7 @@ AI is becoming infrastructure for how people learn, decide, work, and form publi
 
 Our AI Charter is a public-interest draft for making AI more trustworthy in practice: bounded by purpose, answerable to people, safe and private enough to rely on, fair in practice, and open to evidence and correction.
 
-[Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md)
+[Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the risk audit](background/risk-and-vulnerability-audit.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md) · [Read the certification model](protocol/certification-model.md)
 
 ## The Practical Demand
 
@@ -81,7 +81,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 
 ## Document Index
 
-- **Original published article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto and starting point.
+- **Published manifesto article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto, updated on LinkedIn 16 June 2026.
 - **Launch post:** [Launch post](manifesto/launch-post.md) - the accompanying LinkedIn feed post.
 - **Published comment:** [Who would actually certify this?](manifesto/certification-comment.md) - the short answer: build the test, borrow the machinery.
 - **Updated repository article:** [Trustworthy AI, Accountable to People](manifesto/trustworthy-ai-accountable-to-people.md) - the working version updated with the current baseline and audit framing.
@@ -91,9 +91,8 @@ The current practical step is lighter: a published evaluation protocol, independ
 - **Certification model:** [How certification could work later](protocol/certification-model.md) - future-state assurance stack, separation of powers, accreditation, funding, and revocation.
 - **Human-rights background:** [What the world has already declared](background/what-the-world-has-already-declared.md) - how UDHR, UNESCO, and the Council of Europe AI treaty map to the obligations.
 - **Risk audit:** [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
-- **Deep dive:** [From Manifesto to Mechanism](background/from-manifesto-to-mechanism.md) - verification, who could drive it, and the human-rights declarations.
+- **Mechanism synthesis:** [From Manifesto to Mechanism](background/from-manifesto-to-mechanism.md) - historical synthesis retained for traceability.
 - **Landscape & positioning:** [Landscape & positioning](background/landscape-and-positioning.md) - WIP context on adjacent efforts and differentiation.
-- **Superseded refinements:** [Proposed manifesto refinements](background/article-and-post-refinements.md) - historical edit log, superseded by the current repository article.
 
 ## How To Help
 
