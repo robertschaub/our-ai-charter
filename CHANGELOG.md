@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
+- **Repository documentation guard** — added a `/doc-guard` skill and agent rule to keep documentation edits lean, readable, and free of unnecessary filler or duplicated framing.
 - **Repository article wording** — aligned the control paragraph with the LinkedIn edit: removed "None of this means no control" and tightened the point around contestable control.
 - **GitHub Pages index** — aligned the homepage document index with the README by adding the launch post and remaining background/WIP documents.
 - **Launch post mirror** — clarified that the published 14 June post still preserves the earlier three-obligation wording while the current repository drafts now use five public obligations.
