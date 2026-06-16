@@ -93,8 +93,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 - **Risk audit:** [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
 - **Deep dive:** [From Manifesto to Mechanism](background/from-manifesto-to-mechanism.md) - verification, who could drive it, and the human-rights declarations.
 - **Landscape & positioning:** [Landscape & positioning](background/landscape-and-positioning.md) - WIP context on adjacent efforts and differentiation.
-- **Information-integrity brief:** [Information-integrity contribution brief](background/information-integrity-contribution-brief.md) - earlier framing, superseded by the protocol.
-- **Superseded refinements:** [Proposed manifesto refinements](background/article-and-post-refinements.md) - earlier proposals kept for traceability.
+- **Superseded refinements:** [Proposed manifesto refinements](background/article-and-post-refinements.md) - historical edit log, superseded by the current repository article.
 
 ## How To Help
 

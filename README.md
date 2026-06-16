@@ -45,8 +45,7 @@ Any future Charter claim should sit on a three-layer assurance stack: **provider
 - [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) — the real-world risks the obligations must cover, and the evidence each risk should leave behind
 - [Deep dive: verification, who-could-drive-it, and the declarations](background/from-manifesto-to-mechanism.md)
 - [Landscape & positioning](background/landscape-and-positioning.md)
-- [Information-integrity contribution brief](background/information-integrity-contribution-brief.md) — an earlier framing
-- [Proposed manifesto refinements](background/article-and-post-refinements.md) — superseded proposals
+- [Proposed manifesto refinements](background/article-and-post-refinements.md) — historical edit log, superseded by the current repository article
 
 ## Status
 

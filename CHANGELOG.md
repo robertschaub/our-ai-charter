@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
+- **Lean-docs cleanup** — removed the superseded information-integrity brief and reduced the superseded article-refinement file to a short historical stub.
 - **Repository documentation guard** — added a `/doc-guard` skill and agent rule to keep documentation edits lean, readable, and free of unnecessary filler or duplicated framing.
 - **Founding Accord v0.11** — added the assurance stack: legal floor, common Charter baseline, and public-interest modules; introduced the legal-scope map; and clarified that Charter claims do not certify legal compliance.
 - **Assurance-stack review follow-up** — tightened the legal-scope map as provider-declared rather than legal clearance, added responsibility maps, clarified that not-assessed modules do not waive baseline duties, and added currentness and assurance-depth requirements for release risk assessments.
