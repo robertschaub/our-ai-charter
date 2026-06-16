@@ -29,7 +29,7 @@ Trustworthy AI — and those who build and run it — must meet five obligations
 4. **Fair in practice.** A system must be checked for uneven or discriminatory performance across relevant groups, languages, regions, and contexts, with limits disclosed and harms escalated or corrected.
 5. **Open to evidence and correction.** A system must leave evidence behind: claims, sources, uncertainty, limits, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks must be inspectable and acted on.
 
-None of this means no control. It means accountable control: lawful recall, misuse safeguards, emergency procedures, and named operators who answer for the system publicly — never secret, unilateral, unreviewable power.
+It means contestable control: lawful recall, misuse safeguards, and named operators who answer for the system publicly — never secret kill-switches.
 
 The plain test: can one party withdraw, bend, or restrict a system people rely on — for everyone, in secret, with no record and no route to challenge? And when it makes a factual or consequential claim, can you trace, test, and challenge the basis?
 
@@ -91,4 +91,4 @@ _Published version: LinkedIn article, 14 June 2026; footer updated on LinkedIn 1
 
 _Repository working draft, updated 16 June 2026._
 
-_Changes: repository draft now uses five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; records the LinkedIn article footer updated 16 June 2026 with repository source link._
+_Changes: repository draft now uses five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; tightens the control paragraph around contestable control; records the LinkedIn article footer updated 16 June 2026 with repository source link._

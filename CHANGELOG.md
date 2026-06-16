@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
+- **Repository article wording** — aligned the control paragraph with the LinkedIn edit: removed "None of this means no control" and tightened the point around contestable control.
 - **GitHub Pages index** — aligned the homepage document index with the README by adding the launch post and remaining background/WIP documents.
 - **Launch post mirror** — clarified that the published 14 June post still preserves the earlier three-obligation wording while the current repository drafts now use five public obligations.
 - **Founding Accord v0.10** — replaced the three-obligation public spine with five public obligations and reorganised the Accord into eight operational duties covering policy/ownership, impact and misuse, risk registers, dependencies, safety/security/privacy, fairness/human oversight/remedy, transparency/provenance, and lifecycle monitoring; clarified pilot-module limits, proportional evidence, misuse/abuse handling, and resource/access disclosure.
