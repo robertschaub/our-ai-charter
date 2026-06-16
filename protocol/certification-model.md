@@ -27,7 +27,7 @@ The EU AI Act includes **"notified bodies"** — independent third parties desig
 
 State regulation sets enforceable duties, rights, supervisory powers, and sanctions inside each jurisdiction. But those legal floors are not uniform internationally. A voluntary mark cannot replace law, weaken it, or certify legal compliance across every jurisdiction.
 
-Certification would be useful for a different job. A future **common certification baseline** would be the minimum set of operational commitments any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the baseline. A builder or deployer could say, "we accept this international baseline, and an independent assessor can test whether we meet it in operation."
+Certification would be useful for a different job. A future **common certification baseline** would be the minimum set of operational duties any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the baseline. A builder or deployer could say, "we accept this international baseline, and an independent assessor can test whether we meet it in operation."
 
 For this charter, the auditable evidence should track the practical questions users, buyers, researchers, media, and authorities need answered:
 
@@ -76,14 +76,14 @@ The one rule from every scheme: **diversify — never let one stream dominate.**
   - **Cross-subsidy + hardship waivers + a solidarity fund** for inclusion — Fairtrade (large traders subsidise small producers), IFCN's fee waivers down to $0, the Montreal Protocol's Multilateral Fund (wealthier nations finance poorer ones' compliance).
   - **Diversified sustainability** — the Wikimedia mix (many small donors + an endowment + enterprise revenue), so no single patron holds the leash.
 - **Firewall:** funders disclosed; no funder sets the criteria; the steward's budget is independent of any audited party's fees.
-- **Phasing keeps it cheap early:** Phase 1 (a code + independent pilot evaluators + public reports) is grant-fundable; the costly accreditation pyramid comes only at Phase 2 — paid for by the mix once demand exists.
+- **Phasing keeps it cheap early:** Phase 1 (five public obligations, operational duties, independent pilot evaluators, and public reports) is grant-fundable; the costly accreditation pyramid comes only at Phase 2 — paid for by the mix once demand exists.
 - **Demand funds it:** in Phase 1, procurement and platforms can require the evidence baseline; in Phase 2, if a mark exists, audit demand and the fee base can grow naturally.
 
 _(Funding figures across these examples are illustrative — verify before citing; they shift year to year.)_
 
 ## How it would start — phased
 
-- **Phase 1 (now):** a published code of obligations + independent pilot evaluators + public reports + visible withdrawal of pilot status. Cheap, credible, and honest about not being certification yet.
+- **Phase 1 (now):** five public obligations and operational duties + independent pilot evaluators + public reports + visible withdrawal of pilot status. Cheap, credible, and honest about not being certification yet.
 - **Phase 2 (at scale):** graduate to the full ISO/IEC-17065 + accreditation pyramid for hard, globally-recognised legitimacy.
 
 ## What it is deliberately NOT

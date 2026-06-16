@@ -9,9 +9,9 @@ permalink: /
 
 **Trustworthy AI, accountable to people.**
 
-AI is becoming infrastructure for how people learn, decide, work, and form public opinion. That infrastructure cannot be left to a few private providers, opaque shutdown powers, coercive manipulation, or systems whose factual claims cannot be checked.
+AI is becoming infrastructure for how people learn, decide, work, and form public opinion. That infrastructure cannot be left to a few private providers, opaque shutdown powers, unsafe or insecure systems, discriminatory failures, privacy leakage, coercive manipulation, or factual claims that cannot be checked.
 
-Our AI Charter is a public-interest draft for making AI more trustworthy in practice: resilient enough that public-interest uses are not captive to one unreviewable provider, accountable enough that significant power and data use can be challenged, and corrigible enough that factual claims, safety controls, incidents, failures, and corrections can be tested and acted on.
+Our AI Charter is a public-interest draft for making AI more trustworthy in practice: bounded by purpose, answerable to people, safe and private enough to rely on, fair in practice, and open to evidence and correction.
 
 [Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md)
 
@@ -28,25 +28,31 @@ People who use, buy, study, regulate, or are affected by AI need more than promi
 
 These questions turn the published manifesto into a concrete charter and the first auditable modules.
 
-## Three Obligations
+## Five Public Obligations
 
-### 1. Resilient and non-captive
+### 1. Purpose-bound
 
-Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, fragile supply chain, resource bottleneck, or unilateral withdrawal. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
+An AI system should state what it is for, what it must not be used for, which version and use-case are covered, who may be affected, what risks are known, and what would trigger reassessment before trust is claimed.
 
-### 2. Accountable and challengeable
+### 2. Answerable to people
 
-Control is necessary. Unaccountable power is not. Significant power over systems, data, safety, security, privacy, access, or people should be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis.
+A named human institution should answer for the system's claims, harms, data use, incidents, and consequential decisions. People affected by the system need notice, a usable route to challenge, meaningful human review where risk warrants it, and remedy when things go wrong.
 
-This is where protection against authoritarian switch-off orders or manipulation belongs. The Charter cannot promise that a system will ignore lawful emergency, court, or regulator orders. It can demand that material restrictions, recalls, shutdowns, and control interventions are scoped, attributable, logged, time-limited where possible, reviewable through lawful channels, and visible to users, buyers, assessors, or oversight bodies unless disclosure is lawfully restricted. If a material control intervention cannot be disclosed publicly and also cannot be independently reviewed under confidentiality or lawful oversight, the affected system should not keep a Charter alignment claim for that scope. Where public reliance is material, there must also be continuity and exit planning.
+### 3. Safe, secure, private, and resilient
 
-### 3. Checkable and corrigible
+The system should protect people, data, infrastructure, and public-interest reliance. That means safety controls, cybersecurity, prompt and tool/agent boundaries, privacy and data-governance controls, dependency maps, incident response, continuity planning, and exit paths where reliance is material.
 
-Systems that make factual or consequential claims should not ask to be trusted on authority. Their claims, limits, safety and security controls, incidents, bias and failure rates, material changes, and corrections should be open to challenge and acted on when they are wrong.
+### 4. Fair in practice
+
+The system should be tested and monitored for uneven or discriminatory performance across relevant groups, languages, regions, and contexts. Limits and disparities should be disclosed, investigated, and corrected or escalated where they cause harm.
+
+### 5. Open to evidence and correction
+
+The system should leave evidence that can be inspected and acted on: public claims, factual sources, uncertainty, limitations, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks.
 
 ## Risk Coverage
 
-The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; and resource or global-access asymmetry. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight.
+The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; and resource or global-access asymmetry. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight. These five public obligations are backed by more detailed operational duties in the [Founding Accord](charter/founding-accord.md).
 
 Pilot participants and future Trust Mark candidates or holders should only make public claims for a specific assessed system, version, and use-case. Before the claim, they should publish a privacy-preserving **release risk assessment** for that assessed release, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The public assessment should state what scope is covered, which modules are covered or not assessed, which material risk classes are addressed, what safe summary of measures exists, what evidence types support them, what remains unresolved, and what would trigger re-check or withdrawal. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
 
@@ -54,9 +60,9 @@ Pilot participants and future Trust Mark candidates or holders should only make 
 
 State regulation matters because it creates enforceable rights, duties, supervisory powers, and sanctions. But AI regulation is not uniform internationally. A public buyer, media organisation, school, or user cannot rely on one shared legal baseline across jurisdictions.
 
-That is where a future certification scheme could help. A credible mark would define a **common certification baseline** for any model or deployed system that wants to claim the Charter publicly. Where local law is stricter, local law prevails. Where local law is weaker or silent, the baseline still applies. Higher tiers or modules can add stronger commitments.
+That is where a future certification scheme could help. A credible mark would define a **common certification baseline** for any model or deployed system that wants to claim the Charter publicly. Where local law is stricter, local law prevails. Where local law is weaker or silent, the baseline still applies. Higher tiers or modules can add stronger duties.
 
-Certification would not replace regulation, weaken legal duties, or certify legal compliance in every jurisdiction. Its job is narrower: make operational commitments independently checkable and comparable.
+Certification would not replace regulation, weaken legal duties, or certify legal compliance in every jurisdiction. Its job is narrower: make operational duties independently checkable and comparable.
 
 ## How Verification Would Work
 
@@ -74,7 +80,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 - **Original published article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto and starting point.
 - **Published comment:** [Who would actually certify this?](manifesto/certification-comment.md) - the short answer: build the test, borrow the machinery.
 - **Updated repository article:** [Trustworthy AI, Accountable to People](manifesto/trustworthy-ai-accountable-to-people.md) - the working version updated with the current baseline and audit framing.
-- **Charter:** [The Founding Accord](charter/founding-accord.md) - user needs, values, a future certification baseline, and voluntary higher commitments.
+- **Charter:** [The Founding Accord](charter/founding-accord.md) - user needs, values, five public obligations, and operational duties that structure pilot reports and may later form a certification baseline.
 - **Protocol:** [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md) - the first draft method for checking claim support, uncertainty, correction, and contestability in factual AI systems.
 - **Short version:** [One-page protocol](protocol/one-pager.md) - the same method in brief.
 - **Certification model:** [How certification could work later](protocol/certification-model.md) - future-state separation of powers, accreditation, funding, and revocation.

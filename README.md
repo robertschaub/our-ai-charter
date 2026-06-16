@@ -6,9 +6,11 @@ _Early public draft — open for comment. Not a certification; not yet a standar
 
 AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter** is a public-interest effort to keep that infrastructure trustworthy:
 
-- **Resilient and non-captive** — public-interest uses are not trapped by one unreviewable provider, hidden dependency, fragile supply chain, unilateral withdrawal, resource bottleneck, or opaque switch-off order;
-- **Accountable and challengeable** — significant power over systems, data, security, privacy, misuse, and people can be traced, reviewed, justified, and challenged where lawful;
-- **Checkable and corrigible** — factual and consequential claims, safety and security controls, incidents, bias and failure rates, changes, and corrections can be tested and acted on.
+- **Purpose-bound** — assessed systems state what they are for, what they must not be used for, who may be affected, and what risks are known;
+- **Answerable to people** — a named human institution is responsible, and consequential uses have notice, review, challenge, and remedy;
+- **Safe, secure, private, and resilient** — systems protect people, data, infrastructure, continuity, and public-interest reliance;
+- **Fair in practice** — uneven or discriminatory performance is tested, monitored, disclosed, and remediated where relevant;
+- **Open to evidence and correction** — claims, sources, limits, incidents, changes, drift, and corrections leave evidence that can be inspected and acted on.
 
 This repository is the open home of the charter and the drafts that put teeth on it.
 
@@ -31,13 +33,13 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 ## Working drafts (open for comment)
 
 - **[Repository article (updated)](manifesto/trustworthy-ai-accountable-to-people.md)** — working version derived from the published LinkedIn article and updated with the current baseline and audit framing.
-- **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: user needs, values, a future certification baseline, and voluntary higher commitments. The **what**.
+- **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: user needs, values, five public obligations, and operational duties that structure pilot reports and may later form a certification baseline. The **what**.
 - **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — the first draft *evaluation* module for whether a deployed factual AI "shows its work." It is not the whole Charter audit method.
   - [One-page version](protocol/one-pager.md) · [How certification could work later](protocol/certification-model.md)
 
 ## Discussion & background (WIP — not adopted positions)
 
-- [What the world has already declared](background/what-the-world-has-already-declared.md) — the essence of the UDHR, UNESCO's AI Ethics Recommendation, and the Council of Europe AI treaty, and how they map to the three obligations
+- [What the world has already declared](background/what-the-world-has-already-declared.md) — the essence of the UDHR, UNESCO's AI Ethics Recommendation, and the Council of Europe AI treaty, and how they map to the five public obligations
 - [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) — the real-world risks the obligations must cover, and the evidence each risk should leave behind
 - [Deep dive: verification, who-could-drive-it, and the declarations](background/from-manifesto-to-mechanism.md)
 - [Landscape & positioning](background/landscape-and-positioning.md)
@@ -48,7 +50,7 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 
 Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop any future scheme *inside* existing bodies, not to found a new silo.
 
-Pilot participants and future Trust Mark candidates or holders making a public claim for a specific system, version, and use-case should publish a privacy-preserving **release risk assessment** before that claim is made, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. Silent material changes suspend the pilot listing or future mark claim. The public assessment should state assessed scope, modules covered and not assessed, material risk classes, safe summaries of measures, evidence types, unresolved findings, limitations, remediation status, redaction reasons, and re-check or withdrawal triggers. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
+Pilot participants and future Trust Mark candidates or holders making a public claim for a specific system, version, and use-case should publish a privacy-preserving **release risk assessment** before that claim is made, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. Silent material changes trigger withdrawal of the pilot listing or future mark claim. The public assessment should state assessed scope, modules covered and not assessed, material risk classes, safe summaries of measures, evidence types, unresolved findings, limitations, remediation status, redaction reasons, and re-check or withdrawal triggers. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
 
 ## How to help
 

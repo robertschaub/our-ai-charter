@@ -21,13 +21,15 @@ A world where AI is a shared, trustworthy foundation for all of humanity — ope
 
 ## The obligations
 
-Trustworthy AI — and those who build and run it — must meet three obligations. Not aspirations; tests it can pass or fail.
+Trustworthy AI — and those who build and run it — must meet five obligations. Not aspirations; tests it can pass or fail.
 
-1. **Resilient and non-captive.** Public-interest AI deployments should not leave people trapped behind one unreviewable provider, hidden dependency, fragile supply chain, unilateral withdrawal, resource bottleneck, or opaque switch-off order. Where public reliance matters, users and buyers need credible continuity and exit options, and clear warning where those options do not exist.
-2. **Accountable and challengeable.** Any significant power to update, restrict, recall, misuse, leak data from, discriminate through, or shut down an AI system must be attributable, proportionate, reviewable, and open to challenge when it causes harm or is used without a defensible basis. Not "no off-switch." No unaccountable one. Emergency action may be necessary; secret, unilateral, unreviewable control is not.
-3. **Checkable and corrigible.** Systems that make factual or consequential claims must not ask to be trusted on authority. Their claims, limits, safety and security controls, incidents, bias and failure rates, material changes, and corrections must be open to challenge and acted on when they are wrong. This is not yet solved. That's exactly why it must be demanded and invested in, not left optional. Verifiable beats authoritative.
+1. **Purpose-bound.** A system must say what it is for, what it must not be used for, who may be affected, what risks are known, and when its claim to trust needs to be checked again.
+2. **Answerable to people.** A named human institution must answer for the system's claims, harms, incidents, data use, and consequential decisions. People need notice, review, challenge, and remedy where the system affects them.
+3. **Safe, secure, private, and resilient.** A system must protect people, data, infrastructure, and public-interest reliance: safety controls, cybersecurity, privacy, misuse handling, continuity, and exit paths cannot be afterthoughts.
+4. **Fair in practice.** A system must be checked for uneven or discriminatory performance across relevant groups, languages, regions, and contexts, with limits disclosed and harms escalated or corrected.
+5. **Open to evidence and correction.** A system must leave evidence behind: claims, sources, uncertainty, limits, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks must be inspectable and acted on.
 
-None of this means no control. It means accountable control: lawful recall, misuse safeguards, emergency procedures, and named operators who answer for the system publicly — never secret kill-switches.
+None of this means no control. It means accountable control: lawful recall, misuse safeguards, emergency procedures, and named operators who answer for the system publicly — never secret, unilateral, unreviewable power.
 
 The plain test: can one party withdraw, bend, or restrict a system people rely on — for everyone, in secret, with no record and no route to challenge? And when it makes a factual or consequential claim, can you trace, test, and challenge the basis?
 
@@ -57,11 +59,11 @@ Phase 1 needs a small group of founding funders willing to back the method befor
 
 This can't be built by one person or one organization.
 
-For resilient, non-captive AI (obligation #1), the builders already exist — open-model labs, public compute, public-interest coalitions on every inhabited continent. What's missing is not capability or principles. It's the will to connect them around standards, evidence records, continuity plans, and exit paths.
+For safe, resilient, public-interest AI, the builders already exist — open-model labs, public compute, public-interest coalitions on every inhabited continent. What's missing is not capability or principles. It's the will to connect them around standards, evidence records, continuity plans, and exit paths.
 
-Checkable, corrigible AI (obligation #3) is the harder frontier — one to demand investment in, not assume away.
+Evidence-backed, corrigible AI is the harder frontier — one to demand investment in, not assume away.
 
-If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. If you claim alignment for a specific release, publish a privacy-preserving release risk assessment and say clearly which modules were not assessed. Work toward these three obligations.
+If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. If you claim alignment for a specific release, publish a privacy-preserving release risk assessment and say clearly which modules were not assessed. Work toward these five obligations.
 
 If you **buy or depend on** AI: ask the six practical questions — what is this system for, who controls it, who is accountable, how can people challenge it, who can inspect it, and can its claims and failures be checked? Penalise unsupported claims. Shift spending toward systems being built to pass the test.
 
@@ -89,4 +91,4 @@ _Published version: LinkedIn article, 14 June 2026; footer updated on LinkedIn 1
 
 _Repository working draft, updated 16 June 2026._
 
-_Changes: repository draft now uses the intent-level obligations **Resilient and non-captive**, **Accountable and challengeable**, and **Checkable and corrigible**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of opaque switch-off/manipulation orders, release risk assessments, assessed-scope limits, and broader risk coverage; records the LinkedIn article footer updated 16 June 2026 with repository source link._
+_Changes: repository draft now uses five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; records the LinkedIn article footer updated 16 June 2026 with repository source link._

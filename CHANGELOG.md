@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
+- **Founding Accord v0.10** — replaced the three-obligation public spine with five public obligations and reorganised the Accord into eight operational duties covering policy/ownership, impact and misuse, risk registers, dependencies, safety/security/privacy, fairness/human oversight/remedy, transparency/provenance, and lifecycle monitoring; clarified pilot-module limits, proportional evidence, misuse/abuse handling, and resource/access disclosure.
 - **Founding Accord v0.9** — hardened the release-risk-assessment requirement after adversarial review: defined assessed releases and material updates, limited public claims to assessed scope, added assurance-depth labels, safe redaction expectations, active-deployment currentness checks, and a no-review/no-claim rule for opaque control interventions.
 - **Published article footer** — recorded that the LinkedIn article footer now states: "Working draft, updated 16 June 2026. Source and work in progress: robertschaub/our-ai-charter."
 
@@ -25,7 +26,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 - **GitHub Pages** — rebuilt the public homepage from the published manifesto and tightened the "Practical Demand" and "Three Obligations" sections around six public questions and three operational duties.
 - **Repository article (updated)** — changed the repository article from an exact published mirror to a working draft derived from the LinkedIn article, updated with the current baseline, audit, resilience, accountability, and corrigibility framing.
 - **Founding Accord v0.4** — sharpened the certification baseline around six practical questions: purpose, control, accountability, challenge, inspection, and claims/failures. Version jumps from v0.2 to v0.4 because no v0.3 was published.
-- **Certification model** — clarified the split between state regulation as enforceable jurisdictional law and independent certification as a common international baseline plus evidence for stronger operational commitments.
+- **Certification model** — clarified the split between state regulation as enforceable jurisdictional law and independent certification as a common international baseline plus evidence for stronger operational duties.
 - **Background declarations reference** — added an at-a-glance matrix mapping the three named instruments to the charter's three obligations.
 - **Repository governance** — added document-only agent and GitHub safety scaffolding adapted from FactHarbor: public/private boundary guidance, destructive-git guard references, a security policy, PR checklist, and local artifact ignores.
 - **GitHub setup** — documented the public-repository posture, added CODEOWNERS, and hardened GitHub settings for a documents-only repo.

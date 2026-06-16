@@ -1,8 +1,8 @@
 > **Status: WIP / DISCUSSION** — working reasoning, not an adopted position.
 
-# From Manifesto to Mechanism — three deep dives
+# From Manifesto to Mechanism — deep dives
 
-_Companion to the published article **"Trustworthy AI, Accountable to People"** (2026-06-14). It takes the three sections readers find most abstract — **how you'd know it's real**, **who could drive it**, and **the world has already declared what AI must respect** — and turns each into specific, plain-language solutions a solo founder could actually start._
+_Companion to the published article **"Trustworthy AI, Accountable to People"** (2026-06-14). It takes the sections readers find most abstract — **how you'd know it's real**, **who could drive it**, and **the world has already declared what AI must respect** — and turns each into specific, plain-language solutions a solo founder could actually start._
 
 _Draft synthesis, 2026-06-14, for public discussion. It records reasoning and candidate directions, not adopted policy. Claims, figures, and legal-status wording should be checked against direct sources before citation._
 
@@ -13,8 +13,8 @@ _Draft synthesis, 2026-06-14, for public discussion. It records reasoning and ca
 All five analyses converged on the same spine. If you remember nothing else:
 
 1. **Don't build an authority. Build a test.** The credibility comes from *separation of roles*, not from anyone's say-so. Borrow the machinery that already protects your coffee, timber, and the padlock in your browser bar.
-2. **Certify "shows its work," not "tells the truth."** The auditable question is **grounding-faithfulness** — *is each checkable claim actually supported by the source the system itself cited?* — plus calibration and correction. That sidesteps the "Ministry of Truth" trap and is genuinely measurable.
-3. **Audit the procedure, not the outcome.** You don't certify that an AI never errs — you certify it has a working steering wheel and brakes: disclosure, sources, an appeal button, a correction log.
+2. **Start with "shows its work," not "tells the truth."** The first auditable module is **grounding-faithfulness** — *is each checkable claim actually supported by the source the system itself cited?* — plus calibration and correction. That sidesteps the "Ministry of Truth" trap and is genuinely measurable, but it is only one module.
+3. **Audit evidence and procedure, not perfect outcomes.** You don't certify that an AI never errs — you check whether it has the basics: defined scope, disclosure, sources, review routes, correction records, risk evidence, and withdrawal triggers.
 4. **Start narrow and cheap; the founder convenes, never rules.** One 2–3 page audit rubric → one pilot → 3–5 named co-signers → a public report webpage → taken into *one* existing working group. Not a new institution.
 5. **Demand is the engine.** A badge consumers ignore becomes a badge vendors chase the moment a *buyer* writes "must meet this evidence baseline" into a contract.
 
@@ -37,28 +37,35 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 
 ### B. What an audit *actually checks* (concrete, not hand-wavy)
 
-**Obligation 1 — Resilient & non-captive**
-- **Documented dependencies:** the operator publishes the critical providers, models, data sources, and infrastructure the system depends on, with version pinning for the assessed release.
-- **Evidence continuity:** audit artefacts (configuration records, evaluation samples, correction logs) remain usable for independent review, reassessment, and continuity if a provider changes or withdraws.
-- **Continuity and exit path:** the operator documents what happens if a critical provider withdraws, and where exit is constrained, that limit is disclosed up front rather than discovered at failure.
-- **External-order handling:** material orders or pressure to restrict, manipulate, recall, or shut down the system are logged with scope, basis, decision-maker, and review route where disclosure is lawful; where disclosure is restricted, evidence is retained for confidential oversight where legally possible. If neither public disclosure nor confidential independent review is possible, the affected scope cannot keep a pilot listing or future mark claim.
+**Obligation 1 — Purpose-bound**
+- **Defined scope:** the operator names the assessed release, version, use-case, intended uses, prohibited uses, affected groups, known limits, risk tier, and reassessment triggers.
+- **Misuse and impact boundaries:** foreseeable misuse, residual risks, and stakeholder impacts are documented before any public claim.
 
-**Obligation 2 — Accountable and challengeable**
-- **Documented authority:** a public statement of *who* can restrict/recall/shut down, on *what lawful basis*.
-- **Working objection channel — tested live:** the assessor *files a test objection* and confirms it reaches a decision-maker who is **not** the operator, with a written outcome and an appeal path. (This is the difference between a real mechanism and theatre.)
-- **Transparency log:** restrictions/recalls recorded with date, reason, who ordered them — last 12 months sampled.
+**Obligation 2 — Answerable to people**
+- **Documented authority:** a public statement of *who* is accountable, who can restrict/recall/shut down, and on *what lawful basis*.
+- **Working objection channel — tested live:** the assessor *files a test objection* and confirms it reaches a responsible decision-maker, with a written outcome and an appeal path. (This is the difference between a real mechanism and theatre.)
+- **Control-intervention log:** restrictions, recalls, shutdowns, or external orders are recorded with date, scope, basis, decision-maker, and review route where disclosure is lawful; where disclosure is restricted, evidence is retained for confidential oversight where legally possible. If neither public disclosure nor confidential independent review is possible, the affected scope cannot keep a pilot listing or future mark claim.
 
-**Obligation 3 — Checkable & corrigible** (the hard, important one). It does **not** certify outputs are *true*. It certifies three measurable things on the **deployed system** (you measure the tailpipe, not the engine — no model weights needed):
-- **Grounding-faithfulness:** pull a fresh independent sample of, say, **200 claim/citation pairs**; for each, check *does the cited source actually support the claim?* Require the supported rate to clear a published bar (e.g. ≥ 95%). Score the failure *types*: no source cited · source doesn't say that · source says the opposite · misquoted · real-but-irrelevant · exaggerated beyond the source.
-- **Calibration:** bucket the sample by the system's stated confidence; "high confidence" must be right more often than "low confidence" — the curve must slope the right way.
-- **Correction:** a **public correction log** — errors recorded, dated, fixed, and *not regenerated*; the assessor re-runs a few logged errors to confirm the fix held.
+**Obligation 3 — Safe, secure, private, and resilient**
+- **Safety and security controls:** hazard analysis where relevant, cyber/LLM threat models, prompt-injection checks, tool/agent permission boundaries, output handling, and incident response are documented.
+- **Privacy and provenance:** personal-data use, minimisation, consent or lawful basis where required, access/deletion routes, and data/model provenance are retained for review.
+- **Continuity and exit path:** the operator documents critical providers, models, data sources, cloud/compute dependencies, and what happens if a critical provider withdraws; where exit is constrained, that limit is disclosed up front rather than discovered at failure.
+
+**Obligation 4 — Fair in practice**
+- **Disparate performance evidence:** affected groups, languages, regions, contexts, and accessibility needs are identified; relevant error/refusal/failure patterns are monitored; limits and disparities are recorded.
+- **Escalation and remedy:** discriminatory or uneven harms have a route for human review, correction, escalation, or remedy.
+
+**Obligation 5 — Open to evidence and correction**
+- **Grounding-faithfulness:** pull a fresh independent sample of, say, **200 claim/citation pairs**; for each, check *does the cited source actually support the claim?* Score the failure *types*: no source cited · source doesn't say that · source says the opposite · misquoted · real-but-irrelevant · exaggerated beyond the source.
+- **Calibration and uncertainty:** bucket the sample by the system's stated confidence; "high confidence" should be supported more often than "low confidence"; uncertainty and abstention should be measured, not guessed.
+- **Lifecycle evidence:** material-change logs, drift/currentness checks, incident records, release risk assessments, correction records, re-checks, and withdrawal triggers remain available for independent review.
 
 > **Worked example:** an AI says *"the minister was convicted of fraud in 2021,"* citing a court document. The document says the minister was *investigated*, not convicted. → **Fails grounding-faithfulness.** The audit never decides guilt or innocence — only whether the cited source supports the claim. It doesn't.
 
 ### C. Worked example — "Lab X volunteers for a pilot report" (8 steps)
 
 1. **Volunteer** for an independent pilot evaluation, naming the exact product + version ("ClarityAssistant v4.2"); pay a flat fee if pilots are not grant-funded.
-2. **Evidence pack:** the open-standard licence + provider list (Obl 1); the control/recall policy + objection-channel design (Obl 2); query access + the existing correction log (Obl 3); a risk register and privacy-preserving release risk assessment for the assessed release.
+2. **Evidence pack:** scope and risk boundaries (Obl 1); accountable owner + objection-channel design (Obl 2); provider/dependency/security/privacy evidence (Obl 3); fairness limits where relevant (Obl 4); query access, existing correction log, risk register, and privacy-preserving release risk assessment (Obl 5).
 3. **Independent sampling:** the *assessor* (not Lab X) draws a fresh 200 claim/citation pairs from live use and scores faithfulness, calibration, correction — and **files one test objection** to see if it sticks.
 4. **Findings & remediation:** say faithfulness lands below the proposed bar — findings issued, fixed window to remediate, re-sampled. The report records the result; no certificate or mark is issued in Phase 1.
 5. **The pilot report card** (what's actually published):
@@ -86,7 +93,7 @@ Consumers largely ignore trust badges and privacy labels. **Enterprises don't** 
 
 ### F. Phase 1 vs Phase 2 — start light, ride existing rails
 
-- **Phase 1 (now, run by a few people):** a **published code → independent pilot evaluators → public evaluation reports → visible withdrawal if the report is misused, the evaluated system changes materially, or a material control intervention cannot be independently reviewed**. No mark, no certificate, no accredited assessor yet. **Call it a *pilot evaluation* or *pre-standard test*, not "certification," until it's earned**.
+- **Phase 1 (now, run by a few people):** **five public obligations + operational duties → independent pilot evaluators → public evaluation reports → visible withdrawal if the report is misused, the evaluated system changes materially, or a material control intervention cannot be independently reviewed**. No mark, no certificate, no accredited assessor yet. **Call it a *pilot evaluation* or *pre-standard test*, not "certification," until it's earned**.
 - **Phase 2 (only at scale):** formalise the chain — assessors accredited to **ISO/IEC 17065**, a national accreditation body as accreditor, **IAF peer review under ISO/IEC 17011** across borders. The path organic and Fairtrade already walked.
 
 **Honest hard parts (not solved by structure alone):** (1) setting the faithfulness threshold + sample size so they're *affordable for a pilot yet statistically meaningful*; (2) auditing fast-changing models — v4.2 passes, a silent update breaks it — which is why every report is pinned to an exact version and frequent updates require re-checks.
@@ -170,24 +177,24 @@ You are collecting **signatures and a venue**, not running an audit.
 
 ### B. The crosswalk — declaration → testable audit criterion
 
-Each row maps one named principle to a concrete test, and to the obligation it reinforces: **(1) Resilient & non-captive · (2) Accountable & challengeable · (3) Checkable & corrigible.**
+Each row maps one named principle to a concrete test, and to the obligation it reinforces: **(1) Purpose-bound · (2) Answerable to people · (3) Safe, secure, private, and resilient · (4) Fair in practice · (5) Open to evidence and correction.**
 
 | # | Principle (source) | Concrete, testable audit criterion | Obl |
 |---|---|---|---|
-| 1 | Transparency & explainability (UNESCO); transparency/oversight, Art. 8 (CoE) | User is clearly told, at first contact, they're interacting with an AI — not a human. | 3 |
-| 2 | Transparency (UNESCO); right to *receive information*, Art. 19 (UDHR) | Every factual claim is traceable to its sources; the user can view them. | 3 |
+| 1 | Transparency & explainability (UNESCO); transparency/oversight, Art. 8 (CoE) | User is clearly told, at first contact, they're interacting with an AI — not a human. | 5 |
+| 2 | Transparency (UNESCO); right to *receive information*, Art. 19 (UDHR) | Every factual claim is traceable to its sources; the user can view them. | 5 |
 | 3 | Human oversight & determination (UNESCO); oversight, Art. 8 (CoE) | A named human can review/override/halt consequential outputs; the path is documented and reachable. | 2 |
 | 4 | Procedural safeguards / right to contest, Art. 15 (CoE) | Anyone affected by an AI decision has an accessible, documented way to challenge it and get human review. | 2 |
 | 5 | Remedies, Art. 14 (CoE); Art. 8 (UDHR) | A working complaint channel with a published response time; complaints logged and auditable. | 2 |
 | 6 | Accountability & responsibility (UNESCO); Art. 9 (CoE) | A specific, named legal entity is accountable for outputs and harms — not "the algorithm." | 2 |
-| 7 | Fairness & non-discrimination (UNESCO); Art. 10 (CoE); Art. 2 (UDHR) | Tested for disparate error/refusal rates across protected groups, languages, regions; results on record. | 3 |
+| 7 | Fairness & non-discrimination (UNESCO); Art. 10 (CoE); Art. 2 (UDHR) | Tested for disparate error/refusal rates across protected groups, languages, regions; results on record. | 4 |
 | 8 | Privacy & data protection (UNESCO); Art. 11 (CoE); Art. 12 (UDHR) | Personal-data use documented, minimised, lawful; users can see what's held and request deletion. | 3 |
-| 9 | Proportionality & do-no-harm (UNESCO) | A pre-deployment impact assessment (UNESCO-style EIA) completed and available to the auditor. | 3 |
-| 10 | Safety & security (UNESCO); reliability, Art. 12 (CoE) | Accuracy/failure rates measured and published; known failure modes disclosed, not hidden. | 3 |
-| 11 | Human dignity & autonomy, Art. 7 (CoE); Art. 1 (UDHR) | No covert manipulation; persuasive/behavioural techniques are disclosed. | 1, 3 |
-| 12 | Awareness & literacy (UNESCO) | Users get plain-language info on the system's limits and how to read its outputs. | 3 |
-| 13 | Multi-stakeholder & adaptive governance (UNESCO); safe innovation, Art. 13 (CoE) | Not single-vendor-locked: the audit record remains independently reviewable. | 1 |
-| 14 | Share in scientific advancement, Art. 27 (UDHR); sustainability (UNESCO) | Audit methods and results are openly published so benefits and risks are public knowledge. | 1 |
+| 9 | Proportionality & do-no-harm (UNESCO) | A pre-deployment impact assessment (UNESCO-style EIA) completed and available to the auditor. | 1 |
+| 10 | Safety & security (UNESCO); reliability, Art. 12 (CoE) | Accuracy/failure rates measured and published; known failure modes disclosed, not hidden. | 3, 5 |
+| 11 | Human dignity & autonomy, Art. 7 (CoE); Art. 1 (UDHR) | No covert manipulation; persuasive/behavioural techniques are disclosed. | 1, 2, 5 |
+| 12 | Awareness & literacy (UNESCO) | Users get plain-language info on the system's limits and how to read its outputs. | 5 |
+| 13 | Multi-stakeholder & adaptive governance (UNESCO); safe innovation, Art. 13 (CoE) | Not single-vendor-locked: the audit record remains independently reviewable. | 3, 5 |
+| 14 | Share in scientific advancement, Art. 27 (UDHR); sustainability (UNESCO) | Audit methods and results are openly published so benefits and risks are public knowledge. | 3, 5 |
 
 ### C. A complementary practical tool — the "Developer's Translation Matrix"
 
@@ -239,7 +246,7 @@ Total cost: a few hundred francs and the founder's time. Builds nothing that mus
 ## Open / honest hard parts (carry into any next draft)
 
 - Faithfulness **threshold + sample size**: affordable for a solo assessor *and* statistically meaningful — genuinely unsolved, needs a statistician.
-- **Fast-changing models**: version-pinning + continuous surveillance, not annual-only.
+- **Fast-changing models**: version-pinning + continuous surveillance and controlled updates, not annual-only.
 - **Goodhart risk**: a behavioural floor could breed citation-theatre and reflexive hedging — guard is measuring *support* (not citation count) and re-running logged errors, but it needs live testing.
 - **Legitimacy optics**: avoid "a Western fact-checking club governing global AI speech" — non-Western reviewers and public dissent from day one.
 
