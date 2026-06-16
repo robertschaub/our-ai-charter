@@ -4,6 +4,12 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-16
 - **Repository documentation guard** — added a `/doc-guard` skill and agent rule to keep documentation edits lean, readable, and free of unnecessary filler or duplicated framing.
+- **Founding Accord v0.11** — added the assurance stack: legal floor, common Charter baseline, and public-interest modules; introduced the legal-scope map; and clarified that Charter claims do not certify legal compliance.
+- **Assurance-stack review follow-up** — tightened the legal-scope map as provider-declared rather than legal clearance, added responsibility maps, clarified that not-assessed modules do not waive baseline duties, and added currentness and assurance-depth requirements for release risk assessments.
+- **Certification model** — reworked the future-state model around the assurance stack, distinguishing legal market-entry obligations, ISO-style AI management-system assurance, and Charter-specific public-interest modules.
+- **Protocol alignment** — clarified that Grounding-Faithfulness & Contestability is one public-interest module in the assurance stack and added the legal-scope map to evidence-pack and release-assessment expectations.
+- **Risk and vulnerability audit** — added false or overbroad legal-compliance claims and evidence theatre as explicit risks, with corresponding evidence requirements and sources.
+- **Repository article claim discipline** — changed the builder call from present-tense alignment-claim wording to Phase 1 pilot-evaluation wording.
 - **Repository article wording** — aligned the control paragraph with the LinkedIn edit: removed "None of this means no control" and tightened the point around contestable control.
 - **GitHub Pages index** — aligned the homepage document index with the README by adding the launch post and remaining background/WIP documents.
 - **Launch post mirror** — clarified that the published 14 June post still preserves the earlier three-obligation wording while the current repository drafts now use five public obligations.

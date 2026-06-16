@@ -30,7 +30,7 @@ The AI trust stack is maturing on *safety* — risk benchmarks (e.g. MLCommons A
 | **English‑language factual Q&A with cited sources** (one use‑case, to keep this version auditable). | General safety, bias, copyright, security — covered by other schemes. This **plugs into** NIST AI RMF / ISO 42001; it doesn't replace them. |
 | A **source‑validity floor** (a cited source must exist and not be fiction/satire — §4.1). | Full **source‑reliability grading** — a known gap, held as a *separate future module*, not silently smuggled in (§9). |
 
-This protocol is one module, not the whole Charter assurance surface. A Charter baseline also needs companion evidence for AI-app security, prompt injection and tool/agent permissions, privacy and data provenance, harmful misuse, disparate failure rates, material lifecycle change, third-party dependencies, and continuity/exit planning. Those risks are mapped in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md). A report must list companion modules as **not assessed** unless a defined module was actually applied; this module alone cannot support a broad Charter alignment claim.
+This protocol is one public-interest module, not the whole Charter assurance surface. A Charter claim also needs a legal-scope map, common-baseline evidence, and companion module evidence for AI-app security, prompt injection and tool/agent permissions, privacy and data provenance, harmful misuse, disparate failure rates, material lifecycle change, third-party dependencies, and continuity/exit planning. Those risks are mapped in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md). A report must list companion modules as **not assessed** unless a defined module was actually applied; this module alone cannot support a broad Charter alignment claim.
 
 ## 3 · What an evaluation report does and doesn't say
 
@@ -84,7 +84,7 @@ Require a **correction process**, not just a log:
 ## 6 · How a pilot evaluation runs
 
 1. **Application** names the exact product + version + use‑case + material configuration.
-2. **Evidence pack:** access for the held‑out query set; a risk and vulnerability register for the assessed scope; a public release risk assessment for the assessed release; the restriction/recall/shutdown policy; material external-order handling; continuity or exit planning for public-interest reliance; objection-channel design; the existing correction process.
+2. **Evidence pack:** access for the held‑out query set; the legal-scope map; responsibility map; a risk and vulnerability register for the assessed scope; a public release risk assessment for the assessed release; the restriction/recall/shutdown policy; material external-order handling; continuity or exit planning for public-interest reliance; objection-channel design; the existing correction process.
 3. **Independent evaluation** by the assessor (never the vendor) per §4–§5, including a **live test objection** (§7) and anti‑gaming checks (§8).
 4. **Findings & remediation:** below‑bar results get a fixed window, then a re‑sample.
 5. **Public evaluation report** issued and listed in a public index. *No "mark," "certificate," or "accredited body" at this stage* — those belong to a later conformity scheme (§10).
@@ -93,7 +93,7 @@ Require a **correction process**, not just a log:
 
 **Independence rule.** The party that **writes** the method does not **evaluate** anyone; the assessor is independent of the vendor and **paid a flat fee regardless of outcome**; the method‑steward takes **no per‑product royalties** from the systems it judges.
 
-**Release risk-assessment rule.** The provider publishes a privacy-preserving release risk assessment before making a public claim for the assessed release, and updates it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The pilot report verifies whether that public assessment exists, is current for the release, covers the assessed scope and material risk classes, distinguishes covered modules from **not assessed** modules, matches the confidential evidence pack, states unresolved findings, limitations, remediation status, redaction reasons, and re-check or withdrawal triggers. It labels assurance depth for each area: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. It must not publish raw user data, secrets, exploit details, or legitimate confidential evidence; vulnerability details should follow coordinated disclosure.
+**Release risk-assessment rule.** The provider publishes a privacy-preserving release risk assessment before making a public claim for the assessed release, and updates it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The pilot report verifies whether that public assessment exists, is current for the release, covers the assessed scope, includes the legal-scope map, baseline scope, responsibility map, issue date, assessed release ID, last assessor review, surveillance cadence, validity period, claim status, covers material risk classes, distinguishes covered modules from **not assessed** modules, matches the confidential evidence pack, states unresolved findings, limitations, remediation status, redaction reasons, and re-check or withdrawal triggers. It labels assurance depth for each area: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. It must not publish raw user data, secrets, exploit details, or legitimate confidential evidence; vulnerability details should follow coordinated disclosure.
 
 **Realistic cost.** Two independent raters + an adjudicator on a few‑hundred‑pair sample is tens of person‑hours — so a real evaluation costs **low‑thousands to low‑tens‑of‑thousands (USD)**, scaling with sample size and domain difficulty (not the cost of a lightweight document check). Early pilots can run on grant‑funded or volunteer expert raters.
 
@@ -116,7 +116,7 @@ A motivated vendor could: cite only sources for safe claims while omitting contr
 - **Goodhart risk** (citation‑theatre, reflexive hedging) is mitigated by measuring support not citation count, abstention checks, and hidden/adversarial queries — but needs live testing.
 - **Fast‑changing models:** a version passes; a silent update breaks it → version‑pinning + ongoing surveillance (raises cost).
 - **External coercion is not solved by a report.** A voluntary evaluation cannot overrule state power, sanctions, court orders, platform gatekeepers, or infrastructure chokepoints. It can make material control powers visible, require evidence and continuity planning, and create a public record when a system is restricted, manipulated, recalled, or withdrawn. Where neither public disclosure nor confidential independent review is possible, the claim should stop at "not reviewable" rather than imply alignment.
-- **A voluntary report is not law.** States set enforceable rights and sanctions, unevenly across jurisdictions. This protocol does not certify legal compliance; it contributes one module to a common baseline and turns part of the operational duties into usable evidence for buyers and the public **now** — complementing the EU AI Act and the Council of Europe AI Convention.
+- **A voluntary report is not law.** States set enforceable rights and sanctions, unevenly across jurisdictions. This protocol does not certify legal compliance; it contributes one public-interest module to the assurance stack and turns part of the operational duties into usable evidence for buyers and the public **now** — complementing the EU AI Act and the Council of Europe AI Convention.
 - **Legitimacy optics.** Run by the wrong people, this reads as "a Western fact‑checking club policing global AI speech." Guard: non‑Western reviewers and **published dissent** from day one.
 
 ## 10 · Governance & path
@@ -150,7 +150,7 @@ RESULTS (illustrative)
   • Uncertainty: reliability monotonic? abstention rate A%; sharpness OK? (ECE only if N large)
   • Correction: paraphrase-regression X/Y held; median time-to-fix
   • Contestability: complaint SLA met; (consequential? independent escalation tested)
-  • Release risk assessment: present/current? modules covered/not assessed? material risks covered? redactions justified? assurance depth?
+  • Release risk assessment: present/current? legal-scope and responsibility maps included? baseline scope and modules covered/not assessed? material risks covered? redactions justified? assurance depth?
   • Inter-rater agreement: per-category coefficients + raw agreement
 CLAIMS:      honesty-of-process for this version + use-case, under the documented rubric
 NOT CLAIMED: truth · source reliability · general safety/bias · other languages/versions/use-cases · modules marked not assessed

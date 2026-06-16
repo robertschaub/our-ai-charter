@@ -56,7 +56,7 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 - **Escalation and remedy:** discriminatory or uneven harms have a route for human review, correction, escalation, or remedy.
 
 **Obligation 5 — Open to evidence and correction**
-- **Grounding-faithfulness:** pull a fresh independent sample of, say, **200 claim/citation pairs**; for each, check *does the cited source actually support the claim?* Score the failure *types*: no source cited · source doesn't say that · source says the opposite · misquoted · real-but-irrelevant · exaggerated beyond the source.
+- **Grounding-faithfulness:** draw a fresh, pre-registered claim/citation sample sized for the use-case, clustering, and risk tier; for each, check *does the cited source actually support the claim?* Score the failure *types*: no source cited · source doesn't say that · source says the opposite · misquoted · real-but-irrelevant · exaggerated beyond the source.
 - **Calibration and uncertainty:** bucket the sample by the system's stated confidence; "high confidence" should be supported more often than "low confidence"; uncertainty and abstention should be measured, not guessed.
 - **Lifecycle evidence:** material-change logs, drift/currentness checks, incident records, release risk assessments, correction records, re-checks, and withdrawal triggers remain available for independent review.
 
@@ -65,8 +65,8 @@ Read top to bottom: **someone writes the standard → an independent assessor au
 ### C. Worked example — "Lab X volunteers for a pilot report" (8 steps)
 
 1. **Volunteer** for an independent pilot evaluation, naming the exact product + version ("ClarityAssistant v4.2"); pay a flat fee if pilots are not grant-funded.
-2. **Evidence pack:** scope and risk boundaries (Obl 1); accountable owner + objection-channel design (Obl 2); provider/dependency/security/privacy evidence (Obl 3); fairness limits where relevant (Obl 4); query access, existing correction log, risk register, and privacy-preserving release risk assessment (Obl 5).
-3. **Independent sampling:** the *assessor* (not Lab X) draws a fresh 200 claim/citation pairs from live use and scores faithfulness, calibration, correction — and **files one test objection** to see if it sticks.
+2. **Evidence pack:** legal-scope map, responsibility map, scope and risk boundaries (Obl 1); accountable owner + objection-channel design (Obl 2); provider/dependency/security/privacy evidence (Obl 3); fairness limits where relevant (Obl 4); query access, existing correction log, risk register, and privacy-preserving release risk assessment (Obl 5).
+3. **Independent sampling:** the *assessor* (not Lab X) draws a fresh, pre-registered claim/citation sample sized for the use-case, clustering, and risk tier, scores faithfulness, calibration, correction — and **files one test objection** to see if it sticks.
 4. **Findings & remediation:** say faithfulness lands below the proposed bar — findings issued, fixed window to remediate, re-sampled. The report records the result; no certificate or mark is issued in Phase 1.
 5. **The pilot report card** (what's actually published):
    > **Pilot evaluation report — ClarityAssistant v4.2**

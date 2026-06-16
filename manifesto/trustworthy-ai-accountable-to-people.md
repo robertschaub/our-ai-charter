@@ -35,13 +35,13 @@ The plain test: can one party withdraw, bend, or restrict a system people rely o
 
 ## How you'd know it's real
 
-Obligations mean nothing if anyone can claim them. The endpoint is independent verification — not a new central authority (no one should hold that power), but a common certification baseline and a separation of roles so no one marks their own homework:
+Obligations mean nothing if anyone can claim them. The endpoint is independent verification — not a new central authority (no one should hold that power), but a common Charter baseline and a separation of roles so no one marks their own homework:
 
 Someone writes the standard → independent assessors audit against it → an accreditor licenses and polices those assessors → a peer body keeps the accreditors honest.
 
 This is the same chain behind ISO certification, organic and forestry labels, Fairtrade, and journalism's own trust badges. What makes a mark trustworthy is not that an authority issued it, but that no single actor in the chain checks their own work.
 
-Because state regulation differs across jurisdictions, a future certification baseline would have to cover minimum expectations itself. Stricter local law still prevails; weaker or silent local law does not lower the mark. The current step is lighter: pilot evaluation reports, no mark yet. A direction, not a finished scheme — but the difference between a slogan and a standard.
+Because state regulation differs across jurisdictions, a future certification baseline would have to cover minimum expectations itself. But it should not pretend to certify legal compliance. The structure should be three-layered: a **provider-declared legal scope** for the assessed release — the legal floor, not legal clearance; a **common Charter baseline** built from the five obligations; and **public-interest modules** for the harder questions — factual grounding, contestability, coercive-control transparency, security, privacy and provenance, fairness, resource impacts, and creator or copyright fairness where relevant. Stricter local law still prevails; weaker or silent local law does not lower the voluntary Charter baseline. The current step is lighter: pilot evaluation reports, no mark yet. A direction, not a finished scheme — but the difference between a slogan and a standard.
 
 ## Who could drive it
 
@@ -63,7 +63,7 @@ For safe, resilient, public-interest AI, the builders already exist — open-mod
 
 Evidence-backed, corrigible AI is the harder frontier — one to demand investment in, not assume away.
 
-If you **build** AI: publish what the system is for, what it must not be used for, who controls it, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. If you claim alignment for a specific release, publish a privacy-preserving release risk assessment and say clearly which modules were not assessed. Work toward these five obligations.
+If you **build** AI: publish what the system is for, what it must not be used for, who controls it, what legal scope is declared, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. If you volunteer a release for pilot evaluation, publish a privacy-preserving release risk assessment and say clearly which modules the pilot evaluates and which remain not assessed. Do not market a Phase 1 pilot report as Charter alignment, certification, or Trust Mark status. Work toward these five obligations.
 
 If you **buy or depend on** AI: ask the six practical questions — what is this system for, who controls it, who is accountable, how can people challenge it, who can inspect it, and can its claims and failures be checked? Penalise unsupported claims. Shift spending toward systems being built to pass the test.
 
@@ -91,4 +91,4 @@ _Published version: LinkedIn article, 14 June 2026; footer updated on LinkedIn 1
 
 _Repository working draft, updated 16 June 2026._
 
-_Changes: repository draft now uses five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; tightens the control paragraph around contestable control; records the LinkedIn article footer updated 16 June 2026 with repository source link._
+_Changes: repository draft now uses five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds the legal-floor/common-baseline/public-interest-module assurance stack; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; aligns the builder call with Phase 1 no-alignment-claim discipline; tightens the control paragraph around contestable control; records the LinkedIn article footer updated 16 June 2026 with repository source link._

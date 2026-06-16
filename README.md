@@ -24,6 +24,8 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 
 **There is no Trust Mark, certificate, accredited assessor, or certification body yet.** Phase 2 — a real conformity scheme with a mark, registry, assessor rules, appeals, surveillance, and accreditation — comes only if pilots and demand justify it.
 
+Any future Charter claim should sit on a three-layer assurance stack: **provider-declared legal scope** (the legal floor: markets, roles, use-cases, risk category, domain rules, and required legal artefacts; the Charter does not certify legal compliance or grant market-entry permission), **common Charter baseline** (the five public obligations made auditable across jurisdictions), and **public-interest modules** (deeper tests for material risks such as factual grounding, contestability, coercive-control transparency, security, privacy/provenance, fairness, resource impacts, and creator/copyright fairness where relevant). A module marked **not assessed** does not waive baseline duties.
+
 ## Published (live)
 
 - **[Original manifesto post](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; footer updated 16 June 2026). The **why**.
@@ -33,7 +35,7 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 ## Working drafts (open for comment)
 
 - **[Repository article (updated)](manifesto/trustworthy-ai-accountable-to-people.md)** — working version derived from the published LinkedIn article and updated with the current baseline and audit framing.
-- **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: user needs, values, five public obligations, and operational duties that structure pilot reports and may later form a certification baseline. The **what**.
+- **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: user needs, values, five public obligations, a legal-floor/common-baseline/module assurance stack, and operational duties that structure pilot reports and may later form a certification baseline. The **what**.
 - **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — the first draft *evaluation* module for whether a deployed factual AI "shows its work." It is not the whole Charter audit method.
   - [One-page version](protocol/one-pager.md) · [How certification could work later](protocol/certification-model.md)
 
@@ -50,7 +52,7 @@ This repository is in **Phase 1: public drafting and pilot evaluation**. The pra
 
 Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop any future scheme *inside* existing bodies, not to found a new silo.
 
-Pilot participants and future Trust Mark candidates or holders making a public claim for a specific system, version, and use-case should publish a privacy-preserving **release risk assessment** before that claim is made, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. Silent material changes trigger withdrawal of the pilot listing or future mark claim. The public assessment should state assessed scope, modules covered and not assessed, material risk classes, safe summaries of measures, evidence types, unresolved findings, limitations, remediation status, redaction reasons, and re-check or withdrawal triggers. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
+Pilot participants and future Trust Mark candidates or holders making a public claim for a specific system, version, and use-case should publish a privacy-preserving **release risk assessment** before that claim is made, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. In Phase 1, reports may say only that a named release was evaluated under a named method, duty, or module, with a stated result; they may not claim Charter alignment, certification, or Trust Mark status. Silent material changes trigger withdrawal of the pilot listing or future mark claim. The public assessment should state assessed scope, legal-scope map, baseline scope, responsibility map, modules covered and not assessed, material risk classes, safe summaries of measures, evidence types, unresolved findings, limitations, remediation status, redaction reasons, claim status, validity period, and re-check or withdrawal triggers. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
 
 ## How to help
 

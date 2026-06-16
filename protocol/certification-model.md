@@ -1,8 +1,8 @@
 > **Status: WORKING DRAFT** — explainer accompanying the protocol.
 
-# How could "trustworthy AI" be certified? — a one-page model
+# How could "trustworthy AI" be certified? — an assurance-stack model
 
-_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft 2026-06-13. Grounded in how certification works in other industries._
+_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-06-16. Grounded in how certification works in other industries._
 
 This is a **future-state model**, not a scheme that exists today. The current phase is pilot evaluation reports only: no Trust Mark, no certificate, no accredited assessor, and no certification body.
 
@@ -21,13 +21,21 @@ Credible certification never rests on one anointed body's say-so. It rests on a 
 
 ## For AI, this is already emerging — and it's thin
 
-The EU AI Act includes **"notified bodies"** — independent third parties designated by member states — for some high-risk-AI conformity assessments. Article 43 is category-specific: many Annex III high-risk systems use internal-control conformity assessment without a notified body, while biometrics and product-law systems can require or involve third-party assessment in specified cases. The structure exists in law, but it does not create a single international information-integrity baseline for every AI system a buyer or user may rely on.
+The EU AI Act includes **"notified bodies"** — independent third parties designated by member states — for some high-risk-AI conformity assessments. Article 43 is category-specific: many Annex III high-risk systems use internal-control conformity assessment without a notified body, while biometrics and product-law systems can require or involve third-party assessment in specified cases. General-purpose AI providers have separate documentation, copyright-policy, training-summary, systemic-risk, incident-reporting, and cybersecurity obligations. The structure exists in law, but it does not create a single international information-integrity baseline for every AI system a buyer or user may rely on.
 
-## The split: enforceable law vs common certification baseline
+## The assurance stack: provider-declared legal scope, common baseline, public-interest modules
 
 State regulation sets enforceable duties, rights, supervisory powers, and sanctions inside each jurisdiction. But those legal floors are not uniform internationally. A voluntary mark cannot replace law, weaken it, or certify legal compliance across every jurisdiction.
 
-Certification would be useful for a different job. A future **common certification baseline** would be the minimum set of operational duties any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the baseline. A builder or deployer could say, "we accept this international baseline, and an independent assessor can test whether we meet it in operation."
+Certification would be useful for a different job if it is structured as a three-layer assurance stack:
+
+1. **Provider-declared legal scope (the legal floor).** The assessed release declares its markets, role in the value chain, use-case, risk category, domain regimes, and required legal artefacts. The Charter does not certify legal compliance, provide legal advice, replace a notified body, override a regulator, or grant market-entry permission. The evaluator or future assessor checks that the public claim is limited to the declared scope and records missing, disputed, or out-of-scope legal artefacts as limitations. Regulators, courts, notified bodies, domain certification bodies, and the provider's own legal assessment decide legal compliance.
+2. **Common Charter baseline.** The five public obligations become operational duties that can be checked consistently across jurisdictions. Stricter local law prevails; weaker or silent local law does not lower the baseline.
+3. **Public-interest modules.** Additional modules test the Charter's distinctive concerns beyond ordinary compliance: factual grounding and correction; contestability and remedy; coercive-control, restriction, shutdown, and manipulation transparency; AI-app security and abuse resistance; privacy, provenance, and data rights; fairness across affected groups and contexts; resource and public-access impacts; and creator or copyright fairness where relevant. Modules are optional only where the risk is not material to the assessed release. A module marked **not assessed** does not waive baseline duties, and a full Charter alignment claim cannot omit material modules.
+
+A builder or deployer could then say, "we have declared the legal scope for this assessed release, we accept the common Charter baseline, and an independent assessor can test which modules we meet in operation."
+
+This avoids three common traps: pretending a voluntary mark is legal approval, treating a management-system certificate as product assurance, or using a narrow factuality test as if it covered the whole risk surface.
 
 For this charter, the auditable evidence should track the practical questions users, buyers, researchers, media, and authorities need answered:
 
@@ -38,14 +46,16 @@ For this charter, the auditable evidence should track the practical questions us
 - **Who can inspect it?** What is public, what can qualified assessors inspect confidentially, what can lawful oversight require, and what protected research is possible for red-team evidence, security tests, privacy controls, data provenance, and model/data-change records?
 - **Can its claims and failures be checked?** Can factual claims, consequential decisions, external restriction decisions, security/privacy/misuse incidents, disparate failure rates, significant changes, withdrawals, corrections, and exit paths be traced to evidence and tested?
 
-A future baseline must not become a narrow "factuality badge" that ignores the rest of the real risk surface. At minimum, the common baseline needs to make the risks in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md) inspectable: concentration and lock-in, coercive control, factual unreliability, AI-app security, privacy and provenance, bias and discrimination, harmful misuse, opaque consequential decisions, lifecycle drift, and resource/global-access asymmetry.
+A future baseline must not become a narrow "factuality badge" that ignores the rest of the real risk surface. At minimum, the common baseline needs to make the risks in the [Risk and Vulnerability Audit](../background/risk-and-vulnerability-audit.md) inspectable: concentration and lock-in, coercive control, factual unreliability, AI-app security, privacy and provenance, bias and discrimination, harmful misuse, opaque consequential decisions, lifecycle drift, resource/global-access asymmetry, false legal-compliance claims, and evidence theatre.
 
-That means an audit should not merely test outputs. It should require a documented **risk and vulnerability register** for the assessed system: identified material risks, mitigations, monitoring, accountable owners, unresolved findings, incident triggers, and re-assessment triggers. A provider should publish a privacy-preserving **release risk assessment** before making a public claim for a specific assessed release, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The audit checks that the public assessment is current for the release, covers the required risk areas, matches the confidential evidence pack, and safely separates public summary from protected evidence. It labels assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+That means an audit should not merely test outputs. It should require a documented **risk and vulnerability register** for the assessed system: identified material risks, mitigations, monitoring, accountable owners, unresolved findings, incident triggers, and re-assessment triggers. A provider should publish a privacy-preserving **release risk assessment** before making a public claim for a specific assessed release, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The public release assessment should include the legal-scope map, baseline scope, responsibility map, modules assessed or not assessed, issue date, assessed release ID, last assessor review, surveillance cadence, validity period, claim status, assurance depth, redaction reasons, and withdrawal or re-check triggers. The audit checks that the public assessment is current for the release, covers the required risk areas, matches the confidential evidence pack, and safely separates public summary from protected evidence. It labels assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+
+ISO/IEC 42001 is useful here as a management-system reference because it requires a living system for AI governance and risk management. ISO/IEC 42005 is useful for impact assessment. ISO/IEC 42006 is useful because it sets expectations for bodies auditing and certifying AI management systems. None of those, by itself, proves that a specific public release's factual claims are grounded, that affected people can challenge harms, or that coercive control interventions are reviewable. Those are Charter module questions.
 
 ## The practical proposal — lean, phased, not a mega-authority
 
 - **Phase 1 now:** a published method, independent pilot evaluators, public evaluation reports, and a public report index. No mark, certificate, accredited assessor, or certification claim.
-- **Phase 2 only if demand appears:** a small standard-steward (a nonprofit "Trust Council," working name) owns the standard, the mark, and a **public registry** — and audits no one itself. Capture-resistant governance: multi-stakeholder board, capped influence, those-bound-help-write-the-rules, two-assessor + academic re-evaluation for contested cases. *(Models: IFCN/Poynter, GOTS, Creative Commons.)*
+- **Phase 2 only if demand appears:** a small standard-steward (a nonprofit "Trust Council," working name) owns the standard, the mark, and a **public registry** — and audits no one itself. Capture-resistant governance: multi-stakeholder board, capped influence for those bound by or helping write the rules, and two-assessor plus academic re-evaluation for contested cases. *(Models: IFCN/Poynter, GOTS, Creative Commons.)*
 - **Independent accredited assessors** (ML + domain + regional expertise) would do the audits — independent of both vendor and steward.
 - **Ride the accreditation infrastructure that already exists** (ISO/IEC 17065 + national accreditation bodies + IAF) instead of reinventing "who checks the auditors," once the scheme is mature enough to justify it.
 - **Inclusion built in:** tiered (free self-assessment → audited mark), hardship waivers, a solidarity fund — so small and Global-South builders aren't priced out.
@@ -62,7 +72,7 @@ Certification schemes are rarely founded as standalone authorities — they're *
 - **A mission-driven NGO stewards it** — Reporters Without Borders drove the Journalism Trust Initiative; Poynter runs the IFCN code; Fairtrade International and FSC are dedicated nonprofits.
 - **A neutral host incubates it** — the Linux Foundation hosts OpenSSF and open-model work; OASIS hosts the Coalition for Secure AI; CEN hosted JTI's standard. A host gives legal shelter and instant neutrality without founding a new institution.
 - **A multi-stakeholder coalition runs it** — the CA/Browser Forum (browsers + certificate authorities); the AI Alliance; the Digital Public Goods Alliance.
-- **A public anchor lends authority** — UNESCO, the Council of Europe, or relevant EU assurance structures, without implying that the Charter certifies legal compliance.
+- **A public anchor can lend context or convening legitimacy** — UNESCO, the Council of Europe, or relevant EU assurance structures, without implying endorsement, legal approval, or that the Charter certifies legal compliance.
 
 **Realistic model here:** *you convene; you don't run an audit empire.* The initiator is the founder + the early manifesto signatories (a small founding coalition); the standard is **hosted inside an existing neutral body** — strongest candidates given the information-integrity angle: a journalism-trust body (IFCN/EFCSN), a neutral standards/tech host (Linux Foundation, OASIS, CEN), or the Digital Public Goods Alliance — with anchor partners for substance (MLCommons for evaluation, the AI Alliance, Current AI). That's how JTI, IFCN, OpenSSF and CoSAI all started.
 
@@ -84,13 +94,14 @@ _(Funding figures across these examples are illustrative — verify before citin
 ## How it would start — phased
 
 - **Phase 1 (now):** five public obligations and operational duties + independent pilot evaluators + public reports + visible withdrawal of pilot status. Cheap, credible, and honest about not being certification yet.
-- **Phase 2 (at scale):** graduate to the full ISO/IEC-17065 + accreditation pyramid for hard, globally-recognised legitimacy.
+- **Phase 2 (at scale):** graduate to the full accreditation pyramid for hard, globally-recognised legitimacy, potentially combining management-system assurance, product/service modules, and ISO/IEC 17065-style scheme controls where appropriate.
 
 ## What it is deliberately NOT
 
 - Not a new central authority that "owns" trustworthy AI.
 - Not self-certification (the thing that discredits weak schemes).
 - Not pay-to-pass — assessor independence and accreditation are non-negotiable.
+- Not legal approval — the Charter can require a legal-scope map, but regulators, notified bodies, courts, and domain laws still decide legal compliance.
 - Not finished — a model to build and contest, not a body that exists today.
 
 ## The honest part
@@ -98,4 +109,4 @@ _(Funding figures across these examples are illustrative — verify before citin
 Standing up the full pyramid is hard and slow — which is exactly why Phase 1 matters. And the deepest legitimacy question answers itself: authority here is **manufactured by structure and transparency** (independent layers, public registry, revocation history), not granted to anyone.
 
 ---
-_Sources: ISO/IEC 17065; the IAF (International Accreditation Forum); [EU AI Act Art. 43](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43) (conformity assessment and notified-body routes); and certification analogues — Fairtrade/FLOCERT, GOTS/IOAS, IFCN, the Journalism Trust Initiative._
+_Sources: ISO/IEC 17065; ISO/IEC 42001, ISO/IEC 42005, and ISO/IEC 42006; the IAF (International Accreditation Forum); [EU AI Act Art. 43](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43) (conformity assessment and notified-body routes), [Art. 53](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53) (GPAI provider obligations), and [Art. 55](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55) (GPAI systemic-risk obligations); and certification analogues — Fairtrade/FLOCERT, GOTS/IOAS, IFCN, the Journalism Trust Initiative._
