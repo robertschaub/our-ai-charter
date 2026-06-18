@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-18
+- **Public AI infrastructure governance pickup** — preserved the already-posted German public comment as provenance for the governance note.
 - **Certification model host hypothesis** — source-checked the proposed neutral-host model and softened it from a single origin template into a two-track outreach hypothesis with verified analogues and links.
 - **Founding Accord v0.13 / certification model governance alignment** — reflected the public-AI infrastructure pickup as generic international co-stewardship, neutral-host, and capture-resistance language while keeping named initiatives as unverified background inputs.
 - **Public AI infrastructure governance pickup** — added a WIP background note preserving the international co-stewardship, national-contribution, and capture-resistant governance proposal for follow-up drafting.

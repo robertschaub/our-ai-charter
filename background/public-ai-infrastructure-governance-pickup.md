@@ -14,6 +14,25 @@ The Charter-relevant question is:
 
 This note should be treated as input for future wording, not as finished language for the Founding Accord.
 
+## Public comment already posted
+
+The following public comment was posted in the triggering discussion. A further clarification reply was considered but not needed because the comment already states the international and governance point clearly:
+
+> Ein extrem wichtiger und unterstützenswerter Impuls!
+> Ich möchte Ihren Vorschlag jedoch ergänzen:
+>
+> Für mich geht es bei einem offenen Schweizer KI-Modell nicht nur um Technologiepolitik, sondern auch um die Frage, wie freiheitliche Gesellschaften digitale Souveränität sichern.
+>
+> Entscheidend scheint mir:
+> Das darf nicht zu eng als rein nationales Projekt gedacht werden. Die Schweiz kann Initiatorin und starker Knotenpunkt sein. Aber wenn andere Staaten, Universitäten, Unternehmen und öffentliche Institutionen nur andocken, statt glaubwürdig mitzugestalten, bleibt die internationale Wirkung begrenzt.
+>
+> Darum steht ergänzend für mich die Governance-Frage im Zentrum: Welche Struktur hält ein solches Vorhaben international offen, transparent finanziert, wissenschaftlich belastbar und gegen politische oder kommerzielle Vereinnahmung geschützt?
+>
+> Vertrauen entsteht hier nicht durch das Label „Schweiz“, sondern durch nachvollziehbare Herkunft, transparente Annahmen, prüfbare Methoden und klare Verantwortlichkeiten.
+>
+> Die Ziele:
+> Freiheitliche Werte und demokratische Urteilsfähigkeit international stärken und zugleich die Schweiz als innovativen Standort weiterentwickeln. Ihr Vorstoss legt dafür das perfekte Fundament.
+
 ## Core conclusion
 
 The Charter should not frame public-interest AI mainly as a national technology asset. A national effort can be valuable, but the larger opportunity is an internationally governable public AI infrastructure: open enough for inspection, shared enough for legitimacy, and protected enough to resist capture.
