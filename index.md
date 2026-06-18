@@ -93,6 +93,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 - **Risk audit:** [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
 - **Mechanism synthesis:** [From Manifesto to Mechanism](background/from-manifesto-to-mechanism.md) - historical synthesis retained for traceability.
 - **Landscape & positioning:** [Landscape & positioning](background/landscape-and-positioning.md) - WIP context on adjacent efforts and differentiation.
+- **Public AI governance pickup:** [Public AI infrastructure governance pickup](background/public-ai-infrastructure-governance-pickup.md) - WIP note on international co-stewardship, national contributions, and capture-resistant public AI infrastructure governance.
 
 ## How To Help
 

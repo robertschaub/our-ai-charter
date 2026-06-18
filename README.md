@@ -51,6 +51,7 @@ Any future Charter claim should sit on a three-layer assurance stack: **provider
 - [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) — the real-world risks the obligations must cover, and the evidence each risk should leave behind
 - [Mechanism synthesis note](background/from-manifesto-to-mechanism.md) — historical synthesis retained for traceability
 - [Landscape & positioning](background/landscape-and-positioning.md)
+- [Public AI infrastructure governance pickup](background/public-ai-infrastructure-governance-pickup.md) — strategic note on international co-stewardship, national contributions, and capture-resistant public AI governance
 
 ## Status
 

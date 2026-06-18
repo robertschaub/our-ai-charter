@@ -2,7 +2,7 @@
 
 # How could "trustworthy AI" be certified? — an assurance-stack model
 
-_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-06-16. Grounded in how certification works in other industries._
+_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-06-18. Grounded in how certification works in other industries._
 
 This is a **future-state model**, not a scheme that exists today. The current phase is pilot evaluation reports only: no Trust Mark, no certificate, no accredited assessor, and no certification body.
 
@@ -21,15 +21,15 @@ Credible certification never rests on one anointed body's say-so. It rests on a 
 
 ## For AI, this is already emerging — and it's thin
 
-The EU AI Act includes **"notified bodies"** — independent third parties designated by member states — for some high-risk-AI conformity assessments. Article 43 is category-specific: many Annex III high-risk systems use internal-control conformity assessment without a notified body, while biometrics and product-law systems can require or involve third-party assessment in specified cases. General-purpose AI providers have separate documentation, copyright-policy, training-summary, systemic-risk, incident-reporting, and cybersecurity obligations. The structure exists in law, but it does not create a single international information-integrity baseline for every AI system a buyer or user may rely on.
+The EU AI Act includes **"notified bodies"** — independent third parties designated by member states — for some high-risk-AI conformity assessments. Article 43 is category-specific: many Annex III high-risk systems use internal-control conformity assessment without a notified body, while biometrics and product-law systems can require or involve third-party assessment in specified cases. General-purpose AI providers have separate documentation, copyright-policy, training-summary, systemic-risk, incident-reporting, and cybersecurity obligations. Transparency rules also create duties around AI involvement, generated-content marking or labelling, and related user-facing disclosures where relevant. The structure exists in law, but it does not create a single international information-integrity baseline for every AI system a buyer or user may rely on.
 
 ## The assurance stack: provider-declared legal scope, common baseline, public-interest modules
 
-State regulation sets enforceable duties, rights, supervisory powers, and sanctions inside each jurisdiction. But those legal floors are not uniform internationally. A voluntary mark cannot replace law, weaken it, or certify legal compliance across every jurisdiction.
+State regulation sets enforceable duties, rights, supervisory powers, and sanctions inside each jurisdiction. The EU AI Act is one such legal floor for systems, roles, and markets within its scope. But legal floors are not uniform internationally. A voluntary mark cannot replace law, weaken it, or certify legal compliance across every jurisdiction.
 
 Certification would be useful for a different job if it is structured as a three-layer assurance stack:
 
-1. **Provider-declared legal scope (the legal floor).** The assessed release declares its markets, role in the value chain, use-case, risk category, domain regimes, and required legal artefacts. The Charter does not certify legal compliance, provide legal advice, replace a notified body, override a regulator, or grant market-entry permission. The evaluator or future assessor checks that the public claim is limited to the declared scope and records missing, disputed, or out-of-scope legal artefacts as limitations. Regulators, courts, notified bodies, domain certification bodies, and the provider's own legal assessment decide legal compliance.
+1. **Provider-declared legal scope (the legal floor).** The assessed release declares its markets, role in the value chain, use-case, risk category, domain regimes, and required legal artefacts. The Charter complements legal regimes by making scope, evidence, limitations, and public-interest modules inspectable; it does not certify legal compliance, provide legal advice, replace a notified body, override a regulator, or grant market-entry permission. The evaluator or future assessor checks that the public claim is limited to the declared scope and records missing, disputed, or out-of-scope legal artefacts as limitations. Regulators, courts, notified bodies, domain certification bodies, and the provider's own legal assessment decide legal compliance.
 2. **Common Charter baseline.** The five public obligations become operational duties that can be checked consistently across jurisdictions. Stricter local law prevails; weaker or silent local law does not lower the baseline.
 3. **Public-interest modules.** Additional modules test the Charter's distinctive concerns beyond ordinary compliance: factual grounding and correction; contestability and remedy; coercive-control, restriction, shutdown, and manipulation transparency; AI-app security and abuse resistance; privacy, provenance, and data rights; fairness across affected groups and contexts; resource and public-access impacts; and creator or copyright fairness where relevant. Modules are optional only where the risk is not material to the assessed release. A module marked **not assessed** does not waive baseline duties, and a full Charter alignment claim cannot omit material modules.
 
@@ -75,6 +75,8 @@ Certification schemes are rarely founded as standalone authorities — they're *
 - **A public anchor can lend context or convening legitimacy** — UNESCO, the Council of Europe, or relevant EU assurance structures, without implying endorsement, legal approval, or that the Charter certifies legal compliance.
 
 **Realistic model here:** *you convene; you don't run an audit empire.* The initiator is the founder + the early manifesto signatories (a small founding coalition); the standard is **hosted inside an existing neutral body** — strongest candidates given the information-integrity angle: a journalism-trust body (IFCN/EFCSN), a neutral standards/tech host (Linux Foundation, OASIS, CEN), or the Digital Public Goods Alliance — with anchor partners for substance (MLCommons for evaluation, the AI Alliance, Current AI). That's how JTI, IFCN, OpenSSF and CoSAI all started.
+
+Where the Charter is applied to public AI infrastructure, legal form is secondary to stewardship. A credible host or steward should let partners inspect evidence, challenge claims, participate in governance, and support the work only under disclosed, capped, conflict-managed funding rules. Model operation, standard-setting, evaluation, accreditation, and funding decisions should be institutionally separate or strongly firewalled; the steward maintains the standard and registry, but does not audit or operate the infrastructure itself.
 
 ## How would it be financed?
 

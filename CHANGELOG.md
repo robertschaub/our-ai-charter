@@ -2,6 +2,12 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-06-18
+- **Founding Accord v0.13 / certification model governance alignment** — reflected the public-AI infrastructure pickup as generic international co-stewardship, neutral-host, and capture-resistance language while keeping named initiatives as unverified background inputs.
+- **Public AI infrastructure governance pickup** — added a WIP background note preserving the international co-stewardship, national-contribution, and capture-resistant governance proposal for follow-up drafting.
+- **Founding Accord v0.12** — clarified that the EU AI Act and comparable regimes are legal floors while the Charter is a complementary evidence and public-interest layer; added AI-involvement notice and generated-content marking or labelling to legal-scope and transparency evidence expectations.
+- **Certification model** — aligned the assurance-stack explanation with the EU AI Act legal-floor framing and added transparency duties to the AI Act context without implying Charter legal-compliance certification.
+
 ## 2026-06-16
 - **Git versioning convention** — documented that published article and post mirrors keep stable filenames; Git history, status labels, changelog entries, and document notes carry versioning.
 - **Published-article metadata correction** — corrected repository notes to reflect that the LinkedIn article itself was updated to the five-obligation version on 16 June 2026, not only the repository draft.
