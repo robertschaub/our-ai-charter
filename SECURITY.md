@@ -10,7 +10,7 @@ Do not open a public issue or pull request if you find:
 
 - a leaked secret, token, key, credential, or `.env` value;
 - private, internal, unpublished-confidential, or personal data;
-- material that belongs in the private `FactHarbor-internal` repository;
+- material that belongs in a private administrative repository;
 - a GitHub or repository-configuration problem that could expose non-public material.
 
 Contact the maintainer privately at [info@factharbor.ch](mailto:info@factharbor.ch), or use GitHub private vulnerability reporting.
@@ -24,7 +24,7 @@ Public issues are appropriate for document problems: unclear wording, missing so
 - Never commit secrets or private material here.
 - Treat GitHub secret scanning and push protection as a backstop, not as permission to be careless.
 - If sensitive material is committed, do not assume deleting it in a later commit is enough. Git history, forks, caches, and search indexes may still expose it.
-- Keep non-public drafts, notes, and coordination in `FactHarbor-internal`, not this repository.
+- Keep non-public drafts, notes, and coordination in private administrative storage, not this repository.
 
 ## Local Safeguards
 

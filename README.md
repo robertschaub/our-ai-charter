@@ -18,6 +18,8 @@ This repository is the open home of the charter and the drafts that put teeth on
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)**
 
+Program map: **[PROGRAM.md](PROGRAM.md)** — how this normative framework relates to the public FactHarbor technical infrastructure.
+
 > **Every document is labeled at the top with its status — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION` — so it's always clear what is final and what is still being worked out.**
 
 ## Current reader path

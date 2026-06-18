@@ -13,7 +13,7 @@ AI is becoming infrastructure for how people learn, decide, work, and form publi
 
 Our AI Charter is a public-interest draft for making AI more trustworthy in practice: bounded by purpose, answerable to people, safe and private enough to rely on, fair in practice, and open to evidence and correction.
 
-[Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the risk audit](background/risk-and-vulnerability-audit.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md) · [Read the certification model](protocol/certification-model.md)
+[Read the program map](PROGRAM.md) · [Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the risk audit](background/risk-and-vulnerability-audit.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md) · [Read the certification model](protocol/certification-model.md)
 
 ## The Practical Demand
 
@@ -81,6 +81,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 
 ## Document Index
 
+- **Program map:** [Program Map](PROGRAM.md) - how this normative framework relates to the public FactHarbor technical infrastructure.
 - **Published manifesto article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto, updated on LinkedIn 16 June 2026.
 - **Launch post:** [Launch post](manifesto/launch-post.md) - the accompanying LinkedIn feed post.
 - **Published comment:** [Who would actually certify this?](manifesto/certification-comment.md) - the short answer: build the test, borrow the machinery.

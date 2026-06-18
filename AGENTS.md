@@ -13,14 +13,29 @@ This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE
 - Keep imported FactHarbor practices **documents-only**: agent rules, issue/PR templates, safety policies, and local destructive-git guards are appropriate; app runtime rules, generated indexes, database guards, test commands, and deployment workflows are not.
 - Every document carries a **status label** at the top — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION`. Keep it accurate; it's how readers know what is final.
 
+## Program constellation
+
+Our AI Charter is the public normative framework in a broader research program:
+
+> Researching how we can build a fair, stable, and sustainable society that uses new technologies responsibly.
+
+The public program map is [PROGRAM.md](PROGRAM.md). This repository should contain only the public normative layer: charter, manifesto, evaluation protocol, and public background.
+
+Boundary rules for agents:
+
+- Stay inside this repository root unless the maintainer explicitly names an external repository or path in the current task.
+- Do not read, import, summarize, or reference private operational material in this repository or any public artifact produced from it.
+- Do not create public links, document dependencies, or process dependencies on private repositories, local machine paths, or unpublished operational records.
+- Public cross-links should point to public URLs or public files only.
+
 ## Public-repo discipline (read first)
 
-This repository is **public**. A separate, **private** repository (`FactHarbor-internal`) exists for non-public material — that is where anything confidential belongs, never here.
+This repository is **public**. A separate private administrative repository exists for non-public material — that is where anything confidential belongs, never here.
 
 - **Never commit private, internal, unpublished-confidential, or personal data into this repo.** When in doubt, leave it out.
 - **Never commit secrets** — API keys, tokens, credentials, `.env` files. GitHub **secret scanning + push protection** is enabled and will block known secret formats, but treat it as a backstop, not a license to be careless.
 - If sensitive material appears in a working tree, diff, issue, or PR, stop and notify the maintainer privately; do not open a public issue containing the material. See [SECURITY.md](SECURITY.md).
-- Do not create public links or process dependencies on the private sibling repository. Keep non-public working material in `FactHarbor-internal`, not here.
+- Do not create public links or process dependencies on private repositories. Keep non-public working material outside this repo.
 - Assume everything committed is **permanent and worldwide** — forks, caches, and search indexes mean you cannot fully un-publish.
 
 ## Git & safety
@@ -33,7 +48,7 @@ This repository is **public**. A separate, **private** repository (`FactHarbor-i
 
 ## GitHub repository posture
 
-- Repository visibility is **public**; the private sibling `FactHarbor-internal` holds non-public material.
+- Repository visibility is **public**; non-public material belongs in a private administrative repository.
 - Only the maintainer account should have direct repository access. Do not add collaborators, write deploy keys, webhooks, or GitHub Apps without explicit maintainer approval.
 - Public issues and pull requests are enabled for feedback. GitHub Pages is enabled as a simple document site from `main`; keep it branch/Jekyll-based unless the maintainer explicitly asks for a richer document viewer. Wiki and Projects should stay disabled. Actions may be enabled only to support GitHub Pages builds, with allowed actions restricted to local actions; do not add workflow files unless explicitly requested.
 - Do not copy FactHarbor's xWiki XAR import/export workflow into this repo. If the site later needs richer navigation, port only the static presentation pieces needed for Pages and keep the Markdown documents authoritative.

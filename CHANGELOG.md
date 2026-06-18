@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-18
+- **Program map and agent boundaries** — added a public program map for the Charter/FactHarbor constellation and tightened public-repo agent rules so private operational context stays outside public artifacts.
 - **Public AI infrastructure governance pickup** — preserved the already-posted German public comment as provenance for the governance note.
 - **Certification model host hypothesis** — source-checked the proposed neutral-host model and softened it from a single origin template into a two-track outreach hypothesis with verified analogues and links.
 - **Founding Accord v0.13 / certification model governance alignment** — reflected the public-AI infrastructure pickup as generic international co-stewardship, neutral-host, and capture-resistance language while keeping named initiatives as unverified background inputs.
