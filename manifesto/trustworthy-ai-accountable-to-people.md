@@ -1,4 +1,4 @@
-> **Status: WORKING DRAFT** — updated repository version, derived from the LinkedIn article published 14 June 2026 and updated on LinkedIn 16 June 2026.
+> **Status: WORKING DRAFT** — updated repository version, derived from the LinkedIn article published 14 June 2026 and updated on LinkedIn 19 June 2026.
 > Original canonical post: [https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)
 
 # Trustworthy AI, Accountable to People — Repository Draft
@@ -17,17 +17,17 @@ That's the urgency. It won't fix itself.
 
 ## The world to build instead
 
-A world where AI is a shared, trustworthy foundation for all of humanity — open, plural, and answerable to people — that no single company or government can switch off, bend, or hide from scrutiny, and whose claims you can actually check.
+A world where AI is a shared, trustworthy foundation for all of humanity — open, plural, and answerable to people — that no single company or government can switch off, bend, or hide from scrutiny, and whose material claims can be traced, tested, and challenged.
 
 ## The obligations
 
-Trustworthy AI — and those who build and run it — must meet five obligations. Not aspirations; tests it can pass or fail.
+Trustworthy AI — and those who build and run it — must meet five obligations. Not aspirations; operational duties that can be assessed within a stated scope.
 
 1. **Purpose-bound.** A system must say what it is for, what it must not be used for, who may be affected, what risks are known, and when its claim to trust needs to be checked again.
 2. **Answerable to people.** A named human institution must answer for the system's claims, harms, incidents, data use, and consequential decisions. People need notice, review, challenge, and remedy where the system affects them.
 3. **Safe, secure, private, and resilient.** A system must protect people, data, infrastructure, and public-interest reliance: safety controls, cybersecurity, privacy, misuse handling, continuity, and exit paths cannot be afterthoughts.
-4. **Fair in practice.** A system must be checked for uneven or discriminatory performance across relevant groups, languages, regions, and contexts, with limits disclosed and harms escalated or corrected.
-5. **Open to evidence and correction.** A system must leave evidence behind: claims, sources, uncertainty, limits, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks must be inspectable and acted on.
+4. **Fair in practice.** Where an AI system may materially affect people, rights, opportunities, or access to services, it must be tested and monitored for materially uneven or discriminatory performance across relevant groups, languages, regions, and contexts. Known limits must be disclosed, credible harm signals escalated, and harms mitigated, corrected, constrained, or withdrawn where necessary.
+5. **Open to evidence and correction.** For material claims, recommendations, decisions, and risk-relevant system behavior, the system and its operators must preserve enough evidence for appropriate review: outputs, claims, sources where used, uncertainty signals, known limits, incidents, material changes, drift signals, complaints, corrections, withdrawals, and unresolved risks must be inspectable by responsible parties, triaged, and acted on proportionately.
 
 It means contestable control: lawful recall, misuse safeguards, and named operators who answer for the system publicly — never secret kill-switches.
 
@@ -57,15 +57,15 @@ Phase 1 needs a small group of founding funders willing to back the method befor
 
 ## What I'm asking
 
-This can't be built by one person or one organization.
+This cannot be built by one person or one organization.
 
-For safe, resilient, public-interest AI, the builders already exist — open-model labs, public compute, public-interest coalitions on every inhabited continent. What's missing is not capability or principles. It's the will to connect them around standards, evidence records, continuity plans, and exit paths.
+The builders already exist: open-model labs, public compute efforts, research groups, standards bodies, and public-interest coalitions across regions. What is missing is the connective tissue: shared evidence records, evaluation methods, accountability routes, continuity plans, and correction processes.
 
-Evidence-backed, corrigible AI is the harder frontier — one to demand investment in, not assume away.
+Making AI outputs evidence-backed, challengeable, and open to correction is the harder frontier. It needs deliberate investment, not optimistic assumptions.
 
 If you **build** AI: publish what the system is for, what it must not be used for, who controls it, what legal scope is declared, how significant changes are logged, how security/privacy/misuse/bias incidents are handled, who can challenge harms or errors, and what evidence supports public claims. If you volunteer a release for pilot evaluation, publish a privacy-preserving release risk assessment and say clearly which modules the pilot evaluates and which remain not assessed. Do not market a Phase 1 pilot report as Charter alignment, certification, or Trust Mark status. Work toward these five obligations.
 
-If you **buy or depend on** AI: ask the six practical questions — what is this system for, who controls it, who is accountable, how can people challenge it, who can inspect it, and can its claims and failures be checked? Penalise unsupported claims. Shift spending toward systems being built to pass the test.
+If you **buy or depend on** AI: ask the six practical questions — what is this system for, who controls it, who is accountable, how can people challenge it, who can inspect it, and can its material claims and failures be checked? Penalise unsupported claims. Shift spending toward systems being built to pass the test.
 
 If you **shape policy or study this**: tell me where it breaks. Help place it.
 
@@ -83,12 +83,12 @@ _If you build AI, fund it, study it, govern it, teach it, or rely on it — you 
 
 ---
 
-Working draft, updated 16 June 2026. Source and work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter).
+Working draft, updated 19 June 2026. Source and work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter).
 
 ---
 
-_Published version: LinkedIn article, 14 June 2026; updated on LinkedIn 16 June 2026._
+_Published version: LinkedIn article, 14 June 2026; updated on LinkedIn 19 June 2026._
 
-_Repository working draft, updated 16 June 2026._
+_Repository working draft, updated 19 June 2026._
 
-_Changes: the LinkedIn article and repository draft now use five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; the repository draft additionally consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds the legal-floor/common-baseline/public-interest-module assurance stack; adds explicit treatment of release risk assessments, assessed-scope limits, and broader risk coverage; aligns the builder call with Phase 1 no-alignment-claim discipline; tightens the control paragraph around contestable control; and records the LinkedIn article update of 16 June 2026 with repository source link._
+_Changes: the LinkedIn article and repository draft now use five public obligations — **Purpose-bound**, **Answerable to people**, **Safe, secure, private, and resilient**, **Fair in practice**, and **Open to evidence and correction**; the repository draft additionally consolidates the Practical Demand into six questions; clarifies the phase split between pilot evaluation and any future certification scheme; adds the legal-floor/common-baseline/public-interest-module assurance stack; adds explicit treatment of release risk assessments, assessed-scope limits, broader risk coverage, material-claim scope, proportional review, and correction limits; aligns the builder call with Phase 1 no-alignment-claim discipline; tightens the control paragraph around contestable control; and records the LinkedIn article update of 19 June 2026 with repository source link._

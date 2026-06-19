@@ -2,6 +2,9 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-06-19
+- **Feasibility wording alignment** — updated the repository article, launch-post mirror, README, site index, and Founding Accord v0.14 so fairness and correction duties are framed around material effects, material claims, appropriate review, proportional action, stated limits, shared evidence records, challengeability, and correction processes rather than absolute checkability or full-transparency promises.
+
 ## 2026-06-18
 - **Program map and agent boundaries** — added a public program map for the Charter/FactHarbor constellation and tightened public-repo agent rules so private operational context stays outside public artifacts.
 - **Public AI infrastructure governance pickup** — preserved the already-posted German public comment as provenance for the governance note.

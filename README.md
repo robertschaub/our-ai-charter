@@ -11,8 +11,8 @@ AI is becoming the infrastructure the world learns, decides, and creates with. *
 - **Purpose-bound** — assessed systems state what they are for, what they must not be used for, who may be affected, and what risks are known;
 - **Answerable to people** — a named human institution is responsible, and consequential uses have notice, review, challenge, and remedy;
 - **Safe, secure, private, and resilient** — systems protect people, data, infrastructure, continuity, and public-interest reliance;
-- **Fair in practice** — uneven or discriminatory performance is tested, monitored, disclosed, and remediated where relevant;
-- **Open to evidence and correction** — claims, sources, limits, incidents, changes, drift, and corrections leave evidence that can be inspected and acted on.
+- **Fair in practice** — materially uneven or discriminatory performance is tested and monitored where relevant, with limits disclosed and credible harms escalated, mitigated, corrected, constrained, or withdrawn where necessary;
+- **Open to evidence and correction** — material claims, sources where used, limits, incidents, changes, drift, complaints, corrections, withdrawals, and unresolved risks leave enough evidence for appropriate review and action.
 
 This repository is the open home of the charter and the drafts that put teeth on it.
 
@@ -36,7 +36,7 @@ Any future Charter claim should sit on a three-layer assurance stack: **provider
 
 ## Published (live)
 
-- **[Published manifesto article](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; updated on LinkedIn 16 June 2026). The **why**.
+- **[Published manifesto article](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; updated on LinkedIn 19 June 2026). The **why**.
 - **[Launch post](manifesto/launch-post.md)** — the accompanying feed post.
 - **[Certification comment](manifesto/certification-comment.md)** — the short LinkedIn comment answering "who would actually certify this?"
 

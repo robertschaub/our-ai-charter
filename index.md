@@ -9,7 +9,7 @@ permalink: /
 
 **Trustworthy AI, accountable to people.**
 
-AI is becoming infrastructure for how people learn, decide, work, and form public opinion. That infrastructure cannot be left to a few private providers, opaque shutdown powers, unsafe or insecure systems, discriminatory failures, privacy leakage, coercive manipulation, or factual claims that cannot be checked.
+AI is becoming infrastructure for how people learn, decide, work, and form public opinion. That infrastructure cannot be left to a few private providers, opaque shutdown powers, unsafe or insecure systems, discriminatory failures, privacy leakage, coercive manipulation, or material factual claims that cannot be traced or challenged.
 
 Our AI Charter is a public-interest draft for making AI more trustworthy in practice: bounded by purpose, answerable to people, safe and private enough to rely on, fair in practice, and open to evidence and correction.
 
@@ -24,7 +24,7 @@ People who use, buy, study, regulate, or are affected by AI need more than promi
 3. **Who is accountable?** Each deployment needs an accountable owner, jurisdiction, contact route, and retained evidence for public claims, safety, security, privacy, fairness, and misuse handling.
 4. **How can people challenge it?** Affected people need notice, a usable complaint route, response times, human review for consequential uses, and records of outcomes, including data-use, discrimination, restriction, or shutdown decisions where challenge is legally possible.
 5. **Who can inspect it?** Public transparency, confidential audit access, lawful regulator access, protected research access, red-team evidence, security testing, privacy controls, and data provenance must be distinguished and scoped.
-6. **Can its claims and failures be checked?** Factual claims, consequential decisions, restriction orders, security/privacy/misuse incidents, disparate failure rates, corrections, significant changes, withdrawals, and exit paths must leave testable evidence.
+6. **Can its claims and failures be checked?** Material factual claims, consequential decisions, restriction orders, security/privacy/misuse incidents, disparate failure rates, corrections, significant changes, withdrawals, and exit paths must leave testable evidence.
 
 These questions turn the published manifesto into a concrete charter and the first auditable modules.
 
@@ -44,11 +44,11 @@ The system should protect people, data, infrastructure, and public-interest reli
 
 ### 4. Fair in practice
 
-The system should be tested and monitored for uneven or discriminatory performance across relevant groups, languages, regions, and contexts. Limits and disparities should be disclosed, investigated, and corrected or escalated where they cause harm.
+Where an AI system may materially affect people, rights, opportunities, or access to services, it should be tested and monitored for materially uneven or discriminatory performance across relevant groups, languages, regions, and contexts. Known limits should be disclosed, credible harm signals escalated, and harms mitigated, corrected, constrained, or withdrawn where necessary.
 
 ### 5. Open to evidence and correction
 
-The system should leave evidence that can be inspected and acted on: public claims, factual sources, uncertainty, limitations, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks.
+For material claims, recommendations, decisions, and risk-relevant system behavior, the system and its operators should preserve enough evidence for appropriate review: outputs, claims, sources where used, uncertainty signals, known limits, incidents, material changes, drift signals, complaints, corrections, withdrawals, and unresolved risks should be inspectable by responsible parties, triaged, and acted on proportionately.
 
 ## Risk Coverage
 
@@ -82,7 +82,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 ## Document Index
 
 - **Program map:** [Program Map](PROGRAM.md) - how this normative framework relates to the public FactHarbor technical infrastructure.
-- **Published manifesto article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto, updated on LinkedIn 16 June 2026.
+- **Published manifesto article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto, updated on LinkedIn 19 June 2026.
 - **Launch post:** [Launch post](manifesto/launch-post.md) - the accompanying LinkedIn feed post.
 - **Published comment:** [Who would actually certify this?](manifesto/certification-comment.md) - the short answer: build the test, borrow the machinery.
 - **Updated repository article:** [Trustworthy AI, Accountable to People](manifesto/trustworthy-ai-accountable-to-people.md) - the working version updated with the current baseline and audit framing.

@@ -1,9 +1,9 @@
-> **Status: WORKING DRAFT (v0.13)** — open for comment; not final.
+> **Status: WORKING DRAFT (v0.14)** — open for comment; not final.
 
 # Our AI Charter — the Founding Accord
 ### A public charter for trustworthy AI — built together, answerable to people.
 
-_Draft v0.13 (2026-06-18). Open for comment._
+_Draft v0.14 (2026-06-19). Open for comment._
 
 ---
 
@@ -49,7 +49,7 @@ People who use, buy, study, regulate, or are affected by AI need more than promi
 - **Who is accountable?** The entity that answers when the system is deployed, procured, embedded in a public workflow, used on personal data, misused, or involved in a safety, security, privacy, or discrimination incident.
 - **How can people challenge it?** The routes for objection, review, correction, reversal, withdrawal, or escalation where harm, data use, discrimination, consequential decisions, restrictions, or shutdowns are involved.
 - **Who can inspect it?** The boundary between public transparency, confidential audit, lawful oversight, protected research access, red-team evidence, security testing, privacy controls, and data provenance.
-- **Can its claims and failures be checked?** The evidence trail for factual claims, consequential decisions, restriction decisions, security/privacy/misuse incidents, disparate failure rates, material changes, corrections, withdrawals, and exit paths.
+- **Can its claims and failures be checked?** The evidence trail for material factual claims, consequential decisions, restriction decisions, security/privacy/misuse incidents, disparate failure rates, material changes, corrections, withdrawals, and exit paths.
 
 Those needs are the bridge from the manifesto's five public obligations to concrete operational duties.
 
@@ -58,8 +58,8 @@ Those needs are the bridge from the manifesto's five public obligations to concr
 1. **Purpose-bound.** The system says what it is for, what it must not be used for, who may be affected, and what risks are known.
 2. **Answerable to people.** A named human institution is responsible; consequential uses have notice, review, challenge, and remedy.
 3. **Safe, secure, private, and resilient.** The system protects people, data, infrastructure, continuity, and public-interest reliance.
-4. **Fair in practice.** The system is checked for uneven or discriminatory performance across affected groups, languages, regions, and contexts.
-5. **Open to evidence and correction.** Claims, sources, limits, incidents, material changes, drift, and corrections leave evidence that can be inspected and acted on.
+4. **Fair in practice.** Where a system may materially affect people, rights, opportunities, or access to services, it is tested and monitored for materially uneven or discriminatory performance across affected groups, languages, regions, and contexts; known limits and credible harm signals are disclosed, escalated, mitigated, corrected, constrained, or withdrawn where necessary.
+5. **Open to evidence and correction.** Material claims, recommendations, decisions, and risk-relevant behavior leave enough evidence for appropriate review: claims, sources where used, uncertainty signals, limits, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks are inspectable by responsible parties, triaged, and acted on proportionately.
 
 **How the pieces fit:** the five public obligations are the promise; the operational duties are the audit categories; modules are what a pilot report actually tests. In Phase 1, a pilot may assess only one or several modules, and must mark the rest **not assessed**. A future certification baseline would decide which duties must be assessed for a full Trust Mark claim.
 
