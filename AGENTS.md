@@ -23,8 +23,8 @@ The public program map is [PROGRAM.md](PROGRAM.md). This repository should conta
 
 Boundary rules for agents:
 
-- Stay inside this repository root unless the maintainer explicitly names an external repository or path in the current task.
-- Do not read, import, summarize, or reference private operational material in this repository or any public artifact produced from it.
+- Stay inside this repository root unless the maintainer explicitly names an external repository or path in the current task. The private administrative sibling (see *Private administrative sibling (maintainer-only)* below) is a standing named exception for maintainer-side agents.
+- Maintainer-side agents may **read** the private administrative sibling repository when a task requires it (see *Private administrative sibling (maintainer-only)* below), but must **never copy, import, summarize, quote, or paraphrase its confidential or personal content into this repository or any public artifact produced from it.**
 - Do not create public links, document dependencies, or process dependencies on private repositories, local machine paths, or unpublished operational records.
 - Public cross-links should point to public URLs or public files only.
 
@@ -37,6 +37,28 @@ This repository is **public**. A separate private administrative repository exis
 - If sensitive material appears in a working tree, diff, issue, or PR, stop and notify the maintainer privately; do not open a public issue containing the material. See [SECURITY.md](SECURITY.md).
 - Do not create public links or process dependencies on private repositories. Keep non-public working material outside this repo.
 - Assume everything committed is **permanent and worldwide** — forks, caches, and search indexes mean you cannot fully un-publish.
+
+## Private administrative sibling (maintainer-only)
+
+Confidential operational material — legal, finance, partner, banking, fundraising, outreach, contact, and strategy records — lives in a **separate private repository, `FactHarbor-internal`**, never in this public repo. This public repository is the program's umbrella for the *public* normative and published work; `FactHarbor-internal` is the home for anything confidential.
+
+- **Access is restricted to the maintainer, Robert Schaub.** External contributors and their agents have no access to it and should not expect any.
+- When the maintainer runs an AI agent on his own machine, that agent is granted **full read/write access to `FactHarbor-internal`** and may use it for cross-repo tasks.
+- The hard invariant still holds: **never copy, quote, or derive confidential or personal data from the private repo into this public repo or any public artifact.** When in doubt, leave it out and ask the maintainer.
+
+## Where new files go (route by content, not by cwd)
+
+This public repo and the private `FactHarbor-internal` are one program with two homes. Route every new file by what it contains, regardless of which repo the agent was launched in:
+
+| Content | Home |
+|---|---|
+| Charter, manifesto, protocol, published articles/posts/comments, public background — anything meant for the world | **`our-ai-charter`** (here) |
+| Legal, finance, banking, fundraising, partner, outreach, contacts, personal data, internal strategy, operational/working records — anything not yet public | **`FactHarbor-internal`** (private) |
+
+- **Unsure → write it to `FactHarbor-internal` and ask the maintainer.** Over-classifying as private is cheap; a public misroute is permanent and worldwide.
+- This repo must **never** receive confidential or personal content, even temporarily in the working tree.
+- **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an internal banner; it's a backstop, not a substitute for the rule. Only Claude Code's hook enforces git safety automatically; other agents must self-enforce.
+- Writing into `FactHarbor-internal` requires the agent's tool workspace to grant access to that path; if it is unreachable, do the public part here and leave the private part to the maintainer.
 
 ## Git & safety
 

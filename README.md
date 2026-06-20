@@ -36,7 +36,8 @@ Any future Charter claim should sit on a three-layer assurance stack: **provider
 
 ## Published (live)
 
-- **[Published manifesto article](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; updated on LinkedIn 19 June 2026). The **why**.
+- **[Published manifesto article](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; updated on LinkedIn 19 June 2026). The **why** — the accountability and evaluation thread. Repository version (working draft): [trustworthy-ai-accountable-to-people.md](manifesto/trustworthy-ai-accountable-to-people.md).
+- **[KI-Souveränität und Resilienz](manifesto/ki-souveraenitaet-und-resilienz.md)** — *PUBLISHED* (LinkedIn, 20 June 2026). The same umbrella seen from the public-AI-sovereignty and governance thread: why a Swiss open-model effort needs a transparent governance layer and an international, capture-resistant host. [Canonical post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
 - **[Launch post](manifesto/launch-post.md)** — the accompanying feed post.
 - **[Certification comment](manifesto/certification-comment.md)** — the short LinkedIn comment answering "who would actually certify this?"
 

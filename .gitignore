@@ -41,3 +41,6 @@ _site/
 # Local assistant handover notes (private — never publish)
 HANDOVER.md
 *.local.md
+
+# Gemini CLI local configuration
+.gemini/

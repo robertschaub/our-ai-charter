@@ -1,0 +1,25 @@
+#!/bin/sh
+# our-ai-charter is a PUBLIC repository. This guard blocks commits that add
+# content carrying an internal/confidential/private banner — a tool-agnostic backstop
+# for agents without their own commit guard (Codex, Gemini, Copilot).
+# Activate per clone: git config core.hooksPath .githooks
+# Deliberate override (maintainer only): git commit --no-verify
+markers='status:[* ]*(internal|confidential|private)|internal handoff|internal working note|internal publication record|internal reference note|confidential[ ,.—-]*internal|confidential[, ]*not for distribution|not for distribution|nicht zur weitergabe|vertraulich, nicht'
+violations=''
+IFS='
+'
+for f in $(git diff --cached --name-only --diff-filter=ACM); do
+	case "$f" in .githooks/*) continue ;; esac
+	if git show ":$f" 2>/dev/null | grep -EIiq "$markers"; then
+		violations="$violations  $f
+"
+	fi
+done
+if [ -n "$violations" ]; then
+	echo "pre-commit BLOCKED: confidentiality marker found in this PUBLIC repo:" >&2
+	printf '%s' "$violations" >&2
+	echo "Move the file to FactHarbor-internal, or remove the internal banner if it is genuinely public." >&2
+	echo "Deliberate override: git commit --no-verify" >&2
+	exit 1
+fi
+exit 0

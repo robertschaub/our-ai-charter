@@ -2,6 +2,11 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-06-20
+- **Published article mirror — *KI-Souveränität und Resilienz*** — added `manifesto/ki-souveraenitaet-und-resilienz.md`, a verbatim mirror of the German LinkedIn article (20 June 2026), and listed it in the README index and site index. Presented it as the public-AI-sovereignty and governance facet of the same umbrella as *Trustworthy AI, Accountable to People* (the accountability and evaluation facet), with an in-repo cross-link between the two.
+- **Cross-repo access policy** — reconciled the private-sibling boundary in AGENTS.md: maintainer-side agents may read the private administrative sibling `FactHarbor-internal` for cross-repo tasks, but may never copy, quote, or derive its confidential or personal content into this public repo. Added an AGENTS.md section documenting the policy and pointed CLAUDE.md to it.
+- **Cross-agent routing rule + guard** — added a *Where new files go* routing rule to AGENTS.md, plus a `GEMINI.md` pointer and a Copilot-instructions note, so every assistant (Claude, Codex, Gemini, Copilot) routes new files to the right repo by content. Added a tool-agnostic `.githooks/pre-commit` guard (activate per clone: `git config core.hooksPath .githooks`) that blocks committing internal-banner content to this public repo.
+
 ## 2026-06-19
 - **Feasibility wording alignment** — updated the repository article, launch-post mirror, README, site index, and Founding Accord v0.14 so fairness and correction duties are framed around material effects, material claims, appropriate review, proportional action, stated limits, shared evidence records, challengeability, and correction processes rather than absolute checkability or full-transparency promises.
 
