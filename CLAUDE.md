@@ -6,6 +6,8 @@
 
 A **public, documents-only** repository: manifesto + charter + draft protocol, all Markdown. No source code, build, or tests — don't add them.
 
+Current priority: the repo has two related workstreams under the Our AI Charter umbrella. For the maintainer right now, **KI-Souveränität und Resilienz** is more urgent and higher priority; work on **Trustworthy AI, Accountable to People** only when explicitly asked, when it supports the first workstream, or where there is clear low-hanging fruit.
+
 ## Safety (see AGENTS.md §Git & safety)
 
 - A **PreToolUse hook** in [.claude/settings.json](.claude/settings.json) blocks destructive git (`reset --hard`, `push --force`, `clean -f`, `checkout -- .`). It uses Node.js (present in this workflow) and **fires for the main session only** — never delegate destructive git to a subagent or Workflow agent.

@@ -2,6 +2,9 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-06-21
+- **Agent workstream priority** — updated AGENTS.md and agent wrapper summaries so agents treat the repository as the public home for two related workstreams under the Our AI Charter umbrella: *KI-Souveränität und Resilienz* and *Trustworthy AI, Accountable to People*. Recorded that for the maintainer right now, the Swiss public-AI sovereignty and resilience workstream is more urgent and higher priority, with the accountability/evaluation workstream handled only on request, when supportive, or where there is clear low-hanging fruit.
+
 ## 2026-06-20
 - **Published article mirror — *KI-Souveränität und Resilienz*** — added `manifesto/ki-souveraenitaet-und-resilienz.md`, a verbatim mirror of the German LinkedIn article (20 June 2026), and listed it in the README index and site index. Presented it as the public-AI-sovereignty and governance facet of the same umbrella as *Trustworthy AI, Accountable to People* (the accountability and evaluation facet), with an in-repo cross-link between the two.
 - **Cross-repo access policy** — reconciled the private-sibling boundary in AGENTS.md: maintainer-side agents may read the private administrative sibling `FactHarbor-internal` for cross-repo tasks, but may never copy, quote, or derive its confidential or personal content into this public repo. Added an AGENTS.md section documenting the policy and pointed CLAUDE.md to it.

@@ -21,6 +21,15 @@ Our AI Charter is the public normative framework in a broader research program:
 
 The public program map is [PROGRAM.md](PROGRAM.md). This repository should contain only the public normative layer: charter, manifesto, evaluation protocol, and public background.
 
+Current agent priority:
+
+- Treat this repository as the public home for two related but somewhat separate workstreams under the **Our AI Charter** umbrella:
+  1. **KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken** — the public-AI sovereignty, resilience, Swiss innovation-location, and international-values workstream.
+  2. **Trustworthy AI, Accountable to People** — the accountability, evaluation, Charter, and protocol workstream.
+- For the maintainer right now, **workstream 1 is more urgent and higher priority**. When proposing next steps, choosing between open tasks, or deciding where to spend effort, agents should primarily invest time and effort in **KI-Souveränität und Resilienz**.
+- Work on **Trustworthy AI, Accountable to People** only when the maintainer explicitly asks for it, when it is needed to support workstream 1, or where there is clear low-hanging fruit that does not distract from workstream 1.
+- Do not assume the evaluation-protocol or pilot-readiness path is the next priority merely because it is well developed in the repository.
+
 Boundary rules for agents:
 
 - Stay inside this repository root unless the maintainer explicitly names an external repository or path in the current task. The private administrative sibling (see *Private administrative sibling (maintainer-only)* below) is a standing named exception for maintainer-side agents.
@@ -59,6 +68,10 @@ This public repo and the private `FactHarbor-internal` are one program with two 
 - This repo must **never** receive confidential or personal content, even temporarily in the working tree.
 - **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an internal banner; it's a backstop, not a substitute for the rule. Only Claude Code's hook enforces git safety automatically; other agents must self-enforce.
 - Writing into `FactHarbor-internal` requires the agent's tool workspace to grant access to that path; if it is unreachable, do the public part here and leave the private part to the maintainer.
+
+## Where to work from (primary base)
+
+For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo** (`C:\DEV\our-ai-charter`) as the working base, reaching into `FactHarbor-internal` for the confidential side as the task needs it. Agents based in `FactHarbor-internal` are **also allowed** to do this work and may reach back here — for Charter topics the default base is simply this repo. Content routing (above) is unchanged regardless of base.
 
 ## Git & safety
 
