@@ -14,7 +14,7 @@ This is an open draft — built in the open and meant to be improved by its crit
 
 1. **Break it** — where does "support, not truth" collapse into truth-judging, or mislead a buyer? Where would the method fail?
 2. **Co-design the measurement** — help define the sampling, the unit of analysis, and a risk-tiered bar for *one* use-case.
-3. **Pilot it** — volunteer a system (open-weight or proprietary) for a draft evaluation; results published, anonymised if needed.
+3. **Pilot it** — volunteer a system (open-weight or proprietary) for a draft evaluation; results would be published, anonymised if needed. No pilots are running yet — this registers interest in a possible future step.
 
 ## How to engage
 

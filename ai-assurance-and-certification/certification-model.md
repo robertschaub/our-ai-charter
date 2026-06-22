@@ -4,7 +4,7 @@
 
 _Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-06-18. Grounded in how certification works in other industries._
 
-This is a **future-state model**, not a scheme that exists today. The current phase is pilot evaluation reports only: no Trust Mark, no certificate, no accredited assessor, and no certification body.
+This is a **future-state model**, not a scheme that exists today, and the phased steps below are proposals — not work that is underway or scheduled. No pilot evaluations have been run; there is no Trust Mark, certificate, accredited assessor, or certification body. The current work is drafting and building connections.
 
 ## Short answer: no single authority — and that's the design.
 
@@ -54,7 +54,7 @@ ISO/IEC 42001 is useful here as a management-system reference because it require
 
 ## The practical proposal — lean, phased, not a mega-authority
 
-- **Phase 1 now:** a published method, independent pilot evaluators, public evaluation reports, and a public report index. No mark, certificate, accredited assessor, or certification claim.
+- **Phase 1 (the proposed first step, not yet underway):** a published method, then — if it proceeds — independent pilot evaluators, public evaluation reports, and a public report index. No mark, certificate, accredited assessor, or certification claim. Today only the method and drafts exist.
 - **Phase 2 only if demand appears:** a small standard steward, hosted in or accountable to an existing neutral body, maintains the standard, mark rules, and **public registry** — and audits no one itself. Capture-resistant governance: multi-stakeholder board, capped influence for those bound by or helping write the rules, and two-assessor plus academic re-evaluation for contested cases. *(Models: IFCN/Poynter, GOTS, Creative Commons.)*
 - **Independent accredited assessors** (ML + domain + regional expertise) would do the audits — independent of both vendor and steward.
 - **Ride the accreditation infrastructure that already exists** (ISO/IEC 17065 + national accreditation bodies + IAF) instead of reinventing "who checks the auditors," once the scheme is mature enough to justify it.
@@ -88,14 +88,14 @@ The one rule from every scheme: **diversify — never let one stream dominate.**
   - **Cross-subsidy + hardship waivers + a solidarity fund** for inclusion — Fairtrade (large traders subsidise small producers), IFCN's fee waivers down to $0, the Montreal Protocol's Multilateral Fund (wealthier nations finance poorer ones' compliance).
   - **Diversified sustainability** — the Wikimedia mix (many small donors + an endowment + enterprise revenue), so no single patron holds the leash.
 - **Firewall:** funders disclosed; no funder sets the criteria; the steward's budget is independent of any audited party's fees.
-- **Phasing keeps it cheap early:** Phase 1 (five public obligations, operational duties, independent pilot evaluators, and public reports) is grant-fundable; the costly accreditation pyramid comes only at Phase 2 — paid for by the mix once demand exists.
+- **Phasing keeps it cheap early:** Phase 1 (five public obligations, operational duties, and — if it proceeds — independent pilot evaluators and public reports) would be grant-fundable; the costly accreditation pyramid comes only at Phase 2 — paid for by the mix once demand exists.
 - **Demand funds it:** in Phase 1, procurement and platforms can require the evidence baseline; in Phase 2, if a mark exists, audit demand and the fee base can grow naturally.
 
 _(Funding figures across these examples are illustrative — verify before citing; they shift year to year.)_
 
 ## How it would start — phased
 
-- **Phase 1 (now):** five public obligations and operational duties + independent pilot evaluators + public reports + visible withdrawal of pilot status. Cheap, credible, and honest about not being certification yet.
+- **Phase 1 (proposed first step, not yet underway):** five public obligations and operational duties + independent pilot evaluators + public reports + visible withdrawal of pilot status. Cheap, credible, and honest about not being certification yet.
 - **Phase 2 (at scale):** graduate to the full accreditation pyramid for hard, globally-recognised legitimacy, potentially combining management-system assurance, product/service modules, and ISO/IEC 17065-style scheme controls where appropriate.
 
 ## What it is deliberately NOT

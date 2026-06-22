@@ -51,7 +51,7 @@ The model: a small founding coalition convenes, the standard is hosted inside an
 
 ## How it would be funded
 
-No single funder holds the leash. Public-interest seed grants start Phase 1 — cheap to launch, light to run. Capped fees from assessed organizations (with hardship waivers, so no one is priced out) can fund pilot evaluations. A broad, geographically diverse donor base prevents capture. If a mark exists later, any mark revenue must be capped and diversified so adoption does not become capture.
+No single funder holds the leash. Public-interest seed grants would start Phase 1 — cheap to launch, light to run. Capped fees from assessed organizations (with hardship waivers, so no one is priced out) could fund pilot evaluations. A broad, geographically diverse donor base prevents capture. If a mark exists later, any mark revenue must be capped and diversified so adoption does not become capture.
 
 Phase 1 needs a small group of founding funders willing to back the method before any mark has value. That's the real ask.
 

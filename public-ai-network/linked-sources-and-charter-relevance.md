@@ -88,7 +88,7 @@
 
 ### AI Verify (Singapore) — https://aiverifyfoundation.sg
 **Essence:** A Singapore not-for-profit (under IMDA) developing open-source AI-governance testing tools. Its AI Verify framework offers process checks and technical tests against recognized AI-ethics principles; Project Moonshot is one of the first open-source LLM evaluation toolkits, combining 100+ benchmark datasets with manual and automated red-teaming, integrable into CI/CD with shareable reports.
-**Relevance to our AI charter:** A concrete, runnable toolkit for obligation (4) fairness testing and (3) safety, and a model for the charter's pilot evaluations and auditable evidence trails (5).
+**Relevance to our AI charter:** A concrete, runnable toolkit for obligation (4) fairness testing and (3) safety, and a model for the charter's envisaged pilot evaluations and auditable evidence trails (5).
 
 ### MLCommons AILuminate — https://mlcommons.org/ailuminate/
 **Essence:** A family of safety/security benchmarks from nonprofit MLCommons (via its 100+-org AI Risk & Reliability working group), assessing generative AI across 12 hazard categories — multilingual text-to-text safety, jailbreak/multimodal attacks, agentic reliability — using ~60,000 prompts to produce comparative safety *grades* (not certification).
@@ -203,7 +203,7 @@
 ## 10 · The charter itself
 
 ### Our AI Charter — https://github.com/robertschaub/our-ai-charter
-**Essence:** The author's own working paper and open-source collaboration project: a public-interest governance framework defining the five obligations tabled above, a three-layer assurance model (legal scope → common baseline → public-interest modules), and an initial evaluation protocol for factual grounding and contestability. Currently a Phase-1 working draft, open for public comment and pilot participation — not yet a certification standard.
+**Essence:** The author's own working paper and open-source collaboration project: a public-interest governance framework defining the five obligations tabled above, a three-layer assurance model (legal scope → common baseline → public-interest modules), and an initial evaluation protocol for factual grounding and contestability. Currently a Phase-1 working draft, open for public comment — not yet a certification standard, and with no pilot evaluations running or scheduled.
 **Relevance to our AI charter:** This *is* the charter — the destination all the above initiatives feed into. The models supply what to assess, the openness definitions and benchmarks supply how to assess it, the regulation/treaties supply the binding legal floor, and the UN venues supply the coordination path.
 
 ---

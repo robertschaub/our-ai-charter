@@ -25,7 +25,7 @@ We commit to building that foundation together, and to being held to the values,
 
 - **Supporter** — any person or institution may publicly endorse this Accord.
 - **Member** — organisations that join the Charter, accept its shared, capture-resistant governance, and commit to the path below.
-- **Pilot participant** — organisations may volunteer a specific deployed system for a draft evaluation report. No Mark or certificate is issued in this phase.
+- **Pilot participant** — organisations may volunteer a specific deployed system for a draft evaluation report. No Mark or certificate is issued in this phase, and no pilot evaluations are running yet — volunteering registers interest in a possible future step.
 - **Future Trust Mark candidate / holder** — once a conformity scheme exists, members may submit a specific model or system for independent audit against the operational duties. Any future Mark is granted **per model and version — never as a blanket badge for an organisation** — and may be revoked.
 
 **Key terms**

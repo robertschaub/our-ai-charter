@@ -5,6 +5,8 @@ title: "[Pilot] "
 labels: ["pilot"]
 ---
 
+_No pilot evaluations are running yet. This template registers interest in a possible future step; nothing is scheduled._
+
 **System + version + use-case:**
 
 **Open-weight or proprietary:**

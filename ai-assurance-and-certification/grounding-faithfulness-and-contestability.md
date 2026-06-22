@@ -11,7 +11,7 @@
 
 ## Status of this document
 
-This is an early, openly‑published draft, released to be argued with — not a finished standard, and not something anyone is yet certified against. It has been pressure‑tested once by an adversarial multi‑model review and revised accordingly, but it has **not** been validated against real systems. Treat every number (sample sizes, thresholds, fees) as illustrative, pending per‑use‑case calibration with a statistician. The goal of publishing now is to recruit critique and co‑authors, and to contribute the method *into* existing bodies rather than to found a new one. **How to engage is at the end.**
+This is an early, openly‑published draft, released to be argued with — not a finished standard, and not something anyone is yet certified against. It has been pressure‑tested once by an adversarial multi‑model review and revised accordingly, but it has **not** been validated against real systems, and **no pilot evaluation has been run or is scheduled.** Treat every number (sample sizes, thresholds, fees) as illustrative, pending per‑use‑case calibration with a statistician. The goal of publishing now is to recruit critique and co‑authors, and to contribute the method *into* existing bodies rather than to found a new one. **How to engage is at the end.**
 
 ## Abstract
 
@@ -81,7 +81,7 @@ Require a **correction process**, not just a log:
 - **Raters:** a published **annotation codebook** with edge cases; **domain‑qualified** raters where the use‑case demands (medicine/law/finance); **blinded independent rating** before adjudication; report **raw agreement + an appropriate coefficient** (κ / Krippendorff's α / Gwet's AC1) **per support category**; a published calibration set and drift checks.
 - **Pass rule (where a bar is used):** pre‑specified as *"the lower bound of the confidence interval exceeds the threshold,"* with **risk‑tiered sample sizes** (a medical or election use‑case needs a larger N and higher bar than casual Q&A). This version **reports the rate with its interval and the failure mix; it does not hard‑gate on an unvalidated single number.**
 
-## 6 · How a pilot evaluation runs
+## 6 · How a pilot evaluation would run
 
 1. **Application** names the exact product + version + use‑case + material configuration.
 2. **Evidence pack:** access for the held‑out query set; the legal-scope map; responsibility map; a risk and vulnerability register for the assessed scope; a public release risk assessment for the assessed release; the restriction/recall/shutdown policy; material external-order handling; continuity or exit planning for public-interest reliance; objection-channel design; the existing correction process.
@@ -95,7 +95,7 @@ Require a **correction process**, not just a log:
 
 **Release risk-assessment rule.** The provider publishes a privacy-preserving release risk assessment before making a public claim for the assessed release, and updates it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. The pilot report verifies whether that public assessment exists, is current for the release, covers the assessed scope, includes the legal-scope map, baseline scope, responsibility map, issue date, assessed release ID, last assessor review, surveillance cadence, validity period, claim status, covers material risk classes, distinguishes covered modules from **not assessed** modules, matches the confidential evidence pack, states unresolved findings, limitations, remediation status, redaction reasons, and re-check or withdrawal triggers. It labels assurance depth for each area: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. It must not publish raw user data, secrets, exploit details, or legitimate confidential evidence; vulnerability details should follow coordinated disclosure.
 
-**Realistic cost.** Two independent raters + an adjudicator on a few‑hundred‑pair sample is tens of person‑hours — so a real evaluation costs **low‑thousands to low‑tens‑of‑thousands (USD)**, scaling with sample size and domain difficulty (not the cost of a lightweight document check). Early pilots can run on grant‑funded or volunteer expert raters.
+**Realistic cost.** Two independent raters + an adjudicator on a few‑hundred‑pair sample is tens of person‑hours — so a real evaluation costs **low‑thousands to low‑tens‑of‑thousands (USD)**, scaling with sample size and domain difficulty (not the cost of a lightweight document check). Early pilots, if they happen, could run on grant‑funded or volunteer expert raters.
 
 ## 7 · Contestability (sized so small vendors can comply)
 
@@ -175,7 +175,7 @@ This draft is published to be improved in the open. Three things would help most
 
 1. **Break it.** Where does "support, not truth" still collapse into truth‑judging, or mislead a buyer? Open an issue or write to the address above.
 2. **Co‑design the measurement.** Help set the sampling design, unit of analysis, and a risk‑tiered bar for *one* use‑case.
-3. **Pilot it.** Volunteer a system (open‑weight or proprietary) for a v0.2 evaluation; results published, anonymised if needed.
+3. **Pilot it.** Volunteer a system (open‑weight or proprietary) for a v0.2 evaluation; results would be published, anonymised if needed. None are running yet.
 
 **Working norms:** open drafts and a public change log; conflict‑of‑interest disclosures; published dissent (minority interpretations recorded, not hidden); no single funder dominant; the proposer contributes the method and **recuses** from operating any assessor or registry.
 
