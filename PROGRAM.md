@@ -2,14 +2,11 @@
 
 # Program Map
 
-This work belongs to a broader research program:
+Our AI Charter belongs to a broader research program:
 
 > Researching how we can build a fair, stable, and sustainable society that uses new technologies responsibly.
 
-The public program has two visible layers:
-
-- **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** - the public normative framework: purpose, duties, accountability, evaluation, and future assurance structure.
-- **[FactHarbor](https://github.com/robertschaub/FactHarbor)** - the public technical infrastructure: evidence modelling, contested-claim analysis, reasoning transparency, and verifiable reports.
+Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** is the public normative framework: purpose, duties, accountability, evaluation, and future assurance structure. This repository is the home of that public normative work.
 
 Private administrative work, including legal, governance, finance, cooperation, banking, fundraising, and operational records, is kept outside the public repositories.
 

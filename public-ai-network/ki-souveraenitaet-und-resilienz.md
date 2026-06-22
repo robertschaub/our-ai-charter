@@ -26,7 +26,7 @@ Denn echte digitale Souveränität und Resilienz entfalten sich erst im Netzwerk
 
 ---
 
-_Published version: LinkedIn article, 20 June 2026._
+_Published version: LinkedIn article, 20 June 2026. The accompanying [LinkedIn feed post](ki-souveraenitaet-und-resilienz-post.md) is mirrored alongside this article._
 
 _This is a companion to the published article [Trustworthy AI, Accountable to People](../ai-assurance-and-certification/trustworthy-ai-accountable-to-people.md): that piece sets out the evaluation and accountability thread; this one sets out the public-AI-sovereignty and governance thread. Both are facets of [Our AI Charter](../README.md)._
 

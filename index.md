@@ -81,28 +81,27 @@ The current practical step is lighter: a published evaluation protocol, independ
 
 ## Document Index
 
-**Program map:** [Program Map](PROGRAM.md) - how this normative framework relates to the public FactHarbor technical infrastructure.
+**Program map:** [Program Map](PROGRAM.md) - where this normative framework sits within a broader program for responsible technology in society.
 
 ### Public AI Network
 
-- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)** - *PUBLISHED* (LinkedIn, 22 June 2026): the international, English statement of the umbrella - coordination & standards, governance & trust, durable ecosystems.
-- **Published article (German):** [KI-Souveränität und Resilienz](public-ai-network/ki-souveraenitaet-und-resilienz.md) - the [published LinkedIn article](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) of 20 June 2026: the public-AI-sovereignty and governance thread.
-- **International companion (working draft):** [Sovereignty and Resilience for Free Societies](public-ai-network/sovereignty-and-resilience-for-free-societies.md) - the English, internationally re-anchored companion, with Apertus treated as one strong node among peers such as OLMo, OpenEuroLLM, SEA-LION, ALIA, Public AI, and Metagov.
-- **Governance pickup:** [Public AI infrastructure governance pickup](public-ai-network/public-ai-infrastructure-governance-pickup.md) - WIP note on international co-stewardship, national contributions, and capture-resistant public AI infrastructure governance.
-- **Linked sources & charter relevance:** [Linked sources & charter relevance](public-ai-network/linked-sources-and-charter-relevance.md) - each external source cited in the published Public AI Network article, its essence, and the obligation(s) it most directly serves.
+- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](public-ai-network/the-public-ai-network.md)** - *PUBLISHED* (the [LinkedIn article](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) of 22 June 2026): the international, English statement of the umbrella - coordination & standards, governance & trust, durable ecosystems. Accompanying [feed post](public-ai-network/the-public-ai-network-post.md).
+- **[KI-Souveränität und Resilienz](public-ai-network/ki-souveraenitaet-und-resilienz.md)** - *PUBLISHED* (the [German LinkedIn article](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) of 20 June 2026): the public-AI-sovereignty and governance thread. Accompanying [feed post](public-ai-network/ki-souveraenitaet-und-resilienz-post.md).
+- **[Sovereignty and Resilience for Free Societies](public-ai-network/sovereignty-and-resilience-for-free-societies.md)** - *WORKING DRAFT*: the English, internationally re-anchored companion, with Apertus treated as one strong node among peers such as OLMo, OpenEuroLLM, SEA-LION, ALIA, Public AI, and Metagov.
+- **[Public AI infrastructure governance pickup](public-ai-network/public-ai-infrastructure-governance-pickup.md)** - *WIP / DISCUSSION*: international co-stewardship, national contributions, and capture-resistant public AI infrastructure governance.
+- **[Linked sources & charter relevance](public-ai-network/linked-sources-and-charter-relevance.md)** - *WORKING DRAFT*: each external source cited in the published Public AI Network article, its essence, and the obligation(s) it most directly serves.
 
 ### AI Assurance & Certification
 
-- **Published manifesto article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto, updated on LinkedIn 19 June 2026. The accountability and evaluation thread.
-- **Updated repository article:** [Trustworthy AI, Accountable to People](ai-assurance-and-certification/trustworthy-ai-accountable-to-people.md) - the working version updated with the current baseline and audit framing.
-- **Charter:** [The Founding Accord](ai-assurance-and-certification/founding-accord.md) - user needs, values, five public obligations, the legal-floor/common-baseline/module assurance stack, and operational duties that structure pilot reports and may later form a certification baseline.
-- **Protocol:** [Grounding-Faithfulness & Contestability](ai-assurance-and-certification/grounding-faithfulness-and-contestability.md) - the first draft method for checking claim support, uncertainty, correction, and contestability in factual AI systems. · **Short version:** [One-page protocol](ai-assurance-and-certification/one-pager.md).
-- **Certification model:** [How certification could work later](ai-assurance-and-certification/certification-model.md) - future-state assurance stack, separation of powers, accreditation, funding, and revocation.
-- **Human-rights background:** [What the world has already declared](ai-assurance-and-certification/what-the-world-has-already-declared.md) - how UDHR, UNESCO, and the Council of Europe AI treaty map to the obligations.
-- **Risk audit:** [Risk and vulnerability audit](ai-assurance-and-certification/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
-- **Mechanism synthesis:** [From Manifesto to Mechanism](ai-assurance-and-certification/from-manifesto-to-mechanism.md) - historical synthesis retained for traceability.
-- **Landscape & positioning:** [Landscape & positioning](ai-assurance-and-certification/landscape-and-positioning.md) - WIP context on adjacent efforts and differentiation.
-- **Launch post:** [Launch post](ai-assurance-and-certification/launch-post.md) - the accompanying LinkedIn feed post. · **Published comment:** [Who would actually certify this?](ai-assurance-and-certification/certification-comment.md).
+- **[Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** - *PUBLISHED* (LinkedIn manifesto, 14 June 2026; updated on LinkedIn 19 June 2026): the accountability and evaluation thread. Repository version (*WORKING DRAFT*): [trustworthy-ai-accountable-to-people.md](ai-assurance-and-certification/trustworthy-ai-accountable-to-people.md), updated with the current baseline and audit framing.
+- **[The Founding Accord](ai-assurance-and-certification/founding-accord.md)** - *WORKING DRAFT*: user needs, values, five public obligations, the legal-floor/common-baseline/module assurance stack, and operational duties that structure pilot reports and may later form a certification baseline.
+- **[Grounding-Faithfulness & Contestability](ai-assurance-and-certification/grounding-faithfulness-and-contestability.md)** - *WORKING DRAFT*: the first draft method for checking claim support, uncertainty, correction, and contestability in factual AI systems. Short version: [one-pager](ai-assurance-and-certification/one-pager.md) (*WORKING DRAFT*).
+- **[How certification could work later](ai-assurance-and-certification/certification-model.md)** - *WORKING DRAFT*: future-state assurance stack, separation of powers, accreditation, funding, and revocation.
+- **[What the world has already declared](ai-assurance-and-certification/what-the-world-has-already-declared.md)** - *WIP / DISCUSSION*: how UDHR, UNESCO, and the Council of Europe AI treaty map to the obligations.
+- **[Risk and vulnerability audit](ai-assurance-and-certification/risk-and-vulnerability-audit.md)** - *WIP / DISCUSSION*: the real-world risk coverage test for the obligations.
+- **[From Manifesto to Mechanism](ai-assurance-and-certification/from-manifesto-to-mechanism.md)** - *WIP / DISCUSSION*: historical synthesis retained for traceability.
+- **[Landscape & positioning](ai-assurance-and-certification/landscape-and-positioning.md)** - *WIP / DISCUSSION*: context on adjacent efforts and differentiation.
+- **[Launch post](ai-assurance-and-certification/launch-post.md)** - *PUBLISHED* (LinkedIn feed post, 14 June 2026; edited 19 June 2026). Published comment: [Who would actually certify this?](ai-assurance-and-certification/certification-comment.md) (*PUBLISHED*).
 
 ## How To Help
 

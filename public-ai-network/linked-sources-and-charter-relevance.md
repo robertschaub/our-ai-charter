@@ -2,7 +2,7 @@
 
 # Linked sources in the "Public AI Network" article — essence + relevance to *Our AI Charter*
 
-**Source article:** [The Public AI Network: Building Sovereignty, Resilience, and Free Society Infrastructure](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, LinkedIn).
+**Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).
 **Compiled:** 2026-06-22.
 
 **What "Our AI Charter" is (the yardstick used below):** a public-interest governance framework to keep advanced AI trustworthy, accountable, and answerable to people — treating AI as *public infrastructure* rather than purely proprietary systems. It defines **five public obligations**, and uses a three-layer assurance model (legal scope → common baseline → public-interest modules) plus independent pilot evaluations. Repo: [github.com/robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter).
