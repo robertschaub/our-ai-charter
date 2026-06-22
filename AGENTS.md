@@ -32,14 +32,14 @@ Current agent priority:
 
 Boundary rules for agents:
 
-- Stay inside this repository root unless the maintainer explicitly names an external repository or path in the current task. The private administrative sibling (see *Private administrative sibling (maintainer-only)* below) is a standing named exception for maintainer-side agents.
-- Maintainer-side agents may **read** the private administrative sibling repository when a task requires it (see *Private administrative sibling (maintainer-only)* below), but must **never copy, import, summarize, quote, or paraphrase its confidential or personal content into this repository or any public artifact produced from it.**
+- Stay inside this repository root unless the maintainer explicitly names an external repository or path in the current task. The private administrative siblings (see *Private administrative siblings (maintainer-only)* below) are a standing named exception for maintainer-side agents.
+- Maintainer-side agents may **read** a private administrative sibling repository when a task requires it (see *Private administrative siblings (maintainer-only)* below), but must **never copy, import, summarize, quote, or paraphrase its confidential or personal content into this repository or any public artifact produced from it.**
 - Do not create public links, document dependencies, or process dependencies on private repositories, local machine paths, or unpublished operational records.
 - Public cross-links should point to public URLs or public files only.
 
 ## Public-repo discipline (read first)
 
-This repository is **public**. A separate private administrative repository exists for non-public material — that is where anything confidential belongs, never here.
+This repository is **public**. Two separate private administrative repositories exist for non-public material — `our-ai-charter-internal` (Charter cooperation, outreach, strategy, governance drafts) and `FactHarbor-internal` (finance, legal, banking, fundraising, Verein) — and that is where anything confidential belongs, never here.
 
 - **Never commit private, internal, unpublished-confidential, or personal data into this repo.** When in doubt, leave it out.
 - **Never commit secrets** — API keys, tokens, credentials, `.env` files. GitHub **secret scanning + push protection** is enabled and will block known secret formats, but treat it as a backstop, not a license to be careless.
@@ -47,31 +47,37 @@ This repository is **public**. A separate private administrative repository exis
 - Do not create public links or process dependencies on private repositories. Keep non-public working material outside this repo.
 - Assume everything committed is **permanent and worldwide** — forks, caches, and search indexes mean you cannot fully un-publish.
 
-## Private administrative sibling (maintainer-only)
+## Private administrative siblings (maintainer-only)
 
-Confidential operational material — legal, finance, partner, banking, fundraising, outreach, contact, and strategy records — lives in a **separate private repository, `FactHarbor-internal`**, never in this public repo. This public repository is the program's umbrella for the *public* normative and published work; `FactHarbor-internal` is the home for anything confidential.
+Confidential material never lives in this public repo. It is split across **two private sibling repositories**:
 
-- **Access is restricted to the maintainer, Robert Schaub.** External contributors and their agents have no access to it and should not expect any.
-- When the maintainer runs an AI agent on his own machine, that agent is granted **full read/write access to `FactHarbor-internal`** and may use it for cross-repo tasks.
-- The hard invariant still holds: **never copy, quote, or derive confidential or personal data from the private repo into this public repo or any public artifact.** When in doubt, leave it out and ask the maintainer.
+- **`our-ai-charter-internal`** — Our AI Charter's own private administrative repo: cooperation, outreach, contacts, partner material, governance drafts, and Public-AI strategy. This is the primary private sibling for Charter work.
+- **`FactHarbor-internal`** — the FactHarbor Verein's administrative repo: legal, finance, banking, fundraising, and Verein organisation records — **including Our AI Charter's finances and Verein records.**
+
+Our AI Charter and FactHarbor are separate but related projects, both stewarded by Robert Schaub and the FactHarbor Verein. This public repository is the program's umbrella for the *public* normative and published work; the two private siblings are the home for anything confidential.
+
+- **Access is restricted to the maintainer, Robert Schaub.** External contributors and their agents have no access to either and should not expect any.
+- When the maintainer runs an AI agent on his own machine, that agent may be granted **read/write access to the private siblings** and may use them for cross-repo tasks.
+- The hard invariant still holds: **never copy, quote, or derive confidential or personal data from a private repo into this public repo or any public artifact.** When in doubt, leave it out and ask the maintainer.
 
 ## Where new files go (route by content, not by cwd)
 
-This public repo and the private `FactHarbor-internal` are one program with two homes. Route every new file by what it contains, regardless of which repo the agent was launched in:
+This public repo and the two private siblings are one program. Route every new file by what it contains, regardless of which repo the agent was launched in:
 
 | Content | Home |
 |---|---|
 | Charter, manifesto, protocol, published articles/posts/comments, public background — anything meant for the world | **`our-ai-charter`** (here) |
-| Legal, finance, banking, fundraising, partner, outreach, contacts, personal data, internal strategy, operational/working records — anything not yet public | **`FactHarbor-internal`** (private) |
+| Charter cooperation, outreach, contacts, partner notes, governance drafts, Public-AI strategy, operational/working records — confidential | **`our-ai-charter-internal`** (private) |
+| Legal, finance, banking, fundraising, Verein organisation — including Our AI Charter's | **`FactHarbor-internal`** (private) |
 
-- **Unsure → write it to `FactHarbor-internal` and ask the maintainer.** Over-classifying as private is cheap; a public misroute is permanent and worldwide.
+- **Unsure → write it to `our-ai-charter-internal` and ask the maintainer.** Over-classifying as private is cheap; a public misroute is permanent and worldwide.
 - This repo must **never** receive confidential or personal content, even temporarily in the working tree.
 - **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an internal banner; it's a backstop, not a substitute for the rule. Only Claude Code's hook enforces git safety automatically; other agents must self-enforce.
-- Writing into `FactHarbor-internal` requires the agent's tool workspace to grant access to that path; if it is unreachable, do the public part here and leave the private part to the maintainer.
+- Writing into a private sibling requires the agent's tool workspace to grant access to that path; if it is unreachable, do the public part here and leave the private part to the maintainer.
 
 ## Where to work from (primary base)
 
-For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo** (`C:\DEV\our-ai-charter`) as the working base, reaching into `FactHarbor-internal` for the confidential side as the task needs it. Agents based in `FactHarbor-internal` are **also allowed** to do this work and may reach back here — for Charter topics the default base is simply this repo. Content routing (above) is unchanged regardless of base.
+For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo** (`C:\DEV\our-ai-charter`) as the working base, reaching into **`our-ai-charter-internal`** for the confidential Charter side (and `FactHarbor-internal` for finance/legal/Verein) as the task needs it. Agents based in a private sibling are **also allowed** to do this work and may reach back here — for Charter topics the default base is simply this repo. Content routing (above) is unchanged regardless of base.
 
 ## Git & safety
 

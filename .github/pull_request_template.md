@@ -22,7 +22,7 @@ Why?
 
 - [ ] No private, internal, unpublished-confidential, or personal data is included.
 - [ ] No secrets, credentials, tokens, `.env` files, or local machine artifacts are included.
-- [ ] Non-public working material, if any, stayed in the private `FactHarbor-internal` repository.
+- [ ] Non-public working material, if any, stayed in a private sibling (`our-ai-charter-internal` for Charter cooperation/outreach/strategy; `FactHarbor-internal` for finance/legal/Verein), not here.
 
 ## Verification
 
