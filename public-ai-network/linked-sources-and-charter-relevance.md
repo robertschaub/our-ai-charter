@@ -52,7 +52,7 @@
 ### Apertus (Switzerland / Swiss AI) — https://www.swiss-ai.org/apertus
 **Essence:** A fully open, sovereign-compute foundation model (8B and 70B, multilingual across 1000+ languages) from the Swiss AI Initiative — EPFL, ETH Zurich, and national supercomputing centre CSCS, with Swisscom as strategic partner. It releases weights, code, training data, methods, and alignment principles as documented and reproducible, built for EU AI Act compliance (PII removal, memorization prevention).
 **Relevance to our AI charter:** A publicly-governed sovereign open model with documented data/methods advances (2) and (5); its explicit PII / memorization safeguards map to (3) safe, secure, private and (1) purpose-bound risk declaration.
-> ⚠ **Integrity note for the published article:** the official `swiss-ai.org/apertus` path currently **301-redirects to `apertvs.ai`**, a look-alike (typosquat) domain. The facts above are corroborated by the official `huggingface.co/swiss-ai` org page (leads Martin Jaggi, Antoine Bosselut). Consider repointing the article link to the Hugging Face org or verifying the canonical URL.
+> **Note — Apertus domain:** `apertvs.ai` (stylized **APERTVS**, classical-Latin *V*-for-*U*) is the **official** Apertus site of the Swiss AI Initiative; `swiss-ai.org/apertus` issues an official 301 redirect to it, and the facts above are corroborated by the official `huggingface.co/swiss-ai` org page (leads Martin Jaggi, Antoine Bosselut). It is **not** a typosquat. A separate `apertus.ai` (with a "u") is an unaffiliated third-party hosting platform — not the official model site.
 
 ### EuroLLM — https://eurollm.io/
 **Essence:** A fully open multilingual model covering all 24 official EU languages (flagship EuroLLM-22B, plus 9B and 1.7B; 35 training languages), built by a consortium of eight European institutions and publicly funded via Horizon Europe, the ERC, and EuroHPC on MareNostrum 5. Base and instruction-tuned models are free on Hugging Face for European researchers, organizations, and citizens.
@@ -210,4 +210,4 @@
 
 ## Notes on method
 - Summaries are distilled from each site's own pages (fetched 2026-06-22). Two sites — **AI Verify** and the **Council of Europe** page — bot-block automated fetching (HTTP 403); their entries were grounded against official primary sources via web search.
-- **Action flag:** the article's **Apertus** link (`swiss-ai.org/apertus`) redirects to a look-alike domain `apertvs.ai`; verify/repoint before any reshare (see the Apertus entry above).
+- **Apertus link (verified 2026-06-22):** `swiss-ai.org/apertus` issues an official 301 redirect to the **official** `apertvs.ai` (stylized APERTVS) — the article link is correct; no repoint needed. Do not confuse it with the unaffiliated third-party `apertus.ai` (with a "u").
