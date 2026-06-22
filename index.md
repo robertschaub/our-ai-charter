@@ -89,6 +89,7 @@ The current practical step is lighter: a published evaluation protocol, independ
 - **Published article (German):** [KI-Souveränität und Resilienz](public-ai-network/ki-souveraenitaet-und-resilienz.md) - the [published LinkedIn article](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) of 20 June 2026: the public-AI-sovereignty and governance thread.
 - **International companion (working draft):** [Sovereignty and Resilience for Free Societies](public-ai-network/sovereignty-and-resilience-for-free-societies.md) - the English, internationally re-anchored companion, with Apertus treated as one strong node among peers such as OLMo, OpenEuroLLM, SEA-LION, ALIA, Public AI, and Metagov.
 - **Governance pickup:** [Public AI infrastructure governance pickup](public-ai-network/public-ai-infrastructure-governance-pickup.md) - WIP note on international co-stewardship, national contributions, and capture-resistant public AI infrastructure governance.
+- **Linked sources & charter relevance:** [Linked sources & charter relevance](public-ai-network/linked-sources-and-charter-relevance.md) - each external source cited in the published Public AI Network article, its essence, and the obligation(s) it most directly serves.
 
 ### AI Assurance & Certification
 

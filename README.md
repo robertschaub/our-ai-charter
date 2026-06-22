@@ -45,6 +45,7 @@ Our AI Charter is organised into two related workstreams. Each document's maturi
 - **[KI-Souveränität und Resilienz](public-ai-network/ki-souveraenitaet-und-resilienz.md)** — *PUBLISHED* (LinkedIn, 20 June 2026). The public-AI-sovereignty and governance thread: why a Swiss open-model effort needs a transparent governance layer and a capture-resistant international host. [Canonical post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
 - **[Sovereignty and Resilience for Free Societies](public-ai-network/sovereignty-and-resilience-for-free-societies.md)** — *WORKING DRAFT*: the English, internationally re-anchored companion to the German article, with Apertus treated as one strong node among peers such as OLMo, OpenEuroLLM, SEA-LION, ALIA, Public AI, and Metagov.
 - **[Public AI infrastructure governance pickup](public-ai-network/public-ai-infrastructure-governance-pickup.md)** — *WIP*: international co-stewardship, national contributions, and capture-resistant public-AI governance.
+- **[Linked sources & charter relevance](public-ai-network/linked-sources-and-charter-relevance.md)** — *WORKING DRAFT*: each external source cited in the published *Public AI Network* article — its essence and which of the five obligations it most directly serves.
 
 ### AI Assurance & Certification
 

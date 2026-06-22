@@ -1,3 +1,5 @@
+> **Status: WORKING DRAFT** — reference compilation of the sources cited in the published *Public AI Network* article, 22 June 2026.
+
 # Linked sources in the "Public AI Network" article — essence + relevance to *Our AI Charter*
 
 **Source article:** [The Public AI Network: Building Sovereignty, Resilience, and Free Society Infrastructure](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, LinkedIn).
