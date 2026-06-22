@@ -77,7 +77,7 @@ A trustworthy mark, if created, cannot be self-declared. It needs separation of 
 3. An accreditor licenses and polices assessors.
 4. A peer body keeps accreditors honest.
 
-The current practical step is lighter: a published evaluation protocol, independent pilot assessments, public reports, and visible withdrawal when a system stops meeting the pilot scope or when a report is cited beyond what was assessed. Nothing in this repository certifies anyone yet. A mark, registry of certified systems, assessor accreditation, and formal revocation rules are Phase 2 work.
+For now the work is lighter and earlier-stage: a published evaluation protocol and the drafts, method, and connections around it. Independent pilot assessments and public reports — with visible withdrawal when a system stops meeting the assessed scope or a report is cited beyond it — are a possible next step, not yet underway or planned. Nothing in this repository certifies anyone yet. A mark, registry of certified systems, assessor accreditation, and formal revocation rules are Phase 2 work.
 
 ## Document Index
 

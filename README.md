@@ -57,7 +57,7 @@ Our AI Charter is organised into two related workstreams. Each document's maturi
 
 ## Current phase
 
-This repository is in **Phase 1: public drafting and pilot evaluation**. The practical output is a published method, independent pilot evaluations, public reports, and critique.
+This repository is in **Phase 1: public drafting**. So far the work is theoretical and documentary — published drafts, a worked-out method, and the connections needed to take it further. Independent pilot evaluations, public reports, and the critique they invite are a possible next step, not yet underway or planned.
 
 **There is no Trust Mark, certificate, accredited assessor, or certification body yet.** Phase 2 — a real conformity scheme with a mark, registry, assessor rules, appeals, surveillance, and accreditation — comes only if pilots and demand justify it.
 
