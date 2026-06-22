@@ -70,6 +70,7 @@ This public repo and the two private siblings are one program. Route every new f
 | Charter cooperation, outreach, contacts, partner notes, governance drafts, Public-AI strategy, operational/working records — confidential | **`our-ai-charter-internal`** (private) |
 | Legal, finance, banking, fundraising, Verein organisation — including Our AI Charter's | **`FactHarbor-internal`** (private) |
 
+- **Only *published* LinkedIn versions belong in this public repo.** Mirror an article, post, or comment here only once it is published on LinkedIn; unpublished LinkedIn drafts and in-progress adaptations live in `our-ai-charter-internal` until (and unless) they go live.
 - **Unsure → write it to `our-ai-charter-internal` and ask the maintainer.** Over-classifying as private is cheap; a public misroute is permanent and worldwide.
 - This repo must **never** receive confidential or personal content, even temporarily in the working tree.
 - **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an internal banner; it's a backstop, not a substitute for the rule. Only Claude Code's hook enforces git safety automatically; other agents must self-enforce.
