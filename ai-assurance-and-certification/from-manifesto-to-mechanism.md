@@ -8,23 +8,23 @@ Use the documents below as the current guidance. This note is orientation and tr
 
 ## Current Reader Path
 
-1. **Why this exists:** [Trustworthy AI, Accountable to People - Repository Draft](../manifesto/trustworthy-ai-accountable-to-people.md).
-2. **What the Charter asks for:** [The Founding Accord](../charter/founding-accord.md).
+1. **Why this exists:** [Trustworthy AI, Accountable to People - Repository Draft](trustworthy-ai-accountable-to-people.md).
+2. **What the Charter asks for:** [The Founding Accord](founding-accord.md).
 3. **Which risks the obligations must cover:** [Risk and Vulnerability Audit](risk-and-vulnerability-audit.md).
-4. **How one module can be tested now:** [Grounding-Faithfulness & Contestability](../protocol/grounding-faithfulness-and-contestability.md) and the [one-page protocol](../protocol/one-pager.md).
-5. **How certification could work later:** [How certification could work later](../protocol/certification-model.md).
+4. **How one module can be tested now:** [Grounding-Faithfulness & Contestability](grounding-faithfulness-and-contestability.md) and the [one-page protocol](one-pager.md).
+5. **How certification could work later:** [How certification could work later](certification-model.md).
 6. **Where the public-law and ethics anchors come from:** [What the world has already declared](what-the-world-has-already-declared.md).
 7. **How this relates to adjacent initiatives:** [Landscape & positioning](landscape-and-positioning.md).
 
 ## Earlier Synthesis Themes
 
-- **Separation of roles, not a new authority.** Current treatment: [certification model](../protocol/certification-model.md).
-- **Pilot evaluation before any certification.** Current treatment: [README current phase](../README.md#current-phase), [Founding Accord](../charter/founding-accord.md), and [protocol](../protocol/grounding-faithfulness-and-contestability.md).
-- **Evidence and procedure, not perfect outcomes.** Current treatment: [risk audit](risk-and-vulnerability-audit.md) and [Founding Accord operational duties](../charter/founding-accord.md).
-- **A baseline broader than factuality.** Current treatment: [risk coverage baseline](../charter/founding-accord.md) and [risk audit](risk-and-vulnerability-audit.md).
-- **Careful legal language.** Current treatment: [certification model](../protocol/certification-model.md) and [what the world has declared](what-the-world-has-already-declared.md).
-- **Existing machinery over a new silo.** Current treatment: [certification model](../protocol/certification-model.md) and [landscape & positioning](landscape-and-positioning.md).
-- **Demand creates teeth.** Current treatment: [certification model](../protocol/certification-model.md) and [README how to help](../README.md#how-to-help).
+- **Separation of roles, not a new authority.** Current treatment: [certification model](certification-model.md).
+- **Pilot evaluation before any certification.** Current treatment: [README current phase](../README.md#current-phase), [Founding Accord](founding-accord.md), and [protocol](grounding-faithfulness-and-contestability.md).
+- **Evidence and procedure, not perfect outcomes.** Current treatment: [risk audit](risk-and-vulnerability-audit.md) and [Founding Accord operational duties](founding-accord.md).
+- **A baseline broader than factuality.** Current treatment: [risk coverage baseline](founding-accord.md) and [risk audit](risk-and-vulnerability-audit.md).
+- **Careful legal language.** Current treatment: [certification model](certification-model.md) and [what the world has declared](what-the-world-has-already-declared.md).
+- **Existing machinery over a new silo.** Current treatment: [certification model](certification-model.md) and [landscape & positioning](landscape-and-positioning.md).
+- **Demand creates teeth.** Current treatment: [certification model](certification-model.md) and [README how to help](../README.md#how-to-help).
 
 ## Still Open
 

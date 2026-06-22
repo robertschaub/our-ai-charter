@@ -13,7 +13,7 @@ AI is becoming infrastructure for how people learn, decide, work, and form publi
 
 Our AI Charter is a public-interest draft for making AI more trustworthy in practice: bounded by purpose, answerable to people, safe and private enough to rely on, fair in practice, and open to evidence and correction.
 
-[Read the program map](PROGRAM.md) · [Read the updated article](manifesto/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](charter/founding-accord.md) · [Read the risk audit](background/risk-and-vulnerability-audit.md) · [Read the evaluation protocol](protocol/grounding-faithfulness-and-contestability.md) · [Read the certification model](protocol/certification-model.md)
+[Read the program map](PROGRAM.md) · [Read the updated article](ai-assurance-and-certification/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](ai-assurance-and-certification/founding-accord.md) · [Read the risk audit](ai-assurance-and-certification/risk-and-vulnerability-audit.md) · [Read the evaluation protocol](ai-assurance-and-certification/grounding-faithfulness-and-contestability.md) · [Read the certification model](ai-assurance-and-certification/certification-model.md)
 
 ## The Practical Demand
 
@@ -52,7 +52,7 @@ For material claims, recommendations, decisions, and risk-relevant system behavi
 
 ## Risk Coverage
 
-The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; resource or global-access asymmetry; false or overbroad legal-compliance claims; and evidence theatre. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight. These five public obligations are backed by more detailed operational duties in the [Founding Accord](charter/founding-accord.md).
+The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](ai-assurance-and-certification/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; resource or global-access asymmetry; false or overbroad legal-compliance claims; and evidence theatre. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight. These five public obligations are backed by more detailed operational duties in the [Founding Accord](ai-assurance-and-certification/founding-accord.md).
 
 Pilot participants and future Trust Mark candidates or holders should only make public claims for a specific assessed system, version, and use-case. Before the claim, they should publish a privacy-preserving **release risk assessment** for that assessed release, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. In Phase 1, reports may say only that a named release was evaluated under a named method, duty, or module, with a stated result; they may not claim Charter alignment, certification, or Trust Mark status. The public assessment should state what scope is covered, the legal-scope map, baseline scope, responsibility map, which modules are covered or not assessed, which material risk classes are addressed, what safe summary of measures exists, what evidence types support them, what remains unresolved, claim status, validity period, and what would trigger re-check or withdrawal. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
 
@@ -81,22 +81,27 @@ The current practical step is lighter: a published evaluation protocol, independ
 
 ## Document Index
 
-- **Program map:** [Program Map](PROGRAM.md) - how this normative framework relates to the public FactHarbor technical infrastructure.
+**Program map:** [Program Map](PROGRAM.md) - how this normative framework relates to the public FactHarbor technical infrastructure.
+
+### Public AI Network
+
+- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)** - *PUBLISHED* (LinkedIn, 22 June 2026): the international, English statement of the umbrella - coordination & standards, governance & trust, durable ecosystems.
+- **Published article (German):** [KI-Souveränität und Resilienz](public-ai-network/ki-souveraenitaet-und-resilienz.md) - the [published LinkedIn article](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) of 20 June 2026: the public-AI-sovereignty and governance thread.
+- **International companion (working draft):** [Sovereignty and Resilience for Free Societies](public-ai-network/sovereignty-and-resilience-for-free-societies.md) - the English, internationally re-anchored companion, with Apertus treated as one strong node among peers such as OLMo, OpenEuroLLM, SEA-LION, ALIA, Public AI, and Metagov.
+- **Governance pickup:** [Public AI infrastructure governance pickup](public-ai-network/public-ai-infrastructure-governance-pickup.md) - WIP note on international co-stewardship, national contributions, and capture-resistant public AI infrastructure governance.
+
+### AI Assurance & Certification
+
 - **Published manifesto article:** [Trustworthy AI, Accountable to People](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE) - the LinkedIn manifesto, updated on LinkedIn 19 June 2026. The accountability and evaluation thread.
-- **Published article (German):** [KI-Souveränität und Resilienz](manifesto/ki-souveraenitaet-und-resilienz.md) - the [published LinkedIn article](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) of 20 June 2026: the public-AI-sovereignty and governance thread of the same umbrella - a transparent governance layer and an international, capture-resistant host for a Swiss open-model effort.
-- **International companion (working draft):** [Sovereignty and Resilience for Free Societies](manifesto/sovereignty-and-resilience-for-free-societies.md) - the English, internationally re-anchored companion to the German article: public AI as a capture-resistant, internationally co-stewarded network, with Apertus treated as one strong node among peers such as OLMo, OpenEuroLLM, SEA-LION, LatamGPT, BharatGen, ALIA, Public AI, and Metagov. Not yet published.
-- **Launch post:** [Launch post](manifesto/launch-post.md) - the accompanying LinkedIn feed post.
-- **Published comment:** [Who would actually certify this?](manifesto/certification-comment.md) - the short answer: build the test, borrow the machinery.
-- **Updated repository article:** [Trustworthy AI, Accountable to People](manifesto/trustworthy-ai-accountable-to-people.md) - the working version updated with the current baseline and audit framing.
-- **Charter:** [The Founding Accord](charter/founding-accord.md) - user needs, values, five public obligations, the legal-floor/common-baseline/module assurance stack, and operational duties that structure pilot reports and may later form a certification baseline.
-- **Protocol:** [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md) - the first draft method for checking claim support, uncertainty, correction, and contestability in factual AI systems.
-- **Short version:** [One-page protocol](protocol/one-pager.md) - the same method in brief.
-- **Certification model:** [How certification could work later](protocol/certification-model.md) - future-state assurance stack, separation of powers, accreditation, funding, and revocation.
-- **Human-rights background:** [What the world has already declared](background/what-the-world-has-already-declared.md) - how UDHR, UNESCO, and the Council of Europe AI treaty map to the obligations.
-- **Risk audit:** [Risk and vulnerability audit](background/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
-- **Mechanism synthesis:** [From Manifesto to Mechanism](background/from-manifesto-to-mechanism.md) - historical synthesis retained for traceability.
-- **Landscape & positioning:** [Landscape & positioning](background/landscape-and-positioning.md) - WIP context on adjacent efforts and differentiation.
-- **Public AI governance pickup:** [Public AI infrastructure governance pickup](background/public-ai-infrastructure-governance-pickup.md) - WIP note on international co-stewardship, national contributions, and capture-resistant public AI infrastructure governance.
+- **Updated repository article:** [Trustworthy AI, Accountable to People](ai-assurance-and-certification/trustworthy-ai-accountable-to-people.md) - the working version updated with the current baseline and audit framing.
+- **Charter:** [The Founding Accord](ai-assurance-and-certification/founding-accord.md) - user needs, values, five public obligations, the legal-floor/common-baseline/module assurance stack, and operational duties that structure pilot reports and may later form a certification baseline.
+- **Protocol:** [Grounding-Faithfulness & Contestability](ai-assurance-and-certification/grounding-faithfulness-and-contestability.md) - the first draft method for checking claim support, uncertainty, correction, and contestability in factual AI systems. · **Short version:** [One-page protocol](ai-assurance-and-certification/one-pager.md).
+- **Certification model:** [How certification could work later](ai-assurance-and-certification/certification-model.md) - future-state assurance stack, separation of powers, accreditation, funding, and revocation.
+- **Human-rights background:** [What the world has already declared](ai-assurance-and-certification/what-the-world-has-already-declared.md) - how UDHR, UNESCO, and the Council of Europe AI treaty map to the obligations.
+- **Risk audit:** [Risk and vulnerability audit](ai-assurance-and-certification/risk-and-vulnerability-audit.md) - the real-world risk coverage test for the obligations.
+- **Mechanism synthesis:** [From Manifesto to Mechanism](ai-assurance-and-certification/from-manifesto-to-mechanism.md) - historical synthesis retained for traceability.
+- **Landscape & positioning:** [Landscape & positioning](ai-assurance-and-certification/landscape-and-positioning.md) - WIP context on adjacent efforts and differentiation.
+- **Launch post:** [Launch post](ai-assurance-and-certification/launch-post.md) - the accompanying LinkedIn feed post. · **Published comment:** [Who would actually certify this?](ai-assurance-and-certification/certification-comment.md).
 
 ## How To Help
 

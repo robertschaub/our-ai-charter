@@ -19,7 +19,7 @@ Our AI Charter is the public normative framework in a broader research program:
 
 > Researching how we can build a fair, stable, and sustainable society that uses new technologies responsibly.
 
-The public program map is [PROGRAM.md](PROGRAM.md). This repository should contain only the public normative layer: charter, manifesto, evaluation protocol, and public background.
+The public program map is [PROGRAM.md](PROGRAM.md). This repository should contain only the public normative layer, organised into two workstreams — **Public AI Network** (`public-ai-network/`) and **AI Assurance & Certification** (`ai-assurance-and-certification/`).
 
 Current agent priority:
 
