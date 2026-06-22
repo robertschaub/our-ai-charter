@@ -22,6 +22,17 @@ Program map: **[PROGRAM.md](PROGRAM.md)** — how this normative framework relat
 
 > **Every document is labeled at the top with its status — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION` — so it's always clear what is final and what is still being worked out.**
 
+## One goal — separate but related projects
+
+**The goal:** keep advanced AI a *trustworthy, public, and accountable* foundation for free societies — open enough to inspect, governed well enough to trust, and stewarded as shared infrastructure rather than owned and switched off by a few. This is one strand of a broader program: *building a fair, stable, and sustainable society that uses new technology responsibly* ([program map](PROGRAM.md)).
+
+Two **separate but related** public projects pursue it, both stewarded by Robert Schaub and the **FactHarbor Verein**:
+
+- **Our AI Charter** *(this repository)* — the **governance + evaluation** layer: five public obligations, a three-layer assurance stack, and a first evaluation protocol. *Can a deployed AI show its work and answer for it?*
+- **[FactHarbor](https://github.com/robertschaub/FactHarbor)** — a separate project providing the **technical** layer: open infrastructure for structured, contestable evidence about claims and AI behaviour. *What is the evidence, and can it be challenged?*
+
+They share the goal and inform each other, but run as distinct efforts. The international framing — public AI as a co-stewarded network across coordination & standards, governance & trust, and durable ecosystems — is set out in **The Public AI Network** (see [Published](#published-live)).
+
 ## Current reader path
 
 Start with the [repository article](manifesto/trustworthy-ai-accountable-to-people.md) for the argument, the [Founding Accord](charter/founding-accord.md) for the obligations, the [risk audit](background/risk-and-vulnerability-audit.md) for coverage, the [protocol](protocol/grounding-faithfulness-and-contestability.md) for the first pilot module, and the [certification model](protocol/certification-model.md) for the future assurance structure.
@@ -38,12 +49,14 @@ Any future Charter claim should sit on a three-layer assurance stack: **provider
 
 - **[Published manifesto article](https://www.linkedin.com/posts/robertschaub_a-world-where-ai-is-a-shared-trustworthy-activity-7471667943433646080-cIIE)** — *Trustworthy AI, Accountable to People* (LinkedIn, 14 June 2026; updated on LinkedIn 19 June 2026). The **why** — the accountability and evaluation thread. Repository version (working draft): [trustworthy-ai-accountable-to-people.md](manifesto/trustworthy-ai-accountable-to-people.md).
 - **[KI-Souveränität und Resilienz](manifesto/ki-souveraenitaet-und-resilienz.md)** — *PUBLISHED* (LinkedIn, 20 June 2026). The same umbrella seen from the public-AI-sovereignty and governance thread: why a Swiss open-model effort needs a transparent governance layer and an international, capture-resistant host. [Canonical post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
+- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)** — *PUBLISHED* (LinkedIn, 22 June 2026). The international, English statement of the umbrella: open public models exist across many regions, but real sovereignty and resilience come from what free societies build around them — coordination & standards, governance & trust, and durable ecosystems — with the Charter as the governance-and-evaluation contribution.
 - **[Launch post](manifesto/launch-post.md)** — the accompanying feed post.
 - **[Certification comment](manifesto/certification-comment.md)** — the short LinkedIn comment answering "who would actually certify this?"
 
 ## Working drafts (open for comment)
 
 - **[Repository article (updated)](manifesto/trustworthy-ai-accountable-to-people.md)** — working version derived from the published LinkedIn article and updated with the current baseline and audit framing.
+- **[Sovereignty and Resilience for Free Societies](manifesto/sovereignty-and-resilience-for-free-societies.md)** — *international companion* to the published German article *KI-Souveränität und Resilienz*: public AI as a capture-resistant, internationally co-stewarded network, with Apertus treated as one strong node among peers such as OLMo, OpenEuroLLM, SEA-LION, LatamGPT, BharatGen, ALIA, Public AI, and Metagov. Not yet published.
 - **[The Founding Accord](charter/founding-accord.md)** — a public charter you can endorse: user needs, values, five public obligations, a legal-floor/common-baseline/module assurance stack, and operational duties that structure pilot reports and may later form a certification baseline. The **what**.
 - **Protocol — [Grounding-Faithfulness & Contestability](protocol/grounding-faithfulness-and-contestability.md)** — the first draft *evaluation* module for whether a deployed factual AI "shows its work." It is not the whole Charter audit method.
   - [One-page version](protocol/one-pager.md) · [How certification could work later](protocol/certification-model.md)

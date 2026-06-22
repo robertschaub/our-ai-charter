@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-21
+- **International companion article (working draft)** — added and source-checked `manifesto/sovereignty-and-resilience-for-free-societies.md`, an English, internationally re-anchored companion to the published German article *KI-Souveränität und Resilienz*. Reframed public AI as a capture-resistant, internationally co-stewarded network rather than a Swiss-centered project; now includes a LinkedIn feed-post draft, source list, and model-comparison note covering Apertus, OLMo, OpenEuroLLM, EuroLLM, ALIA, SEA-LION, LatamGPT, BharatGen, BLOOM/BigScience, Public AI, Metagov, Current AI, AI Alliance Project Tapestry, and high-capability open-weight baselines. Listed in the README index and site index; not yet published to LinkedIn.
 - **Agent workstream priority** — updated AGENTS.md and agent wrapper summaries so agents treat the repository as the public home for two related workstreams under the Our AI Charter umbrella: *KI-Souveränität und Resilienz* and *Trustworthy AI, Accountable to People*. Recorded that for the maintainer right now, the Swiss public-AI sovereignty and resilience workstream is more urgent and higher priority, with the accountability/evaluation workstream handled only on request, when supportive, or where there is clear low-hanging fruit.
 
 ## 2026-06-20
