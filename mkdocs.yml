@@ -1,0 +1,145 @@
+# MkDocs configuration for the Our AI Charter website.
+#
+# Published content lives in docs/ (MkDocs requires docs_dir to be a child of
+# the config file's directory). Repo-meta files (README, AGENTS, CHANGELOG,
+# CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root and are not
+# part of the website. Navigation is defined explicitly below.
+
+site_name: Our AI Charter
+site_description: A public-interest charter for trustworthy AI — open, plural, and accountable to people.
+site_url: https://robertschaub.github.io/our-ai-charter/
+site_author: Robert Schaub
+
+repo_url: https://github.com/robertschaub/our-ai-charter
+repo_name: robertschaub/our-ai-charter
+edit_uri: edit/main/
+
+docs_dir: docs
+site_dir: site
+
+copyright: >
+  Document texts © Robert Schaub, licensed CC BY 4.0. The initiative's name and any trust mark are reserved.
+
+theme:
+  name: material
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - search
+  # Social cards (per-page link-preview images) need native image libraries
+  # (Cairo/Pango), installed in CI. Enabled only when CI=true so local builds
+  # work without them. See the deploy workflow.
+  - social:
+      enabled: !ENV [CI, false]
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/robertschaub/our-ai-charter
+      name: Repository on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/robertschaub
+      name: Robert Schaub on LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:info@factharbor.ch
+      name: Contact
+
+nav:
+  - Home: index.md
+  - Public AI Network:
+      - Overview: Public AI Network/briefing.md
+      - The Public AI Network: Public AI Network/Published/the-public-ai-network.md
+      - "KI-Souveränität und Resilienz (DE)": Public AI Network/Published/ki-souveraenitaet-und-resilienz.md
+      - Evidence:
+          - Verified findings: Public AI Network/Evidence/verified-findings.md
+          - Actors & landscape: Public AI Network/Evidence/actors-and-landscape.md
+          - Linked sources: Public AI Network/Evidence/linked-sources.md
+      - Strategy:
+          - Initiation strategy: Public AI Network/Strategy/initiation-strategy.md
+          - Swiss Action-Plan contribution: Public AI Network/Strategy/swiss-action-plan-contribution.md
+          - Governance pickup note: Public AI Network/Strategy/governance-pickup-note.md
+      - Outreach:
+          - "Non-Paper (EN)": Public AI Network/Outreach/non-paper.en.md
+          - "Non-Paper (DE)": Public AI Network/Outreach/non-paper.de.md
+          - "Aktionsplan (DE)": Public AI Network/Outreach/action-plan.de.md
+          - "Postulat (DE)": Public AI Network/Outreach/postulat.de.md
+      - Posts:
+          - The Public AI Network — post: Public AI Network/Published/the-public-ai-network-post.md
+          - "KI-Souveränität — post": Public AI Network/Published/ki-souveraenitaet-und-resilienz-post.md
+  - AI Assurance & Certification:
+      - Trustworthy AI, Accountable to People: AI Assurance and Certification/Published/trustworthy-ai-accountable-to-people.md
+      - The Founding Accord: AI Assurance and Certification/Framework/founding-accord.md
+      - Certification model: AI Assurance and Certification/Framework/certification-model.md
+      - Protocol:
+          - "Grounding, Faithfulness & Contestability": AI Assurance and Certification/Protocol/grounding-faithfulness-and-contestability.md
+          - One-pager: AI Assurance and Certification/Protocol/one-pager.md
+      - Background:
+          - Risk & vulnerability audit: AI Assurance and Certification/Background/risk-and-vulnerability-audit.md
+          - What the world has already declared: AI Assurance and Certification/Background/what-the-world-has-already-declared.md
+          - Landscape & positioning: AI Assurance and Certification/Background/landscape-and-positioning.md
+      - Posts:
+          - Launch post: AI Assurance and Certification/Published/launch-post.md
+          - Certification comment: AI Assurance and Certification/Published/certification-comment.md
+  - Program map: PROGRAM.md

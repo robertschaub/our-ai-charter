@@ -19,7 +19,7 @@ Our AI Charter is the public normative framework in a broader research program:
 
 > Researching how we can build a fair, stable, and sustainable society that uses new technologies responsibly.
 
-The public program map is [PROGRAM.md](PROGRAM.md). This repository should contain only the public normative layer, organised into two workstreams — **Public AI Network** (`Public AI Network/`) and **AI Assurance & Certification** (`AI Assurance and Certification/`).
+The public program map is [PROGRAM.md](docs/PROGRAM.md). This repository should contain only the public normative layer. Published documents live under `docs/` (the website's content root), organised into two workstreams — **Public AI Network** (`docs/Public AI Network/`) and **AI Assurance & Certification** (`docs/AI Assurance and Certification/`); repo-meta files (README, AGENTS, CHANGELOG, CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root.
 
 Current agent priority:
 
@@ -93,8 +93,8 @@ For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo*
 
 - Repository visibility is **public**; non-public material belongs in a private administrative repository.
 - Only the maintainer account should have direct repository access. Do not add collaborators, write deploy keys, webhooks, or GitHub Apps without explicit maintainer approval.
-- Public issues and pull requests are enabled for feedback. GitHub Pages is enabled as a simple document site from `main`; keep it branch/Jekyll-based unless the maintainer explicitly asks for a richer document viewer. Wiki and Projects should stay disabled. Actions may be enabled only to support GitHub Pages builds, with allowed actions restricted to local actions; do not add workflow files unless explicitly requested.
-- Do not copy FactHarbor's xWiki XAR import/export workflow into this repo. If the site later needs richer navigation, port only the static presentation pieces needed for Pages and keep the Markdown documents authoritative.
+- Public issues and pull requests are enabled for feedback. The website is built with **MkDocs Material** from the Markdown under `docs/` and published to GitHub Pages by [`.github/workflows/deploy-docs.yml`](.github/workflows/deploy-docs.yml) on every push to `main` (Pages source = "GitHub Actions"). The Markdown documents stay authoritative — the site is a presentation layer over them. Wiki and Projects should stay disabled. GitHub Actions must stay enabled for the Pages build (official `actions/*` plus `mkdocs build`); editing that build pipeline is fine, but do not add unrelated workflows unless the maintainer requests them.
+- Do not copy FactHarbor's xWiki XAR import/export workflow or its bespoke viewer into this repo. The document set is small enough that MkDocs Material's built-in navigation and search suffice; keep the Markdown authoritative.
 - `main` should be protected against force-pushes and deletion. Personal-account repositories cannot restrict protected-branch push access to a named user, so the practical control is keeping collaborators and write-capable integrations empty.
 - GitHub secret scanning, push protection, Dependabot vulnerability alerts, and private vulnerability reporting should stay enabled.
 

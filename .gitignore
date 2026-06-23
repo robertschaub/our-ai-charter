@@ -33,7 +33,8 @@ secrets.*
 .claude/*.lock
 .claude/*.jsonl
 
-# Jekyll / GitHub Pages local build output
+# Static site build output (MkDocs writes site/; legacy Jekyll wrote _site/)
+site/
 _site/
 .jekyll-cache/
 .jekyll-metadata
