@@ -20,5 +20,5 @@ Current priority: the repo has two related workstreams under the Our AI Charter 
 
 - Conventional commits: `type(scope): description`.
 - Keep each document's status label (`PUBLISHED` / `WORKING DRAFT` / `WIP / DISCUSSION`), the README index, and CHANGELOG in sync — see the `/docs-update` skill.
-- When an article/post is published, its earlier versions/drafts are archived under `Archive/<workstream>/` (or deleted) — the maintainer decides case by case; don't auto-archive or auto-delete, and keep archived files out of the index.
+- When an article/post is published, its earlier draft is overwritten, deleted, or (rarely) moved to `Archive/<workstream>/` — archiving is **not** the default (Git history already preserves versions). The maintainer decides case by case; don't auto-act, and keep any archived files out of the index.
 - Windows / PowerShell.
