@@ -13,7 +13,7 @@ AI is becoming infrastructure for how people learn, decide, work, and form publi
 
 Our AI Charter is a public-interest draft for making AI more trustworthy in practice: bounded by purpose, answerable to people, safe and private enough to rely on, fair in practice, and open to evidence and correction.
 
-[Read the program map](PROGRAM.md) · [Read the article](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](AI%20Assurance%20and%20Certification/founding-accord.md) · [Read the risk audit](AI%20Assurance%20and%20Certification/risk-and-vulnerability-audit.md) · [Read the evaluation protocol](AI%20Assurance%20and%20Certification/grounding-faithfulness-and-contestability.md) · [Read the certification model](AI%20Assurance%20and%20Certification/certification-model.md)
+[Read the program map](PROGRAM.md) · [Read the article](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) · [Read the Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) · [Read the risk audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md) · [Read the evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) · [Read the certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md)
 
 ## The Practical Demand
 
@@ -52,7 +52,7 @@ For material claims, recommendations, decisions, and risk-relevant system behavi
 
 ## Risk Coverage
 
-The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](AI%20Assurance%20and%20Certification/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; resource or global-access asymmetry; false or overbroad legal-compliance claims; and evidence theatre. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight. These five public obligations are backed by more detailed operational duties in the [Founding Accord](AI%20Assurance%20and%20Certification/founding-accord.md).
+The obligations are designed against the biggest real-world risks named in the [risk and vulnerability audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md): concentrated infrastructure and market power; coercive switch-off or manipulation; hallucination and misinformation; AI-app security failures; privacy and data leakage; bias and discrimination; harmful misuse; opaque consequential decisions; hidden lifecycle change; resource or global-access asymmetry; false or overbroad legal-compliance claims; and evidence theatre. The test is practical: a system should not be able to claim the Charter while hiding any of these risks from users, buyers, affected people, assessors, or lawful oversight. These five public obligations are backed by more detailed operational duties in the [Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md).
 
 ## Regulation and Certification
 
@@ -89,7 +89,7 @@ The full, current document index — both workstreams, with status labels — li
 
 **AI Assurance & Certification** — accountability, evaluation, certification:
 - [Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — *PUBLISHED* manifesto.
-- [The Founding Accord](AI%20Assurance%20and%20Certification/founding-accord.md) · [evaluation protocol](AI%20Assurance%20and%20Certification/grounding-faithfulness-and-contestability.md) · [how certification could work later](AI%20Assurance%20and%20Certification/certification-model.md).
+- [The Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) · [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) · [how certification could work later](AI%20Assurance%20and%20Certification/Framework/certification-model.md).
 
 ## How To Help
 
