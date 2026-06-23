@@ -1,3 +1,4 @@
+> [!NOTE]
 > **Status: WORKING DRAFT** — strategic map of the sources cited in the published *Public AI Network* article, 22 June 2026.
 
 # Linked sources in the "Public AI Network" article — strategic map + relevance to *Our AI Charter*

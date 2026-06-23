@@ -1,3 +1,4 @@
+> [!TIP]
 > **Status: PUBLISHED** — LinkedIn comment on the manifesto article, 15 June 2026.
 
 # Comment — who would actually certify this?

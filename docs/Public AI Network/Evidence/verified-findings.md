@@ -1,3 +1,4 @@
+> [!NOTE]
 > **Status: WORKING DRAFT** — source-checked evidence base for the Public AI governance [non-paper](../Outreach/non-paper.en.md) and [postulate](../Outreach/postulat.de.md) (as of 2026-06-18).
 
 # Public AI Initiation — Verified Findings (2026-06-18)

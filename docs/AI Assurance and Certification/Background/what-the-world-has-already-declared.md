@@ -1,3 +1,4 @@
+> [!WARNING]
 > **Status: WIP / DISCUSSION** — the summaries of the instruments are factual reference; the mapping to the five public obligations is a proposed reading, open for comment.
 
 # What the world has already declared (and what's still missing)

@@ -1,3 +1,4 @@
+> [!NOTE]
 > **Status: WORKING DRAFT (v0.1, 2026-06-18)** — informal discussion paper (non-paper).
 > Working basis for orientation conversations. Evidence: see [Verified Findings](../Evidence/verified-findings.md).
 

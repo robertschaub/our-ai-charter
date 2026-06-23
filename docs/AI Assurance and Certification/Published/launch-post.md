@@ -1,3 +1,4 @@
+> [!TIP]
 > **Status: PUBLISHED** — live on LinkedIn, 14 June 2026; edited on LinkedIn 19 June 2026.
 
 # Launch post

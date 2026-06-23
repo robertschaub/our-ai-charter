@@ -1,3 +1,4 @@
+> [!TIP]
 > **Status: PUBLISHED** — verbatim mirror of the LinkedIn article published 20 June 2026.
 > Canonical post: [https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze)
 

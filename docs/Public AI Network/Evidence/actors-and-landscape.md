@@ -1,3 +1,4 @@
+> [!WARNING]
 > **Status: WIP / DISCUSSION** — a landscape map of organisations and researchers working on public-interest AI, governance, and evaluation. A reference resource for the Public AI Network workstream; inclusion here is not endorsement by, or of, any named party, and reflects public work as of June 2026 (verify current roles before relying on it).
 
 # Public-interest AI — actors & landscape map

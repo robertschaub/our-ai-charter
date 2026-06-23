@@ -1,3 +1,4 @@
+> [!WARNING]
 > **Status: WIP / DISCUSSION** — a consolidated briefing on the public-AI-governance initiative behind this workstream: what it argues, the assets behind it, the verified anchors, the strategy, and the guardrails. Points to the companion documents for detail.
 
 # Public AI governance — initiative briefing

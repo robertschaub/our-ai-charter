@@ -1,3 +1,4 @@
+> [!WARNING]
 > **Status: WIP / DISCUSSION** - strategic pickup note. Selected governance principles have been reflected in working drafts; named initiatives remain unverified discussion inputs, and this note is not a standalone adopted Charter position.
 
 # Public AI Infrastructure Governance - Pickup Note

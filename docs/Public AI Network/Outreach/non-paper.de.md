@@ -1,3 +1,4 @@
+> [!NOTE]
 > **Status: WORKING DRAFT (v0.1, 2026-06-18)** — Impuls- und Diskussionspapier (Non-Paper).
 > Arbeitsgrundlage für Orientierungsgespräche. Belege: siehe [Verified Findings](../Evidence/verified-findings.md).
 

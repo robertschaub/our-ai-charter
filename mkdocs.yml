@@ -71,6 +71,9 @@ plugins:
 markdown_extensions:
   - abbr
   - admonition
+  # Renders GitHub-style alerts (> [!NOTE] / [!TIP] / [!WARNING]) as Material
+  # admonitions, so the per-doc status callouts also render natively on GitHub.
+  - github-callouts
   - attr_list
   - def_list
   - footnotes

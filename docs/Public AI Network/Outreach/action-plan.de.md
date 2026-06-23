@@ -1,3 +1,4 @@
+> [!NOTE]
 > **Status: WORKING DRAFT — Aktionsplan (Kurzfassung).** Zusammenfassung, gestützt auf die [Verified Findings](../Evidence/verified-findings.md).
 
 # Aktionsplan — Public AI Governance (Kurzfassung)

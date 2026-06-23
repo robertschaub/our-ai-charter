@@ -1,3 +1,4 @@
+> [!NOTE]
 > **Status: WORKING DRAFT — Entwurfstext für ein mögliches Postulat.** Als Vorlage für ein tragendes Ratsmitglied gedacht (Robert Schaub kann ein Postulat nicht selbst einreichen). Bewusst **nicht als erste Massnahme**: erst nach Publikation des Non-Papers und Aufbau einer Allianz verwenden. Vor der Verwendung zwingend den tagesaktuellen Stand der Motion 24.3209 auf parlament.ch überprüfen.
 
 # Postulat (Entwurf): Vertrauenswürdige, international verankerte Public-AI-Infrastruktur — Schweizer Beitrag und Governance-Rahmen

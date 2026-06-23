@@ -1,3 +1,4 @@
+> [!NOTE]
 > **Status: WORKING DRAFT** — summary of the protocol draft.
 
 # Can we tell when a factual AI *shows its work*? — a 1-page proposal

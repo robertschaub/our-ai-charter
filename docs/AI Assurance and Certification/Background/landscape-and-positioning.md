@@ -1,3 +1,4 @@
+> [!WARNING]
 > **Status: WIP / DISCUSSION** — public landscape scan, not an adopted position.
 
 # Is the initiative obsolete, or should it join something? — landscape investigation

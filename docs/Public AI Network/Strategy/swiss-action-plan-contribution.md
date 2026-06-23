@@ -1,3 +1,4 @@
+> [!WARNING]
 > **Status: WIP / DISCUSSION** — approach for whether and when to file a contribution into the Swiss AI Action Plan. Decision criteria and submission discipline only; no live outreach status.
 
 # Swiss AI Action Plan — contribution approach
