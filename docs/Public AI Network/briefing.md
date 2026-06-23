@@ -36,6 +36,7 @@ The full, source-checked anchor list (with citations) lives in the [Verified Fin
 - **Apertus / SNAI** — a fully open, publicly funded Swiss LLM (EPFL, ETH Zurich, CSCS; Apache 2.0; released 2 Sept 2025) with a real institutional home (Swiss AI Initiative / SNAI), but no publicly evident independent multistakeholder governance board or charter — the natural entry point, framed as an open question *with* SNAI/Apertus, not as criticism.
 - **Current AI** — Switzerland is already a Country Partner of this Paris-based public-interest-AI partnership.
 - **Motion 24.3209 (Juillard)** — a live parliamentary thread on sovereign digital/AI infrastructure (adopted by the Council of States, now in the National Council committee); the complement here is the governance/trust layer.
+- **Motion 26.3221 (Z'graggen)** — a second live thread: an *Impulsprogramm* (time-limited seed funding) for pilot projects in digital infrastructure, open source, cybersecurity, and **AI**; adopted by the Council of States 30:7 on 10 Jun 2026, now before the National Council. The AI/open-source field is a candidate funding vehicle for a public-interest governance/evaluation pilot — see the [engagement note](Strategy/impulsprogramm-digitale-souveraenitaet.md).
 - **Geneva AI Summit 2027** — the next global AI summit (Geneva, first half 2027; UVEK + EDA), a concrete timing window.
 - **Expedition Zukunft** — a neutral non-profit convenor whose "Policy Sprint" format fits the pre-sprint (`info@expeditionzukunft.ch`).
 
@@ -63,5 +64,5 @@ For who is already working in this space (by role), see the [actor & landscape m
 ## Companion documents
 
 - [Non-Paper (EN](Outreach/non-paper.en.md) / [DE)](Outreach/non-paper.de.md) · [Postulat draft](Outreach/postulat.de.md) · [Aktionsplan](Outreach/action-plan.de.md) · [Verified Findings](Evidence/verified-findings.md)
-- [Initiation strategy](Strategy/initiation-strategy.md) · [Actor & landscape map](Evidence/actors-and-landscape.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md)
+- [Initiation strategy](Strategy/initiation-strategy.md) · [Actor & landscape map](Evidence/actors-and-landscape.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md) · [Impulsprogramm digitale Souveränität (Motion 26.3221)](Strategy/impulsprogramm-digitale-souveraenitaet.md)
 - Published: *[KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)* · *[The Public AI Network](Published/the-public-ai-network.md)*

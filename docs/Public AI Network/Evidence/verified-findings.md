@@ -28,6 +28,7 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 
 ### Live political window
 - **Motion 24.3209 Charles Juillard (Die Mitte / JU), "Für eine souveräne digitale Infrastruktur in der Schweiz im Zeitalter der künstlichen Intelligenz"**: tabled 2024 (Federal Council recommended rejection, 22 May 2024); **approved by the Council of States 31:11 (March 2026)**; **now in the National Council committee** (status June 2026). An open political thread to attach a governance/trust layer to — Juillard's motion targets *infrastructure/cloud*; the complement here is the *governance/trust* layer. Corroborated across multiple sources (Curia Vista 24.3209, Walder Wyss/datenrecht.ch, Parldigi, netzwoche, inside-it). [11][16][17] **Re-verified 23 Jun 2026 (secondary trackers; Curia Vista not directly reachable): status unchanged — still in the National Council committee, no plenary vote in the 2026 summer session.**
+- **Motion 26.3221 Heidi Z'graggen (Die Mitte / UR), "Impulsprogramm zur Stärkung der digitalen Souveränität der Schweiz"** (Curia Vista AffairId 20263221): a **time-limited, targeted seed-funding** impulse programme for pilot projects across **four fields — digital infrastructure, open-source technologies, cybersecurity, and artificial intelligence** — activating existing state/industry/science competencies, framed explicitly as *not* an expansion of the state (no permanent subsidies). Federal Council recommended rejection (sovereignty "already addressed" via *Digitale Schweiz 2026* / *Digitale Bundesverwaltung*; budget limits); **adopted by the Council of States 30:7 (1 abstention), 10 June 2026** — now before the National Council (a motion binds the Federal Council only once *both* chambers adopt it). The AI / open-source field is a natural docking point for a public-interest governance/evaluation layer — engagement note: [Impulsprogramm digitale Souveränität](../Strategy/impulsprogramm-digitale-souveraenitaet.md). Verified 23 Jun 2026 via the motioner's page + inside-it / Netzmedien / VSHN (Curia Vista not directly reachable, HTTP 403). [21][22][23][24]
 - **Geneva AI Summit 2027 — next global AI summit, Switzerland as host:** Successor in the AI Action/Impact Summit series (Bletchley 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026 → **Geneva, first half 2027** → UAE 2028); announced by Federal President Guy Parmelin at the New Delhi summit (19 Feb 2026). Organised jointly by **UVEK** (parent department of BAKOM) and **EDA**; EDA project lead **Amb. Markus Reubi**, with **Amb. Thomas Schneider (BAKOM/OFCOM)** representing Switzerland in international AI bodies. Switzerland frames itself as neutral convenor and a sectoral "middle way" between the EU AI Act and lightly-regulated approaches. Preparation underway: invite-only roundtable 1 Apr 2026; consultation draft due end 2026. NB: distinct from the annual ITU "AI for Good" Geneva summit. [12][18][19][20]
 
 ### Verified entry points
@@ -47,7 +48,7 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 | 2 | Co-shape Apertus/SNAI governance (the missing layer) | High | Med-high | **Yes** | Apertus real & publicly funded; governance is a real gap |
 | 3 | Dock onto Current AI (CH already Country Partner) | High | Med-high | **Yes** | Verified: CH Paris-Charter signatory |
 | 4 | Expedition Zukunft policy sprint | High | Med-high | Yes, after 3–5 signals | Verified: neutral non-profit convenor, sprint format |
-| 5 | Attach to Juillard motion / Geneva 2027 (BAKOM: T. Schneider) | High | Medium | **Prepare** | Verified: live motion + summit window |
+| 5 | Attach to live sovereignty motions (Juillard 24.3209; Z'graggen 26.3221 Impulsprogramm) / Geneva 2027 (BAKOM: T. Schneider) | High | Medium | **Prepare** | Verified: two Council-of-States-adopted motions + summit window |
 | 6 | Postulat via a council member | High if adopted | Medium (indirect only) | After non-paper | Verified: examine & report, one chamber |
 | 7 | Interpellation via a council member | Medium | Medium (indirect) | Optional | Forces Federal Council answer; status-mapping |
 | 8 | Petition (only direct instrument) | Low | High (direct) | Flanking only | Verified: any person, but acknowledgement-only |
@@ -59,7 +60,7 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 - Other international models (Mozilla, LAION, EleutherAI, Hugging Face, GPAI, UN AI Advisory Body, EU AI Act / GPAI Code of Practice, OSI AI definition).
 
 ## Caveat
-Field moves fast; everything is as of June 2026 (key anchors — Motion 24.3209, Apertus governance, Geneva 2027, Current AI — re-checked 2026-06-23). Re-verify memberships, governance and funding before any outreach or public citation.
+Field moves fast; everything is as of June 2026 (key anchors — Motions 24.3209 & 26.3221, Apertus governance, Geneva 2027, Current AI — re-checked 2026-06-23). Re-verify memberships, governance and funding before any outreach or public citation.
 
 ## Sources
 1. ETH Zurich press release (Sept 2025): https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html
@@ -82,3 +83,7 @@ Field moves fast; everything is as of June 2026 (key anchors — Motion 24.3209,
 18. admin.ch / BAKOM — Switzerland to host the 2027 AI Summit in Geneva: https://www.admin.ch/de/newnsb/fVHic4Zdu8Sd1ZLKT3X6g
 19. Digital Watch Observatory — 2027 Geneva AI Summit: https://dig.watch/processes/2027-geneva-ai-summit
 20. ICT4Peace — Geneva 2027 AI Summit: https://ict4peace.org/activities/norms-of-responsible-state-behavior/geneva-2027-ai-summit/
+21. Curia Vista — Motion 26.3221 (AffairId 20263221) "Impulsprogramm zur Stärkung der digitalen Souveränität der Schweiz": https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20263221
+22. Heidi Z'graggen (motioner) — "Ständerat stimmt Motion für ein Impulsprogramm digitale Souveränität zu": https://www.heidizgraggen.ch/post/ständerat-stimmt-motion-für-ein-impulsprogramm-digitale-souveränität-zu
+23. inside-it (10.06.2026) — "Ständerat will digitale Souveränität stärken": https://www.inside-it.ch/staenderat-will-digitale-souveraenitaet-staerken-20260610
+24. netzwoche (10.06.2026) — "Ständerat will ein Impulsprogramm für digitale Souveränität": https://www.netzwoche.ch/news/2026-06-10/staenderat-will-ein-impulsprogramm-fuer-digitale-souveraenitaet

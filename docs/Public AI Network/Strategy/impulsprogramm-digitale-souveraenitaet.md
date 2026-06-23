@@ -1,0 +1,38 @@
+> [!WARNING]
+> **Status: WORKING DRAFT** — engagement note: how the *Impulsprogramm digitale Souveränität* (Motion 26.3221) opens a window for *Our AI Charter* / the Public AI Network, and what to watch as it concretises. The verified fact record lives in the [Verified Findings](../Evidence/verified-findings.md#live-political-window); this note adds only the engagement angle.
+
+# Impulsprogramm digitale Souveränität (Motion 26.3221) — engagement note
+
+## What it is
+
+**Motion 26.3221** "Impulsprogramm zur Stärkung der digitalen Souveränität der Schweiz" — Heidi Z'graggen (Die Mitte / Uri). A **time-limited, targeted seed-funding** programme (*Anschubfinanzierung*) for pilot projects across four fields — **digital infrastructure, open-source technologies, cybersecurity, and artificial intelligence** — meant to activate existing state, industry, and science competencies, and framed explicitly as *not* an expansion of the state (no permanent subsidies). **Adopted by the Council of States 30:7 (1 abstention) on 10 June 2026**, against the Federal Council's recommendation to reject (which held that sovereignty is already covered by *Digitale Schweiz 2026* / *Digitale Bundesverwaltung* and cited budget limits). It now goes to the **National Council**; a motion binds the Federal Council only once *both* chambers adopt it.
+
+Full record and sources: [Verified Findings → Live political window](../Evidence/verified-findings.md#live-political-window).
+
+## Why it matters here
+
+The motion turns "open, sovereign technology" and **AI** into an explicit, cross-party **funding and political signal** at federal level — alongside [Motion 24.3209 (Juillard)](../Evidence/verified-findings.md#live-political-window) on sovereign infrastructure. Like Juillard's, it funds **capability** (building, infrastructure, pilots); it does not define how publicly-funded AI is kept inspectable, accountable, and capture-resistant. That governance/trust layer is what this workstream offers — so the motion is a window, not a competitor.
+
+## Where *Our AI Charter* / the Public AI Network could plug in
+
+1. **The governance/trust complement.** Offer the Charter's five public obligations ([Founding Accord](../../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)) and the *[Grounding-Faithfulness & Contestability](../../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)* evaluation module as the trust layer for any AI the programme funds — additive to, not competing with, Apertus / SNAI.
+2. **A candidate pilot.** A public-interest **governance + evaluation pilot** — e.g. an openness/evidence card plus a trial evaluation of an Apertus-class open model — is the kind of "innovative pilot project" the AI / open-source field describes, and fills the gap the motion leaves open.
+3. **Open source done credibly.** The motion elevates open source as sovereignty policy; the Charter supplies the missing distinction — *open weights are necessary but not sufficient; public AI also needs evidence, accountability, and correction* — and can translate "open" into auditable public-interest criteria for funded pilots.
+4. **A timing signal.** Two Council-of-States-adopted motions show a forming Swiss mandate for sovereign, open, public AI — usable evidence in orientation conversations, the [Non-Paper](../Outreach/non-paper.en.md), the [Swiss AI Action-Plan contribution](swiss-action-plan-contribution.md), and a Geneva 2027 contribution.
+5. **A formal thread later — via a carrier, not first.** Consistent with this workstream's *alliance/mandate first, lawmaking later* sequence ([initiation strategy](initiation-strategy.md)): once a coalition and a concrete deliverable exist, a carrier council member could file an interpellation/postulate on *how* the programme's AI pilots will be governed and evaluated. A non-parliamentarian engages this thread only indirectly, via a council member — never as a first move.
+
+## Honest constraints
+
+- **Nothing to apply to yet.** The motion is not finally adopted (it needs the National Council, then Federal Council implementation). No budget, duration, lead office, or pilot-selection mechanism exists — today this is positioning, not a live funding call.
+- **Intent ≠ fact.** Do not imply any coalition, endorsement, or that the Charter is a selected pilot.
+- **Additive, not competitive** with SNAI / Apertus or the motion's backers; disclose any commercial ties.
+
+## Concretizations to watch
+
+Recorded here as they become known (load-bearing facts also fold into the [Verified Findings](../Evidence/verified-findings.md#live-political-window)):
+
+- **National Council (second chamber)** — committee handling, vote date, and outcome.
+- **If adopted by both chambers** — the Federal Council's implementation: lead office (BAKOM / UVEK? the BFI / digitalswitzerland axis?), budget envelope, duration, and **how pilots are proposed and selected** — the access route that matters most here.
+- Whether the AI / open-source field names **Apertus / Swiss AI Initiative / SNAI**.
+- Interaction with **Motion 24.3209 (Juillard)** and with the **Digitale Schweiz 2026** / **Digitale Bundesverwaltung** programmes the Federal Council cited.
+- Whether it is folded into or referenced by the **Swiss AI Action Plan** (governance track) — see the [contribution approach](swiss-action-plan-contribution.md).
