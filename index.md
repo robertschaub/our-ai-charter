@@ -76,4 +76,4 @@ This is an open draft, not a finished standard. Three concrete asks:
 
 Open a GitHub issue for public feedback. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.
 
-Repository: [github.com/robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter)
+Repository: [github.com/robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter). Stewarded by Robert Schaub and the **[FactHarbor Verein](PROGRAM.md#stewardship-and-governance)**.

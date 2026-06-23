@@ -18,7 +18,7 @@ It holds any deployed system to one question — **can it show its work and answ
 
 The obligations are spelled out in full in the **[Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, tested by a [first evaluation module](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md), and set within a three-layer assurance stack — legal floor, common Charter baseline, and public-interest modules.
 
-Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](PROGRAM.md)** · Stewarded by Robert Schaub and the **FactHarbor Verein**.
+Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](PROGRAM.md#stewardship-and-governance)**.
 
 ## Two workstreams
 
