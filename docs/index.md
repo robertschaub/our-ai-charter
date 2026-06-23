@@ -16,7 +16,7 @@ Our AI Charter is a public-interest draft for making AI trustworthy in practice.
 
 <div class="grid cards" markdown>
 
--   :material-shield-network:{ .lg .middle } __Public AI Network__
+-   :material-network:{ .lg .middle } __Public AI Network__
 
     ---
 
