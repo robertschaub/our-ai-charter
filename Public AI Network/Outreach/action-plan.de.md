@@ -1,8 +1,8 @@
-> **Status: WORKING DRAFT — Aktionsplan (Kurzfassung).** Zusammenfassung, gestützt auf die [Verified Findings](public-ai-verified-findings.md).
+> **Status: WORKING DRAFT — Aktionsplan (Kurzfassung).** Zusammenfassung, gestützt auf die [Verified Findings](../Evidence/verified-findings.md).
 
 # Aktionsplan — Public AI Governance (Kurzfassung)
 
-**Update 2026-06-19:** Der LinkedIn-Artikel ist publiziert ([KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Die Freigabe- und Faktenprüfungsregeln für Non-Paper, Outreach, Postulat und externe Claims bleiben gültig.
+**Update 2026-06-19:** Der LinkedIn-Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Die Freigabe- und Faktenprüfungsregeln für Non-Paper, Outreach, Postulat und externe Claims bleiben gültig.
 
 **Rolle:** Impulsgeber und Allianzbildner. Die Schweiz soll sich als glaubwürdige Gastgeberin und als Knotenpunkt positionieren — und das von Beginn an international ausgerichtet. Es soll ausdrücklich keine neue Institution gegründet werden.
 
@@ -10,7 +10,7 @@
 
 ## Zeitliche Abfolge (Sequenz)
 
-Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](public-ai-initiation-strategy.md) festgehalten (massgebliche Fassung). Kurzfassung der unmittelbaren Schritte:
+Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](../Strategy/initiation-strategy.md) festgehalten (massgebliche Fassung). Kurzfassung der unmittelbaren Schritte:
 
 - **0–30 Tage:** Non-Paper finalisieren; erste Orientierungsgespräche mit den Befürwortern eines offenen Schweizer Modells und mit einem neutralen Konvener (Expedition Zukunft, `info@expeditionzukunft.ch`) für ein Policy-Sprint-Scoping. Ziel: drei glaubwürdige Unterstützer:innen und eine Stakeholder-Map. Der publizierte LinkedIn-Artikel ist ein vorhandenes öffentliches Signal, aber kein Ersatz für direkte Gespräche.
 - **31–60 Tage:** Scoping-Gespräch durchführen; einen neutral moderierten Klärungsprozess (Pre-Sprint) aufsetzen.
@@ -21,7 +21,7 @@ Der Bund erarbeitet voraussichtlich bis Ende 2026 eine Vorlage oder einen Umsetz
 
 ## Verifizierte Anknüpfpunkte (Anker)
 
-Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](public-ai-verified-findings.md). Operativ am wichtigsten:
+Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](../Evidence/verified-findings.md). Operativ am wichtigsten:
 
 - **Apertus/SNAI:** Die offene Governance-Frage (kein öffentlich erkennbares unabhängiges Mehrparteien-Gremium) bietet einen natürlichen Einstiegspunkt — als Frage *mit* SNAI/Apertus, nicht als Kritik.
 - **Current AI:** Die Schweiz ist bereits Partnerland (Country Partner).
@@ -36,7 +36,7 @@ Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](pu
 
 ## Relevante Dokumente
 
-- [Verified Findings](public-ai-verified-findings.md)
-- Impuls- und Diskussionspapier (Non-Paper) [DE](non-paper-swiss-public-ai-governance-de.md) / [EN](non-paper-swiss-public-ai-governance-en.md)
-- [Postulat-Entwurf](postulat-public-ai-governance-de.md)
-- Publizierter LinkedIn-Artikel: [KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)
+- [Verified Findings](../Evidence/verified-findings.md)
+- Impuls- und Diskussionspapier (Non-Paper) [DE](non-paper.de.md) / [EN](non-paper.en.md)
+- [Postulat-Entwurf](postulat.de.md)
+- Publizierter LinkedIn-Artikel: [KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)

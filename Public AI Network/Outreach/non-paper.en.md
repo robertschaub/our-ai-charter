@@ -1,5 +1,5 @@
 > **Status: WORKING DRAFT (v0.1, 2026-06-18)** — informal discussion paper (non-paper).
-> Working basis for orientation conversations. Evidence: see [Verified Findings](public-ai-verified-findings.md).
+> Working basis for orientation conversations. Evidence: see [Verified Findings](../Evidence/verified-findings.md).
 
 # Swiss Contribution to Internationally Anchored Public AI Infrastructure
 
@@ -58,4 +58,4 @@ We are looking for an exchange of ideas. Depending on your capacity, we ask for:
 
 ---
 
-*Sources (public): Apertus (ethz.ch / swiss-ai.org); Current AI (currentai.org); Geneva AI Summit 2027 (satw.ch). Full evidence: see [Verified Findings](public-ai-verified-findings.md).*
+*Sources (public): Apertus (ethz.ch / swiss-ai.org); Current AI (currentai.org); Geneva AI Summit 2027 (satw.ch). Full evidence: see [Verified Findings](../Evidence/verified-findings.md).*

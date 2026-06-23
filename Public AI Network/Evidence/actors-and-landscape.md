@@ -2,7 +2,7 @@
 
 # Public-interest AI — actors & landscape map
 
-Who is already building the pieces of an open, accountable, internationally co-stewarded public-AI layer? This map gathers organisations and researchers by the role their **public work** plays, with links to that work. It complements the [Non-Paper](non-paper-swiss-public-ai-governance-en.md), the [Verified Findings](public-ai-verified-findings.md), and [Linked sources & charter relevance](linked-sources-and-charter-relevance.md). It is a reading/landscape aid: where an actor publishes a direct contact for this work in an official capacity, it is noted; otherwise, reach them via the linked sites and work.
+Who is already building the pieces of an open, accountable, internationally co-stewarded public-AI layer? This map gathers organisations and researchers by the role their **public work** plays, with links to that work. It complements the [Non-Paper](../Outreach/non-paper.en.md), the [Verified Findings](verified-findings.md), and [Linked sources & charter relevance](linked-sources.md). It is a reading/landscape aid: where an actor publishes a direct contact for this work in an official capacity, it is noted; otherwise, reach them via the linked sites and work.
 
 ## The public-AI movement & shared infrastructure
 

@@ -32,4 +32,4 @@ Dieses Postulat fordert den Bundesrat auf, genau diesen Handlungsbedarf zu analy
 
 ---
 
-*Belege und Quellen: siehe [Verified Findings](public-ai-verified-findings.md). Vor der Einreichung zwingend den aktuellen Stand der Motion 24.3209 und der Planung für Genf 2027 verifizieren.*
+*Belege und Quellen: siehe [Verified Findings](../Evidence/verified-findings.md). Vor der Einreichung zwingend den aktuellen Stand der Motion 24.3209 und der Planung für Genf 2027 verifizieren.*

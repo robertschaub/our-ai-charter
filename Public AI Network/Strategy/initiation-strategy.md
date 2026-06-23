@@ -1,4 +1,4 @@
-> **Status: WIP / DISCUSSION** — strategy note on how to initiate a Swiss/international public-AI governance process. Companion to the [Aktionsplan](plan-public-ai-governance-de.md) (short version), the [Non-Paper](non-paper-swiss-public-ai-governance-en.md), and the [Verified Findings](public-ai-verified-findings.md).
+> **Status: WIP / DISCUSSION** — strategy note on how to initiate a Swiss/international public-AI governance process. Companion to the [Aktionsplan](../Outreach/action-plan.de.md) (short version), the [Non-Paper](../Outreach/non-paper.en.md), and the [Verified Findings](../Evidence/verified-findings.md).
 
 # Public AI initiation — strategy
 
@@ -9,10 +9,10 @@ How to turn the public-AI-governance idea into a real, multi-stakeholder process
 Don't start with a parliamentary instrument. The higher-probability path is:
 
 1. Build a small **anchor group** around Swiss public-AI governance.
-2. Write a **2-page non-paper** (done — see the [Non-Paper](non-paper-swiss-public-ai-governance-en.md)).
+2. Write a **2-page non-paper** (done — see the [Non-Paper](../Outreach/non-paper.en.md)).
 3. Use a **neutral convenor** for a scoped pre-sprint.
 4. Feed the result into **Swiss federal and Geneva 2027** channels.
-5. Only then use an **interpellation/postulate** to formalise the political mandate (draft: [Postulat](postulat-public-ai-governance-de.md)).
+5. Only then use an **interpellation/postulate** to formalise the political mandate (draft: [Postulat](../Outreach/postulat.de.md)).
 
 ## Consolidated recommendation
 
@@ -28,7 +28,7 @@ Don't start with a parliamentary instrument. The higher-probability path is:
 
 ## Instruments & leverage
 
-The leverage ranking and the parliamentary-instrument analysis (interpellation → postulate → motion; why a non-parliamentarian works *indirectly* via a council member) are set out in the [Verified Findings](public-ai-verified-findings.md). In short: **alliance/mandate first, lawmaking later.**
+The leverage ranking and the parliamentary-instrument analysis (interpellation → postulate → motion; why a non-parliamentarian works *indirectly* via a council member) are set out in the [Verified Findings](../Evidence/verified-findings.md). In short: **alliance/mandate first, lawmaking later.**
 
 ## 30/60/90-day roadmap
 
@@ -40,7 +40,7 @@ The leverage ranking and the parliamentary-instrument analysis (interpellation �
 
 **Days 61–90 — create public and political connectivity.** Prepare a "Swiss-hosted international public-AI infrastructure roundtable"; draft interpellation/postulate options; define one demo use-case tied to verifiable public-information infrastructure; identify a first funding or convening need. *Success:* a small carrier group, a concrete event/process date, and a political brief ready for a parliamentary sponsor.
 
-For who is already working in this space (by role), see the [actor & landscape map](public-interest-ai-actors.md).
+For who is already working in this space (by role), see the [actor & landscape map](../Evidence/actors-and-landscape.md).
 
 ## Guardrails
 

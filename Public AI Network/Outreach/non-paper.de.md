@@ -1,5 +1,5 @@
 > **Status: WORKING DRAFT (v0.1, 2026-06-18)** — Impuls- und Diskussionspapier (Non-Paper).
-> Arbeitsgrundlage für Orientierungsgespräche. Belege: siehe [Verified Findings](public-ai-verified-findings.md).
+> Arbeitsgrundlage für Orientierungsgespräche. Belege: siehe [Verified Findings](../Evidence/verified-findings.md).
 
 # Der Schweizer Beitrag zu einer international verankerten Public-AI-Infrastruktur
 
@@ -58,4 +58,4 @@ Wir suchen den Austausch. Je nach Ihren Möglichkeiten bitten wir um:
 
 ---
 
-*Quellen (öffentlich): Apertus (ethz.ch / swiss-ai.org); Current AI (currentai.org); KI-Gipfel Genf 2027 (satw.ch). Vollständige Belege: siehe [Verified Findings](public-ai-verified-findings.md).*
+*Quellen (öffentlich): Apertus (ethz.ch / swiss-ai.org); Current AI (currentai.org); KI-Gipfel Genf 2027 (satw.ch). Vollständige Belege: siehe [Verified Findings](../Evidence/verified-findings.md).*

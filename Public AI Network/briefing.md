@@ -19,7 +19,7 @@ Switzerland already has the building blocks — **Apertus**, **Swiss AI Initiati
 
 Explicitly **not** national/industrial protectionism, and **not** a commercial "sovereign AI" vendor play.
 
-The driving purpose is to protect and strengthen democracy and free values in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation. (Full goal order: the [pickup note](public-ai-infrastructure-governance-pickup.md).)
+The driving purpose is to protect and strengthen democracy and free values in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation. (Full goal order: the [pickup note](Strategy/governance-pickup-note.md).)
 
 ## 3. The two assets behind it
 
@@ -30,7 +30,7 @@ Signature principle — **no secret kill-switch:** material control intervention
 
 ## 4. Verified anchors
 
-The full, source-checked anchor list (with citations) lives in the [Verified Findings](public-ai-verified-findings.md); re-verify before public citation. The load-bearing ones:
+The full, source-checked anchor list (with citations) lives in the [Verified Findings](Evidence/verified-findings.md); re-verify before public citation. The load-bearing ones:
 
 - **Apertus / SNAI** — a fully open, publicly funded Swiss LLM (EPFL, ETH Zurich, CSCS; Apache 2.0; released 2 Sept 2025) with a real institutional home (Swiss AI Initiative / SNAI), but no publicly evident independent multistakeholder governance board or charter — the natural entry point, framed as an open question *with* SNAI/Apertus, not as criticism.
 - **Current AI** — Switzerland is already a Country Partner of this Paris-based public-interest-AI partnership.
@@ -42,13 +42,13 @@ A non-parliamentarian can trigger a Motion or Postulat only indirectly via a cou
 
 ## 5. Strategy & sequence
 
-**Biggest lever:** dock onto existing, publicly-funded, reputable structures (Apertus/SNAI, Current AI) and bundle reach into an alliance/charter; parliamentary moves come later via a carrier council member. The full leverage ranking and the 30/60/90-day roadmap are in the [initiation strategy](public-ai-initiation-strategy.md); the evidence base is in the [Verified Findings](public-ai-verified-findings.md).
+**Biggest lever:** dock onto existing, publicly-funded, reputable structures (Apertus/SNAI, Current AI) and bundle reach into an alliance/charter; parliamentary moves come later via a carrier council member. The full leverage ranking and the 30/60/90-day roadmap are in the [initiation strategy](Strategy/initiation-strategy.md); the evidence base is in the [Verified Findings](Evidence/verified-findings.md).
 
 ## 6. Current state
 
 The German article and its feed post are published; the English companion *[The Public AI Network](Published/the-public-ai-network.md)* followed. Outreach to potential Swiss and international collaborators is in progress. The near-term aim is a handful of orientation conversations and three credible supporters, then a neutrally-facilitated pre-sprint.
 
-For who is already working in this space (by role), see the [actor & landscape map](public-interest-ai-actors.md). For whether/when to file into the Swiss AI Action Plan, see the [contribution approach](swiss-ai-action-plan-contribution.md).
+For who is already working in this space (by role), see the [actor & landscape map](Evidence/actors-and-landscape.md). For whether/when to file into the Swiss AI Action Plan, see the [contribution approach](Strategy/swiss-action-plan-contribution.md).
 
 ## 7. Guardrails
 
@@ -61,6 +61,6 @@ For who is already working in this space (by role), see the [actor & landscape m
 
 ## Companion documents
 
-- [Non-Paper (EN](non-paper-swiss-public-ai-governance-en.md) / [DE)](non-paper-swiss-public-ai-governance-de.md) · [Postulat draft](postulat-public-ai-governance-de.md) · [Aktionsplan](plan-public-ai-governance-de.md) · [Verified Findings](public-ai-verified-findings.md)
-- [Initiation strategy](public-ai-initiation-strategy.md) · [Actor & landscape map](public-interest-ai-actors.md) · [Swiss AI Action Plan — contribution approach](swiss-ai-action-plan-contribution.md)
+- [Non-Paper (EN](Outreach/non-paper.en.md) / [DE)](Outreach/non-paper.de.md) · [Postulat draft](Outreach/postulat.de.md) · [Aktionsplan](Outreach/action-plan.de.md) · [Verified Findings](Evidence/verified-findings.md)
+- [Initiation strategy](Strategy/initiation-strategy.md) · [Actor & landscape map](Evidence/actors-and-landscape.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md)
 - Published: *[KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)* · *[The Public AI Network](Published/the-public-ai-network.md)*

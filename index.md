@@ -85,7 +85,7 @@ The full, current document index — both workstreams, with status labels — li
 
 **Public AI Network** — sovereignty, resilience, coordination:
 - [The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md) · [KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) — *PUBLISHED* LinkedIn articles.
-- [Public AI governance — initiative briefing](Public%20AI%20Network/public-ai-governance-briefing.md) — a good entry point to the Swiss public-AI governance working materials.
+- [Public AI governance — initiative briefing](Public%20AI%20Network/briefing.md) — a good entry point to the Swiss public-AI governance working materials.
 
 **AI Assurance & Certification** — accountability, evaluation, certification:
 - [Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — *PUBLISHED* manifesto.
