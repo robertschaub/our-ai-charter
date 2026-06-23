@@ -39,9 +39,9 @@ Boundary rules for agents:
 
 ## Public-repo discipline (read first)
 
-This repository is **public**. Two separate private administrative repositories exist for non-public material — `our-ai-charter-internal` (Charter cooperation, outreach, strategy, governance drafts) and `FactHarbor-internal` (finance, legal, banking, fundraising, Verein) — and that is where anything confidential belongs, never here.
+This repository is **public**, and it is the **default home for all Charter material** — published *and* draft. Two separate private administrative repositories exist for the narrow set of things that must stay private: `our-ai-charter-internal` (only personal DM/email correspondence with individuals, plus anything the maintainer explicitly marks INTERNAL) and `FactHarbor-internal` (finance, legal, banking, fundraising, Verein). Anything confidential belongs in one of those, never here.
 
-- **Never commit private, internal, unpublished-confidential, or personal data into this repo.** When in doubt, leave it out.
+- **Never commit personal correspondence, INTERNAL-marked, or otherwise confidential/personal data into this repo.** Drafts and works-in-progress are fine here — being unpublished does not make something private — but when you are unsure whether a specific item is sensitive, leave it out and ask the maintainer.
 - **Never commit secrets** — API keys, tokens, credentials, `.env` files. GitHub **secret scanning + push protection** is enabled and will block known secret formats, but treat it as a backstop, not a license to be careless.
 - If sensitive material appears in a working tree, diff, issue, or PR, stop and notify the maintainer privately; do not open a public issue containing the material. See [SECURITY.md](SECURITY.md).
 - Do not create public links or process dependencies on private repositories. Keep non-public working material outside this repo.
@@ -51,7 +51,7 @@ This repository is **public**. Two separate private administrative repositories 
 
 Confidential material never lives in this public repo. It is split across **two private sibling repositories**:
 
-- **`our-ai-charter-internal`** — Our AI Charter's own private administrative repo: cooperation, outreach, contacts, partner material, governance drafts, and Public-AI strategy. This is the primary private sibling for Charter work.
+- **`our-ai-charter-internal`** — Our AI Charter's private sibling, now deliberately **narrow**: it holds only (1) personal DM/email correspondence with individuals acting in a private capacity, and (2) documents the maintainer has explicitly marked `<!-- Status: INTERNAL — <reason> -->`. Charter cooperation, outreach, strategy, and governance drafts are **no longer private by default** — they live in the public repo unless marked INTERNAL.
 - **`FactHarbor-internal`** — the FactHarbor Verein's administrative repo: legal, finance, banking, fundraising, and Verein organisation records — **including Our AI Charter's finances and Verein records.**
 
 Our AI Charter and FactHarbor are separate but related projects, both stewarded by Robert Schaub and the FactHarbor Verein. This public repository is the program's umbrella for the *public* normative and published work; the two private siblings are the home for anything confidential.
@@ -66,14 +66,15 @@ This public repo and the two private siblings are one program. Route every new f
 
 | Content | Home |
 |---|---|
-| Charter, manifesto, protocol, published articles/posts/comments, public background — anything meant for the world | **`our-ai-charter`** (here) |
-| Charter cooperation, outreach, contacts, partner notes, governance drafts, Public-AI strategy, operational/working records — confidential | **`our-ai-charter-internal`** (private) |
+| Charter, manifesto, protocol, articles/posts/comments (**published _or_ draft**), public background, cooperation/outreach/strategy/governance notes — the default for anything not in a row below | **`our-ai-charter`** (here) |
+| Personal DM/email correspondence with an individual acting privately; any file whose header is marked `<!-- Status: INTERNAL — reason -->` | **`our-ai-charter-internal`** (private) |
 | Legal, finance, banking, fundraising, Verein organisation — including Our AI Charter's | **`FactHarbor-internal`** (private) |
 
-- **Only *published* LinkedIn versions belong in this public repo.** Mirror an article, post, or comment here only once it is published on LinkedIn; unpublished LinkedIn drafts and in-progress adaptations live in `our-ai-charter-internal` until (and unless) they go live.
-- **Unsure → write it to `our-ai-charter-internal` and ask the maintainer.** Over-classifying as private is cheap; a public misroute is permanent and worldwide.
-- This repo must **never** receive confidential or personal content, even temporarily in the working tree.
-- **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an internal banner; it's a backstop, not a substitute for the rule. Only Claude Code's hook enforces git safety automatically; other agents must self-enforce.
+- **What "INTERNAL" means.** A file is INTERNAL when its header carries `<!-- Status: INTERNAL — <reason> -->` (the pre-commit guard greps for it). INTERNAL files live only in `our-ai-charter-internal`; if one turns up in this public working tree, move it to the private sibling instead of committing it.
+- **Drafts belong here too.** Articles, posts, comments, and adaptations live in this public repo whether or not they are published yet — being unpublished does not make something private. The only inherently private material is personal DM/email with an individual; and even that is **not** private when the person is acting as an official representative of an organisation.
+- **Authoring is not the same as publishing what's private.** Freely create and edit clearly-public material here. But never, on your own judgement, move currently-private content into this repo, strip an INTERNAL marker, or commit material whose sensitivity is unclear — a public misroute is permanent and worldwide. When unsure, keep it private (or mark it INTERNAL) and ask the maintainer.
+- This repo must **never** receive personal correspondence or INTERNAL-marked content, even temporarily in the working tree.
+- **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an INTERNAL/confidential banner (e.g. `Status: INTERNAL`); it's a backstop, not a substitute for the rule. Only Claude Code's hook enforces git safety automatically; other agents must self-enforce.
 - Writing into a private sibling requires the agent's tool workspace to grant access to that path; if it is unreachable, do the public part here and leave the private part to the maintainer.
 
 ## Where to work from (primary base)
@@ -101,6 +102,7 @@ For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo*
 
 - **Open drafts + a dated change log.** Record notable changes in [CHANGELOG.md](CHANGELOG.md) with an ISO date (`YYYY-MM-DD`).
 - **Use Git for versioning.** Keep published article and post mirror filenames stable; do not create dated or versioned copies such as `*-v2.md` or `*-2026-06-16.md`. Use Git history, status labels, changelog entries, and document notes to record versions and changes.
+- **Archive (or delete) superseded drafts when a version is published.** When an article or post is published, its earlier versions and superseded drafts move into `Archive/<workstream>/` (e.g. `Archive/public-ai-network/`) — keeping their filenames — or are deleted. The **maintainer decides archive-vs-delete and executes this case by case**; agents must not auto-archive or auto-delete drafts. Keep archived files out of the README and site index (retained for history, not reader-facing). This is separate from versioning a *living* document, which stays in place and is tracked via Git history per the rule above.
 - **Lean documentation by default.** Use `/doc-guard` ([.claude/skills/doc-guard/SKILL.md](.claude/skills/doc-guard/SKILL.md), mirrored at [.agents/skills/doc-guard/SKILL.md](.agents/skills/doc-guard/SKILL.md)) before adding a new document, substantially expanding or rewriting Markdown, or reviewing a documentation diff for clutter. State the reader need, the existing home, the chosen option (`tighten | amend | merge | move | delete | add`), and the lean test. Prefer tightening, merging, moving, or deleting before adding; cut filler, repeated background, placeholder sections, decorative structure, and generic values language.
 - **Keep the README index and status labels in sync** whenever you add, rename, promote, or retire a document. The `/docs-update` skill ([.claude/skills/docs-update/SKILL.md](.claude/skills/docs-update/SKILL.md)) walks this.
 - **Cite sources; prefer the smallest concrete improvement** over a grand rewrite (see [CONTRIBUTING.md](CONTRIBUTING.md)). Record minority interpretations rather than hiding them.

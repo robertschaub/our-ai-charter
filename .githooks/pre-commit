@@ -4,7 +4,11 @@
 # for agents without their own commit guard (Codex, Gemini, Copilot).
 # Activate per clone: git config core.hooksPath .githooks
 # Deliberate override (maintainer only): git commit --no-verify
-markers='status:[* ]*(internal|confidential|private)|internal handoff|internal working note|internal publication record|internal reference note|confidential[ ,.—-]*internal|confidential[, ]*not for distribution|not for distribution|nicht zur weitergabe|vertraulich, nicht'
+# The "status:" banner is anchored to the start of a line (optionally inside an HTML
+# comment or blockquote) so a real confidentiality banner is caught, while prose that
+# merely cites the marker (e.g. AGENTS.md documenting `<!-- Status: INTERNAL -->`) is
+# not flagged. The phrase markers that follow stay unanchored.
+markers='^[[:space:]]*(<!--[[:space:]]*)?>?[[:space:]]*\*{0,2}status:[* ]*(internal|confidential|private)|internal handoff|internal working note|internal publication record|internal reference note|confidential[ ,.—-]*internal|confidential[, ]*not for distribution|not for distribution|nicht zur weitergabe|vertraulich, nicht'
 violations=''
 IFS='
 '
