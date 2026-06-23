@@ -12,7 +12,7 @@ site_author: Robert Schaub
 
 repo_url: https://github.com/robertschaub/our-ai-charter
 repo_name: robertschaub/our-ai-charter
-edit_uri: edit/main/
+edit_uri: edit/main/docs/
 
 docs_dir: docs
 site_dir: site
