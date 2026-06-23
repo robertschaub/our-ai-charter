@@ -14,13 +14,7 @@ AI is becoming the infrastructure the world learns, decides, and creates with. *
 - **Fair in practice** — materially uneven or discriminatory performance is tested and monitored where relevant, with limits disclosed and credible harms escalated, mitigated, corrected, constrained, or withdrawn where necessary;
 - **Open to evidence and correction** — material claims, sources where used, limits, incidents, changes, drift, complaints, corrections, withdrawals, and unresolved risks leave enough evidence for appropriate review and action.
 
-This repository is the open home of the charter and the drafts that put teeth on it.
-
-Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)**
-
-Program map: **[PROGRAM.md](PROGRAM.md)** — where this normative framework sits within a broader program for responsible technology in society.
-
-> **Every document is labeled at the top with its status — `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION` — so it's always clear what is final and what is still being worked out.**
+Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](PROGRAM.md)**.
 
 ## One goal
 
@@ -30,56 +24,36 @@ This is one strand of a broader program — *building a fair, stable, and sustai
 
 ## Two workstreams
 
-Our AI Charter is organised into two related workstreams. Each document's maturity is labelled at the top of its file (`PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION`).
+Each document is labelled at the top with its maturity: *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*.
 
 ### Public AI Network
 
-*Sovereignty, resilience, and coordination — public AI as a co-stewarded, capture-resistant network across coordination & standards, governance & trust, and durable ecosystems. How do free societies build this together?*
+*Sovereignty, resilience, and coordination — public AI as a co-stewarded, capture-resistant network across coordination & standards, governance & trust, and durable ecosystems.*
 
-- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](Public%20AI%20Network/Published/the-public-ai-network.md)** — *PUBLISHED* (LinkedIn, 22 June 2026). The international, English statement of the umbrella: open public models exist across many regions, but real sovereignty and resilience come from what free societies build around them — coordination & standards, governance & trust, and durable ecosystems. [Canonical post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) · [accompanying feed post](Public%20AI%20Network/Published/the-public-ai-network-post.md).
-- **[KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)** — *PUBLISHED* (LinkedIn, 20 June 2026). The public-AI-sovereignty and governance thread: why a Swiss open-model effort needs a transparent governance layer and a capture-resistant international host. [Canonical post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) · [accompanying feed post](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz-post.md).
-- **[Linked sources & charter relevance](Public%20AI%20Network/linked-sources-and-charter-relevance.md)** — *WORKING DRAFT*: a strategic map of the sources cited in the published *Public AI Network* article — their maturity, fit, and where the Charter can contribute.
-- **[Public AI infrastructure governance — pickup note](Public%20AI%20Network/public-ai-infrastructure-governance-pickup.md)** — *WIP / DISCUSSION*: background note on organising public-interest AI as an internationally co-stewarded, capture-resistant infrastructure; input for future drafting, not adopted language.
-
-*Swiss public-AI governance proposal — working materials:*
-
-- **[Public AI governance — initiative briefing](Public%20AI%20Network/public-ai-governance-briefing.md)** — *WIP / DISCUSSION*: a consolidated overview — what the article argues, the two assets, verified anchors, strategy, and guardrails — with pointers to the detailed docs below. A good entry point.
-- **[Non-Paper: Swiss contribution to public-AI infrastructure](Public%20AI%20Network/non-paper-swiss-public-ai-governance-en.md)** ([DE](Public%20AI%20Network/non-paper-swiss-public-ai-governance-de.md)) — *WORKING DRAFT*: a 2-page discussion paper proposing Switzerland as a credible host/node for an internationally co-stewarded public-AI infrastructure, with governance principles and concrete contributions toward the Geneva AI Summit 2027.
-- **[Aktionsplan — Public AI Governance](Public%20AI%20Network/plan-public-ai-governance-de.md)** — *WORKING DRAFT* (DE): the short action plan — role, leverage, sequence, anchors, and communication guardrails for the governance initiative.
-- **[Postulat (Entwurf)](Public%20AI%20Network/postulat-public-ai-governance-de.md)** — *WORKING DRAFT* (DE): a draft parliamentary postulate template asking the Federal Council to examine trustworthy, internationally anchored public-AI governance models — for a council member to file, deliberately not a first move.
-- **[Verified Findings](Public%20AI%20Network/public-ai-verified-findings.md)** — *WORKING DRAFT*: the source-checked evidence base behind the non-paper and postulate (Apertus/SNAI, parliamentary instruments, international anchors, the live political window).
-- **[Public AI initiation — strategy](Public%20AI%20Network/public-ai-initiation-strategy.md)** — *WIP / DISCUSSION*: how to initiate the process — an alliance-first sequence, a 30/60/90-day roadmap, and honest-framing guardrails.
-- **[Public-interest AI — actors & landscape map](Public%20AI%20Network/public-interest-ai-actors.md)** — *WIP / DISCUSSION*: a reference map of organisations and researchers working on public-interest AI, governance, and evaluation, grouped by the role their public work plays.
-- **[Swiss AI Action Plan — contribution approach](Public%20AI%20Network/swiss-ai-action-plan-contribution.md)** — *WIP / DISCUSSION*: whether/where to file a contribution into the Action Plan, the go/no-go criteria, and the overclaim-audit checklist.
+- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](Public%20AI%20Network/Published/the-public-ai-network.md)** — *PUBLISHED* (22 Jun 2026). The international statement of the umbrella. [Post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) · [feed post](Public%20AI%20Network/Published/the-public-ai-network-post.md).
+- **[KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)** — *PUBLISHED* (DE, 20 Jun 2026). The public-AI-sovereignty thread. [Post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) · [feed post](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz-post.md).
+- **[Public AI governance — initiative briefing](Public%20AI%20Network/public-ai-governance-briefing.md)** — *WIP / DISCUSSION*. A good entry point to the governance materials below.
+- **[Verified Findings](Public%20AI%20Network/public-ai-verified-findings.md)** — *WORKING DRAFT*. The source-checked evidence base.
+- **[Public AI initiation — strategy](Public%20AI%20Network/public-ai-initiation-strategy.md)** — *WIP / DISCUSSION*. Alliance-first sequence + 30/60/90 roadmap.
+- **[Non-Paper](Public%20AI%20Network/non-paper-swiss-public-ai-governance-en.md)** ([DE](Public%20AI%20Network/non-paper-swiss-public-ai-governance-de.md)) · **[Aktionsplan](Public%20AI%20Network/plan-public-ai-governance-de.md)** (DE) · **[Postulat](Public%20AI%20Network/postulat-public-ai-governance-de.md)** (DE) — *WORKING DRAFT* outreach / parliamentary materials.
+- **[Actors & landscape map](Public%20AI%20Network/public-interest-ai-actors.md)** · **[Linked sources](Public%20AI%20Network/linked-sources-and-charter-relevance.md)** · **[Action-Plan contribution approach](Public%20AI%20Network/swiss-ai-action-plan-contribution.md)** · **[Infrastructure-governance pickup note](Public%20AI%20Network/public-ai-infrastructure-governance-pickup.md)** — *WIP / DISCUSSION* reference notes.
 
 ### AI Assurance & Certification
 
-*Accountability, evaluation, and certification — can a deployed AI show its work and answer for it? The five public obligations, a three-layer assurance stack, and a first evaluation protocol.*
+*Accountability, evaluation, and certification — can a deployed AI show its work and answer for it?*
 
-- **[Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (LinkedIn, 14 June 2026; updated 19 June 2026). The **why** — the accountability and evaluation thread. [Canonical post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
-- **[The Founding Accord](AI%20Assurance%20and%20Certification/founding-accord.md)** — *WORKING DRAFT*: a public charter you can endorse — user needs, values, five public obligations, a legal-floor/common-baseline/module assurance stack, and operational duties that structure pilot reports and may later form a certification baseline. The **what**.
-- **Protocol — [Grounding-Faithfulness & Contestability](AI%20Assurance%20and%20Certification/grounding-faithfulness-and-contestability.md)** — *WORKING DRAFT*: the first draft *evaluation* module for whether a deployed factual AI "shows its work." It is not the whole Charter audit method.
-  - [One-page version](AI%20Assurance%20and%20Certification/one-pager.md) · [How certification could work later](AI%20Assurance%20and%20Certification/certification-model.md) — both *WORKING DRAFT*.
-- **[Risk and vulnerability audit](AI%20Assurance%20and%20Certification/risk-and-vulnerability-audit.md)** — *WIP / DISCUSSION*: the real-world risks the obligations must cover, and the evidence each risk should leave behind.
-- **[What the world has already declared](AI%20Assurance%20and%20Certification/what-the-world-has-already-declared.md)** — *WIP / DISCUSSION*: the essence of the UDHR, UNESCO's AI Ethics Recommendation, and the Council of Europe AI treaty, and how they map to the five public obligations.
-- **[Landscape & positioning](AI%20Assurance%20and%20Certification/landscape-and-positioning.md)** — *WIP / DISCUSSION*: context on adjacent efforts and differentiation.
-- **[Launch post](AI%20Assurance%20and%20Certification/Published/launch-post.md)** · **[Certification comment](AI%20Assurance%20and%20Certification/Published/certification-comment.md)** — *PUBLISHED*: the accompanying LinkedIn feed post and the short "who would actually certify this?" comment.
+- **[Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (14 Jun, updated 19 Jun 2026). The **why**. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
+- **[The Founding Accord](AI%20Assurance%20and%20Certification/founding-accord.md)** — *WORKING DRAFT*. The charter you can endorse — the **what**.
+- **[Grounding-Faithfulness & Contestability](AI%20Assurance%20and%20Certification/grounding-faithfulness-and-contestability.md)** — *WORKING DRAFT*. The first evaluation module ([one-pager](AI%20Assurance%20and%20Certification/one-pager.md)).
+- **[How certification could work later](AI%20Assurance%20and%20Certification/certification-model.md)** — *WORKING DRAFT*. The future assurance and accreditation structure.
+- **[Risk and vulnerability audit](AI%20Assurance%20and%20Certification/risk-and-vulnerability-audit.md)** · **[What the world has already declared](AI%20Assurance%20and%20Certification/what-the-world-has-already-declared.md)** · **[Landscape & positioning](AI%20Assurance%20and%20Certification/landscape-and-positioning.md)** — *WIP / DISCUSSION* background.
+- **[Launch post](AI%20Assurance%20and%20Certification/Published/launch-post.md)** · **[Certification comment](AI%20Assurance%20and%20Certification/Published/certification-comment.md)** — *PUBLISHED* feed post + comment.
 
-**Reader path:** start with the [published article](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) for the argument, the [Founding Accord](AI%20Assurance%20and%20Certification/founding-accord.md) for the obligations, the [risk audit](AI%20Assurance%20and%20Certification/risk-and-vulnerability-audit.md) for coverage, the [protocol](AI%20Assurance%20and%20Certification/grounding-faithfulness-and-contestability.md) for the first pilot module, and the [certification model](AI%20Assurance%20and%20Certification/certification-model.md) for the future assurance structure — and [The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md) for the international framing.
-
-## Current phase
-
-This repository is in **Phase 1: public drafting**. So far the work is theoretical and documentary — published drafts, a worked-out method, and the connections needed to take it further. Independent pilot evaluations, public reports, and the critique they invite are a possible next step, not yet underway or planned.
-
-**There is no Trust Mark, certificate, accredited assessor, or certification body yet.** Phase 2 — a real conformity scheme with a mark, registry, assessor rules, appeals, surveillance, and accreditation — comes only if pilots and demand justify it.
-
-Any future Charter claim should sit on a three-layer assurance stack: **provider-declared legal scope** (the legal floor: markets, roles, use-cases, risk category, domain rules, and required legal artefacts; the Charter does not certify legal compliance or grant market-entry permission), **common Charter baseline** (the five public obligations made auditable across jurisdictions), and **public-interest modules** (deeper tests for material risks such as factual grounding, contestability, coercive-control transparency, security, privacy/provenance, fairness, resource impacts, and creator/copyright fairness where relevant). A module marked **not assessed** does not waive baseline duties.
+**Reader path:** [published article](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) (the argument) → [Founding Accord](AI%20Assurance%20and%20Certification/founding-accord.md) (the obligations) → [risk audit](AI%20Assurance%20and%20Certification/risk-and-vulnerability-audit.md) (coverage) → [protocol](AI%20Assurance%20and%20Certification/grounding-faithfulness-and-contestability.md) (first pilot module) → [certification model](AI%20Assurance%20and%20Certification/certification-model.md) (future structure); and [The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md) for the international framing.
 
 ## Status
 
-Everything outside "Published" is an early draft, released to be argued with. All figures (sample sizes, thresholds, fees) are illustrative pending calibration. **Nothing certifies anyone yet** — and the goal is to develop any future scheme *inside* existing bodies, not to found a new silo.
-
-Pilot participants and future Trust Mark candidates or holders making a public claim for a specific system, version, and use-case should publish a privacy-preserving **release risk assessment** before that claim is made, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. In Phase 1, reports may say only that a named release was evaluated under a named method, duty, or module, with a stated result; they may not claim Charter alignment, certification, or Trust Mark status. Silent material changes trigger withdrawal of the pilot listing or future mark claim. The public assessment should state assessed scope, legal-scope map, baseline scope, responsibility map, modules covered and not assessed, material risk classes, safe summaries of measures, evidence types, unresolved findings, limitations, remediation status, redaction reasons, claim status, validity period, and re-check or withdrawal triggers. Pilot reports and future audits should label assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay out of public reports.
+**Phase 1 — public drafting.** The work so far is documentary: published articles, a worked-out evaluation method, and the connections to take it further. **Nothing is certified yet** — there is no Trust Mark, certificate, accredited assessor, or certification body, and independent pilot evaluations are a possible next step, not yet underway. A real conformity scheme (mark, registry, assessor accreditation) would be Phase 2, only if pilots and demand justify it — built *inside* existing bodies, not as a new silo. Everything outside *Published* is an early draft, released to be argued with.
 
 ## How to help
 
