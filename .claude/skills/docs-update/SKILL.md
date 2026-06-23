@@ -9,7 +9,7 @@ A small, repeatable pass to run after you change a document, so the repository s
 
 ## When to use
 
-After you add, rename, substantially edit, **promote** (e.g. `WORKING DRAFT` → `PUBLISHED`), or retire any `.md` document under `public-ai-network/` or `ai-assurance-and-certification/`.
+After you add, rename, substantially edit, **promote** (e.g. `WORKING DRAFT` → `PUBLISHED`), or retire any `.md` document under `Public AI Network/` or `AI Assurance and Certification/`.
 
 ## Procedure
 

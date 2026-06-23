@@ -73,10 +73,10 @@ A credible structure should:
 
 This note reinforces existing repository positions:
 
-- [Founding Accord](https://github.com/robertschaub/our-ai-charter/blob/main/ai-assurance-and-certification/founding-accord.md): "a network, not a fortress"; capture-resistant governance; people need to know who controls, inspects, and is accountable for AI systems.
-- [Certification model](https://github.com/robertschaub/our-ai-charter/blob/main/ai-assurance-and-certification/certification-model.md): separation of roles; host or federate inside existing neutral bodies rather than founding an audit empire.
-- [Landscape and positioning](https://github.com/robertschaub/our-ai-charter/blob/main/ai-assurance-and-certification/landscape-and-positioning.md): author the standard, federate execution, and avoid a new silo.
-- [Risk and vulnerability audit](https://github.com/robertschaub/our-ai-charter/blob/main/ai-assurance-and-certification/risk-and-vulnerability-audit.md): concentrated control, coercive restriction, evidence theatre, and resource/global-access asymmetry are core risks.
+- [Founding Accord](https://github.com/robertschaub/our-ai-charter/blob/main/AI%20Assurance%20and%20Certification/founding-accord.md): "a network, not a fortress"; capture-resistant governance; people need to know who controls, inspects, and is accountable for AI systems.
+- [Certification model](https://github.com/robertschaub/our-ai-charter/blob/main/AI%20Assurance%20and%20Certification/certification-model.md): separation of roles; host or federate inside existing neutral bodies rather than founding an audit empire.
+- [Landscape and positioning](https://github.com/robertschaub/our-ai-charter/blob/main/AI%20Assurance%20and%20Certification/landscape-and-positioning.md): author the standard, federate execution, and avoid a new silo.
+- [Risk and vulnerability audit](https://github.com/robertschaub/our-ai-charter/blob/main/AI%20Assurance%20and%20Certification/risk-and-vulnerability-audit.md): concentrated control, coercive restriction, evidence theatre, and resource/global-access asymmetry are core risks.
 
 ## Candidate adjacent initiatives to verify
 
