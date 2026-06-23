@@ -12,7 +12,7 @@ _Early public draft, open for comment. Not a certification; not yet a standard._
 
 AI is becoming the infrastructure people learn, decide, work, and form opinion with. Infrastructure that important should not rest on a handful of private providers — or on opaque shutdown powers, unsafe systems, discriminatory failures, privacy leakage, manipulation, or factual claims no one can trace or challenge.
 
-Our AI Charter is a public-interest draft for making AI trustworthy in practice. It holds any deployed system to one question: **can it show its work and answer for it?**
+Our AI Charter is a public-interest draft for making AI trustworthy in practice — setting out what anyone should be able to ask of a deployed system, and the **public obligations** it must meet.
 
 <div class="grid cards" markdown>
 

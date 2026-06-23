@@ -8,7 +8,7 @@ _Early public draft, open for comment. Not a certification; not yet a standard._
 
 AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter** is a public-interest effort to keep that infrastructure trustworthy: open enough to inspect, governed well enough to trust, and stewarded as shared infrastructure rather than owned and switched off by a few.
 
-It holds any deployed system to one question — **can it show its work and answer for it?** — and turns that question into five public obligations:
+It holds any deployed system to five public obligations:
 
 - **Purpose-bound** — the system states what it is for, what it must not do, who it may affect, and what risks are known.
 - **Answerable to people** — a named human institution is responsible, and consequential uses carry notice, review, challenge, and remedy.
