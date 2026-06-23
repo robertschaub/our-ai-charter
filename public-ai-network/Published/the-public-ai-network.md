@@ -59,6 +59,6 @@ _Working paper, updated 22 June 2026. Work in progress: [robertschaub/our-ai-cha
 
 _Published version: LinkedIn article, 22 June 2026. The accompanying [feed post](the-public-ai-network-post.md) is mirrored alongside this article._
 
-_Each cited source's URL, essence, and charter relevance is compiled in [Linked sources & charter relevance](linked-sources-and-charter-relevance.md)._
+_Each cited source's URL, essence, and charter relevance is compiled in [Linked sources & charter relevance](../linked-sources-and-charter-relevance.md)._
 
-_Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) (the public-AI-sovereignty thread). The accountability/evaluation thread is [Trustworthy AI, Accountable to People](../ai-assurance-and-certification/trustworthy-ai-accountable-to-people.md)._
+_Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) (the public-AI-sovereignty thread). The accountability/evaluation thread is [Trustworthy AI, Accountable to People](../../ai-assurance-and-certification/trustworthy-ai-accountable-to-people.md)._

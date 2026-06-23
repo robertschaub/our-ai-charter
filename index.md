@@ -85,8 +85,8 @@ For now the work is lighter and earlier-stage: a published evaluation protocol a
 
 ### Public AI Network
 
-- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](public-ai-network/the-public-ai-network.md)** - *PUBLISHED* (the [LinkedIn article](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) of 22 June 2026): the international, English statement of the umbrella - coordination & standards, governance & trust, durable ecosystems. Accompanying [feed post](public-ai-network/the-public-ai-network-post.md).
-- **[KI-Souveränität und Resilienz](public-ai-network/ki-souveraenitaet-und-resilienz.md)** - *PUBLISHED* (the [German LinkedIn article](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) of 20 June 2026): the public-AI-sovereignty and governance thread. Accompanying [feed post](public-ai-network/ki-souveraenitaet-und-resilienz-post.md).
+- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](public-ai-network/Published/the-public-ai-network.md)** - *PUBLISHED* (the [LinkedIn article](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) of 22 June 2026): the international, English statement of the umbrella - coordination & standards, governance & trust, durable ecosystems. Accompanying [feed post](public-ai-network/Published/the-public-ai-network-post.md).
+- **[KI-Souveränität und Resilienz](public-ai-network/Published/ki-souveraenitaet-und-resilienz.md)** - *PUBLISHED* (the [German LinkedIn article](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) of 20 June 2026): the public-AI-sovereignty and governance thread. Accompanying [feed post](public-ai-network/Published/ki-souveraenitaet-und-resilienz-post.md).
 - **[Linked sources & charter relevance](public-ai-network/linked-sources-and-charter-relevance.md)** - *WORKING DRAFT*: each external source cited in the published Public AI Network article, its essence, and the obligation(s) it most directly serves.
 - **[Public AI infrastructure governance — pickup note](public-ai-network/public-ai-infrastructure-governance-pickup.md)** - *WIP / DISCUSSION*: background note on public-interest AI as an internationally co-stewarded, capture-resistant infrastructure; input for future drafting, not adopted language.
 
@@ -100,7 +100,7 @@ For now the work is lighter and earlier-stage: a published evaluation protocol a
 - **[Risk and vulnerability audit](ai-assurance-and-certification/risk-and-vulnerability-audit.md)** - *WIP / DISCUSSION*: the real-world risk coverage test for the obligations.
 - **[From Manifesto to Mechanism](ai-assurance-and-certification/from-manifesto-to-mechanism.md)** - *WIP / DISCUSSION*: historical synthesis retained for traceability.
 - **[Landscape & positioning](ai-assurance-and-certification/landscape-and-positioning.md)** - *WIP / DISCUSSION*: context on adjacent efforts and differentiation.
-- **[Launch post](ai-assurance-and-certification/launch-post.md)** - *PUBLISHED* (LinkedIn feed post, 14 June 2026; edited 19 June 2026). Published comment: [Who would actually certify this?](ai-assurance-and-certification/certification-comment.md) (*PUBLISHED*).
+- **[Launch post](ai-assurance-and-certification/Published/launch-post.md)** - *PUBLISHED* (LinkedIn feed post, 14 June 2026; edited 19 June 2026). Published comment: [Who would actually certify this?](ai-assurance-and-certification/Published/certification-comment.md) (*PUBLISHED*).
 
 ## How To Help
 

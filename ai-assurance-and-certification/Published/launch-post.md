@@ -2,7 +2,7 @@
 
 # Launch post
 
-_The LinkedIn feed post that accompanied the [manifesto](trustworthy-ai-accountable-to-people.md). Published 14 June 2026; edited 19 June 2026._
+_The LinkedIn feed post that accompanied the [manifesto](../trustworthy-ai-accountable-to-people.md). Published 14 June 2026; edited 19 June 2026._
 
 ---
 
