@@ -1,6 +1,5 @@
 > **Status: PUBLISHED** — verbatim mirror of the LinkedIn article *Trustworthy AI, Accountable to People*, published 14 June 2026; updated on LinkedIn 19 June 2026.
 > Canonical post: [https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje)
-> The evolving repository version (working draft) lives at [../trustworthy-ai-accountable-to-people.md](../trustworthy-ai-accountable-to-people.md).
 
 # Trustworthy AI, Accountable to People
 

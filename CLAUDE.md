@@ -4,7 +4,7 @@
 
 ## Snapshot
 
-A **public, documents-only** repository: manifesto + charter + draft protocol, all Markdown. No source code, build, or tests — don't add them.
+A **public, documents-only** repository: manifesto + charter + draft protocol + Public AI Network governance materials, all Markdown. No source code, build, or tests — don't add them.
 
 Current priority: the repo has two related workstreams under the Our AI Charter umbrella. For the maintainer right now, **KI-Souveränität und Resilienz** is more urgent and higher priority; work on **Trustworthy AI, Accountable to People** only when explicitly asked, when it supports the first workstream, or where there is clear low-hanging fruit.
 

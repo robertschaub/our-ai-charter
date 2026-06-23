@@ -2,7 +2,7 @@
 
 The authoritative working rules for this repository are in **[AGENTS.md](AGENTS.md)** — read it first and follow it. Gemini does not read `AGENTS.md` automatically, so the essentials:
 
-- **This is a PUBLIC, documents-only repo** (manifesto + charter + draft protocol). No code, build, or tests; don't add them.
+- **This is a PUBLIC, documents-only repo** (manifesto, charter, draft protocol, and Public AI Network governance materials). No code, build, or tests; don't add them.
 - **Current priority:** two related workstreams live under the Our AI Charter umbrella. For the maintainer right now, **KI-Souveränität und Resilienz** is more urgent and higher priority; work on **Trustworthy AI, Accountable to People** only when explicitly asked, when it supports the first workstream, or where there is clear low-hanging fruit.
 - **Route new files by content** (see AGENTS.md → *Where new files go*): this public repo is the **default home** for all Charter material, published *or* draft — charter, manifesto, protocol, articles/posts/comments, cooperation/outreach/strategy/governance notes. The private sibling `our-ai-charter-internal` holds **only** personal DM/email correspondence with individuals (not when they act as an official representative of an organisation) and files marked `<!-- Status: INTERNAL — reason -->`. Finance, legal, banking, and Verein records (including the Charter's) go to `FactHarbor-internal`. Never auto-publish private or unclear material — ask the maintainer.
 - **Never** put personal correspondence or INTERNAL-marked content here, and **never commit or push without maintainer review** (drafts and not-yet-published material are fine — unpublished ≠ private).

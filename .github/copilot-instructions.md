@@ -2,10 +2,10 @@
 
 > **Canonical source:** [/AGENTS.md](../AGENTS.md). This is a short summary for inline completions; if rules diverge, follow AGENTS.md.
 
-- **Public, documents-only** repo (manifesto + charter + draft protocol, Markdown). No source code, build, or tests — don't add them.
+- **Public, documents-only** repo (manifesto, charter, draft protocol, and Public AI Network governance materials; Markdown). No source code, build, or tests — don't add them.
 - **Current priority:** two related workstreams live under the Our AI Charter umbrella. For the maintainer right now, **KI-Souveränität und Resilienz** is more urgent and higher priority; work on **Trustworthy AI, Accountable to People** only when explicitly asked, when it supports the first workstream, or where there is clear low-hanging fruit.
 - Import only document-repo-safe FactHarbor practices: agent rules, issue/PR templates, safety policy, and local destructive-git guards. Do not add app workflows, dependencies, generated indexes, or deployment machinery.
-- **Public-repo discipline:** never commit private/internal material or secrets. A separate private administrative repository exists for non-public work. Treat every commit as permanent and worldwide.
+- **Public-repo discipline:** never commit private/internal material or secrets. Separate private administrative repositories exist for non-public work (`our-ai-charter-internal`, `FactHarbor-internal`). Treat every commit as permanent and worldwide.
 - **Route new files by content** (see AGENTS.md → *Where new files go*): this public repo is the **default home** for all Charter material — published *or* draft, including cooperation/outreach/strategy/governance notes. The private sibling `our-ai-charter-internal` holds **only** personal DM/email correspondence with individuals (not when they represent an organisation officially) and files marked `<!-- Status: INTERNAL — reason -->`; finance, legal, banking, and Verein records (including the Charter's) belong in `FactHarbor-internal`. Never put personal correspondence or INTERNAL-marked content here, and don't move private or unclear material into the public repo on your own — ask the maintainer.
 - For suspected leaked secrets or private material, use the private reporting path in `SECURITY.md`; do not put the material in a public issue or PR.
 - **Git safety:** avoid destructive git (`reset --hard`, `push --force`, `clean -f`, `checkout -- .`) unless explicitly asked; prefer a revert commit or a targeted edit.

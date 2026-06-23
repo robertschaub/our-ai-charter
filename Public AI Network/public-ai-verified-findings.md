@@ -22,11 +22,11 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 - Petition = the only instrument a private person can trigger **directly** (any person, no minimum signatures, any topic) — but compels only acknowledgement, so weak as a governance lever. [7][8]
 
 ### International anchors — dock, don't found
-- **Current AI:** global multistakeholder public-interest-AI partnership founded at the Paris AI Action Summit (Feb 2025; >EUR 400m; governments + philanthropies + industry). **Switzerland is already a Country Partner** (Paris Charter signatory). [9]
+- **Current AI:** global multistakeholder public-interest-AI partnership founded at the Paris AI Action Summit (Feb 2025; ~USD 400m initial commitment, goal ~USD 2.5bn over five years; governments + philanthropies + industry). **Switzerland is already a Country Partner** (Paris Charter signatory). [9]
 - **CERN for AI** (Centre for Future Generations blueprint): names Switzerland a "natural founding member" (with UK, Canada) and supplies concrete anti-capture mechanisms — political representatives limited to high-level strategy, two oversight boards outside the executive, audit parts made public. [10]
 
 ### Live political window
-- **Motion 24.3209 Charles Juillard (Die Mitte / JU), "Für eine souveräne digitale Infrastruktur in der Schweiz im Zeitalter der künstlichen Intelligenz"**: tabled 2024 (Federal Council recommended rejection, 22 May 2024); **approved by the Council of States 31:11 (March 2026)**; **now in the National Council committee** (status June 2026). An open political thread to attach a governance/trust layer to — Juillard's motion targets *infrastructure/cloud*; the complement here is the *governance/trust* layer. Corroborated across multiple sources (Curia Vista 24.3209, Walder Wyss/datenrecht.ch, Parldigi, netzwoche, inside-it). [11][16][17] **Re-verified 19 Jun 2026 (secondary trackers; Curia Vista not directly reachable): status unchanged — still in National Council committee, no plenary vote during the summer session (1–19 Jun 2026).**
+- **Motion 24.3209 Charles Juillard (Die Mitte / JU), "Für eine souveräne digitale Infrastruktur in der Schweiz im Zeitalter der künstlichen Intelligenz"**: tabled 2024 (Federal Council recommended rejection, 22 May 2024); **approved by the Council of States 31:11 (March 2026)**; **now in the National Council committee** (status June 2026). An open political thread to attach a governance/trust layer to — Juillard's motion targets *infrastructure/cloud*; the complement here is the *governance/trust* layer. Corroborated across multiple sources (Curia Vista 24.3209, Walder Wyss/datenrecht.ch, Parldigi, netzwoche, inside-it). [11][16][17] **Re-verified 23 Jun 2026 (secondary trackers; Curia Vista not directly reachable): status unchanged — still in the National Council committee, no plenary vote in the 2026 summer session.**
 - **Geneva AI Summit 2027 — next global AI summit, Switzerland as host:** Successor in the AI Action/Impact Summit series (Bletchley 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026 → **Geneva, first half 2027** → UAE 2028); announced by Federal President Guy Parmelin at the New Delhi summit (19 Feb 2026). Organised jointly by **UVEK** (parent department of BAKOM) and **EDA**; EDA project lead **Amb. Markus Reubi**, with **Amb. Thomas Schneider (BAKOM/OFCOM)** representing Switzerland in international AI bodies. Switzerland frames itself as neutral convenor and a sectoral "middle way" between the EU AI Act and lightly-regulated approaches. Preparation underway: invite-only roundtable 1 Apr 2026; consultation draft due end 2026. NB: distinct from the annual ITU "AI for Good" Geneva summit. [12][18][19][20]
 
 ### Verified entry points
@@ -58,7 +58,7 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 - Other international models (Mozilla, LAION, EleutherAI, Hugging Face, GPAI, UN AI Advisory Body, EU AI Act / GPAI Code of Practice, OSI AI definition).
 
 ## Caveat
-Field moves fast; everything is as of June 2026. Re-verify memberships, governance and funding before any outreach or public citation.
+Field moves fast; everything is as of June 2026 (key anchors — Motion 24.3209, Apertus governance, Geneva 2027, Current AI — re-checked 2026-06-23). Re-verify memberships, governance and funding before any outreach or public citation.
 
 ## Sources
 1. ETH Zurich press release (Sept 2025): https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html

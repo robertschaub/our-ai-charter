@@ -16,7 +16,7 @@ Don't start with a parliamentary instrument. The higher-probability path is:
 
 ## Consolidated recommendation
 
-**1. Start with a stakeholder mandate, not lawmaking.** A postulate is useful later, but without partners it looks like a single-person idea. A short non-paper, a few credible supporters, and a neutral pre-sprint turn it into a serious policy request. First-30-day target: the non-paper, 5–8 orientation calls, 3 credible supporters, 1 neutral scoping conversation, 1 refined sprint question.
+**1. Start with a stakeholder mandate, not lawmaking.** A postulate is useful later, but without partners it looks like a single-person idea. A short non-paper, a few credible supporters, and a neutral pre-sprint turn it into a serious policy request. (The 30-day targets are in the roadmap below.)
 
 **2. Use Apertus/SNAI as a pilot anchor, not the whole frame.** The technical anchor is strong (Swiss AI Initiative, SNAI, EPFL, ETH Zurich, CSCS, Apertus). The framing should avoid "Apertus = the solution"; better, "Apertus and the Swiss ecosystem can become a *governance pilot* for public-AI infrastructure: open, inspectable, multilingual, scientifically grounded, internationally co-stewarded."
 
@@ -31,6 +31,8 @@ Don't start with a parliamentary instrument. The higher-probability path is:
 The leverage ranking and the parliamentary-instrument analysis (interpellation → postulate → motion; why a non-parliamentarian works *indirectly* via a council member) are set out in the [Verified Findings](public-ai-verified-findings.md). In short: **alliance/mandate first, lawmaking later.**
 
 ## 30/60/90-day roadmap
+
+*As of June 2026 the non-paper is finalised, the article is published, and first outreach has begun — so the Days 0–30 actions are partly underway. Treat the roadmap as a relative sequence, not a fixed calendar.*
 
 **Days 0–30 — convert signal into mandate.** Finalise the non-paper; build a stakeholder map; send targeted orientation requests; hold short calls; ask a neutral convenor for a scoping conversation; decide the pre-sprint question. *Success:* three credible people say the question is worth structured exploration.
 

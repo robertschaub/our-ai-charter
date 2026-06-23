@@ -12,8 +12,6 @@ The Charter-relevant question is:
 
 > How can open AI be organised so that free societies can understand, inspect, shape, and contest the infrastructure they increasingly rely on?
 
-This note should be treated as input for future wording, not as finished language for the Founding Accord.
-
 ## Public comment already posted
 
 The following public comment was posted in the triggering discussion. A further clarification reply was considered but not needed because the comment already states the international and governance point clearly:
@@ -37,12 +35,10 @@ The following public comment was posted in the triggering discussion. A further 
 
 The Charter should not frame public-interest AI mainly as a national technology asset. A national effort can be valuable, but the larger opportunity is an internationally governable public AI infrastructure: open enough for inspection, shared enough for legitimacy, and protected enough to resist capture.
 
-This implies two goals, in this order:
+This implies a clear order of goals:
 
-1. **International democratic resilience.** Strengthen free societies by making AI infrastructure more inspectable, contestable, and answerable to public-interest governance.
-2. **Swiss and local innovation capacity.** Help countries such as Switzerland build durable expertise, tools, teams, and institutions rather than merely buying finished AI services from dominant providers.
-
-Both goals matter. The first is the Charter priority; the second is a strong practical benefit and a reason national governments may invest.
+1. **International democratic resilience — the core mission.** Protect and strengthen democracy and free, rule-of-law values in the digital space — internationally, and thereby also in Switzerland — by making AI infrastructure more inspectable, contestable, and answerable to public-interest governance. This is the shared motivation behind both *Our AI Charter* and FactHarbor, pursued at international, European, and Swiss levels in parallel and starting operationally in Switzerland as the entry point.
+2. **Swiss and local innovation capacity — a complementary benefit.** Durable Swiss expertise, tools, teams, and institutions — rather than merely buying finished AI services from dominant providers — is a benefit the initiative actively embraces and a strong reason for national governments to invest. It follows from the first goal rather than driving it.
 
 ## Argument
 

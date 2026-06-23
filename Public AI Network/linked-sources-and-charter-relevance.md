@@ -4,7 +4,7 @@
 
 **Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](Published/the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).  
 **Compiled:** 2026-06-22.  
-**Purpose of this document:** not merely to list links, but to identify which initiatives are most mature, most promising, and best suited to the *Public AI Network* initiative — and where *Our AI Charter* can make a useful contribution.
+**Purpose:** identify which cited initiatives are most mature and best suited to the *Public AI Network* effort, and where *Our AI Charter* can usefully contribute.
 
 ## Yardstick: the five public obligations
 
@@ -22,11 +22,7 @@
 
 ## Strategic map — priority, maturity, and contribution potential
 
-The sources are best read as an ecosystem, not as a flat sequence. Some are operational anchors, some are standards or legal foundations, some are regional examples, and some are promising but still emerging.
-
-The practical question is:
-
-> **Which links can help turn the Charter from principles into a credible public trust-and-evidence layer for public-interest AI?**
+The sources span operational anchors, standards and legal foundations, regional examples, and emerging efforts. The practical question: **which can help turn the Charter from principles into a credible public trust-and-evidence layer for public-interest AI?**
 
 ### Tier 1 — closest strategic fit and most mature anchors
 
@@ -116,7 +112,7 @@ The Charter can contribute in five concrete ways:
 
 ## Reference catalogue of linked sources
 
-The detailed source list below remains the evidence trail. It records each linked initiative's essence and its direct relevance to the Charter's five public obligations.
+The detailed source list below is the evidence trail: each linked initiative's essence and its relevance to the Charter.
 
 > The three LinkedIn legal links in the article — Cookie Policy, User Agreement, Privacy Policy — are platform boilerplate and are excluded.
 
@@ -193,4 +189,4 @@ The detailed source list below remains the evidence trail. It records each linke
 
 - Summaries are distilled from the linked initiatives' own descriptions and from the earlier working-draft source review.
 - This document intentionally prioritizes strategic usefulness over equal-length treatment of every link.
-- **Apertus link note:** `swiss-ai.org/apertus` redirects to the official `apertvs.ai` site of the Swiss AI Initiative. Do not confuse it with the unaffiliated `apertus.ai` domain.
+- **Apertus link note:** the official site is `apertvs.ai` (Swiss AI Initiative; `swiss-ai.org/apertus` redirects there).

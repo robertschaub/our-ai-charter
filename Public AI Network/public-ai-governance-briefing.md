@@ -19,6 +19,8 @@ Switzerland already has the building blocks — **Apertus**, **Swiss AI Initiati
 
 Explicitly **not** national/industrial protectionism, and **not** a commercial "sovereign AI" vendor play.
 
+The driving purpose is to protect and strengthen democracy and free values in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation. (Full goal order: the [pickup note](public-ai-infrastructure-governance-pickup.md).)
+
 ## 3. The two assets behind it
 
 - **Our AI Charter** — a public-interest, voluntary framework for trustworthy AI in practice (five public obligations, eight operational duties, a three-layer assurance stack, and a first evaluation protocol — *Grounding-Faithfulness & Contestability*). An open spec / contribution, **not a new institution**; in Phase 1 (public drafting), with no Trust Mark or certification body yet. See the [AI Assurance & Certification](../AI%20Assurance%20and%20Certification/) workstream, anchored by *[Trustworthy AI, Accountable to People](../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)*.
@@ -28,17 +30,15 @@ Signature principle — **no secret kill-switch:** material control intervention
 
 ## 4. Verified anchors
 
-(Deep-research-checked June 2026; re-verify before public citation — see [Verified Findings](public-ai-verified-findings.md) for sources.)
+The full, source-checked anchor list (with citations) lives in the [Verified Findings](public-ai-verified-findings.md); re-verify before public citation. The load-bearing ones:
 
-| Anchor | Status |
-|---|---|
-| **Apertus** | Fully open Swiss LLM (EPFL, ETH Zurich, CSCS); Apache 2.0; released 2 Sept 2025. Public governance looks lean — an independent multistakeholder board/charter is not publicly evident; frame as an open question *with* SNAI/Apertus, not as criticism. |
-| **Swiss AI Initiative / SNAI** | Real institutional home (Dec 2023); ETH + EPFL AI Centers; 800+ researchers. |
-| **Current AI** | Global public-interest-AI partnership (Paris, Feb 2025); Switzerland is a Country Partner. |
-| **Motion 24.3209 (Juillard)** | Adopted by the Council of States (31:11, March 2026); now in the National Council committee. Targets infrastructure/cloud; the complement here is the governance/trust layer. |
-| **Geneva AI Summit 2027** | Next global AI summit (Geneva, H1 2027); co-organised by UVEK (+ BAKOM) and EDA. |
-| **Parliamentary access** | A non-parliamentarian can trigger a Motion/Postulat only indirectly via a council member → alliance/mandate first, lawmaking later. |
-| **Expedition Zukunft** | Neutral non-profit "think-and-do-tank"; co-presidency Océane Dayer & Florian Egli; runs a "Policy Sprint" format that fits a pre-sprint. Contact `info@expeditionzukunft.ch`. |
+- **Apertus / SNAI** — a fully open, publicly funded Swiss LLM (EPFL, ETH Zurich, CSCS; Apache 2.0; released 2 Sept 2025) with a real institutional home (Swiss AI Initiative / SNAI), but no publicly evident independent multistakeholder governance board or charter — the natural entry point, framed as an open question *with* SNAI/Apertus, not as criticism.
+- **Current AI** — Switzerland is already a Country Partner of this Paris-based public-interest-AI partnership.
+- **Motion 24.3209 (Juillard)** — a live parliamentary thread on sovereign digital/AI infrastructure (adopted by the Council of States, now in the National Council committee); the complement here is the governance/trust layer.
+- **Geneva AI Summit 2027** — the next global AI summit (Geneva, first half 2027; UVEK + EDA), a concrete timing window.
+- **Expedition Zukunft** — a neutral non-profit convenor whose "Policy Sprint" format fits the pre-sprint (`info@expeditionzukunft.ch`).
+
+A non-parliamentarian can trigger a Motion or Postulat only indirectly via a council member — so: alliance/mandate first, lawmaking later.
 
 ## 5. Strategy & sequence
 
