@@ -51,7 +51,7 @@ No single "join X and stop" target exists (nobody occupies the wedge), so the mo
 ## Obsolescence watch list (monitor; none has done it yet)
 
 1. **NewsGuard** — #1 threat: only independent body operating at scale on AI-output falsehood, with brand + data + paying AI-developer customers; could formalise a "model honesty score" into a mark first. Mitigant: it's proprietary, measures falsity-rate not source-fidelity, and issues no standard. Position as the *open, auditable standard* its benchmarks could certify against.
-2. **EFCSN** — its 2026 "Tech Accountability Call" (€5M FACTEUR grant) already funds investigating "AI models"; could grow into the wedge. Engage early (doubles as early warning).
+2. **EFCSN** — its 2026 "Tech Accountability Call" funds members investigating platforms and "widely used AI models," and EFCSN won a separate €5M EU "FACTEUR" grant (2026) for European fact-checking; either could grow into the wedge. Engage early (doubles as early warning).
 3. **MLCommons / AI Verify** — could standardise a faithfulness benchmark a notified body then certifies against.
 4. **Nemko / TrustArc** — could add an accuracy/grounding module to an existing AI mark.
 5. **ISO/IEC 42001** — positional, not substantive: risk that buyers treat it as "the" AI trust cert and dismiss a faithfulness mark as redundant. Counter by framing as a complement inside it.
