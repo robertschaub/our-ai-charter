@@ -56,7 +56,7 @@ For who is already working in this space (by role), see the [actor & landscape m
 - **Honest framing.** Claim coalitions/processes as *intent*, not as already existing. Charter = a contribution/spec; FactHarbor = prototype/alpha. No certification/audit authority is claimed.
 - **Additive framing.** Lead with the recipient's own work; position the contribution as additive; invite critique.
 - **Public-interest filter / anti-capture.** Avoid commercial-vendor entanglement; disclose any commercial ties.
-- **Not in competition** with SNAI/Apertus; **strictly international**, never "Switzerland first."
+- **Not in competition** with SNAI/Apertus; **internationally oriented**, with Switzerland as initiator, host, and bridge-builder — Swiss benefit and international impact reinforce each other.
 - **Process, not campaign.** Start an open-ended clarification process.
 - **No parliamentary move first.** Postulat/interpellation come later, via a carrier council member.
 

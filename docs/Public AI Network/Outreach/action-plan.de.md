@@ -33,7 +33,7 @@ Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](..
 - Wir treten **nicht** in Konkurrenz zu SNAI oder Apertus auf.
 - FactHarbor masst sich **keine** Rolle als Zertifizierungs- oder Audit-Behörde an.
 - Wir stossen einen ergebnisoffenen **Prozess** an, keine einseitige Kampagne.
-- Die Ausrichtung ist strikt **international** und keinesfalls „Switzerland first“.
+- Die Ausrichtung ist **international**: Die Schweiz wirkt als Initiantin, Gastgeberin und Brückenbauerin — Schweizer Nutzen und internationale Wirkung ergänzen sich.
 
 ## Relevante Dokumente
 

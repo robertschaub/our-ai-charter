@@ -15,9 +15,9 @@ This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE
 
 ## Program constellation
 
-Our AI Charter is the public normative framework in a broader research program:
+Our AI Charter is the public normative framework in a broader program:
 
-> Researching how we can build a fair, stable, and sustainable society that uses new technologies responsibly.
+> Working to build a fair, stable, and sustainable society that uses new technologies responsibly.
 
 The public program map is [PROGRAM.md](docs/PROGRAM.md). This repository should contain only the public normative layer. Published documents live under `docs/` (the website's content root), organised into two workstreams — **Public AI Network** (`docs/Public AI Network/`) and **AI Assurance & Certification** (`docs/AI Assurance and Certification/`); repo-meta files (README, AGENTS, CHANGELOG, CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root.
 

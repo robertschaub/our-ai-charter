@@ -3,9 +3,9 @@
 
 # Program Map
 
-Our AI Charter belongs to a broader research program:
+Our AI Charter belongs to a broader program:
 
-> Researching how we can build a fair, stable, and sustainable society that uses new technologies responsibly.
+> Working to build a fair, stable, and sustainable society that uses new technologies responsibly.
 
 Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** is the public normative framework: purpose, duties, accountability, evaluation, and future assurance structure. This repository is the home of that public normative work.
 
