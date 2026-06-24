@@ -109,6 +109,17 @@ For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo*
 - **Cite sources; prefer the smallest concrete improvement** over a grand rewrite (see [CONTRIBUTING.md](CONTRIBUTING.md)). Record minority interpretations rather than hiding them.
 - **Licensing:** document text is **CC BY 4.0**; the initiative's name and any trust mark are **reserved** (see [NOTICE](NOTICE)). Do not paste in text under an incompatible license.
 
+## Consulting other models (GPT, Gemini, Claude)
+
+Documents-only has one sanctioned exception: small helper scripts under [`scripts/agents/`](scripts/agents) let a maintainer-side agent consult another frontier model for a second opinion or cross-model review. Use them rather than improvising an API call.
+
+- `node scripts/agents/invoke-gpt.cjs --prompt "…" [--system "…"] [--model gpt-5.5] [--max-tokens N]` — OpenAI; needs `OPENAI_API_KEY`.
+- `node scripts/agents/invoke-gemini.cjs --prompt "…" [--system "…"] [--model gemini-3.1-pro-preview]` — Google; needs `GOOGLE_GENERATIVE_AI_API_KEY`.
+- `node scripts/agents/invoke-claude.cjs --prompt "…"` — spawns the local `claude` CLI (Opus, max effort); extra `claude` flags pass through.
+- Prompts can be piped via stdin instead of `--prompt`. Set `FH_INVOKE_{GPT,GEMINI,CLAUDE}_DRY_RUN=1` to print the request without sending it.
+- **Keys** load from the environment or a gitignored `.env.local` / `.env` at the repo root — never commit them (`.env*`, `*.key`, `*.pem` are already ignored).
+- These make **plain, ungrounded** calls (no web search). For a *grounded* review, enable the model's own web/search tooling instead.
+
 ## Platform
 
 Windows. Use **PowerShell-compatible** commands (`$env:VAR`, not `$VAR`; `$null`, not `/dev/null`; backtick for line continuation).
