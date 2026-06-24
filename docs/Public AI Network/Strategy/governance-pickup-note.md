@@ -38,7 +38,7 @@ The Charter should not frame public-interest AI mainly as a national technology 
 
 This implies a clear order of goals:
 
-1. **International democratic resilience — the core mission.** Protect and strengthen democracy and free, rule-of-law values in the digital space — internationally, and thereby also in Switzerland — by making AI infrastructure more inspectable, contestable, and answerable to public-interest governance. This is the shared motivation behind both *Our AI Charter* and FactHarbor, pursued at international, European, and Swiss levels in parallel and starting operationally in Switzerland as the entry point.
+1. **International democratic resilience — the core mission.** Protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland — by making AI infrastructure more inspectable, contestable, and answerable to public-interest governance. This is the shared motivation behind both *Our AI Charter* and FactHarbor, pursued at international, European, and Swiss levels in parallel and starting operationally in Switzerland as the entry point.
 2. **Swiss and local innovation capacity — a complementary benefit.** Durable Swiss expertise, tools, teams, and institutions — rather than merely buying finished AI services from dominant providers — is a benefit the initiative actively embraces and a strong reason for national governments to invest. It follows from the first goal rather than driving it.
 
 ## Argument

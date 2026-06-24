@@ -20,12 +20,14 @@ Switzerland already has the building blocks — **Apertus**, **Swiss AI Initiati
 
 Explicitly **not** national/industrial protectionism, and **not** a commercial "sovereign AI" vendor play.
 
-The driving purpose is to protect and strengthen democracy and free values in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation. (Full goal order: the [pickup note](Strategy/governance-pickup-note.md).)
+The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation. (Full goal order: the [pickup note](Strategy/governance-pickup-note.md).)
 
 ## 3. The two assets behind it
 
+They are **separate but related** projects. What they share is one legal entity — the **FactHarbor Verein** (a non-profit association), which stewards both — and one mission: to protect and strengthen democracy and justice in the digital space, and through that to help build a free and fair society where technology is used responsibly and enables well-grounded decision-making. The FactHarbor application does **not** produce or contribute to the Charter.
+
 - **Our AI Charter** — a public-interest, voluntary framework for trustworthy AI in practice (five public obligations, eight operational duties, a three-layer assurance stack, and a first evaluation protocol — *Grounding-Faithfulness & Contestability*). An open spec / contribution, **not a new institution**; in Phase 1 (public drafting), with no Trust Mark or certification body yet. See the [AI Assurance & Certification](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream, anchored by *[Trustworthy AI, Accountable to People](../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)*.
-- **FactHarbor** — a working prototype (alpha) producing structured, contestable evidence: claim scope, context, source provenance, reasoning, dissent, uncertainty, correction history, and challenge routes. It does **not** certify, audit, or guarantee truth.
+- **FactHarbor (the application)** — a working prototype (alpha) producing structured, contestable evidence: claim scope, context, source provenance, reasoning, dissent, uncertainty, correction history, and challenge routes. It does **not** certify, audit, or guarantee truth.
 
 Signature principle — **no secret kill-switch:** material control interventions (restriction, shutdown, external orders) must be attributable, logged, and independently reviewable.
 

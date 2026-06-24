@@ -5,7 +5,7 @@
 
 Our AI Charter belongs to a broader program:
 
-> Working to build a fair, stable, and sustainable society that uses new technologies responsibly.
+> Working to build a free and fair society where technology is used responsibly and enables well-grounded decision-making.
 
 Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** is the public normative framework: purpose, duties, accountability, evaluation, and future assurance structure. This repository is the home of that public normative work.
 
