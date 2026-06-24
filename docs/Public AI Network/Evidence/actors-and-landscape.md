@@ -50,6 +50,93 @@ Who is already building the pieces of an open, accountable, internationally co-s
 
 - **EuroStack** — a European *industrial-sovereignty* programme (a full-stack "European alternative"). A useful contrast: this workstream argues for an internationally **co-stewarded** layer rather than national/industrial protectionism. [report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5298046) · [Noema](https://www.noemamag.com/reclaiming-europes-digital-sovereignty/)
 
+## Switzerland — people scan (match-rated, June 2026)
+
+A person-level scan of Switzerland-based (or Switzerland-anchored) individuals whose **public work** currently overlaps with this workstream, ranked by how closely that work maps to the mission thesis (public-interest, internationally co-stewarded governance + evaluation for public AI — "a network, not a fortress" — with Switzerland/Geneva as host/bridge into the Geneva 2027 summit). **Match = overlap of public work, not a personal judgement or endorsement.** Scale: ★★★★★ core · ★★★★ high · ★★★ medium · ★★ adjacent · ★ contrast. Compiled from public sources and cross-reviewed with grounded web search by GPT-5.5 and Gemini-3.1-pro-preview (June 2026); re-verify roles before relying on it.
+
+### ★★★★★ — Core (Public AI network international + Geneva-2027 bridge)
+
+| Person | Role / org / location | Public work & overlap (2025–26) | Match |
+|---|---|---|---|
+| Joshua Tan *(US-based; key intl bridge)* | Lead Maintainer, [Public AI Inference Utility](https://publicai.co/); Research Dir., Metagov | Runs the international Public-AI network distributing Apertus (45k+ users); "Public AI is the new multilateralism"; co-host of the publicai.ch founding — the co-stewardship node | ★★★★★ |
+| Oleg Lavrovsky | [Datalets.ch](https://datalets.ch/); Opendata.ch Advisory Board, Bern | Trustee of founding-member dues for **Public AI Switzerland (publicai.ch / SPIU)**; deploys Apertus at public events — operational Swiss anchor of the network | ★★★★★ |
+| Sabine Wildemann | Co-founder publicai.ch; Opendata.ch board; Liip; pres. aiLights, Zürich | Co-host publicai.ch founding (26–27 Feb 2026); co-initiator Swiss {ai} Weeks — convening node: coop + open data + public sector | ★★★★★ |
+| Markus Reubi | Special Envoy / Project Lead, [Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit), FDFA/EDA | Leads Switzerland's substantive prep of the 2027 summit — owns the process the workstream aims to dock into | ★★★★★ |
+| Thomas Schneider | Ambassador & Deputy Dir., OFCOM/BAKOM; ex-chair Council of Europe CAI | Switzerland's lead international AI-governance diplomat; central to the CoE Framework Convention; shapes 2027 content | ★★★★★ |
+| Katharina Frey *(also "Nina" Frey)* | Executive Director, [ICAIN](https://icain.ch/), ETH Zürich | Leads the Swiss-led public-interest AI network (FDFA+ETH) giving the Global South compute/AI access — an existing instance of internationally co-stewarded public AI | ★★★★★ |
+
+### ★★★★ — High
+
+| Person | Role / org / location | Public work & overlap (2025–26) | Match |
+|---|---|---|---|
+| Imanol Schlag | Technical lead, [Apertus](https://www.swiss-ai.org/apertus) / ETH AI Center, Zürich | Tech lead of Apertus ("built for the public good"); Global Swiss AI Award 2025 — the open public model itself | ★★★★ |
+| Antoine Bosselut | Co-lead Swiss AI Initiative, EPFL NLP Lab, Lausanne | Co-leads Apertus; "open, trustworthy, sovereign … for the public good worldwide" | ★★★★ |
+| Martin Jaggi | Co-lead Apertus, EPFL, Lausanne | Co-leads Apertus; "a blueprint for trustworthy, sovereign, inclusive AI"; open methodology | ★★★★ |
+| Andreas Krause | Chair, ETH AI Center; SNAI Steering, Zürich | Governs SNAI at steering level; member of the UN High-level Advisory Body on AI (2023–24) | ★★★★ |
+| Menna El-Assady | Asst. Professor, ETH Zurich; founding member, [UN Independent International Scientific Panel on AI](https://www.un.org/independent-international-scientific-panel-ai/en) | Links Swiss AI research, human-centred evaluation/ethics and the UN/Geneva governance process; Apertus academic lead | ★★★★ |
+| Ricardo Chavarriaga | Head, CLAIRE Office Switzerland; Responsible AI Innovation, ZHAW | Drives responsible-AI innovation + multilateral governance; active in the Council of Europe CAI process — research network ↔ Swiss AI diplomacy | ★★★★ |
+| Daniel Stauffacher | President, [ICT4Peace](https://ict4peace.org/), Geneva/Zürich | Hosted the official Geneva 2027 launch (Apr 2026); "principled & inclusive AI governance" | ★★★★ |
+| Stephanie Borg Psaila | Director Digital Policy, DiploFoundation / GIP *(Geneva)* | Authored "Ten ways Switzerland can contribute to AI and humanity" — concretest public-interest 2027 roadmap | ★★★★ |
+| Jovan Kurbalija | Exec. Director, DiploFoundation / Geneva Internet Platform | Diplo/GIP is the de-facto tracker of the Geneva 2027 process | ★★★★ |
+| Frederic Werner | Chief Strategic Engagement, ITU / [AI for Good](https://aiforgood.itu.int/), Geneva | Drives the largest UN AI convening + ITU standards | ★★★★ |
+| Robin Geiss | Director, [UNIDIR](https://unidir.org/), Geneva | Built UNIDIR into a "home for AI governance" (Centre of Excellence; Global Conference 2025/26) — security-flavoured | ★★★★ |
+| Angela Müller | Executive Director, [AlgorithmWatch CH](https://algorithmwatch.ch/en/), Zürich | Public-interest AI accountability; CoE Convention; parliamentary testimony — capture-resistant, internationalist | ★★★★ |
+| Matthias Stürmer | Prof. BFH (Public Sector Transformation); President CH Open, Bern | Frames open AI models as "Digital Public Goods" for public-sector digital sovereignty | ★★★★ |
+| Gerhard Andrey | National Councillor (Greens, FR); Liip co-founder | Most prominent open-source / public-AI voice in parliament — non-protectionist, pro-openness | ★★★★ |
+| Estelle Pannatier | Senior Policy Manager, AlgorithmWatch CH (Romandie) | Lead policy voice on CH/EU AI regulation; fundamental rights, transparency | ★★★★ |
+| Florent Thouvenin | Prof. UZH (ITSL); Director DSI, Zürich | Co-leads the project for a legal framework for AI in Switzerland | ★★★★ |
+| Nadja Braun Binder | Prof. Univ. Basel (public law) | AI in public administration; "comprehensible algorithms"; public-sector accountability/contestability | ★★★★ |
+| Jérôme Duberry | Head, Tech Hub, IHEID, Geneva | "AI for the Global Majority"; "AI and the Democratic Commons" — public interest + democracy + multilateralism | ★★★★ |
+
+### ★★★ — Medium
+
+| Person | Role / org / location | Public work & overlap (2025–26) | Match |
+|---|---|---|---|
+| Joël Mesot | President, ETH Zurich | Institutional patron of Apertus; argues for an own model + European cooperation; names Geneva 2027 | ★★★ |
+| Daniel Dobos | Research Dir. Swisscom; Chair Swiss AI Standardisation Commission; Co-Chair ITU AI-for-Good Impact | Co-authored "The Swiss Approach to AI Sovereignty" (compete on trust/transparency; Apertus as a public good) — commercial affiliation noted | ★★★ |
+| Rahel Estermann | Co-Managing Director, Digitale Gesellschaft, Zürich | Digital-sovereignty position paper (Nov 2025); Winterkongress 2026 (AI) — AI-specific overlap partly inferred | ★★★ |
+| Alexander Ilic | Exec. Dir. ETH AI Center; SNAI Exec. Committee | Operational lead of the institution behind Apertus | ★★★ |
+| Scarlet Schwiderski-Grosche | Exec. Dir. EPFL AI Center *(SNAI co-director per 2024 announcement; current SNAI exec role to verify)* | EPFL-side operational governance of AI | ★★★ |
+| Thomas Schulthess | Director, CSCS, Lugano | Provided "Alps" + 10M+ GPU-hours for Apertus — shared public compute | ★★★ |
+| Giacomo Persi Paoli | Head, Security & Technology, UNIDIR, Geneva | Operational lead of UNIDIR's AI-governance work | ★★★ |
+| Doreen Bogdan-Martin | Secretary-General, ITU, Geneva | UN principal behind AI for Good + ITU standards (very senior, structural) | ★★★ |
+| Marilyne Andersen | DG, GESDA; EPFL prof, Geneva | Anticipatory science diplomacy incl. advanced AI | ★★★ |
+| André Golliez | President, Swiss Data Alliance; Opendata.ch co-founder | Data policy + digital sovereignty — open-data commons | ★★★ |
+| Abraham Bernstein | Director, UZH Digital Society Initiative | Runs UZH-DSI (home of the AlgorithmWatch–UZH AI-&-democracy work) | ★★★ |
+| Effy Vayena | Prof. ETH (bioethics); ETH VP since Jan 2026 | WHO AI-ethics group; OECD.AI — accountable-AI authority; Apertus link indirect | ★★★ |
+| Heidi Z'graggen | Council of States (Die Mitte, UR) | Motion 26.3221 "Impulsprogramm digitale Souveränität" — adopted by Council of States 10 Jun 2026 (30:7); open source + AI | ★★★ |
+| Andrei Kucharavy | Prof./researcher, HES-SO Valais-Wallis | Major Apertus contributor — Romandie/Valais public-model capacity | ★★★ |
+| David Rosenthal | Partner, VISCHER; AI/data lawyer; ETH/Basel lecturer | Prolific Swiss AI/data-law practitioner; Apertus paper contributor — legal/compliance & contestability layer | ★★★ |
+| Florian Tramèr | Asst. Professor, ETH Zurich (SPY Lab) | AI security & evaluation (AgentDojo); Apertus paper contributor — the evaluation pillar | ★★★ |
+| Vasco Schiavo *(identification to confirm)* | Member of Technical Staff, OpenHands; publicai.ch contributor, CH | The "Vasco" co-host of the publicai.ch founding; open-source agent/eval infrastructure | ★★★ |
+| Michele L. Romano *(identification to confirm)* | Founder, Twelve Balloons; GenAI Zürich, Zürich | Co-host of the publicai.ch founding; GenAI Zürich community working with Apertus | ★★★ |
+
+### ★★ / ★ — Adjacent & contrast
+
+| Person | Role / org / location | Public work & overlap (2025–26) | Match |
+|---|---|---|---|
+| Eduardo Belinchon | Head of Digital Innovation, foraus | foraus "Policy Kitchen" / participatory AI-policy framing *(flagship AI campaign dates to 2019)* | ★★ |
+| Prathit Singh | Project Coordinator, Geneva Policy Outlook, Geneva | Co-author of the Swiss-AI-sovereignty essay | ★★ |
+| Hannes Gassert | Opendata.ch Advisory; Liip co-founder | Open-data / civic-tech organiser; ecosystem adjacency | ★★ |
+| Andreas Kellerhals | President, Opendata.ch | Heads the open-knowledge org behind the coop's trustee | ★★ |
+| Nicolas Zahn | Managing Director, Swiss Digital Initiative, Geneva | Trust/certification-adjacent; SDI direction uncertain after the Digital Trust Label transfer (2025) | ★★ |
+| Nicolas Seidler | Exec. Director, Geneva Science-Policy Interface | General science-policy brokerage; not AI-specific | ★★ |
+| Charles Juillard | Council of States (Die Mitte, JU) | Motion 24.3209 sovereign digital infrastructure — adopted by Council of States 19 Mar 2026 (31–11), now before the National Council; infrastructure/national-leaning | ★★ |
+| Franz Grüter | National Councillor (SVP, LU); co-president Parldigi | Active on data centres / cloud / sovereignty but market-liberal ("full sovereignty is an illusion") — listed for contrast | ★ |
+
+### Resolved leads & institutional anchors
+- **"Mike Romano" → Michele L. Romano** (founder Twelve Balloons; GenAI Zürich) and **"Vasco" → Vasco Schiavo** (OpenHands; GitHub `VascoSch92`, publicai.ch contributor) — both *medium-high* identifications of publicai.ch founding-circle co-hosts; confirm via the publicai.ch roster.
+- **publicai.ch** has no formal board published yet ("still being set up"); central figures: Tan + Lavrovsky + Wildemann. Shared inbox `hello@publicai.co`.
+- **BAKOM/OFCOM** publishes no named operational AI lead beyond Amb. Schneider; CoE-Convention work is run by the office (OFCOM + FDFA + FOJ + Directorate of International Law); `info@bakom.admin.ch`.
+- **CNAI (Competence Network for AI)** — central contact point moved to the Federal Chancellery (DTI) ~Feb 2026; no named head public; `ai@bk.admin.ch`.
+- **foraus** digital/AI: **Eduardo Belinchon** (Head of Digital Innovation); co-directors Marie Hürlimann & Sereina Capatt.
+
+### Exclusions / disambiguations
+- `publicai.io` (Web3/crypto) is unrelated — the relevant family is publicai.network / publicai.co / publicai.ch / Metagov.
+- **Martin Vechev** (INSAIT) — separate AI-safety track, not this public-AI cluster.
+- **Niniane Paeffgen** — no longer at the Swiss Digital Initiative (left 2022; now GESDA-adjacent).
+- **Jörg Mäder** — lost his National Council seat in 2023; not a sitting federal parliamentarian.
+
 ---
 
 *Method: actors surfaced from their public writing and organisational sites (verified against primary sources, June 2026), grouped by the role their public work plays. The field moves fast — re-verify roles, affiliations, and any commercial ties before relying on this map.*
