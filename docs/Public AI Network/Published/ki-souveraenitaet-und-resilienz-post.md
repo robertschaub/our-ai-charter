@@ -1,4 +1,3 @@
-> [!TIP]
 > **Status: PUBLISHED** — mirror of the LinkedIn feed post accompanying the article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md), published 19 June 2026 (retrieved from LinkedIn's public embed).
 > Canonical post: [https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)
 

@@ -1,4 +1,3 @@
-> [!TIP]
 > **Status: PUBLISHED** — mirror of the LinkedIn feed post accompanying the article [The Public AI Network](the-public-ai-network.md), published 22 June 2026.
 
 # Feed post — The Public AI Network

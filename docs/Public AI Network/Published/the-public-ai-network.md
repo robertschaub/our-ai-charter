@@ -1,4 +1,3 @@
-> [!TIP]
 > **Status: PUBLISHED** — verbatim mirror of the LinkedIn article published 22 June 2026 (project links embedded as published).
 > Canonical post: [https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)
 
