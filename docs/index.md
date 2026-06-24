@@ -24,6 +24,7 @@ Our AI Charter is a public-interest draft for making AI trustworthy in practice 
 
     [:octicons-arrow-right-24: The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md) ·
     [KI-Souveränität (DE)](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) ·
+    [EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md) ·
     [Briefing](Public%20AI%20Network/briefing.md)
 
 -   :material-scale-balance:{ .lg .middle } __AI Assurance & Certification__
@@ -82,7 +83,7 @@ Documents are labelled with their status — *PUBLISHED*, *WORKING DRAFT*, or *W
 **Public AI Network** — sovereignty, resilience, coordination:
 
 - [The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md) ·
-  [KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) — *PUBLISHED* LinkedIn articles.
+  [KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) ([EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* LinkedIn articles.
 - [Public AI governance — initiative briefing](Public%20AI%20Network/briefing.md) — the entry point to the governance working materials.
 
 **AI Assurance & Certification** — accountability, evaluation:

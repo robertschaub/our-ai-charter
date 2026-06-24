@@ -10,7 +10,7 @@ Don't start with a parliamentary instrument. The higher-probability path is:
 2. Write a **2-page non-paper** (done — see the [Non-Paper](../Outreach/non-paper.en.md)).
 3. Use a **neutral convenor** for a scoped pre-sprint.
 4. Feed the result into **Swiss federal and Geneva 2027** channels.
-5. Only then use an **interpellation/postulate** to formalise the political mandate (draft: [Postulat](../Outreach/postulat.de.md)).
+5. Only then use an **interpellation/postulate** to formalise the political mandate (draft: [Postulat](../Outreach/postulat.de.md), [EN](../Outreach/postulat.en.md)).
 
 ## Consolidated recommendation
 

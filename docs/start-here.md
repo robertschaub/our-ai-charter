@@ -13,9 +13,9 @@ Our AI Charter spans two workstreams and a few dozen documents. Pick the row tha
 
 *Is this real, does it serve sovereignty and resilience, and is there a concrete ask I can act on?*
 
-1. **[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)** — the umbrella statement. German-speaking Swiss readers can start with **[KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)** (DE).
+1. **[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)** — the umbrella statement. German-speaking Swiss readers can start with **[KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)** (DE, [EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)).
 2. **[Initiative briefing](Public%20AI%20Network/briefing.md)** — what the initiative is actually asking for.
-3. **Swiss policy window:** **[Impulsprogramm 26.3221](Public%20AI%20Network/Strategy/impulsprogramm-digitale-souveraenitaet.md)**, with the concrete instruments — [Non-Paper](Public%20AI%20Network/Outreach/non-paper.en.md), [Postulat](Public%20AI%20Network/Outreach/postulat.de.md) (DE), [Aktionsplan](Public%20AI%20Network/Outreach/action-plan.de.md) (DE).
+3. **Swiss policy window:** **[Impulsprogramm 26.3221](Public%20AI%20Network/Strategy/impulsprogramm-digitale-souveraenitaet.md)**, with the concrete instruments — [Non-Paper](Public%20AI%20Network/Outreach/non-paper.en.md), [Postulat](Public%20AI%20Network/Outreach/postulat.de.md) (DE, [EN](Public%20AI%20Network/Outreach/postulat.en.md)), [Aktionsplan](Public%20AI%20Network/Outreach/action-plan.de.md) (DE, [EN](Public%20AI%20Network/Outreach/action-plan.en.md)).
 4. **Allies & coordination:** [Initiation strategy](Public%20AI%20Network/Strategy/initiation-strategy.md) (alliance-first, 30/60/90). **Due diligence:** [Verified findings](Public%20AI%20Network/Evidence/verified-findings.md) · [Actors & landscape](Public%20AI%20Network/Evidence/actors-and-landscape.md).
 
 ## I build, operate, or assess AI

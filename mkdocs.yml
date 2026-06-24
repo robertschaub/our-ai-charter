@@ -117,6 +117,7 @@ nav:
   - Public AI Network:
       - Overview: Public AI Network/briefing.md
       - The Public AI Network: Public AI Network/Published/the-public-ai-network.md
+      - "AI Sovereignty and Resilience (EN)": Public AI Network/Published/ai-sovereignty-and-resilience.md
       - "KI-Souveränität und Resilienz (DE)": Public AI Network/Published/ki-souveraenitaet-und-resilienz.md
       - Evidence:
           - Verified findings: Public AI Network/Evidence/verified-findings.md
@@ -130,11 +131,14 @@ nav:
       - Outreach:
           - "Non-Paper (EN)": Public AI Network/Outreach/non-paper.en.md
           - "Non-Paper (DE)": Public AI Network/Outreach/non-paper.de.md
+          - "Action Plan (EN)": Public AI Network/Outreach/action-plan.en.md
           - "Aktionsplan (DE)": Public AI Network/Outreach/action-plan.de.md
+          - "Postulate (EN)": Public AI Network/Outreach/postulat.en.md
           - "Postulat (DE)": Public AI Network/Outreach/postulat.de.md
       - Posts:
           - The Public AI Network — post: Public AI Network/Published/the-public-ai-network-post.md
-          - "KI-Souveränität — post": Public AI Network/Published/ki-souveraenitaet-und-resilienz-post.md
+          - "AI Sovereignty and Resilience — post (EN)": Public AI Network/Published/ai-sovereignty-and-resilience-post.md
+          - "KI-Souveränität — post (DE)": Public AI Network/Published/ki-souveraenitaet-und-resilienz-post.md
   - AI Assurance & Certification:
       - Trustworthy AI, Accountable to People: AI Assurance and Certification/Published/trustworthy-ai-accountable-to-people.md
       - The Founding Accord: AI Assurance and Certification/Framework/founding-accord.md

@@ -32,4 +32,4 @@ Dieses Postulat fordert den Bundesrat auf, genau diesen Handlungsbedarf zu analy
 
 ---
 
-*Entwurfstext — als Vorlage für ein tragendes Ratsmitglied gedacht (der Initiant kann ein Postulat nicht selbst einreichen). Bewusst **nicht als erste Massnahme**: erst nach Publikation des Non-Papers und Aufbau einer Allianz verwenden. Belege und Quellen: siehe [Verified Findings](../Evidence/verified-findings.md). Vor der Einreichung zwingend den aktuellen Stand der Motion 24.3209 und der Planung für Genf 2027 verifizieren.*
+*Entwurfstext — als Vorlage für ein tragendes Ratsmitglied gedacht (der Initiant kann ein Postulat nicht selbst einreichen). Bewusst **nicht als erste Massnahme**: erst nach Publikation des Non-Papers und Aufbau einer Allianz verwenden. Belege und Quellen: siehe [Verified Findings](../Evidence/verified-findings.md). Vor der Einreichung zwingend den aktuellen Stand der Motion 24.3209 und der Planung für Genf 2027 verifizieren. Englische Übersetzung: [postulat.en.md](postulat.en.md).*

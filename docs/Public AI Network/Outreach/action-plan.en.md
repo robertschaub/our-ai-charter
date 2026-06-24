@@ -1,0 +1,42 @@
+> **Status: WORKING DRAFT** — working playbook; open to revision. English translation of [action-plan.de.md](action-plan.de.md); the German version is canonical.
+
+# Action Plan — Public AI Governance (Short Form)
+
+**Update 2026-06-19:** The LinkedIn article is published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)); direct outreach has begun. The release and fact-checking rules for the Non-Paper, outreach, postulate, and external claims remain in force.
+
+**Role:** Catalyst and alliance-builder. Switzerland should position itself as a credible host and as a hub — internationally oriented from the outset. Explicitly, no new institution is to be founded.
+
+**Greatest leverage:** We connect to existing, publicly funded structures (such as Apertus/SNAI and Current AI) and pool our reach in the form of an **alliance or charter**. Parliamentary procedural requests (such as a postulate) follow only at a later stage, via a sponsoring member of parliament.
+
+## Sequence (timeline)
+
+The detailed 30/60/90-day sequence is recorded in the [Initiation Strategy](../Strategy/initiation-strategy.md) (the authoritative version). Short form of the immediate steps:
+
+- **0–30 days:** Finalise the Non-Paper; hold first orientation conversations with the proponents of an open Swiss model and with a neutral convenor (Expedition Zukunft, `info@expeditionzukunft.ch`) to scope a policy sprint. Goal: three credible supporters and a stakeholder map. The published LinkedIn article is an existing public signal, but no substitute for direct conversations.
+- **31–60 days:** Hold the scoping conversation; set up a neutrally moderated clarification process (pre-sprint).
+- **61–90 days:** Connect to the AI Summit Geneva 2027 and to the Federal Office of Communications (OFCOM/BAKOM; Thomas Schneider); prepare a postulate to be submitted by a sponsoring member of parliament (e.g. Andrey, Christ, Juillard, or Michel) and aligned in substance with Motion 24.3209.
+
+**Parallel track (monitor continuously):**
+The Confederation is expected to develop, by the end of 2026, a draft or implementation plan for AI regulation (involving the FDJP, DETEC, and FDFA, also with a view to the Council of Europe Framework Convention on Artificial Intelligence) and is preparing the AI Summit Geneva 2027. The task is to seek — early, and through *existing (warm)* contacts — a discreet reality check (no cold outreach), and to ensure that our undertaking remains able to connect to these official processes.
+
+## Verified anchor points
+
+The full, sourced list of anchors is in the [Verified Findings](../Evidence/verified-findings.md). The most operationally important:
+
+- **Apertus/SNAI:** The unresolved governance question (no publicly identifiable independent multi-stakeholder body) offers a natural entry point — as a question *with* SNAI/Apertus, not as criticism.
+- **Current AI:** Switzerland is already a partner country (Country Partner).
+- **Motion 24.3209 & AI Summit Geneva 2027:** an open political thread and a concrete window, respectively (first half of 2027).
+
+## Communication guardrails
+
+- We do **not** position ourselves in competition with SNAI or Apertus.
+- FactHarbor does **not** claim a role as a certification or audit authority.
+- We initiate an open-ended **process**, not a one-sided campaign.
+- The orientation is **international**: Switzerland acts as initiator, host, and bridge-builder — Swiss benefit and international impact complement each other.
+
+## Relevant documents
+
+- [Verified Findings](../Evidence/verified-findings.md)
+- Impetus and discussion paper (Non-Paper) [EN](non-paper.en.md) / [DE](non-paper.de.md)
+- Postulate draft [EN](postulat.en.md) / [DE](postulat.de.md)
+- Published LinkedIn article: [AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)

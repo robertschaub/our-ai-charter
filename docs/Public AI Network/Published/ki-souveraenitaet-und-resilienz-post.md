@@ -11,4 +11,4 @@ Ein offenes Schweizer KI-Modell ist ein starker Impuls. Doch wie sichern wir uns
 
 ---
 
-_Published version: LinkedIn feed post, 19 June 2026. Companion to the article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md)._
+_Published version: LinkedIn feed post, 19 June 2026. Companion to the article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md). An [English translation](ai-sovereignty-and-resilience-post.md) is available._
