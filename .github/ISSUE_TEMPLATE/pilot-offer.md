@@ -1,6 +1,6 @@
 ---
-name: Pilot offer
-about: Volunteer a system for a draft evaluation
+name: Exploratory pilot interest
+about: Register interest in a possible future evaluation pilot
 title: "[Pilot] "
 labels: ["pilot"]
 ---

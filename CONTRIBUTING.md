@@ -12,9 +12,9 @@ This is an open draft — built in the open and meant to be improved by its crit
 
 ## Three ways to contribute (open an issue)
 
-1. **Break it** — where does "support, not truth" collapse into truth-judging, or mislead a buyer? Where would the method fail?
-2. **Co-design the measurement** — help define the sampling, the unit of analysis, and a risk-tiered bar for *one* use-case.
-3. **Pilot it** — volunteer a system (open-weight or proprietary) for a draft evaluation; results would be published, anonymised if needed. No pilots are running yet — this registers interest in a possible future step.
+1. **Stress-test the Public AI path** — where does the proposed governance-and-evidence package overclaim, duplicate existing work, or miss the real leverage point?
+2. **Open one useful door** — suggest an orientation conversation, neutral convenor, institutional anchor, or public-AI peer who should be in the first round.
+3. **Improve the trust layer** — challenge the obligations, evidence model, or evaluation protocol. Pilot ideas are welcome, but no pilots are running yet; a pilot issue registers interest in a possible future step.
 
 ## How to engage
 

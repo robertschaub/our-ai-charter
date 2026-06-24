@@ -12,11 +12,11 @@ _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
 ## Zeitliche Abfolge (Sequenz)
 
-Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](../Strategy/initiation-strategy.md) festgehalten (massgebliche Fassung). Kurzfassung der unmittelbaren Schritte:
+Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](../Strategy/initiation-strategy.md) festgehalten (massgebliche Fassung). Diese Kurzfassung dient nur der Ansprache: Die Bitte klein halten, kein Mandat suggerieren, Detailfragen zur Roadmap auf die Strategie zurückführen.
 
 - **0–30 Tage:** Non-Paper finalisieren; erste Orientierungsgespräche mit den Befürwortern eines offenen Schweizer Modells und mit einem neutralen Konvener (Expedition Zukunft, `info@expeditionzukunft.ch`) für ein Policy-Sprint-Scoping. Ziel: drei glaubwürdige Unterstützer:innen und eine Stakeholder-Map. Der publizierte LinkedIn-Artikel ist ein vorhandenes öffentliches Signal, aber kein Ersatz für direkte Gespräche.
-- **31–60 Tage:** Scoping-Gespräch durchführen; einen neutral moderierten Klärungsprozess (Pre-Sprint) aufsetzen.
-- **61–90 Tage:** An den KI-Gipfel Genf 2027 und das BAKOM (Thomas Schneider) andocken; ein Postulat vorbereiten, das ein tragendes Ratsmitglied (z. B. Andrey, Christ, Juillard oder Michel) einreicht und sich inhaltlich an der Motion 24.3209 orientiert.
+- **31–60 Tage:** Scoping-Gespräch durchführen; einen neutral moderierten Klärungsprozess (Pre-Sprint) rund um ein Geneva 2027 Public AI Governance & Evidence Package aufsetzen.
+- **61–90 Tage:** An den KI-Gipfel Genf 2027 und relevante Bundeskanäle andocken; ein Postulat nur vorbereiten, wenn es eine Trägergruppe und ein konkretes Paket gibt.
 
 **Paralleler Handlungsstrang (fortlaufend beobachten):**
 Der Bund erarbeitet voraussichtlich bis Ende 2026 eine Vorlage oder einen Umsetzungsplan zur KI-Regulierung (beteiligt sind EJPD, UVEK und EDA, auch im Hinblick auf die Europaratskonvention) und bereitet den KI-Gipfel Genf 2027 vor. Es gilt, frühzeitig über *bestehende (warme)* Kontakte einen diskreten Abgleich mit der Realität zu suchen (keine Kaltakquise) und sicherzustellen, dass unser Vorhaben zu diesen offiziellen Prozessen anschlussfähig bleibt.

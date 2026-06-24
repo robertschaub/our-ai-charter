@@ -3,13 +3,13 @@
 > [!TIP]
 > **Read this as a website → [robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** — full navigation, search, and a cleaner read than browsing the files here.
 
-**A charter for trustworthy AI — open, plural, and accountable to people.**
+**Public AI infrastructure for free societies — trustworthy, inspectable, and accountable to people.**
 
 _Early public draft, open for comment. Not a certification; not yet a standard._
 
-AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter** is a public-interest effort to keep that infrastructure trustworthy: open enough to inspect, governed well enough to trust, and stewarded as shared infrastructure rather than owned and switched off by a few.
+AI is becoming the infrastructure the world learns, decides, and creates with. The current priority is the **Public AI Network**: a Switzerland-anchored but internationally co-stewarded push for public AI that free societies can inspect, govern, and contest, with the Geneva AI Summit 2027 as a concrete timing window.
 
-It holds any deployed system to five public obligations:
+**Our AI Charter** supplies the trust and evidence layer for that work: the obligations, evaluation discipline, and claim boundaries a public-AI infrastructure effort would need if it is to be more than an open model or a national label. It holds any deployed system to five public obligations:
 
 - **Purpose-bound** — the system states what it is for, what it must not do, who it may affect, and what risks are known.
 - **Answerable to people** — a named human institution is responsible, and consequential uses carry notice, review, challenge, and remedy.
@@ -17,7 +17,7 @@ It holds any deployed system to five public obligations:
 - **Fair in practice** — uneven or discriminatory performance is tested, disclosed, and corrected where it matters.
 - **Open to evidence and correction** — claims, limits, incidents, changes, and unresolved risks leave a trail others can check.
 
-The obligations are spelled out in full in the **[Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, tested by a [first evaluation module](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md), and set within a three-layer assurance stack — legal floor, common Charter baseline, and public-interest modules.
+The obligations are spelled out in full in the **[Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, tested by a [first evaluation module](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md), and set within a three-layer assurance stack: legal floor, common Charter baseline, and public-interest modules.
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](docs/PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](docs/PROGRAM.md#stewardship-and-governance)**.
 
@@ -49,7 +49,7 @@ Each entry below notes its status — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DI
 
 ### AI Assurance & Certification
 
-*Accountability and evaluation — can a deployed AI show its work and answer for it?*
+*The trust and evidence layer — can a deployed AI show its work and answer for it?*
 
 - **[Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (14 Jun, updated 19 Jun 2026). The **why**. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
 - **[The Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)** — *WORKING DRAFT*. The charter you can endorse — the **what**.
@@ -58,19 +58,19 @@ Each entry below notes its status — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DI
 - **[Risk and vulnerability audit](docs/AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/AI%20Assurance%20and%20Certification/Background/what-the-world-has-already-declared.md)** · **[Landscape & positioning](docs/AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md)** — *WIP / DISCUSSION* background.
 - **[Launch post](docs/AI%20Assurance%20and%20Certification/Published/launch-post.md)** · **[Certification comment](docs/AI%20Assurance%20and%20Certification/Published/certification-comment.md)** — *PUBLISHED* feed post and comment.
 
-**Where to start:** [the published article](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) (the argument) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) (the obligations) → [risk audit](docs/AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md) (what they must cover) → [protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) (the first pilot module) → [certification model](docs/AI%20Assurance%20and%20Certification/Framework/certification-model.md) (the future structure). For the international framing, read [The Public AI Network](docs/Public%20AI%20Network/Published/the-public-ai-network.md).
+**Where to start now:** [The Public AI Network](docs/Public%20AI%20Network/Published/the-public-ai-network.md) (international frame) → [initiative briefing](docs/Public%20AI%20Network/briefing.md) (current ask and guardrails) → [initiation strategy](docs/Public%20AI%20Network/Strategy/initiation-strategy.md) (30/60/90 path). For the evidence mechanics behind the trust layer, read [Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
 
 ## Status
 
-**Phase 1 — public drafting.** The work so far is documentary: published articles, a worked-out evaluation method, and the connections to take it further. **Nothing is certified yet** — no Trust Mark, certificate, accredited assessor, or certification body exists, and independent pilot evaluations are a possible next step, not yet underway. A real conformity scheme (mark, registry, assessor accreditation) would be Phase 2, pursued only if pilots and demand justify it — and built *inside* existing bodies, not as a new silo. Everything outside *PUBLISHED* is an early draft, released to be argued with.
+**Phase 1 — public drafting and connection-building.** Nothing is certified yet: no Trust Mark, certificate, accredited assessor, certification body, or active pilot evaluation exists. Any future conformity scheme would be Phase 2 and only if demand, pilots, and neutral institutional hosting justify it.
 
 ## How to help
 
-This can't be built by one person. Three concrete asks — open an issue:
+This can't be built by one person. The current priority is to turn the Public AI Network idea into a credible, bounded clarification process. Three concrete asks — open an issue:
 
-1. **Break it** — where does the thinking or the method fail or mislead?
-2. **Co-design the measurement** — help set a defensible evaluation design for one use-case.
-3. **Pilot it** — volunteer a system for an exploratory trial evaluation; no mark is issued.
+1. **Stress-test the Public AI path** — where does the proposed governance-and-evidence package overclaim, duplicate, or miss the real leverage point?
+2. **Open one useful door** — suggest an orientation conversation, neutral convenor, institutional anchor, or public-AI peer who should be in the first round.
+3. **Improve the trust layer** — challenge the obligations, evidence model, or evaluation protocol; exploratory pilot ideas are welcome, but no mark is issued.
 
 See **[CONTRIBUTING](CONTRIBUTING.md)** for the working norms — open drafts, published dissent, conflict-of-interest disclosure.
 

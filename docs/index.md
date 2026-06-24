@@ -6,13 +6,13 @@ hide:
 
 # Our AI Charter
 
-**Trustworthy AI, accountable to people.**
+**Public AI infrastructure, accountable to people.**
 
 _Early public draft, open for comment. Not a certification; not yet a standard._
 
 AI is becoming the infrastructure people learn, decide, work, and form opinion with. Infrastructure that important should not rest on a handful of private providers — or on opaque shutdown powers, unsafe systems, discriminatory failures, privacy leakage, manipulation, or factual claims no one can trace or challenge.
 
-Our AI Charter is a public-interest draft for making AI trustworthy in practice — setting out what anyone should be able to ask of a deployed system, and the **public obligations** it must meet.
+The current priority is the **Public AI Network**: a Switzerland-anchored, internationally oriented path toward public AI that free societies can inspect, govern, and contest. **Our AI Charter** is the trust and evidence layer behind that path — the obligations, evaluation discipline, and claim boundaries that keep public AI from becoming only an open model, a national label, or a vendor promise.
 
 <div class="grid cards" markdown>
 
@@ -31,7 +31,7 @@ Our AI Charter is a public-interest draft for making AI trustworthy in practice 
 
     ---
 
-    Accountability and evaluation — can a deployed AI show its work and answer for it?
+    The trust and evidence layer — can a deployed AI show its work and answer for it?
 
     [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) ·
     [Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) ·
@@ -72,9 +72,7 @@ State regulation creates enforceable rights, duties, and sanctions — but it is
 
 How such a scheme could be built — independent assessors, an accreditor that licenses them, and a peer body that keeps it honest — is set out in the [certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md).
 
-!!! note "Status — Phase 1, public drafting"
-
-    The work so far is documentary: published articles, a worked-out evaluation method, and the connections to take it further. **Nothing here certifies anyone.** There is no Trust Mark, certificate, accredited assessor, or registry, and independent pilot evaluations are a possible next step, not yet underway. Any real conformity scheme would be Phase 2 — and built inside an existing neutral body, not as a new silo.
+**Status — Phase 1.** This is public drafting and connection-building. Nothing here certifies anyone: there is no Trust Mark, certificate, accredited assessor, registry, or active pilot evaluation.
 
 ## Start reading
 
@@ -86,7 +84,7 @@ Documents are labelled with their status — *PUBLISHED*, *WORKING DRAFT*, or *W
   [KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) ([EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* LinkedIn articles.
 - [Public AI governance — initiative briefing](Public%20AI%20Network/briefing.md) — the entry point to the governance working materials.
 
-**AI Assurance & Certification** — accountability, evaluation:
+**AI Assurance & Certification** — trust and evidence layer:
 
 - [Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — *PUBLISHED* manifesto.
 - [The Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) ·
@@ -97,11 +95,11 @@ For the full document index, see the [program map](PROGRAM.md).
 
 ## How to help
 
-This is an open draft, not a finished standard. Three concrete asks:
+This is an open draft, not a finished standard. The current priority is to turn the Public AI Network idea into a credible, bounded clarification process. Three concrete asks:
 
-1. **Break it** — where does the method fail, overclaim, or invite gaming?
-2. **Co-design the measurement** — help set a defensible evaluation design for one use-case.
-3. **Pilot it** — volunteer a system for an exploratory trial evaluation; no mark is issued.
+1. **Stress-test the Public AI path** — where does the proposed governance-and-evidence package overclaim, duplicate, or miss the real leverage point?
+2. **Open one useful door** — suggest an orientation conversation, neutral convenor, institutional anchor, or public-AI peer who should be in the first round.
+3. **Improve the trust layer** — challenge the obligations, evidence model, or evaluation protocol; exploratory pilot ideas are welcome, but no mark is issued.
 
 Open a GitHub issue for public feedback. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.
 

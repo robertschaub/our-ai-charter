@@ -4,7 +4,7 @@ Who is already building the pieces of an open, accountable, internationally co-s
 
 ## The public-AI movement & shared infrastructure
 
-- **Public AI / [Metagov](https://metagov.org/projects/public-ai)** — the clearest articulation of AI "provisioned like electricity, water, roads, libraries" ([Public AI: Infrastructure for the Common Good](https://zenodo.org/records/13914560)); a [seminar series](https://publicai.network/) and a network of organisers, led by **Joshua Tan** (founder & research lead, Metagov; published contact `joshua.z.tan@gmail.com`). Backing organisations include Mozilla, Chatham House, Berkman Klein, the McGovern Foundation, and Open Future.
+- **Public AI / [Metagov](https://metagov.org/projects/public-ai)** — the clearest articulation of AI "provisioned like electricity, water, roads, libraries" ([Public AI: Infrastructure for the Common Good](https://zenodo.org/records/13914560)); a [seminar series](https://publicai.network/) and a network of organisers, led by **Joshua Tan** (founder & research lead, Metagov). Backing organisations include Mozilla, Chatham House, Berkman Klein, the McGovern Foundation, and Open Future.
 - **[Current AI](https://www.currentai.org/about-us)** — a multistakeholder public-interest-AI partnership launched at the 2025 Paris AI Action Summit (governments + philanthropies + companies); Switzerland is a Country Partner.
 - **[AI Alliance — Project Tapestry](https://thealliance.ai/projects/tapestry)** — shared infrastructure for training open models across institutions.
 - **Public AI Switzerland / publicai.ch (SPIU — Swiss Public Inference Utility)** — a customer-owned cooperative distributing Apertus, in formation; linked to the international [Public AI Inference Utility](https://publicai.co/) (shared inbox `hello@publicai.co`). Founding membership held in trust by **[Datalets.ch / opendata.ch](https://datalets.ch/)** (Swiss non-profit). *(Note: `publicai.io` is an unrelated Web3/crypto project; the relevant family is publicai.network / publicai.co / publicai.ch.)*
@@ -105,8 +105,6 @@ A person-level scan of Switzerland-based (or Switzerland-anchored) individuals w
 | Andrei Kucharavy | Prof./researcher, HES-SO Valais-Wallis | Major Apertus contributor — Romandie/Valais public-model capacity | ★★★ |
 | David Rosenthal | Partner, VISCHER; AI/data lawyer; ETH/Basel lecturer | Prolific Swiss AI/data-law practitioner; Apertus paper contributor — legal/compliance & contestability layer | ★★★ |
 | Florian Tramèr | Asst. Professor, ETH Zurich (SPY Lab) | AI security & evaluation (AgentDojo); Apertus paper contributor — the evaluation pillar | ★★★ |
-| Vasco Schiavo *(identification to confirm)* | Member of Technical Staff, OpenHands; publicai.ch contributor, CH | The "Vasco" co-host of the publicai.ch founding; open-source agent/eval infrastructure | ★★★ |
-| Michele L. Romano *(identification to confirm)* | Founder, Twelve Balloons; GenAI Zürich, Zürich | Co-host of the publicai.ch founding; GenAI Zürich community working with Apertus | ★★★ |
 
 ### ★★ / ★ — Adjacent & contrast
 
@@ -121,8 +119,8 @@ A person-level scan of Switzerland-based (or Switzerland-anchored) individuals w
 | Charles Juillard | Council of States (Die Mitte, JU) | Motion 24.3209 sovereign digital infrastructure — adopted by Council of States 19 Mar 2026 (31–11), now before the National Council; infrastructure/national-leaning | ★★ |
 | Franz Grüter | National Councillor (SVP, LU); co-president Parldigi | Active on data centres / cloud / sovereignty but market-liberal ("full sovereignty is an illusion") — listed for contrast | ★ |
 
-### Resolved leads & institutional anchors
-- **"Mike Romano" → Michele L. Romano** (founder Twelve Balloons; GenAI Zürich) and **"Vasco" → Vasco Schiavo** (OpenHands; GitHub `VascoSch92`, publicai.ch contributor) — both *medium-high* identifications of publicai.ch founding-circle co-hosts; confirm via the publicai.ch roster.
+### Institutional anchors and contacts
+- Two publicai.ch founding-circle co-host identifications remain to confirm against a public roster before being listed by name here.
 - **publicai.ch** has no formal board published yet ("still being set up"); central figures: Tan + Lavrovsky + Wildemann. Shared inbox `hello@publicai.co`.
 - **BAKOM/OFCOM** publishes no named operational AI lead beyond Amb. Schneider; CoE-Convention work is run by the office (OFCOM + FDFA + FOJ + Directorate of International Law); `info@bakom.admin.ch`.
 - **CNAI (Competence Network for AI)** — central contact point moved to the Federal Chancellery (DTI) ~Feb 2026; no named head public; `ai@bk.admin.ch`.

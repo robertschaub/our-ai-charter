@@ -20,6 +20,8 @@ Don't start with a parliamentary instrument. The higher-probability path is:
 
 **3. Make Geneva 2027 the political timing.** The Geneva AI Summit 2027 and Switzerland's host-state positioning create a concrete window. Candidate contributions: a governance blueprint, an international co-stewardship model, open evaluation/audit practices, a public-interest demo case, and a small Swiss + international coalition.
 
+Name the near-term package narrowly: **Geneva 2027 Public AI Governance & Evidence Package**. It should mean four things, not a broad new programme: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. Everything else is supporting material until a carrier group exists.
+
 **4. Use a neutral process designer.** A neutral policy-process designer (stakeholder mapping, framing, multi-stakeholder dialogue, sprint design) is well suited to test whether this can become a viable policy- and institution-building process — framed as a clarification, not a campaign. A possible sprint question:
 
 > How can Switzerland help build an internationally co-governed public-AI infrastructure that serves free societies, enables public oversight, and does not tip into national or commercial dependence?
@@ -34,9 +36,9 @@ The leverage ranking and the parliamentary-instrument analysis (interpellation �
 
 **Days 0–30 — convert signal into mandate.** Finalise the non-paper; build a stakeholder map; send targeted orientation requests; hold short calls; ask a neutral convenor for a scoping conversation; decide the pre-sprint question. *Success:* three credible people say the question is worth structured exploration.
 
-**Days 31–60 — run a pre-sprint.** Convene a small group; clarify three questions — governance, institutional home, political path; decide the next step (policy sprint, Geneva roundtable, demo pilot, or parliamentary package); produce a 2-page initiation memo. *Success:* a named next step with at least two institutional anchors.
+**Days 31–60 — run a pre-sprint.** Convene a small group; clarify three questions — governance, institutional home, political path; decide whether the Geneva 2027 package should proceed, narrow, or stop; produce a 2-page initiation memo. *Success:* a named next step with at least two institutional anchors.
 
-**Days 61–90 — create public and political connectivity.** Prepare a "Swiss-hosted international public-AI infrastructure roundtable"; draft interpellation/postulate options; define one demo use-case tied to verifiable public-information infrastructure; identify a first funding or convening need. *Success:* a small carrier group, a concrete event/process date, and a political brief ready for a parliamentary sponsor.
+**Days 61–90 — create public and political connectivity.** Prepare a Swiss-hosted international public-AI infrastructure roundtable path; draft interpellation/postulate options only if the mandate exists; define one demo use-case tied to verifiable public-information infrastructure; identify a first funding or convening need. *Success:* a small carrier group, a concrete event/process date, and a political brief ready for a parliamentary sponsor.
 
 For who is already working in this space (by role), see the [actor & landscape map](../Evidence/actors-and-landscape.md).
 

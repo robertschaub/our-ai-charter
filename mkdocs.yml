@@ -6,7 +6,7 @@
 # part of the website. Navigation is defined explicitly below.
 
 site_name: Our AI Charter
-site_description: A public-interest charter for trustworthy AI — open, plural, and accountable to people.
+site_description: Public AI infrastructure for free societies — trustworthy, inspectable, and accountable to people.
 site_url: https://robertschaub.github.io/our-ai-charter/
 site_author: Robert Schaub
 
@@ -127,7 +127,6 @@ nav:
           - Initiation strategy: Public AI Network/Strategy/initiation-strategy.md
           - Impulsprogramm digitale Souveränität (26.3221): Public AI Network/Strategy/impulsprogramm-digitale-souveraenitaet.md
           - Swiss Action-Plan contribution: Public AI Network/Strategy/swiss-action-plan-contribution.md
-          - Governance pickup note: Public AI Network/Strategy/governance-pickup-note.md
       - Outreach:
           - "Non-Paper (EN)": Public AI Network/Outreach/non-paper.en.md
           - "Non-Paper (DE)": Public AI Network/Outreach/non-paper.de.md

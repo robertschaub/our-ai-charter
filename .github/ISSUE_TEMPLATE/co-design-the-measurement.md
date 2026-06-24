@@ -1,12 +1,14 @@
 ---
-name: Co-design the measurement
-about: Help define a defensible evaluation design for one use-case
+name: Improve the trust/evidence method
+about: Help define defensible obligations, evidence, or evaluation design
 title: "[Measurement] "
 labels: ["measurement"]
 ---
 
-**Use-case** (e.g. English Q&A with cited sources):
+**What should improve?**
+(Obligation, evidence requirement, release-risk assessment, evaluation module, sampling design, or one use-case.)
 
-**Proposal** (sampling frame, unit of analysis, rater design, statistic, threshold / pass rule):
+**Proposal**
+(For measurement: sampling frame, unit of analysis, rater design, statistic, threshold / pass rule.)
 
 **Why it's defensible, and what it trades off:**

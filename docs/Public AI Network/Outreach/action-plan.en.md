@@ -10,11 +10,11 @@
 
 ## Sequence (timeline)
 
-The detailed 30/60/90-day sequence is recorded in the [Initiation Strategy](../Strategy/initiation-strategy.md) (the authoritative version). Short form of the immediate steps:
+The detailed 30/60/90-day sequence is recorded in the [Initiation Strategy](../Strategy/initiation-strategy.md) (the authoritative version). This short form is for outreach only: keep the ask small, avoid implying a mandate, and route detailed roadmap questions back to the strategy.
 
 - **0–30 days:** Finalise the Non-Paper; hold first orientation conversations with the proponents of an open Swiss model and with a neutral convenor (Expedition Zukunft, `info@expeditionzukunft.ch`) to scope a policy sprint. Goal: three credible supporters and a stakeholder map. The published LinkedIn article is an existing public signal, but no substitute for direct conversations.
-- **31–60 days:** Hold the scoping conversation; set up a neutrally moderated clarification process (pre-sprint).
-- **61–90 days:** Connect to the AI Summit Geneva 2027 and to the Federal Office of Communications (OFCOM/BAKOM; Thomas Schneider); prepare a postulate to be submitted by a sponsoring member of parliament (e.g. Andrey, Christ, Juillard, or Michel) and aligned in substance with Motion 24.3209.
+- **31–60 days:** Hold the scoping conversation; set up a neutrally moderated clarification process (pre-sprint) around a Geneva 2027 Public AI Governance & Evidence Package.
+- **61–90 days:** Connect to the AI Summit Geneva 2027 and to relevant federal channels; prepare a postulate only if a carrier group and concrete package exist.
 
 **Parallel track (monitor continuously):**
 The Confederation is expected to develop, by the end of 2026, a draft or implementation plan for AI regulation (involving the FDJP, DETEC, and FDFA, also with a view to the Council of Europe Framework Convention on Artificial Intelligence) and is preparing the AI Summit Geneva 2027. The task is to seek — early, and through *existing (warm)* contacts — a discreet reality check (no cold outreach), and to ensure that our undertaking remains able to connect to these official processes.

@@ -17,13 +17,13 @@ Switzerland already has the building blocks — **Apertus**, **Swiss AI Initiati
 
 Explicitly **not** national/industrial protectionism, and **not** a commercial "sovereign AI" vendor play.
 
-The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation. (Full goal order: the [pickup note](Strategy/governance-pickup-note.md).)
+The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation.
 
 ## 3. The two assets behind it
 
 They are **separate but related** projects. What they share is one legal entity — the **FactHarbor Verein** (a non-profit association), which stewards both — and one mission: to protect and strengthen democracy and justice in the digital space, and through that to help build a free and fair society where technology is used responsibly and enables well-grounded decision-making. The FactHarbor application does **not** produce or contribute to the Charter.
 
-- **Our AI Charter** — a public-interest, voluntary framework for trustworthy AI in practice (five public obligations, eight operational duties, a three-layer assurance stack, and a first evaluation protocol — *Grounding-Faithfulness & Contestability*). An open spec / contribution, **not a new institution**; in Phase 1 (public drafting), with no Trust Mark or certification body yet. See the [AI Assurance & Certification](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream, anchored by *[Trustworthy AI, Accountable to People](../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)*.
+- **Our AI Charter** — the trust and evidence layer for public AI: five public obligations, eight operational duties, a three-layer assurance stack, and a first evaluation protocol, *Grounding-Faithfulness & Contestability*. It is an open contribution, **not** a new institution, certifier, or audit authority. See the [AI Assurance & Certification](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream, anchored by *[Trustworthy AI, Accountable to People](../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)*.
 - **FactHarbor (the application)** — a working prototype (alpha) producing structured, contestable evidence: claim scope, context, source provenance, reasoning, dissent, uncertainty, correction history, and challenge routes. It does **not** certify, audit, or guarantee truth.
 
 Signature principle — **no secret kill-switch:** material control interventions (restriction, shutdown, external orders) must be attributable, logged, and independently reviewable.
@@ -43,11 +43,13 @@ A non-parliamentarian can trigger a Motion or Postulat only indirectly via a cou
 
 ## 5. Strategy & sequence
 
-**Biggest lever:** dock onto existing, publicly-funded, reputable structures (Apertus/SNAI, Current AI) and bundle reach into an alliance/charter; parliamentary moves come later via a carrier council member. The full leverage ranking and the 30/60/90-day roadmap are in the [initiation strategy](Strategy/initiation-strategy.md); the evidence base is in the [Verified Findings](Evidence/verified-findings.md).
+**Biggest lever:** dock onto existing, publicly-funded, reputable structures (Apertus/SNAI, Current AI) and bundle reach into an alliance/charter; parliamentary moves come later via a carrier council member. The near-term package is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The full leverage ranking and 30/60/90-day roadmap are in the [initiation strategy](Strategy/initiation-strategy.md); the evidence base is in the [Verified Findings](Evidence/verified-findings.md).
 
 ## 6. Current state
 
 The German article and its feed post are published; the English companion *[The Public AI Network](Published/the-public-ai-network.md)* followed. Outreach to potential Swiss and international collaborators is in progress. The near-term aim is a handful of orientation conversations and three credible supporters, then a neutrally-facilitated pre-sprint.
+
+The useful asks now are bounded: critique the package, point to a relevant public-AI peer or institutional anchor, suggest a neutral convenor, or help test whether the first pilot should focus on governance, evidence/evaluation, or both.
 
 For who is already working in this space (by role), see the [actor & landscape map](Evidence/actors-and-landscape.md). For whether/when to file into the Swiss AI Action Plan, see the [contribution approach](Strategy/swiss-action-plan-contribution.md).
 
@@ -63,5 +65,5 @@ For who is already working in this space (by role), see the [actor & landscape m
 ## Companion documents
 
 - [Non-Paper (EN](Outreach/non-paper.en.md) / [DE)](Outreach/non-paper.de.md) · [Postulat draft (DE](Outreach/postulat.de.md) / [EN)](Outreach/postulat.en.md) · [Aktionsplan (DE](Outreach/action-plan.de.md) / [EN)](Outreach/action-plan.en.md) · [Verified Findings](Evidence/verified-findings.md)
-- [Initiation strategy](Strategy/initiation-strategy.md) · [Actor & landscape map](Evidence/actors-and-landscape.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md) · [Impulsprogramm digitale Souveränität (Motion 26.3221)](Strategy/impulsprogramm-digitale-souveraenitaet.md)
+- [Initiation strategy](Strategy/initiation-strategy.md) · [Actor & landscape map](Evidence/actors-and-landscape.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md) · [Impulsprogramm digitale Souveränität (Motion 26.3221)](Strategy/impulsprogramm-digitale-souveraenitaet.md) · [Infrastructure-governance pickup note](Strategy/governance-pickup-note.md)
 - Published: *[KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)* ([EN](Published/ai-sovereignty-and-resilience.md)) · *[The Public AI Network](Published/the-public-ai-network.md)*
