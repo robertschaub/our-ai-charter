@@ -1,6 +1,3 @@
-> [!WARNING]
-> **Status: WORKING DRAFT** — engagement note: how the *Impulsprogramm digitale Souveränität* (Motion 26.3221) opens a window for *Our AI Charter* / the Public AI Network, and what to watch as it concretises. The verified fact record lives in the [Verified Findings](../Evidence/verified-findings.md#live-political-window); this note adds only the engagement angle.
-
 # Impulsprogramm digitale Souveränität (Motion 26.3221) — engagement note
 
 ## What it is

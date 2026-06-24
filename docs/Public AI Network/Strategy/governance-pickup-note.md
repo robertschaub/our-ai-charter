@@ -1,6 +1,3 @@
-> [!WARNING]
-> **Status: WIP / DISCUSSION** - strategic pickup note. Selected governance principles have been reflected in working drafts; named initiatives remain unverified discussion inputs, and this note is not a standalone adopted Charter position.
-
 # Public AI Infrastructure Governance - Pickup Note
 
 _Working note, 2026-06-18. Purpose: preserve the core conclusion from a public discussion about an open Swiss AI model and make it usable for the next drafting pass._

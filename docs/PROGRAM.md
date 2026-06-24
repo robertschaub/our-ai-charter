@@ -1,6 +1,3 @@
-> [!NOTE]
-> **Status: WORKING DRAFT** — public program map.
-
 # Program Map
 
 Our AI Charter belongs to a broader program:

@@ -1,7 +1,3 @@
-> [!NOTE]
-> **Status: WORKING DRAFT (v0.1, 2026-06-18)** — informal discussion paper (non-paper).
-> Working basis for orientation conversations. Evidence: see [Verified Findings](../Evidence/verified-findings.md).
-
 # Swiss Contribution to Internationally Anchored Public AI Infrastructure
 
 *Informal discussion paper (non-paper) — 2 pages*

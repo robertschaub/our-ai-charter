@@ -19,6 +19,6 @@ Current priority: the repo has two related workstreams under the Our AI Charter 
 ## Conventions
 
 - Conventional commits: `type(scope): description`.
-- Keep each document's status label (`PUBLISHED <date>` / `WORKING DRAFT` / `WIP / DISCUSSION`), the README index, and CHANGELOG in sync — see the `/docs-update` skill. When the maintainer says a doc is "Published", set its header to `PUBLISHED <date>` (ISO `YYYY-MM-DD`; today's date if publishing now).
+- Keep status banners, the README index, and CHANGELOG in sync — see the `/docs-update` skill. A status banner belongs only on `PUBLISHED` pages and on **normative** docs (rules/obligations/guidelines: Founding Accord, evaluation protocol, certification model, one-pager); all other pages carry none (see [AGENTS.md](AGENTS.md)). When the maintainer says a doc is "Published", set its header to `PUBLISHED <date>` (ISO `YYYY-MM-DD`; today's date if publishing now).
 - When an article/post is published, its earlier draft is overwritten, deleted, or (rarely) moved to `Archive/<workstream>/` — archiving is **not** the default (Git history already preserves versions). The maintainer decides case by case; don't auto-act, and keep any archived files out of the index.
 - Windows / PowerShell.

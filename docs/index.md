@@ -77,7 +77,7 @@ How such a scheme could be built — independent assessors, an accreditor that l
 
 ## Start reading
 
-Every document carries a status label — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*. Good starting points:
+Documents are labelled with their status — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*. Good starting points:
 
 **Public AI Network** — sovereignty, resilience, coordination:
 

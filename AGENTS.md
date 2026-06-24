@@ -11,7 +11,7 @@ This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE
 - A **public, documents-only** repository: a published manifesto, a signable charter, a draft evaluation protocol, and the Public AI Network governance materials — all Markdown.
 - **No source code, build, tests, or dependencies.** Do not add a package manager, application tooling, or a CI build pipeline. Changes here are prose and structure.
 - Keep imported FactHarbor practices **documents-only**: agent rules, issue/PR templates, safety policies, and local destructive-git guards are appropriate; app runtime rules, generated indexes, database guards, test commands, and deployment workflows are not.
-- Every document carries a **status label** at the top — `WORKING DRAFT`, `WIP / DISCUSSION`, or `PUBLISHED <date>` (the publication date, ISO `YYYY-MM-DD`). Keep it accurate; it's how readers know what is final.
+- **Status banners** sit at the top of two kinds of page only: pages that state **rules, obligations, or guidelines** (the Charter's normative docs — Founding Accord, the evaluation protocol, the certification model, the one-pager) and **`PUBLISHED`** pages. The label — `WORKING DRAFT`, `WIP / DISCUSSION`, or `PUBLISHED <date>` (ISO `YYYY-MM-DD`) — renders as a `> [!NOTE]` (drafts) / `> [!TIP]` (published) callout. All other pages (briefings, evidence, strategy, outreach, background, the program map) carry **no** banner. Keep labels accurate where they exist; the README index still notes each document's status. Reserve `> [!WARNING]` / `> [!CAUTION]` for genuine in-body hazards, never for status.
 
 ## Program constellation
 

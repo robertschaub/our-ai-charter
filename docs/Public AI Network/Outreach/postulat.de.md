@@ -1,6 +1,3 @@
-> [!NOTE]
-> **Status: WORKING DRAFT — Entwurfstext für ein mögliches Postulat.** Als Vorlage für ein tragendes Ratsmitglied gedacht (Robert Schaub kann ein Postulat nicht selbst einreichen). Bewusst **nicht als erste Massnahme**: erst nach Publikation des Non-Papers und Aufbau einer Allianz verwenden. Vor der Verwendung zwingend den tagesaktuellen Stand der Motion 24.3209 auf parlament.ch überprüfen.
-
 # Postulat (Entwurf): Vertrauenswürdige, international verankerte Public-AI-Infrastruktur — Schweizer Beitrag und Governance-Rahmen
 
 **Instrument:** Postulat (beauftragt den Bundesrat zur Prüfung und Berichterstattung; die Zustimmung einer Kammer genügt)
@@ -33,4 +30,4 @@ Dieses Postulat fordert den Bundesrat auf, genau diesen Handlungsbedarf zu analy
 
 ---
 
-*Belege und Quellen: siehe [Verified Findings](../Evidence/verified-findings.md). Vor der Einreichung zwingend den aktuellen Stand der Motion 24.3209 und der Planung für Genf 2027 verifizieren.*
+*Entwurfstext — als Vorlage für ein tragendes Ratsmitglied gedacht (der Initiant kann ein Postulat nicht selbst einreichen). Bewusst **nicht als erste Massnahme**: erst nach Publikation des Non-Papers und Aufbau einer Allianz verwenden. Belege und Quellen: siehe [Verified Findings](../Evidence/verified-findings.md). Vor der Einreichung zwingend den aktuellen Stand der Motion 24.3209 und der Planung für Genf 2027 verifizieren.*

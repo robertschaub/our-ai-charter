@@ -1,6 +1,3 @@
-> [!WARNING]
-> **Status: WIP / DISCUSSION** — strategy note on how to initiate a Swiss/international public-AI governance process. Companion to the [Aktionsplan](../Outreach/action-plan.de.md) (short version), the [Non-Paper](../Outreach/non-paper.en.md), and the [Verified Findings](../Evidence/verified-findings.md).
-
 # Public AI initiation — strategy
 
 How to turn the public-AI-governance idea into a real, multi-stakeholder process: Switzerland as a credible **convening host and node** for internationally co-governed Public AI infrastructure — not the sole owner of a national model.

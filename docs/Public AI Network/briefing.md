@@ -1,6 +1,3 @@
-> [!WARNING]
-> **Status: WIP / DISCUSSION** — a consolidated briefing on the public-AI-governance initiative behind this workstream: what it argues, the assets behind it, the verified anchors, the strategy, and the guardrails. Points to the companion documents for detail.
-
 # Public AI governance — initiative briefing
 
 This briefs anyone picking up the initiative behind the *Public AI Network* workstream. It builds on the published article *"KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken"* and its English companion *[The Public AI Network](Published/the-public-ai-network.md)*. Initiator: Robert Schaub (FactHarbor / Our AI Charter, `info@factharbor.ch`).
@@ -35,12 +32,12 @@ Signature principle — **no secret kill-switch:** material control intervention
 
 The full, source-checked anchor list (with citations) lives in the [Verified Findings](Evidence/verified-findings.md); re-verify before public citation. The load-bearing ones:
 
-- **Apertus / SNAI** — a fully open, publicly funded Swiss LLM (EPFL, ETH Zurich, CSCS; Apache 2.0; released 2 Sept 2025) with a real institutional home (Swiss AI Initiative / SNAI), but no publicly evident independent multistakeholder governance board or charter — the natural entry point, framed as an open question *with* SNAI/Apertus, not as criticism.
-- **Current AI** — Switzerland is already a Country Partner of this Paris-based public-interest-AI partnership.
-- **Motion 24.3209 (Juillard)** — a live parliamentary thread on sovereign digital/AI infrastructure (adopted by the Council of States, now in the National Council committee); the complement here is the governance/trust layer.
-- **Motion 26.3221 (Z'graggen)** — a second live thread: an *Impulsprogramm* (time-limited seed funding) for pilot projects in digital infrastructure, open source, cybersecurity, and **AI**; adopted by the Council of States 30:7 on 10 Jun 2026, now before the National Council. The AI/open-source field is a candidate funding vehicle for a public-interest governance/evaluation pilot — see the [engagement note](Strategy/impulsprogramm-digitale-souveraenitaet.md).
-- **Geneva AI Summit 2027** — the next global AI summit (Geneva, first half 2027; UVEK + EDA), a concrete timing window.
-- **Expedition Zukunft** — a neutral non-profit convenor whose "Policy Sprint" format fits the pre-sprint (`info@expeditionzukunft.ch`).
+- **[Apertus / SNAI](https://www.swiss-ai.org/apertus)** — a fully open, publicly funded Swiss LLM (EPFL, ETH Zurich, CSCS; Apache 2.0; released 2 Sept 2025) with a real institutional home (Swiss AI Initiative / SNAI), but no publicly evident independent multistakeholder governance board or charter — the natural entry point, framed as an open question *with* SNAI/Apertus, not as criticism.
+- **[Current AI](https://www.currentai.org/about-us)** — Switzerland is already a Country Partner of this Paris-based public-interest-AI partnership.
+- **[Motion 24.3209 (Juillard)](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20243209)** — a live parliamentary thread on sovereign digital/AI infrastructure (adopted by the Council of States, now in the National Council committee); the complement here is the governance/trust layer.
+- **[Motion 26.3221 (Z'graggen)](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20263221)** — a second live thread: an *Impulsprogramm* (time-limited seed funding) for pilot projects in digital infrastructure, open source, cybersecurity, and **AI**; adopted by the Council of States 30:7 on 10 Jun 2026, now before the National Council. The AI/open-source field is a candidate funding vehicle for a public-interest governance/evaluation pilot — see the [engagement note](Strategy/impulsprogramm-digitale-souveraenitaet.md).
+- **[Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit)** — the next global AI summit (Geneva, first half 2027; UVEK + EDA), a concrete timing window.
+- **[Expedition Zukunft](https://www.expeditionzukunft.ch/uberuns)** — a neutral non-profit convenor whose "Policy Sprint" format fits the pre-sprint (`info@expeditionzukunft.ch`).
 
 A non-parliamentarian can trigger a Motion or Postulat only indirectly via a council member — so: alliance/mandate first, lawmaking later.
 

@@ -1,7 +1,3 @@
-> [!NOTE]
-> **Status: WORKING DRAFT (v0.1, 2026-06-18)** — Impuls- und Diskussionspapier (Non-Paper).
-> Arbeitsgrundlage für Orientierungsgespräche. Belege: siehe [Verified Findings](../Evidence/verified-findings.md).
-
 # Der Schweizer Beitrag zu einer international verankerten Public-AI-Infrastruktur
 
 *Impuls- und Diskussionspapier (Non-Paper) — 2 Seiten*

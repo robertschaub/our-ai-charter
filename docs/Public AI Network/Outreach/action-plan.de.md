@@ -1,6 +1,3 @@
-> [!NOTE]
-> **Status: WORKING DRAFT — Aktionsplan (Kurzfassung).** Zusammenfassung, gestützt auf die [Verified Findings](../Evidence/verified-findings.md).
-
 # Aktionsplan — Public AI Governance (Kurzfassung)
 
 **Update 2026-06-19:** Der LinkedIn-Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Die Freigabe- und Faktenprüfungsregeln für Non-Paper, Outreach, Postulat und externe Claims bleiben gültig.

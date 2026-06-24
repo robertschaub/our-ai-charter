@@ -1,6 +1,3 @@
-> [!WARNING]
-> **Status: WIP / DISCUSSION** — public landscape scan, not an adopted position.
-
 # Is the initiative obsolete, or should it join something? — landscape investigation
 
 _Draft scan, 2026-06-14, for public discussion. It is not a sourced market report and not an adopted position. Specific third-party claims, maturity scores, funding claims, and status claims need direct source verification before citation._

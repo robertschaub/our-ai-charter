@@ -1,6 +1,3 @@
-> [!WARNING]
-> **Status: WIP / DISCUSSION** — the summaries of the instruments are factual reference; the mapping to the five public obligations is a proposed reading, open for comment.
-
 # What the world has already declared (and what's still missing)
 
 _Reference companion to the manifesto line: "The world has already declared what AI must respect — the Universal Declaration of Human Rights, UNESCO's AI ethics recommendation, the Council of Europe's AI treaty. This is the part that turns those declarations into something you can insist on."_

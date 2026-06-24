@@ -1,5 +1,3 @@
-> **Status: WORKING DRAFT** — repository overview and document index.
-
 # Our AI Charter
 
 > [!TIP]
@@ -25,7 +23,7 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 ## Two workstreams
 
-Every document carries a status label at the top: *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*.
+Each entry below notes its status — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*. On the pages themselves, a status banner appears only on published pages and on the normative docs that state rules, obligations, or guidelines.
 
 ### Public AI Network
 
