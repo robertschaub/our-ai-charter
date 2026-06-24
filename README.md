@@ -21,6 +21,15 @@ The obligations are spelled out in full in the **[Founding Accord](docs/AI%20Ass
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](docs/PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](docs/PROGRAM.md#stewardship-and-governance)**.
 
+## Find your path
+
+Pick the row that fits you — fuller ordered paths are on the **[Start here](https://robertschaub.github.io/our-ai-charter/start-here/)** page.
+
+- **Shape policy, or could ally** → [The Public AI Network](docs/Public%20AI%20Network/Published/the-public-ai-network.md) · [KI-Souveränität (DE)](docs/Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) · [initiative briefing](docs/Public%20AI%20Network/briefing.md).
+- **Build, operate, or assess AI** → [Trustworthy AI…](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+- **Test or improve this** → [CONTRIBUTING](CONTRIBUTING.md), then [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) and the [protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+- **Just understand it** → the two published articles above, plus the [program map](docs/PROGRAM.md).
+
 ## Two workstreams
 
 Each entry below notes its status — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*. On the pages themselves, a status banner appears only on published pages and on the normative docs that state rules, obligations, or guidelines.

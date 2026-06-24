@@ -113,6 +113,7 @@ extra:
 
 nav:
   - Home: index.md
+  - Start here: start-here.md
   - Public AI Network:
       - Overview: Public AI Network/briefing.md
       - The Public AI Network: Public AI Network/Published/the-public-ai-network.md
