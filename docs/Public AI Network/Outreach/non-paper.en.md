@@ -1,3 +1,5 @@
+> **Status: WORKING DRAFT** — open for comment; not final.
+
 # Swiss Contribution to Internationally Anchored Public AI Infrastructure
 
 *Informal discussion paper (non-paper) — 2 pages*

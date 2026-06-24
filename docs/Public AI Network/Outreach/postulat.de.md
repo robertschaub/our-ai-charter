@@ -1,3 +1,5 @@
+> **Status: WORKING DRAFT** — template for a sponsoring parliamentarian; not yet submitted.
+
 # Postulat (Entwurf): Vertrauenswürdige, international verankerte Public-AI-Infrastruktur — Schweizer Beitrag und Governance-Rahmen
 
 **Instrument:** Postulat (beauftragt den Bundesrat zur Prüfung und Berichterstattung; die Zustimmung einer Kammer genügt)

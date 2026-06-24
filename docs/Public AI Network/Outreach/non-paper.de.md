@@ -1,3 +1,5 @@
+> **Status: WORKING DRAFT** — open for comment; not final.
+
 # Der Schweizer Beitrag zu einer international verankerten Public-AI-Infrastruktur
 
 *Impuls- und Diskussionspapier (Non-Paper) — 2 Seiten*
