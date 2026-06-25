@@ -1,6 +1,6 @@
 # Is the initiative obsolete, or should it join something? — landscape investigation
 
-_Draft scan, 2026-06-14, for public discussion. It is not a sourced market report and not an adopted position. Specific third-party claims, maturity scores, funding claims, and status claims need direct source verification before citation._
+_Draft scan, 2026-06-14; key claims re-checked on the web 2026-06-25. For public discussion — not a sourced market report or an adopted position. Maturity scores and fast-moving third-party statuses still need direct source verification before citation._
 
 **The wedge under test:** an *independent, audited, revocable* trust mark / evaluation for AI **information integrity** — does a deployed AI *show its work* (claims supported by the sources it cited = grounding-faithfulness, NOT "truth"; calibration; error-correction) — plus **contestability** (documented, challengeable power to restrict/recall/shut down) — run via separation of powers, hosted in existing bodies.
 
@@ -8,7 +8,7 @@ _Draft scan, 2026-06-14, for public discussion. It is not a sourced market repor
 
 ## Verdict in one line
 
-**NOT obsolete. The wedge is genuinely OPEN — but do NOT build a new silo. Federate it: author the standard, host execution inside bodies that already run the machinery.** All six analyses agreed on both halves.
+**NOT obsolete. The wedge is genuinely OPEN — but do NOT build a new silo. Federate it: author the standard, host execution inside bodies that already run the machinery.** All six analyses agreed on both halves, and a mid-2026 web re-check confirms it: the 2026 wave of AI trust marks (ISO/IEC 42001 — now issued by the Big 4 — Nemko, TrustArc, aicerts) is governance and management-system assurance; none certifies that a deployed system's claims are supported by the sources it cited.
 
 ## Why it's not obsolete: nobody owns the *combined* proposition
 
@@ -40,7 +40,7 @@ No single "join X and stop" target exists (nobody occupies the wedge), so the mo
 1. **Standard + mark machinery → RSF / Journalism Trust Initiative.** *The single highest-leverage move.* JTI already runs an independent, third-party-**audited, revocable, CEN-standardised** certification (130 criteria, Bureau Veritas auditors, 2,000+ outlets). The founder doesn't invent the trust-mark machinery — he proposes an **"AI Information Integrity" annex/module to the JTI standard**, bringing the source-fidelity/calibration/correction method as the technical core. (IFCN/EFCSN as standard-setter legitimacy + EU hedge.)
 2. **Open venue to incubate now → AI Alliance Trust & Safety working group.** Open, no-invitation individual contributor path; already has the evaluation reference-stack that *needs* exactly this layer; a 501(c)(3) home. First move: join the WG, table the protocol as a project in `trust-safety-evals`.
 3. **Measurement substrate → existing tools + Public AI Network's AI Evaluator Forum / MLCommons.** Don't reinvent detection; adopt HHEM/Lynx/RAGAS/SAFE and borrow evaluator credibility (METR/RAND-class) from the Evaluator Forum's "minimal standards for independent evaluation."
-4. **Funding → Current AI** (its 2025 "Audit & Accountability" focus is the closest fit anywhere) — treat as funder, not home.
+4. **Funding → Current AI** (its **Accountability** pillar — public-interest auditing and oversight — is the closest fit anywhere) — treat as funder, not home.
 5. **Accreditation mechanics, later → ISO/IEC 17065 logic + AI Verify Foundation / RAII** once a pilot exists.
 6. **Position relative to ISO 42001:** *complement layered inside/on top of it*, never against it — 42001 is becoming the default "AI trust cert" buyers ask for; the wedge must ride it, or be commoditised by it.
 
@@ -48,16 +48,14 @@ No single "join X and stop" target exists (nobody occupies the wedge), so the mo
 
 ## Obsolescence watch list (monitor; none has done it yet)
 
-1. **NewsGuard** — #1 threat: only independent body operating at scale on AI-output falsehood, with brand + data + paying AI-developer customers; could formalise a "model honesty score" into a mark first. Mitigant: it's proprietary, measures falsity-rate not source-fidelity, and issues no standard. Position as the *open, auditable standard* its benchmarks could certify against.
+1. **NewsGuard** — the #1 watch: it could formalise its at-scale AI-falsehood monitoring into a "model honesty" mark first, and in June 2026 it launched *NewsGuard AI* (a chatbot answering only from its rated sources) — a step deeper into AI output, though still a product, not a certification of others' systems. Counter: it stays proprietary and measures falsity-rate, not source-fidelity — position the Charter as the *open, auditable standard* its benchmarks could certify against.
 2. **EFCSN** — its 2026 "Tech Accountability Call" funds members investigating platforms and "widely used AI models," and EFCSN won a separate €5M EU "FACTEUR" grant (2026) for European fact-checking; either could grow into the wedge. Engage early (doubles as early warning).
 3. **MLCommons / AI Verify** — could standardise a faithfulness benchmark a notified body then certifies against.
 4. **Nemko / TrustArc** — could add an accuracy/grounding module to an existing AI mark.
 5. **ISO/IEC 42001** — positional, not substantive: risk that buyers treat it as "the" AI trust cert and dismiss a faithfulness mark as redundant. Counter by framing as a complement inside it.
 
-## Implication for the GitHub repo / next step
-
-The repo is still worth creating — but its role is now clearer: it's the **home of the authored standard** (the protocol + manifesto + public draft), the artefact you walk into JTI and the AI Alliance. The strategic next move after publishing is **outreach to RSF/JTI and the AI Alliance T&S WG**, not building an institution. Build nothing you'd have to fund.
-
 ---
 
 _Sources named for follow-up verification (selected): ISO/IEC 42001 cert ecosystem (BSI/SGS/TÜV/Schellman); IEEE CertifAIEd; Nemko AI Trust Mark (digital.nemko.com/ai-trust-mark); TrustArc Responsible AI Cert; Responsible AI Institute (RAISE); AI Verify Foundation / Project Moonshot (IMDA); MLCommons AILuminate; Vectara HHEM + hallucination leaderboard; Patronus Lynx; Galileo; RAGAS; DeepMind SAFE/LongFact; Stanford HELM; ALCE; FActScore; NewsGuard AI False-Claims Monitor; AI Alliance Trust & Safety (thealliance.ai); Public AI Network AI Evaluator Forum; Current AI; DPGA; Mozilla; LF AI & Data; Partnership on AI; CoSAI; IFCN (Poynter); EFCSN (+ FACTEUR grant); RSF/JTI (CEN CWA 17493, Bureau Veritas, 2,000+ outlets); The Trust Project; Credibility Coalition/W3C; C2PA; Swiss Digital Trust Label (transferred to SGS, Jan 2025). This scan is not a substitute for direct source review._
+
+_Re-checked on the web 2026-06-25: the independent grounding-faithfulness certification wedge remains **unoccupied**; NewsGuard launched its sources-grounded *NewsGuard AI* chatbot (June 2026); EFCSN's Tech Accountability Call and the €5M FACTEUR fund are active; Current AI's **Accountability** pillar funds public-interest auditing; ISO/IEC 42001 certification is now offered by the Big 4. Sources: [NewsGuard AI (CNN, 22 Jun 2026)](https://www.cnn.com/2026/06/22/media/newsguard-ai-chatbot-news-atlantic-publisher) · [EFCSN Tech Accountability Call](https://efcsn.com/funding-opportunities/tech-accountability-call/) · [EC €5M fact-checking grant](https://digital-strategy.ec.europa.eu/en/news/commission-boosts-independent-fact-checking-eu5-million-grant-under-european-democracy-shield) · [Current AI](https://www.currentai.org/)._
