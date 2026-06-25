@@ -43,9 +43,10 @@ Each entry below notes its status — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DI
 - **[Public AI governance — initiative briefing](docs/Public%20AI%20Network/briefing.md)** — *WIP / DISCUSSION*. The entry point to the governance materials below.
 - **[Verified Findings](docs/Public%20AI%20Network/Evidence/verified-findings.md)** — *WORKING DRAFT*. The source-checked evidence base.
 - **[Public AI initiation — strategy](docs/Public%20AI%20Network/Strategy/initiation-strategy.md)** — *WIP / DISCUSSION*. Alliance-first sequence and 30/60/90 roadmap.
+- **[Geneva 2027 — contribution routes and partners](docs/Public%20AI%20Network/Strategy/geneva-2027-options.md)** — *WIP / DISCUSSION*. The realistic routes into the Geneva AI Summit 2027 and the named actors who hold each piece.
 - **[Impulsprogramm digitale Souveränität (Motion 26.3221)](docs/Public%20AI%20Network/Strategy/impulsprogramm-digitale-souveraenitaet.md)** — *WORKING DRAFT*. How the Council-of-States-adopted Impulsprogramm motion opens a window for the Charter / Public AI Network, and what to watch as it concretises.
 - **[Non-Paper](docs/Public%20AI%20Network/Outreach/non-paper.en.md)** ([DE](docs/Public%20AI%20Network/Outreach/non-paper.de.md)) · **[Action Plan](docs/Public%20AI%20Network/Outreach/action-plan.en.md)** ([DE](docs/Public%20AI%20Network/Outreach/action-plan.de.md)) · **[Postulate](docs/Public%20AI%20Network/Outreach/postulat.en.md)** ([DE](docs/Public%20AI%20Network/Outreach/postulat.de.md)) — *WORKING DRAFT* outreach and parliamentary materials.
-- **[Actors & landscape map](docs/Public%20AI%20Network/Evidence/actors-and-landscape.md)** · **[Linked sources](docs/Public%20AI%20Network/Evidence/linked-sources.md)** · **[Action-Plan contribution approach](docs/Public%20AI%20Network/Strategy/swiss-action-plan-contribution.md)** · **[Infrastructure-governance pickup note](docs/Public%20AI%20Network/Strategy/governance-pickup-note.md)** — *WIP / DISCUSSION* reference notes.
+- **[Actors & landscape map](docs/Public%20AI%20Network/Evidence/actors-and-landscape.md)** · **[Linked sources](docs/Public%20AI%20Network/Evidence/linked-sources.md)** · **[Action-Plan contribution approach](docs/Public%20AI%20Network/Strategy/swiss-action-plan-contribution.md)** — *WIP / DISCUSSION* reference notes.
 
 ### AI Assurance & Certification
 

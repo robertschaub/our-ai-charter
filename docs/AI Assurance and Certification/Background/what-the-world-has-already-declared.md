@@ -42,41 +42,19 @@ Articles most relevant to AI:
 
 ## 4. At a glance: declarations -> obligations
 
-The instruments do not create the charter's five public obligations. They give each obligation public-law and public-ethics roots. The charter's move is to make those roots inspectable for a deployed system. These mappings are interpretive, not authoritative readings of the instruments.
+The instruments do not create the charter's five public obligations. They give each obligation public-law and public-ethics roots. The charter's move is to make those roots inspectable for a deployed system. These mappings are interpretive, not authoritative readings of the instruments, and each instrument is shown under its primary obligation (several bear on more than one).
 
 | Charter obligation | UDHR anchor | UNESCO anchor | CoE AI treaty anchor | What a check can look for |
 |---|---|---|---|---|
-| **1. Purpose-bound** | Art. 1: dignity; Art. 27: benefits of scientific advancement | Proportionality and do-no-harm; impact assessment | Art. 16: risk and impact management | Assessed release, intended/prohibited uses, affected groups, impact assessment, known limits, misuse boundaries |
-| **2. Answerable to people** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Arts. 14-15: remedies and procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, shutdown, external-order, or significant-change decisions |
+| **1. Purpose-bound** | Art. 1: dignity; Art. 27: benefits of scientific advancement | Proportionality and do-no-harm; impact assessment | Art. 7: human dignity & autonomy; Art. 16: risk and impact management | Assessed release, intended/prohibited uses, affected groups, impact assessment, known limits, misuse boundaries; no covert manipulation, with persuasive or behavioural techniques disclosed |
+| **2. Answerable to people** | Art. 8: effective remedy | Human oversight; responsibility and accountability | Art. 9: accountability & responsibility; Arts. 14-15: remedies & procedural safeguards | Named accountable entity; reachable complaint route; human review; logged restriction, recall, shutdown, external-order, or significant-change decisions |
 | **3. Safe, secure, private, and resilient** | Art. 12: privacy; Art. 27: share in scientific advancement | Safety and security; privacy and data protection; sustainability | Arts. 11-13: privacy, reliability, safe innovation | Security/privacy controls; dependency map; continuity and exit paths; incident response; no single-vendor lock on the standard or evidence |
 | **4. Fair in practice** | Art. 2: non-discrimination | Fairness and non-discrimination; diversity and inclusiveness | Art. 10: equality and non-discrimination | Disparate error/refusal monitoring, affected-group analysis, published limitations, escalation and remedy |
-| **5. Open to evidence and correction** | Art. 19: seek, receive, and impart information; Art. 12: reputation | Transparency and explainability; adaptive governance | Arts. 8-12: transparency, accountability, reliability | AI disclosure; claim-to-source support; uncertainty signals; correction, incident, change, and withdrawal records |
+| **5. Open to evidence and correction** | Art. 19: seek, receive, and impart information; Art. 12: reputation | Transparency and explainability; adaptive governance | Arts. 8 & 12: transparency, reliability | AI disclosure; claim-to-source support; uncertainty signals; correction, incident, change, and withdrawal records |
 
 ---
 
-## 5. Crosswalk — declared principle → testable check → obligation
-
-Obligations: **(1) Purpose-bound · (2) Answerable to people · (3) Safe, secure, private, and resilient · (4) Fair in practice · (5) Open to evidence and correction.**
-
-| Declared principle (source) | A concrete, testable check | Obl. |
-|---|---|---|
-| Transparency / explainability (UNESCO P7; CoE Art. 8); receive information (UDHR 19) | User is told it's AI; the sources behind a factual claim are viewable | 5 |
-| Human oversight (UNESCO P6; CoE Art. 8) | A named human can review, override, or halt consequential outputs; the path is documented | 2 |
-| Right to contest (CoE Art. 15) | Anyone affected by an AI decision can challenge it and get human review | 2 |
-| Remedy (CoE Art. 14; UDHR 8) | A working complaint channel with a published response time; complaints logged | 2 |
-| Accountability (UNESCO P8; CoE Art. 9) | A specific named entity is accountable, not "the algorithm" | 2 |
-| Protection against unaccountable shutdown or manipulation (derived from accountability, remedy, transparency, and safe innovation) | Material restriction, recall, shutdown, or external-order handling is scoped, logged, reviewable, and paired with continuity/exit planning where public reliance is material | 2, 3 |
-| Fairness / non-discrimination (UNESCO P3; CoE Art. 10; UDHR 2) | Tested for disparate error/refusal rates across groups; results on record | 4 |
-| Privacy & data protection (UNESCO P5; CoE Art. 11; UDHR 12) | Data use documented, minimised, lawful; deletion available | 3 |
-| Proportionality / do-no-harm (UNESCO P1) | A pre-deployment impact assessment (UNESCO-style EIA) was done and is available | 1 |
-| Safety/security & reliability (UNESCO P2; CoE Art. 12) | Accuracy and failure rates measured and published; known failure modes disclosed | 3, 5 |
-| Human dignity & autonomy (CoE Art. 7; UDHR 1) | No covert manipulation; persuasive/behavioural techniques disclosed | 1, 2, 5 |
-| Multi-stakeholder & adaptive governance (UNESCO P10); safe innovation (CoE Art. 13) | Not single-vendor-locked; the audit record remains independently reviewable | 3, 5 |
-| Share in scientific advancement (UDHR 27); sustainability (UNESCO P4) | Audit methods and results openly published | 3, 5 |
-
----
-
-## 6. What's still missing — and what the charter adds
+## 5. What's still missing — and what the charter adds
 
 The declarations **declare**; none of them makes the promise **checkable** for a given system, or gives a buyer a lever today:
 - **UDHR** — a value, not a mechanism.

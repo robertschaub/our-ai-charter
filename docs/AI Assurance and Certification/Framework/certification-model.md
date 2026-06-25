@@ -2,7 +2,7 @@
 
 # How could "trustworthy AI" be certified? — an assurance-stack model
 
-_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-06-18. Grounded in how certification works in other industries._
+_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-06-25. Grounded in how certification works in other industries._
 
 This is a **future-state model**, not a scheme that exists today, and the phased steps below are proposals — not work that is underway or scheduled. No pilot evaluations have been run; there is no Trust Mark, certificate, accredited assessor, or certification body. The current work is drafting and building connections.
 
@@ -31,24 +31,24 @@ Certification would be useful for a different job if it is structured as a three
 
 1. **Provider-declared legal scope (the legal floor).** The assessed release declares its markets, role in the value chain, use-case, risk category, domain regimes, and required legal artefacts. The Charter complements legal regimes by making scope, evidence, limitations, and public-interest modules inspectable; it does not certify legal compliance, provide legal advice, replace a notified body, override a regulator, or grant market-entry permission. The evaluator or future assessor checks that the public claim is limited to the declared scope and records missing, disputed, or out-of-scope legal artefacts as limitations. Regulators, courts, notified bodies, domain certification bodies, and the provider's own legal assessment decide legal compliance.
 2. **Common Charter baseline.** The five public obligations become operational duties that can be checked consistently across jurisdictions. Stricter local law prevails; weaker or silent local law does not lower the baseline.
-3. **Public-interest modules.** Additional modules test the Charter's distinctive concerns beyond ordinary compliance: factual grounding and correction; contestability and remedy; coercive-control, restriction, shutdown, and manipulation transparency; AI-app security and abuse resistance; privacy, provenance, and data rights; fairness across affected groups and contexts; resource and public-access impacts; and creator or copyright fairness where relevant. Modules are optional only where the risk is not material to the assessed release. A module marked **not assessed** does not waive baseline duties, and a full Charter alignment claim cannot omit material modules.
+3. **Public-interest modules.** Additional modules test the Charter's distinctive concerns beyond ordinary compliance — factual grounding, contestability, coercive-control transparency, AI-app security, privacy and provenance, fairness, resource and public-access impacts, and the other public-interest module candidates set out in the [Founding Accord](founding-accord.md). Modules are optional only where the risk is not material to the assessed release. A module marked **not assessed** does not waive baseline duties, and a full Charter alignment claim cannot omit material modules.
 
 A builder or deployer could then say, "we have declared the legal scope for this assessed release, we accept the common Charter baseline, and an independent assessor can test which modules we meet in operation."
 
 This avoids three common traps: pretending a voluntary mark is legal approval, treating a management-system certificate as product assurance, or using a narrow factuality test as if it covered the whole risk surface.
 
-For this charter, the auditable evidence should track the practical questions users, buyers, researchers, media, and authorities need answered:
+For this charter, the auditable evidence should answer — as testable evidence, not just disclosure — the six practical questions the [Founding Accord](founding-accord.md) frames in full:
 
-- **What is this system for?** Which system, version, intended uses, prohibited uses, foreseeable misuse, affected groups, limits, and risk context are being assessed?
-- **Who controls it?** Who operates the system, controls models, data, tools, APIs, retrieval, cloud/compute dependencies, updates, restrictions, recalls, shutdowns, and material external orders where disclosure is lawful, and what happens to any claim if independent review is impossible?
-- **Who is accountable?** Which owner answers for this deployment, jurisdiction, support route, public claims, safety, security, privacy, discrimination, misuse, and incident handling?
-- **How can people challenge it?** Can affected people get notice, flag errors or harms, appeal consequential decisions, challenge data use, discrimination, or restrictions where legally possible, and obtain a meaningful outcome?
-- **Who can inspect it?** What is public, what can qualified assessors inspect confidentially, what can lawful oversight require, and what protected research is possible for red-team evidence, security tests, privacy controls, data provenance, and model/data-change records?
-- **Can its claims and failures be checked?** Can factual claims, consequential decisions, external restriction decisions, security/privacy/misuse incidents, disparate failure rates, significant changes, withdrawals, corrections, and exit paths be traced to evidence and tested?
+- **What is it for?** — assessed version, intended/prohibited uses, affected groups, limits, risk context.
+- **Who controls it?** — operator, models, data, tools, dependencies, and any update, restriction, or shutdown power.
+- **Who is accountable?** — the named owner, jurisdiction, and support route that answers for it.
+- **How can people challenge it?** — notice, error-flagging, appeal of consequential decisions, and remedy.
+- **Who can inspect it?** — what is public, what assessors see confidentially, and what lawful oversight can require.
+- **Can its claims and failures be checked?** — claims, incidents, disparate failures, and corrections traceable to evidence.
 
 A future baseline must not become a narrow "factuality badge" that ignores the rest of the real risk surface. At minimum, the common baseline needs to make the risks in the [Risk and Vulnerability Audit](../Background/risk-and-vulnerability-audit.md) inspectable: concentration and lock-in, coercive control, factual unreliability, AI-app security, privacy and provenance, bias and discrimination, harmful misuse, opaque consequential decisions, lifecycle drift, resource/global-access asymmetry, false legal-compliance claims, and evidence theatre.
 
-That means an audit should not merely test outputs. It should require a documented **risk and vulnerability register** for the assessed system: identified material risks, mitigations, monitoring, accountable owners, unresolved findings, incident triggers, and re-assessment triggers. A provider should publish a privacy-preserving **release risk assessment** before making a public claim for a specific assessed release, and update it for assessor-reviewable material updates, material incidents, and active-deployment currentness checks. Its required fields are defined in the [Founding Accord](founding-accord.md) (operational duty 3). The audit checks that the public assessment is current for the release, covers the required risk areas, matches the confidential evidence pack, and safely separates public summary from protected evidence. It labels assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed. Raw user data, secrets, exploit details, and legitimate confidential evidence stay protected.
+That means an audit should not merely test outputs. It should require a documented **risk and vulnerability register** and a privacy-preserving **release risk assessment**, published before a public claim and kept current for the release — its required fields and the assurance-depth labels (documented, evidence observed, implementation checked, effectiveness tested, or not assessed) are defined in the [Founding Accord](founding-accord.md) (operational duty 3). The audit checks that the public assessment covers the required risk areas, matches the confidential evidence pack, and keeps protected evidence — raw user data, secrets, exploit details — out of the public summary.
 
 ISO/IEC 42001 is useful here as a management-system reference because it requires a living system for AI governance and risk management. ISO/IEC 42005 is useful for impact assessment. ISO/IEC 42006 is useful because it sets expectations for bodies auditing and certifying AI management systems. None of those, by itself, proves that a specific public release's factual claims are grounded, that affected people can challenge harms, or that coercive control interventions are reviewable. Those are Charter module questions.
 
@@ -80,23 +80,17 @@ Where the Charter is applied to public AI infrastructure, legal form is secondar
 
 ## How would it be financed?
 
-The one rule from every scheme: **diversify — never let one stream dominate.**
-- **Cautionary tales:** the Marine Stewardship Council earns the large majority of its revenue from logo licensing — a structural incentive to over-certify; and fact-checking's dependence on a few platform funders nearly collapsed when Meta exited its program in 2025. Single-source funding = capture.
-- **The working mix:**
-  - **Public-interest seed funding** to bootstrap — Germany's Sovereign Tech Fund (open infrastructure), the EU/UNESCO backing of the Journalism Trust Initiative, the Current AI foundation (public-interest, launched at the Paris summit).
-  - **Tiered fees, capped** so they never dominate (ISO certification, B Corp).
-  - **Cross-subsidy + hardship waivers + a solidarity fund** for inclusion — Fairtrade (large traders subsidise small producers), IFCN's fee waivers down to $0, the Montreal Protocol's Multilateral Fund (wealthier nations finance poorer ones' compliance).
-  - **Diversified sustainability** — the Wikimedia mix (many small donors + an endowment + enterprise revenue), so no single patron holds the leash.
-- **Firewall:** funders disclosed; no funder sets the criteria; the steward's budget is independent of any audited party's fees.
-- **Phasing keeps it cheap early:** Phase 1 (five public obligations, operational duties, and — if it proceeds — independent pilot evaluators and public reports) would be grant-fundable; the costly accreditation pyramid comes only at Phase 2 — paid for by the mix once demand exists.
-- **Demand funds it:** in Phase 1, procurement and platforms can require the evidence baseline; in Phase 2, if a mark exists, audit demand and the fee base can grow naturally.
+The one rule from every scheme: **diversify — never let one stream dominate.** Single-source funding is capture: the Marine Stewardship Council draws most of its revenue from logo licensing (a structural incentive to over-certify), and fact-checking's reliance on a few platform funders nearly collapsed when Meta exited its program in 2025.
 
-_(Funding figures across these examples are illustrative — verify before citing; they shift year to year.)_
+The working mix:
+- **Public-interest seed funding** to bootstrap (Germany's Sovereign Tech Fund; the EU/UNESCO-backed Journalism Trust Initiative).
+- **Tiered, capped fees** that can't crowd out the rest (ISO certification, B Corp).
+- **Cross-subsidy, hardship waivers, and a solidarity fund** so small and Global-South builders aren't priced out (Fairtrade; IFCN waivers down to $0).
+- **Diversified, durable revenue** — the Wikimedia mix of many small donors, an endowment, and enterprise income.
 
-## How it would start — phased
+**Firewall:** funders disclosed; no funder sets the criteria; the steward's budget is independent of any audited party's fees. Grant funding carries the cheap early phase; the costly accreditation layer arrives only with Phase 2 demand (see *The practical proposal* above).
 
-- **Phase 1 (proposed first step, not yet underway):** five public obligations and operational duties + independent pilot evaluators + public reports + visible withdrawal of pilot status. Cheap, credible, and honest about not being certification yet.
-- **Phase 2 (at scale):** graduate to the full accreditation pyramid for hard, globally-recognised legitimacy, potentially combining management-system assurance, product/service modules, and ISO/IEC 17065-style scheme controls where appropriate.
+_(Funding figures here are illustrative — verify before citing; they shift year to year.)_
 
 ## What it is deliberately NOT
 

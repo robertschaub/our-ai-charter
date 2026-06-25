@@ -64,6 +64,7 @@ For who is already working in this space (by role), see the [actor & landscape m
 
 ## Companion documents
 
-- [Non-Paper (EN](Outreach/non-paper.en.md) / [DE)](Outreach/non-paper.de.md) · [Postulat draft (DE](Outreach/postulat.de.md) / [EN)](Outreach/postulat.en.md) · [Aktionsplan (DE](Outreach/action-plan.de.md) / [EN)](Outreach/action-plan.en.md) · [Verified Findings](Evidence/verified-findings.md)
-- [Initiation strategy](Strategy/initiation-strategy.md) · [Actor & landscape map](Evidence/actors-and-landscape.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md) · [Impulsprogramm digitale Souveränität (Motion 26.3221)](Strategy/impulsprogramm-digitale-souveraenitaet.md) · [Infrastructure-governance pickup note](Strategy/governance-pickup-note.md)
-- Published: *[KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)* ([EN](Published/ai-sovereignty-and-resilience.md)) · *[The Public AI Network](Published/the-public-ai-network.md)*
+- **Evidence** — [Verified Findings](Evidence/verified-findings.md) · [Actor & landscape map](Evidence/actors-and-landscape.md)
+- **Strategy** — [Initiation strategy](Strategy/initiation-strategy.md) · [Geneva 2027 — contribution routes](Strategy/geneva-2027-options.md) · [Impulsprogramm digitale Souveränität (26.3221)](Strategy/impulsprogramm-digitale-souveraenitaet.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md)
+- **Outreach** — Non-Paper ([EN](Outreach/non-paper.en.md) / [DE](Outreach/non-paper.de.md)) · Postulat ([EN](Outreach/postulat.en.md) / [DE](Outreach/postulat.de.md)) · Aktionsplan ([EN](Outreach/action-plan.en.md) / [DE](Outreach/action-plan.de.md))
+- **Published** — *[The Public AI Network](Published/the-public-ai-network.md)* · *[KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)* ([EN](Published/ai-sovereignty-and-resilience.md))

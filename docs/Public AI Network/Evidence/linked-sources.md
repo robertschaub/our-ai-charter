@@ -4,17 +4,9 @@
 **Compiled:** 2026-06-22.  
 **Purpose:** identify which cited initiatives are most mature and best suited to the *Public AI Network* effort, and where *Our AI Charter* can usefully contribute.
 
-## Yardstick: the five public obligations
+## Yardstick
 
-*Our AI Charter* is a public-interest governance framework to keep advanced AI trustworthy, accountable, and answerable to people — treating AI as **public infrastructure** rather than purely proprietary systems. It defines five public obligations and uses a three-layer assurance model: legal scope → common baseline → public-interest modules.
-
-| # | Obligation | Short form |
-|---|------------|-----------|
-| 1 | **Purpose-bound** | Declare intended/prohibited uses, affected populations, known risks |
-| 2 | **Answerable to people** | Named institutions responsible; notice, review, challenge, remedy |
-| 3 | **Safe, secure, private, resilient** | Protect people, data, infrastructure, continuity |
-| 4 | **Fair in practice** | Test and disclose performance disparities; mitigate harms |
-| 5 | **Open to evidence and correction** | Auditable trails for claims, sources, limits, incidents |
+Each initiative below is read against *Our AI Charter*'s **five public obligations** — (1) **Purpose-bound**, (2) **Answerable to people**, (3) **Safe, secure, private & resilient**, (4) **Fair in practice**, (5) **Open to evidence and correction** — and its three-layer assurance model (legal scope → common baseline → public-interest modules). Both are defined in full in the [Founding Accord](../../AI%20Assurance%20and%20Certification/Framework/founding-accord.md); the Charter treats AI as **public infrastructure** that must be trustworthy, accountable, and answerable to people.
 
 ---
 
@@ -81,6 +73,20 @@ The sources span operational anchors, standards and legal foundations, regional 
 | **AI Alliance — Project Tapestry** — https://thealliance.ai/projects/tapestry | Promising federated-training concept with data-sovereignty logic. | Monitor as a future technical partner and use its federated-sovereignty idea in infrastructure thinking. |
 | **Sarvam** — https://www.sarvam.ai/ | Sovereign AI example from India, but more commercial and only partly open. | Use as a comparison case: sovereignty alone is not enough; public AI also needs openness, accountability, and evidence. |
 
+### Also cited — context, not near-term anchors
+
+Cited in the article as background rather than near-term anchors:
+
+| Initiative | Relevance to the Charter |
+|---|---|
+| **Metagov** — https://metagov.org/ | Digital-governance lab; public-governance tooling and institutional-design ideas. |
+| **BLOOM** — https://huggingface.co/bigscience/bloom | 2022 open-science precedent for large multilingual models. |
+| **EuroHPC AI Factories** — https://www.eurohpc-ju.europa.eu/ai-factories_en | European public-compute ecosystem for AI development. |
+| **Mozilla.ai** — https://www.mozilla.ai/ | Open-source AI tooling, model choice, local deployment, and user control. |
+| **Open Future** — https://openfuture.eu/ | Digital-commons and public-digital-infrastructure policy. |
+| **HIIG Public-Interest AI** — https://www.hiig.de/en/project/public-interest-ai/ | Academic framing and evidence base for public-interest AI. |
+| **Digital Public Goods Alliance** — https://www.digitalpublicgoods.net/ | Digital-public-good standard and registry; public-good criteria. |
+
 ---
 
 ## Where my contribution could be strongest
@@ -105,81 +111,6 @@ The Charter can contribute in five concrete ways:
    Prepare a realistic contribution for the Geneva AI Summit: a Public AI Trust & Evidence Package that others can adopt, critique, and improve.
 
 **Core message:** Public AI does not only need open models. It needs public evidence, public accountability, and public correction mechanisms. *Our AI Charter* can provide that missing layer.
-
----
-
-## Reference catalogue of linked sources
-
-The detailed source list below is the evidence trail: each linked initiative's essence and its relevance to the Charter.
-
-> The three LinkedIn legal links in the article — Cookie Policy, User Agreement, Privacy Policy — are platform boilerplate and are excluded.
-
-### 1 · Public-AI movement and coordination
-
-- **Public AI Network / PAINT** — movement and coordination platform for AI as public infrastructure; strongest conceptual fit for the Charter.
-- **Metagov** — digital-governance laboratory and incubator of public-governance tools; relevant for accountability, deliberation, and institutional design.
-- **Current AI** — public-private-philanthropic partnership for public-interest open AI; relevant as funding, coalition, and scale partner.
-- **AI Alliance — Project Tapestry** — federated training initiative; promising for data sovereignty and distributed infrastructure, but less mature as a near-term anchor.
-
-### 2 · Public / sovereign open models
-
-- **OLMo** — high-evidence open model lifecycle; best reference case for auditable openness.
-- **Apertus** — Swiss sovereign open model effort; strongest Swiss technical anchor.
-- **EuroLLM** — multilingual European open-model effort.
-- **ALIA** — Spanish public AI infrastructure for national and co-official languages.
-- **LLM-jp** — Japanese open model collaboration with institutional stewardship.
-- **SEA-LION** — Southeast Asian open model family with regional-language focus.
-- **Masakhane** — African-language open-science community and strong example of local agency.
-- **LatamGPT** — Latin American regional language-model effort.
-- **BLOOM** — earlier open-science precedent for large multilingual models.
-- **Sarvam** — sovereign AI example from India; useful comparison case, but weaker as a public-openness anchor.
-
-### 3 · Evaluation and benchmarking
-
-- **AI Verify Foundation** — most useful practical evaluation and governance-testing reference for Charter pilots.
-- **MLCommons AILuminate** — strongest benchmark reference for the Charter's common-baseline layer.
-
-### 4 · Governance, regulation, and openness standards
-
-- **EU AI Act** — legal floor for European risk and compliance obligations.
-- **Council of Europe Framework Convention on AI** — human-rights, democracy, and rule-of-law foundation.
-- **OSI Open Source AI Definition** — definition of credible openness and guardrail against openwashing.
-- **Model Openness Framework** — practical scoring instrument for openness.
-
-### 5 · International standards bodies
-
-- **ISO/IEC JTC 1/SC 42** — international AI standardization reference for lifecycle, testing, governance, and trustworthiness.
-- **OECD.AI** — policy tools, metrics catalogue, and incident-monitoring reference.
-- **UNESCO Recommendation on the Ethics of AI** — broad global ethics and human-rights legitimacy anchor.
-
-### 6 · Open training-data commons and provenance
-
-- **Common Corpus** — open, traceable, multilingual dataset example.
-- **Common Pile** — openly licensed and public-domain corpus with demonstration models.
-- **Data Provenance Initiative** — strongest reference for dataset origin, licensing, and traceability.
-
-### 7 · Public compute and infrastructure
-
-- **Public AI Inference Utility** — most concrete public-inference infrastructure example.
-- **EuroHPC AI Factories** — public compute ecosystem for European AI development.
-
-### 8 · Public-interest AI organizations
-
-- **Mozilla.ai** — open-source AI tooling, model choice, local deployment, and user control.
-- **Open Future** — digital commons and public digital infrastructure policy work.
-- **HIIG Public-Interest AI project** — academic framing and evidence base for public-interest AI.
-- **Digital Public Goods Alliance** — digital public goods standard and registry; useful for public-good criteria.
-
-### 9 · UN and multilateral governance
-
-- **UN Global Digital Compact** — global digital cooperation and AI governance context.
-- **UN Independent International Scientific Panel on AI** — independent scientific evidence layer for AI policy.
-- **UN Global Dialogue on AI Governance** — inclusive multilateral forum for AI governance.
-- **Geneva 2027 AI Summit** — best strategic deadline for a Swiss-linked Public AI Trust & Evidence Package.
-
-### 10 · The Charter itself
-
-- **Our AI Charter** — the proposed trust-and-evidence layer connecting models, infrastructure, benchmarks, openness standards, regulation, and international coordination.
 
 ---
 
