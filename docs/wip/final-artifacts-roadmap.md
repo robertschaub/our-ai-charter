@@ -11,13 +11,15 @@
 
 The hard intellectual content already exists — five obligations, eight duties, the three-layer assurance stack ([Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)) and a red-teamed [evaluation protocol](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md). What is missing is the **durable form** that lets it live independently. The [landscape scan](../AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md) names the gap none of the peers fills — *"none certifies that a deployed system's claims are supported by the sources it cited"* — the **unoccupied grounding-faithfulness wedge**. That is the most differentiated artifact available. Peer initiatives supply the templates for the *forms*; nearly every artifact below is a **co-production**, not a solo output.
 
+*Artifact numbers (#1–#7) are stable IDs shared with [artifact-production-plan.md](artifact-production-plan.md) and the analysis they came from. **Priority is shown by tier, not by number order** — so the sequence reads #1, #3 (keystone), then #2, #6, then #4, #5, then #7.*
+
 ---
 
 ## Tier 1 — Keystone (pursue now)
 
 ### 1. Grounding-Faithfulness & Contestability evaluation method — as open-source toolkit, then a published standard
 *Form precedent: AI Verify / Project Moonshot (Apache-2.0 toolkit); MLCommons AILuminate (benchmark task); RSF's JTI → CEN Workshop Agreement CWA 17493 (method → published standard).*
-- **Minimum first release (a package, not just a brief):** for **one** use-case (English Q&A with cited sources) — method v0.3 + annotation codebook + the report skeleton (already in the protocol) + a rater workflow + one held-out test set; and **eventually** a runnable/portable harness (a Project Moonshot recipe or a small open repo) that **wraps** existing detectors (HHEM/Lynx/RAGAS) rather than reinventing them.
+- **Minimum first release (a package, not just a brief):** for **one** use-case (English Q&A with cited sources) — method v0.3 + annotation codebook + the report skeleton (already in the protocol) + a rater workflow + one **public calibration/example set**, plus a documented **auditor-controlled held-out-set procedure** (the held-out queries stay private, per the protocol's anti-gaming design); and **eventually** a runnable/portable harness (a Project Moonshot recipe or a small open repo) that **wraps** existing detectors (HHEM/Lynx/RAGAS) rather than reinventing them.
 - **Co-producer:** AI Verify Foundation (Moonshot) or MLCommons; standard track later via RSF-JTI / EFCSN / CEN.
 - **Go / no-go:** need ≥1 external rater pair + adjudicator, one open-weight model to run on, and a statistician's sign-off on the single-use-case sampling **before** any published number. No-go if it would mean publishing an uncalibrated pass/fail.
 
