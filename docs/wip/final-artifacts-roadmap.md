@@ -17,7 +17,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ### 1. Grounding-Faithfulness & Contestability evaluation method — as open-source toolkit, then a published standard
 *Form precedent: AI Verify / Project Moonshot (Apache-2.0 toolkit); MLCommons AILuminate (benchmark task); RSF's JTI → CEN Workshop Agreement CWA 17493 (method → published standard).*
-- **Minimum first release:** a runnable eval harness for **one** use-case (English Q&A with cited sources) that scores claim-to-citation support + abstention on one deployed open model and emits the report skeleton already in the protocol — shipped as a Project Moonshot recipe or a standalone repo. Detection **wraps** existing tools (HHEM/Lynx/RAGAS), not reinvented.
+- **Minimum first release (a package, not just a brief):** for **one** use-case (English Q&A with cited sources) — method v0.3 + annotation codebook + the report skeleton (already in the protocol) + a rater workflow + one held-out test set; and **eventually** a runnable/portable harness (a Project Moonshot recipe or a small open repo) that **wraps** existing detectors (HHEM/Lynx/RAGAS) rather than reinventing them.
 - **Co-producer:** AI Verify Foundation (Moonshot) or MLCommons; standard track later via RSF-JTI / EFCSN / CEN.
 - **Go / no-go:** need ≥1 external rater pair + adjudicator, one open-weight model to run on, and a statistician's sign-off on the single-use-case sampling **before** any published number. No-go if it would mean publishing an uncalibrated pass/fail.
 
@@ -55,7 +55,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ### 5. Openness & accountability "card" spec
 *Form precedent: model cards / audit cards / C2PA (open spec + conformance); LF Model Openness Framework.*
-- **Minimum first release:** a one-page disclosure template (legal-scope map + responsibility map + release-risk summary) + one real model's card filled in.
+- **Minimum first release:** a one-page disclosure template (legal-scope map + responsibility map + release-risk summary) + one real model's card filled in. Pairs with the public-service charter (#3) as a single adoptable "service charter + card" template.
 - **Co-producer:** LF Model Openness Framework, OSI, an open-model team (e.g. Apertus).
 - **Go / no-go:** one model team willing to fill it. Cheap; low gate; feeds #1 and #3.
 
@@ -77,10 +77,10 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ## Priority and sequence
 
-Workstream 1 (Public AI Network / sovereignty) leads. The **keystones are #1 (toolkit first, not the standard) and #3** — a toolkit you can run on Apertus is a releasable artifact; a brief about it is an input. **#2 and #6** are cheap connective tissue to do early. **#7** is the gated destination.
+Workstream 1 (Public AI Network / sovereignty) leads. The **keystones are #1 (the package/toolkit first, not the standard) and #3** — a toolkit you can run on an Apertus-class public model is a releasable artifact; a brief about it is an input. **#2 and #6** are cheap connective tissue to do early. **#7** is the gated destination.
 
 ## Constraints to hold
 
 - **You are a non-state actor — you cannot produce treaties or law.** The binding instruments in this space (Council of Europe Framework Convention; EU AI Act) are not yours to make. Your genuinely-binding artifacts are *contractual / voluntary-commitment*: a charter binding on signatories (#2), a procurement clause binding on buyers (#6), a mark license binding on holders (#7). The one route to *state* bindingness is the political track — the [Postulat](../Public%20AI%20Network/Outreach/postulat.en.md) commissioning a Federal Council report — which is an input to lawmaking, produced by government.
 - **Host inside existing bodies; don't found a new institution.** Every form above has a precedent host.
-- **MVP register.** One calibrated use-case, one model, one report — not a comprehensive scheme up front.
+- **Start small (MVP).** One calibrated use-case, one model, one report — not a comprehensive scheme up front.

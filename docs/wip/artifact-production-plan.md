@@ -1,6 +1,6 @@
 # Artifact-production plan — Geneva 2027 contribution
 
-*Working notes — 2026-06-25 · WIP / DISCUSSION · public-safe.* Companion: [geneva-2027-channel-demand.md](geneva-2027-channel-demand.md) (the demand side) and the curated [fellowship note](../Public%20AI%20Network/Strategy/geneva-2027-swissnex-fellowship.md).
+*Working notes — 2026-06-25 · WIP / DISCUSSION · public-safe.* Companion: [geneva-2027-channel-demand.md](geneva-2027-channel-demand.md) (the demand side) and the curated [fellowship note](../Public%20AI%20Network/Strategy/geneva-2027-swissnex-fellowship.md). This note plans **inputs** for Geneva / the fellowship; for the **durable end-products** that input work seeds — the evaluation package, service charter + card, report index, procurement clause — see [final-artifacts-roadmap.md](final-artifacts-roadmap.md).
 
 ## The key insight
 
@@ -8,7 +8,7 @@ The bottleneck is not more thinking — it is **assembly + packaging**. Strong a
 
 The demand side is specific. The official Geneva 2027 process asks contributors to **"move beyond declarations"** and bring **concrete, reusable tools** — it names *evaluation benchmarks, audit/transparency templates, contestability/accountability standards, and "tools to measure how AI systems may be skewed or manipulative before political decisions,"* with Apertus as the flagship open-infra case (see [channel-demand](geneva-2027-channel-demand.md)). That nearly describes the evaluation protocol already in hand.
 
-**So: assemble the scattered package into one keystone memo, and package the evaluation protocol as the concrete tool the process is asking for** — in an MVP register (start small, not perfect), not as new manifestos.
+**So: assemble the scattered package into one keystone memo, and package the evaluation protocol as the concrete tool the process is asking for** — in MVP mode (start small, not perfect), not as new manifestos.
 
 ## What to produce — prioritized
 
@@ -17,7 +17,7 @@ The demand side is specific. The official Geneva 2027 process asks contributors 
 | **1. Keystone memo** — "Geneva 2027 Public AI Governance & Evidence Package" (~2–3 pp): problem → governance blueprint + one evaluation pilot + roundtable + pre-sprint → the ask → honest status | The fellowship-application backbone; the spine for every downstream route | [non-paper](../Public%20AI%20Network/Outreach/non-paper.en.md) + [initiation-strategy](../Public%20AI%20Network/Strategy/initiation-strategy.md) + [protocol one-pager](../AI%20Assurance%20and%20Certification/Protocol/one-pager.md) + [routes map](../Public%20AI%20Network/Strategy/geneva-2027-options.md) | **Low** (assemble) | **Now — before 12 Jul** |
 | **2. Forwardable one-pager** (initiative-level, 1 p) | A short summary that warm contacts can forward to international anchors | Executive summary of the keystone memo | **Very low** | **Now** |
 | **3. Fellowship output commitment** — abstract + outline + named venue + timeline (½ p) | The application itself; selection weighs "publication feasibility," so a concrete plan scores | The brief in #4, as its publication plan | **Very low** | **Now — for the application** |
-| **4. The "concrete tool" brief** — an evaluation & contestability *tool* for public AI, "proof-of-implementation," ~3–5 pp, Apertus as illustrative target | **The real differentiator.** Doubles as the fellowship's *published* output **and** the official-process submission when the next window opens; answers the process's Q4 ("concrete tools") directly | the [evaluation protocol](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) + one-pager | **Medium** | **Draft over summer; publish ~Q4/Q1** |
+| **4. Evaluation package (the differentiator)** — *not just a brief*: method v0.3 + annotation codebook + report skeleton + one use-case test set, plus a runnable/portable harness *plan* (an AI Verify/Moonshot recipe or a small open harness). Illustrative target: an **Apertus-class public model / public inference endpoint** (name Apertus only with partner agreement) | **The real differentiator — and the seed of the releasable [evaluation toolkit](final-artifacts-roadmap.md) (#1).** The brief doubles as the fellowship's *published* output **and** the official-process submission when the next window opens; answers the process's Q4 ("concrete tools") directly | the [evaluation protocol](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) + one-pager | **Medium** | **Brief over summer; package components iteratively; harness later** |
 | **5. Governance blueprint** — the *how*: roles, anti-capture, no-secret-kill-switch, oversight, conflict-of-interest, audit path (~2 pp) | Substance for the Route B conversations (SNAI/Apertus, publicai.ch, Public AI network); the governance half of the memo. Frame as "how a layer could *dock onto* Apertus/SNAI," not critique | [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) duties + certification-model governance + CERN-for-AI reference | **Medium** | **Next (weeks)** |
 
 **Produce on demand (cheap, when a conversation needs it):**
@@ -28,7 +28,7 @@ The demand side is specific. The official Geneva 2027 process asks contributors 
 
 **Conditional / opportunistic:**
 
-- **Swiss AI Action Plan ~1-page input** — *only if* the documented [go/no-go bar](../Public%20AI%20Network/Strategy/swiss-action-plan-contribution.md) is met; time-sensitive (plan finalises ~end-2026).
+- **Swiss AI Action Plan ~1-page input** — *only if* the documented [go/no-go bar](../Public%20AI%20Network/Strategy/swiss-action-plan-contribution.md) is met. The plan launched Jan 2026; its federal **implementation plan** is due ~end-2026 (DETEC et al.), so the soft input window runs through 2026. Keep this distinct from two *other* ~end-2026 federal items — the CoE-Convention implementing-law consultation draft, and the (not-yet-dated) Geneva 2027 summit window (see [channel-demand](geneva-2027-channel-demand.md) correction 1).
 - **A co-authored op-ed / note** ("sovereignty not autarky") with an aligned external author on a policy/geopolitics platform — high value if it lands (a published, fellowship-eligible output with reach), but only if a warm opportunity matures. Avoid "constitution"/new-institution framing (overclaim).
 
 ## What *not* to produce (discipline)
@@ -46,4 +46,4 @@ The demand side is specific. The official Geneva 2027 process asks contributors 
 
 ## First move
 
-Start with **#1 (keystone memo)** — it unlocks #2 and #3 immediately and feeds #4–5 — drafted in the MVP register, plus the **forwardable one-pager** derived from it.
+Start with **#1 (keystone memo)** — it unlocks #2 and #3 immediately and feeds #4–5 — drafted in MVP mode, plus the **forwardable one-pager** derived from it.
