@@ -17,7 +17,7 @@ Switzerland already has the building blocks — **Apertus**, **Swiss AI Initiati
 
 Explicitly **not** national/industrial protectionism, and **not** a commercial "sovereign AI" vendor play.
 
-The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation.
+The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland — the shared mission of both *Our AI Charter* and FactHarbor, worked at international, European, and Swiss levels in parallel and starting in Switzerland. Strengthening the Swiss technology location and Switzerland's digital resilience are complementary benefits it embraces, not the motivation — but not optional extras either: a free society needs broad-based economic security to defend itself, and a durable coalition needs partners for whom the work pays off. Tangible, shared economic benefit is therefore treated as an **enabling condition** for the mission, not a reward to be deferred — while remaining firmly *not* "Switzerland first" and *not* commercial protectionism.
 
 ## 3. The two assets behind it
 
