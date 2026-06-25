@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 > **Status: WORKING DRAFT** — open for comment; not final.
 
 # Swiss Contribution to Internationally Anchored Public AI Infrastructure

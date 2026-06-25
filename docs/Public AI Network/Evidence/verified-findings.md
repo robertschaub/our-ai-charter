@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Public AI Initiation — Verified Findings (2026-06-18; key anchors re-checked 2026-06-23)
 
 A source-checked evidence base for the Public AI governance non-paper and postulate. A deep-research pass (web fan-out, adversarial 3-vote verification: 24 of 25 load-bearing claims confirmed, 1 refuted) plus four targeted follow-up fetches. It sets out the **evidence base**: what is verified, what needs correcting, what remains open.

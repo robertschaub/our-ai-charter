@@ -1,3 +1,7 @@
+---
+status: wip
+---
+
 # Public AI governance — initiative briefing
 
 This briefs anyone picking up the initiative behind the *Public AI Network* workstream. It builds on the published article *"KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken"* and its English companion *[The Public AI Network](Published/the-public-ai-network.md)*. Initiator: Robert Schaub (FactHarbor / Our AI Charter, `info@factharbor.ch`).

@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 > **Status: WORKING DRAFT** — working playbook; open to revision.
 
 # Aktionsplan — Public AI Governance (Kurzfassung)

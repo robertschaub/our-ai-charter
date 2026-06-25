@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 > **Status: WORKING DRAFT (v0.14)** — open for comment; not final.
 
 # Our AI Charter — the Founding Accord

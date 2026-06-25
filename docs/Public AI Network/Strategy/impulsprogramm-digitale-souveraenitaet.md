@@ -1,3 +1,7 @@
+---
+status: draft
+---
+
 # Impulsprogramm digitale Souveränität (Motion 26.3221) — engagement note
 
 ## What it is

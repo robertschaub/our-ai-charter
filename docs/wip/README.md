@@ -6,8 +6,8 @@ A holding area for working outputs from the Geneva 2027 contribution / artifact-
 
 ## Scope & safety
 
-- **Public-safe only.** This folder is in the **public** repo and would be committed publicly (and built into the site) on the next push. Internal-derived context from this session — private meetings, correspondence, outreach send-state, candid named-person assessments — was **deliberately excluded** and lives in `our-ai-charter-internal`. Keep it that way: do not paste internal context here.
-- If you'd rather this stay off the published site, it can be excluded from the MkDocs build (`exclude_docs: wip/` in [mkdocs.yml](../../mkdocs.yml)) and/or gitignored — ask and I'll wire it up.
+- **Public-safe only.** This folder is in the **public** repo and is committed publicly, but it is **excluded from the built site** (`exclude_docs: wip/` in [mkdocs.yml](../../mkdocs.yml)) — it lives in the repo and Git history only, not on the published website. Internal-derived context from this session — private meetings, correspondence, outreach send-state, candid named-person assessments — was **deliberately excluded** and lives in `our-ai-charter-internal`. Keep it that way: do not paste internal context here.
+- It is already off the published site (see above). If you'd rather it not be committed publicly at all, it can additionally be gitignored — ask and I'll wire that up.
 
 ## Files
 

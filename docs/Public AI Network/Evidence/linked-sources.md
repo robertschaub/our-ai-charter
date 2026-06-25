@@ -1,3 +1,7 @@
+---
+status: wip
+---
+
 # Linked sources in the "Public AI Network" article — strategic map + relevance to *Our AI Charter*
 
 **Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](../Published/the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).  
