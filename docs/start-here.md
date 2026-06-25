@@ -1,46 +1,42 @@
 ---
 title: Start here
-description: Find your path through Our AI Charter — pick the reader group that fits you, then follow a short ordered path.
+description: Find your path through Our AI Charter — pick the question that's yours, then follow a short ordered path.
 hide:
   - toc
 ---
 
 # Start here — find your path
 
-Our AI Charter spans two workstreams and a few dozen documents. Pick the row that fits you and follow its short path — each is an ordered reading list, not the whole archive. Documents are labelled *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*.
+**New here?** The [home page](index.md) for the essence, the [program map](PROGRAM.md) for the goals, the [initiative briefing](Public%20AI%20Network/briefing.md) for the strategy. Otherwise, pick your question below.
 
-## I shape policy — or could be an ally
+## I want to help it succeed
 
-*Is this real, does it serve sovereignty and resilience, and is there a concrete ask I can act on?*
+*Is it real, where is the leverage, and how could I help?* — for policymakers, funders, advisors, and partners.
 
 1. **[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)** — the umbrella statement. German-speaking Swiss readers can start with **[KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)** (DE, [EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)).
 2. **[Initiative briefing](Public%20AI%20Network/briefing.md)** — what the initiative is actually asking for.
-3. **Current strategy:** [Initiation strategy](Public%20AI%20Network/Strategy/initiation-strategy.md) — alliance first, neutral pre-sprint, then political channels if the mandate exists.
-4. **Swiss policy window and instruments:** [Impulsprogramm 26.3221](Public%20AI%20Network/Strategy/impulsprogramm-digitale-souveraenitaet.md) · [Non-Paper](Public%20AI%20Network/Outreach/non-paper.en.md) ([DE](Public%20AI%20Network/Outreach/non-paper.de.md)) · [Action Plan](Public%20AI%20Network/Outreach/action-plan.en.md) ([DE](Public%20AI%20Network/Outreach/action-plan.de.md)) · [Postulat](Public%20AI%20Network/Outreach/postulat.de.md) ([EN](Public%20AI%20Network/Outreach/postulat.en.md)). **Due diligence:** [Verified findings](Public%20AI%20Network/Evidence/verified-findings.md) · [Actors & landscape](Public%20AI%20Network/Evidence/actors-and-landscape.md).
+3. **[Initiation strategy](Public%20AI%20Network/Strategy/initiation-strategy.md)** — alliance first, a neutral pre-sprint, then political channels only if the mandate exists; the 30/60/90 path is written to be challenged.
+4. **Evidence & fit** — [Verified findings](Public%20AI%20Network/Evidence/verified-findings.md) · [Actors & landscape](Public%20AI%20Network/Evidence/actors-and-landscape.md), and the goal order and capture-resistant governance in the **[program map](PROGRAM.md)**.
+5. **Swiss window & instruments** — [Impulsprogramm 26.3221](Public%20AI%20Network/Strategy/impulsprogramm-digitale-souveraenitaet.md) · [Non-Paper](Public%20AI%20Network/Outreach/non-paper.en.md) ([DE](Public%20AI%20Network/Outreach/non-paper.de.md)) · [Action Plan](Public%20AI%20Network/Outreach/action-plan.en.md) ([DE](Public%20AI%20Network/Outreach/action-plan.de.md)) · [Postulat](Public%20AI%20Network/Outreach/postulat.de.md) ([EN](Public%20AI%20Network/Outreach/postulat.en.md)).
 
-## I build, operate, or assess AI
+## I build AI systems
 
-*What would my system be held to, and how is it actually tested?*
+*What would my system have to meet — and how is that checked?*
 
 1. **[Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — the why.
 2. **[The Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md)** — the five obligations as operational duties (the what).
-3. **[Risk & vulnerability audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md)** — what a system must cover.
-4. **[Evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)** (+ [one-pager](AI%20Assurance%20and%20Certification/Protocol/one-pager.md)) — how it's tested — then **[Certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md)** for where it heads.
+3. **[Risk & vulnerability audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md)** — what a system must cover, and the failures it must not hide.
+4. **[Evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)** (+ [one-pager](AI%20Assurance%20and%20Certification/Protocol/one-pager.md)) — how it is checked — then the **[certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md)** for where assurance heads.
 
-## I want to test or improve this
+## I want to pressure-test the work
 
-*Where is the thinking or the method wrong, and how do I push back or help?*
+*Where is the work weakest, and how do I push back?*
 
-1. **[How to contribute](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md)** — stress-test the Public AI path, suggest useful doors, or challenge the trust/evidence method.
+1. **[How to contribute](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md)** — stress-test the Public AI path, suggest useful doors, and challenge the trust/evidence method.
 2. **Attack the core:** [The Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) and the [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) — the load-bearing claims.
 3. **Check the basis:** [Risk audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md) · [Landscape & positioning](AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md) (Assurance) · [Verified findings](Public%20AI%20Network/Evidence/verified-findings.md) · [Linked sources](Public%20AI%20Network/Evidence/linked-sources.md) (Public AI Network).
-4. **Act:** open a [GitHub issue or pull request](https://github.com/robertschaub/our-ai-charter/issues).
+4. **Act:** open a [GitHub issue / pull request](https://github.com/robertschaub/our-ai-charter/issues).
 
-## I just want to understand it
+---
 
-*The short version, the current status, and who is behind it.*
-
-1. **[This site's home page](index.md)** — the six questions and five obligations, in brief.
-2. The two published articles: **[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)** and **[Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)**.
-3. **Status:** this is Phase 1 — an open public draft. *Nothing is certified yet*: no Trust Mark, registry, or accredited assessor exists.
-4. **Who & why:** the **[program map and stewardship](PROGRAM.md)**.
+**Status — Phase 1:** an open public draft; nothing is certified yet (no Trust Mark, registry, or accredited assessor). **Who & why:** the [program map and stewardship](PROGRAM.md).
