@@ -1,8 +1,4 @@
----
-status: draft
----
-
-> **Status: WORKING DRAFT (v0.2)** — open for comment; nothing is certified yet.
+> **Status: DRAFT (v0.2)** — open for comment; nothing is certified yet.
 
 # Grounding‑Faithfulness & Contestability
 ### A voluntary evaluation protocol for factual AI systems — *public working draft, open for comment*

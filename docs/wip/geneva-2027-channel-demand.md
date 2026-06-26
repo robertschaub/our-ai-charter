@@ -1,6 +1,8 @@
+> **Status: WORKING NOTES** — re-verify before citing.
+
 # Geneva 2027 — channel demand (what each channel accepts)
 
-*Working notes — 2026-06-25 · WIP / DISCUSSION · public-safe.* Compiled from public web sources via research agents (June 2026); re-verify before citing. Feeds the [artifact-production plan](artifact-production-plan.md).
+*Working notes — 2026-06-25 · WIP · public-safe.* Compiled from public web sources via research agents (June 2026); re-verify before citing. Feeds the [artifact-production plan](artifact-production-plan.md).
 
 Of the four channels a Swiss public-interest contributor would feed into, **only two currently accept a submittable artifact.**
 

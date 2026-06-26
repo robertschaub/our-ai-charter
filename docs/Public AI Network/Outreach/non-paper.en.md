@@ -1,4 +1,4 @@
-> **Status: WIP** — open for comment; not final.
+> **Status: DRAFT** — open for comment; not final.
 
 # Swiss Contribution to Internationally Anchored Public AI Infrastructure
 
@@ -6,7 +6,7 @@
 
 ## 1. Problem Statement
 
-AI base infrastructure — models, compute, and data — is increasingly concentrating geopolitically and commercially among a few actors. For free, rule-of-law societies, this creates a double risk: On one hand, there is a growing dependence on opaque systems that can be switched off at any time. On the other hand, society lacks the foundation to independently judge AI outputs, because the provenance of the data, the underlying assumptions, and the applied methods are generally not open to public inspection.
+AI base infrastructure — models, compute, and data — is increasingly concentrating geopolitically and commercially among a few actors. For free, rule-of-law societies, this creates a double risk: On one hand, there is a growing dependence on opaque systems that can be switched off at any time. On the other hand, society lacks the foundation to independently judge AI outputs, because the provenance of the data, the underlying assumptions, and the applied methods are generally not open to public inspection. This concentration is also economic: capability, value, and bargaining power accrue to a few actors, while the societies that depend on these systems retain little.
 
 ## 2. The Opportunity: Robust Swiss Assets
 
@@ -23,6 +23,8 @@ Switzerland holds excellent prerequisites to counter this development:
 Switzerland's greatest leverage lies not in building an isolated national model. Instead, it should act as a **credible host and central node for an internationally co-stewarded and governed Public AI infrastructure**. Such an infrastructure must be open, inspectable, multilingual, scientifically grounded, and rights-respecting. Furthermore, it requires transparent financing and effective protection against political or commercial capture.
 
 Trust does not arise solely from the "Made in Switzerland" label, but from **traceable data provenance, transparent assumptions, verifiable methods, and clear accountabilities.**
+
+Getting this right is not only a matter of values. An open, co-stewarded layer keeps capability, skills, and economic value broadly shared rather than concentrated — and that broad economic benefit is part of what makes the approach durable and gives it a mandate.
 
 ## 4. Governance Principles
 

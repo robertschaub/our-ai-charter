@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — reference notes; open for discussion.
 
 # Linked sources in the "Public AI Network" article — strategic map + relevance to *Our AI Charter*
 

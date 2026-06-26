@@ -1,4 +1,4 @@
-> **Status: WIP** — open for comment; not final.
+> **Status: DRAFT** — open for comment; not final.
 
 # Der Schweizer Beitrag zu einer international verankerten Public-AI-Infrastruktur
 
@@ -6,7 +6,7 @@
 
 ## 1. Problemstellung
 
-Die KI-Basisinfrastruktur — Modelle, Rechenleistung und Daten — konzentriert sich zunehmend auf wenige kommerzielle und geopolitische Akteure. Für freiheitliche und rechtsstaatliche Gesellschaften birgt dies ein doppeltes Risiko: Einerseits entsteht eine Abhängigkeit von intransparenten Systemen, die jederzeit abgeschaltet werden könnten. Andererseits fehlt die Grundlage, um KI-Ergebnisse unabhängig zu beurteilen, da die Herkunft der Daten, die zugrunde liegenden Annahmen und die angewandten Methoden meist nicht öffentlich überprüfbar sind.
+Die KI-Basisinfrastruktur — Modelle, Rechenleistung und Daten — konzentriert sich zunehmend auf wenige kommerzielle und geopolitische Akteure. Für freiheitliche und rechtsstaatliche Gesellschaften birgt dies ein doppeltes Risiko: Einerseits entsteht eine Abhängigkeit von intransparenten Systemen, die jederzeit abgeschaltet werden könnten. Andererseits fehlt die Grundlage, um KI-Ergebnisse unabhängig zu beurteilen, da die Herkunft der Daten, die zugrunde liegenden Annahmen und die angewandten Methoden meist nicht öffentlich überprüfbar sind. Diese Konzentration ist auch ökonomisch: Fähigkeiten, Wertschöpfung und Verhandlungsmacht fliessen wenigen Akteuren zu, während die davon abhängigen Gesellschaften wenig zurückbehalten.
 
 ## 2. Die Chance: Belastbare Schweizer Aktiva
 
@@ -22,7 +22,9 @@ Die Schweiz verfügt über hervorragende Voraussetzungen, um dieser Entwicklung 
 
 Der grösste Hebel der Schweiz besteht nicht im Aufbau eines isolierten nationalen Modells. Vielmehr sollte sie als **glaubwürdige Gastgeberin und zentraler Knotenpunkt für eine international getragene und gesteuerte Public-AI-Infrastruktur** agieren. Eine solche Infrastruktur muss offen, überprüfbar, mehrsprachig, wissenschaftlich fundiert und grundrechtswahrend sein. Zudem bedarf sie einer transparenten Finanzierung und eines wirksamen Schutzes vor politischer oder kommerzieller Vereinnahmung.
 
-Vertrauen entsteht nicht allein durch das Label „Made in Switzerland“, sondern durch **die nachvollziehbare Herkunft der Daten, transparente Annahmen, nachprüfbare Methoden und klare Verantwortlichkeiten.**
+Vertrauen entsteht nicht allein durch das Label „Made in Switzerland”, sondern durch **die nachvollziehbare Herkunft der Daten, transparente Annahmen, nachprüfbare Methoden und klare Verantwortlichkeiten.**
+
+Dies richtig zu gestalten ist nicht nur eine Wertefrage. Eine offene, ko-getragene Schicht hält Fähigkeiten, Kompetenzen und Wertschöpfung breit verteilt statt konzentriert — und dieser breite ökonomische Nutzen trägt wesentlich dazu bei, dass der Ansatz Bestand hat und ein Mandat erhält.
 
 ## 4. Governance-Prinzipien
 

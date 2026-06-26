@@ -17,11 +17,6 @@ edit_uri: edit/main/docs/
 docs_dir: docs
 site_dir: site
 
-# Working scratch under docs/wip/ stays in the repo and Git history but is kept
-# out of the published site (see docs/wip/README.md). Gitignore-style patterns.
-exclude_docs: |
-  wip/
-
 copyright: >
   Document texts © Robert Schaub, licensed CC BY 4.0. The initiative's name and any trust mark are reserved.
 
@@ -30,10 +25,6 @@ theme:
   language: en
   icon:
     repo: fontawesome/brands/github
-    # Per-page status icons in the nav sidebar; tooltip text in extra.status.
-    status:
-      draft: material/pencil-outline
-      wip: material/progress-wrench
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -109,12 +100,6 @@ markdown_extensions:
       alternate_style: true
 
 extra:
-  # Per-page status → an icon + tooltip in the nav sidebar. Set `status:` in a
-  # page's YAML front matter to `draft` or `wip`; published pages carry no icon.
-  # Values are the tooltip text; icons are mapped under theme.icon.status.
-  status:
-    draft: Working draft
-    wip: WIP / discussion
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/robertschaub/our-ai-charter
@@ -155,6 +140,11 @@ nav:
           - The Public AI Network — post: Public AI Network/Published/the-public-ai-network-post.md
           - "AI Sovereignty and Resilience — post (EN)": Public AI Network/Published/ai-sovereignty-and-resilience-post.md
           - "KI-Souveränität — post (DE)": Public AI Network/Published/ki-souveraenitaet-und-resilienz-post.md
+      - Working notes:
+          - Overview: wip/README.md
+          - Artifact-production plan: wip/artifact-production-plan.md
+          - Final-artifacts roadmap: wip/final-artifacts-roadmap.md
+          - "Geneva 2027 — channel demand": wip/geneva-2027-channel-demand.md
   - AI Assurance & Certification:
       - Trustworthy AI, Accountable to People: AI Assurance and Certification/Published/trustworthy-ai-accountable-to-people.md
       - The Founding Accord: AI Assurance and Certification/Framework/founding-accord.md

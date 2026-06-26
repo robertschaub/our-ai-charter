@@ -9,11 +9,11 @@ A small, repeatable pass to run after you change a document, so the repository s
 
 ## When to use
 
-After you add, rename, substantially edit, **promote** (e.g. `WORKING DRAFT` → `PUBLISHED`), or retire any `.md` document under `Public AI Network/` or `AI Assurance and Certification/`.
+After you add, rename, substantially edit, **promote** (e.g. `DRAFT` → `PUBLISHED`), or retire any `.md` document under `Public AI Network/` or `AI Assurance and Certification/`.
 
 ## Procedure
 
-1. **Status label.** Confirm the document's top-of-file status is present and accurate: `PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION`. If its maturity changed, update the label.
+1. **Status banner.** Confirm the document's top-of-file `> **Status: …**` banner is present and accurate, with one of three labels — `PUBLISHED <date>`, `DRAFT` (anchored, curated, not yet published), or `WORKING NOTES` (raw/unanchored — scratch, discussion dumps); only navigational pages (home, Start here, program map) carry none. If its maturity changed, update the label.
 2. **README index.** Open the [README](../../../README.md). Its index is organised by workstream (Public AI Network / AI Assurance & Certification), with each document's status labelled inline. Move or add the document to the correct workstream with a one-line description that matches its current framing. Remove stale entries.
 3. **Cross-links.** Check that links between documents (and from the README) resolve — relative paths and correct filenames. Fix anything a rename broke.
 4. **CHANGELOG.** Add a dated entry (ISO `YYYY-MM-DD`) in the [CHANGELOG](../../../CHANGELOG.md): what changed and, for the protocol/charter, the version bump. Keep entries terse and factual.

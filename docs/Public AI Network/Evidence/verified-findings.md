@@ -1,6 +1,4 @@
----
-status: draft
----
+> **Status: DRAFT** — source-checked evidence base; last verification 2026-06-23.
 
 # Public AI Initiation — Verified Findings
 

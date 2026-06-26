@@ -1,6 +1,4 @@
----
-status: draft
----
+> **Status: DRAFT** — engagement note; open for discussion.
 
 # Impulsprogramm digitale Souveränität (Motion 26.3221) — engagement note
 

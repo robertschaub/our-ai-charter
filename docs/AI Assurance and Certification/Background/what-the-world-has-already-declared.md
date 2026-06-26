@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — reference companion; open for discussion.
 
 # What the world has already declared (and what's still missing)
 

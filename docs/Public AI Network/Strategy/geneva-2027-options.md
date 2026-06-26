@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — working strategy note; open for discussion.
 
 # Geneva 2027 — contribution routes and partners
 

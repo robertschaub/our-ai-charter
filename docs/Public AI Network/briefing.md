@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — initiative briefing; open for discussion.
 
 # Public AI governance — initiative briefing
 
@@ -21,7 +19,7 @@ Switzerland already has the building blocks: **Apertus**, **Swiss AI Initiative 
 
 Explicitly **not** national/industrial protectionism, and **not** a commercial "sovereign AI" vendor play.
 
-The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland. Swiss digital resilience and shared economic benefit matter because the coalition has to be durable, but they are enabling conditions, not the motive: this is still *not* "Switzerland first" and *not* commercial protectionism.
+The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland. Broadly shared economic benefit is a basis for that success, not a reward paid out at the end: open, accountable institutions are sustained by societies with widely shared opportunity, and an initiative that visibly strengthens capability, skills, and competitiveness earns the durable coalition, funding, and mandate that shared values alone cannot win. This stays in service of the core goal — still *not* "Switzerland first" and *not* commercial protectionism.
 
 ## 3. Verified anchors
 
@@ -38,7 +36,7 @@ The full, source-checked anchor list lives in the [Verified Findings](Evidence/v
 
 **Biggest lever:** dock onto existing, publicly funded, reputable structures (Apertus/SNAI, Current AI) and bundle reach into an alliance/charter. A non-parliamentarian can trigger a Motion or Postulat only indirectly via a council member, so the order is alliance/mandate first, lawmaking later.
 
-The near-term package is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The full leverage ranking and 30/60/90-day roadmap are in the [initiation strategy](Strategy/initiation-strategy.md); the evidence base is in the [Verified Findings](Evidence/verified-findings.md).
+The near-term package is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The full leverage ranking and 30/60/90-day roadmap are in the [initiation strategy](Strategy/initiation-strategy.md) — which also sets out the positive funding path (in-kind first, pilot-scale grants tied to a deliverable, company money last and filtered); the evidence base is in the [Verified Findings](Evidence/verified-findings.md).
 
 ## 5. Current state
 

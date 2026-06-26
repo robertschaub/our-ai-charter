@@ -1,8 +1,4 @@
----
-status: draft
----
-
-> **Status: WORKING DRAFT** — template for a sponsoring parliamentarian; not yet submitted.
+> **Status: DRAFT** — template for a sponsoring parliamentarian; not yet submitted.
 
 # Postulat (Entwurf): Vertrauenswürdige, international verankerte Public-AI-Infrastruktur — Schweizer Beitrag und Governance-Rahmen
 
@@ -26,7 +22,7 @@ Zusätzlich soll der Bericht mögliche Handlungsfelder für den Bund sowie konkr
 
 ## Begründung
 
-Die Basisinfrastruktur der Künstlichen Intelligenz — Modelle, Rechenleistung und Daten — konzentriert sich zunehmend auf wenige kommerzielle und geopolitische Akteure. Für einen demokratischen Rechtsstaat birgt dies ein doppeltes Risiko: Einerseits droht eine Abhängigkeit von intransparenten Systemen, die jederzeit abgeschaltet werden könnten. Andererseits schwindet die demokratische Urteilsfähigkeit, wenn die Herkunft der Daten, die zugrunde liegenden Annahmen und die Methoden dieser Systeme nicht öffentlich überprüfbar sind.
+Die Basisinfrastruktur der Künstlichen Intelligenz — Modelle, Rechenleistung und Daten — konzentriert sich zunehmend auf wenige kommerzielle und geopolitische Akteure. Für einen demokratischen Rechtsstaat birgt dies ein doppeltes Risiko: Einerseits droht eine Abhängigkeit von intransparenten Systemen, die jederzeit abgeschaltet werden könnten. Andererseits schwindet die demokratische Urteilsfähigkeit, wenn die Herkunft der Daten, die zugrunde liegenden Annahmen und die Methoden dieser Systeme nicht öffentlich überprüfbar sind. Diese Abhängigkeit ist zudem ökonomischer Natur: Wertschöpfung, Kompetenzen und Verhandlungsmacht konzentrieren sich auf wenige Akteure im Ausland — eine vertrauenswürdige, offen gesteuerte Public-AI-Kapazität ist daher auch eine Frage der wirtschaftlichen Resilienz, die Fähigkeiten und Wertschöpfung breit in freiheitlichen Gesellschaften verankert. Dies entspricht dem Anliegen, das die beiden angenommenen Souveränitäts-Motionen widerspiegeln.
 
 Die Schweiz verfügt bereits über belastbare Grundlagen, um dieser Entwicklung zu begegnen: Mit Apertus existiert ein vollständig offenes, öffentlich finanziertes Sprachmodell (EPFL, ETH Zürich, CSCS; offene Gewichte, Daten und Methoden). Die Swiss AI Initiative (SNAI) bündelt die nationale wissenschaftliche Kompetenz, und die Schweiz ist bereits Partnerland der internationalen Initiative Current AI. Zudem bietet der KI-Gipfel 2027 in Genf ein konkretes Zeitfenster, in dem die Schweiz eine glaubwürdige Gastgeber- und Brückenrolle einnehmen kann.
 

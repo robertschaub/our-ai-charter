@@ -9,11 +9,11 @@ A small, repeatable pass to run after you change a document, so the repository s
 
 ## When to use
 
-After you add, rename, substantially edit, **promote** (e.g. `WORKING DRAFT` → `PUBLISHED`), or retire any `.md` document under `Public AI Network/` or `AI Assurance and Certification/`.
+After you add, rename, substantially edit, **promote** (e.g. `DRAFT` → `PUBLISHED`), or retire any `.md` document under `Public AI Network/` or `AI Assurance and Certification/`.
 
 ## Procedure
 
-1. **Status banner.** A top-of-file status banner belongs on `PUBLISHED` pages, on the **normative** docs that state rules/obligations/guidelines (Founding Accord, evaluation protocol, certification model, one-pager), and on the **outreach and parliamentary materials** kept as working drafts (Non-Paper, Aktionsplan, Postulat) — see [AGENTS.md](../../../AGENTS.md). If the doc is one of those, confirm its banner — a plain `> **Status: …**` blockquote (`PUBLISHED` / `WORKING DRAFT` / `WIP / DISCUSSION`), not a typed callout — is present and accurate; otherwise it should carry **no** banner. The README index notes each document's status either way.
+1. **Status banner.** Every content page carries a top-of-file status banner — a plain `> **Status: …**` blockquote (not a typed callout), with one of three labels: `PUBLISHED <date>`, `DRAFT` (anchored, curated, not yet published), or `WORKING NOTES` (raw/unanchored — scratch, discussion dumps) — see [AGENTS.md](../../../AGENTS.md). Confirm it is present and accurate. Only the navigational pages (home, Start here, program map) carry **no** banner. The README index notes each document's status too.
 2. **README index.** Open the [README](../../../README.md). Its index is organised by workstream (Public AI Network / AI Assurance & Certification), with each document's status labelled inline. Move or add the document to the correct workstream with a one-line description that matches its current framing. Remove stale entries.
 3. **Cross-links.** Check that links between documents (and from the README) resolve — relative paths and correct filenames. Fix anything a rename broke.
 4. **CHANGELOG.** Add a dated entry (ISO `YYYY-MM-DD`) in the [CHANGELOG](../../../CHANGELOG.md): what changed and, for the protocol/charter, the version bump. Keep entries terse and factual.

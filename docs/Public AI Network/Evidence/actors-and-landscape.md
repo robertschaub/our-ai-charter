@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — landscape map; provisional, re-verify before relying.
 
 # Public-interest AI — actors & landscape map
 

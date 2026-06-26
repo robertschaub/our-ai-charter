@@ -1,8 +1,4 @@
----
-status: draft
----
-
-> **Status: WORKING DRAFT** — explainer accompanying the protocol.
+> **Status: DRAFT** — explainer accompanying the protocol.
 
 # How could "trustworthy AI" be certified? — an assurance-stack model
 

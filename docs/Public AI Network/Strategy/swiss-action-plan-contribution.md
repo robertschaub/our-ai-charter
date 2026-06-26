@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — working strategy note; open for discussion.
 
 # Swiss AI Action Plan — contribution approach
 

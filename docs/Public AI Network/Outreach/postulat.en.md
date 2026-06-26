@@ -1,8 +1,4 @@
----
-status: draft
----
-
-> **Status: WORKING DRAFT** — template for a sponsoring parliamentarian; not yet submitted. English translation of [postulat.de.md](postulat.de.md) for international readers; the German version is the one that would be submitted.
+> **Status: DRAFT** — template for a sponsoring parliamentarian; not yet submitted. English translation of [postulat.de.md](postulat.de.md) for international readers; the German version is the one that would be submitted.
 
 # Postulate (Draft): Trustworthy, Internationally Anchored Public-AI Infrastructure — Switzerland's Contribution and Governance Framework
 
@@ -26,7 +22,7 @@ In addition, the report should set out possible fields of action for the Confede
 
 ## Rationale
 
-The base infrastructure of artificial intelligence — models, computing power, and data — is increasingly concentrating among a few commercial and geopolitical actors. For a democratic state under the rule of law, this carries a double risk: on the one hand, a dependence on opaque systems that could be switched off at any time; on the other, an erosion of democratic judgement when the provenance of the data, the underlying assumptions, and the methods of these systems are not publicly verifiable.
+The base infrastructure of artificial intelligence — models, computing power, and data — is increasingly concentrating among a few commercial and geopolitical actors. For a democratic state under the rule of law, this carries a double risk: on the one hand, a dependence on opaque systems that could be switched off at any time; on the other, an erosion of democratic judgement when the provenance of the data, the underlying assumptions, and the methods of these systems are not publicly verifiable. This dependence is, moreover, economic: value creation, skills, and bargaining power concentrate among a few actors abroad — so a trustworthy, openly governed public-AI capacity is also a matter of economic resilience, keeping capability and value broadly anchored in free societies. This is the same concern the two adopted sovereignty motions reflect.
 
 Switzerland already has robust foundations to counter this development: with Apertus, there is a fully open, publicly funded language model (EPFL, ETH Zurich, CSCS; open weights, data, and methods). The Swiss AI Initiative (SNAI) brings together the country's scientific expertise, and Switzerland is already a partner country of the international Current AI initiative. Moreover, the AI Summit 2027 in Geneva offers a concrete window in which Switzerland can take on a credible role as host and bridge-builder.
 

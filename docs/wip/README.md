@@ -1,13 +1,14 @@
+> **Status: WORKING NOTES** — scratch from the Geneva 2027 planning session; provisional, re-verify before relying.
+
 # WIP — working notes
 
-*Working scratch — 2026-06-25 · WIP / DISCUSSION · public-safe.*
+*Working scratch — 2026-06-25 · WIP · public-safe.*
 
-A holding area for working outputs from the Geneva 2027 contribution / artifact-planning session (2026-06-25). **Not part of the curated doc set:** not wired into the site nav, the [README](../../README.md) index, or the CHANGELOG. Treat as provisional; re-verify before relying on or publishing anything here.
+A holding area for working outputs from the Geneva 2027 contribution / artifact-planning session (2026-06-25). These are **working notes, not part of the curated, normative doc set** — published on the site but flagged *WIP*. Treat as provisional; re-verify before relying on or publishing anything here.
 
 ## Scope & safety
 
-- **Public-safe only.** This folder is in the **public** repo and is committed publicly, but it is **excluded from the built site** (`exclude_docs: wip/` in [mkdocs.yml](../../mkdocs.yml)) — it lives in the repo and Git history only, not on the published website. Internal-derived context from this session — private meetings, correspondence, outreach send-state, candid named-person assessments — was **deliberately excluded** and lives in `our-ai-charter-internal`. Keep it that way: do not paste internal context here.
-- It is already off the published site (see above). If you'd rather it not be committed publicly at all, it can additionally be gitignored — ask and I'll wire that up.
+- **Public-safe only.** This is the **public** repo and these notes are published on the site (under *Working notes (WIP)*). Internal-derived context from this session — private meetings, correspondence, outreach send-state, candid named-person assessments — was **deliberately excluded** and lives in `our-ai-charter-internal`. Keep it that way: do not paste internal context here.
 
 ## Files
 

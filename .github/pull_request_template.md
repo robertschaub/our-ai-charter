@@ -13,7 +13,7 @@ Why?
 ## Document Checklist
 
 - [ ] Changes are prose, structure, or repository governance only; no source code, package manager, app tooling, or CI build pipeline was added.
-- [ ] Status labels are present and accurate for changed charter documents (`PUBLISHED`, `WORKING DRAFT`, or `WIP / DISCUSSION`).
+- [ ] Status banners are present and accurate for changed charter documents (`PUBLISHED`, `DRAFT`, or `WORKING NOTES`).
 - [ ] README index and links were updated if a document was added, renamed, promoted, or retired.
 - [ ] CHANGELOG has a dated entry for notable changes.
 - [ ] Sources are cited where factual claims were added or materially changed.

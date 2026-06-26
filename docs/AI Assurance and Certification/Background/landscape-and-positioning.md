@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — draft scan; re-verify before citing.
 
 # Is the initiative obsolete, or should it join something? — landscape investigation
 

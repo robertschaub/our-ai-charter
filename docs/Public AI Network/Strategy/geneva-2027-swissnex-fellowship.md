@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — working strategy note; re-verify program details before acting.
 
 # Geneva 2027 — the Swissnex/Mercator fellowship, and a recommended path
 

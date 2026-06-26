@@ -1,6 +1,8 @@
+> **Status: WORKING NOTES** — provisional, re-verify before relying.
+
 # Artifact-production plan — Geneva 2027 contribution
 
-*Working notes — 2026-06-25 · WIP / DISCUSSION · public-safe.* Companion: [geneva-2027-channel-demand.md](geneva-2027-channel-demand.md) (the demand side) and the curated [fellowship note](../Public%20AI%20Network/Strategy/geneva-2027-swissnex-fellowship.md). This note plans **inputs** for Geneva / the fellowship; for the **durable end-products** that input work seeds — the evaluation package, service charter + card, report index, procurement clause — see [final-artifacts-roadmap.md](final-artifacts-roadmap.md).
+*Working notes — 2026-06-25 · WIP · public-safe.* Companion: [geneva-2027-channel-demand.md](geneva-2027-channel-demand.md) (the demand side) and the curated [fellowship note](../Public%20AI%20Network/Strategy/geneva-2027-swissnex-fellowship.md). This note plans **inputs** for Geneva / the fellowship; for the **durable end-products** that input work seeds — the evaluation package, service charter + card, report index, procurement clause — see [final-artifacts-roadmap.md](final-artifacts-roadmap.md).
 
 ## The key insight
 

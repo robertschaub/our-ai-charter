@@ -1,6 +1,8 @@
+> **Status: WORKING NOTES** — provisional, re-verify before relying.
+
 # Final-artifacts roadmap — what this initiative could ultimately release
 
-*Working notes — 2026-06-25 · WIP / DISCUSSION · public-safe.* Companion to [artifact-production-plan.md](artifact-production-plan.md), which covers **inputs** to assemble for Geneva 2027. This note covers the **durable end-products** the initiative could ship — together with others — that live in the world on their own.
+*Working notes — 2026-06-25 · WIP · public-safe.* Companion to [artifact-production-plan.md](artifact-production-plan.md), which covers **inputs** to assemble for Geneva 2027. This note covers the **durable end-products** the initiative could ship — together with others — that live in the world on their own.
 
 ## The distinction
 

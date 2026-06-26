@@ -1,4 +1,4 @@
-<!-- Status: WORKING DRAFT - repository safety policy. -->
+<!-- Status: DRAFT - repository safety policy. -->
 
 # Security and Public-Repo Safety
 

@@ -1,6 +1,4 @@
----
-status: wip
----
+> **Status: DRAFT** — working strategy; open for discussion.
 
 # Public AI initiation — strategy
 
@@ -29,6 +27,8 @@ Name the near-term package narrowly: **Geneva 2027 Public AI Governance & Eviden
 **4. Use a neutral process designer.** A neutral policy-process designer (stakeholder mapping, framing, multi-stakeholder dialogue, sprint design) is well suited to test whether this can become a viable policy- and institution-building process — framed as a clarification, not a campaign. A possible sprint question:
 
 > How can Switzerland help build an internationally co-governed public-AI infrastructure that serves free societies, enables public oversight, and does not tip into national or commercial dependence?
+
+**5. Ship an MVP, not a finished scheme.** The first deliverable is deliberately minimal and imperfect — one keystone memo that assembles the package, plus the evaluation protocol packaged as one runnable tool on one use-case — not a comprehensive standard. "Start small" applies to the output, not only the coalition.
 
 ## Instruments & leverage
 
