@@ -44,11 +44,31 @@
   line-height: 1.4;
 }
 
+/* Home-page feature quote — the Public AI Network thesis, surfaced as a
+   prominent editorial pull-quote between the opening and the priority. Reuses
+   the mission's primary accent bar, but italic with no fill and no label, so it
+   reads as a quote rather than a second hero panel. */
+.md-typeset .feature-quote {
+  margin: 2rem 0;
+  padding: .3rem 0 .3rem 1.5rem;
+  border-left: .25rem solid var(--md-primary-fg-color);
+}
+
+.md-typeset .feature-quote p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 @media screen and (max-width: 44.9375em) {
   .md-typeset .mission p {
     font-size: 1rem;
   }
   .md-typeset .tagline p {
     font-size: 1.15rem;
+  }
+  .md-typeset .feature-quote p {
+    font-size: 1.05rem;
   }
 }
