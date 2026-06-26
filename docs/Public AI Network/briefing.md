@@ -11,7 +11,7 @@ The published article takes the public push for an **open Swiss AI model** and a
 
 Switzerland already has the building blocks: **Apertus**, **Swiss AI Initiative / SNAI**, partner status in **Current AI**, and the **Geneva AI Summit 2027** as a timing window. The next task is to turn the published signal into a small credible coalition and a neutrally facilitated clarification process anchored on existing structures — *not* a new institution and *not* a parliamentary campaign first.
 
-## 2. Mission thesis
+## 2. Core proposition
 
 > A **public-interest, internationally co-stewarded governance + evaluation layer** for public AI — "a network, not a fortress," capture-resistant (against political **and** commercial capture), with inspectable methods and documented **contestability**, and **Switzerland as host/bridge into the Geneva 2027 AI Summit.**
 

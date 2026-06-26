@@ -49,7 +49,7 @@ Who is already building the pieces of an open, accountable, internationally co-s
 
 ## Switzerland — people scan (match-rated, June 2026)
 
-A person-level scan of Switzerland-based (or Switzerland-anchored) individuals whose **public work** currently overlaps with this workstream, ranked by how closely that work maps to the mission thesis (public-interest, internationally co-stewarded governance + evaluation for public AI — "a network, not a fortress" — with Switzerland/Geneva as host/bridge into the Geneva 2027 summit). **Match = overlap of public work, not a personal judgement or endorsement.** Scale: ★★★★★ core · ★★★★ high · ★★★ medium · ★★ adjacent · ★ contrast. Compiled from public sources and cross-reviewed with grounded web search by GPT-5.5 and Gemini-3.1-pro-preview (June 2026); re-verify roles before relying on it.
+A person-level scan of Switzerland-based (or Switzerland-anchored) individuals whose **public work** currently overlaps with this workstream, ranked by how closely that work maps to the core proposition (public-interest, internationally co-stewarded governance + evaluation for public AI — "a network, not a fortress" — with Switzerland/Geneva as host/bridge into the Geneva 2027 summit). **Match = overlap of public work, not a personal judgement or endorsement.** Scale: ★★★★★ core · ★★★★ high · ★★★ medium · ★★ adjacent · ★ contrast. Compiled from public sources and cross-reviewed with grounded web search by GPT-5.5 and Gemini-3.1-pro-preview (June 2026); re-verify roles before relying on it.
 
 ### ★★★★★ — Core (Public AI network international + Geneva-2027 bridge)
 
