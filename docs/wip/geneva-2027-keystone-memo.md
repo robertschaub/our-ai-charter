@@ -29,14 +29,14 @@ Deliberately minimal and imperfect; start small. Four bounded pieces, not a broa
 
 ## Why it succeeds — economic benefit is a basis, not a bonus
 
-The core purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland. **Broadly shared economic benefit is a basis for that success, not a consequence of it:**
+The core purpose is to protect and strengthen a free and fair society in the digital space — internationally, not only at home. **Broadly shared economic benefit is a basis for that success, not a consequence of it:**
 
 - **Shared value wins the mandate.** Values rally the already-convinced; demonstrated, broadly shared benefit — capability, skills, competitiveness, lower dependency costs — wins the wider political and popular mandate that turns an idea into a durable coalition.
 - **Resilience is partly economic.** *Where* AI's value, capability, and bargaining power accrue is itself a sovereignty question; keeping them broadly shared is part of the resilience goal, not a separate one.
 - **A free society stands on a broad material foundation.** Open, accountable institutions are sustained by societies with widely shared opportunity — a stake in the system is what gives people the capacity and reason to defend it.
 - **Funding follows demonstrated public value.** The realistic support path opens when the work visibly creates broad value, not narrow advantage.
 
-This stays in service of the core goal — still *not* "Switzerland first" and *not* commercial protectionism.
+This stays in service of the core goal — *not* "Switzerland first", no commercial protectionism.
 
 ## What we ask for
 

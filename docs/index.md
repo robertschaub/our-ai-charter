@@ -6,7 +6,9 @@ hide:
 
 # Our AI Charter
 
-**Public AI infrastructure, accountable to people.**
+**Trustworthy AI for free, fair, and resilient societies.**
+
+Protect and strengthen free and fair societies in the digital age — through a trustworthy public AI network, accountable to people, that drives shared prosperity and societal resilience, internationally.
 
 _Early public draft, open for comment. Not a certification; not yet a standard._
 
