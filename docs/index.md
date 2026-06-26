@@ -9,8 +9,10 @@ hide:
 
 **Trustworthy AI for free, fair, and resilient societies.**
 
-!!! info "Our mission"
-    Protect and strengthen free and fair societies in the digital age — through a trustworthy public AI network, **accountable to people**, that drives **societal resilience** and **economic prosperity**, internationally.
+<div class="mission" markdown>
+<span class="mission-label">Our mission</span>
+Protect and strengthen free and fair societies in the digital age — through a trustworthy public AI network, **accountable to people**, that drives **societal resilience** and **economic prosperity**, internationally.
+</div>
 
 _Early public draft, open for comment. Not a certification; not yet a standard._
 

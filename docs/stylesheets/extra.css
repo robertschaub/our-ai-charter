@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Our AI Charter — custom styles
+   ========================================================================== */
+
+/* Home-page mission — a prominent hero panel.
+
+   A standard Material admonition renders its body at .64rem (smaller than body
+   copy), which made the mission statement look shrunken. This presents it as a
+   larger, calmer hero instead. Colours come from the Material palette via CSS
+   variables, so the panel adapts to light/dark mode; the plain rgba lines are
+   fallbacks for browsers without color-mix(). */
+.md-typeset .mission {
+  margin: 1.5rem 0 2rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: .3rem;
+  border: 1px solid rgba(63, 81, 181, .25);
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 25%, transparent);
+  border-left: .25rem solid var(--md-primary-fg-color);
+  background: rgba(63, 81, 181, .06);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 6%, transparent);
+}
+
+.md-typeset .mission .mission-label {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset .mission p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.55;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .mission p {
+    font-size: 1.05rem;
+  }
+}

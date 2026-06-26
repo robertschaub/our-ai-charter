@@ -20,6 +20,9 @@ site_dir: site
 copyright: >
   Document texts © Robert Schaub, licensed CC BY 4.0. The initiative's name and any trust mark are reserved.
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   language: en
@@ -136,10 +139,6 @@ nav:
           - "Aktionsplan (DE)": Public AI Network/Outreach/action-plan.de.md
           - "Postulate (EN)": Public AI Network/Outreach/postulat.en.md
           - "Postulat (DE)": Public AI Network/Outreach/postulat.de.md
-      - Posts:
-          - The Public AI Network — post: Public AI Network/Published/the-public-ai-network-post.md
-          - "AI Sovereignty and Resilience — post (EN)": Public AI Network/Published/ai-sovereignty-and-resilience-post.md
-          - "KI-Souveränität — post (DE)": Public AI Network/Published/ki-souveraenitaet-und-resilienz-post.md
       - Working notes:
           - Overview: wip/README.md
           - Artifact-production plan: wip/artifact-production-plan.md
@@ -157,7 +156,4 @@ nav:
           - Risk & vulnerability audit: AI Assurance and Certification/Background/risk-and-vulnerability-audit.md
           - What the world has already declared: AI Assurance and Certification/Background/what-the-world-has-already-declared.md
           - Landscape & positioning: AI Assurance and Certification/Background/landscape-and-positioning.md
-      - Posts:
-          - Launch post: AI Assurance and Certification/Published/launch-post.md
-          - Certification comment: AI Assurance and Certification/Published/certification-comment.md
   - Program map: PROGRAM.md
