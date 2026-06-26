@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-06-26
+- **Verified Findings source links made clickable** — linked the inline citation numbers in [Verified Findings](docs/Public%20AI%20Network/Evidence/verified-findings.md) to the matching source entries, and put each available source URL behind the source title. No claim text or status changed.
 - **Public AI overview tightened** — removed the briefing's *The two assets behind it* section, trimmed repeated mission/relationship framing, and renumbered the remaining sections. Status label, README index, and site navigation unchanged.
 
 ## 2026-06-25
