@@ -78,3 +78,18 @@
     font-size: 1.15rem;
   }
 }
+
+/* Companion-post → article separator.
+
+   On the four published pages, the LinkedIn feed/launch post sits above the
+   article, divided by a `---` thematic break that renders as an <hr> directly
+   before the article's <h1>. Material paints <hr> at 7% opacity, which is
+   nearly invisible on the text-only pages (and only catches the eye on pages
+   where it borders the grey hashtag code block). Make this one separator a
+   clear, full-width rule. Scoped via :has() to an <hr> immediately followed by
+   an <h1>, so footer and in-article breaks keep the default light style. */
+.md-typeset hr:has(+ h1) {
+  border-bottom-color: var(--md-default-fg-color--lighter);
+  border-bottom-width: .1rem;
+  margin: 2em 0;
+}
