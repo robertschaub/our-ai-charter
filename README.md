@@ -5,7 +5,7 @@
 
 **Trustworthy AI for free, fair, and resilient societies.**
 
-Protect and strengthen free and fair societies in the digital age — through a trustworthy public AI network, accountable to people, that drives societal resilience and economic prosperity, internationally.
+Protect and strengthen free and fair societies in the digital age — through a global, trustworthy public AI network that is accountable to people and drives societal resilience and economic prosperity.
 
 _Early public draft, open for comment. Not a certification; not yet a standard._
 
