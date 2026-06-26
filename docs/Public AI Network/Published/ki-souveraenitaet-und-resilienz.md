@@ -1,5 +1,13 @@
 > **Status: PUBLISHED** — verbatim mirror of the LinkedIn article published 20 June 2026.
-> Canonical post: [https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze)
+> Canonical article: [https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze)
+
+## Begleitender Feed-Post
+
+_LinkedIn-Feed-Post, 19. Juni 2026 — [Original auf LinkedIn](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)._
+
+Ein offenes Schweizer KI-Modell ist ein starker Impuls. Doch wie sichern wir unsere digitale Souveränität und Resilienz langfristig? Die Schweiz als internationale Brückenbauerin für eine freiheitliche und unabhängige KI-Infrastruktur. Die Bausteine stehen bereit. Zum Artikel ↓
+
+---
 
 # KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken
 
@@ -26,16 +34,4 @@ Denn echte digitale Souveränität und Resilienz entfalten sich erst im Netzwerk
 
 ---
 
-_Published version: LinkedIn article, 20 June 2026. The accompanying LinkedIn feed post is mirrored below. An [English translation](ai-sovereignty-and-resilience.md) is available._
-
-_This is a companion to the published article [Trustworthy AI, Accountable to People](../../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md): that piece sets out the evaluation and accountability thread; this one sets out the public-AI-sovereignty and governance thread. Both are facets of [Our AI Charter](../../index.md)._
-
----
-
-## Begleitender Feed-Post
-
-_Der LinkedIn-**Feed-Post** zum Artikel oben — separat veröffentlicht (19. Juni 2026), hier gespiegelt. Eine [englische Übersetzung](ai-sovereignty-and-resilience.md#accompanying-feed-post) ist verfügbar._
-
-_Canonical post: [https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)_
-
-Ein offenes Schweizer KI-Modell ist ein starker Impuls. Doch wie sichern wir unsere digitale Souveränität und Resilienz langfristig? Die Schweiz als internationale Brückenbauerin für eine freiheitliche und unabhängige KI-Infrastruktur. Die Bausteine stehen bereit. Zum Artikel ↓
+_[English translation](ai-sovereignty-and-resilience.md). Companion to [Trustworthy AI, Accountable to People](../../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — the evaluation-and-accountability thread to this one's public-AI-sovereignty thread; both are facets of [Our AI Charter](../../index.md)._

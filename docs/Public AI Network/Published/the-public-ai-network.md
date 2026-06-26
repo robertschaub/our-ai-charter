@@ -1,5 +1,38 @@
 > **Status: PUBLISHED** — verbatim mirror of the LinkedIn article published 22 June 2026 (project links embedded as published).
-> Canonical post: [https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)
+> Canonical article: [https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)
+
+## Accompanying feed post
+
+_LinkedIn feed post, 22 June 2026 — kept link-free as published; the sources are in the article below._
+
+_Open, publicly-funded AI models now exist across many regions — but real sovereignty and resilience come from what free societies build around them: shared standards, genuine accountability, and public compute, developed in the open._
+
+AI is becoming infrastructure — and the real question isn't which model wins this quarter, but whether free societies can inspect, shape, and contest the systems they rely on. That is democratic resilience.
+
+Public AI models already exist, but a dozen national models aren't yet a shared infrastructure.
+
+The harder, less-funded work is around the models, and it reaches well beyond technology:
+
+**Coordination & standards**
+Interoperability, shared openness criteria, a public model registry.
+
+**Governance & trust**
+Evidence of real behaviour, clear accountabilities, resistance to capture.
+
+**Durable ecosystems**
+Talent, research, shared public compute, lawful data commons.
+
+_So I'd like to open a conversation — and help connect the people and projects already doing this._
+
+- Which part is most urgent?
+- Who is already doing it well?
+- Who should participate?
+
+Add or tag them in the comments (I've listed a few to start), and let's connect the dots. 👇
+
+`#PublicAI #AIGovernance #DigitalSovereignty #OpenModels #TrustworthyAI`
+
+---
 
 # The Public AI Network: Building Sovereignty and Resilience for Free Societies
 
@@ -57,41 +90,4 @@ _Working paper, updated 22 June 2026. Work in progress: [robertschaub/our-ai-cha
 
 ---
 
-_Published version: LinkedIn article, 22 June 2026. The accompanying feed post is mirrored below._
-
-_Each cited source's URL, essence, and charter relevance is compiled in [Linked sources & charter relevance](../Evidence/linked-sources.md)._
-
-_Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) ([English translation](ai-sovereignty-and-resilience.md)) (the public-AI-sovereignty thread). The accountability/evaluation thread is [Trustworthy AI, Accountable to People](../../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)._
-
----
-
-## Accompanying feed post
-
-_The LinkedIn **feed post** that accompanied the article above — a separate published item, mirrored here. Published 22 June 2026. Kept link-free as published; the resources live in the article above and its first comment._
-
-_Open, publicly-funded AI models now exist across many regions — but real sovereignty and resilience come from what free societies build around them: shared standards, genuine accountability, and public compute, developed in the open._
-
-AI is becoming infrastructure — and the real question isn't which model wins this quarter, but whether free societies can inspect, shape, and contest the systems they rely on. That is democratic resilience.
-
-Public AI models already exist, but a dozen national models aren't yet a shared infrastructure.
-
-The harder, less-funded work is around the models, and it reaches well beyond technology:
-
-**Coordination & standards**
-Interoperability, shared openness criteria, a public model registry.
-
-**Governance & trust**
-Evidence of real behaviour, clear accountabilities, resistance to capture.
-
-**Durable ecosystems**
-Talent, research, shared public compute, lawful data commons.
-
-_So I'd like to open a conversation — and help connect the people and projects already doing this._
-
-- Which part is most urgent?
-- Who is already doing it well?
-- Who should participate?
-
-Add or tag them in the comments (I've listed a few to start), and let's connect the dots. 👇
-
-`#PublicAI #AIGovernance #DigitalSovereignty #OpenModels #TrustworthyAI`
+_Sources: [Linked sources & charter relevance](../Evidence/linked-sources.md). Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) ([English translation](ai-sovereignty-and-resilience.md)) — the sovereignty thread; [Trustworthy AI, Accountable to People](../../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — the accountability thread._

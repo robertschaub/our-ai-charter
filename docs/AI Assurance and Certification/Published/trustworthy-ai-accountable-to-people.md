@@ -1,5 +1,23 @@
-> **Status: PUBLISHED** — verbatim mirror of the LinkedIn article *Trustworthy AI, Accountable to People*, published 14 June 2026; updated on LinkedIn 19 June 2026. The accompanying launch post and the "who would certify this?" comment are mirrored in the same file, below the article.
+> **Status: PUBLISHED** — verbatim mirror of the LinkedIn article *Trustworthy AI, Accountable to People*, published 14 June 2026; updated on LinkedIn 19 June 2026. The launch post (above) and the "who would certify this?" comment (below) are mirrored here.
 > Canonical article: [https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje)
+
+## Accompanying launch post
+
+_LinkedIn launch post, 14 June 2026 (edited 19 June). The Anthropic access event it cites is attributed to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access)._
+
+AI is becoming infrastructure — the thing the world learns, decides, and creates with. So who controls it? Days ago, we got an uncomfortable answer: Anthropic disabled worldwide access to two frontier models — Claude Fable 5 and Mythos 5 — after a government order.
+
+We argue about who can turn AI off. But can we believe it when it's on? Should every country have to build or back its own AI just to control and trust it?
+
+There's a better way: AI built like the internet — open, plural, and resilient enough that no single, unaccountable hand controls it — and honest enough that its material claims can be traced, tested, and challenged.
+
+I've written a short, first-draft manifesto for what that could look like: five public obligations, and a first practical test for evidence, correction, and contestability. It's a draft, and I'd genuinely like it torn into — especially by the people who build and study these systems. Is it right, or naïve? Where does it break? What's missing?
+
+If you build AI, fund it, study it, govern it, teach it, or simply rely on it — you belong here. 👇 Let me know your thoughts and ideas.
+
+`#AI #TrustworthyAI #AIGovernance #OpenSource #PublicAI`
+
+---
 
 # Trustworthy AI, Accountable to People
 
@@ -89,29 +107,9 @@ If you build AI, fund it, study it, govern it, teach it, or rely on it — you b
 
 ---
 
-## Accompanying launch post
-
-_The LinkedIn **feed post** that accompanied the article above — a separate published item, mirrored here. Published 14 June 2026; edited on LinkedIn 19 June 2026._
-
-AI is becoming infrastructure — the thing the world learns, decides, and creates with. So who controls it? Days ago, we got an uncomfortable answer: Anthropic disabled worldwide access to two frontier models — Claude Fable 5 and Mythos 5 — after a government order.
-
-We argue about who can turn AI off. But can we believe it when it's on? Should every country have to build or back its own AI just to control and trust it?
-
-There's a better way: AI built like the internet — open, plural, and resilient enough that no single, unaccountable hand controls it — and honest enough that its material claims can be traced, tested, and challenged.
-
-I've written a short, first-draft manifesto for what that could look like: five public obligations, and a first practical test for evidence, correction, and contestability. It's a draft, and I'd genuinely like it torn into — especially by the people who build and study these systems. Is it right, or naïve? Where does it break? What's missing?
-
-If you build AI, fund it, study it, govern it, teach it, or simply rely on it — you belong here. 👇 Let me know your thoughts and ideas.
-
-`#AI #TrustworthyAI #AIGovernance #OpenSource #PublicAI`
-
-_Repository note: the Anthropic event referenced above is attributed in the article above to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access). This feed-post mirror reflects the 19 June LinkedIn edit from the earlier three-obligation wording to five public obligations and a practical test for evidence, correction, and contestability. Git history preserves the original 14 June wording._
-
----
-
 ## Accompanying comment — who would actually certify this?
 
-_Published as a [LinkedIn comment](https://www.linkedin.com/feed/update/urn:li:activity:7468972158505947136) on the article above, 15 June 2026 — the public short answer to "who would certify this?"_
+_Published as a [LinkedIn comment](https://www.linkedin.com/feed/update/urn:li:activity:7468972158505947136) on the article, 15 June 2026._
 
 A fair question I keep getting: who would actually certify this?
 
