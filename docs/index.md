@@ -21,7 +21,8 @@ _Early public draft, open for comment. Not a certification; not yet a standard._
 AI is becoming the infrastructure people learn, decide, work, and form opinion with. Infrastructure that important should not rest on a handful of private providers — or on opaque shutdown powers, unsafe systems, discriminatory failures, privacy leakage, manipulation, or factual claims no one can trace or challenge.
 
 <div class="feature-quote" markdown>
-Open, publicly funded AI models now exist across many regions. But sovereignty and resilience depend on the infrastructure around them: shared standards, public evidence, accountable governance, and pooled compute.
+<span class="mission-label">Our position</span>
+Open, publicly funded AI models now exist across many regions. But sovereignty is not autarky: resilience depends on shared infrastructure across free societies — standards, public evidence, accountable governance, and pooled compute they can inspect, govern, and contest.
 </div>
 
 The current priority is the **Public AI Network**: a Switzerland-anchored, internationally oriented path toward public AI that free societies can inspect, govern, and contest. **Our AI Charter** is the trust and evidence layer behind that path — the obligations, evaluation discipline, and claim boundaries that keep public AI from becoming only an open model, a national label, or a vendor promise.
