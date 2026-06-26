@@ -80,24 +80,9 @@ How such a scheme could be built — independent assessors, an accreditor that l
 
 **Status — Phase 1.** This is public drafting and connection-building. Nothing here certifies anyone: there is no Trust Mark, certificate, accredited assessor, registry, or active pilot evaluation.
 
-## Start reading
+## Where to start
 
-Good starting points:
-
-**Public AI Network** — sovereignty, resilience, coordination:
-
-- [The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md) ·
-  [KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) ([EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* LinkedIn articles.
-- [Public AI governance — initiative briefing](Public%20AI%20Network/briefing.md) — the entry point to the governance working materials.
-
-**AI Assurance & Certification** — trust and evidence layer:
-
-- [Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — *PUBLISHED* manifesto.
-- [The Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) ·
-  [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) ·
-  [how certification could work later](AI%20Assurance%20and%20Certification/Framework/certification-model.md).
-
-For the full document index, see the [program map](PROGRAM.md).
+New here? **[Start here](start-here.md)** routes you by what you want — to help it succeed, build AI systems, or pressure-test the work. For the full document index, see the [program map](PROGRAM.md).
 
 ## How to help
 
