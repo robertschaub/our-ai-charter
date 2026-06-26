@@ -1,5 +1,6 @@
 ---
 title: Our AI Charter
+description: Protect and strengthen free and fair societies in the digital age — through a trustworthy public AI network, accountable to people, that drives shared prosperity and societal resilience, internationally.
 hide:
   - toc
 ---
