@@ -1,8 +1,4 @@
----
-status: draft
----
-
-> **Status: WORKING DRAFT** — open for comment; not final.
+> **Status: WIP** — open for comment; not final.
 
 # Swiss Contribution to Internationally Anchored Public AI Infrastructure
 
@@ -20,6 +16,7 @@ Switzerland holds excellent prerequisites to counter this development:
 - **Institutional:** The Swiss AI Initiative / Swiss National AI Institute (SNAI) bundles the capabilities of the EPFL and ETH AI Centers alongside the National Supercomputing Centre (CSCS).
 - **Diplomatic:** As host of the international AI Summit 2027 in Geneva, Switzerland can leverage its role as a neutral convenor.
 - **Internationally anchored:** Switzerland is already a Country Partner of *Current AI*, the Paris-based partnership for public-interest AI.
+- **Political:** In 2026 the Council of States adopted two relevant motions (24.3209 sovereign digital infrastructure; 26.3221 an impetus programme for, among other things, open source and AI) — a growing, cross-party mandate for sovereign, open AI. Both address the *building*; the governance layer remains open.
 
 ## 3. Core Thesis
 

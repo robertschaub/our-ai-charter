@@ -1,8 +1,4 @@
----
-status: draft
----
-
-> **Status: WORKING DRAFT** — open for comment; not final.
+> **Status: WIP** — open for comment; not final.
 
 # Der Schweizer Beitrag zu einer international verankerten Public-AI-Infrastruktur
 
@@ -20,6 +16,7 @@ Die Schweiz verfügt über hervorragende Voraussetzungen, um dieser Entwicklung 
 - **Institutionell:** Die Swiss AI Initiative / das Swiss National AI Institute (SNAI) bündelt die Kräfte von EPFL und ETH AI Center sowie dem Nationalen Hochleistungsrechenzentrum (CSCS).
 - **Diplomatisch:** Als Gastgeberin des internationalen KI-Gipfels 2027 in Genf kann die Schweiz ihre Rolle als neutrale Vermittlerin ausspielen.
 - **International verankert:** Die Schweiz ist bereits Partnerland von *Current AI*, der in Paris gegründeten Partnerschaft für gemeinwohlorientierte KI.
+- **Politisch:** Der Ständerat hat 2026 zwei einschlägige Motionen angenommen (24.3209 souveräne digitale Infrastruktur; 26.3221 Impulsprogramm für u. a. Open Source und KI) — ein wachsendes, überparteiliches Mandat für souveräne, offene KI. Beide adressieren das *Bauen*; die Governance-Schicht bleibt offen.
 
 ## 3. Kernthese
 
