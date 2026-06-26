@@ -16,8 +16,6 @@ hide:
 Protect and strengthen free and fair societies in the digital age — through a global, trustworthy public AI network that is **accountable to people** and drives **societal resilience** and **economic prosperity**.
 </div>
 
-_Early public draft, open for comment. Not a certification; not yet a standard._
-
 AI is becoming the infrastructure people learn, decide, work, and form opinion with. Infrastructure that important should not rest on a handful of private providers — or on opaque shutdown powers, unsafe systems, discriminatory failures, privacy leakage, manipulation, or factual claims no one can trace or challenge.
 
 <div class="feature-quote" markdown>
@@ -85,7 +83,7 @@ State regulation creates enforceable rights, duties, and sanctions — but it is
 
 How such a scheme could be built — independent assessors, an accreditor that licenses them, and a peer body that keeps it honest — is set out in the [certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md).
 
-**Status — Phase 1.** This is public drafting and connection-building. Nothing here certifies anyone: there is no Trust Mark, certificate, accredited assessor, registry, or active pilot evaluation.
+**Status — Phase 1.** This is an early public draft, open for comment, and still in public drafting and connection-building. It is not a certification and not yet a standard: there is no Trust Mark, certificate, accredited assessor, registry, or active pilot evaluation.
 
 ## Where to start
 
