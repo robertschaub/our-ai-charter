@@ -49,7 +49,7 @@ For who is already working in this space (by role), see the [actor & landscape m
 The work is unfunded, and the guardrail below is deliberate: **no large funding before a coalition and one concrete deliverable exist.** What is *not* yet decided is the positive path — and naming it is overdue.
 
 - **In-kind first.** The near-term needs are convening and time, not capital: a neutral convenor's pro-bono or low-cost format, co-authorship, and volunteer coalition effort can carry the pre-sprint.
-- **Then pilot-scale, tied to the deliverable.** Public or foundation grants for *one* evidence/governance pilot (e.g. the [Impulsprogramm 26.3221](impulsprogramm-digitale-souveraenitaet.md) field) fit once the deliverable is concrete — not before.
+- **Then pilot-scale, tied to the deliverable.** Public or foundation grants for *one* evidence/governance pilot (e.g. the [Impulsprogramm 26.3221](digital-sovereignty-motions.md) field) fit once the deliverable is concrete — not before.
 - **Candidate routes, all filtered.** Sponsors, crowdfunding, mission-aligned funds, and companies are each conceivable, but every source runs through the anti-capture filter — no money that buys influence over methods or findings, disclosed ties, and the association's closed list of prohibited sources. Company money is the highest-risk route and the last to take.
 
 ## Guardrails

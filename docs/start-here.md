@@ -17,7 +17,7 @@ hide:
 2. **[Initiative briefing](Public%20AI%20Network/briefing.md)** — what the initiative is actually asking for.
 3. **[Initiation strategy](Public%20AI%20Network/Strategy/initiation-strategy.md)** — alliance first, a neutral pre-sprint, then political channels only if the mandate exists; the 30/60/90 path is written to be challenged.
 4. **Evidence & fit** — [Verified findings](Public%20AI%20Network/Evidence/verified-findings.md) · [Actors & landscape](Public%20AI%20Network/Evidence/actors-and-landscape.md), and the goal order and capture-resistant governance in the **[program map](PROGRAM.md)**.
-5. **Swiss window & instruments** — [Impulsprogramm 26.3221](Public%20AI%20Network/Strategy/impulsprogramm-digitale-souveraenitaet.md) · [Non-Paper](Public%20AI%20Network/Outreach/non-paper.en.md) ([DE](Public%20AI%20Network/Outreach/non-paper.de.md)) · [Action Plan](Public%20AI%20Network/Outreach/action-plan.en.md) ([DE](Public%20AI%20Network/Outreach/action-plan.de.md)) · [Postulat](Public%20AI%20Network/Outreach/postulat.de.md) ([EN](Public%20AI%20Network/Outreach/postulat.en.md)).
+5. **Swiss window & instruments** — [Sovereignty motions 24.3209 + 26.3221](Public%20AI%20Network/Strategy/digital-sovereignty-motions.md) · [Non-Paper](Public%20AI%20Network/Outreach/non-paper.en.md) ([DE](Public%20AI%20Network/Outreach/non-paper.de.md)) · [Action Plan](Public%20AI%20Network/Outreach/action-plan.en.md) ([DE](Public%20AI%20Network/Outreach/action-plan.de.md)) · [Postulat](Public%20AI%20Network/Outreach/postulat.de.md) ([EN](Public%20AI%20Network/Outreach/postulat.en.md)).
 
 ## I build AI systems
 
