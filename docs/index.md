@@ -76,7 +76,7 @@ How such a scheme could be built — independent assessors, an accreditor that l
 
 ## Start reading
 
-Documents are labelled with their status — *PUBLISHED*, *WORKING DRAFT*, or *WIP / DISCUSSION*. Good starting points:
+Good starting points:
 
 **Public AI Network** — sovereignty, resilience, coordination:
 
