@@ -31,7 +31,8 @@ Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](..
 
 - **Apertus/SNAI:** Die offene Governance-Frage (kein öffentlich erkennbares unabhängiges Mehrparteien-Gremium) bietet einen natürlichen Einstiegspunkt — als Frage *mit* SNAI/Apertus, nicht als Kritik.
 - **Current AI:** Die Schweiz ist bereits Partnerland (Country Partner).
-- **Motion 24.3209 & KI-Gipfel Genf 2027:** offener politischer Faden bzw. konkretes Zeitfenster (erste Hälfte 2027).
+- **Motionen 24.3209 (Juillard) & 26.3221 (Z'graggen):** zwei vom Ständerat angenommene, im Nationalrat hängige Souveränitäts-Motionen — 24.3209 als struktureller Anker (Gesetzesrevision), 26.3221 als mögliches Förder-/Pilotvehikel (Impulsprogramm; KI/Open Source).
+- **KI-Gipfel Genf 2027:** konkretes Zeitfenster (erste Hälfte 2027).
 
 ## Leitplanken für die Kommunikation
 

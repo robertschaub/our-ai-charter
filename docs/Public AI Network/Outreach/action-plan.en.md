@@ -29,7 +29,8 @@ The full, sourced list of anchors is in the [Verified Findings](../Evidence/veri
 
 - **Apertus/SNAI:** The unresolved governance question (no publicly identifiable independent multi-stakeholder body) offers a natural entry point — as a question *with* SNAI/Apertus, not as criticism.
 - **Current AI:** Switzerland is already a partner country (Country Partner).
-- **Motion 24.3209 & AI Summit Geneva 2027:** an open political thread and a concrete window, respectively (first half of 2027).
+- **Motions 24.3209 (Juillard) & 26.3221 (Z'graggen):** two sovereignty motions adopted by the Council of States and now before the National Council — 24.3209 as the structural anchor (a law revision), 26.3221 as a candidate funding/pilot vehicle (the Impulsprogramm; AI / open source).
+- **AI Summit Geneva 2027:** a concrete window (first half of 2027).
 
 ## Communication guardrails
 
