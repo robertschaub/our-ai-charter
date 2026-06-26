@@ -1,5 +1,3 @@
-> **Status: DRAFT** — working strategy note; open for discussion.
-
 # Geneva 2027 — contribution routes and partners
 
 How a public-interest **governance + evidence** contribution can reach the **Geneva AI Summit 2027**: the realistic routes in, and the actors who already hold each piece. This consolidates the [initiation strategy](initiation-strategy.md) (sequence), [briefing](../briefing.md) (mission frame and anchors), [actor & landscape map](../Evidence/actors-and-landscape.md) (per-actor detail), and [verified findings](../Evidence/verified-findings.md) (facts and sources) — read those for the underlying detail.

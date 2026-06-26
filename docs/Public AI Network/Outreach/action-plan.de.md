@@ -1,4 +1,4 @@
-> **Status: DRAFT** — working playbook; open to revision.
+> **Status: DRAFT**
 
 # Aktionsplan — Public AI Governance (Kurzfassung)
 

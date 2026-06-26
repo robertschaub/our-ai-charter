@@ -32,7 +32,7 @@ Pick the row that fits you — fuller ordered paths are on the **[Start here](ht
 
 ## Two workstreams
 
-Each entry below notes its status — *PUBLISHED* or *DRAFT* (raw, unanchored notes are flagged *WORKING NOTES*). Every page carries a matching status banner at the top.
+Each entry below notes its status — *PUBLISHED* or *DRAFT* (raw, unanchored notes are *WORKING NOTES*). On the pages themselves, a status banner appears on published pages, on the normative docs (rules/obligations), and on the outreach drafts; other working pages carry none.
 
 ### Public AI Network
 

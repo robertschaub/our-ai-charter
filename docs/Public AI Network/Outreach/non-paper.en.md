@@ -1,4 +1,4 @@
-> **Status: DRAFT** — open for comment; not final.
+> **Status: DRAFT**
 
 # Swiss Contribution to Internationally Anchored Public AI Infrastructure
 

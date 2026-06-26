@@ -1,5 +1,3 @@
-> **Status: DRAFT** — working strategy note; re-verify program details before acting.
-
 # Geneva 2027 — the Swissnex/Mercator fellowship, and a recommended path
 
 Discussion notes (2026-06-25). A concrete, time-boxed vehicle into the **Geneva AI Summit 2027** has surfaced — the Swissnex San Francisco × Stiftung Mercator Schweiz **"Geneva Loading…"** preparatory fellowship — and this note records the assessment of it plus a recommended plan built around it. Companion to the [routes map](geneva-2027-options.md); for the underlying frame see the [initiation strategy](initiation-strategy.md), [briefing](../briefing.md), [verified findings](../Evidence/verified-findings.md), and [actor & landscape map](../Evidence/actors-and-landscape.md). Provisional — re-verify program details on the source page before acting.

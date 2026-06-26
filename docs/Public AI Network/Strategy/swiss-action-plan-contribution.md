@@ -1,5 +1,3 @@
-> **Status: DRAFT** — working strategy note; open for discussion.
-
 # Swiss AI Action Plan — contribution approach
 
 A go/no-go layer for filing a public-interest contribution into the Swiss AI Action Plan: where it goes, what bar it must clear, and the discipline the submission itself must hold.

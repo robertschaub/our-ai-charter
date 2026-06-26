@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — re-verify before citing.
+> **Status: WORKING NOTES**
 
 # Geneva 2027 — channel demand (what each channel accepts)
 

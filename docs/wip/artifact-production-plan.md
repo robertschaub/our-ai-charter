@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — provisional, re-verify before relying.
+> **Status: WORKING NOTES**
 
 # Artifact-production plan — Geneva 2027 contribution
 

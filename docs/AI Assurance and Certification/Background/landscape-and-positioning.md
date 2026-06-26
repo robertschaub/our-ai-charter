@@ -1,5 +1,3 @@
-> **Status: DRAFT** — draft scan; re-verify before citing.
-
 # Is the initiative obsolete, or should it join something? — landscape investigation
 
 _Draft scan, 2026-06-14; key claims re-checked on the web 2026-06-25. For public discussion — not a sourced market report or an adopted position. Maturity scores and fast-moving third-party statuses still need direct source verification before citation._

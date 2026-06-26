@@ -1,4 +1,4 @@
-> **Status: DRAFT** — template for a sponsoring parliamentarian; not yet submitted.
+> **Status: DRAFT**
 
 # Postulat (Entwurf): Vertrauenswürdige, international verankerte Public-AI-Infrastruktur — Schweizer Beitrag und Governance-Rahmen
 

@@ -1,4 +1,4 @@
-> **Status: DRAFT** — working playbook; open to revision. English translation of [action-plan.de.md](action-plan.de.md); the German version is canonical.
+> **Status: DRAFT**
 
 # Action Plan — Public AI Governance (Short Form)
 

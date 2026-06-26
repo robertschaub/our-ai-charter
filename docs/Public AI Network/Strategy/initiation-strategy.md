@@ -1,5 +1,3 @@
-> **Status: DRAFT** — working strategy; open for discussion.
-
 # Public AI initiation — strategy
 
 How to turn the public-AI-governance idea into a real, multi-stakeholder process: Switzerland as a credible **convening host and node** for internationally co-governed Public AI infrastructure — not the sole owner of a national model.

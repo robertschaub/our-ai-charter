@@ -1,4 +1,4 @@
-> **Status: DRAFT** — template for a sponsoring parliamentarian; not yet submitted. English translation of [postulat.de.md](postulat.de.md) for international readers; the German version is the one that would be submitted.
+> **Status: DRAFT**
 
 # Postulate (Draft): Trustworthy, Internationally Anchored Public-AI Infrastructure — Switzerland's Contribution and Governance Framework
 

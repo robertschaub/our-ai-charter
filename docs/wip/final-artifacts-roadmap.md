@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — provisional, re-verify before relying.
+> **Status: WORKING NOTES**
 
 # Final-artifacts roadmap — what this initiative could ultimately release
 

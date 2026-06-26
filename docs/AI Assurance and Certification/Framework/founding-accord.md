@@ -1,4 +1,4 @@
-> **Status: DRAFT (v0.14)** — open for comment; not final.
+> **Status: DRAFT (v0.14)**
 
 # Our AI Charter — the Founding Accord
 ### A public charter for trustworthy AI — built together, answerable to people.

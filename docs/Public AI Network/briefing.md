@@ -1,5 +1,3 @@
-> **Status: DRAFT** — initiative briefing; open for discussion.
-
 # Public AI governance — initiative briefing
 
 This is the orientation page for the *Public AI Network* workstream. It builds on the published article *"KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken"* and its English companion *[The Public AI Network](Published/the-public-ai-network.md)*. Initiator: Robert Schaub (FactHarbor / Our AI Charter, `info@factharbor.ch`).
@@ -19,7 +17,7 @@ Switzerland already has the building blocks: **Apertus**, **Swiss AI Initiative 
 
 Explicitly **not** national/industrial protectionism, and **not** a commercial "sovereign AI" vendor play.
 
-The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland. Broadly shared economic benefit is a basis for that success, not a reward paid out at the end: open, accountable institutions are sustained by societies with widely shared opportunity, and an initiative that visibly strengthens capability, skills, and competitiveness earns the durable coalition, funding, and mandate that shared values alone cannot win. This stays in service of the core goal — still *not* "Switzerland first" and *not* commercial protectionism.
+The driving purpose is to protect and strengthen democracy and justice in the digital space — internationally, and thereby also in Switzerland. Broadly shared economic benefit is a basis for that success, not a consequence of it: open, accountable institutions are sustained by societies with widely shared opportunity, and an initiative that visibly strengthens capability, skills, and competitiveness earns the durable coalition, funding, and mandate that shared values alone cannot win. This stays in service of the core goal — still *not* "Switzerland first" and *not* commercial protectionism.
 
 ## 3. Verified anchors
 

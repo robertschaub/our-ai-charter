@@ -1,4 +1,4 @@
-> **Status: DRAFT** — explainer accompanying the protocol.
+> **Status: DRAFT**
 
 # How could "trustworthy AI" be certified? — an assurance-stack model
 
