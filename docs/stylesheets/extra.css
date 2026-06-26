@@ -36,8 +36,19 @@
   line-height: 1.55;
 }
 
+/* Home-page tagline — the positioning line between the title and the mission
+   hero. Sized up a notch so it reads as a subtitle rather than body copy. */
+.md-typeset .tagline p {
+  margin: 0 0 1rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
 @media screen and (max-width: 44.9375em) {
   .md-typeset .mission p {
     font-size: 1rem;
+  }
+  .md-typeset .tagline p {
+    font-size: 1.15rem;
   }
 }

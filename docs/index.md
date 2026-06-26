@@ -7,7 +7,9 @@ hide:
 
 # Our AI Charter
 
+<div class="tagline" markdown>
 **Trustworthy AI for free, fair, and resilient societies.**
+</div>
 
 <div class="mission" markdown>
 <span class="mission-label">Our mission</span>
