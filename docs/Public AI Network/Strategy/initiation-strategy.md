@@ -20,7 +20,7 @@ Don't start with a parliamentary instrument. The higher-probability path is:
 
 **3. Make Geneva 2027 the political timing.** The Geneva AI Summit 2027 and Switzerland's host-state positioning create a concrete window. Candidate contributions: a governance blueprint, an international co-stewardship model, open evaluation/audit practices, a public-interest demo case, and a small Swiss + international coalition.
 
-Name the near-term package narrowly: **Geneva 2027 Public AI Governance & Evidence Package**. It should mean four things, not a broad new programme: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. Everything else is supporting material until a carrier group exists.
+Name the near-term package narrowly: **Geneva 2027 Public AI Governance & Evidence Package**. It should mean four things, not a broad new programme: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The compute pillar should be framed as a [federated, governed public-compute pilot](federated-public-compute-architecture.md), not a claimed global GPU pool. Everything else is supporting material until a carrier group exists.
 
 **4. Use a neutral process designer.** A neutral policy-process designer (stakeholder mapping, framing, multi-stakeholder dialogue, sprint design) is well suited to test whether this can become a viable policy- and institution-building process — framed as a clarification, not a campaign. A possible sprint question:
 

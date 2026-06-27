@@ -20,4 +20,5 @@ A holding area for working outputs from the Geneva 2027 contribution / artifact-
 ## Related outputs already saved elsewhere
 
 - **Fellowship assessment + recommended plan** → curated note: [geneva-2027-swissnex-fellowship.md](../Public%20AI%20Network/Strategy/geneva-2027-swissnex-fellowship.md) (indexed).
+- **Federated public compute architecture** → curated note: [federated-public-compute-architecture.md](../Public%20AI%20Network/Strategy/federated-public-compute-architecture.md) (indexed).
 - **Positioning guidance** (independent practitioner & discourse contributor; policy work as intent, not influence) → saved to the maintainer memory, not a repo file.
