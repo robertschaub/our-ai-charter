@@ -6,15 +6,17 @@ _As of June 2026; re-verify figures and program statuses before public citation.
 
 ## Conclusion
 
-The compute pillar should be **federated public compute**: many independently operated nodes — public HPC centres, universities, public-service media, NGOs, sovereign clouds, and authenticated citizens — exposed through shared rules, with an evidence layer on top. Each node keeps local control; the network shares identity, policy, accounting, and accountability.
+The compute pillar should be **federated public compute**: many independently operated nodes — public HPC centres, universities, public-service media, NGOs and cooperatives, sovereign and mission-aligned commercial clouds, and authenticated citizens — exposed through shared rules, with an evidence layer on top. Each node keeps local control; the network shares identity, policy, accounting, and accountability.
 
-> **Federated public compute** — shared public, academic, nonprofit, and sovereign-cloud capacity for inference, evaluation, adaptation, and (later) co-training, brokered under common rules for identity, eligibility, quota, routing, jurisdiction, provenance, safety, and accountability, while each node keeps local operational and jurisdictional control.
+> **Federated public compute** — capacity contributed by public, academic, cooperative, nonprofit, and **mission-aligned commercial or sovereign-cloud** operators, for inference, evaluation, adaptation, and (later) co-training, brokered under common rules for identity, eligibility, quota, routing, jurisdiction, provenance, safety, and accountability, while each node keeps local operational and jurisdictional control. What qualifies a node is the **public-interest terms it accepts** — disclosure, portability, and no control over governance or findings (see §10) — not its tax status.
 
 Homepage form: _federated public compute that no single power can switch off or capture._
 
 1. **Lead with what works.** Inference, evaluation, adaptation, and constrained agent execution are feasible now. Cross-border frontier-scale *training* is not — promise "operate, adapt, and govern," not "train at the frontier."
 2. **The missing layer is not a GPU scheduler.** Runtimes exist (vLLM, Kubernetes/Kueue, Slurm, Ray, gateways). The gap is the **public-interest control-and-evidence layer** — the Charter's contribution.
 3. **Capture is dual and documented.** Compute can be switched off by one state and held by one firm; the architecture defeats **both** by design.
+
+**Local economic benefit is a legitimate driver.** Public compute is also industrial policy: building and operating nodes develops domestic skills, suppliers, and AI-capable firms, and gives each participating country a real economic stake — much of why states fund AI Factories, NAIRR, and national compute programmes. That economic development is a fair reason to invest, and it is fully compatible with a shared, governed network so long as the network stays openly governed and capture-resistant. It also widens access for researchers, startups, SMEs, and public bodies that cannot buy frontier capacity alone. This is how the compute pillar serves the Charter's mission of a public AI network that drives **societal resilience and economic prosperity**.
 
 ## Charter fit — the five public obligations
 
