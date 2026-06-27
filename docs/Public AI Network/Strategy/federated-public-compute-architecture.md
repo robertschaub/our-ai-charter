@@ -18,7 +18,7 @@ Homepage form: _federated public compute that no single power can switch off or 
 
 ## Charter fit — the five public obligations
 
-This architecture exists to make compute answer to the Charter's [five public obligations](../../../README.md), not only to run models:
+This architecture exists to make compute answer to the Charter's five public obligations (set out in the [Founding Accord](../../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)), not only to run models:
 
 | Obligation | How the architecture serves it |
 |---|---|
@@ -38,7 +38,7 @@ The network is a federation of **known, accountable entities** that peer like **
 
 | Workload | Feasibility today | Notes |
 |---|---|---|
-| Public chat / API **inference** | **High** | Proven: the [Public AI Inference Utility](https://publicai.co/) federates ~115k GPU-hours across ~20 clusters in 5+ countries behind one router ([HF, Sep 2025](https://huggingface.co/blog/inference-providers-publicai)). |
+| Public chat / API **inference** | **High** | Proven: the [Public AI Inference Utility](https://publicai.co/) serves open models behind one router; in its first month (Sept 2025) it drew on ~115k GPU-hours across ~20 donated clusters in 5+ countries ([HF, Sep 2025](https://huggingface.co/blog/inference-providers-publicai)) — re-verify current standing capacity. |
 | **Evaluation / red-team / batch** | **Very high** | Embarrassingly parallel; the natural first public-interest lane. |
 | **Agent** workloads | High **with strict controls** | Tools can execute code and access data — needs a tighter safety envelope than plain inference. |
 | **Adaptation** (LoRA, RAG, domain tuning) | High | Run near the data, under jurisdiction controls. [FlexOlmo](https://allenai.org/blog/flexolmo) lets owners contribute and **withdraw** experts without centralising data. |
@@ -61,7 +61,7 @@ Existing co-stewardship precedent worth naming: **[ICAIN](https://icain.ch/)** �
 
 ### The frontier caveat (why "operate/adapt/govern," not "train")
 
-Distributed training is real but bounded. Low-communication methods cut bandwidth needs 400×–10,000× ([Decoupled DiLoCo, Apr 2026](https://deepmind.google/blog/decoupled-diloco/)); the largest published decentralised pretraining is ~40B params. But there is a standing **~1.5–6× efficiency tax**, Prime Intellect's ~106B **INTELLECT-3 reverted to a centralised cluster** ([Nov 2025](https://www.implicator.ai/prime-intellects-intellect-3-open-source-ambition-meets-centralized-reality/)), and Epoch AI concludes decentralised training **"won't catch up to the frontier this decade"** ([Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale)). Mid-scale, cross-institution adaptation is the realistic horizon.
+Distributed training is real but bounded. Low-communication methods cut bandwidth needs 400×–10,000× ([Decoupled DiLoCo, Apr 2026](https://deepmind.google/blog/decoupled-diloco/)); the largest published decentralised pretraining is ~40B params. But there is a standing **~1.5–6× efficiency tax**, Prime Intellect's ~106B **INTELLECT-3 was reported to train on a centralised cluster** ([implicator.ai, Nov 2025](https://www.implicator.ai/prime-intellects-intellect-3-open-source-ambition-meets-centralized-reality/); confirm against Prime Intellect's own report before citing), and Epoch AI concludes decentralised training **"won't catch up to the frontier this decade"** ([Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale)). Mid-scale, cross-institution adaptation is the realistic horizon.
 
 ## 3. Architecture: a federated broker with an evidence plane
 
@@ -77,9 +77,9 @@ flowchart TB
   B --> P["Policy engine"]
   B --> R["Routing and scheduling adapter"]
   B --> C["Capability registry"]
-  R --> N1["Tier 1: trusted public HPC"]
-  R --> N2["Tier 2: institutional swarm"]
-  R --> N3["Tier 3: civic agent grid"]
+  R --> N1["C1: trusted public HPC"]
+  R --> N2["C2: institutional swarm"]
+  R --> N3["C3: civic agent grid"]
   N1 --> E["Evidence and accountability plane"]
   N2 --> E
   N3 --> E
@@ -100,15 +100,15 @@ Separate lanes because each has different latency, cost, risk, and governance ne
 
 ### Compute tiers (trust × latency)
 
-Lanes say *what* runs; tiers say *on whose hardware*, matched to trust and latency. The broker routes each request to the tier its privacy and latency demand:
+Lanes say *what* runs; **compute tiers (C1–C3)** say *on whose hardware*, matched to trust and latency. The broker routes each request to the tier its privacy and latency demand:
 
 | Tier | Compute | Best for | Integrity mechanism |
 |---|---|---|---|
-| **1 — Fast core** | Trusted public HPC / sovereign clusters (CSCS, EuroHPC); K8s/Ray | Synchronous, low-latency, **privacy-sensitive** queries — PII routes here only | Operator trust + confidential computing / attestation |
-| **2 — Institutional swarm** | Peered institutions pooling datacentre/workstation GPUs; pipeline-parallel serving of models no single member can host | Mid-latency inference of large open models | mTLS + node certificates + **redundant cross-check**; enclaves so hosts can't read model memory |
-| **3 — Civic agent grid** | Volunteer idle compute (citizens, small orgs); quantized local models via llama.cpp behind a secure job queue | **Latency-tolerant, parallelisable agentic/batch** work on **public data** (e.g. open fact-checking, source verification, dataset embedding) | **Redundant execution + consensus** across ≥3 nodes; no PII; sandboxed worker |
+| **C1 — Fast core** | Trusted public HPC / sovereign clusters (CSCS, EuroHPC); K8s/Ray | Synchronous, low-latency, **privacy-sensitive** queries — PII routes here only | Operator trust + confidential computing / attestation |
+| **C2 — Institutional swarm** | Peered institutions pooling datacentre/workstation GPUs; pipeline-parallel serving of models no single member can host | Mid-latency inference of large open models | mTLS + node certificates + **redundant cross-check**; enclaves so hosts can't read model memory |
+| **C3 — Civic agent grid** | Volunteer idle compute (citizens, small orgs); quantized local models via llama.cpp behind a secure job queue | **Latency-tolerant, parallelisable agentic/batch** work on **public data** (e.g. open fact-checking, source verification, dataset embedding) | **Redundant execution + consensus** across ≥3 nodes; no PII; sandboxed worker |
 
-The Tier-2 pipeline-parallel pattern was pioneered by **Petals** (BigScience) — a useful proof-of-concept but effectively dormant (last release 2023); adopt the *pattern* with maintained tooling, not the project. Tier 3 is "Folding@Home for public-interest AI agents": it fits exactly the latency-tolerant, embarrassingly-parallel work volunteer compute does well, and is the most direct route to **citizen participation** in public AI.
+The C2 pipeline-parallel pattern was pioneered by **Petals** (BigScience) — a useful proof-of-concept but effectively dormant (last release 2023); adopt the *pattern* with maintained tooling, not the project. C3 is "Folding@Home for public-interest AI agents": it fits exactly the latency-tolerant, embarrassingly-parallel work volunteer compute does well, and is the most direct route to **citizen participation** in public AI.
 
 ### Reference implementation stack
 
@@ -135,7 +135,7 @@ What makes "no single power can switch off or capture" defensible rather than a 
 - **Cut-off by sanctions:** AWS/Microsoft/Google suspended Russian cloud (2022) and forced firms off in 2024 ([TechCrunch](https://techcrunch.com/2022/03/10/amazon-microsoft-and-google-have-suspended-cloud-sales-in-russia/)).
 - **Weaponised dependency:** after US sanctions on the ICC prosecutor, his Microsoft email was reportedly cut; the ICC moved to open-source by Oct 2025 ([The Register](https://www.theregister.com/2025/10/31/international_criminal_court_ditches_office/)).
 - **No sovereignty on a US stack:** Microsoft France told the French Senate under oath (June 2025) it **could not guarantee** data against the US CLOUD Act ([databalance.eu](https://www.databalance.eu/en/microsoft-cloud-sovereignty-2026/)).
-- **Concentration:** 3 US hyperscalers hold ~66–68% of cloud; NVIDIA ~80–92% of AI accelerators with CUDA lock-in.
+- **Concentration (2025, re-verify):** the three US hyperscalers (AWS, Azure, GCP) hold roughly two-thirds of the global **cloud-infrastructure-services** market by revenue ([Statista, 2025](https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/)); NVIDIA holds an estimated **~80–90%+ of data-centre AI accelerators** ([carboncredits.com, 2025](https://carboncredits.com/nvidia-controls-92-of-the-gpu-market-in-2025-and-reveals-next-gen-ai-supercomputer/)), reinforced by CUDA lock-in. (Figures are vendor/analyst estimates on differing bases — revenue vs. shipment — so treat as orders of magnitude.)
 
 ### Precedents and what each teaches
 
@@ -166,15 +166,15 @@ Background: compute is uniquely governable (detectable, excludable, concentrated
 Capture-resistance and confidentiality come from boring, production-grade engineering — not exotic cryptography:
 
 - **Portability on open standards** (open weights/formats, portable orchestration) — the single biggest anti-capture lever; the difference between "portable" and "captured."
-- **Confidential computing (TEEs) + remote attestation** — run on infrastructure you don't own without the operator reading weights/data. <5–7% overhead for large-model inference on H100; near-zero on Blackwell ([benchmark](https://phala.com/posts/confidential-computing-on-nvidia-h100-gpu-a-performance-benchmark-study)). Fits Tier 1–2 institutional nodes. Caveats: no defence against physical access ([TEE.fail, Oct 2025](https://securityonline.info/tee-fail-researchers-break-intel-sgx-tdx-and-amd-sev-snp-with-sub-1000-ddr5-memory-bus-attack/)); attestation roots in the chip vendor — accept multiple roots and keep a non-TEE fallback.
-- **Redundant execution + consensus** — the integrity mechanism for untrusted Tier-3 volunteer nodes that lack server TEEs.
+- **Confidential computing (TEEs) + remote attestation** — run on infrastructure you don't own without the operator reading weights/data. <5–7% overhead for large-model inference on H100; near-zero on Blackwell ([benchmark](https://phala.com/posts/confidential-computing-on-nvidia-h100-gpu-a-performance-benchmark-study)). Fits C1–C2 institutional nodes. Caveats: no defence against physical access ([TEE.fail, Oct 2025](https://securityonline.info/tee-fail-researchers-break-intel-sgx-tdx-and-amd-sev-snp-with-sub-1000-ddr5-memory-bus-attack/)); attestation roots in the chip vendor — accept multiple roots and keep a non-TEE fallback.
+- **Redundant execution + consensus** — the integrity mechanism for untrusted C3 volunteer nodes that lack server TEEs.
 - **Federated learning + differential privacy** for data that legally cannot move (mature cross-device; costlier cross-silo).
 - **Weight escrow + reproducible builds** — continuity if a provider exits.
 - **Avoid crypto/DePIN compute markets as an anchor** — real for some inference/rendering, but unproven for serious training, token-fragile, with a GPU-spoofing history (io.net, 2024), and reputationally entangling for a public-interest network. Borrow their verification ideas (e.g. TOPLOC), not their token markets.
 
 ## 6. Access governance tiers
 
-Distinct from compute tiers (§3): these classify *users and data*, not hardware.
+Distinct from the compute tiers C1–C3 (§3): these classify *users and data*, not hardware.
 
 | Tier | Access | Workloads |
 |---|---|---|
@@ -183,7 +183,7 @@ Distinct from compute tiers (§3): these classify *users and data*, not hardware
 | **2 — institutional/research** | Approved institutions, stronger logging, data agreements | batch eval, adaptation, restricted research data |
 | **3 — sensitive-local** | Local node only, strict legal basis, no default cross-border routing | sensitive public-sector / regulated work |
 
-The first pilot stays in tiers 0–1. Tier 2 follows with formal partners. Tier 3 is **not** part of the first public claim.
+The first pilot stays in tiers 0–1; tier 2 follows with formal partners; tier 3 is **not** part of the first public claim.
 
 ## 7. MVP for Geneva 2027
 
@@ -191,7 +191,7 @@ The first pilot stays in tiers 0–1. Tier 2 follows with formal partners. Tier 
 
 Minimum build: **(1)** one gateway exposing 2–4 public models; **(2)** broker for project identity, quota, data-class policy, accounting; **(3)** one inference/cloud node + one independent research/HPC node; **(4)** model/node/evaluation cards, an incident channel, a monthly usage summary; **(5)** a public-data evaluation or multilingual civic-information agent; **(6)** admission criteria, prohibited-use baseline, conflict-of-interest disclosure, appeal/redress path, anti-capture rule.
 
-**Where to start.** Lead with the **inference + evaluation** MVP — lowest risk, and it builds directly on the proven public inference utility pattern. In parallel, prototype a small **civic agent grid** (Tier 3) as the citizen-participation track: latency-tolerant public-interest agents such as open fact-checking and source verification — the pattern behind FactHarbor (the maintainer's alpha prototype). The grid is the more distinctive story but carries higher reliability/coordination risk, so it should ride alongside — not replace — the inference MVP.
+**Where to start.** Lead with the **inference + evaluation** MVP — lowest risk, and it builds directly on the proven public inference utility pattern. In parallel, prototype a small **civic agent grid** (C3) as the citizen-participation track: latency-tolerant public-interest agents such as open fact-checking and source verification — the pattern behind FactHarbor (the maintainer's alpha prototype). The grid is the more distinctive story but carries higher reliability/coordination risk, so it should ride alongside — not replace — the inference MVP.
 
 Success is not global scale. Success is proving public compute can be shared under inspectable rules.
 
@@ -209,7 +209,7 @@ Success is not global scale. Success is proving public compute can be shared und
 | **Overclaiming** a global training cluster | Frame as a federation; start with inference/eval/batch/agent/fine-tune |
 | **Compute capture** (one state/funder/cloud/lab) | Publish allocation rules, routing logic, partner credits, conflicts of interest, accountability reports; apply the §4 design rules |
 | **Jurisdiction confusion** | Data classes, jurisdiction constraints, sovereign-only routing, auditable operator profiles |
-| **Node tampering / poisoning** | Node certificates (civic peering); redundant cross-check (Tier 2) and redundant-execution consensus (Tier 3) |
+| **Node tampering / poisoning** | Node certificates (civic peering); redundant cross-check (C2) and redundant-execution consensus (C3) |
 | **Agent abuse** | Tool allowlists, scoped permissions, sandboxing, budgets, human approval, full traces |
 | **HPC usability gap** | Dual stack: HPC for training/batch, cloud-native for APIs/serving/agents |
 | **Silicon / vendor lock-in** | Multi-vendor procurement, open formats, portability, weight escrow |
