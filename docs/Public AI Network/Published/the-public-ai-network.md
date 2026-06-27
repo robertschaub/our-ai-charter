@@ -1,4 +1,4 @@
-> **Status: PUBLISHED** — verbatim mirror of the LinkedIn article published 22 June 2026 (project links embedded as published).
+> **Status: PUBLISHED 2026-06-22** — verbatim mirror of the LinkedIn article published 22 June 2026 (project links embedded as published).
 > Canonical article: [https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)
 
 ## Accompanying feed post
