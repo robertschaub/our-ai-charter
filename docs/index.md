@@ -20,7 +20,7 @@ AI is becoming the infrastructure people learn, decide, work, and form opinion w
 
 <div class="feature-quote" markdown>
 <span class="mission-label">Our position</span>
-Open AI models now exist across many regions. But autarky is not sovereignty: resilience depends on shared infrastructure across free societies — standards, public evidence, accountable governance, and federated public compute that no single power can switch off or capture.
+Open, inspectable AI models now exist across many regions. But autarky is not sovereignty: resilience depends on shared infrastructure across free societies — standards, public evidence, accountable governance, and federated public compute that no single power can switch off or capture.
 </div>
 
 The current priority is the **Public AI Network**: a Switzerland-anchored, internationally oriented path toward public AI that free societies can inspect, govern, and contest. **Our AI Charter** is the trust and evidence layer behind that path — the obligations, evaluation discipline, and claim boundaries that keep public AI from becoming only an open model, a national label, or a vendor promise.
