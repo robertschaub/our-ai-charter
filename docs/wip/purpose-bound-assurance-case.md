@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — prototype (2026-06-28). The **second** worked obligation→duty bridge, built to test whether the instrument in [charter-structure-and-views.md](charter-structure-and-views.md) generalizes from a rights-led obligation ([Answerable to people](answerable-to-people-assurance-case.md)) to a **legitimacy-led** one. Pointer-level: routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties, inventing no new controls.
+> **Status: WORKING NOTES** — prototype (2026-06-28). The **second** worked obligation→duty bridge, built to test whether the instrument in [charter-structure-and-views.md](../AI%20Assurance%20and%20Certification/Architecture/charter-structure-and-views.md) generalizes from a rights-led obligation ([Answerable to people](answerable-to-people-assurance-case.md)) to a **legitimacy-led** one. Pointer-level: routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties, inventing no new controls.
 
 # Assurance case — *Purpose-bound* (obligation 1)
 

@@ -148,8 +148,6 @@ nav:
           - "Geneva 2027 — channel demand": wip/geneva-2027-channel-demand.md
           - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
           - "Public AI: control & evidence layer": wip/public-compute-control-evidence-layer.md
-          - "User-workflow governance & escalation": wip/user-workflow-governance.md
-          - "Charter structure: obligations & lenses": wip/charter-structure-and-views.md
           - "Assurance case: Answerable to people": wip/answerable-to-people-assurance-case.md
           - "Assurance case: Purpose-bound": wip/purpose-bound-assurance-case.md
           - "Assurance case: Safe/secure/private/resilient": wip/safe-secure-private-resilient-assurance-case.md
@@ -160,6 +158,9 @@ nav:
       - Trustworthy AI, Accountable to People: AI Assurance and Certification/Published/trustworthy-ai-accountable-to-people.md
       - The Founding Accord: AI Assurance and Certification/Framework/founding-accord.md
       - Certification model: AI Assurance and Certification/Framework/certification-model.md
+      - Architecture:
+          - "Charter structure: obligations & lenses": AI Assurance and Certification/Architecture/charter-structure-and-views.md
+          - "Governance from the AI user's workflow": AI Assurance and Certification/Architecture/user-workflow-governance.md
       - Protocol:
           - "Grounding, Faithfulness & Contestability": AI Assurance and Certification/Protocol/grounding-faithfulness-and-contestability.md
           - One-pager: AI Assurance and Certification/Protocol/one-pager.md

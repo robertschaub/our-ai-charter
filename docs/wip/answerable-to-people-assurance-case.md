@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — prototype (2026-06-28). The first worked **obligation→duty bridge**, built to test the instrument settled in [charter-structure-and-views.md](charter-structure-and-views.md) after a GPT-5.5 / Gemini 3.1 exchange. Pointer-level: it routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties and modules and invents no new controls. Aims to graduate into a certification-model annex once 2–3 obligations are worked and piloted.
+> **Status: WORKING NOTES** — prototype (2026-06-28). The first worked **obligation→duty bridge**, built to test the instrument settled in [charter-structure-and-views.md](../AI%20Assurance%20and%20Certification/Architecture/charter-structure-and-views.md) after a GPT-5.5 / Gemini 3.1 exchange. Pointer-level: it routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties and modules and invents no new controls. Aims to graduate into a certification-model annex once 2–3 obligations are worked and piloted.
 
 # Assurance case — *Answerable to people* (obligation 2)
 
