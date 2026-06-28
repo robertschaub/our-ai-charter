@@ -12,7 +12,7 @@ The compute pillar should be **federated public compute**: many independently op
 
 Homepage form: _federated public compute that no single power can switch off or capture._
 
-1. **Start from Apertus/PublicAI.** Apertus supplies a live, fully open Swiss model family; PublicAI supplies the closest live access layer (chat, API, distributed inference, public-governance posture). The broker/evidence plane should wrap and extend that pattern, not compete with it.
+1. **Start from what's already live; stay model-plural.** The public-inference-utility pattern (PublicAI — chat, API, distributed inference, public-governance posture) is the closest live access layer to wrap and extend, not compete with. Apertus is the strongest live *fully-open* model to start the first pilot with — Switzerland's contribution — but the network is **model-plural**: no model, and no country, is privileged in the rules.
 2. **Lead with what works.** Inference, evaluation, adaptation, and constrained agent execution are feasible now. Cross-border frontier-scale *training* is not — promise "operate, adapt, and govern," not "train at the frontier."
 3. **The missing layer is not a GPU scheduler.** Runtimes exist (vLLM, Kubernetes/Kueue, Slurm, Ray, gateways). The gap is the **public-interest control-and-evidence layer** — the Charter's contribution.
 4. **Capture is dual and documented.** Compute can be switched off by one state and held by one firm; the architecture defeats **both** by design.
@@ -62,19 +62,19 @@ The network is a federation of **known, accountable entities** that peer like **
 
 ### What is in specification or active development
 
-The live specification layer is **model-aware routing and multi-cluster dispatch**: Kubernetes Gateway API Inference Extension defines inference gateways, endpoint pickers, and model-aware routing; Envoy AI Gateway has reached a stable 1.0 release; Kueue/MultiKueue supplies beta multi-cluster batch dispatch. The research layer is **low-communication training and federated contribution**: Decoupled DiLoCo shows resilient cross-region training; Covenant-72B reports a 72B over-the-internet pretraining run; Tapestry and FlexOlmo explore institutional co-training and data-owner modules. The trust layer is **attestation and confidential computing**: NVIDIA Attestation and GPU TEEs make C1/C2 confidentiality more plausible, but not sufficient on their own.
+The live specification layer is **model-aware routing and multi-cluster dispatch**: Kubernetes Gateway API Inference Extension defines inference gateways, endpoint pickers, and model-aware routing; Envoy AI Gateway has reached a stable 1.0 release; Kueue/MultiKueue supplies beta multi-cluster batch dispatch. The research layer is **low-communication training and federated contribution**: Decoupled DiLoCo shows resilient cross-region training; Covenant-72B reports a 72B over-the-internet pretraining run on a permissionless blockchain network; Tapestry and FlexOlmo explore institutional co-training and data-owner modules. The trust layer is **attestation and confidential computing**: NVIDIA Attestation and GPU TEEs make C1/C2 confidentiality more plausible, but not sufficient on their own.
 
 Existing co-stewardship precedent worth naming: **[ICAIN](https://icain.ch/)** — Swiss-led (FDFA + ETH/EPFL/CSCS + CSC Finland), giving the Global South access to Alps/LUMI. The closest live model for "Switzerland as host/bridge," though its independent legal entity is **not yet built** — a template *and* a cautionary note.
 
-### Apertus/PublicAI: the starting anchor, not the competitor
+### Starting from what's live: the PublicAI pattern and the Apertus model
 
-Apertus is the strongest live model anchor: a Swiss AI Initiative model family from EPFL, ETH Zurich, and CSCS with open weights, data, code, methods, and documented training/evaluation; current public releases include 8B/70B and **Apertus Mini** 0.5B/1.5B/4B variants. PublicAI is the strongest live access anchor: its utility already offers chat/API access, OpenAI-compatible endpoints, distributed inference, national prompts/RAG experiments, and stated public-governance principles.
+**The access pattern (international): PublicAI.** Its public-inference utility already offers chat/API access, OpenAI-compatible endpoints, distributed inference, national prompts/RAG experiments, and stated public-governance principles — a live, multi-country pattern to wrap and extend, not a Swiss asset. **The first open model: Apertus.** A Swiss AI Initiative family (EPFL, ETH Zurich, CSCS) with open weights, data, code, methods, and documented training/evaluation; current releases include 8B/70B and **Apertus Mini** 0.5B/1.5B/4B. Read it precisely — *strongest fully-open, sovereign* anchor, not *strongest model*: frontier closed models still lead on raw capability, while Apertus leads on transparency, multilinguality, and provenance. It is Switzerland's contribution and the natural first model for a Swiss-anchored pilot — **one of several** open and sovereign families the network will serve.
 
-That means the architecture should be **Apertus-first federation**. The first pilot should not build a parallel public chat service; it should add the missing broker/evidence controls around an Apertus/PublicAI-style access layer: project eligibility, quota/allocation, node admission, data-class/jurisdiction routing, model/node/evaluation cards, incident/redress paths, and public usage reports. The second proof point is a genuinely independent node/provider under the same rules.
+That means a clean split: **the network is model-plural and neutrally governed** — the broker is model-agnostic, the published model list carries several open and sovereign families (e.g. Ai2's OLMo, OpenGPT-X's Teuken, EuroLLM), and no model is privileged in the rules — while **the first pilot starts from what is already live** (the PublicAI pattern, serving Apertus). **Model plurality is itself an anti-capture control**: the same §4 logic that rejects a single off-switch rejects a single-model dependency. The first pilot should not build a parallel public chat service; it should add the missing broker/evidence controls around a public-inference-utility access layer (PublicAI-style, serving Apertus): project eligibility, quota/allocation, node admission, data-class/jurisdiction routing, model/node/evaluation cards, incident/redress paths, and public usage reports. The second proof point is a genuinely independent node/provider — ideally also a second model family — under the same rules.
 
 ### The frontier caveat (why "operate/adapt/govern," not "train")
 
-Distributed training is real but bounded. Low-communication methods are improving quickly: [Decoupled DiLoCo](https://deepmind.google/blog/decoupled-diloco/) reports an 8-datacentre bandwidth cut from 198 Gbps to 0.84 Gbps and a 12B model trained across four US regions; [Covenant-72B](https://arxiv.org/html/2603.08163v2) reports a 72B over-the-internet pretraining run with permissionless peers. That moves the frontier of **technical feasibility**, but it does not make a public network a near-term frontier-training system. Epoch AI still finds today's largest decentralised networks far behind frontier datacentres and concludes that they are unlikely to catch frontier training scale this decade ([Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale)). For the Public AI Network, mid-scale continued pretraining, adaptation, evaluation, and resilient inference are the realistic horizon.
+Distributed training is real but bounded, and the boundary is what sets the promise. The decentralised-training field's own leader makes the point: Prime Intellect's ~106B **INTELLECT-3** was trained on a **centralised 512×H200 cluster**, not over the internet ([Prime Intellect, Dec 2025](https://www.primeintellect.ai/blog/intellect-3); confirm against their technical report before citing) — and a standing **~1.5–6× efficiency tax**, with the largest published decentralised pretrains on the order of tens of billions of parameters, keeps over-the-internet training off the frontier. The methods are improving fast: [Decoupled DiLoCo](https://deepmind.google/blog/decoupled-diloco/) cut inter-datacentre bandwidth from 198 Gbps to 0.84 Gbps and trained a 12B model across four US regions, and a 72B over-the-internet run now exists ([Covenant-72B](https://arxiv.org/abs/2603.08163)) — though it ran on a token-incentivised **blockchain** network, exactly the crypto/DePIN substrate §5 says not to anchor on. That all moves **technical feasibility**, not the near-term reality for a public network: Epoch AI still finds the largest decentralised networks far behind frontier datacentres and unlikely to catch frontier training scale this decade ([Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale)). For the Public AI Network, mid-scale continued pretraining, adaptation, evaluation, and resilient inference are the realistic horizon.
 
 ## 3. Architecture: PublicAI today, broker/evidence next
 
@@ -88,53 +88,56 @@ flowchart TB
   D["Developers / apps"] --> API["PublicAI Platform API<br/>/v1/chat/completions"]
   C --> EDGE["Edge / access controls<br/>CloudFront + WAF in AWS blueprint"]
   API --> EDGE
-  EDGE --> AUTH["Auth / accounts<br/>SSO or API keys"]
+  EDGE --> AUTH["Auth / accounts<br/>Amazon Cognito (SSO / API keys)"]
   AUTH --> ROUTER["PublicAI routing layer<br/>global load balancing"]
   ROUTER --> AWS["AWS Europe (Zurich)<br/>EKS Auto Mode deployment"]
   ROUTER --> PARTNER["Partner / donated clusters<br/>OpenAI-compatible vLLM servers"]
-  APERTUS["Apertus models<br/>8B / 70B + Mini variants"] --> AWS
-  APERTUS --> PARTNER
-  AWS --> GUARD["Guardrails / safety checks<br/>AWS blueprint uses Bedrock Guardrails"]
-  AWS --> V8["vLLM serving<br/>Apertus 8B on Intel EC2"]
-  AWS --> V70["vLLM serving<br/>Apertus 70B on GPU instances"]
+  AWS --> GUARD["Guardrails (inline, per request)<br/>Bedrock Guardrails in AWS blueprint"]
+  GUARD --> V8["vLLM serving<br/>Apertus 8B on Intel R8i EC2"]
+  GUARD --> V70["vLLM serving<br/>Apertus 70B on GPU instances"]
   AWS --> STATE["State and artifacts<br/>Aurora / ElastiCache / S3 / EFS / ECR"]
   PARTNER --> PVLLM["Distributed inference<br/>vLLM + OpenAI-compatible APIs"]
+  APERTUS["Apertus weights<br/>8B / 70B + Mini variants"] -.->|deployed on| V8
+  APERTUS -.->|deployed on| V70
+  APERTUS -.->|deployed on| PVLLM
 ```
 
-What exists already: a live public-model access surface, Apertus as the flagship Swiss model family, API/chat access, distributed inference, and at least one documented production deployment pattern. What is not yet shown here: public allocation rules, formal node admission, common data-class routing, signed evidence cards, redress, and anti-capture governance.
+What exists already: a live public-model access surface, Apertus as the flagship Swiss model family, API/chat access, distributed inference, and at least one documented production deployment pattern. What is not yet shown here: public allocation rules, formal node admission, common data-class routing, signed evidence cards, redress, and anti-capture governance. Note the tension this map makes visible — the flagship anchor today runs partly on a **US hyperscaler (AWS Zurich) with US-rooted Bedrock Guardrails**, the very stack §4 shows one jurisdiction can toggle. That is not a reason to avoid it; it is the clearest reason the broker, portability, and multi-vendor layers below exist.
 
-### Proposed Apertus-first federated broker
+### Proposed federated broker (model-plural, neutrally governed)
 
 ```mermaid
 flowchart TB
   U["Users, civic apps, public-interest agents"] --> A["Public access layer<br/>Apertus/PublicAI-compatible chat + API"]
-  A --> G["AI gateway and model router"]
+  A --> G["AI gateway<br/>model-endpoint routing"]
   A --> W["Workload API<br/>evaluation, adaptation, agent tasks"]
   G --> B["Policy broker"]
   W --> B
   B --> I["Identity and eligibility"]
   B --> Q["Quota and allocation ledger"]
   B --> P["Policy engine"]
-  B --> C["Capability registry"]
+  B --> C["Capability registry<br/>several open/sovereign models"]
   B --> Z["Evidence requirements"]
-  B --> R["Routing and scheduling adapter"]
-  R --> N0["C1: Apertus/PublicAI-style reference node"]
+  B --> R["Node/tier dispatch<br/>routing & scheduling adapter"]
+  R --> N0["C1: reference inference node<br/>PublicAI-style utility — one of several"]
   R --> N1["C1: trusted public HPC / sovereign clusters"]
   R --> N2["C2: institutional federation"]
   R --> N3["C3: civic agent grid"]
   N0 --> E["Evidence and accountability plane"]
-  N1 --> E["Evidence and accountability plane"]
+  N1 --> E
   N2 --> E
   N3 --> E
   E --> M["Model & node cards"]
   E --> O["Observability and accounting"]
   E --> V["Evaluation records"]
   E --> X["Incidents, redress, public reports"]
+  O -.->|accounting feeds quota| Q
+  X -.->|incidents inform policy| P
 ```
 
 - **Public access layer** — the front door: PublicAI-compatible chat/API where useful, a batch endpoint for evaluation, a budgeted agent-task endpoint, and a published model list with model + evidence cards. Simple by design; complexity lives behind it.
 - **Policy broker** — the core public-interest addition beyond today's PublicAI/Apertus access layer. Decides *whether* a workload may run, *where*, and *what evidence must be kept*: identity & affiliation, eligibility & public-interest purpose, quota/budget/contribution accounting, jurisdiction & data-class routing, model/node trust tiers, abuse-response + appeal, and signed execution records.
-- **Compute nodes** — locally operated and locally governed; the Apertus/PublicAI-style reference node is the first anchor, and additional nodes publish capability records (Appendix), grouped into the three tiers below.
+- **Compute nodes** — locally operated and locally governed; a live public-inference-utility node (PublicAI-style, serving Apertus in the first pilot) is the first reference node, and additional nodes publish capability records (Appendix), grouped into the three tiers below.
 - **Evidence & accountability plane** — **where the Charter is strongest**: model/openness cards, node + dependency cards, evaluation records, workload summaries, incidents + mitigations, quota/allocation reports, unresolved-risk notes, and an explicit note of *what was not logged and why*. Distinguish public evidence from confidential assessor evidence from data that must not be retained.
 
 ### Workload lanes
@@ -199,7 +202,7 @@ Background: compute is uniquely governable (detectable, excludable, concentrated
 2. **Split-layer voting** — majority for operations; supermajority/unanimity for budget, director, admissions, and cost-share.
 3. **Funding decoupled from control** — contribution buys access, not the rules.
 4. **Neutral host** — Switzerland's actual comparative advantage (rule of law, IGO-hosting).
-5. **Open, multi-vendor stack** — break the NVIDIA/CUDA + hyperscaler chokepoint (LUMI's AMD/ROCm path is the existing hedge).
+5. **Open, multi-vendor, multi-model stack** — break the NVIDIA/CUDA + hyperscaler chokepoint (LUMI's AMD/ROCm path is the existing hedge), and avoid single-model dependency: the broker serves several open and sovereign model families, with no model privileged in the rules.
 6. **Autonomous verification** — evaluation/inspection outside any single member's hands.
 
 **Residual risk to state honestly:** silicon. Every pool except China's runs on US accelerators under US licences. This is "sovereignty not autarky," truthfully — mitigate with multi-vendor procurement and jurisdictional spread; do not claim full-stack independence.
@@ -234,7 +237,7 @@ The first pilot stays in tiers 0–1; tier 2 follows with formal partners; tier 
 
 Minimum build: **(1)** one gateway exposing 2–4 public models; **(2)** broker for project identity, quota, data-class policy, accounting; **(3)** one inference/cloud node + one independent research/HPC node; **(4)** model/node/evaluation cards, an incident channel, a monthly usage summary; **(5)** a public-data evaluation or multilingual civic-information agent; **(6)** admission criteria, prohibited-use baseline, conflict-of-interest disclosure, appeal/redress path, anti-capture rule.
 
-**Where to start.** Lead with an **Apertus/PublicAI-backed inference + evaluation** MVP — lowest risk, and it builds directly on the nearest live pattern. Use Apertus as the flagship model family and PublicAI's chat/API pattern as the access precedent; add the missing broker/evidence controls around it, then federate a second independently operated node/provider. In parallel, prototype a small **civic agent grid** (C3) as the citizen-participation track: latency-tolerant public-interest agents such as open fact-checking and source verification — the pattern behind FactHarbor (the maintainer's alpha prototype). The grid is the more distinctive story but carries higher reliability/coordination risk, so it should ride alongside — not replace — the inference MVP.
+**Where to start.** Lead with an **Apertus/PublicAI-backed inference + evaluation** MVP — lowest risk, and it builds directly on the nearest live pattern. The first pilot is Apertus-anchored simply because that is where the live, fully-open assets sit today, not as a Swiss-leadership claim; the network's rules stay model-plural (§3). Use Apertus as the flagship model family and PublicAI's chat/API pattern as the access precedent; add the missing broker/evidence controls around it, then federate a second independently operated node/provider — ideally a second model family. In parallel, prototype a small **civic agent grid** (C3) as the citizen-participation track: latency-tolerant public-interest agents such as open fact-checking and source verification — the pattern behind FactHarbor (the maintainer's alpha prototype). The grid is the more distinctive story but carries higher reliability/coordination risk, so it should ride alongside — not replace — the inference MVP.
 
 Success is not global scale. Success is proving public compute can be shared under inspectable rules.
 
@@ -310,8 +313,8 @@ PublicAIWorkload:
 
 ## Bottom line
 
-The strongest architecture for the Public AI Network is an **Apertus-first federated public-compute broker with an evidence plane**, peered as **civic infrastructure** (known, accountable nodes — not a permissionless swarm), governed by **split-layer, funding-decoupled, multi-vendor, neutrally-hosted** rules, and protected by **portability + TEEs/attestation + operational controls**. The runtime and first public-model access pattern already exist in Apertus/PublicAI. What is missing — and what the Charter can credibly contribute — is the public-interest control-and-evidence layer: who gets access, for what purpose, on which node, with what model, under which evidence obligations, with which redress path, and with what protections against capture.
+The strongest architecture for the Public AI Network is a **federated public-compute broker with an evidence plane** — **model-plural and neutrally governed**, with a first pilot that starts from what is already live (the PublicAI access pattern, serving Apertus) — peered as **civic infrastructure** (known, accountable nodes — not a permissionless swarm), governed by **split-layer, funding-decoupled, multi-vendor, neutrally-hosted** rules, and protected by **portability + TEEs/attestation + operational controls**. The runtime and first public-model access pattern already exist (PublicAI/Apertus). What is missing — and what the Charter can credibly contribute — is the public-interest control-and-evidence layer: who gets access, for what purpose, on which node, with what model, under which evidence obligations, with which redress path, and with what protections against capture.
 
 ## Sources
 
-Operational anchors — [Apertus](https://apertvs.ai/) · [Apertus technical information](https://apertvs.ai/pages/documentation/) · [Apertus Mini](https://apertvs.ai/articles/2026-06-apertus-mini/) · [Apertus for Ticino](https://apertvs.ai/articles/2026-03-ticino/) · [Public AI Inference Utility](https://publicai.co/stories/utility) · [PublicAI Platform/API](https://platform.publicai.co/docs) · [PublicAI Apertus deployment note](https://publicai.co/stories/apertus) · [PublicAI AWS/Intel deployment blueprint](https://aws.amazon.com/blogs/apn/how-public-ai-delivers-sovereign-llm-inference-on-aws-and-intel/) · [publicai.ch / SPIU](https://publicai.ch/) · [EuroHPC AI Factories](https://www.eurohpc-ju.europa.eu/ai-factories_en) · [EuroHPC AI Gigafactories](https://www.eurohpc-ju.europa.eu/ai-gigafactories_en) · [CSCS Alps / Apertus (ETH, Sep 2025)](https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html) · [ICAIN](https://icain.ch/) · [NAIRR](https://www.nsf.gov/focus-areas/ai/nairr) · [NSF ACCESS](https://access-ci.org/). Implementation/spec layer — [Kubernetes Gateway API Inference Extension](https://gateway-api-inference-extension.sigs.k8s.io/) · [Envoy AI Gateway v1.0](https://aigateway.envoyproxy.io/release-notes/v1.0/) · [Kueue/MultiKueue](https://kueue.sigs.k8s.io/docs/concepts/multikueue/) · [Slurm federation](https://slurm.schedmd.com/federation.html). Distributed training & data contribution — [Decoupled DiLoCo (DeepMind, Apr 2026)](https://deepmind.google/blog/decoupled-diloco/) · [Covenant-72B (arXiv, Mar 2026)](https://arxiv.org/html/2603.08163v2) · [FlexOlmo (Ai2, Jul 2025)](https://allenai.org/blog/flexolmo) · [Project Tapestry](https://thealliance.ai/projects/tapestry) · [Epoch AI, Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale). Trust — [NVIDIA Attestation](https://docs.nvidia.com/attestation/index.html) · [Confidential computing on H100 (benchmark)](https://phala.com/posts/confidential-computing-on-nvidia-h100-gpu-a-performance-benchmark-study) · [TEE.fail, Oct 2025](https://tee.fail/) · [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices). Governance & political economy — [Computing Power and the Governance of AI (Feb 2024)](https://arxiv.org/abs/2402.08797) · [Building CERN for AI](https://cfg.eu/building-cern-for-ai/) · [Who controls Europe's AI future? (Open Future, Feb 2026)](https://openfuture.eu/blog/who-controls-europes-ai-future/) · [Chatham House — middle powers (Feb 2026)](https://www.chathamhouse.org/2026/02/how-middle-powers-can-weather-us-and-chinese-ai-dominance). Capture precedents — [BIS H200 licensing rule (Jan 2026)](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china) · [ICC moves off Microsoft (Oct 2025)](https://www.theregister.com/2025/10/31/international_criminal_court_ditches_office/) · [Microsoft France / CLOUD Act (Jun 2025)](https://www.databalance.eu/en/microsoft-cloud-sovereignty-2026/).
+Operational anchors — [Apertus](https://apertvs.ai/) · [Apertus technical information](https://apertvs.ai/pages/documentation/) · [Apertus Mini](https://apertvs.ai/articles/2026-06-apertus-mini/) · [Apertus for Ticino](https://apertvs.ai/articles/2026-03-ticino/) · [Public AI Inference Utility](https://publicai.co/stories/utility) · [PublicAI Platform/API](https://platform.publicai.co/docs) · [PublicAI Apertus deployment note](https://publicai.co/stories/apertus) · [PublicAI AWS/Intel deployment blueprint](https://aws.amazon.com/blogs/apn/how-public-ai-delivers-sovereign-llm-inference-on-aws-and-intel/) · [publicai.ch / SPIU](https://publicai.ch/) · [EuroHPC AI Factories](https://www.eurohpc-ju.europa.eu/ai-factories_en) · [EuroHPC AI Gigafactories](https://www.eurohpc-ju.europa.eu/ai-gigafactories_en) · [CSCS Alps / Apertus (ETH, Sep 2025)](https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html) · [ICAIN](https://icain.ch/) · [NAIRR](https://www.nsf.gov/focus-areas/ai/nairr) · [NSF ACCESS](https://access-ci.org/). Implementation/spec layer — [Kubernetes Gateway API Inference Extension](https://gateway-api-inference-extension.sigs.k8s.io/) · [Envoy AI Gateway v1.0](https://aigateway.envoyproxy.io/release-notes/v1.0/) · [Kueue/MultiKueue](https://kueue.sigs.k8s.io/docs/concepts/multikueue/) · [Slurm federation](https://slurm.schedmd.com/federation.html). Distributed training & data contribution — [Decoupled DiLoCo (DeepMind, Apr 2026)](https://deepmind.google/blog/decoupled-diloco/) · [INTELLECT-3 trained centrally (Prime Intellect, Dec 2025)](https://www.primeintellect.ai/blog/intellect-3) · [Covenant-72B (arXiv, Mar 2026)](https://arxiv.org/abs/2603.08163) · [FlexOlmo (Ai2, Jul 2025)](https://allenai.org/blog/flexolmo) · [Project Tapestry](https://thealliance.ai/projects/tapestry) · [Epoch AI, Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale). Trust — [NVIDIA Attestation](https://docs.nvidia.com/attestation/index.html) · [Confidential computing on H100 (benchmark)](https://phala.com/posts/confidential-computing-on-nvidia-h100-gpu-a-performance-benchmark-study) · [TEE.fail, Oct 2025](https://tee.fail/) · [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices). Governance & political economy — [Computing Power and the Governance of AI (Feb 2024)](https://arxiv.org/abs/2402.08797) · [Building CERN for AI](https://cfg.eu/building-cern-for-ai/) · [Who controls Europe's AI future? (Open Future, Feb 2026)](https://openfuture.eu/blog/who-controls-europes-ai-future/) · [Chatham House — middle powers (Feb 2026)](https://www.chathamhouse.org/2026/02/how-middle-powers-can-weather-us-and-chinese-ai-dominance). Capture precedents — [BIS H200 licensing rule (Jan 2026)](https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china) · [ICC moves off Microsoft (Oct 2025)](https://www.theregister.com/2025/10/31/international_criminal_court_ditches_office/) · [Microsoft France / CLOUD Act (Jun 2025)](https://www.databalance.eu/en/microsoft-cloud-sovereignty-2026/).
