@@ -74,6 +74,8 @@ Everything above is the *supply* side (how trust is produced) and its *operation
 
 All three read capabilities (runtime) and assurance claims under the same honesty discipline — scoped, depth-labelled, never a guarantee. They are not *certification* authorities — but a directory, a claim-surface, and an inspection feed **bear real public power** (they steer discovery, procurement, and trust), so they are **governed surfaces** (plural, anti-capture, contestable, honest), not neutral plumbing.
 
+*Cross-stream: **Find** (discovery/navigation) and the **capabilities** half of *Check* are also the Public AI Network's "how it's used" (see its [overview](../../Public%20AI%20Network/network-overview.md)); the **assurance** half of Check and **Watch** (inspection) are this accountability side.*
+
 ## Accountability — standing, authority, consequence
 
 For a charter that is *accountable to people*, producing, surfacing, and checking claims is not enough — it must also say **who may challenge a claim, who answers for it, who interprets the Charter when one is contested, and what follows when one is unsupported.** This is the third leg, alongside the two planes and the demand side, and it mostly **unifies pieces the Charter already has**:

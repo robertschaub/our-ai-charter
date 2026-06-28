@@ -29,18 +29,22 @@ Holding them together: **accountable, anti-capture governance**, plus the **dema
 
 ## How it's used
 
-*(This describes the **federated layer** — the system the network is building.)* Through one public front door, different people would reach public models for different work:
+*(This describes the **federated layer** — the system the network is building.)* Using the network is a short path — **find → check → use**:
+
+- **Find / navigate** — discover the providers and models in the network and navigate to one that fits the need (purpose, capability, jurisdiction, language, openness), comparing on what each publishes. The directory is **plural and neutral — never a single gatekeeper** (whoever controls discovery controls the market).
+- **Check** — query a provider's **capabilities** (what it is for, its limits) and its **assurance** (what has been independently checked — the [trust layer](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)), kept visibly distinct, and honest about what is *not* yet verified.
+- **Use** — reach it through one public front door; access tiered by *who you are* and *how sensitive the data is* (not by hardware), with work in lanes — inference, evaluation, adaptation, later co-training, agents. [Access model.](Architecture/federated-public-compute-architecture.md)
+
+Different people use it for different work:
 - a **citizen or journalist** — public Q&A with sources they can check;
 - a **researcher** — evaluation, red-teaming, model adaptation;
 - a **public institution** — a service it can inspect, contest, and rely on, rather than a black box it cannot govern;
 - a **developer / civic app** — building on open models under clear terms;
 - a **constrained agent** — a bounded public-interest task (e.g. source verification).
 
-Access would be tiered by *who you are* and *how sensitive the data is* — not by hardware — with work in lanes (inference, evaluation, adaptation, later co-training, agents). [Access model.](Architecture/federated-public-compute-architecture.md)
-
 ## How it's built
 
-Building the **federated layer** would be federated and phased, not one system switched on at once:
+Building the **federated layer** is federated and phased, not one system switched on at once:
 - **Define & align → prototype** (one governed front door, a few public models) **→ federate** (add a second, independent node) **→ institutionalise** (neutral host, published rules).
 - **The federated MVP** (the Geneva-2027 target): one governed API, several public models, **≥ 2 independently-operated nodes**, transparent quota rules, public model/node/evaluation cards, one public-interest use case, and a governance blueprint. [Architecture §8.](Architecture/federated-public-compute-architecture.md)
 - **Who builds what:** the Charter brings the **assurance + governance rules** and the evidence schema; **operators** bring compute; **model providers** bring open models; a **neutral host** convenes — and, by design, none of them controls the rules.
@@ -60,19 +64,19 @@ Ordinary **users** simply *use* the public front door once it exists; the roles 
 
 *If something goes wrong, accountability is role-specific:* the **deployer** answers to affected people for the service; the **operator** for the infrastructure and its participation terms; **contributors** for the claims and provenance they supply; **stewards** for the rules; and the **adjudicator** resolves disputes independently.
 
-**The terms an operator / provider would accept** — qualification gated on the *public-interest terms accepted, not tax status* (so cooperative, academic, nonprofit, mission-aligned commercial, and sovereign-cloud operators can all take part):
+**The terms an operator / provider accepts** — qualification gated on the *public-interest terms accepted, not tax status* (so cooperative, academic, nonprofit, mission-aligned commercial, and sovereign-cloud operators can all take part):
 - capability + dependency **disclosure**; **portability** (open weights / formats where applicable); a declared purpose + **prohibited-use** baseline; **quota** limits; conflict-of-interest disclosure; a redress path + named incident contact; submission to attestation / audit-sampling.
-- **By design, no participant will control** the rules, admissions, enforcement, or the evaluation findings **about itself**: operators have a *structured voice* in governance, not control, and contributing compute or money does not buy governance control.
+- **By design, no participant controls** the rules, admissions, enforcement, or the evaluation findings **about itself**: operators have a *structured voice* in governance, not control, and contributing compute or money does not buy governance control.
 
-**How admission is meant to work (concept-level)** — four powers kept apart, so admission cannot become a chokepoint:
+**How admission works, by design** — four powers kept apart, so admission cannot become a chokepoint:
 1. **eligibility rules** — published, by role, set by the steward body;
 2. the **admission decision** — rules-based (not invitation-based) and appealable;
-3. **verification** of claims — early on this would be signed commitments + disclosure + provisional self-attestation, with independent review and audit-sampling added as the assurance layer matures;
+3. **verification** of claims — early on, signed commitments + disclosure + provisional self-attestation, with independent review and audit-sampling added as the assurance layer matures;
 4. **appeal / dispute** — to the independent adjudicator.
 
-Status would be **not binary**: *applicant → provisional → evidence-reviewed → restricted/suspended → former*, on a public register showing the role and the verification level.
+Status is **not binary**: *applicant → provisional → evidence-reviewed → restricted/suspended → former*, on a public register showing the role and the verification level.
 
-**How the governance is designed to keep joining fair and capture-resistant:** rules published, not invitation-only; obligations **proportionate to risk and scale** (so small and Global-South operators are not burdened out); no pay-to-rank; revocable for cause; and **membership is not a trust badge** — only what is verified may be claimed.
+**What keeps joining fair and capture-resistant:** rules published, not invitation-only; obligations **proportionate to risk and scale** (so small and Global-South operators are not burdened out); no pay-to-rank; revocable for cause; and **membership is not a trust badge** — only what is verified may be claimed.
 
 ## What this is / is not
 
