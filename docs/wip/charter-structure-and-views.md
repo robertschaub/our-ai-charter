@@ -31,12 +31,29 @@ The bridge is a **Claims → Arguments → Evidence** view: each obligation (cla
 
 ***Answerable to people*** fills the same four blocks but is rights-led, and exposes machinery the honesty example doesn't: *scope* = consequential decisions about people; *accountability* = a named human institution, never "the algorithm"; *controls/evidence* = notice, explanation, human review, preserved records; *remedy* = individual challenge **and**, for patterns, collective / regulator-triggered review. The other three obligations fill the same card; full text in the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md).
 
+## Two planes — assurance and runtime
+
+Cutting across the spine is the distinction the rest depends on: **assurance** (assessment-time) and **runtime** (operation-time) are different planes.
+
+- **Assurance plane** — *about* the system: periodic, outside the request path, producing a **warranted claim + evidence + depth** (obligations → duties → modules). This is the "AI Assurance & Certification" work.
+- **Runtime plane** — *in* the system: per-decision, in the request path, producing an **action + a trace** (purpose-admission, the gates, the trace-wide/escalate-narrow policy, the operating envelope, human-in-the-loop).
+
+Runtime is the **object** of assurance, not a rival authority: the Charter *certifies*, it does not *run*. So the runtime model — the [user-workflow note](user-workflow-governance.md) — is the **reference model the assurance plane assesses**, sitting below the obligations as what-gets-checked. Five interfaces keep the planes bound so neither floats free:
+
+1. **assured scope → runtime envelope** — the assessed release bounds what runtime may do; drift voids the claim (why a silent version swap is a withdrawal trigger).
+2. **runtime trace → assurance evidence** — runtime produces the evidence plane; assurance consumes it.
+3. **runtime drift/incident → re-assurance / withdrawal** (duty 8).
+4. **shared risk calibrator** — the assessed tier sets how hard the runtime gates bite.
+5. **honesty-of-process across both** — one claim-discipline governs the report *and* the live AI-notice/confidence.
+
+(Analogues: control plane vs data plane; the EU AI Act's conformity assessment vs post-market monitoring.)
+
 ## The lenses — a small, fixed set
 
 Read the card through these; they do not replace it. **Each lens renders a usable artifact** (see *How it's used*) — the lenses are how the obligation-spine becomes navigable for real readers.
 
 1. **Actor-kind** — assigned *by role in a given context, not by fixed identity*; one entity can hold several at once (a hospital is deployer, data supplier, and affected institution; a worker is user, duty-holder, and rights-holder). The kinds: **rights/interest-holders** (whom an obligation protects) · **duty-holders** (who must act) · **oversight actors** (auditor/regulator/court/ombuds — public accountability runs *through* them, but reporting and cooperation duties also run *to* them) · **meta-governance** (the Charter steward/certifier — its own independence and capture duties).
-2. **Two lifecycles** — the slow **system lifecycle** (conceive → assess → procure → authorize → deploy → monitor → incident → update → retire) and the fast **consequential-event lifecycle** for an action *involving* AI (purpose/authority/notice → AI processing/recommendation/**action** → effectuation within an authorised envelope → explanation → challenge → remedy → systemic learning). Both open with a **legitimacy gate** — *is this lawful, necessary, proportionate, within the authorised envelope?* — **before** any controls or evidence. Before/during/after belongs *here*, as one lens, not as the spine.
+2. **Two lifecycles** — the slow **system lifecycle** (conceive → assess → procure → authorize → deploy → monitor → incident → update → retire) and the fast **consequential-event lifecycle** for an action *involving* AI (purpose/authority/notice → AI processing/recommendation/**action** → effectuation within an authorised envelope → explanation → challenge → remedy → systemic learning). Both open with a **legitimacy gate** — *is this lawful, necessary, proportionate, within the authorised envelope?* — **before** any controls or evidence. Before/during/after belongs *here*, as one lens, not as the spine. (These two are the **cadences of the two planes** above — system lifecycle = assurance, consequential-event = runtime.)
 3. **Layer** — data/knowledge/**provenance** · model/component · application/system · compute/infrastructure · then the *levels of analysis*: human workflow · institution/governance · ecosystem/society. Data/provenance is first-class, and is **legal as well as technical** (consent, licensing, source authority, chain of custody, version lineage); honesty depends on it.
 4. **Risk / context calibrator** — sets *assurance intensity* (assessment depth, oversight, independence, disclosure, re-check cadence) from severity, likelihood, reversibility, scale, autonomy, dependency, vulnerability, domain, and essential-service status.
 5. **Collective ↔ individual impact** — individual → group → community → polity → commons → environment. Sets *remedy route and evidence type*: individual challenge at one end; aggregate monitoring, disparity testing, and regulator/representative routes at the other. **This axis joins the two workstreams** — the Assurance layer's *affected person* and the Public AI Network's *sovereignty / anti-capture* concern are its two ends.
@@ -51,10 +68,11 @@ The spine is the architecture; the lenses are how it becomes usable. Each render
 
 ## Where the existing pieces sit
 
-- [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) — the spine itself (obligations + operational duties; owner, legal-scope, assurance-depth, and withdrawal all live here).
-- [Grounding-Faithfulness & Contestability](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) — the factual-output honesty module, at the data + deployed-system layers.
-- [Control-and-evidence layer](public-compute-control-evidence-layer.md) — duty-holder + oversight view at the compute layer, on the system lifecycle.
-- [User-workflow governance](user-workflow-governance.md) — the user role-card, on the consequential-event lifecycle.
+- [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) — **assurance plane**: the spine (obligations + operational duties; owner, legal-scope, assurance-depth, withdrawal).
+- [Grounding-Faithfulness & Contestability](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) — **assurance plane**: the factual-output honesty module (data + deployed-system layers).
+- The five obligation assurance-cases (e.g. [Answerable to people](answerable-to-people-assurance-case.md)) — **assurance plane**: the obligation→duty CAE views.
+- [Control-and-evidence layer](public-compute-control-evidence-layer.md) — **the seam**: a policy broker (runtime) + an evidence plane (assurance).
+- [User-workflow governance](user-workflow-governance.md) — **runtime plane**: the runtime reference model the assurance plane assesses.
 
 ## What this is / is not
 
