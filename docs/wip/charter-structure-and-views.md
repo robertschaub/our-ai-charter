@@ -66,6 +66,16 @@ Labour/worker, environment/resource, creator/copyright, sovereignty/Global-South
 
 The spine is the architecture; the lenses are how it becomes usable. Each renders a navigable artifact: **role cards** (actor-kind), **lifecycle checklists** (the two lifecycles), **risk-tier profiles** (calibrator), a **remedy map** (impact). The [user-workflow note](user-workflow-governance.md) is the first of these — the *user role-card on the consequential-event lifecycle*. Working the four-block view per obligation (as a **CAE / obligation×duty crosswalk**) is the next step; it graduates into a **certification-model annex**, not the Accord body. All five obligations are now prototyped as `wip/` CAE views — [answerable](answerable-to-people-assurance-case.md) (rights-led), [purpose-bound](purpose-bound-assurance-case.md) (legitimacy-led, with a hard gate), [safe-secure-private-resilient](safe-secure-private-resilient-assurance-case.md) (technical, effectiveness-led), [fair-in-practice](fair-in-practice-assurance-case.md) (collective, measurement-led), and [open-to-evidence](open-to-evidence-assurance-case.md) (the honesty wedge, partly meta) — ready to migrate into a certification-model annex.
 
+## The demand side — find, check, watch
+
+Everything above is the *supply* side (how trust is produced) and its *operation*. The outward, consumer-facing side — how a person or their agent actually engages the network — is three surfaces, described here as **concepts and principles, not interfaces**:
+
+- **Find — discovery & navigation.** Locate providers that match a need, and navigate the network. *Principles:* match on **scoped, depth-labelled assurance**, never an "approved/safe" badge; the directory must be **plural and neutral, never a single gatekeeper** (the index is a chokepoint — a captured registry is a captured market), extending the network's anti-capture ethos to its own front door; serve humans and agents alike.
+- **Check — the [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md).** Read, for a chosen system, what it is for and what has been assured — **self-declared and independently-assured kept distinct**, and publicly checkable.
+- **Watch — runtime inspection.** See what the system is actually doing, live and after the fact. *Principles:* **differentiated, least-exposure access** (each audience sees only its appropriate slice — your own session, an affected person's decision, an assessor's sample, the public's aggregates); **verifiable, not self-reported**; **privacy-bounded** (confirm behaviour without exposing content); and **inspectability is itself assessed** (the assurance plane checks whether adequate inspection is afforded, and to what depth).
+
+All three are **demand-side consumers of the two planes**, not new authorities: they read capabilities (runtime) and assurance claims under the same honesty discipline — scoped, depth-labelled, never a guarantee.
+
 ## Where the existing pieces sit
 
 - [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) — **assurance plane**: the spine (obligations + operational duties; owner, legal-scope, assurance-depth, withdrawal).
@@ -73,7 +83,7 @@ The spine is the architecture; the lenses are how it becomes usable. Each render
 - The five obligation assurance-cases (e.g. [Answerable to people](answerable-to-people-assurance-case.md)) — **assurance plane**: the obligation→duty CAE views.
 - [Control-and-evidence layer](public-compute-control-evidence-layer.md) — **the seam**: a policy broker (runtime) + an evidence plane (assurance).
 - [User-workflow governance](user-workflow-governance.md) — **runtime plane**: the runtime reference model the assurance plane assesses.
-- [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md) — **the seam, made queryable** (design sketch): interfaces 1–2 as a signed, discoverable surface; profile-don't-invent; Phase-2/3.
+- [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md) — the demand side's **check** surface (design sketch): a system's capabilities + assurance claim-state, made discoverable, self-declared and assured kept distinct; Phase-2/3.
 
 ## What this is / is not
 
