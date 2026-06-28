@@ -4,7 +4,7 @@
 
 *Working scratch — 2026-06-25 · WIP · public-safe.*
 
-A holding area for working outputs from the Geneva 2027 contribution / artifact-planning session (2026-06-25). These are **working notes, not part of the curated, normative doc set** — published on the site but flagged *WIP*. Treat as provisional; re-verify before relying on or publishing anything here.
+A holding area for **working notes** — provisional outputs not yet part of the curated, normative doc set, published on the site but flagged *WIP*. Most stem from the Geneva 2027 contribution / artifact-planning session (2026-06-25); others are standalone design syntheses. Treat as provisional; re-verify before relying on or publishing anything here.
 
 ## Scope & safety
 
@@ -17,6 +17,8 @@ A holding area for working outputs from the Geneva 2027 contribution / artifact-
 - **[geneva-2027-channel-demand.md](geneva-2027-channel-demand.md)** — grounded "demand side": what each channel (Swissnex fellowship; the official Geneva 2027 process; Current AI; Apertus/SNAI) actually accepts as an artifact, the official process's five guiding questions verbatim, plus two factual corrections to fix in the curated docs.
 - **[geneva-2027-keystone-memo.md](geneva-2027-keystone-memo.md)** — the assembled, forwardable **keystone memo** (problem → the four-part package as an MVP → why economic benefit is a basis for success → the ask → honest status); the spine for the fellowship application and downstream routes. Promotable to Outreach/ as a `DRAFT` once a carrier group exists.
 - **[public-compute-control-evidence-layer.md](public-compute-control-evidence-layer.md)** — cooperator-facing one-pager: what the Public AI Network adds on top of existing compute — the public-interest **control-and-evidence layer** (eight policy-broker decisions / evidence-plane records) and the **assurance-&-adjudication** layer that makes it accountable. Grounded; citations web-verified. Derived from the [compute architecture](../Public%20AI%20Network/Strategy/federated-public-compute-architecture.md) note + a GPT-5.5 review.
+- **[user-workflow-governance.md](user-workflow-governance.md)** — the **user-side** companion to the control-and-evidence layer: governance from the **AI user's workflow** — five steps, the *allowed/able/owns-it* human thread, gates with fail-actions, and (the operative core) **when an AI must escalate vs. merely trace**, calibrated to user and use-case so it never trains the user to click "allow all." Design synthesis from a 2026-06-28 working session.
+- **[charter-structure-and-views.md](charter-structure-and-views.md)** — the structural map: how the Charter organizes its perspectives — **obligations as the spine** (an obligation × interests/duty-holders/lifecycle/layers/evidence/remedy matrix) with everything else as **navigation lenses** (four actor-kinds; two lifecycles; layers incl. data/provenance; a risk calibrator; the collective↔individual axis that joins the two workstreams) or modules. Re-bases the earlier four-axis sketch after a GPT-5.5 review.
 
 ## Related outputs already saved elsewhere
 
