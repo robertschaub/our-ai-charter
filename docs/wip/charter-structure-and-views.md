@@ -47,7 +47,7 @@ Labour/worker, environment/resource, creator/copyright, sovereignty/Global-South
 
 ## How it's used — lenses render artifacts
 
-The spine is the architecture; the lenses are how it becomes usable. Each renders a navigable artifact: **role cards** (actor-kind), **lifecycle checklists** (the two lifecycles), **risk-tier profiles** (calibrator), a **remedy map** (impact). The [user-workflow note](user-workflow-governance.md) is the first of these — the *user role-card on the consequential-event lifecycle*. Working the four-block view per obligation (as a **CAE / obligation×duty crosswalk**) is the next step; it graduates into a **certification-model annex**, not the Accord body. The first one is prototyped in [answerable-to-people-assurance-case.md](answerable-to-people-assurance-case.md).
+The spine is the architecture; the lenses are how it becomes usable. Each renders a navigable artifact: **role cards** (actor-kind), **lifecycle checklists** (the two lifecycles), **risk-tier profiles** (calibrator), a **remedy map** (impact). The [user-workflow note](user-workflow-governance.md) is the first of these — the *user role-card on the consequential-event lifecycle*. Working the four-block view per obligation (as a **CAE / obligation×duty crosswalk**) is the next step; it graduates into a **certification-model annex**, not the Accord body. The first two are prototyped — a rights-led obligation in [answerable-to-people-assurance-case.md](answerable-to-people-assurance-case.md) and a legitimacy-led one in [purpose-bound-assurance-case.md](purpose-bound-assurance-case.md) (which showed the view also needs a hard pass/fail legitimacy gate alongside the depth-graded rows).
 
 ## Where the existing pieces sit
 
