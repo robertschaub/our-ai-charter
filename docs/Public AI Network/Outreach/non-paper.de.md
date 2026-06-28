@@ -32,6 +32,7 @@ Dies richtig zu gestalten ist nicht nur eine Wertefrage. Eine offene, ko-getrage
 - Transparente Annahmen und überprüfbare, reproduzierbare Methoden.
 - Klare Trennung zwischen strategischer Aufsicht und operativem Geschäft; die politische Vertretung erfolgt auf Strategieebene, nicht im Tagesgeschäft.
 - Unabhängige Aufsichtsgremien ausserhalb der Exekutive, ergänzt durch öffentlich zugängliche Audit-Berichte.
+- Nachweis über die Selbstauskunft hinaus: Attestierung sowie Audit- und Stichprobenrechte mit Sanktionen bei falscher Attestierung, und eine Schlichtungsinstanz ausserhalb jedes einzelnen Beteiligten.
 - Transparente, mehrheitlich öffentliche oder gemeinnützige Finanzierung. Kommerzielle Partner werden offengelegt, üben jedoch keine steuernde Funktion aus.
 - Internationale Ko-Trägerschaft von Beginn an.
 
@@ -39,7 +40,7 @@ Dies richtig zu gestalten ist nicht nur eine Wertefrage. Eine offene, ko-getrage
 
 - Ein übertragbares **Governance-Modell (Blueprint)** für eine Public-AI-Infrastruktur, das an Current AI und weitere internationale Initiativen anknüpfen kann.
 - Eine **offene Evaluations- und Rechenschaftspraxis**, die auf nachprüfbaren und reproduzierbaren Methoden basiert.
-- Ein **Pilotprojekt** mit offenem Zugang zu Inferenz und Daten, aufbauend auf bestehender Schweizer Infrastruktur (Apertus/SNAI als Governance-Pilot, nicht als endgültige Gesamtlösung).
+- Ein **Pilotprojekt** mit offenem Zugang zu Inferenz und Daten, aufbauend auf bestehender Schweizer Infrastruktur (Apertus/SNAI als Governance-Pilot, nicht als endgültige Gesamtlösung). Sein Beitrag ist die gemeinwohlorientierte Kontroll- und Nachweisschicht um den bestehenden Zugang — die für jede Nutzung festhält, wer sie nutzen darf, zu welchem Zweck, auf welchem Knoten, mit welchem Modell und mit welcher Datenprovenienz.
 - Der Aufbau einer kompakten **Koalition** aus Schweizer und internationalen Partnern.
 - Ein **von der Schweiz organisierter Roundtable** im Vorfeld des Gipfels.
 

@@ -32,6 +32,7 @@ Getting this right is not only a matter of values. An open, co-stewarded layer k
 - Transparent assumptions combined with verifiable, reproducible methods.
 - Clear separation between strategic oversight and day-to-day operations; political representation must remain at the strategy level, not in operational execution.
 - Independent oversight bodies outside the executive branch, supplemented by publicly accessible audit reports.
+- Assurance beyond self-reporting: attestation and audit/sampling rights with penalties for false attestation, and a named adjudicator sitting outside any single participant.
 - Transparent, majority public or non-profit financing. Commercial partners are disclosed but exercise no controlling function.
 - International co-stewardship from the very beginning.
 
@@ -39,7 +40,7 @@ Getting this right is not only a matter of values. An open, co-stewarded layer k
 
 - A transferable **governance blueprint** for Public AI infrastructure, compatible with Current AI and other international initiatives.
 - An **open evaluation and accountability practice** based on verifiable and reproducible methods.
-- A **pilot project** providing open access to inference and data, building upon existing Swiss infrastructure (utilizing Apertus/SNAI as a governance pilot, not as the final comprehensive solution).
+- A **pilot project** providing open access to inference and data, building upon existing Swiss infrastructure (utilizing Apertus/SNAI as a governance pilot, not as the final comprehensive solution). Its contribution is the public-interest control-and-evidence layer wrapped around existing access — recording, for each workload, who may use it, for what purpose, on which node, with what model, and with what data provenance.
 - The formation of a compact **coalition** consisting of Swiss and international partners.
 - A **Swiss-hosted roundtable** in the run-up to the summit.
 

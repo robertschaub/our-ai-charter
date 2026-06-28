@@ -21,7 +21,7 @@ Roles are as recorded in the [actor & landscape map](../Evidence/actors-and-land
 |---|---|---|
 | **A. Official summit process** | Offer the governance + evidence layer as *additive* to Switzerland's preparation, not a rival plan | Amb. Markus Reubi (EDA, summit lead); Amb. Thomas Schneider (BAKOM) |
 | **A′. Swiss AI Action Plan** | A ~1-page contributor input to the governance track — only once the [go/no-go bar](swiss-action-plan-contribution.md) is met | digitalswitzerland (Franziska Barmettler / Action-Plan team) with BAKOM |
-| **B. Public-AI infrastructure node** *(strongest substantive fit)* | Position the Charter as the governance/evidence layer for the open public model — a "governance pilot," raised as an open question *with* SNAI, not as criticism | Joshua Tan (Public AI / Metagov); publicai.ch / SPIU (Oleg Lavrovsky, Sabine Wildemann); Apertus leads (Antoine Bosselut, Martin Jaggi, Imanol Schlag); SNAI (Alexander Ilic, Andreas Krause) |
+| **B. Public-AI infrastructure node** *(strongest substantive fit)* | Position the Charter as the governance/evidence layer for open public models — the PublicAI access *pattern* serving Apertus and other open/sovereign families — a "governance pilot," raised as an open question *with* SNAI, not as criticism | Joshua Tan (Public AI / Metagov); publicai.ch / SPIU (Oleg Lavrovsky, Sabine Wildemann); Apertus leads (Antoine Bosselut, Martin Jaggi, Imanol Schlag); SNAI (Alexander Ilic, Andreas Krause) |
 | **C. Neutral pre-sprint** | A neutral convenor runs a scoped Policy Sprint that *produces* the blueprint and one evaluation outline | Expedition Zukunft (Océane Dayer, Florian Egli); alternatives: GSPI (Nicolas Seidler), GESDA (Marilyne Andersen), IHEID Tech Hub (Jérôme Duberry) |
 | **D. International-Geneva convening** | Plug into the multilateral tracks and middle-power framing around the summit | ICT4Peace (Daniel Stauffacher); DiploFoundation / GIP (Jovan Kurbalija, Stephanie Borg Psaila); UNIDIR (Robin Geiss); ITU AI for Good (Frederic Werner); UN Independent International Scientific Panel on AI (Menna El-Assady); ICAIN (Katharina Frey — Global-South co-stewardship) |
 | **D′. Framing allies** | Co-frame and validate the "network, not a fortress" thesis | Alex Krasodomski (Chatham House, Public AI fellow); Robert Trager (Oxford Martin) |
@@ -32,7 +32,7 @@ Roles are as recorded in the [actor & landscape map](../Evidence/actors-and-land
 
 A relative order by fit and feasibility, not a fixed plan:
 
-1. **Substance first — Route B.** The open public model (Apertus / SNAI) and the Public AI network are the closest fit; engage as an open governance question, not a critique.
+1. **Substance first — Route B.** Open public models (Apertus / SNAI) and the Public AI network are the closest fit; engage as an open governance question, not a critique.
 2. **Produce the blueprint — Route C.** A neutral pre-sprint turns the idea into a 2-page initiation memo a convenor and a council member can carry.
 3. **Open doors — Route D.** International-Geneva conveners supply multilateral framing and visibility.
 4. **Then the front door — Route A**, once there is a coalition and one concrete deliverable to show.

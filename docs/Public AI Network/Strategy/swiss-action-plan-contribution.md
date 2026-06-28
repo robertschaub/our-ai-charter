@@ -28,6 +28,7 @@ A go/no-go layer for filing a public-interest contribution into the Swiss AI Act
 - **Title (for reviewers):** *"Open Evaluation and Public-AI Governance: Contributor Input for Smart AI Governance."*
 - **Base:** the [Non-Paper](../Outreach/non-paper.en.md).
 - **Scope:** one track (Smart AI Governance) only — no cross-track pitch; ~1 page; contributor *input*, not a formal action proposal.
+- **The additive contribution:** a light-touch evidence-and-assurance *pattern* — per-workload records of purpose, model, **data provenance**, and redress, plus an adjudication function outside any single actor — that complements innovation-friendly governance without creating a new institution (model-plural; Apertus cited only as the Swiss pilot anchor, not the network's required model).
 
 **Overclaim audit (must pass before filing):**
 
@@ -36,6 +37,7 @@ A go/no-go layer for filing a public-interest contribution into the Swiss AI Act
 - [ ] No FactHarbor maturity claim — at most "early open-source prototype exploring evidence-record formats"
 - [ ] No implied endorsement or existing coalition (intent ≠ fact)
 - [ ] Additive to "innovation-friendly governance"; not a heavier-regulation or new-institution pitch
+- [ ] Stays **model-plural and neutrally framed** — no single model or country privileged (Apertus may be cited as the Swiss pilot anchor, not the governed network's required model)
 - [ ] No private correspondence or contact data included
 
 ## Open parameters to confirm

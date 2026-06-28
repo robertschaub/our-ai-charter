@@ -15,7 +15,7 @@ The report should set out which models of institutional stewardship and governan
 
 1. Ensuring traceable provenance of data, models, and funds, together with transparent assumptions and verifiable, reproducible methods;
 2. Transparent funding — for example, majority-public or non-profit — in which commercial contributions are disclosed but exercise no controlling function;
-3. Effective protection against political and commercial capture, through independent oversight outside the executive, publicly accessible audit reports, and clearly defined responsibilities;
+3. Effective protection against political and commercial capture, through independent oversight outside the executive — including attestation and audit/sampling rights and an adjudication function not controlled by any single participant — publicly accessible audit reports, and clearly defined responsibilities;
 4. An internationally open and multilingual orientation that also connects to the AI Summit 2027 in Geneva.
 
 In addition, the report should set out possible fields of action for the Confederation as well as concrete next steps. These should be aligned in substance with the thrust of the two digital-sovereignty motions adopted by the Council of States — Motion 24.3209 ("For a sovereign digital infrastructure in Switzerland in the age of artificial intelligence") and Motion 26.3221 ("Impetus programme to strengthen Switzerland's digital sovereignty").

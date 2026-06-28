@@ -26,8 +26,8 @@ The hard intellectual content already exists — five obligations, eight duties,
 - **Go / no-go:** need ≥1 external rater pair + adjudicator, one open-weight model to run on, and a statistician's sign-off on the single-use-case sampling **before** any published number. No-go if it would mean publishing an uncalibrated pass/fail.
 
 ### 3. Governed public-inference pilot → first public evaluation report + report index
-*Form precedent: Public AI Inference Utility (publicai.co — the live access point for Apertus); DPGA registry (index model).*
-- **Minimum first release:** a public-service charter for **one** running utility serving **one** model (origin, usage limits, safeguards, incident reporting, redress) + one published evaluation report, listed in a minimal public index.
+*Form precedent: Public AI Inference Utility (publicai.co — the live international access *pattern*, serving Apertus among several models); DPGA registry (index model).*
+- **Minimum first release:** a public-service charter for **one** running utility serving **one** model *to start, under model-plural rules* (origin, usage limits, safeguards, incident reporting, redress) — i.e. the policy-broker / evidence-plane controls of the [control-and-evidence one-pager](public-compute-control-evidence-layer.md), including a data-provenance record and a **named adjudicator outside any single member** with graduated sanctions — plus one published evaluation report, listed in a minimal public index.
 - **Co-producer:** publicai.ch / Public AI / Metagov (utility), SNAI/Apertus (model), an independent assessor, a neutral host for the index (OASIS / Linux Foundation).
 - **Go / no-go:** a utility willing to **adopt** the public-service charter and expose a model; grant or volunteer raters to fund the eval. No-go if it reads as critique of Apertus/SNAI rather than docking onto it.
 

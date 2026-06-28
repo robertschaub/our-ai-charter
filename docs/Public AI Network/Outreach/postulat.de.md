@@ -15,7 +15,7 @@ Der Bericht soll aufzeigen, welche Trägerschafts- und Governance-Modelle einen 
 
 1. Gewährleistung einer nachvollziehbaren Herkunft (Provenance) von Daten, Modellen und Mitteln sowie die Sicherstellung transparenter Annahmen und überprüfbarer, reproduzierbarer Methoden;
 2. Eine transparente — beispielsweise mehrheitlich öffentliche oder gemeinnützige — Finanzierung, bei der kommerzielle Beiträge zwar offengelegt werden, jedoch keine steuernde Funktion ausüben;
-3. Wirksamer Schutz vor politischer und kommerzieller Vereinnahmung durch eine unabhängige Aufsicht ausserhalb der Exekutive, öffentlich zugängliche Audit-Berichte und klar geregelte Verantwortlichkeiten;
+3. Wirksamer Schutz vor politischer und kommerzieller Vereinnahmung durch eine unabhängige Aufsicht ausserhalb der Exekutive — einschliesslich Attestierungs-, Audit- und Stichprobenrechten sowie einer Schlichtungsfunktion, die von keinem einzelnen Beteiligten kontrolliert wird —, öffentlich zugängliche Audit-Berichte und klar geregelte Verantwortlichkeiten;
 4. Eine international offene und mehrsprachige Ausrichtung, die zudem an den KI-Gipfel 2027 in Genf anknüpft.
 
 Zusätzlich soll der Bericht mögliche Handlungsfelder für den Bund sowie konkrete nächste Schritte darlegen. Diese sollen inhaltlich auf die Stossrichtung der beiden vom Ständerat angenommenen Motionen zur digitalen Souveränität abgestimmt sein — Motion 24.3209 („Für eine souveräne digitale Infrastruktur in der Schweiz im Zeitalter der künstlichen Intelligenz”) und Motion 26.3221 („Impulsprogramm zur Stärkung der digitalen Souveränität der Schweiz”).
