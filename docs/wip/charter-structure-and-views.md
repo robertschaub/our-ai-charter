@@ -73,6 +73,7 @@ The spine is the architecture; the lenses are how it becomes usable. Each render
 - The five obligation assurance-cases (e.g. [Answerable to people](answerable-to-people-assurance-case.md)) — **assurance plane**: the obligation→duty CAE views.
 - [Control-and-evidence layer](public-compute-control-evidence-layer.md) — **the seam**: a policy broker (runtime) + an evidence plane (assurance).
 - [User-workflow governance](user-workflow-governance.md) — **runtime plane**: the runtime reference model the assurance plane assesses.
+- [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md) — **the seam, made queryable** (design sketch): interfaces 1–2 as a signed, discoverable surface; profile-don't-invent; Phase-2/3.
 
 ## What this is / is not
 
