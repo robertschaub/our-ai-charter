@@ -1,6 +1,6 @@
 # Governance from the AI user's workflow
 
-*Where the [control-and-evidence layer](../../wip/public-compute-control-evidence-layer.md) asks how an **operator** proves a workload is trustworthy, this asks what a **person doing real work with AI** must demand, do, and decide — step by step — and, above all, when the AI must **stop and ask**. It operationalises, from the user's side, what the [Founding Accord](../Framework/founding-accord.md) frames as provider obligations (notice, human review, remedy, oversight).*
+*Where the [control-and-evidence layer](../wip/public-compute-control-evidence-layer.md) asks how an **operator** proves a workload is trustworthy, this asks what a **person doing real work with AI** must demand, do, and decide — step by step — and, above all, when the AI must **stop and ask**. It operationalises, from the user's side, what the [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) frames as provider obligations (notice, human review, remedy, oversight).*
 
 ## In one line
 

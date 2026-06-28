@@ -118,6 +118,9 @@ extra:
 nav:
   - Home: index.md
   - Start here: start-here.md
+  - Concepts:
+      - "Structuring the Charter — obligations, planes, lenses": Concepts/charter-structure-and-views.md
+      - "Governance from the AI user's workflow": Concepts/user-workflow-governance.md
   - Public AI Network:
       - Overview — what it is & how to join: Public AI Network/network-overview.md
       - Briefing (strategy & asks): Public AI Network/briefing.md
@@ -160,9 +163,6 @@ nav:
       - Trustworthy AI, Accountable to People: AI Assurance and Certification/Published/trustworthy-ai-accountable-to-people.md
       - The Founding Accord: AI Assurance and Certification/Framework/founding-accord.md
       - Certification model: AI Assurance and Certification/Framework/certification-model.md
-      - Architecture:
-          - "Charter structure: obligations & lenses": AI Assurance and Certification/Architecture/charter-structure-and-views.md
-          - "Governance from the AI user's workflow": AI Assurance and Certification/Architecture/user-workflow-governance.md
       - Protocol:
           - "Grounding, Faithfulness & Contestability": AI Assurance and Certification/Protocol/grounding-faithfulness-and-contestability.md
           - One-pager: AI Assurance and Certification/Protocol/one-pager.md

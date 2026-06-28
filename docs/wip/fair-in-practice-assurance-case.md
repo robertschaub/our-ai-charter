@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — prototype (2026-06-28). Fourth worked obligation→duty bridge, testing the instrument in [charter-structure-and-views.md](../AI%20Assurance%20and%20Certification/Architecture/charter-structure-and-views.md) on the **collective, measurement-led** obligation. Pointer-level; routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties, inventing no new controls.
+> **Status: WORKING NOTES** — prototype (2026-06-28). Fourth worked obligation→duty bridge, testing the instrument in [charter-structure-and-views.md](../Concepts/charter-structure-and-views.md) on the **collective, measurement-led** obligation. Pointer-level; routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties, inventing no new controls.
 
 # Assurance case — *Fair in practice* (obligation 4)
 
