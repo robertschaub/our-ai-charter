@@ -2,7 +2,7 @@
 
 How to build the Public AI Network's compute pillar as federated, governed public capacity — not a single global GPU pool.
 
-*Naming: throughout, **the Public AI Network** is the umbrella effort; **the federation** (the federated public-compute layer) is the concrete system designed here — see the [overview](network-overview.md).*
+*Naming: throughout, **the Public AI Network** is the umbrella effort; **the federation** (the federated public-compute layer) is the concrete system designed here — see the [overview](../network-overview.md).*
 
 _As of June 2026; re-verify figures and program statuses before public citation. Sources at the end._
 
