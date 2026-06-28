@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — design synthesis (2026-06-28), shaped by two GPT-5.5 cross-model reviews. Settles how the Charter organizes its perspectives. Companion to the [user-workflow](user-workflow-governance.md) and [control-and-evidence](public-compute-control-evidence-layer.md) notes; the obligations and duties it points to live in the [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md).
+> **Status: WORKING NOTES** — design synthesis (2026-06-28), shaped by two GPT-5.5 reviews and a GPT-5.5 / Gemini 3.1 cross-model exchange. Settles how the Charter organizes its perspectives. Companion to the [user-workflow](user-workflow-governance.md) and [control-and-evidence](public-compute-control-evidence-layer.md) notes; the obligations and duties it points to live in the [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md).
 
 # Structuring the Charter: obligations as spine, views as lenses
 
@@ -12,9 +12,11 @@ The spine is the Charter's **five public obligations**. Every other cut — who 
 
 Why obligations, not "stakeholder seat": a perspective-led structure fragments one obligation across many seats and conflates four kinds of actor. An obligation-led structure keeps the Charter what it already is, is shaped toward an assurance framework (**claims → controls → evidence**) rather than a tour of viewpoints, and keeps honesty *evidentiary* rather than rhetorical.
 
-## The spine — an obligation × assurance card
+## The spine — and the obligation→duty bridge
 
-Each obligation is specified across four blocks; each block resolves to an existing Accord duty rather than restating it:
+The five obligations are the spine — but they are **public claims, not assessable units.** The **eight operational duties (plus modules) stay the single source of audit truth**; an obligation's status is **derived** from the duty/module findings that support it, never scored on its own. This is the rule that stops a readable per-obligation summary from becoming a "legitimacy wrapper" — easier to pass than the assurance beneath it — and a GPT-5.5 / Gemini 3.1 exchange converged hard on it.
+
+The bridge is a **Claims → Arguments → Evidence** view: each obligation (claim) → the duties that *argue* it → the modules that *evidence* it, at a risk-tiered assurance depth. Rendered per obligation it has four blocks — **a view over the duties, not a new control layer** — each resolving to an existing Accord duty rather than restating it:
 
 1. **Scope & trigger** — when the obligation applies and at what risk tier *(→ legal-scope map; risk register, duties 2–3)*.
 2. **Accountability** — interests protected · the named accountable owner + supporting duty-holders · the oversight route *(→ duty 1)*.
@@ -45,7 +47,7 @@ Labour/worker, environment/resource, creator/copyright, sovereignty/Global-South
 
 ## How it's used — lenses render artifacts
 
-The spine is the architecture; the lenses are how it becomes usable. Each renders a navigable artifact: **role cards** (actor-kind), **lifecycle checklists** (the two lifecycles), **risk-tier profiles** (calibrator), a **remedy map** (impact). The [user-workflow note](user-workflow-governance.md) is the first of these — the *user role-card on the consequential-event lifecycle*. **Obligation cards** (working the four blocks per obligation) are the next step, and the point at which this map becomes Accord/certification content rather than a `wip/` note.
+The spine is the architecture; the lenses are how it becomes usable. Each renders a navigable artifact: **role cards** (actor-kind), **lifecycle checklists** (the two lifecycles), **risk-tier profiles** (calibrator), a **remedy map** (impact). The [user-workflow note](user-workflow-governance.md) is the first of these — the *user role-card on the consequential-event lifecycle*. Working the four-block view per obligation (as a **CAE / obligation×duty crosswalk**) is the next step; it graduates into a **certification-model annex**, not the Accord body. The first one is prototyped in [answerable-to-people-assurance-case.md](answerable-to-people-assurance-case.md).
 
 ## Where the existing pieces sit
 
@@ -56,4 +58,4 @@ The spine is the architecture; the lenses are how it becomes usable. Each render
 
 ## What this is / is not
 
-A structural **map**, reasoned through and cross-model reviewed — not normative text, and not yet the assurance spec (no per-obligation cards, thresholds, or RACI; those graduate into the Accord). The one change from the first sketch: the spine is **obligations**, not stakeholder seats — and "seat" splits into four role-based actor-kinds that become one lens among several.
+A structural **map**, reasoned through and cross-model reviewed — not normative text, and not yet the assurance spec (no thresholds or RACI; the per-obligation CAE views graduate into a certification-model annex, not the Accord). The one change from the first sketch: the spine is **obligations**, not stakeholder seats — and "seat" splits into four role-based actor-kinds that become one lens among several.
