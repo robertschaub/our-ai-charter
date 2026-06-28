@@ -119,7 +119,9 @@ nav:
   - Home: index.md
   - Start here: start-here.md
   - Public AI Network:
-      - Overview — what it is & how to join: Public AI Network/network-overview.md
+      - Architecture:
+          - Overview — what it is & how to join: Public AI Network/Architecture/network-overview.md
+          - Federated public-compute architecture: Public AI Network/Architecture/federated-public-compute-architecture.md
       - Briefing (strategy & asks): Public AI Network/briefing.md
       - The Public AI Network: Public AI Network/Published/the-public-ai-network.md
       - "AI Sovereignty and Resilience (EN)": Public AI Network/Published/ai-sovereignty-and-resilience.md
@@ -133,7 +135,6 @@ nav:
           - Geneva 2027 — contribution routes and partners: Public AI Network/Strategy/geneva-2027-options.md
           - Geneva 2027 — Swissnex/Mercator fellowship & plan: Public AI Network/Strategy/geneva-2027-swissnex-fellowship.md
           - Digital-sovereignty motions (24.3209 + 26.3221): Public AI Network/Strategy/digital-sovereignty-motions.md
-          - Federated public compute architecture: Public AI Network/Strategy/federated-public-compute-architecture.md
           - Swiss Action-Plan contribution: Public AI Network/Strategy/swiss-action-plan-contribution.md
       - Outreach:
           - "Non-Paper (EN)": Public AI Network/Outreach/non-paper.en.md
