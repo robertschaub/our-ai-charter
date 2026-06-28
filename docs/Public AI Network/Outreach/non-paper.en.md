@@ -40,7 +40,7 @@ Getting this right is not only a matter of values. An open, co-stewarded layer k
 
 - A transferable **governance blueprint** for Public AI infrastructure, compatible with Current AI and other international initiatives.
 - An **open evaluation and accountability practice** based on verifiable and reproducible methods.
-- A **pilot project** providing open access to inference and data, building upon existing Swiss infrastructure (utilizing Apertus/SNAI as a governance pilot, not as the final comprehensive solution). Its contribution is what turns that access into trust: public AI that **answers to the people who rely on it** — open enough that they can weigh its claims before acting on them, and beyond any single power's reach to capture or switch off — not just access to a model.
+- A **pilot project** providing open access to inference and data, building upon existing Swiss infrastructure (utilizing Apertus/SNAI as a governance pilot, not as the final comprehensive solution). Its contribution is the governance that makes that access trustworthy — public AI that is **accountable to the people who rely on it** (its claims and limits open enough to weigh before acting) and **capture-resistant** (beyond any single power's reach to switch off or control).
 - The formation of a compact **coalition** consisting of Swiss and international partners.
 - A **Swiss-hosted roundtable** in the run-up to the summit.
 
