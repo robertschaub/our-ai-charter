@@ -140,6 +140,21 @@ flowchart TB
 - **Compute nodes** — locally operated and locally governed; a live public-inference-utility node (PublicAI-style, serving Apertus in the first pilot) is the first reference node, and additional nodes publish capability records (Appendix), grouped into the three tiers below.
 - **Evidence & accountability plane** — **where the Charter is strongest**: model/openness cards, node + dependency cards, evaluation records, workload summaries, incidents + mitigations, quota/allocation reports, unresolved-risk notes, and an explicit note of *what was not logged and why*. Distinguish public evidence from confidential assessor evidence from data that must not be retained.
 
+### The missing layer, concretely
+
+The bottom-line claim unpacks into eight decisions the **policy broker** makes and the records the **evidence plane** keeps — each a public-interest control on a capability primitive that already exists but is blind to the public interest (existing identity, scheduling, registry, and telemetry systems answer *can this run?*, not *may it — for whom, accountably, contestably?*):
+
+1. **Who gets access** — eligibility/accreditation, tier, and quota, not merely a valid token → allocation record.
+2. **For what purpose** — a declared purpose and prohibited-use baseline checked at admission, backed by abuse/misuse monitoring (a declaration is not a defence) → admission decision.
+3. **On which node** — node admission (signed agreement; capability + dependency disclosure) and, separately, per-request data-class/jurisdiction routing → node card + routing decision.
+4. **With what model** — an openness/trust classification and model/evaluation cards bound to the deployed version → model card + pinned version.
+5. **With what data** — input, training, and retrieval provenance, consent, and IP basis (the Charter's own headline) → data-provenance record.
+6. **Under which evidence obligations** — signed, privacy-minimised, **risk-tiered** records, including *what was not logged and why* → evidence-plane outputs.
+7. **With which redress path** — a named accountable operator, an incident channel, appeal, and human approval for consequential actions → incident + appeal records.
+8. **With what protections against capture** — the §4 design rules (distribution, split-layer voting, funding decoupled from control, neutral host, multi-vendor *and* multi-model, autonomous verification).
+
+The load-bearing addition is **assurance and adjudication**: a signed record only proves *someone signed*, so the layer needs attestation, audit/sampling rights, and penalties for false attestation, plus a **named adjudicator outside any single member** with evidentiary standards and graduated sanctions. Without it the evidence plane is self-reporting; with it, placing the adjudicator beyond any one member is also what stops a neutral host from being read as covert control.
+
 ### Workload lanes
 
 Separate lanes because each has different latency, cost, risk, and governance needs: **(1) public inference**, **(2) evaluation & evidence**, **(3) adaptation**, **(4) federated co-training** (later), **(5) agent compute** (constrained). Agent-lane minimum controls: per-task token/GPU/time budget; model/tool allowlists by risk; sandboxed execution; source/retrieval logging that minimises personal-data retention; claim- and citation-check hooks; human approval for consequential actions; hard stop on budget/policy/safety breach. MCP helps tool interoperability but its own spec flags consent, data-access, and code-execution risks — for public agents these controls are mandatory.
@@ -194,7 +209,7 @@ What makes "no single power can switch off or capture" defensible rather than a 
 | **EuroHPC** | Commission holds 50% of votes | *Cautionary*: legal form alone did not stop EU-dominance or vendor lock-in ([Open Future, Feb 2026](https://openfuture.eu/blog/who-controls-europes-ai-future/)) |
 | **ICAIN** | Aspiring independent association | The live Swiss nucleus — but the neutral legal entity is unbuilt |
 
-Background: compute is uniquely governable (detectable, excludable, concentrated supply chain) — [Computing Power and the Governance of AI](https://arxiv.org/abs/2402.08797) (Feb 2024) — and the [CERN-for-AI blueprint](https://cfg.eu/building-cern-for-ai/) supplies concrete oversight mechanisms. "Sovereignty not autarky" has direct backing: [Chatham House (Feb 2026)](https://www.chathamhouse.org/2026/02/how-middle-powers-can-weather-us-and-chinese-ai-dominance) names "share sovereignty" and "hedge" as two of four middle-power strategies.
+Background: compute is unusually governable (detectable, excludable, concentrated supply chain — though not the only chokepoint; data, payment rails, and cloud accounts are governable too) — [Computing Power and the Governance of AI](https://arxiv.org/abs/2402.08797) (Feb 2024) — and the [CERN-for-AI blueprint](https://cfg.eu/building-cern-for-ai/) supplies concrete oversight mechanisms. "Sovereignty not autarky" has direct backing: [Chatham House (Feb 2026)](https://www.chathamhouse.org/2026/02/how-middle-powers-can-weather-us-and-chinese-ai-dominance) names "share sovereignty" and "hedge" as two of four middle-power strategies.
 
 ### Design rules (apply to any node, broker, or co-stewardship deal)
 
@@ -313,7 +328,7 @@ PublicAIWorkload:
 
 ## Bottom line
 
-The strongest architecture for the Public AI Network is a **federated public-compute broker with an evidence plane** — **model-plural and neutrally governed**, with a first pilot that starts from what is already live (the PublicAI access pattern, serving Apertus) — peered as **civic infrastructure** (known, accountable nodes — not a permissionless swarm), governed by **split-layer, funding-decoupled, multi-vendor, neutrally-hosted** rules, and protected by **portability + TEEs/attestation + operational controls**. The runtime and first public-model access pattern already exist (PublicAI/Apertus). What is missing — and what the Charter can credibly contribute — is the public-interest control-and-evidence layer: who gets access, for what purpose, on which node, with what model, under which evidence obligations, with which redress path, and with what protections against capture.
+The strongest architecture for the Public AI Network is a **federated public-compute broker with an evidence plane** — **model-plural and neutrally governed**, with a first pilot that starts from what is already live (the PublicAI access pattern, serving Apertus) — peered as **civic infrastructure** (known, accountable nodes — not a permissionless swarm), governed by **split-layer, funding-decoupled, multi-vendor, neutrally-hosted** rules, and protected by **portability + TEEs/attestation + operational controls**. The runtime and first public-model access pattern already exist (PublicAI/Apertus). What is missing — and what the Charter can credibly contribute — is the public-interest control-and-evidence layer: who gets access, for what purpose, on which node, with what model, with what data, under which evidence obligations, with which redress path, and with what protections against capture.
 
 ## Sources
 
