@@ -39,7 +39,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 *Form precedent: IFCN / EFCSN code + verified-signatory; OSI Open Source AI Definition (a released definition document).*
 - **Minimum first release:** promote v0.14 → v1.0 (resolve the "Open decisions" minimally or mark them explicitly open), publish a signable version + a public supporter-list page.
 - **Co-producer:** 3–5 early endorsers; an anchor willing to be listed.
-- **Go / no-go:** a handful of credible supporters ready to sign — otherwise it reads as a one-person idea (per the alliance-first [strategy](../Public%20AI%20Network/Strategy/initiation-strategy.md)).
+- **Go / no-go:** a handful of credible supporters ready to sign — otherwise it reads as a one-person idea (per the alliance-first [strategy](../Strategy/initiation-strategy.md)).
 
 ### 6. Model procurement clause / "evidence baseline" requirement
 *Form precedent: procurement pledges; the protocol's own line — "demand is the engine."*
@@ -85,6 +85,6 @@ Workstream 1 (Public AI Network / sovereignty) leads. The **keystones are #1 (th
 
 ## Constraints to hold
 
-- **You are a non-state actor — you cannot produce treaties or law.** The binding instruments in this space (Council of Europe Framework Convention; EU AI Act) are not yours to make. Your genuinely-binding artifacts are *contractual / voluntary-commitment*: a charter binding on signatories (#2), a procurement clause binding on buyers (#6), a mark license binding on holders (#7). The one route to *state* bindingness is the political track — the [Postulat](../Public%20AI%20Network/Outreach/postulat.en.md) commissioning a Federal Council report — which is an input to lawmaking, produced by government.
+- **You are a non-state actor — you cannot produce treaties or law.** The binding instruments in this space (Council of Europe Framework Convention; EU AI Act) are not yours to make. Your genuinely-binding artifacts are *contractual / voluntary-commitment*: a charter binding on signatories (#2), a procurement clause binding on buyers (#6), a mark license binding on holders (#7). The one route to *state* bindingness is the political track — the [Postulat](../Outreach/postulat.en.md) commissioning a Federal Council report — which is an input to lawmaking, produced by government.
 - **Host inside existing bodies; don't found a new institution.** Every form above has a precedent host.
 - **Start small (MVP).** One calibrated use-case, one model, one report — not a comprehensive scheme up front.

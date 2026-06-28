@@ -27,6 +27,6 @@ A holding area for **working notes** — provisional outputs not yet part of the
 
 ## Related outputs already saved elsewhere
 
-- **Fellowship assessment + recommended plan** → curated note: [geneva-2027-swissnex-fellowship.md](../Public%20AI%20Network/Strategy/geneva-2027-swissnex-fellowship.md) (indexed).
+- **Fellowship assessment + recommended plan** → curated note: [geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md) (indexed).
 - **Federated public compute architecture** → curated note: [federated-public-compute-architecture.md](../Public%20AI%20Network/Architecture/federated-public-compute-architecture.md) (indexed).
 - **Positioning guidance** (independent practitioner & discourse contributor; policy work as intent, not influence) → saved to the maintainer memory, not a repo file.

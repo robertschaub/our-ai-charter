@@ -19,7 +19,7 @@ Our AI Charter is the public framework of principles and obligations in a broade
 
 > Working to build a free and fair society where technology is used responsibly and enables well-grounded decision-making.
 
-The public program map is [PROGRAM.md](docs/PROGRAM.md). This repository should contain only the public layer. Published documents live under `docs/` (the website's content root), organised into two workstreams — **Public AI Network** (`docs/Public AI Network/`) and **AI Assurance & Certification** (`docs/AI Assurance and Certification/`); repo-meta files (README, AGENTS, CHANGELOG, CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root.
+The public program map is [PROGRAM.md](docs/PROGRAM.md). This repository should contain only the public layer. Published documents live under `docs/` (the website's content root): **program-level material sits at the `docs/` root** — cross-cutting concepts (`docs/Concepts/`), the initiative briefing (`docs/briefing.md`), and the campaign folders `docs/Strategy/`, `docs/Outreach/`, and `docs/Evidence/` — alongside the **two workstreams**, **Public AI Network** (`docs/Public AI Network/`, the network/compute pillar) and **AI Assurance & Certification** (`docs/AI Assurance and Certification/`); repo-meta files (README, AGENTS, CHANGELOG, CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root.
 
 Current agent priority:
 

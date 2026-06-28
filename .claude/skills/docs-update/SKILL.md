@@ -9,12 +9,12 @@ A small, repeatable pass to run after you change a document, so the repository s
 
 ## When to use
 
-After you add, rename, substantially edit, **promote** (e.g. `DRAFT` → `PUBLISHED`), or retire any `.md` document under `Public AI Network/` or `AI Assurance and Certification/`.
+After you add, rename, substantially edit, **promote** (e.g. `DRAFT` → `PUBLISHED`), or retire any `.md` document under `docs/` — the program-level folders (`Concepts/`, `Strategy/`, `Outreach/`, `Evidence/`, `briefing.md`) or the two workstreams (`Public AI Network/`, `AI Assurance and Certification/`).
 
 ## Procedure
 
 1. **Status banner.** A top-of-file status banner — a plain `> **Status: …**` blockquote (not a typed callout) — belongs on the **normative** docs (Founding Accord, evaluation protocol, certification model, one-pager) and the **outreach/parliamentary** drafts (Non-Paper, Aktionsplan, Postulat), labelled `DRAFT`; on `PUBLISHED <date>` pages; and on the `docs/wip/` notes, labelled `WORKING NOTES` — see [AGENTS.md](../../../AGENTS.md). If the doc is one of those, confirm its banner is present and accurate; otherwise (briefings, evidence, strategy, background) it carries **no** banner. The README index notes each document's status either way.
-2. **README index.** Open the [README](../../../README.md). Its index is organised by workstream (Public AI Network / AI Assurance & Certification), with each document's status labelled inline. Move or add the document to the correct workstream with a one-line description that matches its current framing. Remove stale entries.
+2. **README index.** Open the [README](../../../README.md). Its index has a program-level section (**The initiative** — briefing, strategy, outreach, evidence) and the **two workstreams** (Public AI Network / AI Assurance & Certification), with each document's status labelled inline. Move or add the document to the correct section with a one-line description that matches its current framing. Remove stale entries.
 3. **Cross-links.** Check that links between documents (and from the README) resolve — relative paths and correct filenames. Fix anything a rename broke.
 4. **CHANGELOG.** Add a dated entry (ISO `YYYY-MM-DD`) in the [CHANGELOG](../../../CHANGELOG.md): what changed and, for the protocol/charter, the version bump. Keep entries terse and factual.
 5. **Public-repo check.** Confirm nothing private/internal or any secret was introduced — this is a public repo (see [AGENTS.md](../../../AGENTS.md)).

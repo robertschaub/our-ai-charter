@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** — keystone memo assembled from the companions below; not yet anchored into the curated set. Promotable to a `DRAFT` in `Public AI Network/Outreach/` once a carrier group and a concrete first deliverable exist.
+> **Status: WORKING NOTES** — keystone memo assembled from the companions below; not yet anchored into the curated set. Promotable to a `DRAFT` in `Outreach/` once a carrier group and a concrete first deliverable exist.
 
 # Geneva 2027 — Public AI Governance & Evidence Package
 
-*Forwardable keystone memo (~2 pp). Spine for the [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) application and every downstream route. Assembled from the [non-paper](../Public%20AI%20Network/Outreach/non-paper.en.md), the [initiation strategy](../Public%20AI%20Network/Strategy/initiation-strategy.md), the [evaluation protocol one-pager](../AI%20Assurance%20and%20Certification/Protocol/one-pager.md), and the [Geneva 2027 routes map](../Public%20AI%20Network/Strategy/geneva-2027-options.md) — see also the [production plan](artifact-production-plan.md).*
+*Forwardable keystone memo (~2 pp). Spine for the [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) application and every downstream route. Assembled from the [non-paper](../Outreach/non-paper.en.md), the [initiation strategy](../Strategy/initiation-strategy.md), the [evaluation protocol one-pager](../AI%20Assurance%20and%20Certification/Protocol/one-pager.md), and the [Geneva 2027 routes map](../Strategy/geneva-2027-options.md) — see also the [production plan](artifact-production-plan.md).*
 
 ## In one line
 
@@ -16,7 +16,7 @@ AI's base infrastructure — models, compute, and data — is concentrating amon
 - **Eroded judgement** — the public cannot independently weigh AI outputs whose data provenance, assumptions, and methods are not open to inspection.
 - **Economic concentration** — capability, value, and bargaining power accrue to a few actors while dependent societies retain little.
 
-Switzerland has the building blocks to answer all three: [Apertus / SNAI](https://www.swiss-ai.org/apertus), partner status in [Current AI](https://www.currentai.org/about-us), and the [Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit) as a timing window. What is missing is the **governance and evidence layer** — and that is what this package contributes. (Fuller problem and thesis: the [non-paper](../Public%20AI%20Network/Outreach/non-paper.en.md).)
+Switzerland has the building blocks to answer all three: [Apertus / SNAI](https://www.swiss-ai.org/apertus), partner status in [Current AI](https://www.currentai.org/about-us), and the [Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit) as a timing window. What is missing is the **governance and evidence layer** — and that is what this package contributes. (Fuller problem and thesis: the [non-paper](../Outreach/non-paper.en.md).)
 
 ## The package — an MVP, not a finished scheme
 
@@ -46,8 +46,8 @@ This stays in service of the core goal — *not* "Switzerland first", no commerc
 
 ## Honest status
 
-Founder-led, Phase 1 (public drafting). Two articles and an evaluation method are published; early orientation conversations are underway — **not yet a coalition.** No standard, certification body, audit authority, or active pilot is claimed. The work is **unfunded**; the positive funding path is in-kind first → a pilot-scale grant tied to one deliverable → company money last and filtered (see the *Financing* section of the [initiation strategy](../Public%20AI%20Network/Strategy/initiation-strategy.md)).
+Founder-led, Phase 1 (public drafting). Two articles and an evaluation method are published; early orientation conversations are underway — **not yet a coalition.** No standard, certification body, audit authority, or active pilot is claimed. The work is **unfunded**; the positive funding path is in-kind first → a pilot-scale grant tied to one deliverable → company money last and filtered (see the *Financing* section of the [initiation strategy](../Strategy/initiation-strategy.md)).
 
 ---
 
-*Evidence and anchors: [Verified Findings](../Public%20AI%20Network/Evidence/verified-findings.md). Who is already working in this space: [actor & landscape map](../Public%20AI%20Network/Evidence/actors-and-landscape.md). Channel-by-channel intake: [channel demand](geneva-2027-channel-demand.md).*
+*Evidence and anchors: [Verified Findings](../Evidence/verified-findings.md). Who is already working in this space: [actor & landscape map](../Evidence/actors-and-landscape.md). Channel-by-channel intake: [channel demand](geneva-2027-channel-demand.md).*

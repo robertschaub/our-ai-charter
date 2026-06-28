@@ -1,6 +1,6 @@
 # The Public AI Network — what it is, how it works, how to join
 
-*A plain-language front door. For the full design see the [federated public-compute architecture](Architecture/federated-public-compute-architecture.md); for the trust layer, the [AI Assurance & Certification](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream; for the strategy and current asks, the [briefing](briefing.md).*
+*A plain-language front door. For the full design see the [federated public-compute architecture](Architecture/federated-public-compute-architecture.md); for the trust layer, the [AI Assurance & Certification](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream; for the strategy and current asks, the [briefing](../briefing.md).*
 
 > **Where this stands today.** The Public AI Network is an **early-stage, voluntary** effort, and this page describes the **design and intent** — much of it **proposed, not yet built.** There is no live front door, no admission body, assessor, adjudicator, public register, or certification yet. *What exists now:* the design, the principles below, and prospective partners and use cases. *What "joining" means now:* registering interest — not endorsement, certification, or a trust badge.
 
@@ -46,7 +46,7 @@ Different people use it for different work:
 
 Building the **federated layer** is federated and phased, not one system switched on at once — **define & align → prototype** (one governed front door, a few public models) **→ federate** (a second, independent node) **→ institutionalise** (neutral host, published rules). The near-term target is a **Geneva-2027 MVP**: one governed API, several public models, **≥ 2 independently-operated nodes**, public model/node/evaluation cards, and a governance blueprint.
 - **Who builds what:** the Charter brings the **assurance + governance rules** and the evidence schema; **operators** bring compute; **model providers** bring open models; a **neutral host** convenes — and, by design, none of them controls the rules.
-- **The build plan in full** — the MVP, the development sequence, the open decisions, and the messaging discipline — is the [pilot & rollout strategy](Strategy/federated-compute-pilot-and-rollout.md); the routes into the **Geneva AI Summit 2027** window are the [initiation strategy](Strategy/initiation-strategy.md).
+- **The build plan in full** — the MVP, the development sequence, the open decisions, and the messaging discipline — is the [pilot & rollout strategy](Strategy/federated-compute-pilot-and-rollout.md); the routes into the **Geneva AI Summit 2027** window are the [initiation strategy](../Strategy/initiation-strategy.md).
 
 ## How to join
 

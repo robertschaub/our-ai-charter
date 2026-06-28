@@ -43,7 +43,7 @@ No public governance document, RFC, CONTRIBUTING, or external-governance-layer p
 
 ## Corrections to fix in the curated docs
 
-1. **"Consultation draft due end-2026" is likely a conflation.** The end-2026 date appears to be the Federal Council's *domestic implementing law for the Council of Europe AI Convention* (a separate legislative track), **not** the summit's process. The summit's April call is closed and its next input window is **not yet dated**. Currently mis-stated in [verified-findings.md](../Public%20AI%20Network/Evidence/verified-findings.md) and [geneva-2027-swissnex-fellowship.md](../Public%20AI%20Network/Strategy/geneva-2027-swissnex-fellowship.md) — re-verify, then correct.
+1. **"Consultation draft due end-2026" is likely a conflation.** The end-2026 date appears to be the Federal Council's *domestic implementing law for the Council of Europe AI Convention* (a separate legislative track), **not** the summit's process. The summit's April call is closed and its next input window is **not yet dated**. Currently mis-stated in [verified-findings.md](../Evidence/verified-findings.md) and [geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md) — re-verify, then correct.
 2. **The five guiding questions + "concrete tools" demand** (above) are worth adding to the evidence base — they are the precise spec the "tool brief" (#4 in the plan) should answer.
 
 ## Sources

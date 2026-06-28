@@ -90,4 +90,4 @@ _Working paper, updated 22 June 2026. Work in progress: [robertschaub/our-ai-cha
 
 ---
 
-_Sources: [Linked sources & charter relevance](../Evidence/linked-sources.md). Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) ([English translation](ai-sovereignty-and-resilience.md)) — the sovereignty thread; [Trustworthy AI, Accountable to People](../../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — the accountability thread._
+_Sources: [Linked sources & charter relevance](../../Evidence/linked-sources.md). Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) ([English translation](ai-sovereignty-and-resilience.md)) — the sovereignty thread; [Trustworthy AI, Accountable to People](../../AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) — the accountability thread._

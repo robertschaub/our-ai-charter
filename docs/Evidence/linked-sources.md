@@ -1,12 +1,12 @@
 # Linked sources in the "Public AI Network" article — strategic map + relevance to *Our AI Charter*
 
-**Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](../Published/the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).  
+**Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](../Public%20AI%20Network/Published/the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).  
 **Compiled:** 2026-06-22.  
 **Purpose:** identify which cited initiatives are most mature and best suited to the *Public AI Network* effort, and where *Our AI Charter* can usefully contribute.
 
 ## Yardstick
 
-Each initiative below is read against *Our AI Charter*'s **five public obligations** — (1) **Purpose-bound**, (2) **Answerable to people**, (3) **Safe, secure, private & resilient**, (4) **Fair in practice**, (5) **Open to evidence and correction** — and its three-layer assurance model (legal scope → common baseline → public-interest modules). Both are defined in full in the [Founding Accord](../../AI%20Assurance%20and%20Certification/Framework/founding-accord.md); the Charter treats AI as **public infrastructure** that must be trustworthy, accountable, and answerable to people.
+Each initiative below is read against *Our AI Charter*'s **five public obligations** — (1) **Purpose-bound**, (2) **Answerable to people**, (3) **Safe, secure, private & resilient**, (4) **Fair in practice**, (5) **Open to evidence and correction** — and its three-layer assurance model (legal scope → common baseline → public-interest modules). Both are defined in full in the [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md); the Charter treats AI as **public infrastructure** that must be trustworthy, accountable, and answerable to people.
 
 ---
 
