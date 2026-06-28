@@ -44,11 +44,9 @@ Different people use it for different work:
 
 ## How it's built
 
-Building the **federated layer** is federated and phased, not one system switched on at once:
-- **Define & align → prototype** (one governed front door, a few public models) **→ federate** (add a second, independent node) **→ institutionalise** (neutral host, published rules).
-- **The federated MVP** (the Geneva-2027 target): one governed API, several public models, **≥ 2 independently-operated nodes**, transparent quota rules, public model/node/evaluation cards, one public-interest use case, and a governance blueprint. [Architecture §8.](Architecture/federated-public-compute-architecture.md)
+Building the **federated layer** is federated and phased, not one system switched on at once — **define & align → prototype** (one governed front door, a few public models) **→ federate** (a second, independent node) **→ institutionalise** (neutral host, published rules). The near-term target is a **Geneva-2027 MVP**: one governed API, several public models, **≥ 2 independently-operated nodes**, public model/node/evaluation cards, and a governance blueprint.
 - **Who builds what:** the Charter brings the **assurance + governance rules** and the evidence schema; **operators** bring compute; **model providers** bring open models; a **neutral host** convenes — and, by design, none of them controls the rules.
-- The near-term vehicle is the **Geneva AI Summit 2027** — a target convening and launch window. [Routes & sequence.](Strategy/initiation-strategy.md)
+- **The build plan in full** — the MVP, the development sequence, the open decisions, and the messaging discipline — is the [pilot & rollout strategy](Strategy/federated-compute-pilot-and-rollout.md); the routes into the **Geneva AI Summit 2027** window are the [initiation strategy](Strategy/initiation-strategy.md).
 
 ## How to join
 
