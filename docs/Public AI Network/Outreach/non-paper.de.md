@@ -40,7 +40,7 @@ Dies richtig zu gestalten ist nicht nur eine Wertefrage. Eine offene, ko-getrage
 
 - Ein übertragbares **Governance-Modell (Blueprint)** für eine Public-AI-Infrastruktur, das an Current AI und weitere internationale Initiativen anknüpfen kann.
 - Eine **offene Evaluations- und Rechenschaftspraxis**, die auf nachprüfbaren und reproduzierbaren Methoden basiert.
-- Ein **Pilotprojekt** mit offenem Zugang zu Inferenz und Daten, aufbauend auf bestehender Schweizer Infrastruktur (Apertus/SNAI als Governance-Pilot, nicht als endgültige Gesamtlösung). Sein Beitrag ist die Governance, die diesen Zugang vertrauenswürdig macht — eine öffentliche KI, die **den Menschen, die sich auf sie verlassen, Rechenschaft schuldet** (ihre Aussagen und Grenzen offen genug, um sie vor dem Handeln zu prüfen) und **vor Vereinnahmung geschützt ist** (ausserhalb der Reichweite jeder einzelnen Macht, sie abzuschalten oder zu kontrollieren).
+- Ein **Governance-Pilot** auf bestehender Schweizer Infrastruktur (zunächst Apertus/SNAI): eine **öffentliche Schicht, über die mehrere bereits vertrauenswürdige Modelle erreicht und genutzt werden können** — **rechenschaftspflichtig** gegenüber denen, die sich darauf verlassen, und **vor Vereinnahmung geschützt**.
 - Der Aufbau einer kompakten **Koalition** aus Schweizer und internationalen Partnern.
 - Ein **von der Schweiz organisierter Roundtable** im Vorfeld des Gipfels.
 
