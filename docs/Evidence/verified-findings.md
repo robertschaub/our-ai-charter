@@ -68,7 +68,7 @@ Field moves fast; everything is as of June 2026 (key anchors — Motions 24.3209
 6. <span id="source-6"></span>[parlament.ch — parlamentarische Vorstösse](https://www.parlament.ch/de/über-das-parlament/parlamentsportraet/stellung-der-bundesversammlung/bundesversammlung-und-bundesrat/parlamentarische-vorstoesse)
 7. <span id="source-7"></span>[parlament.ch — Eingaben / Petitionen](https://www.parlament.ch/de/über-das-parlament/parlamentsportraet/stellung-der-bundesversammlung/das-volk-und-die-bundesversammlung/eingaben-petitionen)
 8. <span id="source-8"></span>[Bundeskanzlei — Petitionen (Art. 33 BV)](https://www.bk.admin.ch/bk/de/home/politische-rechte/petitionen.html)
-9. <span id="source-9"></span>[Current AI — about](https://www.currentai.org/about-us)
+9. <span id="source-9"></span>[Current AI — about](https://www.currentai.org/about)
 10. <span id="source-10"></span>[Centre for Future Generations — Building CERN for AI](https://cfg.eu/building-cern-for-ai/)
 11. <span id="source-11"></span>[netzwoche (23.03.2026)](https://www.netzwoche.ch/news/2026-03-23/staenderat-sagt-ja-zu-souveraener-ki-infrastruktur)
 12. <span id="source-12"></span>[SATW — Geneva AI Summit 2027](https://www.satw.ch/en/news/geneva-as-a-stage-what-does-the-2027-ai-summit-mean-for-switzerland)

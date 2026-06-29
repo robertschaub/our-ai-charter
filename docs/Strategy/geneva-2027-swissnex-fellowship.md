@@ -16,7 +16,7 @@ Companions: [routes map](geneva-2027-options.md), [initiation strategy](initiati
 | **Deadline** | **12 Jul 2026**; selection mid-August |
 | **Contact** | Maulde Cuérel, AI & Tech Foresight Program Manager (Swissnex SF) |
 
-Sources: [Swissnex SF](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) · [S-GE](https://www.s-ge.com/en/article/news/20261-ai-ai-world-descend-geneva-2027-summit) · [Digital Watch](https://dig.watch/processes/2027-geneva-ai-summit).
+Sources: [Swissnex SF](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) · [Digital Watch](https://dig.watch/processes/2027-geneva-ai-summit).
 
 ## Why it fits
 

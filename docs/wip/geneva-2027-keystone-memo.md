@@ -16,7 +16,7 @@ AI's base infrastructure — models, compute, and data — is concentrating amon
 - **Eroded judgement** — the public cannot independently weigh AI outputs whose data provenance, assumptions, and methods are not open to inspection.
 - **Economic concentration** — capability, value, and bargaining power accrue to a few actors while dependent societies retain little.
 
-Switzerland has the building blocks to answer all three: [Apertus / SNAI](https://www.swiss-ai.org/apertus), partner status in [Current AI](https://www.currentai.org/about-us), and the [Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit) as a timing window. What is missing is the **governance and evidence layer** — and that is what this package contributes. (Fuller problem and thesis: the [non-paper](../Outreach/non-paper.en.md).)
+Switzerland has the building blocks to answer all three: [Apertus / SNAI](https://www.swiss-ai.org/apertus), partner status in [Current AI](https://www.currentai.org/about), and the [Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit) as a timing window. What is missing is the **governance and evidence layer** — and that is what this package contributes. (Fuller problem and thesis: the [non-paper](../Outreach/non-paper.en.md).)
 
 ## The package — an MVP, not a finished scheme
 
