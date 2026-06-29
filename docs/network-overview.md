@@ -1,13 +1,13 @@
 ---
-title: Overview
+title: The Network
 description: What the Public AI Network is — its pillars, how it is used and built, and what joining means today.
 ---
 
-# Overview
+# The Network
 
 > **Where this stands today.** The Public AI Network is an **early-stage, voluntary** design. There is no live public front door, admission body, assessor, adjudicator, public register, certification, or trust badge yet. What exists is the proposal, the public drafts, and prospective partners. "Joining" today means registering interest in a role — not endorsement or certification.
 
-*Plain-language front door. For the full design see the [federated public-compute architecture](Compute/federated-public-compute-architecture.md); for the trust layer, the [Charter Commitments](Assurance/Framework/charter-commitments.md); for strategy and asks, the [home page](index.md) and [initiation strategy](Strategy/initiation-strategy.md).*
+*Plain-language explainer for the Public AI Network. The [home page](index.md) is the initiative's front door and where the asks live; this page is the "what and how." For the full design see the [federated public-compute architecture](Compute/federated-public-compute-architecture.md); for the trust layer, the [Charter Commitments](Assurance/Framework/charter-commitments.md); for sequence and roadmap, the [initiation strategy](Strategy/initiation-strategy.md).*
 
 ## What it is
 
@@ -20,11 +20,11 @@ Four pillars:
 3. **Shared assurance and evaluation** — public, checkable evidence for what a system claims and how it answers for failures.
 4. **Federated public compute** — independent nodes under shared rules; the first buildable substrate.
 
-Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement and *PublicAI / SPIU* a specific inference utility this initiative draws on; **the Public AI Network** is this co-stewarded effort, with **AI Assurance & Certification** as its trust-and-evidence sub-stream.
+Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement and *PublicAI / SPIU* a specific inference utility this initiative draws on; **the Public AI Network** is this co-stewarded effort, with **AI Assurance & Certification** as its trust-and-evidence building block.
 
 ## How it is used
 
-The user path is **find → check → use**: find a provider that matches the need (purpose, capability, jurisdiction, language, openness, evidence status); check its capabilities and assurance separately — what it claims to do versus what has been independently reviewed and what is still unverified; and use it through a public front door once one exists, with access tiered by user role and data sensitivity. Discovery must stay plural and neutral, because whoever controls discovery can shape the market.
+The user path is **find → check → use**: find a provider that matches the need (purpose, capability, jurisdiction, language, openness, evidence status); check its capabilities and assurance separately ([what to ask](index.md#what-must-be-checkable)) — what it claims to do versus what has been independently reviewed and what is still unverified; and use it through a public front door once one exists, with access tiered by user role and data sensitivity. Discovery must stay plural and neutral, because whoever controls discovery can shape the market.
 
 ## How it is built
 
@@ -45,8 +45,8 @@ Admission should be rules-based, appealable, role-specific, and proportionate to
 
 ## What this is not
 
-- Not a finished network or live service.
-- Not a certificate, Trust Mark, or audit authority.
+Beyond what does not exist *yet* (see the status box above), these are boundaries by design:
+
 - Not a new language model competing with Apertus/SNAI or any other public model.
 - Not a single global GPU pool or a claim of full-stack sovereignty.
 - Not a way for funders, operators, or model providers to buy control over the rules.

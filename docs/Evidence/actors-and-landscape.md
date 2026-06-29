@@ -45,11 +45,11 @@ Who is already building pieces of an open, accountable, internationally co-stewa
 
 ## Contrasting approaches (for contrast, not alignment)
 
-- **EuroStack** — a European *industrial-sovereignty* programme (a full-stack "European alternative"). A useful contrast: this workstream argues for an internationally **co-stewarded** layer rather than national/industrial protectionism. [report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5298046) · [Noema](https://www.noemamag.com/reclaiming-europes-digital-sovereignty/)
+- **EuroStack** — a European *industrial-sovereignty* programme (a full-stack "European alternative"). A useful contrast: this initiative argues for an internationally **co-stewarded** layer rather than national/industrial protectionism. [report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5298046) · [Noema](https://www.noemamag.com/reclaiming-europes-digital-sovereignty/)
 
 ## Switzerland — people scan (match-rated, June 2026)
 
-Switzerland-based or Switzerland-anchored individuals whose **public work** overlaps with this workstream. **Match = overlap of public work, not personal judgement or endorsement.** Scale: ★★★★★ core · ★★★★ high · ★★★ medium · ★★ adjacent · ★ contrast. Re-verify roles, affiliations, and conflicts before outreach.
+Switzerland-based or Switzerland-anchored individuals whose **public work** overlaps with this initiative. **Match = overlap of public work, not personal judgement or endorsement.** Scale: ★★★★★ core · ★★★★ high · ★★★ medium · ★★ adjacent · ★ contrast. Re-verify roles, affiliations, and conflicts before outreach.
 
 ### ★★★★★ — Core (Public AI network international + Geneva-2027 bridge)
 
@@ -58,7 +58,7 @@ Switzerland-based or Switzerland-anchored individuals whose **public work** over
 | Joshua Tan *(US-based; key intl bridge)* | **Interim CTO, [Current AI](https://www.currentai.org)**; Lead Maintainer, [Public AI Inference Utility](https://publicai.co/); Research Dir., Metagov | Runs the international Public-AI network distributing Apertus (45k+ users); "Public AI is the new multilateralism"; co-host of the publicai.ch founding; sits inside both Current AI and the Public AI network — the personnel bridge between our two international anchors | ★★★★★ |
 | Oleg Lavrovsky | [Datalets.ch](https://datalets.ch/); Opendata.ch Advisory Board, Bern | Trustee of founding-member dues for **Public AI Switzerland (publicai.ch / SPIU)**; deploys Apertus at public events — operational Swiss anchor of the network | ★★★★★ |
 | Sabine Wildemann | Co-founder publicai.ch; Opendata.ch board; Liip; pres. aiLights, Zürich | Co-host publicai.ch founding (26–27 Feb 2026); co-initiator Swiss {ai} Weeks — convening node: coop + open data + public sector | ★★★★★ |
-| Markus Reubi | Special Envoy / Project Lead, [Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit), FDFA/EDA | Leads Switzerland's substantive prep of the 2027 summit — owns the process the workstream aims to dock into | ★★★★★ |
+| Markus Reubi | Special Envoy / Project Lead, [Geneva AI Summit 2027](https://dig.watch/processes/2027-geneva-ai-summit), FDFA/EDA | Leads Switzerland's substantive prep of the 2027 summit — owns the process this initiative aims to dock into | ★★★★★ |
 | Thomas Schneider | Ambassador & Deputy Dir., OFCOM/BAKOM; ex-chair Council of Europe CAI | Switzerland's lead international AI-governance diplomat; central to the CoE Framework Convention; shapes 2027 content | ★★★★★ |
 | Katharina Frey *(also "Nina" Frey)* | Executive Director, [ICAIN](https://icain.ch/), ETH Zürich | Leads the Swiss-led public-interest AI network (FDFA+ETH) giving the Global South compute/AI access — an existing instance of internationally co-stewarded public AI | ★★★★★ |
 
@@ -134,4 +134,4 @@ Switzerland-based or Switzerland-anchored individuals whose **public work** over
 
 ---
 
-*Method: actors surfaced from public writing and organisational sites, grouped by role in this workstream. Field status changes quickly; re-verify roles, affiliations, and commercial ties before relying on this map.*
+*Method: actors surfaced from public writing and organisational sites, grouped by role in this initiative. Field status changes quickly; re-verify roles, affiliations, and commercial ties before relying on this map.*

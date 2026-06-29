@@ -1,6 +1,6 @@
 ---
 title: Our AI Charter
-description: Protect and strengthen free and fair societies in the digital age through a global, trustworthy public AI network that is accountable to people and drives societal resilience and economic prosperity.
+description: Protect and strengthen free and fair societies in the digital age through a global, trustworthy public AI network that is accountable to people and supports societal resilience and economic prosperity.
 hide:
   - toc
 ---
@@ -33,7 +33,7 @@ Sovereignty is not autarky. Open, inspectable AI models matter, but resilience d
 
     ---
 
-    The network workstream: public AI as co-stewarded infrastructure for sovereignty, resilience, and coordination across free societies.
+    The network building block: public AI as co-stewarded infrastructure for sovereignty, resilience, and coordination across free societies.
 
     [:octicons-arrow-right-24: Overview](network-overview.md) ·
     [Public AI article](Published/the-public-ai-network.md) ·
@@ -44,7 +44,7 @@ Sovereignty is not autarky. Open, inspectable AI models matter, but resilience d
 
     ---
 
-    The trust-and-evidence sub-stream: obligations, evaluation, contestability, and future assurance boundaries for deployed AI systems.
+    The trust-and-evidence building block: obligations, evaluation, contestability, and future assurance boundaries for deployed AI systems.
 
     [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](Published/trustworthy-ai-accountable-to-people.md) ·
     [Charter Commitments](Assurance/Framework/charter-commitments.md) ·
@@ -68,7 +68,7 @@ The [Charter Commitments](Assurance/Framework/charter-commitments.md) turn those
 
 ## Where the work stands
 
-This is **Phase 1: public drafting and connection-building**. Nothing is certified — there is no Trust Mark, accredited assessor, registry, public front door, or active pilot. Coalitions, roles, and processes are stated as **intent, not fact**; the work is additive to existing efforts, especially SNAI/Apertus; and Switzerland is framed as host, node, and bridge, not owner.
+This is **Phase 1: public drafting and connection-building** — nothing is certified or operational yet ([what stands today](network-overview.md)). Coalitions, roles, and processes are stated as **intent, not fact**; the work is additive to existing efforts, especially SNAI/Apertus; and Switzerland is framed as host, node, and bridge, not owner.
 
 The near-term goal is a credible **Geneva 2027 Public AI Governance & Evidence Package** — a neutral clarification process, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The route is **alliance and mandate first, lawmaking later**, and the building blocks already exist: open Swiss models (Apertus/SNAI), the Current AI partnership, two Council-of-States-adopted sovereignty motions, and the Geneva 2027 summit window. The [initiation strategy](Strategy/initiation-strategy.md) gives the sequence and roadmap; the [verified findings](Evidence/verified-findings.md) hold the sourced anchors.
 

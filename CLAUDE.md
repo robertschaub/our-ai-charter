@@ -6,7 +6,7 @@
 
 A **public, documentation-first** repository: manifesto + charter + draft protocol + Public AI Network governance materials. Markdown is authoritative; the MkDocs site build, repository hooks, presentation assets, and `scripts/agents/` review helpers are the limited tooling exceptions. Do not add application runtime or product code.
 
-Current priority: this repo is **Our AI Charter**, a **Public AI Network** initiative, with **AI Assurance & Certification** as its sub-stream. For the maintainer right now, the **Public AI Network (KI-Souveränität und Resilienz)** work is more urgent and higher priority; work on **AI Assurance & Certification (Trustworthy AI, Accountable to People)** only when explicitly asked, when it supports the Public AI Network work, or where there is clear low-hanging fruit.
+Current priority: this repo is **Our AI Charter**, a **Public AI Network** initiative, with **AI Assurance & Certification** as its trust-and-evidence building block. For the maintainer right now, the **Public AI Network (KI-Souveränität und Resilienz)** work is more urgent and higher priority; work on **AI Assurance & Certification (Trustworthy AI, Accountable to People)** only when explicitly asked, when it supports the Public AI Network work, or where there is clear low-hanging fruit.
 
 ## Safety (see AGENTS.md §Git & safety)
 
@@ -21,6 +21,6 @@ Current priority: this repo is **Our AI Charter**, a **Public AI Network** initi
 - Conventional commits: `type(scope): description`.
 - **Work directly on `main`** — commit straight to the default branch for routine work; create a branch or worktree only when the maintainer asks, or a change is large/risky enough to isolate (see [AGENTS.md](AGENTS.md) § Git & safety).
 - Keep status banners, the README index, and CHANGELOG in sync — see the `/docs-update` skill. A status banner sits only on four kinds of page: the **normative** docs (Charter Commitments, evaluation protocol, certification model, one-pager) and the **outreach/parliamentary** drafts (Non-Paper, Aktionsplan, Postulat), both labelled `DRAFT`; **`PUBLISHED <date>`** (ISO `YYYY-MM-DD`) pages; and the **`docs/wip/`** notes, labelled `WORKING NOTES`. Briefings, evidence, strategy, background, and navigational pages carry none (see [AGENTS.md](AGENTS.md)). When the maintainer says a doc is "Published", set its banner to `PUBLISHED <date>` (today's date if publishing now).
-- When an article/post is published, its earlier draft is overwritten, deleted, or (rarely) moved to `Archive/<workstream>/` — archiving is **not** the default (Git history already preserves versions). The maintainer decides case by case; don't auto-act, and keep any archived files out of the index.
+- When an article/post is published, its earlier draft is overwritten, deleted, or (rarely) moved to `Archive/<building-block>/` — archiving is **not** the default (Git history already preserves versions). The maintainer decides case by case; don't auto-act, and keep any archived files out of the index.
 - **Consulting other models:** [`scripts/agents/`](scripts/agents) holds `invoke-gpt.cjs` / `invoke-gemini.cjs` / `invoke-claude.cjs` for a second opinion or cross-model review — keys load from a gitignored `.env.local`; see [AGENTS.md](AGENTS.md) § Consulting other models.
 - Windows / PowerShell.
