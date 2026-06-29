@@ -9,9 +9,9 @@ Protect and strengthen free and fair societies in the digital age — through a 
 
 _Early public draft, open for comment. Not a certification; not yet a standard._
 
-AI is becoming the infrastructure the world learns, decides, and creates with. The current priority is the **Public AI Network**: a Switzerland-anchored but internationally co-stewarded push for public AI that free societies can inspect, govern, and contest, with the Geneva AI Summit 2027 as a concrete timing window.
+AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter — also called the Public AI Network — is a Switzerland-anchored but internationally co-stewarded effort** for public AI that free societies can inspect, govern, and contest, with the Geneva AI Summit 2027 as a concrete timing window.
 
-**Our AI Charter** supplies the trust and evidence layer for that work: the obligations, evaluation discipline, and claim boundaries a public-AI infrastructure effort would need if it is to be more than an open model or a national label. It holds any deployed system to five public obligations:
+Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** — one of the network's core pillars, nested but not secondary: the obligations, evaluation discipline, and claim boundaries a public-AI infrastructure effort needs if it is to be more than an open model or a national label. Its normative core, the **[Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, holds any deployed system to five public obligations:
 
 - **Purpose-bound** — the system states what it is for, what it must not do, who it may affect, and what risks are known.
 - **Answerable to people** — a named human institution is responsible, and consequential uses carry notice, review, challenge, and remedy.
@@ -27,14 +27,14 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 Pick the row that fits you — fuller ordered paths are on the **[Start here](https://robertschaub.github.io/our-ai-charter/start-here/)** page.
 
-- **Shape policy, or could ally** → [The Public AI Network](docs/Public%20AI%20Network/Published/the-public-ai-network.md) · [KI-Souveränität (DE)](docs/Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md) ([EN](docs/Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)) · [initiative briefing](docs/briefing.md).
+- **Shape policy, or could ally** → [The Public AI Network](docs/Published/the-public-ai-network.md) · [KI-Souveränität (DE)](docs/Published/ki-souveraenitaet-und-resilienz.md) ([EN](docs/Published/ai-sovereignty-and-resilience.md)) · [initiative briefing](docs/briefing.md).
 - **Build, operate, or assess AI** → [Trustworthy AI…](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
 - **Test or improve this** → [CONTRIBUTING](CONTRIBUTING.md), then [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) and the [protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
 - **Just understand it** → the two published articles above, plus the [program map](docs/PROGRAM.md).
 
 ## The initiative — strategy, outreach & evidence
 
-*How the Charter is carried into the world — orientation, strategy, the outreach drafts, and the evidence behind them. Program-level: it serves both workstreams below.*
+*How the Charter is carried into the world — orientation, strategy, the outreach drafts, and the evidence behind them. Program-level: it advances the whole effort — the network work and the AI Assurance & Certification sub-stream alike.*
 
 - **[Public AI governance — initiative briefing](docs/briefing.md)** — *DRAFT*. Strategy, guardrails, and the current ask.
 - **[Public AI initiation — strategy](docs/Strategy/initiation-strategy.md)** — *DRAFT*. Alliance-first sequence and 30/60/90 roadmap.
@@ -44,23 +44,25 @@ Pick the row that fits you — fuller ordered paths are on the **[Start here](ht
 - **[Non-Paper](docs/Outreach/non-paper.en.md)** ([DE](docs/Outreach/non-paper.de.md)) · **[Action Plan](docs/Outreach/action-plan.en.md)** ([DE](docs/Outreach/action-plan.de.md)) · **[Postulate](docs/Outreach/postulat.en.md)** ([DE](docs/Outreach/postulat.de.md)) — *DRAFT* outreach and parliamentary materials.
 - **[Verified Findings](docs/Evidence/verified-findings.md)** · **[Actors & landscape map](docs/Evidence/actors-and-landscape.md)** · **[Linked sources](docs/Evidence/linked-sources.md)** — *DRAFT*. The source-checked evidence base — plus the **[Swiss Action-Plan contribution approach](docs/Strategy/swiss-action-plan-contribution.md)**.
 
-## Two workstreams
+## What's inside
+
+*Naming, once: **Our AI Charter** and the **Public AI Network** are the same whole effort. **AI Assurance & Certification** is its trust-and-evidence **sub-stream** — a core pillar developed in its own area, nested but not secondary — whose normative core is the **Founding Accord** and its five obligations. **The federation** is the buildable federated public-compute layer, one part of the network. Everything else below is the network itself — its overview, the compute pillar, the published articles, and the strategy/outreach that advance it.*
 
 Each entry below notes its status — *PUBLISHED* or *DRAFT* (raw, unanchored notes are *WORKING NOTES*). On the pages themselves, a status banner appears on published pages, on the normative docs (rules/obligations), on the outreach drafts, and on the raw `docs/wip/` working notes; other pages carry none.
 
-### Public AI Network
+### The network — overview, compute & published
 
 *Public AI as a co-stewarded, capture-resistant network — for the sovereignty, resilience, and coordination of free societies.*
 
-- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](docs/Public%20AI%20Network/Published/the-public-ai-network.md)** — *PUBLISHED* (22 Jun 2026). The international statement of the umbrella; the accompanying feed post is mirrored in the same file. [Post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne).
-- **[KI-Souveränität und Resilienz](docs/Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)** ([EN](docs/Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* (DE, 20 Jun 2026). The public-AI-sovereignty thread; the accompanying feed post is mirrored in the same file. [Post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
-- **[The network — overview: what it is, how it works, how to join](docs/Public%20AI%20Network/network-overview.md)** — *DRAFT*. The plain-language **front door**: the canonical definition (with a name note vs the *Public AI* movement and the *PublicAI* utility), a short glossary, and how the network is used, built, and joined — pointing to the deep docs below.
-- **[Federated public compute architecture](docs/Public%20AI%20Network/Architecture/federated-public-compute-architecture.md)** — *DRAFT*. The compute pillar, grounded: a model-plural, neutrally-governed federation with an evidence plane (civic-peering trust model, compute tiers, anti-capture governance), starting from the live PublicAI/Apertus anchor in a Swiss pilot toward a Geneva 2027 compute-and-evidence MVP.
-- **[Federated compute — pilot & rollout](docs/Public%20AI%20Network/Strategy/federated-compute-pilot-and-rollout.md)** — *DRAFT*. The build plan for that architecture: the Geneva-2027 MVP, the 0–30 / 31–90 / 3–6mo / 6–12mo development sequence, the decisions still open, and the messaging discipline.
+- **[The Public AI Network: Building Sovereignty and Resilience for Free Societies](docs/Published/the-public-ai-network.md)** — *PUBLISHED* (22 Jun 2026). The international statement of the umbrella; the accompanying feed post is mirrored in the same file. [Post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne).
+- **[KI-Souveränität und Resilienz](docs/Published/ki-souveraenitaet-und-resilienz.md)** ([EN](docs/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* (DE, 20 Jun 2026). The public-AI-sovereignty thread; the accompanying feed post is mirrored in the same file. [Post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
+- **[The network — overview: what it is, how it works, how to join](docs/network-overview.md)** — *DRAFT*. The plain-language **front door**: the canonical definition (with a name note vs the *Public AI* movement and the *PublicAI* utility), a short glossary, and how the network is used, built, and joined — pointing to the deep docs below.
+- **[Federated public compute architecture](docs/Architecture/federated-public-compute-architecture.md)** — *DRAFT*. The compute pillar, grounded: a model-plural, neutrally-governed federation with an evidence plane (civic-peering trust model, compute tiers, anti-capture governance), starting from the live PublicAI/Apertus anchor in a Swiss pilot toward a Geneva 2027 compute-and-evidence MVP.
+- **[Federated compute — pilot & rollout](docs/Strategy/federated-compute-pilot-and-rollout.md)** — *DRAFT*. The build plan for that architecture: the Geneva-2027 MVP, the 0–30 / 31–90 / 3–6mo / 6–12mo development sequence, the decisions still open, and the messaging discipline.
 
-### AI Assurance & Certification
+### AI Assurance & Certification — the trust sub-stream
 
-*The trust and evidence layer — can a deployed AI show its work and answer for it?*
+*The trust and evidence layer within the Public AI Network — can a deployed AI show its work and answer for it?*
 
 - **[Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (14 Jun, updated 19 Jun 2026). The **why** — with its launch post and the "who would certify this?" comment mirrored in the same file. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
 - **[The Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)** — *DRAFT*. The charter you can endorse — the **what**.
@@ -69,7 +71,7 @@ Each entry below notes its status — *PUBLISHED* or *DRAFT* (raw, unanchored no
 - **[Structuring the Charter — obligations, planes & lenses](docs/Concepts/charter-structure-and-views.md)** · **[Governance from the AI user's workflow](docs/Concepts/user-workflow-governance.md)** — *DRAFT* cross-cutting **concept** notes (now under `docs/Concepts/`): how the framework's pieces fit, concept-level, not normative. Per-obligation prototypes remain in [working notes](docs/wip/README.md).
 - **[Risk and vulnerability audit](docs/AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/AI%20Assurance%20and%20Certification/Background/what-the-world-has-already-declared.md)** · **[Landscape & positioning](docs/AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md)** — *DRAFT* background.
 
-**Where to start now:** [The Public AI Network](docs/Public%20AI%20Network/Published/the-public-ai-network.md) (international frame) → [initiative briefing](docs/briefing.md) (current ask and guardrails) → [initiation strategy](docs/Strategy/initiation-strategy.md) (30/60/90 path). For the evidence mechanics behind the trust layer, read [Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+**Where to start now:** [The Public AI Network](docs/Published/the-public-ai-network.md) (international frame) → [initiative briefing](docs/briefing.md) (current ask and guardrails) → [initiation strategy](docs/Strategy/initiation-strategy.md) (30/60/90 path). For the evidence mechanics behind the trust layer, read [Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
 
 ## Status
 

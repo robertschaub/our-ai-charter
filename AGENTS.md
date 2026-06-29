@@ -19,15 +19,15 @@ Our AI Charter is the public framework of principles and obligations in a broade
 
 > Working to build a free and fair society where technology is used responsibly and enables well-grounded decision-making.
 
-The public program map is [PROGRAM.md](docs/PROGRAM.md). This repository should contain only the public layer. Published documents live under `docs/` (the website's content root): **program-level material sits at the `docs/` root** — cross-cutting concepts (`docs/Concepts/`), the initiative briefing (`docs/briefing.md`), and the campaign folders `docs/Strategy/`, `docs/Outreach/`, and `docs/Evidence/` — alongside the **two workstreams**, **Public AI Network** (`docs/Public AI Network/`, the network/compute pillar) and **AI Assurance & Certification** (`docs/AI Assurance and Certification/`); repo-meta files (README, AGENTS, CHANGELOG, CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root.
+The public program map is [PROGRAM.md](docs/PROGRAM.md). This repository is the public home of **Our AI Charter — the Public AI Network** (the two names are synonyms for the whole effort). Its documents live under `docs/` (the website's content root): the **network front door** (`docs/network-overview.md`), cross-cutting **concepts** (`docs/Concepts/`), the **initiative briefing** (`docs/briefing.md`), the **compute pillar** (`docs/Architecture/`), the **published articles** (`docs/Published/`), and the campaign folders `docs/Strategy/`, `docs/Outreach/`, `docs/Evidence/`. The one nested **sub-stream** is **AI Assurance & Certification** (`docs/AI Assurance and Certification/`, the trust/evidence layer). Repo-meta files (README, AGENTS, CHANGELOG, CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root.
 
 Current agent priority:
 
-- Treat this repository as the public home for two related but somewhat separate workstreams under the **Our AI Charter** umbrella:
-  1. **KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken** — the public-AI sovereignty, resilience, Swiss innovation-location, and international-values workstream.
-  2. **Trustworthy AI, Accountable to People** — the accountability, evaluation, Charter, and protocol workstream.
-- For the maintainer right now, **workstream 1 is more urgent and higher priority**. When proposing next steps, choosing between open tasks, or deciding where to spend effort, agents should primarily invest time and effort in **KI-Souveränität und Resilienz**.
-- Work on **Trustworthy AI, Accountable to People** only when the maintainer explicitly asks for it, when it is needed to support workstream 1, or where there is clear low-hanging fruit that does not distract from workstream 1.
+- This repository is the public home of **Our AI Charter — also called the Public AI Network** (synonyms for the whole effort). It is organised as the network itself plus one nested sub-stream:
+  - **The Public AI Network** (the `docs/` root) — the public-AI **sovereignty, resilience, Swiss innovation-location, and international-values** work: the network overview, the federated-compute pillar, the published articles, and the strategy/outreach/evidence that advance it (*KI-Souveränität und Resilienz*).
+  - **AI Assurance & Certification** (`docs/AI Assurance and Certification/`) — the **accountability, evaluation, Charter, and protocol** sub-stream (*Trustworthy AI, Accountable to People*).
+- For the maintainer right now, the **Public AI Network (sovereignty/resilience) work is more urgent and higher priority**. When proposing next steps, choosing between open tasks, or deciding where to spend effort, agents should primarily invest there.
+- Work on the **AI Assurance & Certification** sub-stream only when the maintainer explicitly asks for it, when it is needed to support the Public AI Network work, or where there is clear low-hanging fruit that does not distract from it.
 - Do not assume the evaluation-protocol or pilot-readiness path is the next priority merely because it is well developed in the repository.
 
 Boundary rules for agents:

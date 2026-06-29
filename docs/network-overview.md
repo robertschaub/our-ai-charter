@@ -1,6 +1,6 @@
 # The Public AI Network — what it is, how it works, how to join
 
-*A plain-language front door. For the full design see the [federated public-compute architecture](Architecture/federated-public-compute-architecture.md); for the trust layer, the [AI Assurance & Certification](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream; for the strategy and current asks, the [briefing](../briefing.md).*
+*A plain-language front door. For the full design see the [federated public-compute architecture](Architecture/federated-public-compute-architecture.md); for the trust layer, the [AI Assurance & Certification](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) sub-stream; for the strategy and current asks, the [briefing](briefing.md).*
 
 > **Where this stands today.** The Public AI Network is an **early-stage, voluntary** effort, and this page describes the **design and intent** — much of it **proposed, not yet built.** There is no live front door, no admission body, assessor, adjudicator, public register, or certification yet. *What exists now:* the design, the principles below, and prospective partners and use cases. *What "joining" means now:* registering interest — not endorsement, certification, or a trust badge.
 
@@ -11,12 +11,12 @@ The **Public AI Network** is an international, co-stewarded effort for public AI
 It rests on four pillars:
 1. **Open, plural models** — no single model or vendor privileged.
 2. **A data & knowledge commons** — lawful, rights-respecting, well-documented data and provenance.
-3. **Shared assurance & evaluation** — common, public, checkable standards for whether a system shows its work and answers for it (the [Charter / assurance](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) layer). **This is the network's distinctive contribution — the trust layer.**
+3. **Shared assurance & evaluation** — common, public, checkable standards for whether a system shows its work and answers for it (the [Charter / assurance](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) layer). **This is the network's distinctive contribution — the trust layer.**
 4. **Federated public compute** — capacity from many independent operators under common rules — **the first buildable substrate.**
 
 Holding them together: **accountable, anti-capture governance**, plus the **demand** (public institutions, procurement) and **capacity-building** (so small and Global-South operators can take part) that make it durable.
 
-> **A note on names.** *"Public AI"* is a broad movement — AI provisioned as public-interest infrastructure. *"PublicAI" / SPIU* is a specific inference utility we draw on as a partner and precedent. **The Public AI Network** is this distinct, co-stewarded initiative — not the movement, and not the PublicAI utility.
+> **A note on names.** *"Public AI"* is a broad movement — AI provisioned as public-interest infrastructure. *"PublicAI" / SPIU* is a specific inference utility we draw on as a partner and precedent. **The Public AI Network** is this distinct, co-stewarded initiative — not the movement, and not the PublicAI utility. It is also **Our AI Charter** under another name (synonyms for the whole effort); the trust-and-evidence **sub-stream** within it is **AI Assurance & Certification**, whose normative core is the Founding Accord.
 
 "The network" is the **umbrella**. Its concrete buildable system is the **federated public-compute layer** (a policy broker + an evidence plane); we call that by its name, not "the network," to keep the two clear. And **"capture-resistant" is a design commitment and a governance obligation, not a guaranteed property** — a voluntary network *can* be captured; the design works to make that hard and visible.
 
@@ -32,7 +32,7 @@ Holding them together: **accountable, anti-capture governance**, plus the **dema
 *(This describes the **federated layer** — the system the network is building.)* Using the network is a short path — **find → check → use**:
 
 - **Find / navigate** — discover the providers and models in the network and navigate to one that fits the need (purpose, capability, jurisdiction, language, openness), comparing on what each publishes. The directory is **plural and neutral — never a single gatekeeper** (whoever controls discovery controls the market).
-- **Check** — query a provider's **capabilities** (what it is for, its limits) and its **assurance** (what has been independently checked — the [trust layer](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)), kept visibly distinct, and honest about what is *not* yet verified.
+- **Check** — query a provider's **capabilities** (what it is for, its limits) and its **assurance** (what has been independently checked — the [trust layer](AI%20Assurance%20and%20Certification/Framework/founding-accord.md)), kept visibly distinct, and honest about what is *not* yet verified.
 - **Use** — reach it through one public front door; access tiered by *who you are* and *how sensitive the data is* (not by hardware), with work in lanes — inference, evaluation, adaptation, later co-training, agents. [Access model.](Architecture/federated-public-compute-architecture.md)
 
 Different people use it for different work:
@@ -46,7 +46,7 @@ Different people use it for different work:
 
 Building the **federated layer** is federated and phased, not one system switched on at once — **define & align → prototype** (one governed front door, a few public models) **→ federate** (a second, independent node) **→ institutionalise** (neutral host, published rules). The near-term target is a **Geneva-2027 MVP**: one governed API, several public models, **≥ 2 independently-operated nodes**, public model/node/evaluation cards, and a governance blueprint.
 - **Who builds what:** the Charter brings the **assurance + governance rules** and the evidence schema; **operators** bring compute; **model providers** bring open models; a **neutral host** convenes — and, by design, none of them controls the rules.
-- **The build plan in full** — the MVP, the development sequence, the open decisions, and the messaging discipline — is the [pilot & rollout strategy](Strategy/federated-compute-pilot-and-rollout.md); the routes into the **Geneva AI Summit 2027** window are the [initiation strategy](../Strategy/initiation-strategy.md).
+- **The build plan in full** — the MVP, the development sequence, the open decisions, and the messaging discipline — is the [pilot & rollout strategy](Strategy/federated-compute-pilot-and-rollout.md); the routes into the **Geneva AI Summit 2027** window are the [initiation strategy](Strategy/initiation-strategy.md).
 
 ## How to join
 
@@ -55,7 +55,7 @@ Ordinary **users** simply *use* the public front door once it exists; the roles 
 **Roles** (kept distinct because they carry different power and accountability):
 - **Operator / node** — runs compute under a signed participation agreement.
 - **Model / data / tooling contributor** — supplies models, datasets, or evaluations, each with its own provenance and rights duties.
-- **Deployer** — builds a public-facing service on the network and **remains accountable for that use** — where the network meets the Charter's *[answerable to people](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)*.
+- **Deployer** — builds a public-facing service on the network and **remains accountable for that use** — where the network meets the Charter's *[answerable to people](AI%20Assurance%20and%20Certification/Framework/founding-accord.md)*.
 - **Steward** — helps set the rules, under conflict-of-interest constraints.
 - **Assessor** / **adjudicator** — evaluate, and resolve disputes, **independently** of those they assess.
 - **Supporter** — endorses the effort; no operational role.
@@ -78,4 +78,4 @@ Status is **not binary**: *applicant → provisional → evidence-reviewed → r
 
 ## What this is / is not
 
-A plain-language front door, not the spec, and an **early-stage, voluntary** design (see *Where this stands today*, above). The deep design lives in the [federated public-compute architecture](Architecture/federated-public-compute-architecture.md) and the [Charter / assurance](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream; the join model is **concept-level** (no certificate or API mechanics) — its assurance and admission machinery is a deliberate build, not a claim that it already exists.
+A plain-language front door, not the spec, and an **early-stage, voluntary** design (see *Where this stands today*, above). The deep design lives in the [federated public-compute architecture](Architecture/federated-public-compute-architecture.md) and the [Charter / assurance](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) workstream; the join model is **concept-level** (no certificate or API mechanics) — its assurance and admission machinery is a deliberate build, not a claim that it already exists.

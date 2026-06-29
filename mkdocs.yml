@@ -118,12 +118,14 @@ extra:
 nav:
   - Home: index.md
   - Start here: start-here.md
+  - Overview — what it is & how to join: network-overview.md
   - Concepts:
       - "Structuring the Charter — obligations, planes, lenses": Concepts/charter-structure-and-views.md
       - "Governance from the AI user's workflow": Concepts/user-workflow-governance.md
   - Briefing: briefing.md
   - Strategy:
       - Initiation strategy: Strategy/initiation-strategy.md
+      - Federated compute — pilot & rollout: Strategy/federated-compute-pilot-and-rollout.md
       - Geneva 2027 — contribution routes and partners: Strategy/geneva-2027-options.md
       - Geneva 2027 — Swissnex/Mercator fellowship & plan: Strategy/geneva-2027-swissnex-fellowship.md
       - Digital-sovereignty motions (24.3209 + 26.3221): Strategy/digital-sovereignty-motions.md
@@ -139,27 +141,25 @@ nav:
       - Verified findings: Evidence/verified-findings.md
       - Actors & landscape: Evidence/actors-and-landscape.md
       - Linked sources: Evidence/linked-sources.md
-  - Public AI Network:
-      - Overview — what it is & how to join: Public AI Network/network-overview.md
-      - The Public AI Network: Public AI Network/Published/the-public-ai-network.md
-      - "AI Sovereignty and Resilience (EN)": Public AI Network/Published/ai-sovereignty-and-resilience.md
-      - "KI-Souveränität und Resilienz (DE)": Public AI Network/Published/ki-souveraenitaet-und-resilienz.md
-      - Architecture:
-          - Federated public-compute architecture: Public AI Network/Architecture/federated-public-compute-architecture.md
-          - Pilot & rollout: Public AI Network/Strategy/federated-compute-pilot-and-rollout.md
-      - Working notes:
-          - Overview: wip/README.md
-          - Artifact-production plan: wip/artifact-production-plan.md
-          - Final-artifacts roadmap: wip/final-artifacts-roadmap.md
-          - "Geneva 2027 — channel demand": wip/geneva-2027-channel-demand.md
-          - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
-          - "Public AI: control & evidence layer": wip/public-compute-control-evidence-layer.md
-          - "Assurance case: Answerable to people": wip/answerable-to-people-assurance-case.md
-          - "Assurance case: Purpose-bound": wip/purpose-bound-assurance-case.md
-          - "Assurance case: Safe/secure/private/resilient": wip/safe-secure-private-resilient-assurance-case.md
-          - "Assurance case: Fair in practice": wip/fair-in-practice-assurance-case.md
-          - "Assurance case: Open to evidence": wip/open-to-evidence-assurance-case.md
-          - "Capabilities & Assurance Interface (sketch)": wip/capabilities-and-assurance-interface.md
+  - Architecture:
+      - Federated public-compute architecture: Architecture/federated-public-compute-architecture.md
+  - Published:
+      - The Public AI Network: Published/the-public-ai-network.md
+      - "AI Sovereignty and Resilience (EN)": Published/ai-sovereignty-and-resilience.md
+      - "KI-Souveränität und Resilienz (DE)": Published/ki-souveraenitaet-und-resilienz.md
+  - Working notes:
+      - Overview: wip/README.md
+      - Artifact-production plan: wip/artifact-production-plan.md
+      - Final-artifacts roadmap: wip/final-artifacts-roadmap.md
+      - "Geneva 2027 — channel demand": wip/geneva-2027-channel-demand.md
+      - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
+      - "Public AI: control & evidence layer": wip/public-compute-control-evidence-layer.md
+      - "Assurance case: Answerable to people": wip/answerable-to-people-assurance-case.md
+      - "Assurance case: Purpose-bound": wip/purpose-bound-assurance-case.md
+      - "Assurance case: Safe/secure/private/resilient": wip/safe-secure-private-resilient-assurance-case.md
+      - "Assurance case: Fair in practice": wip/fair-in-practice-assurance-case.md
+      - "Assurance case: Open to evidence": wip/open-to-evidence-assurance-case.md
+      - "Capabilities & Assurance Interface (sketch)": wip/capabilities-and-assurance-interface.md
   - AI Assurance & Certification:
       - Trustworthy AI, Accountable to People: AI Assurance and Certification/Published/trustworthy-ai-accountable-to-people.md
       - The Founding Accord: AI Assurance and Certification/Framework/founding-accord.md

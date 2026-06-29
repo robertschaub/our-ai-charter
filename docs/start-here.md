@@ -13,7 +13,7 @@ hide:
 
 *Is it real, where is the leverage, and how could I help?* — for policymakers, funders, advisors, and partners.
 
-1. **[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)** — the umbrella statement. German-speaking Swiss readers can start with **[KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)** (DE, [EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)).
+1. **[The Public AI Network](Published/the-public-ai-network.md)** — the umbrella statement. German-speaking Swiss readers can start with **[KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)** (DE, [EN](Published/ai-sovereignty-and-resilience.md)).
 2. **[Initiative briefing](briefing.md)** — what the initiative is actually asking for.
 3. **[Initiation strategy](Strategy/initiation-strategy.md)** — alliance first, a neutral pre-sprint, then political channels only if the mandate exists; the 30/60/90 path is written to be challenged.
 4. **Evidence & fit** — [Verified findings](Evidence/verified-findings.md) · [Actors & landscape](Evidence/actors-and-landscape.md), and the goal order and capture-resistant governance in the **[program map](PROGRAM.md)**.

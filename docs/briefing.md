@@ -1,6 +1,6 @@
 # Public AI governance — initiative briefing
 
-This is the orientation page for the *Public AI Network* initiative. It builds on the published article *"KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken"* and its English companion *[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)*. Initiator: Robert Schaub (FactHarbor / Our AI Charter, `info@factharbor.ch`).
+This is the orientation page for the *Public AI Network* initiative. It builds on the published article *"KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken"* and its English companion *[The Public AI Network](Published/the-public-ai-network.md)*. Initiator: Robert Schaub (FactHarbor / Our AI Charter, `info@factharbor.ch`).
 
 ## 1. What the article argues
 
@@ -34,11 +34,11 @@ The full, source-checked anchor list lives in the [Verified Findings](Evidence/v
 
 **Biggest lever:** dock onto existing, publicly funded, reputable structures (Apertus/SNAI, Current AI) and bundle reach into an alliance/charter. A non-parliamentarian can trigger a Motion or Postulat only indirectly via a council member, so the order is alliance/mandate first, lawmaking later.
 
-The near-term package is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The full leverage ranking and 30/60/90-day roadmap are in the [initiation strategy](Strategy/initiation-strategy.md) — which also sets out the positive funding path (in-kind first, pilot-scale grants tied to a deliverable, company money last and filtered); the [federated public compute architecture](Public%20AI%20Network/Architecture/federated-public-compute-architecture.md) defines the compute pillar as a governed federation of accountable nodes rather than a single global GPU pool; the evidence base is in the [Verified Findings](Evidence/verified-findings.md).
+The near-term package is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The full leverage ranking and 30/60/90-day roadmap are in the [initiation strategy](Strategy/initiation-strategy.md) — which also sets out the positive funding path (in-kind first, pilot-scale grants tied to a deliverable, company money last and filtered); the [federated public compute architecture](Architecture/federated-public-compute-architecture.md) defines the compute pillar as a governed federation of accountable nodes rather than a single global GPU pool; the evidence base is in the [Verified Findings](Evidence/verified-findings.md).
 
 ## 5. Current state
 
-The German article and its feed post are published; the English companion *[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)* followed. Outreach to potential Swiss and international collaborators is in progress. The near-term aim is a handful of orientation conversations and three credible supporters, then a neutrally-facilitated pre-sprint.
+The German article and its feed post are published; the English companion *[The Public AI Network](Published/the-public-ai-network.md)* followed. Outreach to potential Swiss and international collaborators is in progress. The near-term aim is a handful of orientation conversations and three credible supporters, then a neutrally-facilitated pre-sprint.
 
 Current asks: critique the package, point to a relevant public-AI peer or institutional anchor, suggest a neutral convenor, or help test whether the first pilot should focus on governance, evidence/evaluation, or both.
 
@@ -55,6 +55,6 @@ For who is already working in this space (by role), see the [actor & landscape m
 ## Companion documents
 
 - **Evidence** — [Verified Findings](Evidence/verified-findings.md) · [Actor & landscape map](Evidence/actors-and-landscape.md)
-- **Strategy** — [Initiation strategy](Strategy/initiation-strategy.md) · [Geneva 2027 — contribution routes](Strategy/geneva-2027-options.md) · [Federated public compute architecture](Public%20AI%20Network/Architecture/federated-public-compute-architecture.md) · [Federated compute — pilot & rollout](Public%20AI%20Network/Strategy/federated-compute-pilot-and-rollout.md) · [Digital-sovereignty motions (24.3209 + 26.3221)](Strategy/digital-sovereignty-motions.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md)
+- **Strategy** — [Initiation strategy](Strategy/initiation-strategy.md) · [Geneva 2027 — contribution routes](Strategy/geneva-2027-options.md) · [Federated public compute architecture](Architecture/federated-public-compute-architecture.md) · [Federated compute — pilot & rollout](Strategy/federated-compute-pilot-and-rollout.md) · [Digital-sovereignty motions (24.3209 + 26.3221)](Strategy/digital-sovereignty-motions.md) · [Swiss AI Action Plan — contribution approach](Strategy/swiss-action-plan-contribution.md)
 - **Outreach** — Non-Paper ([EN](Outreach/non-paper.en.md) / [DE](Outreach/non-paper.de.md)) · Postulat ([EN](Outreach/postulat.en.md) / [DE](Outreach/postulat.de.md)) · Aktionsplan ([EN](Outreach/action-plan.en.md) / [DE](Outreach/action-plan.de.md))
-- **Published** — *[The Public AI Network](Public%20AI%20Network/Published/the-public-ai-network.md)* · *[KI-Souveränität und Resilienz](Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)* ([EN](Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md))
+- **Published** — *[The Public AI Network](Published/the-public-ai-network.md)* · *[KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)* ([EN](Published/ai-sovereignty-and-resilience.md))

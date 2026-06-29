@@ -4,7 +4,7 @@
 
 _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
-**Update 2026-06-19:** Der LinkedIn-Artikel ist publiziert ([KI-Souveränität und Resilienz](../Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Die Freigabe- und Faktenprüfungsregeln für Non-Paper, Outreach, Postulat und externe Claims bleiben gültig.
+**Update 2026-06-19:** Der LinkedIn-Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Die Freigabe- und Faktenprüfungsregeln für Non-Paper, Outreach, Postulat und externe Claims bleiben gültig.
 
 **Rolle:** Impulsgeber und Allianzbildner. Die Schweiz soll sich als glaubwürdige Gastgeberin und als Knotenpunkt positionieren — und das von Beginn an international ausgerichtet. Es soll ausdrücklich keine neue Institution gegründet werden.
 
@@ -42,4 +42,4 @@ Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](..
 - [Verified Findings](../Evidence/verified-findings.md)
 - Impuls- und Diskussionspapier (Non-Paper) [DE](non-paper.de.md) / [EN](non-paper.en.md)
 - Postulat-Entwurf [DE](postulat.de.md) / [EN](postulat.en.md)
-- Publizierter LinkedIn-Artikel: [KI-Souveränität und Resilienz](../Public%20AI%20Network/Published/ki-souveraenitaet-und-resilienz.md)
+- Publizierter LinkedIn-Artikel: [KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)

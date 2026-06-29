@@ -6,7 +6,7 @@
 
 A **public, documents-only** repository: manifesto + charter + draft protocol + Public AI Network governance materials, all Markdown. No source code, build, or tests — don't add them.
 
-Current priority: the repo has two related workstreams under the Our AI Charter umbrella. For the maintainer right now, **KI-Souveränität und Resilienz** is more urgent and higher priority; work on **Trustworthy AI, Accountable to People** only when explicitly asked, when it supports the first workstream, or where there is clear low-hanging fruit.
+Current priority: this repo is **Our AI Charter — the Public AI Network** (one effort), with **AI Assurance & Certification** as its sub-stream. For the maintainer right now, the **Public AI Network (KI-Souveränität und Resilienz)** work is more urgent and higher priority; work on **AI Assurance & Certification (Trustworthy AI, Accountable to People)** only when explicitly asked, when it supports the Public AI Network work, or where there is clear low-hanging fruit.
 
 ## Safety (see AGENTS.md §Git & safety)
 

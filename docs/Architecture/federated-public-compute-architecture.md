@@ -23,7 +23,7 @@ Homepage form: _federated public compute that no single power can switch off or 
 
 ## Charter fit — the five public obligations
 
-This architecture exists to make compute answer to the Charter's five public obligations (set out in the [Founding Accord](../../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)), not only to run models:
+This architecture exists to make compute answer to the Charter's five public obligations (set out in the [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)), not only to run models:
 
 | Obligation | How the architecture serves it |
 |---|---|

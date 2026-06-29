@@ -2,7 +2,7 @@
 
 # Action Plan — Public AI Governance (Short Form)
 
-**Update 2026-06-19:** The LinkedIn article is published ([AI Sovereignty and Resilience](../Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)); direct outreach has begun. The release and fact-checking rules for the Non-Paper, outreach, postulate, and external claims remain in force.
+**Update 2026-06-19:** The LinkedIn article is published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)); direct outreach has begun. The release and fact-checking rules for the Non-Paper, outreach, postulate, and external claims remain in force.
 
 **Role:** Catalyst and alliance-builder. Switzerland should position itself as a credible host and as a hub — internationally oriented from the outset. Explicitly, no new institution is to be founded.
 
@@ -40,4 +40,4 @@ The full, sourced list of anchors is in the [Verified Findings](../Evidence/veri
 - [Verified Findings](../Evidence/verified-findings.md)
 - Impetus and discussion paper (Non-Paper) [EN](non-paper.en.md) / [DE](non-paper.de.md)
 - Postulate draft [EN](postulat.en.md) / [DE](postulat.de.md)
-- Published LinkedIn article: [AI Sovereignty and Resilience](../Public%20AI%20Network/Published/ai-sovereignty-and-resilience.md)
+- Published LinkedIn article: [AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)
