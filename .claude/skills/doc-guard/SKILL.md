@@ -76,6 +76,26 @@ over-broad claims, stale links, status-label drift, placeholder sections,
 unnecessary background, and any text that reads as persuasion rather than
 clear public documentation.
 
+## Clarity and readability passes
+
+A tightening pass removes filler — but the same edit easily strips load-bearing
+substance, and this repo has lost and re-added the same content more than once
+that way. When tightening, cut only genuine filler and **preserve**:
+
+- **Named principles and their reasoning** — anti-capture, honesty, privacy,
+  least-exposure, fail-safe — not just the adjective ("plural and neutral"
+  without "a captured registry is a captured market" is a hollowed-out
+  principle).
+- **Sourced specifics** — numbers, dates, named entities, and citations,
+  especially in evidence/scan docs whose value *is* their sources.
+- **Mission tie-ins** — the democracy-and-justice purpose and the
+  resilience/economic-prosperity framing.
+- **Concrete spines** — a specific mechanism or example beats a generic
+  adjective string ("open, plural, accountable") that could describe anything.
+
+After the pass, diff it against the prior version and confirm no principle,
+source, or mission tie-in was flattened into a generic phrase.
+
 ## Hard stops
 
 Ask the maintainer before deleting or materially changing published normative
