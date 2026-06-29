@@ -54,6 +54,6 @@ No large funding before a coalition and one concrete deliverable exist.
 
 - Claim processes and coalitions as **intent**, not fact.
 - Add to SNAI/Apertus and Current AI; do not compete with them.
-- Keep Switzerland as host/node/bridge, not owner.
+- Keep Switzerland as host/node/bridge, not owner; count the economic and technical capability spillovers, not only the values case.
 - Disclose commercial ties and reject funding that can shape findings.
 - Do not claim certification, audit authority, Trust Mark status, large funding need, or active pilot maturity.

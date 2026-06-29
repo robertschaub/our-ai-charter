@@ -17,7 +17,7 @@ The compute pillar should be **federated public compute**: many independently op
 3. **The missing layer is not a GPU scheduler.** Runtimes exist (vLLM, Kubernetes/Kueue, Slurm, Ray, gateways). The gap is the **public-interest control-and-evidence layer** — the Charter's contribution.
 4. **Capture is dual and documented.** Compute can be switched off by one state and held by one firm; the architecture defeats **both** by design.
 
-**Local economic benefit is legitimate.** Public compute builds domestic skills, suppliers, and AI-capable firms while widening access for researchers, startups, SMEs, and public bodies that cannot buy frontier capacity alone. It remains compatible with a shared federation only if funding, routing, and governance stay openly governed and capture-resistant.
+**Local economic benefit is legitimate.** Public compute builds domestic skills, suppliers, and AI-capable firms while widening access for researchers, startups, SMEs, and public bodies that cannot buy frontier capacity alone — much of why states fund AI Factories, NAIRR, and national compute programmes. That is how the compute pillar serves the Charter's mission of public AI that supports societal resilience and economic prosperity, and it stays compatible with a shared federation only if funding, routing, and governance remain openly governed and capture-resistant.
 
 ## Charter fit — the five public obligations
 
@@ -75,7 +75,7 @@ The federation stays **model-plural and neutrally governed**. The first pilot sh
 
 ### The frontier caveat (why "operate/adapt/govern," not "train")
 
-Distributed training is real but bounded, and that boundary sets the promise. Prime Intellect's ~106B **INTELLECT-3** was trained on a **centralised 512×H200 cluster**, not over the internet ([Prime Intellect, Dec 2025](https://www.primeintellect.ai/blog/intellect-3); confirm before citing). Decoupled DiLoCo and Covenant-72B show progress, but the largest decentralised networks remain far behind frontier datacentres ([Epoch AI, Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale)). For this federation, the realistic horizon is mid-scale continued pretraining, adaptation, evaluation, and resilient inference.
+Distributed training is real but bounded, and that boundary sets the promise. Prime Intellect's ~106B **INTELLECT-3** was trained on a **centralised 512×H200 cluster**, not over the internet ([Prime Intellect, Dec 2025](https://www.primeintellect.ai/blog/intellect-3); confirm before citing). [Decoupled DiLoCo](https://deepmind.google/blog/decoupled-diloco/) cut inter-datacentre bandwidth from 198 Gbps to 0.84 Gbps and trained a 12B model across four US regions, and [Covenant-72B](https://arxiv.org/abs/2603.08163) reached a 72B over-the-internet run (on a token-incentivised blockchain network — the crypto/DePIN substrate §5 rules out). Even so, a standing **~1.5–6× efficiency tax** keeps over-the-internet training off the frontier: the largest decentralised networks remain far behind frontier datacentres ([Epoch AI, Dec 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale)). For this federation, the realistic horizon is mid-scale continued pretraining, adaptation, evaluation, and resilient inference.
 
 ## 3. Architecture: PublicAI today, broker/evidence next
 

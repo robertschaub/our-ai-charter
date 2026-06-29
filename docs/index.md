@@ -12,7 +12,7 @@ hide:
 </div>
 
 <div class="lead" markdown>
-Our AI Charter is an early public draft for a **Public AI Network**: open, plural, accountable AI infrastructure that people, public institutions, researchers, and builders can inspect, contest, and improve.
+Our AI Charter is an **early public draft for a Public AI Network** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network.
 </div>
 
 AI is becoming the infrastructure people learn, work, decide, and form opinion with. Infrastructure that important should not depend on a few providers, unclear shutdown powers, hidden data practices, unverifiable factual claims, or systems that affected people cannot challenge.

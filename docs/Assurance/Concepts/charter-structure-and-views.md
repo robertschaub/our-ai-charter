@@ -60,9 +60,9 @@ Modules are triggered, not optional decoration. Every assessed system gets a bas
 
 The outward surfaces are concepts, not interface specs:
 
-- **Find** — discovery and navigation across providers and systems, based on scoped assurance depth rather than an "approved" badge. The directory must remain plural and neutral.
+- **Find** — discovery and navigation across providers and systems, based on scoped assurance depth rather than an "approved" badge. The directory must remain plural and neutral: the index is a chokepoint, and a captured registry is a captured market.
 - **Check** — a [Capabilities & Assurance Interface](../../wip/capabilities-and-assurance-interface.md): what a system says it is for, what has been assured, and what is not verified.
-- **Watch** — runtime inspection for the appropriate audience: own session, affected-person decision, assessor sample, regulator access, or public aggregate.
+- **Watch** — runtime inspection at least-exposure: each audience sees only its slice (own session, affected-person decision, assessor sample, regulator access, public aggregate). Inspection must be verifiable rather than self-reported, privacy-bounded (confirm behaviour without exposing content), and itself assessed — the assurance plane checks that inspection is adequate.
 
 These surfaces steer discovery, procurement, and trust. They are governed public-power surfaces, not neutral plumbing.
 
@@ -72,7 +72,7 @@ Claims need consequences:
 
 - **Standing:** users, affected people, and representatives for diffuse or collective harms can challenge.
 - **Authority:** a named adjudicator outside any single member decides contested Charter claims under published standards.
-- **Consequence:** unsupported, misleading, or out-of-scope claims are narrowed, reclassified, or withdrawn, and the record is public.
+- **Consequence:** unsupported, misleading, or out-of-scope claims are narrowed, reclassified, or withdrawn, and the record is public. Honesty applies reflexively — that consequence record is itself a warranted public claim.
 
 Without this leg, the system only produces claims. With it, claims are answerable.
 
