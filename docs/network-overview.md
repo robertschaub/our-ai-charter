@@ -5,9 +5,9 @@ description: What the Public AI Network is — its pillars, how it is used and b
 
 # The Network
 
-> **Where this stands today.** The Public AI Network is an **early-stage, voluntary** design. There is no live public front door, admission body, assessor, adjudicator, public register, certification, or trust badge yet. What exists is the proposal, the public drafts, and prospective partners. "Joining" today means registering interest in a role — not endorsement or certification.
+> **Where this stands today.** The Public AI Network is an **early-stage, voluntary** design. No public front door, admission body, assessor, adjudicator, public register, certification, or trust badge exists yet — only the proposal, the public drafts, and prospective partners. "Joining" today means registering interest in a role, not endorsement or certification.
 
-*Plain-language explainer for the Public AI Network. The [home page](index.md) is the initiative's front door and where the asks live; this page is the "what and how." For the full design see the [federated public-compute architecture](Compute/federated-public-compute-architecture.md); for the trust layer, the [Charter Commitments](Assurance/Framework/charter-commitments.md); for sequence and roadmap, the [initiation strategy](Strategy/initiation-strategy.md).*
+*The [home page](index.md) covers both building blocks; the [federated public-compute architecture](Compute/federated-public-compute-architecture.md) details this network's technical design; the [Charter Commitments](Assurance/Framework/charter-commitments.md) define the assurance layer; the [initiation strategy](Strategy/initiation-strategy.md) sets out the sequence and roadmap.*
 
 ## What it is
 
@@ -32,7 +32,7 @@ The first practical build is the **federated public-compute layer**: one governe
 
 ## How to join
 
-Ordinary users will simply use the front door once it exists. Participant roles carry power and accountability, so they are kept distinct:
+Right now, joining means **registering interest in a role** — nothing is live to operate yet. The roles below describe what each participant will do once the network runs; because they carry power and accountability, they are kept distinct:
 
 - **Operator / node** — runs compute under a signed participation agreement.
 - **Contributor** — supplies models, data, tooling, or evaluations with provenance and rights duties.
@@ -41,7 +41,7 @@ Ordinary users will simply use the front door once it exists. Participant roles 
 - **Assessor / adjudicator** — evaluates, or resolves disputes, independently of those assessed.
 - **Supporter** — publicly backs the effort without an operational role.
 
-Admission should be rules-based, appealable, role-specific, and proportionate to risk and scale, so small and Global-South operators are not burdened out. Early verification can start with signed commitments and self-attestation; mature assurance needs independent review, audit sampling, public status, and sanctions for false claims. Membership is not a trust badge: only verified claims may be made.
+Ordinary users will simply use the front door once it exists; only the participant roles above need admission. Admission should be rules-based, appealable, role-specific, and proportionate to risk and scale, so small and Global-South operators are not burdened out. Early verification can start with signed commitments and self-attestation; mature assurance needs independent review, audit sampling, public status, and sanctions for false claims. Membership is not a trust badge: only verified claims may be made.
 
 ## What this is not
 
