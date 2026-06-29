@@ -41,7 +41,7 @@ No public governance document, RFC, CONTRIBUTING, or external-governance-layer p
 
 ## How this feeds the curated set
 
-- The "consultation draft due end-2026" conflation flagged here has been **corrected** (June 2026) in [verified-findings.md](verified-findings.md) and the [fellowship note](../Strategy/geneva-2027-swissnex-fellowship.md): that milestone is the *separate* Council of Europe AI Convention implementing-law track, not the summit — whose next input window is not yet dated.
+- **Don't conflate the timelines:** the "consultation draft due end-2026" milestone belongs to the *separate* Council of Europe AI Convention implementing-law track (FDJP/DETEC/FDFA), not the Geneva summit — whose next input window is not yet dated.
 - The five guiding questions and the "concrete tools" demand (above) are the precise spec the Geneva tool brief should answer.
 
 ## Sources

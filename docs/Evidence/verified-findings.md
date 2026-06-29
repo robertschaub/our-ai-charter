@@ -21,7 +21,7 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 
 ### International anchors — dock, don't found
 - **Current AI:** global multistakeholder public-interest-AI partnership founded at the Paris AI Action Summit (Feb 2025; ~USD 400m initial commitment, goal ~USD 2.5bn over five years; governments + philanthropies + industry). **Switzerland is already a Country Partner** (Paris Charter signatory). [[9]](#source-9)
-- **CERN for AI** (Centre for Future Generations blueprint): names Switzerland a "natural founding member" (with UK, Canada) and supplies concrete anti-capture mechanisms — political representatives limited to high-level strategy, two oversight boards outside the executive, audit parts made public. [[10]](#source-10)
+- **CERN for AI** (Centre for Future Generations blueprint): names Switzerland a "natural founding member" (with UK, Canada) of an **EU-led** structure — a participant, not its initiator; swissinfo reports Switzerland "risks exclusion." Supplies concrete anti-capture mechanisms: political representatives limited to high-level strategy, two oversight boards outside the executive, audit parts made public. [[10]](#source-10)[[15]](#source-15)
 
 ### Live political window
 - **Motion 24.3209 Charles Juillard (Die Mitte / JU), "Für eine souveräne digitale Infrastruktur in der Schweiz im Zeitalter der künstlichen Intelligenz"**: tabled 2024 (Federal Council recommended rejection, 22 May 2024); **approved by the Council of States 31:11 (March 2026)**; **now in the National Council committee** (status June 2026). An open political thread to attach a governance/trust layer to — Juillard's motion targets *infrastructure/cloud*; the complement here is the *governance/trust* layer. Corroborated across multiple sources (Curia Vista 24.3209, Walder Wyss/datenrecht.ch, Parldigi, netzwoche, inside-it). [[11]](#source-11)[[16]](#source-16)[[17]](#source-17) **Re-verified 23 Jun 2026 (secondary trackers; Curia Vista not directly reachable): status unchanged — still in the National Council committee, no plenary vote in the 2026 summer session.**
@@ -31,12 +31,6 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 ### Verified entry points
 - **Expedition Zukunft:** non-profit, politically neutral think-and-do-tank, primarily Migros-Pionierfonds-funded; co-presidency Océane Dayer & Florian Egli; "Policy Sprint" format fits the pre-sprint idea. Contact `info@expeditionzukunft.ch`. [[13]](#source-13)
 - **Possible parliamentary carriers:** Gerhard Andrey (Grüne, NR), Katja Christ (GLP, NR), Charles Juillard (Die Mitte, SR — natural ally), Matthias Michel (FDP, SR). [[14]](#source-14)
-
-## Corrections to earlier drafts
-- **`apertvs.ai` is the *official* Apertus site** — verified June 2026 (© ETH AI Center & EPFL AI Center; EPFL/ETH/CSCS branding; legal notice; Swisscom as Strategic Partner; `swiss-ai.org/apertus` redirects there; stylized Latin "APERTVS" = open). An earlier draft wrongly flagged it as typosquat-like — **corrected**. It is a valid canonical anchor alongside swiss-ai.org.
-- **CERN-for-AI framing:** the blueprint casts Switzerland as a member of an **EU-led** structure, not as initiator; swissinfo reports Switzerland "risks exclusion." Use "Switzerland as host/node/convenor," not "initiator." [[10]](#source-10)[[15]](#source-15)
-- **Refuted (0:3):** the claim that the CERN-for-AI anti-capture mechanism is "private sector confined to advisory role" — the actual mechanism is more nuanced.
-- **Geneva summit vs. CoE Convention timeline:** an earlier draft attached a "consultation draft due end-2026" to the *summit*. That milestone is the **separate** Council of Europe AI Convention domestic implementing-law track (FDJP/DETEC/FDFA); the summit's April 2026 written call has closed and its next input window is not yet dated — **corrected** (re-verified June 2026).
 
 ## Refined leverage ranking
 
