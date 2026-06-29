@@ -24,12 +24,18 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 Status is shown inline here. Page banners appear only on published pages, normative drafts, outreach/parliamentary drafts, and `docs/wip/` working notes.
 
+### Articles
+
+Published mirrors and translations of external articles, with status shown in each page banner.
+
+- **[Trustworthy AI, Accountable to People](docs/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (2026-06-14; updated on LinkedIn 2026-06-19). Launch article, post, and certification-question comment. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
+- **[The Public AI Network](docs/Published/the-public-ai-network.md)** — *PUBLISHED* (2026-06-22). International statement of the umbrella and its accompanying feed post. [Post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne).
+- **[KI-Souveränität und Resilienz](docs/Published/ki-souveraenitaet-und-resilienz.md)** ([EN](docs/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* (DE, 2026-06-20). Swiss public-AI sovereignty framing and companion English translation. [Post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
+
 ### Public AI Network
 
 Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, resilience, and coordination across free societies.
 
-- **[The Public AI Network](docs/Published/the-public-ai-network.md)** — *PUBLISHED* (2026-06-22). International statement of the umbrella and its accompanying feed post. [Post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne).
-- **[KI-Souveränität und Resilienz](docs/Published/ki-souveraenitaet-und-resilienz.md)** ([EN](docs/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* (DE, 2026-06-20). Swiss public-AI sovereignty framing and companion English translation. [Post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
 - **[Overview](docs/network-overview.md)** — *DRAFT*. Plain-language front door: what the network is, how the federated layer is used and built, and what "joining" means now.
 - **[Federated public compute architecture](docs/Compute/federated-public-compute-architecture.md)** — *DRAFT*. Technical and governance architecture for a model-plural federation, broker, evidence plane, node tiers, and anti-capture controls.
 - **[Federated compute pilot & rollout](docs/Compute/federated-compute-pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and anti-claims.
@@ -48,7 +54,6 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 
 The trust-and-evidence layer: can a deployed AI show its work, answer for its use, and leave evidence others can check?
 
-- **[Trustworthy AI, Accountable to People](docs/Assurance/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (2026-06-14; updated on LinkedIn 2026-06-19). Launch article, post, and certification-question comment. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
 - **[Charter Commitments](docs/Assurance/Framework/charter-commitments.md)** — *DRAFT*. Five obligations, eight operational duties, module candidates, assurance stack, and open decisions.
 - **[Grounding-Faithfulness & Contestability](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT*. First evaluation module; see also the [one-pager](docs/Assurance/Protocol/one-pager.md).
 - **[Certification model](docs/Assurance/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.

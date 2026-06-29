@@ -13,7 +13,7 @@ Ein offenes Schweizer KI-Modell ist ein starker Impuls. Doch wie sichern wir uns
 
 Marcel Salathé hat die Diskussion um ein offenes Schweizer KI-Modell in den vergangenen Wochen mit einem starken Beitrag neu belebt. Der Impuls, massgeblich in unsere digitale Souveränität zu investieren, ist wichtig und ich teile ihn. Damit ein solches Vorhaben seine volle Wirkung entfalten kann, möchte ich die Debatte jedoch um zwei zentrale Ziele ergänzen:
 
-**1. Konsequente Governance als Basis für Vertrauen:** Vertrauen in Künstliche Intelligenz entsteht nicht allein durch das Label „Made in Switzerland". Wahre Souveränität und Resilienz wachsen durch konsequente Transparenz. Wir benötigen eine klare Governance-Schicht: transparente Annahmen, öffentlich nachprüfbare Methoden, evidenzbasierte Nachweise über das reale Systemverhalten (siehe dazu auch [meinen aktuellen Artikel zur Systemevaluation](../Assurance/Published/trustworthy-ai-accountable-to-people.md)) und eindeutig geregelte Verantwortlichkeiten – geschützt vor politischer wie kommerzieller Vereinnahmung.
+**1. Konsequente Governance als Basis für Vertrauen:** Vertrauen in Künstliche Intelligenz entsteht nicht allein durch das Label „Made in Switzerland". Wahre Souveränität und Resilienz wachsen durch konsequente Transparenz. Wir benötigen eine klare Governance-Schicht: transparente Annahmen, öffentlich nachprüfbare Methoden, evidenzbasierte Nachweise über das reale Systemverhalten (siehe dazu auch [meinen aktuellen Artikel zur Systemevaluation](trustworthy-ai-accountable-to-people.md)) und eindeutig geregelte Verantwortlichkeiten – geschützt vor politischer wie kommerzieller Vereinnahmung.
 
 **2. Internationaler Knotenpunkt für freie Gesellschaften:** Ein solches Vorhaben darf aus meiner Sicht nicht zu eng als rein nationales Projekt konzipiert werden. Die Schweiz hat den grössten Hebel, wenn sie nicht isoliert baut, sondern den eigenen innovativen Standort als glaubwürdige Gastgeberin und Brückenbauerin nutzt — für eine international getragene und gesteuerte Public-AI-Infrastruktur, die freiheitlichen Werten dient.
 
@@ -34,4 +34,4 @@ Denn echte digitale Souveränität und Resilienz entfalten sich erst im Netzwerk
 
 ---
 
-_[English translation](ai-sovereignty-and-resilience.md). Companion to [Trustworthy AI, Accountable to People](../Assurance/Published/trustworthy-ai-accountable-to-people.md) — the evaluation-and-accountability thread to this one's public-AI-sovereignty thread; both are facets of [Our AI Charter](../index.md)._
+_[English translation](ai-sovereignty-and-resilience.md). Companion to [Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.md) — the evaluation-and-accountability thread to this one's public-AI-sovereignty thread; both are facets of [Our AI Charter](../index.md)._

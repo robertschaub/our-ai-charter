@@ -46,7 +46,7 @@ Sovereignty is not autarky. Open, inspectable AI models matter, but resilience d
 
     The trust-and-evidence sub-stream: obligations, evaluation, contestability, and future assurance boundaries for deployed AI systems.
 
-    [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](Assurance/Published/trustworthy-ai-accountable-to-people.md) ·
+    [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](Published/trustworthy-ai-accountable-to-people.md) ·
     [Charter Commitments](Assurance/Framework/charter-commitments.md) ·
     [Protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md) ·
     [Certification model](Assurance/Framework/certification-model.md)
