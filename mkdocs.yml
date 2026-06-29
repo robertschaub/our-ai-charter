@@ -124,9 +124,9 @@ nav:
       - "AI Sovereignty and Resilience (EN)": Published/ai-sovereignty-and-resilience.md
       - "KI-Souveränität und Resilienz (DE)": Published/ki-souveraenitaet-und-resilienz.md
   - What we build:
-      - Federated compute:
-          - Federated public-compute architecture: Compute/federated-public-compute-architecture.md
-          - Federated compute — pilot & rollout: Compute/federated-compute-pilot-and-rollout.md
+      - Federated public AI infrastructure:
+          - Architecture: Compute/federated-public-compute-architecture.md
+          - Pilot & rollout: Compute/federated-compute-pilot-and-rollout.md
           - Public-interest control & evidence layer: Compute/public-compute-control-evidence-layer.md
       - AI Assurance & Certification:
           - Charter Commitments: Assurance/Framework/charter-commitments.md

@@ -1,23 +1,23 @@
-# Federated public compute architecture for the Public AI Network
+# Federated public AI infrastructure for the Public AI Network
 
-How to build the Public AI Network's compute pillar as federated, governed public capacity — not a single global GPU pool.
+How to build the Public AI Network's AI-infrastructure pillar as federated, governed public capacity — not a single global GPU pool.
 
-*Naming: throughout, **the Public AI Network** is the umbrella effort; **the federation** (the federated public-compute layer) is the concrete system designed here — see the [overview](../network-overview.md).*
+*Naming: throughout, **the Public AI Network** is the umbrella effort; **the federation** (the federated public AI infrastructure) is the concrete system designed here — see the [overview](../network-overview.md).*
 
 _As of June 2026; re-verify figures and program statuses before public citation. Sources at the end._
 
 ## Conclusion
 
-The compute pillar should be **federated public compute**: many independently operated nodes — public HPC centres, universities, public-service media, NGOs and cooperatives, sovereign and mission-aligned commercial clouds, and authenticated citizens — exposed through shared rules, with an evidence layer on top. Each node keeps local control; the federation shares identity, policy, accounting, and accountability.
+The pillar should be **federated public AI infrastructure**: many independently operated compute nodes — public HPC centres, universities, public-service media, NGOs and cooperatives, sovereign and mission-aligned commercial clouds, and authenticated citizens — exposed through shared rules, with an evidence layer on top. Each node keeps local control; the federation shares identity, policy, accounting, and accountability.
 
-> **Federated public compute** — capacity contributed by public, academic, cooperative, nonprofit, and **mission-aligned commercial or sovereign-cloud** operators, for inference, evaluation, adaptation, and (later) co-training, brokered under common rules for identity, eligibility, quota, routing, jurisdiction, provenance, safety, and accountability, while each node keeps local operational and jurisdictional control. What qualifies a node is the **public-interest terms it accepts** — disclosure, portability, and no control over governance or findings — not its tax status.
+> **Federated public AI infrastructure** — compute capacity contributed by public, academic, cooperative, nonprofit, and **mission-aligned commercial or sovereign-cloud** operators, for inference, evaluation, adaptation, and (later) co-training, brokered under common rules for identity, eligibility, quota, routing, jurisdiction, provenance, safety, and accountability, while each node keeps local operational and jurisdictional control. What qualifies a node is the **public-interest terms it accepts** — disclosure, portability, and no control over governance or findings — not its tax status.
 
 1. **Start from what's already live; stay model-plural.** The public-inference-utility pattern (PublicAI — chat, API, distributed inference, public-governance posture) is the closest live access layer to wrap and extend, not compete with. Apertus is the strongest live *fully-open* model to start the first pilot with — Switzerland's contribution — but the federation is **model-plural**: no model, and no country, is privileged in the rules.
 2. **Lead with what works.** Inference, evaluation, adaptation, and constrained agent execution are feasible now. Cross-border frontier-scale *training* is not — promise "operate, adapt, and govern," not "train at the frontier."
 3. **The missing layer is not a GPU scheduler.** Runtimes exist (vLLM, Kubernetes/Kueue, Slurm, Ray, gateways). The gap is the **public-interest control-and-evidence layer** — the Charter's contribution.
 4. **Capture is dual and documented.** Compute can be switched off by one state and held by one firm; the architecture defeats **both** by design.
 
-**Local economic benefit is legitimate.** Public compute builds domestic skills, suppliers, and AI-capable firms while widening access for researchers, startups, SMEs, and public bodies that cannot buy frontier capacity alone — much of why states fund AI Factories, NAIRR, and national compute programmes. That is how the compute pillar serves the Charter's mission of public AI that supports societal resilience and economic prosperity, and it stays compatible with a shared federation only if funding, routing, and governance remain openly governed and capture-resistant.
+**Local economic benefit is legitimate.** Public AI infrastructure builds domestic skills, suppliers, and AI-capable firms while widening access for researchers, startups, SMEs, and public bodies that cannot buy frontier capacity alone — much of why states fund AI Factories, NAIRR, and national compute programmes. That is how this pillar serves the Charter's mission of public AI that supports societal resilience and economic prosperity, and it stays compatible with a shared federation only if funding, routing, and governance remain openly governed and capture-resistant.
 
 ## Charter fit — the five public obligations
 
@@ -79,6 +79,27 @@ Distributed training is real but bounded, and that boundary sets the promise. Pr
 
 ## 3. Architecture: PublicAI today, broker/evidence next
 
+### Layers: node → AI service → model → workload
+
+Four layers are easy to conflate, so name them explicitly:
+
+- A **node** is *where* compute runs — a locally operated, locally governed cluster, sovereign-cloud deployment, or volunteer-device pool, each under a named, accountable operator (§1).
+- A node serves one or more **AI services** — what users and developers actually consume. These are *not* peers of one another:
+
+| AI service | What it is |
+|---|---|
+| **Inference endpoint** | a model served behind an API (OpenAI-compatible) |
+| **Assistant / chatbot** | a conversational application over endpoints, often with RAG or national prompts |
+| **Agent** | a system that plans and uses tools to act, under the agent-lane safety envelope (workload lanes below) |
+| **Evaluator / verifier** | a service that tests, red-teams, or fact-checks any of the above — the Charter's distinctive lane |
+
+- Every AI service runs on one or more **models** — the open/sovereign artifacts (LLM, SLM, multimodal, embedding) the federation stays plural about (§2).
+- Each request becomes a **workload** the broker routes and accounts for (inference, evaluation, adaptation, agent, co-training — the lanes below).
+
+In short: **a node serves AI services, built on models, producing workloads.** "LLM," "chatbot," and "agent" are a model, an application, and a tool-using system respectively — three layers, not three siblings.
+
+**System vs. service — a lens, not a layer.** The same artifact is an **AI system** when you find, compare, or hold it to account (who owns it, what it must comply with) and an **AI service** when it is served and used. *Model* names the artifact underneath; *system* and *service* are two views of what's built on it.
+
 ### Current Apertus/PublicAI reference architecture
 
 This diagram is a **source-informed map of the current public architecture**, not a claim about a formal Public AI Network governance layer. It combines PublicAI's utility description (chat/API, vLLM, partner clusters, global routing) with its published AWS/Intel Apertus deployment blueprint (AWS Zurich, EKS Auto Mode, Intel/GPU serving, guardrails, storage/state services).
@@ -136,7 +157,7 @@ flowchart TB
   X -.->|incidents inform policy| P
 ```
 
-- **Public access layer** — the front door: PublicAI-compatible chat/API where useful, a batch endpoint for evaluation, a budgeted agent-task endpoint, and a published model list with model + evidence cards. Simple by design; complexity lives behind it.
+- **Public access layer** — the front door to those AI services: PublicAI-compatible chat/API where useful, a batch endpoint for evaluation, a budgeted agent-task endpoint, and a published model list with model + evidence cards. Simple by design; complexity lives behind it.
 - **Policy broker** — the core public-interest addition beyond today's PublicAI/Apertus access layer. Decides *whether* a workload may run, *where*, and *what evidence must be kept*: identity & affiliation, eligibility & public-interest purpose, quota/budget/contribution accounting, jurisdiction & data-class routing, model/node trust tiers, abuse-response + appeal, and signed execution records.
 - **Compute nodes** — locally operated and locally governed; a live public-inference-utility node (PublicAI-style, serving Apertus in the first pilot) is the first reference node, and additional nodes publish capability records (Appendix), grouped into the three tiers below.
 - **Evidence & accountability plane** — **where the Charter is strongest**: model/openness cards, node + dependency cards, evaluation records, workload summaries, incidents + mitigations, quota/allocation reports, unresolved-risk notes, and an explicit note of *what was not logged and why*. Distinguish public evidence from confidential assessor evidence from data that must not be retained.
@@ -269,6 +290,7 @@ ComputeNode:
   operator: "named institution"        # public operator preferred
   jurisdiction: "CH"                    # legal regime of the node
   tier: "fast-core | institutional-swarm | civic-agent-grid"
+  aiServices: ["inference-endpoint", "assistant", "agent", "evaluator"]  # AI services this node serves
   workloadClasses: ["inference", "batch-evaluation"]
   accelerators: [{ type: "GH200|H100|MI300", countDisclosure: "banded" }]
   schedulers: ["kueue", "slurm-adapter"]

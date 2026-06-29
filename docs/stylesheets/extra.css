@@ -109,7 +109,7 @@
    ========================================================================== */
 
 /* With navigation.sections, Material renders the collapsible section labels
-   ("What we build", "Federated compute", "AI Assurance & Certification") at a
+   ("What we build", "Federated public AI infrastructure", "AI Assurance & Certification") at a
    muted --md-default-fg-color--light. Beside the full-contrast links nested
    under them the headers nearly disappear. Lift them to full-contrast text so
    the section titles read as the clearest items in the tree; the theme's bold

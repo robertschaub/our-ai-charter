@@ -60,7 +60,7 @@ Modules are triggered, not optional decoration. Every assessed system gets a bas
 
 The outward surfaces are concepts, not interface specs:
 
-- **Find** — discovery and navigation across providers and systems, based on scoped assurance depth rather than an "approved" badge. The directory must remain plural and neutral: the index is a chokepoint, and a captured registry is a captured market.
+- **Find** — discovery and navigation across the network's **AI systems** and the providers behind them, based on scoped assurance depth rather than an "approved" badge. The directory must remain plural and neutral: the index is a chokepoint, and a captured registry is a captured market.
 - **Check** — a [Capabilities & Assurance Interface](../../wip/capabilities-and-assurance-interface.md): what a system says it is for, what has been assured, and what is not verified.
 - **Watch** — runtime inspection at least-exposure: each audience sees only its slice (own session, affected-person decision, assessor sample, regulator access, public aggregate). Inspection must be verifiable rather than self-reported, privacy-bounded (confirm behaviour without exposing content), and itself assessed — the assurance plane checks that inspection is adequate.
 
