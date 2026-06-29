@@ -1,6 +1,6 @@
 > **Status: DRAFT (v0.14)**
 
-# Our AI Charter — the Founding Accord
+# Charter Commitments
 ### A public charter for trustworthy AI — built together, answerable to people.
 
 _Draft v0.14 (2026-06-19). Open for comment._
@@ -23,7 +23,7 @@ We commit to building that foundation together, and to being held to the values,
 
 **Ways to take part**
 
-- **Supporter** — any person or institution may publicly endorse this Accord.
+- **Supporter** — any person or institution may publicly endorse these commitments.
 - **Member** — organisations that join the Charter, accept its shared, capture-resistant governance, and commit to the path below.
 - **Pilot participant** — organisations may volunteer a specific deployed system for a draft evaluation report. No Mark or certificate is issued in this phase, and no pilot evaluations are running yet — volunteering registers interest in a possible future step.
 - **Future Trust Mark candidate / holder** — once a conformity scheme exists, members may submit a specific model or system for independent audit against the operational duties. Any future Mark is granted **per model and version — never as a blanket badge for an organisation** — and may be revoked.
@@ -107,7 +107,7 @@ Each duty and module should state both the required and achieved assurance depth
 
 This is the protection against authoritarian switch-off orders or manipulation: not a fantasy that private systems can ignore every lawful state act, but a requirement that material control interventions are attributable, proportionate, evidenced, logged, reviewable, and paired with continuity or exit planning when public reliance is material. If neither public disclosure nor confidential independent review is possible, the affected scope cannot carry a Charter alignment claim. Secret, unilateral, unreviewable control is not compatible with the Charter.
 
-Because state regulation is not uniform across jurisdictions, this Accord cannot simply sit above one shared legal floor. A future **common Charter baseline** would be the minimum set of operational duties any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the voluntary Charter baseline. The provider-declared legal scope, common Charter baseline, and public-interest modules must be reported separately so a reader can see what was legally scoped, what was baseline-assessed, and what was module-tested.
+Because state regulation is not uniform across jurisdictions, these Charter Commitments cannot simply sit above one shared legal floor. A future **common Charter baseline** would be the minimum set of operational duties any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the voluntary Charter baseline. The provider-declared legal scope, common Charter baseline, and public-interest modules must be reported separately so a reader can see what was legally scoped, what was baseline-assessed, and what was module-tested.
 
 **Independent and fair by design**
 
@@ -119,7 +119,7 @@ These are obligations and operational duties to be checked, not admired. In the 
 
 **An open invitation**
 
-This Accord belongs to no single company or country. National and regional public-AI efforts can be strong nodes in this network when they meet the Charter's co-stewardship and capture-resistance expectations: partners need meaningful routes to inspect, challenge, and help shape the work without becoming dependent on one state, company, funder, host institution, or audited party. Any trustworthy organisation — anywhere, subject to law and to these obligations and duties — that shares these values is invited to endorse it, help build the governance, or volunteer a system for pilot evaluation. Independent audit and any Mark come only if a conformity scheme is created. Individuals and institutions may endorse it as supporters.
+These Charter Commitments belong to no single company or country. National and regional public-AI efforts can be strong nodes in this network when they meet the Charter's co-stewardship and capture-resistance expectations: partners need meaningful routes to inspect, challenge, and help shape the work without becoming dependent on one state, company, funder, host institution, or audited party. Any trustworthy organisation — anywhere, subject to law and to these obligations and duties — that shares these values is invited to endorse it, help build the governance, or volunteer a system for pilot evaluation. Independent audit and any Mark come only if a conformity scheme is created. Individuals and institutions may endorse it as supporters.
 
 _Signed,_
 

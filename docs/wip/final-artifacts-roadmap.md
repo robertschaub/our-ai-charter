@@ -11,7 +11,7 @@
 
 ## The key insight
 
-The hard intellectual content already exists — five obligations, eight duties, the three-layer assurance stack ([Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)) and a red-teamed [evaluation protocol](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md). What is missing is the **durable form** that lets it live independently. The [landscape scan](../AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md) names the gap none of the peers fills — *"none certifies that a deployed system's claims are supported by the sources it cited"* — the **unoccupied grounding-faithfulness wedge**. That is the most differentiated artifact available. Peer initiatives supply the templates for the *forms*; nearly every artifact below is a **co-production**, not a solo output.
+The hard intellectual content already exists — five obligations, eight duties, the three-layer assurance stack ([Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)) and a red-teamed [evaluation protocol](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md). What is missing is the **durable form** that lets it live independently. The [landscape scan](../AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md) names the gap none of the peers fills — *"none certifies that a deployed system's claims are supported by the sources it cited"* — the **unoccupied grounding-faithfulness wedge**. That is the most differentiated artifact available. Peer initiatives supply the templates for the *forms*; nearly every artifact below is a **co-production**, not a solo output.
 
 *Artifact numbers (#1–#7) are stable IDs shared with [artifact-production-plan.md](artifact-production-plan.md) and the analysis they came from. **Priority is shown by tier, not by number order** — so the sequence reads #1, #3 (keystone), then #2, #6, then #4, #5, then #7.*
 
@@ -35,7 +35,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ## Tier 1b — Connective, cheap, do early
 
-### 2. Founding Accord v1.0 + supporter/member register
+### 2. Charter Commitments v1.0 + supporter/member register
 *Form precedent: IFCN / EFCSN code + verified-signatory; OSI Open Source AI Definition (a released definition document).*
 - **Minimum first release:** promote v0.14 → v1.0 (resolve the "Open decisions" minimally or mark them explicitly open), publish a signable version + a public supporter-list page.
 - **Co-producer:** 3–5 early endorsers; an anchor willing to be listed.
@@ -52,7 +52,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 ## Tier 2 — Follow-on
 
 ### 4. Co-stewardship governance pack — adoptable, capture-resistant template
-*Form precedent: governance models behind IFCN/Poynter, Creative Commons; the Accord's own "Open decisions → Governance pack".*
+*Form precedent: governance models behind IFCN/Poynter, Creative Commons; the Charter Commitments' own "Open decisions → Governance pack".*
 - **Minimum first release:** a short fill-in template — board composition, funding caps + conflict-of-interest, no-secret-kill-switch, appeals, audit/revocation — adoptable by any public-AI node.
 - **Co-producer:** Public AI / Metagov, ICAIN, Current AI (accountability pillar).
 - **Go / no-go:** one public-AI node willing to pilot the template — otherwise it stays abstract.

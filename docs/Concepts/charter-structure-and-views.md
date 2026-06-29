@@ -1,6 +1,6 @@
 # Structuring the Charter: obligations as spine, views as lenses
 
-*There are many ways to slice "responsible / trustworthy / honest / resilient AI" — by who is looking, which property, which layer, when in the lifecycle. This note settles which one is the **spine** and which are **lenses onto it**, so new material has a home and the pieces cohere. It is a **map**, not the assurance spec itself — the binding detail lives in the Accord's obligations and operational duties.*
+*There are many ways to slice "responsible / trustworthy / honest / resilient AI" — by who is looking, which property, which layer, when in the lifecycle. This note settles which one is the **spine** and which are **lenses onto it**, so new material has a home and the pieces cohere. It is a **map**, not the assurance spec itself — the binding detail lives in the Charter Commitments' obligations and operational duties.*
 
 ## The resolution
 
@@ -14,7 +14,7 @@ Why obligations, not "stakeholder seat": a perspective-led structure fragments o
 
 The five obligations are the spine — but they are **public claims, not assessable units.** The **eight operational duties (plus modules) stay the single source of audit truth**; an obligation's status is **derived** from the duty/module findings that support it, never scored on its own — under explicit **claim semantics**: findings are **non-compensatory** (a strong module cannot offset a failed one), a material module left **not-assessed *blocks*** the claim rather than merely qualifying it, and an **honesty failure invalidates the affected claims**, not only obligation 5. (Others will still distil this into crude scores; the discipline is that any status is derived, scoped, and uncertainty-qualified — not that no summary exists.) This is the rule that stops a readable per-obligation summary from becoming a "legitimacy wrapper" — easier to pass than the assurance beneath it — and a GPT-5.5 / Gemini 3.1 exchange converged hard on it.
 
-The bridge is a **Claims → Arguments → Evidence** view: each obligation (claim) → the duties that *argue* it → the modules that *evidence* it, at a risk-tiered assurance depth. Rendered per obligation it has four blocks — **a view over the duties, not a new control layer** — each resolving to an existing Accord duty rather than restating it:
+The bridge is a **Claims → Arguments → Evidence** view: each obligation (claim) → the duties that *argue* it → the modules that *evidence* it, at a risk-tiered assurance depth. Rendered per obligation it has four blocks — **a view over the duties, not a new control layer** — each resolving to an existing Charter Commitments duty rather than restating it:
 
 1. **Scope & trigger** — when the obligation applies and at what risk tier *(→ legal-scope map; risk register, duties 2–3)*.
 2. **Accountability** — interests protected · the named accountable owner + supporting duty-holders · the oversight route *(→ duty 1)*.
@@ -27,7 +27,7 @@ The bridge is a **Claims → Arguments → Evidence** view: each obligation (cla
 - *Controls & evidence:* claim↔source mapping, source-validity floor, retrieval logging, version-locking, calibration/abstention — *proven* by an independent grounding-faithfulness rate (with sampling + uncertainty) and paraphrase-regression on corrections.
 - *Remedy & escalation:* output-level (correct/withdraw the claim) → decision-level (re-do affected decisions) → system-level (rollback). **Withdrawal triggers:** curated correction logs, a silent version swap, or false evidence.
 
-***Answerable to people*** fills the same four blocks but is rights-led, and exposes machinery the honesty example doesn't: *scope* = consequential decisions about people; *accountability* = a named human institution, never "the algorithm"; *controls/evidence* = notice, explanation, human review, preserved records; *remedy* = individual challenge **and**, for patterns, collective / regulator-triggered review. The other three obligations fill the same card; full text in the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md).
+***Answerable to people*** fills the same four blocks but is rights-led, and exposes machinery the honesty example doesn't: *scope* = consequential decisions about people; *accountability* = a named human institution, never "the algorithm"; *controls/evidence* = notice, explanation, human review, preserved records; *remedy* = individual challenge **and**, for patterns, collective / regulator-triggered review. The other three obligations fill the same card; full text in the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md).
 
 ## Two planes — assurance and runtime
 
@@ -62,7 +62,7 @@ Labour/worker, environment/resource, creator/copyright, sovereignty/Global-South
 
 ## How it's used — lenses render artifacts
 
-The spine is the architecture; the lenses are how it becomes usable. Each renders a navigable artifact: **role cards** (actor-kind), **lifecycle checklists** (the two lifecycles), **risk-tier profiles** (calibrator), a **remedy map** (impact). The [user-workflow note](user-workflow-governance.md) is the first of these — the *user role-card on the consequential-event lifecycle*. Working the four-block view per obligation (as a **CAE / obligation×duty crosswalk**) is the next step; it graduates into a **certification-model annex**, not the Accord body. All five obligations are now prototyped as `wip/` CAE views — [answerable](../wip/answerable-to-people-assurance-case.md) (rights-led), [purpose-bound](../wip/purpose-bound-assurance-case.md) (legitimacy-led, with a hard gate), [safe-secure-private-resilient](../wip/safe-secure-private-resilient-assurance-case.md) (technical, effectiveness-led), [fair-in-practice](../wip/fair-in-practice-assurance-case.md) (collective, measurement-led), and [open-to-evidence](../wip/open-to-evidence-assurance-case.md) (the honesty wedge, partly meta) — ready to migrate into a certification-model annex.
+The spine is the architecture; the lenses are how it becomes usable. Each renders a navigable artifact: **role cards** (actor-kind), **lifecycle checklists** (the two lifecycles), **risk-tier profiles** (calibrator), a **remedy map** (impact). The [user-workflow note](user-workflow-governance.md) is the first of these — the *user role-card on the consequential-event lifecycle*. Working the four-block view per obligation (as a **CAE / obligation×duty crosswalk**) is the next step; it graduates into a **certification-model annex**, not the Charter Commitments body. All five obligations are now prototyped as `wip/` CAE views — [answerable](../wip/answerable-to-people-assurance-case.md) (rights-led), [purpose-bound](../wip/purpose-bound-assurance-case.md) (legitimacy-led, with a hard gate), [safe-secure-private-resilient](../wip/safe-secure-private-resilient-assurance-case.md) (technical, effectiveness-led), [fair-in-practice](../wip/fair-in-practice-assurance-case.md) (collective, measurement-led), and [open-to-evidence](../wip/open-to-evidence-assurance-case.md) (the honesty wedge, partly meta) — ready to migrate into a certification-model annex.
 
 ## The demand side — find, check, watch
 
@@ -80,7 +80,7 @@ All three read capabilities (runtime) and assurance claims under the same honest
 
 For a charter that is *accountable to people*, producing, surfacing, and checking claims is not enough — it must also say **who may challenge a claim, who answers for it, who interprets the Charter when one is contested, and what follows when one is unsupported.** This is the third leg, alongside the two planes and the demand side, and it mostly **unifies pieces the Charter already has**:
 
-- **Standing — who may challenge.** The user and the *affected person* (the answerable-to-people obligation in the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)), and — for **diffuse or collective** harms with no individual complainant — whoever can speak for them (a regulator, a representative body, a watchdog). The standing counterpart to the collective↔individual lens.
+- **Standing — who may challenge.** The user and the *affected person* (the answerable-to-people obligation in the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)), and — for **diffuse or collective** harms with no individual complainant — whoever can speak for them (a regulator, a representative body, a watchdog). The standing counterpart to the collective↔individual lens.
 - **Authority — who adjudicates.** A contested claim (a misreported finding, a misdeclared purpose, a stale or selectively-scoped claim) is decided by a **named adjudicator outside any single member** — the role already introduced in the [control-and-evidence layer](../wip/public-compute-control-evidence-layer.md) — with published standards and graduated sanctions. Interpreting the Charter is itself an accountable act, not a provider's to self-serve.
 - **Consequence — what follows.** An unsupported, misleading, or out-of-scope claim is **narrowed, reclassified, or withdrawn**, and the loss of standing is **public** (the cards' withdrawal triggers, generalised). Honesty-of-process applies reflexively — the consequence record is itself a warranted public claim.
 
@@ -88,7 +88,7 @@ Without this leg the rest is a sophisticated *claim-production* system; with it,
 
 ## Where the existing pieces sit
 
-- [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) — **assurance plane**: the spine (obligations + operational duties; owner, legal-scope, assurance-depth, withdrawal).
+- [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) — **assurance plane**: the spine (obligations + operational duties; owner, legal-scope, assurance-depth, withdrawal).
 - [Grounding-Faithfulness & Contestability](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) — **assurance plane**: the factual-output honesty module (data + deployed-system layers).
 - The five obligation assurance-cases (e.g. [Answerable to people](../wip/answerable-to-people-assurance-case.md)) — **assurance plane**: the obligation→duty CAE views.
 - [Control-and-evidence layer](../wip/public-compute-control-evidence-layer.md) — **the seam**: a policy broker (runtime) + an evidence plane (assurance).
@@ -97,4 +97,4 @@ Without this leg the rest is a sophisticated *claim-production* system; with it,
 
 ## What this is / is not
 
-A structural **map**, reasoned through and cross-model reviewed — not normative text, and not yet the assurance spec (no thresholds or RACI; the per-obligation CAE views graduate into a certification-model annex, not the Accord). The one change from the first sketch: the spine is **obligations**, not stakeholder seats — and "seat" splits into four role-based actor-kinds that become one lens among several.
+A structural **map**, reasoned through and cross-model reviewed — not normative text, and not yet the assurance spec (no thresholds or RACI; the per-obligation CAE views graduate into a certification-model annex, not the Charter Commitments). The one change from the first sketch: the spine is **obligations**, not stakeholder seats — and "seat" splits into four role-based actor-kinds that become one lens among several.

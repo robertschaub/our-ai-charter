@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — prototype (2026-06-28). The **second** worked obligation→duty bridge, built to test whether the instrument in [charter-structure-and-views.md](../Concepts/charter-structure-and-views.md) generalizes from a rights-led obligation ([Answerable to people](answerable-to-people-assurance-case.md)) to a **legitimacy-led** one. Pointer-level: routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties, inventing no new controls.
+> **Status: WORKING NOTES** — prototype (2026-06-28). The **second** worked obligation→duty bridge, built to test whether the instrument in [charter-structure-and-views.md](../Concepts/charter-structure-and-views.md) generalizes from a rights-led obligation ([Answerable to people](answerable-to-people-assurance-case.md)) to a **legitimacy-led** one. Pointer-level: routes to the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)' duties, inventing no new controls.
 
 # Assurance case — *Purpose-bound* (obligation 1)
 
@@ -18,7 +18,7 @@ Before any of the crosswalk below, the declared purpose must clear a **binary ga
 
 ## Argument & evidence — the crosswalk
 
-Each row routes the claim to an existing Accord duty (the *argument*) and the artifact that proves it (the *evidence*). Required depth is the minimum for a **high-stakes** tier.
+Each row routes the claim to an existing Charter Commitments duty (the *argument*) and the artifact that proves it (the *evidence*). Required depth is the minimum for a **high-stakes** tier.
 
 | Duty (argument) | What it must show for purpose-binding | Evidence / module | Min. depth (high tier) |
 |---|---|---|---|

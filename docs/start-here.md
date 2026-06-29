@@ -24,7 +24,7 @@ hide:
 *What would my system have to meet — and how is that checked?*
 
 1. **[Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — the why.
-2. **[The Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md)** — the five obligations as operational duties (the what).
+2. **[Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)** — the five obligations as operational duties (the what).
 3. **[Risk & vulnerability audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md)** — what a system must cover, and the failures it must not hide.
 4. **[Evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)** (+ [one-pager](AI%20Assurance%20and%20Certification/Protocol/one-pager.md)) — how it is checked — then the **[certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md)** for where assurance heads.
 
@@ -33,7 +33,7 @@ hide:
 *Where is the work weakest, and how do I push back?*
 
 1. **[How to contribute](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md)** — stress-test the Public AI path, suggest useful doors, and challenge the trust/evidence method.
-2. **Attack the core:** [The Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) and the [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) — the load-bearing claims.
+2. **Attack the core:** [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) and the [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) — the load-bearing claims.
 3. **Check the basis:** [Risk audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md) · [Landscape & positioning](AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md) (Assurance) · [Verified findings](Evidence/verified-findings.md) · [Linked sources](Evidence/linked-sources.md) (Public AI Network).
 4. **Act:** open a [GitHub issue / pull request](https://github.com/robertschaub/our-ai-charter/issues).
 

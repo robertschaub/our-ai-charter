@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — prototype (2026-06-28). The first worked **obligation→duty bridge**, built to test the instrument settled in [charter-structure-and-views.md](../Concepts/charter-structure-and-views.md) after a GPT-5.5 / Gemini 3.1 exchange. Pointer-level: it routes to the [Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md)'s duties and modules and invents no new controls. Aims to graduate into a certification-model annex once 2–3 obligations are worked and piloted.
+> **Status: WORKING NOTES** — prototype (2026-06-28). The first worked **obligation→duty bridge**, built to test the instrument settled in [charter-structure-and-views.md](../Concepts/charter-structure-and-views.md) after a GPT-5.5 / Gemini 3.1 exchange. Pointer-level: it routes to the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)' duties and modules and invents no new controls. Aims to graduate into a certification-model annex once 2–3 obligations are worked and piloted.
 
 # Assurance case — *Answerable to people* (obligation 2)
 
@@ -14,7 +14,7 @@ Consequential decisions or actions *involving* AI that materially affect a perso
 
 ## Argument & evidence — the crosswalk
 
-Each row routes the claim to an existing Accord duty (the *argument*) and the artifact that proves it (the *evidence*). Required depth is the minimum for a **high-stakes** tier; lower tiers relax it.
+Each row routes the claim to an existing Charter Commitments duty (the *argument*) and the artifact that proves it (the *evidence*). Required depth is the minimum for a **high-stakes** tier; lower tiers relax it.
 
 | Duty (argument) | What it must show for *answerability* | Evidence / module | Min. depth (high tier) |
 |---|---|---|---|

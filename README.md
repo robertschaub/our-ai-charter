@@ -11,7 +11,7 @@ _Early public draft, open for comment. Not a certification; not yet a standard._
 
 AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter is a Public AI Network initiative** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network — with the Geneva AI Summit 2027 as a concrete timing window.
 
-Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** behind those obligations: the evaluation discipline and claim boundaries a public-AI effort needs if it is to be more than an open model or a national label. Its normative core, the **[Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, holds any deployed system to five public obligations:
+Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** behind those obligations: the evaluation discipline and claim boundaries a public-AI effort needs if it is to be more than an open model or a national label. Its normative core, the **[Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)**, set five public obligations for any deployed system:
 
 - **Purpose-bound** — the system states what it is for, what it must not do, who it may affect, and what risks are known.
 - **Answerable to people** — a named human institution is responsible, and consequential uses carry notice, review, challenge, and remedy.
@@ -19,7 +19,7 @@ Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stre
 - **Fair in practice** — uneven or discriminatory performance is tested, disclosed, and corrected where it matters.
 - **Open to evidence and correction** — claims, limits, incidents, changes, and unresolved risks leave a trail others can check.
 
-The obligations are spelled out in full in the **[Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, tested by a [first evaluation module](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md), and set within a three-layer assurance stack: legal floor, common Charter baseline, and public-interest modules.
+The obligations are spelled out in full in the **[Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)**, tested by a [first evaluation module](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md), and set within a three-layer assurance stack: legal floor, common Charter baseline, and public-interest modules.
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](docs/PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](docs/PROGRAM.md#stewardship-and-governance)**.
 
@@ -28,8 +28,8 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 Pick the row that fits you — fuller ordered paths are on the **[Start here](https://robertschaub.github.io/our-ai-charter/start-here/)** page.
 
 - **Shape policy, or could ally** → [The Public AI Network](docs/Published/the-public-ai-network.md) · [KI-Souveränität (DE)](docs/Published/ki-souveraenitaet-und-resilienz.md) ([EN](docs/Published/ai-sovereignty-and-resilience.md)) · [initiative briefing](docs/briefing.md).
-- **Build, operate, or assess AI** → [Trustworthy AI…](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
-- **Test or improve this** → [CONTRIBUTING](CONTRIBUTING.md), then [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) and the [protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+- **Build, operate, or assess AI** → [Trustworthy AI…](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+- **Test or improve this** → [CONTRIBUTING](CONTRIBUTING.md), then [Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) and the [protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
 - **Just understand it** → the two published articles above, plus the [program map](docs/PROGRAM.md).
 
 ## The initiative — strategy, outreach & evidence
@@ -63,13 +63,13 @@ Each entry below notes its status — *PUBLISHED* or *DRAFT* (raw, unanchored no
 *The trust and evidence layer within the Public AI Network — can a deployed AI show its work and answer for it?*
 
 - **[Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (14 Jun, updated 19 Jun 2026). The **why** — with its launch post and the "who would certify this?" comment mirrored in the same file. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
-- **[The Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)** — *DRAFT*. The charter you can endorse — the **what**.
+- **[Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)** — *DRAFT*. The charter you can endorse — the **what**.
 - **[Grounding-Faithfulness & Contestability](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT*. The first evaluation module ([one-pager](docs/AI%20Assurance%20and%20Certification/Protocol/one-pager.md)).
 - **[How certification could work later](docs/AI%20Assurance%20and%20Certification/Framework/certification-model.md)** — *DRAFT*. The future assurance and accreditation structure.
 - **[Structuring the Charter — obligations, planes & lenses](docs/Concepts/charter-structure-and-views.md)** · **[Governance from the AI user's workflow](docs/Concepts/user-workflow-governance.md)** — *DRAFT* cross-cutting **concept** notes (now under `docs/Concepts/`): how the framework's pieces fit, concept-level, not normative. Per-obligation prototypes remain in [working notes](docs/wip/README.md).
 - **[Risk and vulnerability audit](docs/AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/AI%20Assurance%20and%20Certification/Background/what-the-world-has-already-declared.md)** · **[Landscape & positioning](docs/AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md)** — *DRAFT* background.
 
-**Where to start now:** [The Public AI Network](docs/Published/the-public-ai-network.md) (international frame) → [initiative briefing](docs/briefing.md) (current ask and guardrails) → [initiation strategy](docs/Strategy/initiation-strategy.md) (30/60/90 path). For the evidence mechanics behind the trust layer, read [Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+**Where to start now:** [The Public AI Network](docs/Published/the-public-ai-network.md) (international frame) → [initiative briefing](docs/briefing.md) (current ask and guardrails) → [initiation strategy](docs/Strategy/initiation-strategy.md) (30/60/90 path). For the evidence mechanics behind the trust layer, read [Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) → [Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
 
 ## Status
 

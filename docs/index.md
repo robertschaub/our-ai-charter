@@ -47,7 +47,7 @@ Open, inspectable AI models now exist across many regions. But autarky is not so
     The network's **trust layer**: the sub-stream that turns public-AI claims into obligations, evidence, evaluation, and contestability. Can a deployed AI show its work and answer for it?
 
     [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) ·
-    [Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) ·
+    [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) ·
     [Protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)
 
 </div>
@@ -73,7 +73,7 @@ The Charter turns those questions into five obligations any assessed system shou
 - **Fair in practice** — uneven or discriminatory performance is tested, disclosed, and corrected where it matters.
 - **Open to evidence and correction** — claims, limits, incidents, changes, and unresolved risks leave a trail others can check.
 
-Each obligation becomes a set of operational duties in the [Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md). They are designed against the real-world risks named in the [risk and vulnerability audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md) — from concentrated infrastructure and coercive shutdown to hallucination, insecure AI apps, privacy leakage, bias, and evidence theatre. A system should not be able to claim the Charter while hiding any of these from the people it affects.
+Each obligation becomes a set of operational duties in the [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md). They are designed against the real-world risks named in the [risk and vulnerability audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md) — from concentrated infrastructure and coercive shutdown to hallucination, insecure AI apps, privacy leakage, bias, and evidence theatre. A system should not be able to claim the Charter while hiding any of these from the people it affects.
 
 ## Where regulation ends and the Charter begins
 

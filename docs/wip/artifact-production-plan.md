@@ -6,7 +6,7 @@
 
 ## The key insight
 
-The bottleneck is not more thinking — it is **assembly + packaging**. Strong assets already exist: two published articles, a near-final bilingual non-paper, the actor map and verified-findings base, the Founding Accord, and — most importantly — a pressure-tested **Grounding-Faithfulness & Contestability evaluation protocol (v0.2)**.
+The bottleneck is not more thinking — it is **assembly + packaging**. Strong assets already exist: two published articles, a near-final bilingual non-paper, the actor map and verified-findings base, the Charter Commitments, and — most importantly — a pressure-tested **Grounding-Faithfulness & Contestability evaluation protocol (v0.2)**.
 
 The demand side is specific. The official Geneva 2027 process asks contributors to **"move beyond declarations"** and bring **concrete, reusable tools** — it names *evaluation benchmarks, audit/transparency templates, contestability/accountability standards, and "tools to measure how AI systems may be skewed or manipulative before political decisions,"* with Apertus as the flagship open-infra case (see [channel-demand](geneva-2027-channel-demand.md)). That nearly describes the evaluation protocol already in hand.
 
@@ -20,7 +20,7 @@ The demand side is specific. The official Geneva 2027 process asks contributors 
 | **2. Forwardable one-pager** (initiative-level, 1 p) | A short summary that warm contacts can forward to international anchors | Executive summary of the keystone memo | **Very low** | **Now** |
 | **3. Fellowship output commitment** — abstract + outline + named venue + timeline (½ p) | The application itself; selection weighs "publication feasibility," so a concrete plan scores | The brief in #4, as its publication plan | **Very low** | **Now — for the application** |
 | **4. Evaluation package (the differentiator)** — *not just a brief*: method v0.3 + annotation codebook + report skeleton + one public calibration/example set (held-out queries stay auditor-controlled), plus a runnable/portable harness *plan* (an AI Verify/Moonshot recipe or a small open harness). Illustrative target: an **Apertus-class public model / public inference endpoint** (name Apertus only with partner agreement) | **The real differentiator — and the seed of the releasable [evaluation toolkit](final-artifacts-roadmap.md) (#1).** The brief doubles as the fellowship's *published* output **and** the official-process submission when the next window opens; answers the process's Q4 ("concrete tools") directly | the [evaluation protocol](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) + one-pager | **Medium** | **Brief over summer; package components iteratively; harness later** |
-| **5. Governance blueprint** — the *how*: roles, anti-capture, no-secret-kill-switch, oversight, conflict-of-interest, audit path, an external adjudicator outside any single member, and attestation with penalties for false attestation (~2 pp) | Substance for the Route B conversations (SNAI/Apertus, publicai.ch, Public AI network); the governance half of the memo. Frame as "how a layer could *dock onto* Apertus/SNAI," not critique | [Founding Accord](../AI%20Assurance%20and%20Certification/Framework/founding-accord.md) duties + certification-model governance + CERN-for-AI reference + the [control-and-evidence one-pager](public-compute-control-evidence-layer.md) | **Medium** | **Next (weeks)** |
+| **5. Governance blueprint** — the *how*: roles, anti-capture, no-secret-kill-switch, oversight, conflict-of-interest, audit path, an external adjudicator outside any single member, and attestation with penalties for false attestation (~2 pp) | Substance for the Route B conversations (SNAI/Apertus, publicai.ch, Public AI network); the governance half of the memo. Frame as "how a layer could *dock onto* Apertus/SNAI," not critique | [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) duties + certification-model governance + CERN-for-AI reference + the [control-and-evidence one-pager](public-compute-control-evidence-layer.md) | **Medium** | **Next (weeks)** |
 
 **Produce on demand (cheap, when a conversation needs it):**
 
@@ -42,7 +42,7 @@ The demand side is specific. The official Geneva 2027 process asks contributors 
 
 ## What you already have (supply side, public-safe)
 
-**Strongest reusable assets:** the evaluation protocol (v0.2, adversarially red-teamed); the Founding Accord's five obligations / eight operational duties; the verified-findings base + the match-rated actor map; the near-final bilingual non-paper; two published articles; the initiation strategy with its leverage ranking.
+**Strongest reusable assets:** the evaluation protocol (v0.2, adversarially red-teamed); the Charter Commitments' five obligations / eight operational duties; the verified-findings base + the match-rated actor map; the near-final bilingual non-paper; two published articles; the initiation strategy with its leverage ranking.
 
 **Biggest gaps (→ map to the artifacts above):** the assembled keystone memo/package (#1); the governance blueprint as institutional *how* (#5); the evaluation protocol packaged as a summit-ready tool (#4); a plain-language FAQ; a pre-sprint design; a roundtable concept.
 
