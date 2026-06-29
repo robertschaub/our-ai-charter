@@ -4,11 +4,11 @@
 
 _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
-**Update 2026-06-19:** Der LinkedIn-Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Die Freigabe- und Faktenprüfungsregeln für Non-Paper, Outreach, Postulat und externe Claims bleiben gültig.
+**Update 2026-06-19:** Der Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Externe Aussagen vor Verwendung prüfen.
 
-**Rolle:** Impulsgeber und Allianzbildner. Die Schweiz soll sich als glaubwürdige Gastgeberin und als Knotenpunkt positionieren — und das von Beginn an international ausgerichtet. Es soll ausdrücklich keine neue Institution gegründet werden.
+**Rolle:** Impulsgeber und Allianzbildner. Die Schweiz soll als glaubwürdige Gastgeberin und Knotenpunkt wirken — von Beginn an international ausgerichtet. Es wird keine neue Institution behauptet.
 
-**Grösster Hebel:** Wir docken an bestehende, öffentlich finanzierte Strukturen (wie Apertus/SNAI und Current AI) an und bündeln die Reichweite in Form einer **Allianz oder Charta**. Parlamentarische Vorstösse (wie ein Postulat) folgen erst in einem späteren Schritt, vermittelt über ein tragendes Ratsmitglied.
+**Grösster Hebel:** an bestehende öffentliche Strukturen wie Apertus/SNAI und Current AI andocken und Reichweite in einer **Allianz oder Charta** bündeln. Parlamentarische Vorstösse folgen später über ein tragendes Ratsmitglied.
 
 ## Zeitliche Abfolge (Sequenz)
 
@@ -18,8 +18,7 @@ Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](../Stra
 - **31–60 Tage:** Scoping-Gespräch durchführen; einen neutral moderierten Klärungsprozess (Pre-Sprint) rund um ein Geneva 2027 Public AI Governance & Evidence Package aufsetzen.
 - **61–90 Tage:** An den KI-Gipfel Genf 2027 und relevante Bundeskanäle andocken; ein Postulat nur vorbereiten, wenn es eine Trägergruppe und ein konkretes Paket gibt.
 
-**Paralleler Handlungsstrang (fortlaufend beobachten):**
-Der Bund erarbeitet voraussichtlich bis Ende 2026 eine Vorlage oder einen Umsetzungsplan zur KI-Regulierung (beteiligt sind EJPD, UVEK und EDA, auch im Hinblick auf die Europaratskonvention) und bereitet den KI-Gipfel Genf 2027 vor. Es gilt, frühzeitig über *bestehende (warme)* Kontakte einen diskreten Abgleich mit der Realität zu suchen (keine Kaltakquise) und sicherzustellen, dass unser Vorhaben zu diesen offiziellen Prozessen anschlussfähig bleibt.
+**Paralleler Handlungsstrang:** Die KI-Regulierungsarbeiten des Bundes bis Ende 2026 und die Vorbereitung des KI-Gipfels Genf 2027 beobachten. Einen diskreten Realitätsabgleich nur über bestehende warme Kontakte suchen; das Vorhaben anschlussfähig an offizielle Prozesse halten.
 
 ## Verifizierte Anknüpfpunkte (Anker)
 

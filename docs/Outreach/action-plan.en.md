@@ -2,11 +2,11 @@
 
 # Action Plan — Public AI Governance (Short Form)
 
-**Update 2026-06-19:** The LinkedIn article is published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)); direct outreach has begun. The release and fact-checking rules for the Non-Paper, outreach, postulate, and external claims remain in force.
+**Update 2026-06-19:** The article is published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)); direct outreach has begun. Fact-check external claims before use.
 
-**Role:** Catalyst and alliance-builder. Switzerland should position itself as a credible host and as a hub — internationally oriented from the outset. Explicitly, no new institution is to be founded.
+**Role:** Catalyst and alliance-builder. Switzerland should act as credible host and hub, internationally oriented from the outset. No new institution is claimed.
 
-**Greatest leverage:** We connect to existing, publicly funded structures (such as Apertus/SNAI and Current AI) and pool our reach in the form of an **alliance or charter**. Parliamentary procedural requests (such as a postulate) follow only at a later stage, via a sponsoring member of parliament.
+**Greatest leverage:** connect to existing public structures such as Apertus/SNAI and Current AI, then pool reach through an **alliance or charter**. Parliamentary requests follow later through a sponsoring member of parliament.
 
 ## Sequence (timeline)
 
@@ -16,8 +16,7 @@ The detailed 30/60/90-day sequence is recorded in the [Initiation Strategy](../S
 - **31–60 days:** Hold the scoping conversation; set up a neutrally moderated clarification process (pre-sprint) around a Geneva 2027 Public AI Governance & Evidence Package.
 - **61–90 days:** Connect to the AI Summit Geneva 2027 and to relevant federal channels; prepare a postulate only if a carrier group and concrete package exist.
 
-**Parallel track (monitor continuously):**
-The Confederation is expected to develop, by the end of 2026, a draft or implementation plan for AI regulation (involving the FDJP, DETEC, and FDFA, also with a view to the Council of Europe Framework Convention on Artificial Intelligence) and is preparing the AI Summit Geneva 2027. The task is to seek — early, and through *existing (warm)* contacts — a discreet reality check (no cold outreach), and to ensure that our undertaking remains able to connect to these official processes.
+**Parallel track:** monitor the Confederation's AI-regulation work due by end-2026 and Geneva 2027 preparation. Seek a discreet reality check through existing warm contacts only; keep the initiative connectable to official processes.
 
 ## Verified anchor points
 

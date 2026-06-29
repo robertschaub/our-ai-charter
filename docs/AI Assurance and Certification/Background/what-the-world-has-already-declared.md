@@ -40,7 +40,7 @@ Articles most relevant to AI:
 
 ---
 
-## 4. At a glance: declarations -> obligations
+## 4. At a glance: declarations → obligations
 
 The instruments do not create the charter's five public obligations. They give each obligation public-law and public-ethics roots. The charter's move is to make those roots inspectable for a deployed system. These mappings are interpretive, not authoritative readings of the instruments, and each instrument is shown under its primary obligation (several bear on more than one).
 

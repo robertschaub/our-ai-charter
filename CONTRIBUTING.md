@@ -1,6 +1,6 @@
 # Contributing to Our AI Charter
 
-This is an open draft — built in the open and meant to be improved by its critics. You don't need permission to take part.
+This is an open draft, meant to be improved by critique. You do not need permission to take part.
 
 ## Working norms
 
@@ -8,13 +8,13 @@ This is an open draft — built in the open and meant to be improved by its crit
 - **Published dissent.** Minority interpretations are recorded, not hidden.
 - **Conflict-of-interest disclosure.** Declare relevant affiliations when you propose or review.
 - **No single funder dominant.** Funding, when it exists, is disclosed and diversified.
-- **The initiator contributes the method and recuses** from operating any assessor or registry. The standard is meant to be hosted inside an existing neutral body — not run as a new silo.
+- **Initiator recusal.** The initiator contributes the method but does not operate any assessor or registry. Any future standard should sit inside or beside an existing neutral body.
 
-## Three ways to contribute (open an issue)
+## Three ways to contribute
 
 1. **Stress-test the Public AI path** — where does the proposed governance-and-evidence package overclaim, duplicate existing work, or miss the real leverage point?
 2. **Open one useful door** — suggest an orientation conversation, neutral convenor, institutional anchor, or public-AI peer who should be in the first round.
-3. **Improve the trust layer** — challenge the obligations, evidence model, or evaluation protocol. Pilot ideas are welcome, but no pilots are running yet; a pilot issue registers interest in a possible future step.
+3. **Improve the trust layer** — challenge the obligations, evidence model, or evaluation protocol. Pilot ideas are welcome, but no pilots are running yet.
 
 ## How to engage
 

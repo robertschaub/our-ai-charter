@@ -1,6 +1,6 @@
 ---
 title: Our AI Charter
-description: Protect and strengthen free and fair societies in the digital age — through a global, trustworthy public AI network that is accountable to people and drives societal resilience and economic prosperity.
+description: Protect and strengthen free and fair societies in the digital age through a global, trustworthy public AI network that is accountable to people and drives societal resilience and economic prosperity.
 hide:
   - toc
 ---
@@ -12,19 +12,19 @@ hide:
 </div>
 
 <div class="lead" markdown>
-**Our AI Charter is a Public AI Network initiative** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network.
+Our AI Charter is an early public draft for a **Public AI Network**: open, plural, accountable AI infrastructure that people, public institutions, researchers, and builders can inspect, contest, and improve.
 </div>
 
-AI is becoming the infrastructure people learn, decide, work, and form opinion with. Infrastructure that important should not rest on a handful of private providers — or on opaque shutdown powers, unsafe systems, discriminatory failures, privacy leakage, manipulation, or factual claims no one can trace or challenge.
+AI is becoming the infrastructure people learn, work, decide, and form opinion with. Infrastructure that important should not depend on a few providers, unclear shutdown powers, hidden data practices, unverifiable factual claims, or systems that affected people cannot challenge.
 
 <div class="mission" markdown>
 <span class="mission-label">Our mission</span>
-Protect and strengthen free and fair societies in the digital age — through a global, trustworthy public AI network that is **accountable to people** and drives **societal resilience** and **economic prosperity**.
+Protect and strengthen free and fair societies in the digital age through a global, trustworthy public AI network that is **accountable to people** and supports **societal resilience** and **economic prosperity**.
 </div>
 
 <div class="feature-quote" markdown>
 <span class="mission-label">Our position</span>
-Open, inspectable AI models now exist across many regions. But autarky is not sovereignty: resilience depends on the infrastructure free societies build together — standards, public evidence, accountable governance, and federated public compute that no single power can switch off or capture.
+Sovereignty is not autarky. Open, inspectable AI models matter, but resilience depends on the infrastructure around them: standards, public evidence, accountable governance, and federated public compute that no single power can switch off or capture. Public AI needs more than open models — it needs a public-interest governance and evidence layer.
 </div>
 
 <div class="grid cards" markdown>
@@ -33,72 +33,55 @@ Open, inspectable AI models now exist across many regions. But autarky is not so
 
     ---
 
-    The network itself — public AI as a co-stewarded, capture-resistant network for the sovereignty, resilience, and coordination of free societies. Start with the [overview](network-overview.md).
+    The network workstream: public AI as co-stewarded infrastructure for sovereignty, resilience, and coordination across free societies.
 
-    [:octicons-arrow-right-24: The Public AI Network](Published/the-public-ai-network.md) ·
-    [KI-Souveränität (DE)](Published/ki-souveraenitaet-und-resilienz.md) ·
-    [EN](Published/ai-sovereignty-and-resilience.md) ·
-    [Briefing](briefing.md)
+    [:octicons-arrow-right-24: Overview](network-overview.md) ·
+    [Public AI article](Published/the-public-ai-network.md) ·
+    [Swiss framing](Published/ki-souveraenitaet-und-resilienz.md) ·
+    [Initiation strategy](Strategy/initiation-strategy.md)
 
 -   :material-scale-balance:{ .lg .middle } __AI Assurance & Certification__
 
     ---
 
-    The network's **trust layer**: the sub-stream that turns public-AI claims into obligations, evidence, evaluation, and contestability. Can a deployed AI show its work and answer for it?
+    The trust-and-evidence sub-stream: obligations, evaluation, contestability, and future assurance boundaries for deployed AI systems.
 
     [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) ·
     [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) ·
-    [Protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)
+    [Protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) ·
+    [Certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md)
 
 </div>
 
-## What anyone should be able to ask
+## What must be checkable
 
-Whether you use, buy, study, regulate, or are affected by an AI system, you should be able to demand answers to six questions:
+Whether you use, buy, study, regulate, or are affected by an AI system, you should be able to ask:
 
-1. **What is this for?** — intended uses, prohibited uses, covered versions, known limits, and who may be affected.
-2. **Who controls it?** — the operators, providers, models, and data behind it, and the powers to update, restrict, or switch it off.
-3. **Who is accountable?** — a named owner, a jurisdiction, a contact route, and evidence kept for the claims made.
-4. **How can people challenge it?** — notice, a usable complaint route, and human review for consequential decisions.
-5. **Who can inspect it?** — scoped public transparency, confidential audit access, and lawful regulator and research access.
-6. **Can its claims and failures be checked?** — material claims, incidents, disparate failures, and corrections that leave testable evidence.
+1. **What is it for?** Intended uses, prohibited uses, covered versions, known limits, and affected groups.
+2. **Who controls it?** Operators, providers, models, data, tools, dependencies, and update or shutdown powers.
+3. **Who is accountable?** A named owner, jurisdiction, contact route, and evidence for public claims.
+4. **How can people challenge it?** Notice, complaint route, human review, correction, and remedy where consequences matter.
+5. **Who can inspect it?** Public transparency, confidential audit access, lawful oversight, and protected research access.
+6. **Can claims and failures be checked?** Material claims, incidents, disparate failures, changes, and corrections must leave evidence.
 
-## Five public obligations
+The [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) turn those questions into five public obligations and eight operational duties. The first evaluation module tests one narrow but important slice: whether a factual AI system [shows its work](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
 
-The Charter turns those questions into five obligations any assessed system should meet:
+## Where the work stands
 
-- **Purpose-bound** — states what it is for, what it must not do, who it may affect, and what risks are known.
-- **Answerable to people** — a named human institution is responsible; consequential uses carry notice, review, challenge, and remedy.
-- **Safe, secure, private, and resilient** — protects people, data, infrastructure, and the public's reliance on it.
-- **Fair in practice** — uneven or discriminatory performance is tested, disclosed, and corrected where it matters.
-- **Open to evidence and correction** — claims, limits, incidents, changes, and unresolved risks leave a trail others can check.
+This is **Phase 1: public drafting and connection-building**. Nothing is certified — there is no Trust Mark, accredited assessor, registry, public front door, or active pilot. Coalitions, roles, and processes are stated as **intent, not fact**; the work is additive to existing efforts, especially SNAI/Apertus; and Switzerland is framed as host, node, and bridge, not owner.
 
-Each obligation becomes a set of operational duties in the [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md). They are designed against the real-world risks named in the [risk and vulnerability audit](AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md) — from concentrated infrastructure and coercive shutdown to hallucination, insecure AI apps, privacy leakage, bias, and evidence theatre. A system should not be able to claim the Charter while hiding any of these from the people it affects.
+The near-term goal is a credible **Geneva 2027 Public AI Governance & Evidence Package** — a neutral clarification process, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The route is **alliance and mandate first, lawmaking later**, and the building blocks already exist: open Swiss models (Apertus/SNAI), the Current AI partnership, two Council-of-States-adopted sovereignty motions, and the Geneva 2027 summit window. The [initiation strategy](Strategy/initiation-strategy.md) gives the sequence and roadmap; the [verified findings](Evidence/verified-findings.md) hold the sourced anchors.
 
-## Where regulation ends and the Charter begins
+## Find your path
 
-State regulation creates enforceable rights, duties, and sanctions — but it is not uniform across borders, so a public buyer, school, or newsroom cannot rely on one shared baseline everywhere. A future certification scheme could close that gap, but only as three distinct layers:
-
-1. **Provider-declared legal scope** — the provider names the markets, role, and legal artefacts for the assessed release. The Charter does not replace regulators, courts, or legal advice, and grants no market-entry permission.
-2. **Common Charter baseline** — the five obligations become auditable duties that hold across jurisdictions. Where local law is stricter, it prevails; where it is weaker or silent, the baseline still applies.
-3. **Public-interest modules** — deeper tests for the Charter's distinctive concerns: factual grounding, contestability, coercive-control transparency, AI-app security, privacy, fairness, and creator fairness.
-
-How such a scheme could be built — independent assessors, an accreditor that licenses them, and a peer body that keeps it honest — is set out in the [certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md).
-
-**Status — Phase 1.** This is an early public draft, open for comment, and still in public drafting and connection-building. It is not a certification and not yet a standard: there is no Trust Mark, certificate, accredited assessor, registry, or active pilot evaluation.
-
-## Where to start
-
-New here? **[Start here](start-here.md)** routes you by what you want — to help it succeed, build AI systems, or pressure-test the work. For the full document index, see the [program map](PROGRAM.md).
+- **Shape policy, fund, or partner** → [The Public AI Network](Published/the-public-ai-network.md) (Swiss readers: [KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)) → [Overview](network-overview.md) → [initiation strategy](Strategy/initiation-strategy.md).
+- **Build, operate, or assess AI** → [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) → [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) → [certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md).
+- **Pressure-test the work** → [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md), then the [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) and [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md); evidence in [verified findings](Evidence/verified-findings.md) and [landscape & positioning](AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md).
 
 ## How to help
 
-This is an open draft, not a finished standard. The current priority is to turn the Public AI Network idea into a credible, bounded clarification process. Three concrete asks:
+1. **Stress-test the Public AI path** — where does the governance-and-evidence package overclaim, duplicate, or miss leverage?
+2. **Open one useful door** — suggest a neutral convenor, public-AI peer, institutional anchor, or orientation conversation.
+3. **Improve the trust layer** — challenge the obligations, evidence model, evaluation protocol, or pilot framing.
 
-1. **Stress-test the Public AI path** — where does the proposed governance-and-evidence package overclaim, duplicate, or miss the real leverage point?
-2. **Open one useful door** — suggest an orientation conversation, neutral convenor, institutional anchor, or public-AI peer who should be in the first round.
-3. **Improve the trust layer** — challenge the obligations, evidence model, or evaluation protocol; exploratory pilot ideas are welcome, but no mark is issued.
-
-Open a GitHub issue for public feedback. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.
-
-Repository: [github.com/robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter). Stewarded by Robert Schaub and the **FactHarbor Verein**.
+See [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md) for working norms and the [program map](PROGRAM.md) for stewardship. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.

@@ -2,7 +2,7 @@
 
 # Security and Public-Repo Safety
 
-Our AI Charter is a public, documents-only repository. It has no application runtime, hosted service, production database, package dependencies, or supported software versions.
+Our AI Charter is a public, documents-only repository. It has no application runtime, hosted service, production database, package dependencies, or supported software releases.
 
 ## Report Privately
 
@@ -15,9 +15,9 @@ Do not open a public issue or pull request if you find:
 
 Contact the maintainer privately at [info@factharbor.ch](mailto:info@factharbor.ch), or use GitHub private vulnerability reporting.
 
-## Public Issues Are For
+## Public Issues
 
-Public issues are appropriate for document problems: unclear wording, missing sources, methodological objections, proposed improvements, and pilot offers.
+Public issues are for document problems: unclear wording, missing sources, methodological objections, proposed improvements, and pilot offers.
 
 ## Handling Sensitive Material
 
@@ -28,4 +28,4 @@ Public issues are appropriate for document problems: unclear wording, missing so
 
 ## Local Safeguards
 
-The shared agent guidance and Claude/Codex hook files block the most dangerous destructive git commands for main-session agent runs. They are not a substitute for human review, and they do not protect every tool or subagent context.
+The shared agent guidance and Claude/Codex hook files block the most dangerous destructive git commands for main-session agent runs. They are a backstop, not a substitute for human review, and they do not cover every tool or subagent context.

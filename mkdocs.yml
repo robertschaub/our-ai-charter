@@ -117,12 +117,10 @@ extra:
 
 nav:
   - Home: index.md
-  - Start here: start-here.md
-  - Overview — what it is & how to join: network-overview.md
+  - Overview: network-overview.md
   - Concepts:
       - "Structuring the Charter — obligations, planes, lenses": Concepts/charter-structure-and-views.md
       - "Governance from the AI user's workflow": Concepts/user-workflow-governance.md
-  - Briefing: briefing.md
   - Strategy:
       - Initiation strategy: Strategy/initiation-strategy.md
       - Federated compute — pilot & rollout: Strategy/federated-compute-pilot-and-rollout.md

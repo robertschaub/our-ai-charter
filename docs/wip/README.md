@@ -1,32 +1,30 @@
 > **Status: WORKING NOTES**
 
-# WIP — working notes
+# Working notes
 
-*Working scratch — 2026-06-25 · WIP · public-safe.*
+Public-safe provisional material. These notes are published on the site but are not yet part of the curated, normative document set. Re-verify before relying on or publishing anything here.
 
-A holding area for **working notes** — provisional outputs not yet part of the curated, normative doc set, published on the site but flagged *WIP*. Most stem from the Geneva 2027 contribution / artifact-planning session (2026-06-25); others are standalone design syntheses. Treat as provisional; re-verify before relying on or publishing anything here.
+## Safety
 
-## Scope & safety
-
-- **Public-safe only.** This is the **public** repo and these notes are published on the site (under *Working notes*). Internal-derived context from this session — private meetings, correspondence, outreach send-state, candid named-person assessments — was **deliberately excluded** and lives in `our-ai-charter-internal`. Keep it that way: do not paste internal context here.
+This is a public repository. Do not paste private meetings, correspondence, outreach state, candid named-person assessments, secrets, or INTERNAL-marked material here. Private administrative context belongs outside this repo.
 
 ## Files
 
-- **[artifact-production-plan.md](artifact-production-plan.md)** — what products/documents/artifacts to produce as **inputs** for the Geneva 2027 contribution, prioritized, with what to reuse and what *not* to produce. The headline output of the session.
-- **[final-artifacts-roadmap.md](final-artifacts-roadmap.md)** — the companion question: the **durable end-products** the initiative could ultimately release (standard, toolkit, signable charter + register, governed inference pilot, procurement clause, trust mark), each with a minimum first release, named co-producer, and go/no-go gate.
-- **[geneva-2027-channel-demand.md](geneva-2027-channel-demand.md)** — grounded "demand side": what each channel (Swissnex fellowship; the official Geneva 2027 process; Current AI; Apertus/SNAI) actually accepts as an artifact, the official process's five guiding questions verbatim, plus two factual corrections to fix in the curated docs.
-- **[geneva-2027-keystone-memo.md](geneva-2027-keystone-memo.md)** — the assembled, forwardable **keystone memo** (problem → the four-part package as an MVP → why economic benefit is a basis for success → the ask → honest status); the spine for the fellowship application and downstream routes. Promotable to Outreach/ as a `DRAFT` once a carrier group exists.
-- **[public-compute-control-evidence-layer.md](public-compute-control-evidence-layer.md)** — cooperator-facing one-pager: what the Public AI Network adds on top of existing compute — the public-interest **control-and-evidence layer** (eight policy-broker decisions / evidence-plane records) and the **assurance-&-adjudication** layer that makes it accountable. Grounded; citations web-verified. Derived from the [compute architecture](../Architecture/federated-public-compute-architecture.md) note + a GPT-5.5 review.
-- *The **architecture map** ([charter-structure-and-views](../Concepts/charter-structure-and-views.md)) and the **[user-workflow-governance](../Concepts/user-workflow-governance.md)** note have **moved out of `wip/`** into the program-level **[Concepts](../Concepts/charter-structure-and-views.md)** home. The five assurance-case prototypes and the CAI sketch below reference the map at its new path.*
-- **[answerable-to-people-assurance-case.md](answerable-to-people-assurance-case.md)** — the first worked **obligation→duty bridge** (prototype): obligation 2 (*Answerable to people*) as a pointer-level CAE crosswalk to duties 1/3/4/6/7/8 plus the contestability and coercive-control modules, with derived status, claim discipline, and an individual-vs-collective remedy split. Tests the instrument before the other obligations are worked; aims to graduate into a certification-model annex.
-- **[purpose-bound-assurance-case.md](purpose-bound-assurance-case.md)** — the second worked bridge (prototype): obligation 1 (*Purpose-bound*), a legitimacy-led obligation that stress-tests the **hard legitimacy gate** (lawful/necessary/proportionate; prohibited uses; function-creep) the rights-led case didn't reach. Findings: the instrument needs a binary pass/fail gate alongside the depth-graded rows; this obligation is duty-heavy (not module-heavy); and its remedy is narrowing/withdrawal, interlocking with *Answerable*.
-- **[safe-secure-private-resilient-assurance-case.md](safe-secure-private-resilient-assurance-case.md)** — third bridge (obligation 3): the **technical-assurance** obligation. Finding: one obligation can **bundle several distinct properties** (safe/secure/private/resilient → different duties, possible sub-cards) and is the most effectiveness-test-heavy.
-- **[fair-in-practice-assurance-case.md](fair-in-practice-assurance-case.md)** — fourth bridge (obligation 4): the **collective, measurement-led** obligation. Finding: this is where the collective-impact lens and risk calibrator do the most work (statistical evidence, systemic remedy, conditional scope).
-- **[open-to-evidence-assurance-case.md](open-to-evidence-assurance-case.md)** — fifth bridge (obligation 5): the **honesty wedge**. Finding: it is **partly meta** — module-heavy (grounding) and also the rule that keeps every other card's claims warranted (claim discipline = this obligation, reflexive).
-- **[capabilities-and-assurance-interface.md](capabilities-and-assurance-interface.md)** — design sketch (Phase-2/3, **principles not interfaces**) for a queryable **Capabilities & Assurance Interface**: ask of one system *what it is for* (self-declared capabilities) and *what has been assured* (independently-assured claim-state), kept visibly distinct and publicly checkable. Principles: profile don't invent · decouple capabilities from assurance · public scrutiny by default · scoped & fail-safe (never a "safe/trusted" badge) · the trust stack is the real dependency. Buildable now: the self-declared half only. (Shaped by a GPT-5.5 / Gemini exchange.)
+- **[artifact-production-plan.md](artifact-production-plan.md)** — prioritized inputs for the Geneva 2027 contribution: what to produce, what to reuse, and what not to produce.
+- **[final-artifacts-roadmap.md](final-artifacts-roadmap.md)** — durable end-products the initiative could ultimately ship, with first releases, co-producers, and go/no-go gates.
+- **[geneva-2027-channel-demand.md](geneva-2027-channel-demand.md)** — what each channel accepts: Swissnex fellowship, official Geneva 2027 process, Current AI, and Apertus/SNAI.
+- **[geneva-2027-keystone-memo.md](geneva-2027-keystone-memo.md)** — forwardable memo for the fellowship and downstream routes; promotable to `Outreach/` once a carrier group and first deliverable exist.
+- **[public-compute-control-evidence-layer.md](public-compute-control-evidence-layer.md)** — cooperator-facing one-pager on the broker, evidence plane, assurance, and adjudication layer.
+- **[answerable-to-people-assurance-case.md](answerable-to-people-assurance-case.md)** — obligation 2 prototype; rights-led bridge from obligation to duties/modules.
+- **[purpose-bound-assurance-case.md](purpose-bound-assurance-case.md)** — obligation 1 prototype; legitimacy gate, prohibited uses, and scope narrowing/withdrawal.
+- **[safe-secure-private-resilient-assurance-case.md](safe-secure-private-resilient-assurance-case.md)** — obligation 3 prototype; technical-assurance and effectiveness-testing focus.
+- **[fair-in-practice-assurance-case.md](fair-in-practice-assurance-case.md)** — obligation 4 prototype; collective impact, measurement, and systemic remedy.
+- **[open-to-evidence-assurance-case.md](open-to-evidence-assurance-case.md)** — obligation 5 prototype; grounding module plus cross-cutting claim discipline.
+- **[capabilities-and-assurance-interface.md](capabilities-and-assurance-interface.md)** — Phase-2/3 sketch for checking declared capabilities and independently assured claims.
 
-## Related outputs already saved elsewhere
+## Related curated notes
 
-- **Fellowship assessment + recommended plan** → curated note: [geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md) (indexed).
-- **Federated public compute architecture** → curated note: [federated-public-compute-architecture.md](../Architecture/federated-public-compute-architecture.md) (indexed).
-- **Positioning guidance** (independent practitioner & discourse contributor; policy work as intent, not influence) → saved to the maintainer memory, not a repo file.
+- **[charter-structure-and-views.md](../Concepts/charter-structure-and-views.md)** — architecture map for the obligation/duty/lens structure.
+- **[user-workflow-governance.md](../Concepts/user-workflow-governance.md)** — runtime reference model for the user's seat.
+- **[geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md)** — fellowship assessment and recommended plan.
+- **[federated-public-compute-architecture.md](../Architecture/federated-public-compute-architecture.md)** — compute architecture.

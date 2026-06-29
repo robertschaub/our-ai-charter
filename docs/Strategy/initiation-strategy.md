@@ -1,61 +1,59 @@
 # Public AI initiation — strategy
 
-How to turn the public-AI-governance idea into a real, multi-stakeholder process: Switzerland as a credible **convening host and node** for internationally co-governed Public AI infrastructure — not the sole owner of a national model.
+How to turn the public-AI-governance idea into a real multi-stakeholder process: Switzerland as a credible **host and node** for internationally co-governed public-AI infrastructure, not sole owner of a national model.
 
-## The short answer
+## Short answer
 
-Don't start with a parliamentary instrument. The higher-probability path is:
+Do not start with a parliamentary instrument. Start with a mandate:
 
-1. Build a small **anchor group** around Swiss public-AI governance.
-2. Write a **2-page non-paper** (done — see the [Non-Paper](../Outreach/non-paper.en.md)).
-3. Use a **neutral convenor** for a scoped pre-sprint.
+1. Build a small **anchor group** around the governance/evidence question.
+2. Use the **[Non-Paper](../Outreach/non-paper.en.md)** as the first conversation document.
+3. Ask a **neutral convenor** to scope a pre-sprint.
 4. Feed the result into **Swiss federal and Geneva 2027** channels.
-5. Only then use an **interpellation/postulate** to formalise the political mandate (draft: [Postulat](../Outreach/postulat.de.md), [EN](../Outreach/postulat.en.md)).
+5. Use an **interpellation/postulate** only once a carrier group and concrete package exist.
 
-## Consolidated recommendation
+## Recommendation
 
-**1. Start with a stakeholder mandate, not lawmaking.** A postulate is useful later, but without partners it looks like a single-person idea. A short non-paper, a few credible supporters, and a neutral pre-sprint turn it into a serious policy request. (The 30-day targets are in the roadmap below.)
+**1. Build stakeholder mandate before lawmaking.** A postulate is useful later; without partners it looks like a single-person idea. The first proof is that credible actors think the question is worth structured exploration.
 
-**2. Use Apertus/SNAI as a pilot anchor, not the whole frame.** The technical anchor is strong (Swiss AI Initiative, SNAI, EPFL, ETH Zurich, CSCS, Apertus). The framing should avoid "Apertus = the solution"; better, "Apertus and the Swiss ecosystem can become a *governance pilot* for public-AI infrastructure: open, inspectable, multilingual, scientifically grounded, internationally co-stewarded."
+**2. Use Apertus/SNAI as pilot anchor, not the whole frame.** The Swiss AI Initiative, SNAI, EPFL, ETH Zurich, CSCS, and Apertus provide a strong technical anchor. Frame the contribution as an open governance/evidence question *with* that ecosystem, not as "Apertus is the solution" or as criticism.
 
-**3. Make Geneva 2027 the political timing.** The Geneva AI Summit 2027 and Switzerland's host-state positioning create a concrete window. Candidate contributions: a governance blueprint, an international co-stewardship model, open evaluation/audit practices, a public-interest demo case, and a small Swiss + international coalition.
+**3. Name the Geneva package narrowly.** **Geneva 2027 Public AI Governance & Evidence Package** should mean four things: neutral pre-sprint, governance blueprint, one evidence/evaluation pilot outline, and roundtable path. The compute pillar is a [federated public-compute pilot](../Architecture/federated-public-compute-architecture.md), not a claimed global GPU pool.
 
-Name the near-term package narrowly: **Geneva 2027 Public AI Governance & Evidence Package**. It should mean four things, not a broad new programme: a neutral pre-sprint, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The compute pillar should be framed as a [federated, governed public-compute pilot](../Architecture/federated-public-compute-architecture.md), not a claimed global GPU pool. Everything else is supporting material until a carrier group exists.
+**4. Use a neutral process designer.** The pre-sprint should test a bounded question:
 
-**4. Use a neutral process designer.** A neutral policy-process designer (stakeholder mapping, framing, multi-stakeholder dialogue, sprint design) is well suited to test whether this can become a viable policy- and institution-building process — framed as a clarification, not a campaign. A possible sprint question:
+> How can Switzerland help build internationally co-governed public-AI infrastructure that serves free societies, enables public oversight, and avoids national or commercial dependence?
 
-> How can Switzerland help build an internationally co-governed public-AI infrastructure that serves free societies, enables public oversight, and does not tip into national or commercial dependence?
+**5. Ship an MVP.** The first output is one keystone memo and one runnable evaluation/pilot outline on one use case, not a comprehensive standard.
 
-**5. Ship an MVP, not a finished scheme.** The first deliverable is deliberately minimal and imperfect — one keystone memo that assembles the package, plus the evaluation protocol packaged as one runnable tool on one use-case — not a comprehensive standard. "Start small" applies to the output, not only the coalition.
+## Instruments and leverage
 
-## Instruments & leverage
+The [Verified Findings](../Evidence/verified-findings.md) explain the instrument constraint: a non-parliamentarian can trigger a motion, postulate, or parliamentary initiative only indirectly through a council member. Therefore the route is **alliance/mandate first, lawmaking later**.
 
-The leverage ranking and the parliamentary-instrument analysis (interpellation → postulate → motion; why a non-parliamentarian works *indirectly* via a council member) are set out in the [Verified Findings](../Evidence/verified-findings.md). In short: **alliance/mandate first, lawmaking later.**
+## Roadmap
 
-## 30/60/90-day roadmap
+Treat this as a relative sequence. As of June 2026 the article is published, the non-paper exists, and first outreach has begun.
 
-*As of June 2026 the non-paper is finalised, the article is published, and first outreach has begun — so the Days 0–30 actions are partly underway. Treat the roadmap as a relative sequence, not a fixed calendar.*
+**Days 0–30 — convert signal into mandate.** Finalise the non-paper; build a stakeholder map; request targeted orientation calls; ask a neutral convenor for a scoping conversation; decide the pre-sprint question. *Success:* three credible people say the question is worth structured exploration.
 
-**Days 0–30 — convert signal into mandate.** Finalise the non-paper; build a stakeholder map; send targeted orientation requests; hold short calls; ask a neutral convenor for a scoping conversation; decide the pre-sprint question. *Success:* three credible people say the question is worth structured exploration.
+**Days 31–60 — run a pre-sprint.** Convene a small group; clarify governance, institutional home, and political path; decide whether the Geneva 2027 package should proceed, narrow, or stop; produce a 2-page initiation memo. *Success:* a named next step with at least two institutional anchors.
 
-**Days 31–60 — run a pre-sprint.** Convene a small group; clarify three questions — governance, institutional home, political path; decide whether the Geneva 2027 package should proceed, narrow, or stop; produce a 2-page initiation memo. *Success:* a named next step with at least two institutional anchors.
+**Days 61–90 — connect public and political channels.** Prepare a Swiss-hosted roundtable path; define one demo use case tied to verifiable public-information infrastructure; draft interpellation/postulate options only if the mandate exists. *Success:* a carrier group, a concrete event/process date, and a political brief ready for a sponsor.
 
-**Days 61–90 — create public and political connectivity.** Prepare a Swiss-hosted international public-AI infrastructure roundtable path; draft interpellation/postulate options only if the mandate exists; define one demo use-case tied to verifiable public-information infrastructure; identify a first funding or convening need. *Success:* a small carrier group, a concrete event/process date, and a political brief ready for a parliamentary sponsor.
+Actor context: [Actors & landscape](../Evidence/actors-and-landscape.md).
 
-For who is already working in this space (by role), see the [actor & landscape map](../Evidence/actors-and-landscape.md).
+## Financing
 
-## Financing — the open question
+No large funding before a coalition and one concrete deliverable exist.
 
-The work is unfunded, and the guardrail below is deliberate: **no large funding before a coalition and one concrete deliverable exist.** What is *not* yet decided is the positive path — and naming it is overdue.
-
-- **In-kind first.** The near-term needs are convening and time, not capital: a neutral convenor's pro-bono or low-cost format, co-authorship, and volunteer coalition effort can carry the pre-sprint.
-- **Then pilot-scale, tied to the deliverable.** Public or foundation grants for *one* evidence/governance pilot (e.g. the [Impulsprogramm 26.3221](digital-sovereignty-motions.md) field) fit once the deliverable is concrete — not before.
-- **Candidate routes, all filtered.** Sponsors, crowdfunding, mission-aligned funds, and companies are each conceivable, but every source runs through the anti-capture filter — no money that buys influence over methods or findings, disclosed ties, and the association's closed list of prohibited sources. Company money is the highest-risk route and the last to take.
+- **In-kind first:** convening, co-authorship, volunteer effort, and low-cost process design.
+- **Pilot-scale next:** public or foundation grants tied to one governance/evidence deliverable, for example through the [Impulsprogramm 26.3221](digital-sovereignty-motions.md) field if it materialises.
+- **Company money last:** possible only with disclosure, no influence over methods or findings, and the association's prohibited-source rules.
 
 ## Guardrails
 
-- **Honest framing.** Claim coalitions and processes as *intent*, not as already existing. Our AI Charter is an open spec / contribution, **not** a new institution; FactHarbor is a working prototype (alpha).
-- **Additive, not competitive.** Position contributions as additive to others' work; invite critique; don't present this as a competitor to the Swiss AI Initiative / SNAI or Apertus.
-- **Public-interest filter.** Keep the effort capture-resistant against political *and* commercial capture; disclose any commercial ties.
-- **Host, not owner.** Switzerland as host/node/convenor, not "Switzerland first"; include economic and technical capability spillovers, not only values.
-- **No overclaim.** Don't present FactHarbor or Our AI Charter as a certification or audit authority; don't seek large funding before there is a coalition and one concrete deliverable.
+- Claim processes and coalitions as **intent**, not fact.
+- Add to SNAI/Apertus and Current AI; do not compete with them.
+- Keep Switzerland as host/node/bridge, not owner.
+- Disclose commercial ties and reject funding that can shape findings.
+- Do not claim certification, audit authority, Trust Mark status, large funding need, or active pilot maturity.

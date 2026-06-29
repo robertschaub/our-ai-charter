@@ -2,11 +2,11 @@
 
 **Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](../Published/the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).  
 **Compiled:** 2026-06-22.  
-**Purpose:** identify which cited initiatives are most mature and best suited to the *Public AI Network* effort, and where *Our AI Charter* can usefully contribute.
+**Purpose:** identify which cited initiatives are mature enough to matter for the *Public AI Network* effort, and where *Our AI Charter* can add a trust-and-evidence layer.
 
 ## Yardstick
 
-Each initiative below is read against *Our AI Charter*'s **five public obligations** — (1) **Purpose-bound**, (2) **Answerable to people**, (3) **Safe, secure, private & resilient**, (4) **Fair in practice**, (5) **Open to evidence and correction** — and its three-layer assurance model (legal scope → common baseline → public-interest modules). Both are defined in full in the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md); the Charter treats AI as **public infrastructure** that must be trustworthy, accountable, and answerable to people.
+Each initiative below is read against the Charter's five obligations and three-layer assurance model, defined in the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md). The question is practical: does this source help public-AI projects show purpose, accountability, safety, fairness, evidence, and correction?
 
 ---
 
@@ -91,26 +91,17 @@ Cited in the article as background rather than near-term anchors:
 
 ## Where my contribution could be strongest
 
-My most effective contribution is **not** to build another AI model or create another legal standard. The useful gap is the **trust-and-evidence layer** between technical projects, public institutions, funders, and citizens.
+The useful gap is not another model or legal standard. It is the **trust-and-evidence layer** between technical projects, public institutions, funders, and citizens.
 
-The Charter can contribute in five concrete ways:
+The Charter can contribute:
 
-1. **A clear public-interest framing**  
-   Explain why public AI matters for democracy, sovereignty, resilience, and human agency.
+1. **Public-interest framing** — why public AI matters for sovereignty, resilience, democracy, and human agency.
+2. **Assurance structure** — five obligations and a three-layer model that keeps legal scope, baseline duties, and modules separate.
+3. **Evidence cards** — short profiles of what is open, tested, risky, unresolved, and accountable.
+4. **Pilot evaluations** — narrow tests using existing tools and independent review.
+5. **Geneva 2027 package** — a cooperation artifact others can adopt, critique, and improve.
 
-2. **A simple assurance structure**  
-   Translate broad values into five obligations: purpose-bound, answerable to people, safe/private/resilient, fair in practice, and open to evidence and correction.
-
-3. **Evidence cards for public-AI projects**  
-   Create short, readable profiles showing what is known, what is open, what has been tested, what risks remain, and who is responsible.
-
-4. **Pilot evaluations**  
-   Test one or two real public-AI projects using existing tools such as AI Verify, MLCommons, OSI, and the Model Openness Framework.
-
-5. **A Geneva 2027 cooperation package**  
-   Prepare a realistic contribution for the Geneva AI Summit: a Public AI Trust & Evidence Package that others can adopt, critique, and improve.
-
-**Core message:** Public AI does not only need open models. It needs public evidence, public accountability, and public correction mechanisms. *Our AI Charter* can provide that missing layer.
+Core message: public AI needs public evidence, accountability, and correction mechanisms, not only open models.
 
 ---
 
