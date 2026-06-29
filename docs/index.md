@@ -87,4 +87,4 @@ The highest-leverage help right now:
 3. **Open one useful door** — an introduction, neutral convenor, institutional anchor, or venue.
 4. **Back it** — fund a concrete deliverable, or support it in the policy venues you shape.
 
-See [how to join](network-overview.md#how-to-join) for what each role does, [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md) for working norms, and the [program map](PROGRAM.md) for stewardship. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.
+See [how to join](network-overview.md#how-to-join) for what each role does, [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md) for working norms, and [About](PROGRAM.md) for stewardship. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.

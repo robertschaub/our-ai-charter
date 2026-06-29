@@ -11,7 +11,7 @@ It is an early public draft for a **Public AI Network**: open, plural, accountab
 
 The current operational priority is the **Public AI Network** work — sovereignty, resilience, Swiss and international public-AI coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence building block: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
 
-Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](docs/PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](docs/PROGRAM.md#stewardship-and-governance)**.
+Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · About: **[PROGRAM.md](docs/PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](docs/PROGRAM.md#stewardship-and-governance)**.
 
 ## Start here
 
