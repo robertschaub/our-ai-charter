@@ -32,7 +32,7 @@ The full, sourced list of anchors is in the [Verified Findings](../Evidence/veri
 - We do **not** position ourselves in competition with SNAI or Apertus.
 - FactHarbor does **not** claim a role as a certification or audit authority.
 - We initiate an open-ended **process**, not a one-sided campaign.
-- The orientation is **international**: Switzerland acts as initiator, host, and bridge-builder — Swiss benefit and international impact complement each other.
+- The orientation is **international**: Switzerland acts as host, convenor, and bridge-builder — Swiss benefit and international impact complement each other.
 
 ## Relevant documents
 

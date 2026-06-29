@@ -6,6 +6,8 @@ _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
 **Update 2026-06-19:** Der Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Externe Aussagen vor Verwendung prüfen.
 
+**Aufhänger (CH):** „Internationales, vertrauenswürdiges öffentliches KI-Netzwerk – die Schweiz als Wegbereiterin." — Einstiegssatz für Schweizer Kontakte. „Wegbereiterin" (bewusst nicht „Koordinatorin"): eine aktive, sichtbare Rolle, ohne Mandat oder Eigentümerschaft zu suggerieren — anschlussfähig an die Rolle als Gastgeberin und Brückenbauerin (siehe Leitplanken).
+
 **Rolle:** Impulsgeber und Allianzbildner. Die Schweiz soll als glaubwürdige Gastgeberin und Knotenpunkt wirken — von Beginn an international ausgerichtet. Es wird keine neue Institution behauptet.
 
 **Grösster Hebel:** an bestehende öffentliche Strukturen wie Apertus/SNAI und Current AI andocken und Reichweite in einer **Allianz oder Charta** bündeln. Parlamentarische Vorstösse folgen später über ein tragendes Ratsmitglied.
@@ -34,7 +36,7 @@ Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](..
 - Wir treten **nicht** in Konkurrenz zu SNAI oder Apertus auf.
 - FactHarbor masst sich **keine** Rolle als Zertifizierungs- oder Audit-Behörde an.
 - Wir stossen einen ergebnisoffenen **Prozess** an, keine einseitige Kampagne.
-- Die Ausrichtung ist **international**: Die Schweiz wirkt als Initiantin, Gastgeberin und Brückenbauerin — Schweizer Nutzen und internationale Wirkung ergänzen sich.
+- Die Ausrichtung ist **international**: Die Schweiz wirkt als Gastgeberin, Vermittlerin und Brückenbauerin — Schweizer Nutzen und internationale Wirkung ergänzen sich.
 
 ## Relevante Dokumente
 
