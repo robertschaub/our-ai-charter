@@ -9,9 +9,9 @@ Protect and strengthen free and fair societies in the digital age — through a 
 
 _Early public draft, open for comment. Not a certification; not yet a standard._
 
-AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter — also called the Public AI Network — is a Switzerland-anchored but internationally co-stewarded effort** for public AI that free societies can inspect, govern, and contest, with the Geneva AI Summit 2027 as a concrete timing window.
+AI is becoming the infrastructure the world learns, decides, and creates with. **Our AI Charter is a Public AI Network initiative** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network — with the Geneva AI Summit 2027 as a concrete timing window.
 
-Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** — one of the network's core pillars, nested but not secondary: the obligations, evaluation discipline, and claim boundaries a public-AI infrastructure effort needs if it is to be more than an open model or a national label. Its normative core, the **[Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, holds any deployed system to five public obligations:
+Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** behind those obligations: the evaluation discipline and claim boundaries a public-AI effort needs if it is to be more than an open model or a national label. Its normative core, the **[Founding Accord](docs/AI%20Assurance%20and%20Certification/Framework/founding-accord.md)**, holds any deployed system to five public obligations:
 
 - **Purpose-bound** — the system states what it is for, what it must not do, who it may affect, and what risks are known.
 - **Answerable to people** — a named human institution is responsible, and consequential uses carry notice, review, challenge, and remedy.
@@ -45,8 +45,6 @@ Pick the row that fits you — fuller ordered paths are on the **[Start here](ht
 - **[Verified Findings](docs/Evidence/verified-findings.md)** · **[Actors & landscape map](docs/Evidence/actors-and-landscape.md)** · **[Linked sources](docs/Evidence/linked-sources.md)** — *DRAFT*. The source-checked evidence base — plus the **[Swiss Action-Plan contribution approach](docs/Strategy/swiss-action-plan-contribution.md)**.
 
 ## What's inside
-
-*Naming, once: **Our AI Charter** and the **Public AI Network** are the same whole effort. **AI Assurance & Certification** is its trust-and-evidence **sub-stream** — a core pillar developed in its own area, nested but not secondary — whose normative core is the **Founding Accord** and its five obligations. **The federation** is the buildable federated public-compute layer, one part of the network. Everything else below is the network itself — its overview, the compute pillar, the published articles, and the strategy/outreach that advance it.*
 
 Each entry below notes its status — *PUBLISHED* or *DRAFT* (raw, unanchored notes are *WORKING NOTES*). On the pages themselves, a status banner appears on published pages, on the normative docs (rules/obligations), on the outreach drafts, and on the raw `docs/wip/` working notes; other pages carry none.
 

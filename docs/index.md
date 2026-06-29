@@ -23,7 +23,7 @@ AI is becoming the infrastructure people learn, decide, work, and form opinion w
 Open, inspectable AI models now exist across many regions. But autarky is not sovereignty: resilience depends on the infrastructure free societies build together — standards, public evidence, accountable governance, and federated public compute that no single power can switch off or capture.
 </div>
 
-**Our AI Charter — also called the Public AI Network — is** a Switzerland-anchored, internationally oriented effort toward public AI that free societies can inspect, govern, and contest. Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** — the obligations, evaluation discipline, and claim boundaries that keep public AI from becoming only an open model, a national label, or a vendor promise.
+**Our AI Charter is a Public AI Network initiative** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network. Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** behind those obligations — the evaluation discipline and claim boundaries that keep public AI from becoming only an open model, a national label, or a vendor promise.
 
 <div class="grid cards" markdown>
 
@@ -31,7 +31,7 @@ Open, inspectable AI models now exist across many regions. But autarky is not so
 
     ---
 
-    This whole effort — public AI as a co-stewarded, capture-resistant network for the sovereignty, resilience, and coordination of free societies. Start with the [overview](network-overview.md).
+    The network itself — public AI as a co-stewarded, capture-resistant network for the sovereignty, resilience, and coordination of free societies. Start with the [overview](network-overview.md).
 
     [:octicons-arrow-right-24: The Public AI Network](Published/the-public-ai-network.md) ·
     [KI-Souveränität (DE)](Published/ki-souveraenitaet-und-resilienz.md) ·
@@ -42,15 +42,13 @@ Open, inspectable AI models now exist across many regions. But autarky is not so
 
     ---
 
-    The network's **trust layer** — nested, not secondary: the sub-stream that turns public-AI claims into obligations, evidence, evaluation, and contestability. Can a deployed AI show its work and answer for it?
+    The network's **trust layer**: the sub-stream that turns public-AI claims into obligations, evidence, evaluation, and contestability. Can a deployed AI show its work and answer for it?
 
     [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) ·
     [Founding Accord](AI%20Assurance%20and%20Certification/Framework/founding-accord.md) ·
     [Protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)
 
 </div>
-
-> **Naming.** *Our AI Charter* and the *Public AI Network* name the same whole effort. *AI Assurance & Certification* is its trust-and-evidence **sub-stream** — one of the network's core pillars, nested but not secondary. The **Founding Accord** is that sub-stream's normative core (the five public obligations below); *the federation* is the buildable federated public-compute layer, one part of the network.
 
 ## What anyone should be able to ask
 

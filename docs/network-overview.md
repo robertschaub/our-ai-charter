@@ -16,7 +16,7 @@ It rests on four pillars:
 
 Holding them together: **accountable, anti-capture governance**, plus the **demand** (public institutions, procurement) and **capacity-building** (so small and Global-South operators can take part) that make it durable.
 
-> **A note on names.** *"Public AI"* is a broad movement — AI provisioned as public-interest infrastructure. *"PublicAI" / SPIU* is a specific inference utility we draw on as a partner and precedent. **The Public AI Network** is this distinct, co-stewarded initiative — not the movement, and not the PublicAI utility. It is also **Our AI Charter** under another name (synonyms for the whole effort); the trust-and-evidence **sub-stream** within it is **AI Assurance & Certification**, whose normative core is the Founding Accord.
+> **A note on names.** *"Public AI"* is a broad movement — AI provisioned as public-interest infrastructure. *"PublicAI" / SPIU* is a specific inference utility we draw on as a partner and precedent. **The Public AI Network** is this distinct, co-stewarded initiative — not the movement, and not the PublicAI utility. This initiative is **Our AI Charter** — a **Public AI Network** initiative; its trust-and-evidence **sub-stream** is **AI Assurance & Certification**, whose normative core is the Founding Accord.
 
 "The network" is the **umbrella**. Its concrete buildable system is the **federated public-compute layer** (a policy broker + an evidence plane); we call that by its name, not "the network," to keep the two clear. And **"capture-resistant" is a design commitment and a governance obligation, not a guaranteed property** — a voluntary network *can* be captured; the design works to make that hard and visible.
 
