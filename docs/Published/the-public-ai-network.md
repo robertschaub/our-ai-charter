@@ -1,6 +1,8 @@
 > **Status: PUBLISHED 2026-06-22** — verbatim mirror of the LinkedIn article published 22 June 2026 (project links embedded as published).
 > Canonical article: [https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)
 
+![The Public AI Network](the-public-ai-network.png)
+
 ## Accompanying feed post
 
 _LinkedIn feed post, 22 June 2026 — kept link-free as published; the sources are in the article below._

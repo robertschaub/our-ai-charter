@@ -1,6 +1,8 @@
 > **Status: PUBLISHED 2026-06-14** — verbatim mirror of the LinkedIn article *Trustworthy AI, Accountable to People*, published 14 June 2026; updated on LinkedIn 19 June 2026. The launch post (above) and the "who would certify this?" comment (below) are mirrored here.
 > Canonical article: [https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje)
 
+![Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.png)
+
 ## Accompanying launch post
 
 _LinkedIn launch post, 14 June 2026 (edited 19 June). The Anthropic access event it cites is attributed to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access)._

@@ -1,6 +1,8 @@
 > **Status: PUBLISHED 2026-06-20 (English translation)** — faithful English translation of the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md), published on LinkedIn on 20 June 2026. The German original is canonical; this translation was not separately published.
 > Canonical article (German): [https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze)
 
+![AI Sovereignty and Resilience](ki-souveraenitaet-und-resilienz.png)
+
 ## Accompanying feed post
 
 _LinkedIn feed post, 19 June 2026 (English translation; [German original](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd))._
