@@ -1,8 +1,6 @@
-> **Status: WORKING NOTES**
-
 # Geneva 2027 — channel demand (what each channel accepts)
 
-*Working notes — 2026-06-25 · WIP · public-safe.* Compiled from public web sources via research agents (June 2026); re-verify before citing. Feeds the [artifact-production plan](artifact-production-plan.md).
+*Compiled from public web sources via research agents (June 2026); re-verify before citing. Companion to the [artifact-production plan](../wip/artifact-production-plan.md).*
 
 Of the four channels a Swiss public-interest contributor would feed into, **only two currently accept a submittable artifact.**
 
@@ -41,10 +39,10 @@ No open call, RFP, application form, or stated proposal format is public. The Ju
 
 No public governance document, RFC, CONTRIBUTING, or external-governance-layer process across the website, GitHub (`github.com/swiss-ai`) or Hugging Face (`huggingface.co/swiss-ai`). Apache-2.0 (no acceptable-use hook to attach an external layer to). De-facto channels: a code/site-scoped **GitHub issue**, or the **`llm-requests@swiss-ai.org`** inbox (from the model cards). **Higher-leverage: route an Apertus-oriented governance/evaluation proposal through the summit process (channel 2),** where open auditable infrastructure + governance is explicitly solicited. Sources: [apertvs.ai](https://apertvs.ai/) · [swiss-ai GitHub](https://github.com/swiss-ai) · [swiss-ai HF](https://huggingface.co/swiss-ai)
 
-## Corrections to fix in the curated docs
+## How this feeds the curated set
 
-1. **"Consultation draft due end-2026" is likely a conflation.** The end-2026 date appears to be the Federal Council's *domestic implementing law for the Council of Europe AI Convention* (a separate legislative track), **not** the summit's process. The summit's April call is closed and its next input window is **not yet dated**. Currently mis-stated in [verified-findings.md](../Evidence/verified-findings.md) and [geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md) — re-verify, then correct.
-2. **The five guiding questions + "concrete tools" demand** (above) are worth adding to the evidence base — they are the precise spec the "tool brief" (#4 in the plan) should answer.
+- The "consultation draft due end-2026" conflation flagged here has been **corrected** (June 2026) in [verified-findings.md](verified-findings.md) and the [fellowship note](../Strategy/geneva-2027-swissnex-fellowship.md): that milestone is the *separate* Council of Europe AI Convention implementing-law track, not the summit — whose next input window is not yet dated.
+- The five guiding questions and the "concrete tools" demand (above) are the precise spec the Geneva tool brief should answer.
 
 ## Sources
 

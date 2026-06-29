@@ -9,7 +9,7 @@ Our AI Charter exists to **protect and strengthen free and fair societies in the
 
 It is an early public draft for a **Public AI Network**: open, plural, accountable AI infrastructure that free societies can inspect, contest, and rely on. It is not a certification, standard, Trust Mark, registry, or active pilot.
 
-The current operational priority is the **Public AI Network** work — sovereignty, resilience, Swiss and international public-AI coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence sub-stream: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
+The current operational priority is the **Public AI Network** work — sovereignty, resilience, Swiss and international public-AI coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence building block: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](docs/PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](docs/PROGRAM.md#stewardship-and-governance)**.
 
@@ -36,9 +36,10 @@ Published mirrors and translations of external articles, with status shown in ea
 
 Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, resilience, and coordination across free societies.
 
-- **[Overview](docs/network-overview.md)** — *DRAFT*. Plain-language front door: what the network is, how the federated layer is used and built, and what "joining" means now.
+- **[The Network](docs/network-overview.md)** — *DRAFT*. Plain-language explainer for the Public AI Network: what it is, how the federated layer is used and built, and what "joining" means now.
 - **[Federated public compute architecture](docs/Compute/federated-public-compute-architecture.md)** — *DRAFT*. Technical and governance architecture for a model-plural federation, broker, evidence plane, node tiers, and anti-capture controls.
 - **[Federated compute pilot & rollout](docs/Compute/federated-compute-pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and anti-claims.
+- **[Public-interest control & evidence layer](docs/Compute/public-compute-control-evidence-layer.md)** — *DRAFT*. Cooperator one-pager: the legitimacy/accountability layer (policy broker, evidence plane, assurance & adjudication) the network adds on top of existing compute.
 
 ### Strategy, outreach, evidence
 
@@ -47,8 +48,10 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 - **[Swissnex/Mercator fellowship plan](docs/Strategy/geneva-2027-swissnex-fellowship.md)** — *DRAFT*. Time-boxed fellowship opportunity and artifact-first plan; re-verify program details before acting.
 - **[Digital-sovereignty motions](docs/Strategy/digital-sovereignty-motions.md)** — *DRAFT*. How motions 24.3209 and 26.3221 create a policy window for governance and evidence.
 - **[Swiss AI Action-Plan contribution](docs/Strategy/swiss-action-plan-contribution.md)** — *DRAFT*. Go/no-go bar and overclaim audit for a possible contributor input.
+- **[Final-artifacts roadmap](docs/Strategy/final-artifacts-roadmap.md)** — *DRAFT*. Durable end-products the initiative could ultimately ship — evaluation toolkit, service charter, report index, procurement clause, trust mark — by tier, with go/no-go gates.
 - **[Non-Paper](docs/Outreach/non-paper.en.md)** ([DE](docs/Outreach/non-paper.de.md)) · **[Action Plan](docs/Outreach/action-plan.en.md)** ([DE](docs/Outreach/action-plan.de.md)) · **[Postulate](docs/Outreach/postulat.en.md)** ([DE](docs/Outreach/postulat.de.md)) — *DRAFT*. Outreach and parliamentary materials.
 - **[Verified findings](docs/Evidence/verified-findings.md)** · **[Actors & landscape](docs/Evidence/actors-and-landscape.md)** · **[Linked sources](docs/Evidence/linked-sources.md)** — *DRAFT*. Source-checked evidence, public actors, and cited-source relevance.
+- **[Geneva 2027 channel demand](docs/Evidence/geneva-2027-channel-demand.md)** — *DRAFT*. What each Geneva 2027 channel — Swissnex fellowship, official process, Current AI, Apertus/SNAI — accepts as a contribution; re-verify before citing.
 
 ### AI Assurance & Certification
 

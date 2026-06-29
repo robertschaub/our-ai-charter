@@ -1,8 +1,6 @@
-> **Status: WORKING NOTES**
-
 # Final-artifacts roadmap — what this initiative could ultimately release
 
-*Working notes — 2026-06-25 · WIP · public-safe.* Companion to [artifact-production-plan.md](artifact-production-plan.md), which covers **inputs** to assemble for Geneva 2027. This note covers the **durable end-products** the initiative could ship — together with others — that live in the world on their own.
+Companion to the [artifact-production plan](../wip/artifact-production-plan.md), which covers the **inputs** to assemble for Geneva 2027. This note covers the **durable end-products** the initiative could ship — together with others — that live in the world on their own.
 
 ## The distinction
 
@@ -13,7 +11,7 @@
 
 The hard intellectual content already exists — five obligations, eight duties, the three-layer assurance stack ([Charter Commitments](../Assurance/Framework/charter-commitments.md)) and a red-teamed [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md). What is missing is the **durable form** that lets it live independently. The [landscape scan](../Assurance/Background/landscape-and-positioning.md) names the gap none of the peers fills — *"none certifies that a deployed system's claims are supported by the sources it cited"* — the **unoccupied grounding-faithfulness wedge**. That is the most differentiated artifact available. Peer initiatives supply the templates for the *forms*; nearly every artifact below is a **co-production**, not a solo output.
 
-*Artifact numbers (#1–#7) are stable IDs shared with [artifact-production-plan.md](artifact-production-plan.md) and the analysis they came from. **Priority is shown by tier, not by number order** — so the sequence reads #1, #3 (keystone), then #2, #6, then #4, #5, then #7.*
+*Artifact numbers (#1–#7) are stable IDs shared with the [artifact-production plan](../wip/artifact-production-plan.md) and the analysis they came from. **Priority is shown by tier, not by number order** — so the sequence reads #1, #3 (keystone), then #2, #6, then #4, #5, then #7.*
 
 ---
 
@@ -27,7 +25,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ### 3. Governed public-inference pilot → first public evaluation report + report index
 *Form precedent: Public AI Inference Utility (publicai.co — the live international access *pattern*, serving Apertus among several models); DPGA registry (index model).*
-- **Minimum first release:** a public-service charter for **one** running utility serving **one** model *to start, under model-plural rules* (origin, usage limits, safeguards, incident reporting, redress) — i.e. the policy-broker / evidence-plane controls of the [control-and-evidence one-pager](public-compute-control-evidence-layer.md), including a data-provenance record and a **named adjudicator outside any single member** with graduated sanctions — plus one published evaluation report, listed in a minimal public index.
+- **Minimum first release:** a public-service charter for **one** running utility serving **one** model *to start, under model-plural rules* (origin, usage limits, safeguards, incident reporting, redress) — i.e. the policy-broker / evidence-plane controls of the [control-and-evidence one-pager](../Compute/public-compute-control-evidence-layer.md), including a data-provenance record and a **named adjudicator outside any single member** with graduated sanctions — plus one published evaluation report, listed in a minimal public index.
 - **Co-producer:** publicai.ch / Public AI / Metagov (utility), SNAI/Apertus (model), an independent assessor, a neutral host for the index (OASIS / Linux Foundation).
 - **Go / no-go:** a utility willing to **adopt** the public-service charter and expose a model; grant or volunteer raters to fund the eval. No-go if it reads as critique of Apertus/SNAI rather than docking onto it.
 
@@ -39,7 +37,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 *Form precedent: IFCN / EFCSN code + verified-signatory; OSI Open Source AI Definition (a released definition document).*
 - **Minimum first release:** promote v0.14 → v1.0 (resolve the "Open decisions" minimally or mark them explicitly open), publish a signable version + a public supporter-list page.
 - **Co-producer:** 3–5 early endorsers; an anchor willing to be listed.
-- **Go / no-go:** a handful of credible supporters ready to sign — otherwise it reads as a one-person idea (per the alliance-first [strategy](../Strategy/initiation-strategy.md)).
+- **Go / no-go:** a handful of credible supporters ready to sign — otherwise it reads as a one-person idea (per the alliance-first [strategy](initiation-strategy.md)).
 
 ### 6. Model procurement clause / "evidence baseline" requirement
 *Form precedent: procurement pledges; the protocol's own line — "demand is the engine."*
@@ -81,7 +79,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ## Priority and sequence
 
-Workstream 1 (Public AI Network / sovereignty) leads. The **keystones are #1 (the package/toolkit first, not the standard) and #3** — a toolkit you can run on an Apertus-class public model is a releasable artifact; a brief about it is an input. **#2 and #6** are cheap connective tissue to do early. **#7** is the gated destination.
+Building block 1 (Public AI Network / sovereignty) leads. The **keystones are #1 (the package/toolkit first, not the standard) and #3** — a toolkit you can run on an Apertus-class public model is a releasable artifact; a brief about it is an input. **#2 and #6** are cheap connective tissue to do early. **#7** is the gated destination.
 
 ## Constraints to hold
 

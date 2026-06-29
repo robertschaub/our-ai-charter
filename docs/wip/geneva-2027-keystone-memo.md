@@ -22,7 +22,7 @@ Switzerland has the building blocks to answer all three: [Apertus / SNAI](https:
 
 Deliberately minimal and imperfect; start small. Four bounded pieces, not a broad new programme:
 
-1. **Governance blueprint** — how an open public-AI layer can *dock onto* existing structures (Apertus/SNAI, Current AI): roles, anti-capture, no-secret-kill-switch, independent oversight, conflict-of-interest rules, an audit path, and a **named adjudicator outside any single member** with attestation and penalties for false attestation (see the [control-and-evidence one-pager](public-compute-control-evidence-layer.md)). Framed as a question *with* SNAI/Apertus, not as criticism. (From the [Charter Commitments](../Assurance/Framework/charter-commitments.md) duties and the [certification model](../Assurance/Framework/certification-model.md) governance.)
+1. **Governance blueprint** — how an open public-AI layer can *dock onto* existing structures (Apertus/SNAI, Current AI): roles, anti-capture, no-secret-kill-switch, independent oversight, conflict-of-interest rules, an audit path, and a **named adjudicator outside any single member** with attestation and penalties for false attestation (see the [control-and-evidence one-pager](../Compute/public-compute-control-evidence-layer.md)). Framed as a question *with* SNAI/Apertus, not as criticism. (From the [Charter Commitments](../Assurance/Framework/charter-commitments.md) duties and the [certification model](../Assurance/Framework/certification-model.md) governance.)
 2. **One evaluation/evidence pilot** — the [grounding-faithfulness & contestability protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) packaged as **one runnable tool on one use-case** (cited-source Q&A) on an open public model (model-plural by design; Apertus a natural first choice for a Swiss-anchored pilot). This is the differentiator: it answers the official process's call for *concrete, reusable tools*, not another declaration.
 3. **A neutral pre-sprint** — a scoped, neutrally-facilitated clarification process (not a campaign) to test three questions: governance, institutional home, political path.
 4. **A Swiss-hosted roundtable path** into the Geneva 2027 process.
@@ -50,4 +50,4 @@ Founder-led, Phase 1 (public drafting). Two articles and an evaluation method ar
 
 ---
 
-*Evidence and anchors: [Verified Findings](../Evidence/verified-findings.md). Who is already working in this space: [actor & landscape map](../Evidence/actors-and-landscape.md). Channel-by-channel intake: [channel demand](geneva-2027-channel-demand.md).*
+*Evidence and anchors: [Verified Findings](../Evidence/verified-findings.md). Who is already working in this space: [actor & landscape map](../Evidence/actors-and-landscape.md). Channel-by-channel intake: [channel demand](../Evidence/geneva-2027-channel-demand.md).*

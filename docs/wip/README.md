@@ -11,10 +11,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 ## Files
 
 - **[artifact-production-plan.md](artifact-production-plan.md)** — prioritized inputs for the Geneva 2027 contribution: what to produce, what to reuse, and what not to produce.
-- **[final-artifacts-roadmap.md](final-artifacts-roadmap.md)** — durable end-products the initiative could ultimately ship, with first releases, co-producers, and go/no-go gates.
-- **[geneva-2027-channel-demand.md](geneva-2027-channel-demand.md)** — what each channel accepts: Swissnex fellowship, official Geneva 2027 process, Current AI, and Apertus/SNAI.
 - **[geneva-2027-keystone-memo.md](geneva-2027-keystone-memo.md)** — forwardable memo for the fellowship and downstream routes; promotable to `Outreach/` once a carrier group and first deliverable exist.
-- **[public-compute-control-evidence-layer.md](public-compute-control-evidence-layer.md)** — cooperator-facing one-pager on the broker, evidence plane, assurance, and adjudication layer.
 - **[answerable-to-people-assurance-case.md](answerable-to-people-assurance-case.md)** — obligation 2 prototype; rights-led bridge from obligation to duties/modules.
 - **[purpose-bound-assurance-case.md](purpose-bound-assurance-case.md)** — obligation 1 prototype; legitimacy gate, prohibited uses, and scope narrowing/withdrawal.
 - **[safe-secure-private-resilient-assurance-case.md](safe-secure-private-resilient-assurance-case.md)** — obligation 3 prototype; technical-assurance and effectiveness-testing focus.
@@ -28,3 +25,6 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 - **[user-workflow-governance.md](../Assurance/Concepts/user-workflow-governance.md)** — runtime reference model for the user's seat.
 - **[geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md)** — fellowship assessment and recommended plan.
 - **[federated-public-compute-architecture.md](../Compute/federated-public-compute-architecture.md)** — compute architecture.
+- **[public-compute-control-evidence-layer.md](../Compute/public-compute-control-evidence-layer.md)** — cooperator one-pager on the control-and-evidence layer.
+- **[final-artifacts-roadmap.md](../Strategy/final-artifacts-roadmap.md)** — durable end-products the initiative could ship.
+- **[geneva-2027-channel-demand.md](../Evidence/geneva-2027-channel-demand.md)** — what each Geneva 2027 channel accepts.

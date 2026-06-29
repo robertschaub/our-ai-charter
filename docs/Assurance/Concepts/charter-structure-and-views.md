@@ -81,7 +81,7 @@ Without this leg, the system only produces claims. With it, claims are answerabl
 - [Charter Commitments](../Framework/charter-commitments.md) — assurance plane: obligations, duties, scope, depth labels, withdrawal.
 - [Grounding-Faithfulness & Contestability](../Protocol/grounding-faithfulness-and-contestability.md) — assurance plane: factual-output honesty module.
 - Five `wip/` assurance cases — obligation-to-duty crosswalk prototypes.
-- [Control-and-evidence layer](../../wip/public-compute-control-evidence-layer.md) — policy broker plus evidence plane.
+- [Control-and-evidence layer](../../Compute/public-compute-control-evidence-layer.md) — policy broker plus evidence plane.
 - [User-workflow governance](user-workflow-governance.md) — runtime reference model.
 - [Capabilities & Assurance Interface](../../wip/capabilities-and-assurance-interface.md) — demand-side check surface.
 
