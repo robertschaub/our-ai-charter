@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — prototype (2026-06-28). Fifth worked obligation→duty bridge, testing the instrument in [charter-structure-and-views.md](../Concepts/charter-structure-and-views.md) on the Charter's **distinctive honesty wedge**. Pointer-level; routes to the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)' duties, inventing no new controls.
+> **Status: WORKING NOTES** — prototype (2026-06-28). Fifth worked obligation→duty bridge, testing the instrument in [charter-structure-and-views.md](../Assurance/Concepts/charter-structure-and-views.md) on the Charter's **distinctive honesty wedge**. Pointer-level; routes to the [Charter Commitments](../Assurance/Framework/charter-commitments.md)' duties, inventing no new controls.
 
 # Assurance case — *Open to evidence & correction* (obligation 5)
 

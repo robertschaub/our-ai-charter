@@ -1,6 +1,6 @@
 # Federated public-compute — pilot & rollout
 
-Strategy for standing up the [federated public-compute architecture](../Architecture/federated-public-compute-architecture.md): Geneva 2027 MVP, development sequence, open decisions, and messaging discipline. Proposed, not yet built.
+Strategy for standing up the [federated public-compute architecture](federated-public-compute-architecture.md): Geneva 2027 MVP, development sequence, open decisions, and messaging discipline. Proposed, not yet built.
 
 ## Geneva 2027 MVP
 

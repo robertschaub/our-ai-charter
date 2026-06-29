@@ -1,6 +1,6 @@
 # Structuring the Charter: obligations as spine, views as lenses
 
-*Map, not specification. The binding detail lives in the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md); this note explains where new material belongs and how the parts relate.*
+*Map, not specification. The binding detail lives in the [Charter Commitments](../Framework/charter-commitments.md); this note explains where new material belongs and how the parts relate.*
 
 ## Resolution
 
@@ -23,7 +23,7 @@ Use a **Claims → Arguments → Evidence** view:
 3. **Controls & evidence** — what must be done and how it is proven, labelled by assurance depth; links to duty 3 and relevant modules.
 4. **Remedy & escalation** — remedy owed, escalation route, and withdrawal triggers; links to duties 6 and 8.
 
-This view is a crosswalk over existing duties, not a new control layer. The five working prototypes live in `docs/wip/`: [answerable](../wip/answerable-to-people-assurance-case.md), [purpose-bound](../wip/purpose-bound-assurance-case.md), [safe-secure-private-resilient](../wip/safe-secure-private-resilient-assurance-case.md), [fair-in-practice](../wip/fair-in-practice-assurance-case.md), and [open-to-evidence](../wip/open-to-evidence-assurance-case.md).
+This view is a crosswalk over existing duties, not a new control layer. The five working prototypes live in `docs/wip/`: [answerable](../../wip/answerable-to-people-assurance-case.md), [purpose-bound](../../wip/purpose-bound-assurance-case.md), [safe-secure-private-resilient](../../wip/safe-secure-private-resilient-assurance-case.md), [fair-in-practice](../../wip/fair-in-practice-assurance-case.md), and [open-to-evidence](../../wip/open-to-evidence-assurance-case.md).
 
 ## Two planes
 
@@ -61,7 +61,7 @@ Modules are triggered, not optional decoration. Every assessed system gets a bas
 The outward surfaces are concepts, not interface specs:
 
 - **Find** — discovery and navigation across providers and systems, based on scoped assurance depth rather than an "approved" badge. The directory must remain plural and neutral.
-- **Check** — a [Capabilities & Assurance Interface](../wip/capabilities-and-assurance-interface.md): what a system says it is for, what has been assured, and what is not verified.
+- **Check** — a [Capabilities & Assurance Interface](../../wip/capabilities-and-assurance-interface.md): what a system says it is for, what has been assured, and what is not verified.
 - **Watch** — runtime inspection for the appropriate audience: own session, affected-person decision, assessor sample, regulator access, or public aggregate.
 
 These surfaces steer discovery, procurement, and trust. They are governed public-power surfaces, not neutral plumbing.
@@ -78,12 +78,12 @@ Without this leg, the system only produces claims. With it, claims are answerabl
 
 ## Where pieces sit
 
-- [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) — assurance plane: obligations, duties, scope, depth labels, withdrawal.
-- [Grounding-Faithfulness & Contestability](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) — assurance plane: factual-output honesty module.
+- [Charter Commitments](../Framework/charter-commitments.md) — assurance plane: obligations, duties, scope, depth labels, withdrawal.
+- [Grounding-Faithfulness & Contestability](../Protocol/grounding-faithfulness-and-contestability.md) — assurance plane: factual-output honesty module.
 - Five `wip/` assurance cases — obligation-to-duty crosswalk prototypes.
-- [Control-and-evidence layer](../wip/public-compute-control-evidence-layer.md) — policy broker plus evidence plane.
+- [Control-and-evidence layer](../../wip/public-compute-control-evidence-layer.md) — policy broker plus evidence plane.
 - [User-workflow governance](user-workflow-governance.md) — runtime reference model.
-- [Capabilities & Assurance Interface](../wip/capabilities-and-assurance-interface.md) — demand-side check surface.
+- [Capabilities & Assurance Interface](../../wip/capabilities-and-assurance-interface.md) — demand-side check surface.
 
 ## What this is
 

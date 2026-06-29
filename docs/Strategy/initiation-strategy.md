@@ -18,7 +18,7 @@ Do not start with a parliamentary instrument. Start with a mandate:
 
 **2. Use Apertus/SNAI as pilot anchor, not the whole frame.** The Swiss AI Initiative, SNAI, EPFL, ETH Zurich, CSCS, and Apertus provide a strong technical anchor. Frame the contribution as an open governance/evidence question *with* that ecosystem, not as "Apertus is the solution" or as criticism.
 
-**3. Name the Geneva package narrowly.** **Geneva 2027 Public AI Governance & Evidence Package** should mean four things: neutral pre-sprint, governance blueprint, one evidence/evaluation pilot outline, and roundtable path. The compute pillar is a [federated public-compute pilot](../Architecture/federated-public-compute-architecture.md), not a claimed global GPU pool.
+**3. Name the Geneva package narrowly.** **Geneva 2027 Public AI Governance & Evidence Package** should mean four things: neutral pre-sprint, governance blueprint, one evidence/evaluation pilot outline, and roundtable path. The compute pillar is a [federated public-compute pilot](../Compute/federated-public-compute-architecture.md), not a claimed global GPU pool.
 
 **4. Use a neutral process designer.** The pre-sprint should test a bounded question:
 

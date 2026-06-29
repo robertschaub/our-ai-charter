@@ -6,7 +6,7 @@
 
 ## Yardstick
 
-Each initiative below is read against the Charter's five obligations and three-layer assurance model, defined in the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md). The question is practical: does this source help public-AI projects show purpose, accountability, safety, fairness, evidence, and correction?
+Each initiative below is read against the Charter's five obligations and three-layer assurance model, defined in the [Charter Commitments](../Assurance/Framework/charter-commitments.md). The question is practical: does this source help public-AI projects show purpose, accountability, safety, fairness, evidence, and correction?
 
 ---
 

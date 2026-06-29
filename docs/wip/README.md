@@ -24,7 +24,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 ## Related curated notes
 
-- **[charter-structure-and-views.md](../Concepts/charter-structure-and-views.md)** — architecture map for the obligation/duty/lens structure.
-- **[user-workflow-governance.md](../Concepts/user-workflow-governance.md)** — runtime reference model for the user's seat.
+- **[charter-structure-and-views.md](../Assurance/Concepts/charter-structure-and-views.md)** — architecture map for the obligation/duty/lens structure.
+- **[user-workflow-governance.md](../Assurance/Concepts/user-workflow-governance.md)** — runtime reference model for the user's seat.
 - **[geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md)** — fellowship assessment and recommended plan.
-- **[federated-public-compute-architecture.md](../Architecture/federated-public-compute-architecture.md)** — compute architecture.
+- **[federated-public-compute-architecture.md](../Compute/federated-public-compute-architecture.md)** — compute architecture.

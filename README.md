@@ -15,7 +15,7 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 - **Public-AI policy, partners, or funding** → [The Public AI Network](docs/Published/the-public-ai-network.md) → [Overview](docs/network-overview.md) → [initiation strategy](docs/Strategy/initiation-strategy.md).
 - **Swiss sovereignty framing** → [KI-Souveränität und Resilienz](docs/Published/ki-souveraenitaet-und-resilienz.md) ([EN](docs/Published/ai-sovereignty-and-resilience.md)).
-- **Builders, operators, and assessors** → [Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) → [evaluation protocol](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+- **Builders, operators, and assessors** → [Charter Commitments](docs/Assurance/Framework/charter-commitments.md) → [evaluation protocol](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md).
 - **Critique or contribution** → [CONTRIBUTING](CONTRIBUTING.md), then open an issue against the specific claim, route, or method.
 
 ## Document index
@@ -29,8 +29,8 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 - **[The Public AI Network](docs/Published/the-public-ai-network.md)** — *PUBLISHED* (2026-06-22). International statement of the umbrella and its accompanying feed post. [Post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne).
 - **[KI-Souveränität und Resilienz](docs/Published/ki-souveraenitaet-und-resilienz.md)** ([EN](docs/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* (DE, 2026-06-20). Swiss public-AI sovereignty framing and companion English translation. [Post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
 - **[Overview](docs/network-overview.md)** — *DRAFT*. Plain-language front door: what the network is, how the federated layer is used and built, and what "joining" means now.
-- **[Federated public compute architecture](docs/Architecture/federated-public-compute-architecture.md)** — *DRAFT*. Technical and governance architecture for a model-plural federation, broker, evidence plane, node tiers, and anti-capture controls.
-- **[Federated compute pilot & rollout](docs/Strategy/federated-compute-pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and anti-claims.
+- **[Federated public compute architecture](docs/Compute/federated-public-compute-architecture.md)** — *DRAFT*. Technical and governance architecture for a model-plural federation, broker, evidence plane, node tiers, and anti-capture controls.
+- **[Federated compute pilot & rollout](docs/Compute/federated-compute-pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and anti-claims.
 
 ### Strategy, outreach, evidence
 
@@ -46,12 +46,12 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 
 The trust-and-evidence layer: can a deployed AI show its work, answer for its use, and leave evidence others can check?
 
-- **[Trustworthy AI, Accountable to People](docs/AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (2026-06-14; updated on LinkedIn 2026-06-19). Launch article, post, and certification-question comment. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
-- **[Charter Commitments](docs/AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)** — *DRAFT*. Five obligations, eight operational duties, module candidates, assurance stack, and open decisions.
-- **[Grounding-Faithfulness & Contestability](docs/AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT*. First evaluation module; see also the [one-pager](docs/AI%20Assurance%20and%20Certification/Protocol/one-pager.md).
-- **[Certification model](docs/AI%20Assurance%20and%20Certification/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.
-- **[Charter structure and views](docs/Concepts/charter-structure-and-views.md)** · **[User-workflow governance](docs/Concepts/user-workflow-governance.md)** — *DRAFT*. Concept notes that map obligations, duties, runtime, and reader-facing lenses.
-- **[Risk and vulnerability audit](docs/AI%20Assurance%20and%20Certification/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/AI%20Assurance%20and%20Certification/Background/what-the-world-has-already-declared.md)** · **[Landscape & positioning](docs/AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md)** — *DRAFT*. Background and positioning.
+- **[Trustworthy AI, Accountable to People](docs/Assurance/Published/trustworthy-ai-accountable-to-people.md)** — *PUBLISHED* (2026-06-14; updated on LinkedIn 2026-06-19). Launch article, post, and certification-question comment. [Post](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje).
+- **[Charter Commitments](docs/Assurance/Framework/charter-commitments.md)** — *DRAFT*. Five obligations, eight operational duties, module candidates, assurance stack, and open decisions.
+- **[Grounding-Faithfulness & Contestability](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT*. First evaluation module; see also the [one-pager](docs/Assurance/Protocol/one-pager.md).
+- **[Certification model](docs/Assurance/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.
+- **[Charter structure and views](docs/Assurance/Concepts/charter-structure-and-views.md)** · **[User-workflow governance](docs/Assurance/Concepts/user-workflow-governance.md)** — *DRAFT*. Concept notes that map obligations, duties, runtime, and reader-facing lenses.
+- **[Risk and vulnerability audit](docs/Assurance/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/Assurance/Background/what-the-world-has-already-declared.md)** · **[Landscape & positioning](docs/Assurance/Background/landscape-and-positioning.md)** — *DRAFT*. Background and positioning.
 - **[Working notes](docs/wip/README.md)** — *WORKING NOTES*. Provisional public-safe material not yet anchored into the curated set.
 
 ## How to help

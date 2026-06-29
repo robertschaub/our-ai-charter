@@ -118,12 +118,8 @@ extra:
 nav:
   - Home: index.md
   - Overview: network-overview.md
-  - Concepts:
-      - "Structuring the Charter — obligations, planes, lenses": Concepts/charter-structure-and-views.md
-      - "Governance from the AI user's workflow": Concepts/user-workflow-governance.md
   - Strategy:
       - Initiation strategy: Strategy/initiation-strategy.md
-      - Federated compute — pilot & rollout: Strategy/federated-compute-pilot-and-rollout.md
       - Geneva 2027 — contribution routes and partners: Strategy/geneva-2027-options.md
       - Geneva 2027 — Swissnex/Mercator fellowship & plan: Strategy/geneva-2027-swissnex-fellowship.md
       - Digital-sovereignty motions (24.3209 + 26.3221): Strategy/digital-sovereignty-motions.md
@@ -139,8 +135,9 @@ nav:
       - Verified findings: Evidence/verified-findings.md
       - Actors & landscape: Evidence/actors-and-landscape.md
       - Linked sources: Evidence/linked-sources.md
-  - Architecture:
-      - Federated public-compute architecture: Architecture/federated-public-compute-architecture.md
+  - Compute:
+      - Federated public-compute architecture: Compute/federated-public-compute-architecture.md
+      - Federated compute — pilot & rollout: Compute/federated-compute-pilot-and-rollout.md
   - Published:
       - The Public AI Network: Published/the-public-ai-network.md
       - "AI Sovereignty and Resilience (EN)": Published/ai-sovereignty-and-resilience.md
@@ -159,14 +156,17 @@ nav:
       - "Assurance case: Open to evidence": wip/open-to-evidence-assurance-case.md
       - "Capabilities & Assurance Interface (sketch)": wip/capabilities-and-assurance-interface.md
   - AI Assurance & Certification:
-      - Trustworthy AI, Accountable to People: AI Assurance and Certification/Published/trustworthy-ai-accountable-to-people.md
-      - Charter Commitments: AI Assurance and Certification/Framework/charter-commitments.md
-      - Certification model: AI Assurance and Certification/Framework/certification-model.md
+      - Trustworthy AI, Accountable to People: Assurance/Published/trustworthy-ai-accountable-to-people.md
+      - Charter Commitments: Assurance/Framework/charter-commitments.md
+      - Certification model: Assurance/Framework/certification-model.md
+      - Concepts:
+          - "Structuring the Charter — obligations, planes, lenses": Assurance/Concepts/charter-structure-and-views.md
+          - "Governance from the AI user's workflow": Assurance/Concepts/user-workflow-governance.md
       - Protocol:
-          - "Grounding, Faithfulness & Contestability": AI Assurance and Certification/Protocol/grounding-faithfulness-and-contestability.md
-          - One-pager: AI Assurance and Certification/Protocol/one-pager.md
+          - "Grounding, Faithfulness & Contestability": Assurance/Protocol/grounding-faithfulness-and-contestability.md
+          - One-pager: Assurance/Protocol/one-pager.md
       - Background:
-          - Risk & vulnerability audit: AI Assurance and Certification/Background/risk-and-vulnerability-audit.md
-          - What the world has already declared: AI Assurance and Certification/Background/what-the-world-has-already-declared.md
-          - Landscape & positioning: AI Assurance and Certification/Background/landscape-and-positioning.md
+          - Risk & vulnerability audit: Assurance/Background/risk-and-vulnerability-audit.md
+          - What the world has already declared: Assurance/Background/what-the-world-has-already-declared.md
+          - Landscape & positioning: Assurance/Background/landscape-and-positioning.md
   - Program map: PROGRAM.md

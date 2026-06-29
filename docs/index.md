@@ -46,10 +46,10 @@ Sovereignty is not autarky. Open, inspectable AI models matter, but resilience d
 
     The trust-and-evidence sub-stream: obligations, evaluation, contestability, and future assurance boundaries for deployed AI systems.
 
-    [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](AI%20Assurance%20and%20Certification/Published/trustworthy-ai-accountable-to-people.md) ·
-    [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) ·
-    [Protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) ·
-    [Certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md)
+    [:octicons-arrow-right-24: Trustworthy AI, Accountable to People](Assurance/Published/trustworthy-ai-accountable-to-people.md) ·
+    [Charter Commitments](Assurance/Framework/charter-commitments.md) ·
+    [Protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md) ·
+    [Certification model](Assurance/Framework/certification-model.md)
 
 </div>
 
@@ -64,7 +64,7 @@ Whether you use, buy, study, regulate, or are affected by an AI system, you shou
 5. **Who can inspect it?** Public transparency, confidential audit access, lawful oversight, and protected research access.
 6. **Can claims and failures be checked?** Material claims, incidents, disparate failures, changes, and corrections must leave evidence.
 
-The [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) turn those questions into five public obligations and eight operational duties. The first evaluation module tests one narrow but important slice: whether a factual AI system [shows its work](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md).
+The [Charter Commitments](Assurance/Framework/charter-commitments.md) turn those questions into five public obligations and eight operational duties. The first evaluation module tests one narrow but important slice: whether a factual AI system [shows its work](Assurance/Protocol/grounding-faithfulness-and-contestability.md).
 
 ## Where the work stands
 
@@ -75,8 +75,8 @@ The near-term goal is a credible **Geneva 2027 Public AI Governance & Evidence P
 ## Find your path
 
 - **Shape policy, fund, or partner** → [The Public AI Network](Published/the-public-ai-network.md) (Swiss readers: [KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)) → [Overview](network-overview.md) → [initiation strategy](Strategy/initiation-strategy.md).
-- **Build, operate, or assess AI** → [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) → [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) → [certification model](AI%20Assurance%20and%20Certification/Framework/certification-model.md).
-- **Pressure-test the work** → [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md), then the [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md) and [evaluation protocol](AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md); evidence in [verified findings](Evidence/verified-findings.md) and [landscape & positioning](AI%20Assurance%20and%20Certification/Background/landscape-and-positioning.md).
+- **Build, operate, or assess AI** → [Charter Commitments](Assurance/Framework/charter-commitments.md) → [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md) → [certification model](Assurance/Framework/certification-model.md).
+- **Pressure-test the work** → [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md), then the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md); evidence in [verified findings](Evidence/verified-findings.md) and [landscape & positioning](Assurance/Background/landscape-and-positioning.md).
 
 ## How to help
 

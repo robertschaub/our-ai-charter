@@ -21,7 +21,7 @@ The compute pillar should be **federated public compute**: many independently op
 
 ## Charter fit — the five public obligations
 
-This architecture exists to make compute answer to the Charter's five public obligations (set out in the [Charter Commitments](../AI%20Assurance%20and%20Certification/Framework/charter-commitments.md)), not only to run models:
+This architecture exists to make compute answer to the Charter's five public obligations (set out in the [Charter Commitments](../Assurance/Framework/charter-commitments.md)), not only to run models:
 
 | Obligation | How the architecture serves it |
 |---|---|
@@ -260,7 +260,7 @@ The first pilot stays in tiers 0–1; tier 2 follows with formal partners; tier 
 | **Silicon / vendor lock-in** | Multi-vendor procurement, open formats, portability, weight escrow |
 | **Sustainability blind spot** | Energy/carbon metadata in node profiles + scheduler policy |
 
-> **Rollout, decisions & messaging.** The Geneva-2027 pilot/MVP, the development sequence, the open decisions, and the anti-claims (messaging discipline) now live in the **[pilot & rollout strategy](../Strategy/federated-compute-pilot-and-rollout.md)** — this doc keeps the architecture and its risk controls.
+> **Rollout, decisions & messaging.** The Geneva-2027 pilot/MVP, the development sequence, the open decisions, and the anti-claims (messaging discipline) now live in the **[pilot & rollout strategy](federated-compute-pilot-and-rollout.md)** — this doc keeps the architecture and its risk controls.
 
 ## Appendix — minimum schemas (v0)
 

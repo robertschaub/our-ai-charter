@@ -22,7 +22,7 @@ Status: Federal Council recommended rejection; Council of States adopted 30:7 wi
 
 ## Where this work could plug in
 
-1. **Governance/trust complement:** Charter obligations and the [Grounding-Faithfulness & Contestability](../AI%20Assurance%20and%20Certification/Protocol/grounding-faithfulness-and-contestability.md) module as evidence layer for AI funded or enabled by these motions.
+1. **Governance/trust complement:** Charter obligations and the [Grounding-Faithfulness & Contestability](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) module as evidence layer for AI funded or enabled by these motions.
 2. **Candidate pilot:** openness/evidence cards plus a trial evaluation of an Apertus-class or other open model.
 3. **Open source done credibly:** open weights are necessary but not sufficient; public AI also needs evidence, accountability, correction, provenance, and reversible control.
 4. **Timing signal:** two Council-of-States-adopted motions support orientation conversations, the [Non-Paper](../Outreach/non-paper.en.md), the [Action-Plan contribution](swiss-action-plan-contribution.md), and the Geneva 2027 package.

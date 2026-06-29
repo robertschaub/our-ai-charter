@@ -7,7 +7,7 @@ description: What the Public AI Network is — its pillars, how it is used and b
 
 > **Where this stands today.** The Public AI Network is an **early-stage, voluntary** design. There is no live public front door, admission body, assessor, adjudicator, public register, certification, or trust badge yet. What exists is the proposal, the public drafts, and prospective partners. "Joining" today means registering interest in a role — not endorsement or certification.
 
-*Plain-language front door. For the full design see the [federated public-compute architecture](Architecture/federated-public-compute-architecture.md); for the trust layer, the [Charter Commitments](AI%20Assurance%20and%20Certification/Framework/charter-commitments.md); for strategy and asks, the [home page](index.md) and [initiation strategy](Strategy/initiation-strategy.md).*
+*Plain-language front door. For the full design see the [federated public-compute architecture](Compute/federated-public-compute-architecture.md); for the trust layer, the [Charter Commitments](Assurance/Framework/charter-commitments.md); for strategy and asks, the [home page](index.md) and [initiation strategy](Strategy/initiation-strategy.md).*
 
 ## What it is
 
@@ -28,7 +28,7 @@ The user path is **find → check → use**: find a provider that matches the ne
 
 ## How it is built
 
-The first practical build is the **federated public-compute layer**: one governed access point — a **policy broker** that decides what may run, where, and what evidence is kept — serving several public models across at least two independently operated **nodes** (compute run by accountable **operators**), with public model/node/evaluation cards and an **evidence plane** (public where possible, protected-access where sensitive, never raw personal data). The build is small and phased: define and align → prototype → federate a second node → institutionalise under a neutral host. The [pilot & rollout strategy](Strategy/federated-compute-pilot-and-rollout.md) gives the MVP and open decisions; the [architecture](Architecture/federated-public-compute-architecture.md) gives the broker, evidence plane, node tiers, and controls.
+The first practical build is the **federated public-compute layer**: one governed access point — a **policy broker** that decides what may run, where, and what evidence is kept — serving several public models across at least two independently operated **nodes** (compute run by accountable **operators**), with public model/node/evaluation cards and an **evidence plane** (public where possible, protected-access where sensitive, never raw personal data). The build is small and phased: define and align → prototype → federate a second node → institutionalise under a neutral host. The [pilot & rollout strategy](Compute/federated-compute-pilot-and-rollout.md) gives the MVP and open decisions; the [architecture](Compute/federated-public-compute-architecture.md) gives the broker, evidence plane, node tiers, and controls.
 
 ## How to join
 

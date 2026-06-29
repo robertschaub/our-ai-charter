@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange. **Concepts and principles, not interfaces** — mechanisms are deliberately out of scope at this stage. Phase-2/3. Companion to [charter-structure-and-views.md](../Concepts/charter-structure-and-views.md): the demand side's *check* surface.
+> **Status: WORKING NOTES** — design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange. **Concepts and principles, not interfaces** — mechanisms are deliberately out of scope at this stage. Phase-2/3. Companion to [charter-structure-and-views.md](../Assurance/Concepts/charter-structure-and-views.md): the demand side's *check* surface.
 
 # A queryable Capabilities & Assurance Interface (CAI) — design direction
 
@@ -23,4 +23,4 @@ A machine-readable assurance surface propagates **false confidence as fast as tr
 
 ## What this is / is not
 
-A design **direction** and a **profile**, not a spec, a standard, or "queryable certification." It is the demand side's *check* surface — read alongside *find* (discovery) and *watch* (runtime inspection) in the [structure map](../Concepts/charter-structure-and-views.md). Mechanisms (schemas, signing, logs) are intentionally left out at this stage.
+A design **direction** and a **profile**, not a spec, a standard, or "queryable certification." It is the demand side's *check* surface — read alongside *find* (discovery) and *watch* (runtime inspection) in the [structure map](../Assurance/Concepts/charter-structure-and-views.md). Mechanisms (schemas, signing, logs) are intentionally left out at this stage.
