@@ -19,4 +19,4 @@ The Verein binds itself to the standards this program asks of public AI infrastr
 
 **Robert Schaub** initiated Our AI Charter and maintains this repository. He is FactHarbor's founder and lead architect, with a long background in software engineering and project leadership. Contact: [info@factharbor.ch](mailto:info@factharbor.ch). Fuller public background: [LinkedIn](https://www.linkedin.com/in/robertschaub/).
 
-Private administrative work — legal, governance, finance, cooperation, banking, fundraising, and operational records — is kept outside the public repositories.
+Private administrative work — legal, finance, banking, fundraising, Verein operations, personal correspondence, and explicitly INTERNAL material — is kept outside the public repositories. Public Charter cooperation, outreach, strategy, and governance notes remain here by default.

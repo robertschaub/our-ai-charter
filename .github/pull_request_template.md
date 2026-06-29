@@ -12,7 +12,7 @@ Why?
 
 ## Document Checklist
 
-- [ ] Changes are prose, structure, or repository governance only; no source code, package manager, app tooling, or CI build pipeline was added.
+- [ ] Changes are documentation, repository governance, or the limited documentation-support tooling allowed by `AGENTS.md`; no application runtime, product code, package-managed app, or unrelated CI workflow was added.
 - [ ] Status banners are present and accurate for changed charter documents (`PUBLISHED`, `DRAFT`, or `WORKING NOTES`).
 - [ ] README index and links were updated if a document was added, renamed, promoted, or retired.
 - [ ] CHANGELOG has a dated entry for notable changes.
@@ -22,7 +22,7 @@ Why?
 
 - [ ] No private, internal, unpublished-confidential, or personal data is included.
 - [ ] No secrets, credentials, tokens, `.env` files, or local machine artifacts are included.
-- [ ] Non-public working material, if any, stayed in a private sibling (`our-ai-charter-internal` for Charter cooperation/outreach/strategy; `FactHarbor-internal` for finance/legal/Verein), not here.
+- [ ] Personal correspondence and explicitly INTERNAL material stayed in `our-ai-charter-internal`; finance/legal/banking/fundraising/Verein records stayed in `FactHarbor-internal`. Public Charter cooperation/outreach/strategy/governance notes remain here by default.
 
 ## Verification
 

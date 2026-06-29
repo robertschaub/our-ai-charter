@@ -4,7 +4,7 @@
 
 ## Snapshot
 
-A **public, documents-only** repository: manifesto + charter + draft protocol + Public AI Network governance materials, all Markdown. No source code, build, or tests — don't add them.
+A **public, documentation-first** repository: manifesto + charter + draft protocol + Public AI Network governance materials. Markdown is authoritative; the MkDocs site build, repository hooks, presentation assets, and `scripts/agents/` review helpers are the limited tooling exceptions. Do not add application runtime or product code.
 
 Current priority: this repo is **Our AI Charter**, a **Public AI Network** initiative, with **AI Assurance & Certification** as its sub-stream. For the maintainer right now, the **Public AI Network (KI-Souveränität und Resilienz)** work is more urgent and higher priority; work on **AI Assurance & Certification (Trustworthy AI, Accountable to People)** only when explicitly asked, when it supports the Public AI Network work, or where there is clear low-hanging fruit.
 

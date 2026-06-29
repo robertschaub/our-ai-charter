@@ -1,7 +1,7 @@
 > **Status: DRAFT (v0.14)**
 
 # Charter Commitments
-### A public charter for trustworthy AI — built together, answerable to people.
+**A public charter for trustworthy AI — built together, answerable to people.**
 
 _Draft v0.14 (2026-06-19). Open for comment._
 

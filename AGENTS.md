@@ -8,9 +8,9 @@ This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE
 
 ## What this repository is
 
-- A **public, documents-only** repository: a published manifesto, a signable charter, a draft evaluation protocol, and the Public AI Network governance materials — all Markdown.
-- **No source code, build, tests, or dependencies.** Do not add a package manager, application tooling, or a CI build pipeline. Changes here are prose and structure.
-- Keep imported FactHarbor practices **documents-only**: agent rules, issue/PR templates, safety policies, and local destructive-git guards are appropriate; app runtime rules, generated indexes, database guards, test commands, and deployment workflows are not.
+- A **public, documentation-first** repository: a published manifesto, a signable charter, a draft evaluation protocol, and Public AI Network governance materials. Markdown remains authoritative; limited presentation assets and documentation-support tooling are allowed.
+- **No application runtime, product code, package-managed app, or test suite.** The MkDocs site build, repository hooks, and small `scripts/agents/` review helpers are the documented exceptions.
+- Keep imported FactHarbor practices scoped to documentation: agent rules, issue/PR templates, safety policies, and local destructive-git guards are appropriate; app runtime rules, generated indexes, database guards, test commands, and unrelated deployment workflows are not.
 - **Status banners.** A status banner sits at the top of four kinds of page only: the **normative** docs that state rules, obligations, or guidelines (the Charter Commitments, the evaluation protocol, the certification model, the one-pager); the **outreach and parliamentary** drafts (the Non-Paper, the Aktionsplan, the Postulat); **`PUBLISHED`** pages; and the **`docs/wip/`** working notes. The banner is a plain `> **Status: …**` blockquote, **not** a typed callout (the `[!NOTE]` / `[!TIP]` / `[!WARNING]` headers read as advice or hazards, which is wrong for a status label), labelled `DRAFT` for the normative and outreach drafts, `PUBLISHED <date>` (ISO `YYYY-MM-DD`) for published pages, and `WORKING NOTES` for the raw `docs/wip/` material not yet anchored into the curated structure. All other pages — evidence, strategy, background, the program map, and the home page — carry **no** banner. Keep labels accurate; the README index still notes each document's status. Reserve `> [!WARNING]` / `> [!CAUTION]` for genuine in-body hazards, never for status.
 
 ## Program constellation
@@ -111,7 +111,7 @@ For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo*
 
 ## Consulting other models (GPT, Gemini, Claude)
 
-Documents-only has one sanctioned exception: small helper scripts under [`scripts/agents/`](scripts/agents) let a maintainer-side agent consult another frontier model for a second opinion or cross-model review. Use them rather than improvising an API call.
+The limited documentation-support tooling includes small helper scripts under [`scripts/agents/`](scripts/agents), which let a maintainer-side agent consult another frontier model for a second opinion or cross-model review. Use them rather than improvising an API call.
 
 - `node scripts/agents/invoke-gpt.cjs --prompt "…" [--system "…"] [--model gpt-5.5] [--max-tokens N]` — OpenAI; needs `OPENAI_API_KEY`.
 - `node scripts/agents/invoke-gemini.cjs --prompt "…" [--system "…"] [--model gemini-3.1-pro-preview]` — Google; needs `GOOGLE_GENERATIVE_AI_API_KEY`.
