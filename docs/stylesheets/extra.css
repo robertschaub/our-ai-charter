@@ -45,15 +45,26 @@
   line-height: 1.4;
 }
 
-/* Home-page lead — the one-line definition under the tagline, set a notch
-   above body copy so it reads as the page's opening statement. */
-.md-typeset .lead p {
+/* Home-page lead — the one-line definition under the tagline. It matches the
+   mission panel's text scale, but uses a black frame so it reads as the primary
+   definition rather than another coloured mission/position panel. */
+.md-typeset .lead {
   margin: 0 0 1.5rem;
-  font-size: 1.15rem;
-  line-height: 1.5;
+  padding: 1.25rem 1.5rem;
+  border-radius: .3rem;
+  border: 1px solid rgba(0, 0, 0, .35);
+  border-left: .25rem solid #000;
+  background: #fff;
+  color: #000;
+}
+
+.md-typeset .lead p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.55;
 }
 @media screen and (max-width: 44.9375em) {
-  .md-typeset .lead p { font-size: 1.05rem; }
+  .md-typeset .lead p { font-size: 1rem; }
 }
 
 /* Home-page position — the Public AI Network thesis, parallel to the mission
