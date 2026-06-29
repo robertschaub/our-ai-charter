@@ -5,9 +5,11 @@
 
 **Trustworthy AI for free, fair, and resilient societies.**
 
-Our AI Charter is an early public draft for a **Public AI Network**: open, plural, accountable AI infrastructure that free societies can inspect, contest, and rely on. It is not a certification, standard, Trust Mark, registry, or active pilot.
+Our AI Charter exists to **protect and strengthen free and fair societies in the digital age** — through a global, trustworthy public AI network that is accountable to people and supports societal resilience and economic prosperity.
 
-The current priority is the **Public AI Network** work: sovereignty, resilience, Swiss and international public-AI coordination, and a Geneva 2027 window. **AI Assurance & Certification** is the trust-and-evidence sub-stream: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
+It is an early public draft for a **Public AI Network**: open, plural, accountable AI infrastructure that free societies can inspect, contest, and rely on. It is not a certification, standard, Trust Mark, registry, or active pilot.
+
+The current operational priority is the **Public AI Network** work — sovereignty, resilience, Swiss and international public-AI coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence sub-stream: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · Program map: **[PROGRAM.md](docs/PROGRAM.md)** · Stewarded by Robert Schaub and the **[FactHarbor Verein](docs/PROGRAM.md#stewardship-and-governance)**.
 
@@ -52,7 +54,7 @@ The trust-and-evidence layer: can a deployed AI show its work, answer for its us
 - **[Certification model](docs/Assurance/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.
 - **[Charter structure and views](docs/Assurance/Concepts/charter-structure-and-views.md)** · **[User-workflow governance](docs/Assurance/Concepts/user-workflow-governance.md)** — *DRAFT*. Concept notes that map obligations, duties, runtime, and reader-facing lenses.
 - **[Risk and vulnerability audit](docs/Assurance/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/Assurance/Background/what-the-world-has-already-declared.md)** · **[Landscape & positioning](docs/Assurance/Background/landscape-and-positioning.md)** — *DRAFT*. Background and positioning.
-- **[Working notes](docs/wip/README.md)** — *WORKING NOTES*. Provisional public-safe material not yet anchored into the curated set.
+- **[Draft notes](docs/wip/README.md)** — *WORKING NOTES*. Provisional public-safe material not yet anchored into the curated set.
 
 ## How to help
 

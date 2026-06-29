@@ -1,6 +1,6 @@
 > **Status: WORKING NOTES**
 
-# Working notes
+# Draft notes
 
 Public-safe provisional material. These notes are published on the site but are not yet part of the curated, normative document set. Re-verify before relying on or publishing anything here.
 
