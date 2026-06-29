@@ -11,6 +11,10 @@ hide:
 **Trustworthy AI for free, fair, and resilient societies.**
 </div>
 
+<div class="lead" markdown>
+**Our AI Charter is a Public AI Network initiative** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network.
+</div>
+
 <div class="mission" markdown>
 <span class="mission-label">Our mission</span>
 Protect and strengthen free and fair societies in the digital age — through a global, trustworthy public AI network that is **accountable to people** and drives **societal resilience** and **economic prosperity**.
@@ -22,8 +26,6 @@ AI is becoming the infrastructure people learn, decide, work, and form opinion w
 <span class="mission-label">Our position</span>
 Open, inspectable AI models now exist across many regions. But autarky is not sovereignty: resilience depends on the infrastructure free societies build together — standards, public evidence, accountable governance, and federated public compute that no single power can switch off or capture.
 </div>
-
-**Our AI Charter is a Public AI Network initiative** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network. Within it, **AI Assurance & Certification** is the trust-and-evidence **sub-stream** behind those obligations — the evaluation discipline and claim boundaries that keep public AI from becoming only an open model, a national label, or a vendor promise.
 
 <div class="grid cards" markdown>
 

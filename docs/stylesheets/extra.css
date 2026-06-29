@@ -45,6 +45,17 @@
   line-height: 1.4;
 }
 
+/* Home-page lead — the one-line definition under the tagline, set a notch
+   above body copy so it reads as the page's opening statement. */
+.md-typeset .lead p {
+  margin: 0 0 1.5rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .lead p { font-size: 1.05rem; }
+}
+
 /* Home-page position — the Public AI Network thesis, parallel to the mission
    panel but in a distinct teal tone so the "mission" and "position" blocks
    stay visually separate. */
