@@ -57,8 +57,8 @@ Both reviewers rate the overlaps **serious** and recommend renaming/subordinatin
 Sharpens the Apertus angle *within* the existing Geneva-2027 plan; does not replace it. Lead move is an **unprompted proof-of-concept**: bring results, not a framework.
 
 **Now (0–30 days) — make the asset, not the ask.**
-- Run the [grounding-faithfulness & contestability protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) on **one** open public model on one use-case (cited-source Q&A). Apertus is open — no permission needed to *evaluate* it — but **name Apertus publicly only with partner agreement** ([production-plan discipline](artifact-production-plan.md)); otherwise report it as "an Apertus-class open public model."
-- Draft a short **discussion note** — "Assurance & governance questions for public-interest open AI (a Geneva 2027 note)": problem space, 3–5 concrete questions, the one-line distinction from the two namesakes. Reuse the [keystone memo](geneva-2027-keystone-memo.md); do not write a new manifesto.
+- Run the [grounding-faithfulness & contestability protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) on **one** open public model on one use-case (cited-source Q&A) — scoped in the [evaluation proof-of-concept](evaluation-poc-scope.md) (evaluate an Apertus-*based* cited-source deployment, not the weights). Apertus is open — no permission needed to *evaluate* it — but **name Apertus publicly only with partner agreement** ([production-plan discipline](artifact-production-plan.md)); otherwise report it as "an Apertus-class open public deployment."
+- The [assurance-questions discussion note](geneva-2027-assurance-questions-note.md) — five open questions + the one-line distinction from the two namesakes — is **drafted** (question-led; lower-risk than leading with the [keystone memo](geneva-2027-keystone-memo.md)'s package + ask).
 
 **Next (31–90 days) — earn standing outside the model team.**
 - Circulate the note + PoC results to **3–5 credible governance/assurance/public-interest reviewers** for correction (not endorsement).
