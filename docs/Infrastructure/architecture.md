@@ -281,7 +281,7 @@ The first pilot stays in tiers 0–1; tier 2 follows with formal partners; tier 
 | **Silicon / vendor lock-in** | Multi-vendor procurement, open formats, portability, weight escrow |
 | **Sustainability blind spot** | Energy/carbon metadata in node profiles + scheduler policy |
 
-> **Rollout, decisions & messaging.** The Geneva-2027 pilot/MVP, the development sequence, the open decisions, and the anti-claims (messaging discipline) now live in the **[pilot & rollout strategy](pilot-and-rollout.md)** — this doc keeps the architecture and its risk controls.
+> **Rollout, decisions & messaging.** The Geneva-2027 pilot/MVP, the development sequence, the open decisions, and the framing now live in the **[pilot & rollout strategy](pilot-and-rollout.md)** — this doc keeps the architecture and its risk controls.
 
 ## Appendix — minimum schemas (v0)
 

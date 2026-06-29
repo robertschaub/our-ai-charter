@@ -38,7 +38,7 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 
 - **[The Network](docs/network-overview.md)** — *DRAFT*. Plain-language explainer for the Public AI Network: what it is, how the federated layer is used and built, and what "joining" means now.
 - **[Federated public AI infrastructure — architecture](docs/Infrastructure/architecture.md)** — *DRAFT*. Technical and governance architecture for a model-plural federation, broker, evidence plane, node tiers, and anti-capture controls.
-- **[Federated public AI infrastructure — pilot & rollout](docs/Infrastructure/pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and anti-claims.
+- **[Federated public AI infrastructure — pilot & rollout](docs/Infrastructure/pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and framing.
 - **[Public-interest control & evidence layer](docs/Infrastructure/control-and-evidence-layer.md)** — *DRAFT*. Cooperator one-pager: the legitimacy/accountability layer (policy broker, evidence plane, assurance & adjudication) the network adds on top of existing compute.
 
 ### Strategy, outreach, evidence

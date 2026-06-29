@@ -1,6 +1,6 @@
 # Federated public AI infrastructure — pilot & rollout
 
-Strategy for standing up the [federated public AI infrastructure](architecture.md): Geneva 2027 MVP, development sequence, open decisions, and messaging discipline. Proposed, not yet built.
+Strategy for standing up the [federated public AI infrastructure](architecture.md): Geneva 2027 MVP, development sequence, open decisions, and framing. Proposed, not yet built.
 
 ## Geneva 2027 MVP
 
@@ -40,8 +40,6 @@ Success is not global scale. Success is proving that public compute can be share
 | Commercial providers | Allowed only with disclosure, portability, quota limits, and no control over governance or findings |
 | Sensitive data | Excluded from the first public pilot |
 
-## Anti-claims
+## Framing
 
-Do **not** say: "global public compute pool"; "this solves sovereign AI"; "this is certification"; "this replaces commercial AI"; "this replaces Apertus/PublicAI"; "open models are safe by default."
-
-Do say: "federated public AI infrastructure and evidence pilot"; "Apertus/PublicAI is the nearest live anchor"; "the Charter adds broker/evidence controls"; "node control stays local while identity, quota, policy, evidence, and accountability are shared"; "the first deliverable is small and testable."
+Apertus/PublicAI is the nearest live anchor; the Charter adds broker/evidence controls. Node control stays local while identity, quota, policy, evidence, and accountability are shared. The first deliverable is small and testable.
