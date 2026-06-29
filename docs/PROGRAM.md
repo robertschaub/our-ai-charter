@@ -1,4 +1,4 @@
-# Program Map
+# About
 
 Our AI Charter belongs to a broader program:
 
