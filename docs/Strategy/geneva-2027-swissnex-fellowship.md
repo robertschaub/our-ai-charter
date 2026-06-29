@@ -46,7 +46,7 @@ Main risks: non-selection, real time cost, and optics of a Silicon Valley immers
 3. **Mid-August branch:**
    - **Selected:** use the fellowship as the spine; sharpen the memo with SF input; use the side event and cohort as amplification.
    - **Not selected:** use the memo and first conversation for the official consultation window, pre-sprint, and possible parliamentary flank.
-4. **End-2026:** submit the memo to the official consultation if the process opens and the content remains current.
+4. **When the summit's next input window opens** (not yet publicly dated — monitor dig.watch / ICT4Peace): submit the memo if the content remains current. *(The end-2026 federal milestone often cited is the separate Council of Europe AI Convention implementing-law consultation, not the summit.)*
 
 **Fallback without the SF week:** run the memo through pre-sprint → official consultation → parliamentary carrier. Lower visibility, but fully self-directed.
 
