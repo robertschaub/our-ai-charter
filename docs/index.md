@@ -80,8 +80,11 @@ The near-term goal is a credible **Geneva 2027 Public AI Governance & Evidence P
 
 ## How to help
 
-1. **Stress-test the Public AI path** — where does the governance-and-evidence package overclaim, duplicate, or miss leverage?
-2. **Open one useful door** — suggest a neutral convenor, public-AI peer, institutional anchor, or orientation conversation.
-3. **Improve the trust layer** — challenge the obligations, evidence model, evaluation protocol, or pilot framing.
+The highest-leverage help right now:
 
-See [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md) for working norms and the [program map](PROGRAM.md) for stewardship. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.
+1. **Build or cooperate** — if you develop AI, models, or evaluations, align on shared openness and evidence criteria instead of duplicating.
+2. **Stress-test the path** — where does the governance-and-evidence package overclaim, duplicate, or miss leverage?
+3. **Open one useful door** — an introduction, neutral convenor, institutional anchor, or venue.
+4. **Back it** — fund a concrete deliverable, or support it in the policy venues you shape.
+
+See [how to join](network-overview.md#how-to-join) for what each role does, [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md) for working norms, and the [program map](PROGRAM.md) for stewardship. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.

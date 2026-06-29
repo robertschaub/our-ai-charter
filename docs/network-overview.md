@@ -32,16 +32,18 @@ The first practical build is the **federated public-compute layer**: one governe
 
 ## How to join
 
-Right now, joining means **registering interest in a role** — nothing is live to operate yet. The roles below describe what each participant will do once the network runs; because they carry power and accountability, they are kept distinct:
+Right now, joining means **registering interest** — nothing is live to operate or certify yet. Phase 1 is drafting and coalition-building, so here is how different people and organisations can help today:
 
-- **Operator / node** — runs compute under a signed participation agreement.
-- **Contributor** — supplies models, data, tooling, or evaluations with provenance and rights duties.
-- **Deployer** — builds a public-facing service and stays accountable for that use.
-- **Steward** — helps set the rules under conflict-of-interest constraints.
-- **Assessor / adjudicator** — evaluates, or resolves disputes, independently of those assessed.
-- **Supporter** — publicly backs the effort without an operational role.
+- **AI builders & research teams** — developing models, datasets, or evaluations: cooperate rather than enlist — show where the governance-and-evidence proposal overclaims or duplicates your work, align on shared openness and evaluation criteria, and (later) volunteer a system for an evaluation pilot. None are running yet.
+- **Contributors** — sharpen the drafts directly: critique, research an open question, translate, or draft a section. No permission needed.
+- **Advocates & connectors** — people with reach or convening power: open one useful door — an introduction, a neutral convenor, an institutional anchor, or a venue — and make the case publicly.
+- **Funders & supporting organisations** — resource a concrete deliverable (an evaluation protocol, a pilot outline, the coalition process) or give in-kind (compute, staff, a venue). Funding is disclosed and diversified, and no funder controls the rules or the findings.
+- **Policy & institutional leaders** — back sovereign, open, public-interest AI where you already have a say: motions, national action plans, or a neutral roundtable toward Geneva 2027. Alliance and mandate first, lawmaking later.
+- **Users & the public** — follow and share, and hold the AI you already use to the [questions that must be checkable](index.md#what-must-be-checkable).
 
-Ordinary users will simply use the front door once it exists; only the participant roles above need admission. Admission should be rules-based, appealable, role-specific, and proportionate to risk and scale, so small and Global-South operators are not burdened out. Early verification can start with signed commitments and self-attestation; mature assurance needs independent review, audit sampling, public status, and sanctions for false claims. Membership is not a trust badge: only verified claims may be made.
+**Later — operational roles** once the network runs, kept distinct because they carry power and accountability: **operator / node**, **model & data providers** (with provenance and rights duties), **deployer**, **steward**, and **assessor / adjudicator**. Admission will be rules-based, appealable, role-specific, and proportionate to risk and scale, so small and Global-South operators are not burdened out — starting from signed commitments and self-attestation, maturing to independent review, audit sampling, public status, and sanctions for false claims. Membership is not a trust badge: only verified claims may be made.
+
+To take part, open a [GitHub issue](https://github.com/robertschaub/our-ai-charter/issues) (templates provided) or, for an introduction, funding, or anything not-for-public, write to [info@factharbor.ch](mailto:info@factharbor.ch). Registering interest is not endorsement or certification, and the initiator contributes the method but operates no assessor or registry.
 
 ## What this is not
 

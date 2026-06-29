@@ -2,6 +2,8 @@
 
 This is an open draft, meant to be improved by critique. You do not need permission to take part.
 
+Builders, funders, convenors, supporters, and policy backers — see **[How to join](docs/network-overview.md#how-to-join)** for all the ways to take part. This page covers contributing to the drafts themselves.
+
 ## Working norms
 
 - **Open drafts + a public change log.** Versions are dated; changes are visible (see [CHANGELOG](CHANGELOG.md)).

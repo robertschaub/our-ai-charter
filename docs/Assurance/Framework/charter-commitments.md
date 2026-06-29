@@ -28,6 +28,8 @@ We commit to building that foundation together, and to being held to the values,
 - **Pilot participant** — organisations may volunteer a specific deployed system for a draft evaluation report. No Mark or certificate is issued in this phase, and no pilot evaluations are running yet — volunteering registers interest in a possible future step.
 - **Future Trust Mark candidate / holder** — once a conformity scheme exists, members may submit a specific model or system for independent audit against the operational duties. Any future Mark is granted **per model and version — never as a blanket badge for an organisation** — and may be revoked.
 
+_These are the assurance roles for committing organisations. For the wider network — builders, funders, convenors, advocates, and supporters — see [How to join](../../network-overview.md#how-to-join)._
+
 **Key terms**
 
 **"Assessed release"** means the named system, version, use-case, and material configuration under evaluation, including the model or service, prompts or system instructions where relevant, retrieval corpus, tool permissions, user notices, logging, correction route, and material dependencies.
