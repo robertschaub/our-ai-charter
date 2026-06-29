@@ -45,17 +45,20 @@
   line-height: 1.4;
 }
 
-/* Home-page lead — the one-line definition under the tagline. It matches the
-   mission panel's text scale, but uses a black frame so it reads as the primary
-   definition rather than another coloured mission/position panel. */
+/* Home-page lead — the one-line definition under the tagline. A neutral frame
+   (not the indigo/teal of the mission/position panels) so it reads as the page's
+   primary definition. Colours derive from the Material palette so the frame
+   adapts to light/dark — a dark frame on light, a light frame on dark; the plain
+   rgba lines are fallbacks for browsers without color-mix(). */
 .md-typeset .lead {
   margin: 0 0 1.5rem;
   padding: 1.25rem 1.5rem;
   border-radius: .3rem;
-  border: 1px solid rgba(0, 0, 0, .35);
-  border-left: .25rem solid #000;
-  background: #fff;
-  color: #000;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 30%, transparent);
+  border-left: .25rem solid var(--md-default-fg-color);
+  background: rgba(0, 0, 0, .04);
+  background: color-mix(in srgb, var(--md-default-fg-color) 4%, transparent);
 }
 
 .md-typeset .lead p {
