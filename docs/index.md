@@ -15,12 +15,12 @@ hide:
 **Our AI Charter is a Public AI Network initiative** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing providers across the network.
 </div>
 
+AI is becoming the infrastructure people learn, decide, work, and form opinion with. Infrastructure that important should not rest on a handful of private providers — or on opaque shutdown powers, unsafe systems, discriminatory failures, privacy leakage, manipulation, or factual claims no one can trace or challenge.
+
 <div class="mission" markdown>
 <span class="mission-label">Our mission</span>
 Protect and strengthen free and fair societies in the digital age — through a global, trustworthy public AI network that is **accountable to people** and drives **societal resilience** and **economic prosperity**.
 </div>
-
-AI is becoming the infrastructure people learn, decide, work, and form opinion with. Infrastructure that important should not rest on a handful of private providers — or on opaque shutdown powers, unsafe systems, discriminatory failures, privacy leakage, manipulation, or factual claims no one can trace or challenge.
 
 <div class="feature-quote" markdown>
 <span class="mission-label">Our position</span>
