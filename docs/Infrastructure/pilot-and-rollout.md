@@ -1,6 +1,6 @@
 # Federated public AI infrastructure — pilot & rollout
 
-Strategy for standing up the [federated public AI infrastructure](federated-public-compute-architecture.md): Geneva 2027 MVP, development sequence, open decisions, and messaging discipline. Proposed, not yet built.
+Strategy for standing up the [federated public AI infrastructure](architecture.md): Geneva 2027 MVP, development sequence, open decisions, and messaging discipline. Proposed, not yet built.
 
 ## Geneva 2027 MVP
 

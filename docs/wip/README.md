@@ -27,7 +27,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 - **[charter-structure-and-views.md](../Assurance/Concepts/charter-structure-and-views.md)** — architecture map for the obligation/duty/lens structure.
 - **[user-workflow-governance.md](../Assurance/Concepts/user-workflow-governance.md)** — runtime reference model for the user's seat.
 - **[geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md)** — fellowship assessment and recommended plan.
-- **[federated-public-compute-architecture.md](../Compute/federated-public-compute-architecture.md)** — federated public AI infrastructure: architecture.
-- **[public-compute-control-evidence-layer.md](../Compute/public-compute-control-evidence-layer.md)** — cooperator one-pager on the control-and-evidence layer.
+- **[architecture.md](../Infrastructure/architecture.md)** — federated public AI infrastructure: architecture.
+- **[control-and-evidence-layer.md](../Infrastructure/control-and-evidence-layer.md)** — cooperator one-pager on the control-and-evidence layer.
 - **[final-artifacts-roadmap.md](../Strategy/final-artifacts-roadmap.md)** — durable end-products the initiative could ship.
 - **[geneva-2027-channel-demand.md](../Evidence/geneva-2027-channel-demand.md)** — what each Geneva 2027 channel accepts.
