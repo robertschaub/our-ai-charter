@@ -12,6 +12,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 - **[artifact-production-plan.md](artifact-production-plan.md)** — prioritized inputs for the Geneva 2027 contribution: what to produce, what to reuse, and what not to produce.
 - **[geneva-2027-keystone-memo.md](geneva-2027-keystone-memo.md)** — forwardable memo for the fellowship and downstream routes; promotable to `Outreach/` once a carrier group and first deliverable exist.
+- **[apertus-fit-and-engagement-plan.md](apertus-fit-and-engagement-plan.md)** — does the Charter add value to Apertus, would the team be hesitant, is it a good match, and how to engage; cross-model-reviewed assessment + a standing-first plan (Apertus as anchoring case, not client).
 - **[answerable-to-people-assurance-case.md](answerable-to-people-assurance-case.md)** — obligation 2 prototype; rights-led bridge from obligation to duties/modules.
 - **[purpose-bound-assurance-case.md](purpose-bound-assurance-case.md)** — obligation 1 prototype; legitimacy gate, prohibited uses, and scope narrowing/withdrawal.
 - **[safe-secure-private-resilient-assurance-case.md](safe-secure-private-resilient-assurance-case.md)** — obligation 3 prototype; technical-assurance and effectiveness-testing focus.
