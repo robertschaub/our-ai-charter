@@ -23,6 +23,8 @@ We commit to building that foundation together, and to being held to the values,
 
 **Ways to take part**
 
+_Today only the **Supporter** step is open — publicly endorsing the commitments. Member, Pilot participant, and Trust Mark register interest in steps that don't exist yet._
+
 - **Supporter** — any person or institution may publicly endorse these commitments.
 - **Member** — organisations that join the Charter, accept its shared, capture-resistant governance, and commit to the path below.
 - **Pilot participant** — organisations may volunteer a specific deployed system for a draft evaluation report. No Mark or certificate is issued in this phase, and no pilot evaluations are running yet — volunteering registers interest in a possible future step.
