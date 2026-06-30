@@ -24,7 +24,7 @@ Protect and strengthen free and fair societies in the digital age through a glob
 
 <div class="feature-quote" markdown>
 <span class="mission-label">Our position</span>
-**Sovereignty and resilience, not autarky.** Open, inspectable AI models matter, but **both come from the infrastructure around them**: standards, public evidence, accountable governance, and federated public AI infrastructure that **no single power can switch off or capture**. Public AI needs more than open models — it needs a **public-interest governance and evidence layer**.
+**Sovereignty and resilience, not autarky.** Open, inspectable AI models matter, but sovereignty and resilience **come from what surrounds them**: standards, public evidence, accountable governance, and federated public AI infrastructure that **no single power can switch off or capture**. Public AI needs more than open models — it needs a **public-interest governance and evidence layer**.
 </div>
 
 <div class="grid cards" markdown>
