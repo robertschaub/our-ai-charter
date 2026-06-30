@@ -12,6 +12,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 - **[artifact-production-plan.md](artifact-production-plan.md)** — prioritized inputs for the Geneva 2027 contribution: what to produce, what to reuse, and what not to produce.
 - **[geneva-2027-keystone-memo.md](geneva-2027-keystone-memo.md)** — forwardable memo for the fellowship and downstream routes; promotable to `Outreach/` once a carrier group and first deliverable exist.
+- **[geneva-2027-near-term-push.md](geneva-2027-near-term-push.md)** — forward-looking July-2026 action plan: urgent vs important across the routes, confirmed dates, the Swissnex + AI for Good tracks, and a next-actions checklist; supersede after the July deadlines.
 - **[apertus-fit-and-engagement-plan.md](apertus-fit-and-engagement-plan.md)** — does the Charter add value to Apertus, would the team be hesitant, is it a good match, and how to engage; cross-model-reviewed assessment + a standing-first plan (Apertus as anchoring case, not client).
 - **[geneva-2027-assurance-questions-note.md](geneva-2027-assurance-questions-note.md)** — forwardable, question-led entry artifact (five open questions on the public-AI governance/evidence layer); the lower-risk first move the engagement plan recommends ahead of the keystone memo's package + ask.
 - **[evaluation-poc-scope.md](evaluation-poc-scope.md)** — runnable plan for one pilot of the evaluation protocol on an Apertus-based cited-source deployment; the *results-not-a-framework* asset (operationalises production-plan #4).

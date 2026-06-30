@@ -40,8 +40,8 @@ Main risks: non-selection, real time cost, and optics of a Silicon Valley immers
 
 **Build one artifact and make it useful regardless of selection:** the **Geneva 2027 Public AI Governance & Evidence Package**, about two pages.
 
-0. **Availability gate:** confirm the prep day, **16–20 Nov 2026** SF week, and Q2 2027 Geneva side-event window. If the SF week is impossible, use the fallback.
-1. **Before 5 Jul:** draft the memo to about 80%; submit the fellowship application before the **12 Jul** deadline.
+0. **Availability gate — cleared (2026-07-01):** the **16–20 Nov 2026** SF immersion week is feasible, so this proceeds; the Sept prep day (TBD) and the H1-2027 Geneva side-event remain to track. The fallback applies only if circumstances change.
+1. **Before 5 Jul:** draft the **four application answers** (~1,050 words total — current work; motivation; the *specific output*; how the programme helps — the *specific output* drawn from the keystone memo). Submit via the Google Form before the **12 Jul** deadline (aim for ~10 Jul). The form takes **no attachments**, so the published work must be reachable from the LinkedIn/website link.
 2. **In parallel:** open one substance conversation — Apertus/SNAI governance question or neutral-convenor scoping.
 3. **Mid-August branch:**
    - **Selected:** use the fellowship as the spine; sharpen the memo with SF input; use the side event and cohort as amplification.
