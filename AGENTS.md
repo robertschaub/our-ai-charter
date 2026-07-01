@@ -110,6 +110,16 @@ For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo*
 - **Cite sources; prefer the smallest concrete improvement** over a grand rewrite (see [CONTRIBUTING.md](CONTRIBUTING.md)). Record minority interpretations rather than hiding them.
 - **Licensing:** document text is **CC BY 4.0**; the initiative's name and any trust mark are **reserved** (see [NOTICE](NOTICE)). Do not paste in text under an incompatible license.
 
+## Model & effort routing
+
+Match the model and reasoning effort to the task; do not default everything to the top tier. This applies both interactively and through `scripts/agents/invoke-claude.cjs`.
+
+- **Mechanical** (locate a doc, quick lookup, link check, a small edit): a fast model (Haiku), **low** effort.
+- **Routine authoring** (a scoped draft, a copy-edit, a README/CHANGELOG reconciliation): a mid model (Sonnet), **medium** effort.
+- **Hard reasoning** (structuring an argument, reconciling conflicting sources, a normative-doc or protocol decision, adversarial review of a claim): **Opus**, **high**/**xhigh**.
+- **Long-horizon, whole-assignment work** (a large multi-document restructure, a multi-hour build): **Fable 5**, **high** — and only then. Fable costs ~2× Opus per token and its edge only shows on long, hard, end-to-end work; on small asks it is waste, and it falls back to Opus while unavailable.
+- **Effort is a per-task session default, not a floor.** Set it with `/effort` (or `--effort` on the wrapper); a skill or subagent may lower it via frontmatter for a cheaper step. Do **not** pin `CLAUDE_CODE_EFFORT_LEVEL` as an environment variable — it is a hard floor that overrides frontmatter. Escalate by task difficulty and reversibility, not by preference.
+
 ## Consulting other models (GPT, Gemini, Claude)
 
 The limited documentation-support tooling includes small helper scripts under [`scripts/agents/`](scripts/agents), which let a maintainer-side agent consult another frontier model for a second opinion or cross-model review. Use them rather than improvising an API call.
