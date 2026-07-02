@@ -30,7 +30,7 @@ What's most urgent and most important across the [Geneva 2027 routes](../Strateg
 ## Parallel routes — status
 
 - **A — official process:** monitor dig.watch / ICT4Peace for the next input window (undated); keep the keystone memo submission-ready.
-- **B — Public AI / Metagov:** open the conversation asynchronously now — it doubles as the fellowship's "one substance conversation" and resolves the naming question ([Apertus plan §5](apertus-fit-and-engagement-plan.md)).
+- **B — Public AI / Metagov:** open the conversation asynchronously now — it doubles as the fellowship's "one substance conversation" and resolves the naming question ([Apertus plan §4](apertus-fit-and-engagement-plan.md)).
 - **C — Expedition Zukunft:** follow up on the neutral-convenor scoping (~mid-July).
 - **E — political flank:** watch National Council handling of motions [24.3209 / 26.3221](../Strategy/digital-sovereignty-motions.md).
 
@@ -42,4 +42,4 @@ What's most urgent and most important across the [Geneva 2027 routes](../Strateg
 
 ## Open decisions
 
-- Embrace / subordinate / rename the "Public AI Network" term — resolve once the Public AI/Metagov relationship is tested ([Apertus plan §5](apertus-fit-and-engagement-plan.md)).
+- Embrace / subordinate / rename the "Public AI Network" term — resolve once the Public AI/Metagov relationship is tested ([Apertus plan §4](apertus-fit-and-engagement-plan.md)).

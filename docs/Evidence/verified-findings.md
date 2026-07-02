@@ -9,7 +9,7 @@ The strongest lever is **not a parliamentary instrument** but **docking onto exi
 ## Verified facts
 
 ### Apertus / Swiss AI stack — the technical anchor already exists
-- Fully open Swiss LLM by EPFL, ETH Zurich and CSCS; Apache 2.0; open weights, training data and methods; publicly funded (CHF 20m ETH-Domain grant + >10m GPU hours on CSCS Alps); released 2 Sept 2025. [[1]](#source-1)[[2]](#source-2)[[3]](#source-3)
+- Fully open Swiss LLM by EPFL, ETH Zurich and CSCS; Apache 2.0; open weights, training data and methods; publicly funded (ETH-Board investment + >10m GPU hours on CSCS Alps; a further CHF 20m in federal funding is earmarked for the *next* training round); released 2 Sept 2025. [[1]](#source-1)[[2]](#source-2)[[3]](#source-3)
 - Embodies the trust criteria (provenance, transparent assumptions, reproducible methods) — artefacts are independently inspectable on Hugging Face / GitHub, not merely described. [[1]](#source-1)[[4]](#source-4)
 - **Governance — open, not a deficiency:** Publicly, Apertus's governance appears lean (Steering Committee + dev team); an independent multistakeholder board or public charter is **not publicly evident** (internals unverified — see open questions). *Whether and how* such a layer should be added is an open question this contribution can help clarify — to be raised as a question to SNAI/Apertus, not as criticism. [[1]](#source-1)[[3]](#source-3)
 - Institutional home is real: Swiss AI Initiative (Dec 2023) / Swiss National AI Institute (SNAI), a partnership of the ETH AI Center and the EPFL AI Center; 800+ researchers, 10+ institutions. [[3]](#source-3)[[5]](#source-5)
