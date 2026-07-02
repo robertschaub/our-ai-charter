@@ -48,7 +48,15 @@ Main risks: non-selection, real time cost, and optics of a Silicon Valley immers
    - **Not selected:** use the memo and first conversation for the official consultation window, pre-sprint, and possible parliamentary flank.
 4. **When the summit's next input window opens** (not yet publicly dated — monitor dig.watch / ICT4Peace): submit the memo if the content remains current. *(The end-2026 federal milestone often cited is the separate Council of Europe AI Convention implementing-law consultation, not the summit.)*
 
-**Fallback without the SF week:** run the memo through pre-sprint → official consultation → parliamentary carrier. Lower visibility, but fully self-directed.
+**Fallback without the SF week:** keep the effort bounded around one public artifact and attach it to whichever Geneva 2027 channel opens first. The low-effort ladder is:
+
+1. **Brief + checklist + one worked example** — publish a 1,000–1,500 word brief and the evaluation-kit skeleton independently.
+2. **Side-event module** — offer a 15-minute method demo inside someone else's workshop or side event, rather than owning an event.
+3. **Written input** — submit the brief to the next official or civil-society consultation window when it opens.
+4. **Adjacent convenings** — use AI for Good, ICT4Peace/GenAI Zürich, Swiss university, media-lab, NGO, or civic-tech sessions as lower-commitment paths into the summit conversation.
+5. **Lightweight adoption offer** — make the checklist available to another actor's project as an open method, without claiming partnership or endorsement.
+
+If none of those channels opens quickly, run the memo through pre-sprint → official consultation → parliamentary carrier. Lower visibility, but fully self-directed.
 
 ## Guardrails
 
