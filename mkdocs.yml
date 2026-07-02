@@ -169,10 +169,12 @@ nav:
       - "Apertus — fit & engagement plan": wip/apertus-fit-and-engagement-plan.md
       - "Geneva 2027 — assurance questions note": wip/geneva-2027-assurance-questions-note.md
       - "Evaluation proof-of-concept — scope": wip/evaluation-poc-scope.md
+      - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
+      - "AI governance — when vs. who (draft article)": wip/article-when-vs-who-ai-governance.md
       - "Assurance case: Answerable to people": wip/answerable-to-people-assurance-case.md
       - "Assurance case: Purpose-bound": wip/purpose-bound-assurance-case.md
       - "Assurance case: Safe/secure/private/resilient": wip/safe-secure-private-resilient-assurance-case.md
       - "Assurance case: Fair in practice": wip/fair-in-practice-assurance-case.md
       - "Assurance case: Open to evidence": wip/open-to-evidence-assurance-case.md
       - "Capabilities & Assurance Interface (sketch)": wip/capabilities-and-assurance-interface.md
-  - About: PROGRAM.md
+  - About: About.md

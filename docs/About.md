@@ -10,7 +10,7 @@ Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-c
 
 Our AI Charter and the **[FactHarbor](https://factharbor.ch)** evidence platform are stewarded by the **FactHarbor Verein**, a non-profit association under Art. 60 ff. of the Swiss Civil Code, based in Dietlikon (Zürich) and founded in 2026.
 
-The two projects support the same public-benefit purpose from different sides:
+The two projects act on one premise — **better information leads to better decisions** — and serve the same public-benefit purpose from different sides:
 
 - **Our AI Charter** sets accountability expectations for AI systems people may rely on.
 - **FactHarbor** turns contested claims into structured evidence models so reasoning can be inspected instead of asserted.
