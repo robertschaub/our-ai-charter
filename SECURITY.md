@@ -24,7 +24,7 @@ Public issues are for document problems: unclear wording, missing sources, metho
 - Never commit secrets or private material here.
 - Treat GitHub secret scanning and push protection as a backstop, not as permission to be careless.
 - If sensitive material is committed, do not assume deleting it in a later commit is enough. Git history, forks, caches, and search indexes may still expose it.
-- Keep non-public drafts, notes, and coordination in private administrative storage, not this repository.
+- Keep personal correspondence, INTERNAL-marked, and otherwise confidential material in private administrative storage, not this repository. Being unpublished does not by itself make a draft private — public Charter drafts belong here.
 
 ## Local Safeguards
 

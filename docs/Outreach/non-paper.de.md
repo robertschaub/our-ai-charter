@@ -4,6 +4,8 @@
 
 *Impuls- und Diskussionspapier (Non-Paper) — 2 Seiten*
 
+_Englische Fassung: [non-paper.en.md](non-paper.en.md)._
+
 ## 1. Problemstellung
 
 Die KI-Basisinfrastruktur — Modelle, Rechenleistung und Daten — konzentriert sich zunehmend auf wenige kommerzielle und geopolitische Akteure. Für freiheitliche und rechtsstaatliche Gesellschaften birgt dies ein doppeltes Risiko: Einerseits entsteht eine Abhängigkeit von intransparenten Systemen, die jederzeit abgeschaltet werden könnten. Andererseits fehlt die Grundlage, um KI-Ergebnisse unabhängig zu beurteilen, da die Herkunft der Daten, die zugrunde liegenden Annahmen und die angewandten Methoden meist nicht öffentlich überprüfbar sind. Diese Konzentration ist auch ökonomisch: Fähigkeiten, Wertschöpfung und Verhandlungsmacht fliessen wenigen Akteuren zu, während die davon abhängigen Gesellschaften wenig zurückbehalten.
@@ -32,7 +34,7 @@ Dies richtig zu gestalten ist nicht nur eine Wertefrage. Eine offene, ko-getrage
 - Transparente Annahmen und überprüfbare, reproduzierbare Methoden.
 - Klare Trennung zwischen strategischer Aufsicht und operativem Geschäft; die politische Vertretung erfolgt auf Strategieebene, nicht im Tagesgeschäft.
 - Unabhängige Aufsichtsgremien ausserhalb der Exekutive, ergänzt durch öffentlich zugängliche Audit-Berichte.
-- Nachweis über die Selbstauskunft hinaus: Attestierung sowie Audit- und Stichprobenrechte mit Sanktionen bei falscher Attestierung, und eine Schlichtungsinstanz ausserhalb jedes einzelnen Beteiligten.
+- Nachweis über die Selbstauskunft hinaus: Attestierung sowie Audit- und Stichprobenrechte mit Sanktionen bei falscher Attestierung, und eine benannte Schlichtungsinstanz ausserhalb jedes einzelnen Beteiligten.
 - Transparente, mehrheitlich öffentliche oder gemeinnützige Finanzierung. Kommerzielle Partner werden offengelegt, üben jedoch keine steuernde Funktion aus.
 - Internationale Ko-Trägerschaft von Beginn an.
 

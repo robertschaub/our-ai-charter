@@ -2,6 +2,8 @@
 
 # Action Plan — Public AI Governance (Short Form)
 
+_German version: [action-plan.de.md](action-plan.de.md)._
+
 **Update 2026-06-19:** The article is published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)); direct outreach has begun. Fact-check external claims before use.
 
 **Role:** Catalyst and alliance-builder. Switzerland should act as credible host and hub, internationally oriented from the outset. No new institution is claimed.
@@ -16,7 +18,7 @@ The detailed 30/60/90-day sequence is recorded in the [Initiation Strategy](../S
 - **31–60 days:** Hold the scoping conversation; set up a neutrally moderated clarification process (pre-sprint) around a Geneva 2027 Public AI Governance & Evidence Package.
 - **61–90 days:** Connect to the AI Summit Geneva 2027 and to relevant federal channels; prepare a postulate only if a carrier group and concrete package exist.
 
-**Parallel track:** monitor the Confederation's AI-regulation work due by end-2026 and Geneva 2027 preparation. Seek a discreet reality check through existing warm contacts only; keep the initiative connectable to official processes.
+**Parallel track:** monitor the Confederation's AI-regulation work due by end-2026 (the separate Council of Europe AI-Convention implementing-law track, not the summit) and Geneva 2027 preparation. Seek a discreet reality check through existing warm contacts only; keep the initiative connectable to official processes.
 
 ## Verified anchor points
 

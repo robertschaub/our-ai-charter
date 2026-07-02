@@ -20,7 +20,7 @@ Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](../Stra
 - **31–60 Tage:** Scoping-Gespräch durchführen; einen neutral moderierten Klärungsprozess (Pre-Sprint) rund um ein Geneva 2027 Public AI Governance & Evidence Package aufsetzen.
 - **61–90 Tage:** An den KI-Gipfel Genf 2027 und relevante Bundeskanäle andocken; ein Postulat nur vorbereiten, wenn es eine Trägergruppe und ein konkretes Paket gibt.
 
-**Paralleler Handlungsstrang:** Die KI-Regulierungsarbeiten des Bundes bis Ende 2026 und die Vorbereitung des KI-Gipfels Genf 2027 beobachten. Einen diskreten Realitätsabgleich nur über bestehende warme Kontakte suchen; das Vorhaben anschlussfähig an offizielle Prozesse halten.
+**Paralleler Handlungsstrang:** Die KI-Regulierungsarbeiten des Bundes bis Ende 2026 (der separate Strang zur Umsetzung der KI-Konvention des Europarats, nicht der Gipfel) und die Vorbereitung des KI-Gipfels Genf 2027 beobachten. Einen diskreten Realitätsabgleich nur über bestehende warme Kontakte suchen; das Vorhaben anschlussfähig an offizielle Prozesse halten.
 
 ## Verifizierte Anknüpfpunkte (Anker)
 

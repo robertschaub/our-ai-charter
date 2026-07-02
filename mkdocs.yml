@@ -18,7 +18,7 @@ docs_dir: docs
 site_dir: site
 
 copyright: >
-  Document texts © Robert Schaub, licensed CC BY 4.0. The initiative's name and any trust mark are reserved.
+  Document texts © Robert Schaub and contributors, licensed CC BY 4.0. The initiative's name and any trust mark are reserved.
 
 extra_css:
   - stylesheets/extra.css

@@ -4,6 +4,8 @@
 
 *Informal discussion paper (non-paper) — 2 pages*
 
+_German version: [non-paper.de.md](non-paper.de.md)._
+
 ## 1. Problem Statement
 
 AI base infrastructure — models, compute, and data — is increasingly concentrating geopolitically and commercially among a few actors. For free, rule-of-law societies, this creates a double risk: On one hand, there is a growing dependence on opaque systems that can be switched off at any time. On the other hand, society lacks the foundation to independently judge AI outputs, because the provenance of the data, the underlying assumptions, and the applied methods are generally not open to public inspection. This concentration is also economic: capability, value, and bargaining power accrue to a few actors, while the societies that depend on these systems retain little.

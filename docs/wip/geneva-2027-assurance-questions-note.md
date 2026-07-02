@@ -23,7 +23,7 @@ The official Geneva 2027 process is explicitly asking contributors to move *beyo
 
 1. **Independent verification.** How can an open public model's transparency be checked *at the deployment level*, not just asserted — what minimal, comparable evidence should a public-interest deployment show (claim-to-source support, model/node/evaluation cards, incident records)?
 2. **Accountability.** When a public-interest AI deployment errs or harms someone, who answers — and how can affected people contest it and get a remedy?
-3. **Capture-resistance.** What governance keeps a shared public-AI access layer plural and uncapturable — so that no single state, company, or funder can switch it off or set the terms? *(A captured registry is a captured market.)*
+3. **Capture-resistance.** What governance keeps a shared public-AI access layer plural and capture-resistant — so that no single state, company, or funder can switch it off or set the terms? *(A captured registry is a captured market.)*
 4. **Coordination without control.** How do national public-AI efforts federate internationally without a single point of control — and how is the question of *where* AI's value and bargaining power accrue treated as part of resilience, not separate from it?
 5. **Evidence floor.** What is the minimum public evidence a publicly funded AI deployment should leave, so the public can independently weigh its outputs?
 

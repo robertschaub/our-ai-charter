@@ -4,7 +4,7 @@ Our AI Charter belongs to a broader program:
 
 > Working to build a free and fair society where technology is used responsibly and enables well-grounded decision-making.
 
-Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** is the public framework for responsible AI: principles, obligations, evaluation, and future assurance structure. This repository is the public home of that work.
+Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** is a **Public AI Network** initiative — open, plural, accountable public AI infrastructure — with **AI Assurance & Certification** (principles, obligations, evaluation, and a future assurance structure) as its trust-and-evidence building block. This repository is the public home of that work.
 
 ## Stewardship and governance
 

@@ -4,7 +4,7 @@
 
 How AI agents (and humans) should work in the **Our AI Charter** repository.
 
-This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE.md](CLAUDE.md) and [.github/copilot-instructions.md](.github/copilot-instructions.md) — point here. If they ever diverge, **this file wins**. If something is genuinely ambiguous, ask the maintainer before proceeding.
+This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE.md](CLAUDE.md), [GEMINI.md](GEMINI.md), and [.github/copilot-instructions.md](.github/copilot-instructions.md) — point here. If they ever diverge, **this file wins**. If something is genuinely ambiguous, ask the maintainer before proceeding.
 
 ## What this repository is
 
@@ -75,7 +75,7 @@ This public repo and the two private siblings are one program. Route every new f
 - **Drafts belong here too.** Articles, posts, comments, and adaptations live in this public repo whether or not they are published yet — being unpublished does not make something private. The only inherently private material is personal DM/email with an individual; and even that is **not** private when the person is acting as an official representative of an organisation.
 - **Authoring is not the same as publishing what's private.** Freely create and edit clearly-public material here. But never, on your own judgement, move currently-private content into this repo, strip an INTERNAL marker, or commit material whose sensitivity is unclear — a public misroute is permanent and worldwide. When unsure, keep it private (or mark it INTERNAL) and ask the maintainer.
 - This repo must **never** receive personal correspondence or INTERNAL-marked content, even temporarily in the working tree.
-- **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an INTERNAL/confidential banner (e.g. `Status: INTERNAL`); it's a backstop, not a substitute for the rule. Only Claude Code's hook enforces git safety automatically; other agents must self-enforce.
+- **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an INTERNAL/confidential banner (e.g. `Status: INTERNAL`); it's a backstop, not a substitute for the rule. Only the Claude Code and Codex hook files ([.claude/settings.json](.claude/settings.json), [.codex/hooks.json](.codex/hooks.json)) enforce the destructive-git block automatically; other agents must self-enforce.
 - Writing into a private sibling requires the agent's tool workspace to grant access to that path; if it is unreachable, do the public part here and leave the private part to the maintainer.
 
 ## Where to work from (primary base)
@@ -85,7 +85,7 @@ For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo*
 ## Git & safety
 
 - **Work directly on `main` by default.** Solo maintainer + AI agents — commit straight to `main` for routine work. Do **not** create a branch or worktree unless the maintainer asks for one, or there is a strong reason to isolate the work (a large or risky change that may need rolling back, or parallel edits that would otherwise conflict). This overrides any general "branch off the default branch first" habit; the maintainer still decides *when* to commit and push.
-- **Avoid destructive git unless the user explicitly asks.** A local Claude Code **PreToolUse hook** ([.claude/settings.json](.claude/settings.json)) hard-blocks `git reset --hard`, `git push --force` (without `--force-with-lease`), `git clean -f`, and `git checkout -- .`. To undo committed work, prefer a **new revert commit** or a targeted `Edit` — not history rewrites.
+- **Avoid destructive git unless the user explicitly asks.** A local **PreToolUse hook** ([.claude/settings.json](.claude/settings.json) for Claude Code, mirrored in [.codex/hooks.json](.codex/hooks.json) for Codex) hard-blocks `git reset --hard`, `git push --force` (without `--force-with-lease`), `git clean -f`, and `git checkout -- .`. To undo committed work, prefer a **new revert commit** or a targeted `Edit` — not history rewrites.
 - **Hooks fire for the main session only** — *not* for subagents or Workflow agents. Never delegate a destructive or irreversible git step to a subagent; keep those in the main session.
 - Commit messages follow **conventional commits**: `type(scope): description` (e.g. `docs(protocol): clarify the support rubric`).
 - Do not add GitHub Actions or build/publish workflows copied from FactHarbor unless the maintainer explicitly asks for a document-only workflow.
