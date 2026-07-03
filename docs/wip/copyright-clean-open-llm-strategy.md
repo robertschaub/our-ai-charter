@@ -2,7 +2,7 @@
 
 # Copyright-clean open/public LLMs - competitiveness strategy
 
-*Working notes - 2026-07-02; routing update 2026-07-03. Public-safe. Related: [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [Marcel Salathé stakeholder map](marcel-salathe-stakeholder-map.md), [public-interest control & evidence layer](../Infrastructure/control-and-evidence-layer.md), [initiation strategy](../Strategy/initiation-strategy.md), [actors & landscape](../Evidence/actors-and-landscape.md).*
+*Working notes - 2026-07-02; routing update 2026-07-03. Public-safe. Related: [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [Marcel Salathé profile](marcel-salathe-profile.md), [public-interest control & evidence layer](../Infrastructure/control-and-evidence-layer.md), [initiation strategy](../Strategy/initiation-strategy.md), [actors & landscape](../Evidence/actors-and-landscape.md).*
 
 ## In one line
 

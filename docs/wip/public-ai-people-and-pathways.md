@@ -1,6 +1,6 @@
-> **Status: WORKING NOTES** — session synthesis (primary sources, verified 2026-07-03); assessments labelled. The **visual + connection capstone** for the Public AI coalition mapping: it carries the people-connection findings and the maps, and points to where each detail already lives. Companions: [Apertus fit & engagement](apertus-fit-and-engagement-plan.md) (coalition roles, Bosselut, Ticino), [Metagov & Public AI landscape](metagov-public-ai-landscape.md) (Metagov org, assurance adjacency, Klein), [Salathé map](marcel-salathe-stakeholder-map.md).
+> **Status: WORKING NOTES** — session synthesis (primary sources, verified 2026-07-03); assessments labelled. The **visual + connection capstone** for the Public AI coalition mapping: it carries the people-connection findings and the maps, and points to where each detail already lives. Companions: [Apertus fit & engagement](apertus-fit-and-engagement-plan.md) (coalition roles, Bosselut, Ticino), [Metagov & Public AI landscape](metagov-public-ai-landscape.md) (Metagov org, assurance adjacency, Klein), [Salathé profile](marcel-salathe-profile.md).
 
-# Public AI — people & connections (Swiss ecosystem)
+# Public AI — stakeholder & connection map (Swiss ecosystem)
 
 *Who's who in the Public AI coalition — including the open [Public AI Fellow (Switzerland)](https://publicai.network/jobs/fellow-switzerland) role — and how the key people actually connect. Diagrams render on the site.*
 

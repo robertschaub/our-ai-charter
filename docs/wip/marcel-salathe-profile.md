@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** -- public-source stakeholder map. Re-verify before outreach or external citation; do not treat this as private outreach history, endorsement, or a partnership claim.
+> **Status: WORKING NOTES** -- public-source actor profile. Re-verify before outreach or external citation; do not treat this as private outreach history, endorsement, or a partnership claim.
 
-# Marcel Salathé -- stakeholder connection map
+# Marcel Salathé -- actor profile (public-source)
 
-*Last checked: 2026-07-03. Public-source only. Companion notes: [actors & landscape](../Evidence/actors-and-landscape.md), [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [Geneva 2027 routes](../Strategy/geneva-2027-options.md), [funder & collaborator engagement](../Strategy/funder-and-collaborator-engagement.md).*
+*Last checked: 2026-07-03. Public-source only. This is a single-actor profile; for how actors connect across the coalition, see the [stakeholder & connection map](public-ai-people-and-pathways.md). Companion notes: [actors & landscape](../Evidence/actors-and-landscape.md), [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [Geneva 2027 routes](../Strategy/geneva-2027-options.md), [funder & collaborator engagement](../Strategy/funder-and-collaborator-engagement.md).*
 
 ## Bottom line
 
@@ -15,7 +15,7 @@ Marcel Salathé is a high-leverage **Swiss AI ecosystem bridge**, not a verified
 
 The practical reading: he is a **useful Apertus/SNAI-adjacent orientation or correction contact once there is a concrete artifact**, not the first place to ask for adoption. Keep the Public AI / Metagov route separate unless a direct relationship is verified.
 
-## Connection map
+## How he connects to actors already in scope
 
 | Stakeholder / entity already relevant here | Public connection to Salathé | Connection strength | Relevance for Our AI Charter | Discipline |
 |---|---|---:|---|---|
