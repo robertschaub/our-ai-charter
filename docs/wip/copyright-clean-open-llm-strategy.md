@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews. Re-verify legal, model-performance, and initiative-status claims before external use.
+> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews; updated 2026-07-03 with the LinkedIn prompt and question-routing research. Re-verify legal, model-performance, and initiative-status claims before external use.
 
 # Copyright-clean open/public LLMs - competitiveness strategy
 
-*Working notes - 2026-07-02. Public-safe. Related: [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [public-interest control & evidence layer](../Infrastructure/control-and-evidence-layer.md), [initiation strategy](../Strategy/initiation-strategy.md), [actors & landscape](../Evidence/actors-and-landscape.md).*
+*Working notes - 2026-07-02; routing update 2026-07-03. Public-safe. Related: [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [Marcel Salathé stakeholder map](marcel-salathe-stakeholder-map.md), [public-interest control & evidence layer](../Infrastructure/control-and-evidence-layer.md), [initiation strategy](../Strategy/initiation-strategy.md), [actors & landscape](../Evidence/actors-and-landscape.md).*
 
 ## In one line
 
@@ -29,6 +29,7 @@ Three counter-theses this strategy must answer rather than assume away:
 | Source / initiative | What it contributes | What it does not solve |
 |---|---|---|
 | [COMMUNIA copyright study](https://communia-association.org/2026/06/30/new-study-copyright-challenges-in-open-source-ai-development-in-the-european-union/) | Strongest legal diagnosis found for open-source AI in the EU: TDM uncertainty, opt-out friction, safe-harbor/public-corpus need. | Capability, compute, product, and adoption gaps. |
+| [LinkedIn prompt, 3 Jul 2026](https://www.linkedin.com/posts/robertschaub_a-new-communia-research-study-that-i-co-authored-activity-7478119769771167744-UrMO) | Public prompt asking how open LLMs can solve the copyright/TDM dilemma without every team separately carrying opt-out parsing, dataset review, and legal-risk work. | A question, not evidence that any tagged person or institution owns the answer. |
 | [EU GPAI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai) and [training-content template FAQ](https://digital-strategy.ec.europa.eu/en/faqs/template-general-purpose-ai-model-providers-summarise-their-training-content) | Practical EU compliance baseline: copyright policy, transparency, training-content summaries, opt-out handling. | Compliance does not create frontier capability. |
 | [DSM Copyright Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0790) | Legal foundation for EU text and data mining exceptions, especially Articles 3 and 4. | Article 4 depends on fragmented rights reservations; Article 3 is narrow. |
 | [Apertus](https://apertvs.ai/) / [ETH release](https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html) | Strong proof point for public, fully open, multilingual, opt-out-aware model development and deployment. | Strong but not a general frontier leader across all tasks. |
@@ -37,6 +38,46 @@ Three counter-theses this strategy must answer rather than assume away:
 | [OpenEuroLLM](https://openeurollm.eu/) | European route for transparent, compliant, multilingual foundation models for public and commercial services. | Still early; needs model releases, adoption, and feedback loops. |
 | [OSI Open Source AI Definition](https://opensource.org/ai/open-source-ai-definition) | Helps distinguish real openness from open-weight marketing by requiring enough data information, code, and parameters to modify/recreate. | Does not itself clear copyright or fund compute. |
 | [Common Corpus](https://huggingface.co/blog/Pclanglais/two-trillion-tokens-open) and [Common Pile](https://arxiv.org/abs/2506.05209) | Show that large public-domain/open-license corpora are possible and can train competitive smaller models. | Scale and breadth remain below frontier private data and telemetry loops. |
+
+## LinkedIn prompt and question route
+
+The 3 July 2026 LinkedIn post is now registered here as a public prompt, not as a separate published article mirror. It asks how open LLMs can solve the dilemma surfaced by the COMMUNIA study: copyright uncertainty, opt-out parsing, dataset review, and legal risk fall repeatedly on public-interest model teams.
+
+Grounded answer: **do not route the question first to Marcel Salathé, EPFL AI Center, or ETH AI Center as generic addressees.** They are useful Swiss/Apertus-orbit orientation channels, but the public evidence does not show that they own the copyright/TDM answer. Route the question by layer:
+
+| Route | Public evidence | Best question |
+|---|---|---|
+| **[COMMUNIA](https://communia-association.org/publication/copyright-challenges-in-open-source-ai-development-in-the-european-union-2/) / [Open Future](https://openfuture.eu/) / [Centrum Cyfrowe](https://centrumcyfrowe.pl/)** | The study is authored by Maria Drabczyk and Alek Tarkowski for COMMUNIA and identifies TDM uncertainty, dataset-sharing uncertainty, and non-standard opt-out information as the core legal bottlenecks. | "Which intervention would most reduce legal friction for open/public LLM builders: Article 3 clarification, Article 4 opt-out standardisation, dataset-sharing rights, safe harbors, or a public corpus?" |
+| **[OpenEuroLLM](https://openeurollm.eu/launch-press-release)** | Its launch release names a 20-partner consortium coordinated by Jan Hajič and co-led by Peter Sarlin, aiming for fully open models including data, software, and evaluation under EU rules. | "What shared compliance infrastructure would save effort across European open-model teams?" |
+| **[Pleias / Common Corpus](https://thealliance.ai/blog/pleias-releases-common-corpus-open-multilingual-dataset-for-llm-training)** | Common Corpus is a permissively licensed, provenance-documented multilingual corpus for auditable LLM training. | "How far can public-domain/open-license corpora scale before lawful TDM or licensing compacts become unavoidable?" |
+| **[Apertus / Swiss AI Initiative](https://arxiv.org/abs/2509.14233) technical orbit** | Apertus is a concrete Swiss compliance pattern: open artifacts, retroactive opt-out filtering, PII filtering, and memorization reduction; the technical report names Antoine Bosselut, Martin Jaggi, and Imanol Schlag as leads. | "Which parts of the Apertus compliance pipeline are reusable infrastructure, and what remains Swiss/project-specific?" |
+| **[GPT-NL](https://github.com/GPT-NL)** | GPT-NL documents a legally conservative path built from permissive/public data plus licensed material; its [public corpus paper](https://arxiv.org/abs/2604.00920) explains strict license filtering and the release of corpus metadata. | "What did the opt-in/licensing route make possible, and where did it cap model capability or openness?" |
+| **[SOOFI](https://www.iis.fraunhofer.de/en/pr/2026/press-release-soofi-industrial-ai-europe.html)** | SOOFI is a German/EU sovereign open-source foundation-model effort with federal funding and an industrial/public-sector focus; its first release is positioned for transparent, adaptable deployment. | "Which legal-data constraints become binding at 30B/100B-class European model scale?" |
+| **[PLLuM](https://www.alt-edic.eu/news/poland-launches-a-polish-large-language-model-pllum/) and [GaMS / Slovenian LLM routes](https://slovenia.si/business-and-innovation/slovenian-in-the-age-of-artificial-intelligence)** | PLLuM and GaMS show national-language public-model paths; GaMS explicitly uses a public text-collection campaign where contributors must hold the necessary copyrights. | "Which national-language corpus models are legally and operationally reusable across Europe?" |
+| **[EU policy addressees](https://opensourcellms.eu/)** | The open-source LLM builders' letter asks the Commission for TDM clarity, a safe harbor, machine-readable opt-out recognition, and derived-dataset sharing clarity. | "Can the Commission turn the recurring project-level risk into a shared legal and technical safe harbor?" |
+
+Updated LinkedIn wording, 3 July 2026 (plain Markdown normalization):
+
+> **How can open/public LLMs comply with copyright law without falling permanently behind closed frontier models?**
+>
+> How can open LLMs solve this dilemma?
+>
+> *As far as I know*
+>
+> Most open LLMs trying to compete through a different stack: transparent training data, provenance, opt-out handling, public/open/licensed corpora, PII filtering, memorization reduction, and auditability.
+>
+> *But this path is costly*
+>
+> If every open LLM team has to solve copyright uncertainty, opt-out parsing, dataset review, and legal risk on its own, public-interest AI will move slower than closed models with far deeper resources.
+>
+> *My question goes to open LLM builders and copyright-policy teams*
+>
+> *and particularly to*
+>
+> [@COMMUNIA](https://communia-association.org/), [@Open Future Foundation](https://www.linkedin.com/company/open-future-foundation), [@OpenEuroLLM](https://www.linkedin.com/company/open-euro-llm), and [@pleias](https://www.linkedin.com/company/pleias),
+> and, for the Swiss open-model path, [@ETH AI Center](https://www.linkedin.com/company/eth-ai-center/), [@EPFL AI Center](https://www.linkedin.com/company/epfl-ai-center/), and Swiss National Supercomputing Centre (CSCS).
+
+Use Salathé / EPFL AI Center / ETH AI Center only as a **Swiss orientation or correction route** for the Apertus/SNAI part, preferably after a bounded artifact exists. For technical detail, ask the Apertus technical orbit or Swiss AI Initiative operational contacts; for EU legal-policy detail, ask COMMUNIA/Open Future/Centrum Cyfrowe and the open-model teams named above.
 
 ## Strategy comparison
 
