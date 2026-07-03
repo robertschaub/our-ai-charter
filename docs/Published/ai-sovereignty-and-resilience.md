@@ -3,11 +3,9 @@
 
 ---
 
-## Accompanying feed post
-
-_LinkedIn feed post, 19 June 2026 (English translation; [German original](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd))._
-
 An open Swiss AI model is a strong impetus. But how do we secure our digital sovereignty and resilience over the long term? Switzerland as an international bridge-builder for a free and independent AI infrastructure. The building blocks are ready. Read the article ↓
+
+_[German original of this feed post](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)._
 
 ---
 

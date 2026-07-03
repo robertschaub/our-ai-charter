@@ -3,11 +3,9 @@
 
 ---
 
-## Begleitender Feed-Post
-
-_LinkedIn-Feed-Post, 19. Juni 2026 — [Original auf LinkedIn](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)._
-
 Ein offenes Schweizer KI-Modell ist ein starker Impuls. Doch wie sichern wir unsere digitale Souveränität und Resilienz langfristig? Die Schweiz als internationale Brückenbauerin für eine freiheitliche und unabhängige KI-Infrastruktur. Die Bausteine stehen bereit. Zum Artikel ↓
+
+_[Original-Feed-Post auf LinkedIn](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)._
 
 ---
 

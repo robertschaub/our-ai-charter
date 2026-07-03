@@ -3,10 +3,6 @@
 
 ---
 
-## Accompanying feed post
-
-_LinkedIn feed post, 22 June 2026 — kept link-free as published; the sources are in the article below._
-
 _Open, publicly-funded AI models now exist across many regions — but real sovereignty and resilience come from what free societies build around them: shared standards, genuine accountability, and public compute, developed in the open._
 
 AI is becoming infrastructure — and the real question isn't which model wins this quarter, but whether free societies can inspect, shape, and contest the systems they rely on. That is democratic resilience.

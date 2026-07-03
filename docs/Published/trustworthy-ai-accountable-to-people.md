@@ -3,10 +3,6 @@
 
 ---
 
-## Accompanying launch post
-
-_LinkedIn launch post, 14 June 2026 (edited 19 June). The Anthropic access event it cites is attributed to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access)._
-
 AI is becoming infrastructure — the thing the world learns, decides, and creates with. So who controls it? Days ago, we got an uncomfortable answer: Anthropic disabled worldwide access to two frontier models — Claude Fable 5 and Mythos 5 — after a government order.
 
 We argue about who can turn AI off. But can we believe it when it's on? Should every country have to build or back its own AI just to control and trust it?
@@ -18,6 +14,8 @@ I've written a short, first-draft manifesto for what that could look like: five 
 If you build AI, fund it, study it, govern it, teach it, or simply rely on it — you belong here. 👇 Let me know your thoughts and ideas.
 
 `#AI #TrustworthyAI #AIGovernance #OpenSource #PublicAI`
+
+_The Anthropic access event this post cites is attributed to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access)._
 
 ---
 
