@@ -7,7 +7,7 @@ What's most urgent and most important across the [Geneva 2027 routes](../Strateg
 ## Priorities
 
 - **Most urgent:** the [Swissnex "Geneva Loading…" fellowship](../Strategy/geneva-2027-swissnex-fellowship.md) channel — **window closes 12 Jul 2026**.
-- **Most important:** the **Public AI / Metagov** relationship ([Route B](../Strategy/geneva-2027-options.md)) — the priority Public AI Network thread — and the **official summit process** ([Route A](../Strategy/geneva-2027-options.md)), which the fellowship side-event ultimately plugs into.
+- **Most important:** the **Public AI / Metagov** relationship ([Route B](../Strategy/geneva-2027-options.md)) — the priority public-AI relationship thread — and the **official summit process** ([Route A](../Strategy/geneva-2027-options.md)), which the fellowship side-event ultimately plugs into.
 
 ## Confirmed dates
 

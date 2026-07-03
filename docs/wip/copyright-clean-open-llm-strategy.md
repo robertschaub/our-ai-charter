@@ -228,7 +228,7 @@ Build the **rights-clean public frontier flywheel** - an *ecosystem* agenda, not
 
 ## What this means for Our AI Charter
 
-This is directly relevant to the Public AI Network track. The network should not be framed as "another model" or a general claim that open models will automatically win. The more credible contribution is the **governance, evidence, rights, procurement, and accountability layer** that makes a public model ecosystem adoptable by real institutions.
+This is directly relevant to the public-AI governance and infrastructure track. The network should not be framed as "another model" or a general claim that open models will automatically win. The more credible contribution is the **governance, evidence, rights, procurement, and accountability layer** that makes a public model ecosystem adoptable by real institutions.
 
 Near-term artifacts that would fit this strategy:
 

@@ -2,7 +2,7 @@
 
 # Public AI — stakeholder & connection map (Swiss ecosystem)
 
-*Who's who across the **Public AI coalition (international + Swiss)** and the **Apertus / Swiss-AI ecosystem** — including the open [Public AI Fellow (Switzerland)](https://publicai.network/jobs/fellow-switzerland) role — and how the key people connect. Diagrams render on the site.*
+*Visual map for the **Public AI coalition (international + Swiss)** and the **Apertus / Swiss-AI ecosystem** — including the open [Public AI Fellow (Switzerland)](https://publicai.network/jobs/fellow-switzerland) role — and how the key people connect. The stable actor directory is [actors-and-landscape.md](../Evidence/actors-and-landscape.md); this note keeps the diagrams and relationship guardrails. Diagrams render on the site.*
 
 ## TL;DR
 

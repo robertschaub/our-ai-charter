@@ -8,7 +8,7 @@
 
 The bottleneck is not more thinking — it is **assembly + packaging**. Strong assets already exist: two published articles, a near-final bilingual non-paper, the actor map and verified-findings base, the Charter Commitments, and — most importantly — a pressure-tested **Grounding-Faithfulness & Contestability evaluation protocol (v0.2)**.
 
-The demand side is specific. The official Geneva 2027 process asks contributors to **"move beyond declarations"** and bring **concrete, reusable tools** — it names *evaluation benchmarks, audit/transparency templates, contestability/accountability standards, and "tools to measure how AI systems may be skewed or manipulative before political decisions,"* with Apertus as the flagship open-infra case (see [channel-demand](../Evidence/geneva-2027-channel-demand.md)). That nearly describes the evaluation protocol already in hand.
+The demand side is specific. The official Geneva 2027 process asks contributors to **"move beyond declarations"** and bring **concrete, reusable tools** — it names *evaluation benchmarks, audit/transparency templates, contestability/accountability standards, and "tools to measure how AI systems may be skewed or manipulative before political decisions."* Apertus is the strongest nearby Swiss public-AI reference, but not confirmed as an official prep-report example (see [channel-demand](../Evidence/geneva-2027-channel-demand.md)). That nearly describes the evaluation protocol already in hand.
 
 **So: assemble the scattered package into one keystone memo, and package the evaluation protocol as the concrete tool the process is asking for** — in MVP mode (start small, not perfect), not as new manifestos.
 

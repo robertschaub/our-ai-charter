@@ -23,7 +23,7 @@ Sources: [Swissnex SF](https://swissnex.org/sanfrancisco/news/geneva-loading-pre
 
 The fellowship combines several routes the strategy otherwise treats separately:
 
-- **Side-event path:** a formal speaking slot for a selected contribution.
+- **Side-event path:** side-event participation for a selected contribution.
 - **Pre-sprint substitute:** a deadline, cohort, and public output requirement for the governance/evidence package.
 - **Evidence input:** access to frontier-lab and policy context for a stronger blueprint.
 - **Funder relationship:** a public-interest line to Stiftung Mercator.

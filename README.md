@@ -5,11 +5,11 @@
 
 **Trustworthy AI for free, fair, and resilient societies.**
 
-Our AI Charter exists to **protect and strengthen free and fair societies in the digital age** — through a global, trustworthy public AI network that is accountable to people and supports societal resilience and economic prosperity.
+Our AI Charter exists to **protect and strengthen free and fair societies in the digital age** — through public-AI governance and infrastructure that are accountable to people and support societal resilience and economic prosperity.
 
-It is an early public draft for a **Public AI Network**: open, plural, accountable AI infrastructure that free societies can inspect, contest, and rely on. It is not a certification, standard, Trust Mark, registry, or active pilot.
+It is an early public draft for a **public-AI governance and evidence layer**: open, plural, accountable AI infrastructure that free societies can inspect, contest, and rely on. It is not affiliated with any existing Public AI coalition unless explicitly stated, and it is not a certification, standard, Trust Mark, registry, or active pilot.
 
-The current operational priority is the **Public AI Network** work — sovereignty, resilience, Swiss and international public-AI coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence building block: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
+The current operational priority is the **public-AI sovereignty and infrastructure** work — resilience, Swiss and international coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence building block: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · About: **[About.md](docs/About.md)** · Stewarded by Robert Schaub and the **[FactHarbor association (Verein)](docs/About.md#stewardship-and-governance)**.
 
@@ -32,11 +32,11 @@ Published mirrors and translations of external articles, with status shown in ea
 - **[The Public AI Network](docs/Published/the-public-ai-network.md)** — *PUBLISHED* (2026-06-22). International statement of the umbrella and its accompanying feed post. [Post](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne).
 - **[KI-Souveränität und Resilienz](docs/Published/ki-souveraenitaet-und-resilienz.md)** ([EN](docs/Published/ai-sovereignty-and-resilience.md)) — *PUBLISHED* (DE, 2026-06-20). Swiss public-AI sovereignty framing and companion English translation. [Post](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze).
 
-### Public AI Network
+### Public-AI governance & infrastructure
 
 Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, resilience, and coordination across free societies.
 
-- **[The Network](docs/network-overview.md)** — *DRAFT*. Plain-language explainer for the Public AI Network: what it is, how the federated layer is used and built, and what "joining" means now.
+- **[The Network](docs/network-overview.md)** — *DRAFT*. Plain-language explainer for the proposed public-AI network: what it is, how the federated layer is used and built, and what "joining" means now.
 - **[Federated public AI infrastructure — architecture](docs/Infrastructure/architecture.md)** — *DRAFT*. Technical and governance architecture for a model-plural federation, broker, evidence plane, compute tiers, and anti-capture controls.
 - **[Federated public AI infrastructure — pilot & rollout](docs/Infrastructure/pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and framing.
 - **[Public-interest control & evidence layer](docs/Infrastructure/control-and-evidence-layer.md)** — *DRAFT*. Cooperator one-pager: the legitimacy/accountability layer (policy broker, evidence plane, assurance & adjudication) the network adds on top of existing compute.

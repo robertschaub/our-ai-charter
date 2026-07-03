@@ -1,6 +1,6 @@
 # Public-interest AI — actors & landscape map
 
-Who is already building pieces of an open, accountable, internationally co-stewarded public-AI layer? This map groups organisations and people by the role their **public work** plays. It is a reading and outreach aid, not an endorsement list. Where an actor publishes an official contact for this work, it is noted; otherwise use the linked public work.
+Who is already building pieces of an open, accountable, internationally co-stewarded public-AI layer? This map is the stable actor directory: it groups organisations and people by the role their **public work** plays. It is a reading and outreach aid, not an endorsement list. Where an actor publishes an official contact for this work, it is noted; otherwise use the linked public work. The visual relationship map lives in [public-ai-people-and-pathways.md](../wip/public-ai-people-and-pathways.md).
 
 ## The public-AI movement & shared infrastructure
 
@@ -23,8 +23,8 @@ flowchart TB
   HF <-->|"official inference provider (17 Sep 2025)"| PA
   PA -->|fronted in Switzerland by| CH
 
-  A["<b>AI Assurance and Certification</b><br/>the Charter's layer — independent,<br/>human-accountable"]:::charter
-  A -.->|"certifies deployed systems — not owned by any layer"| HF
+  A["<b>AI Assurance and Certification</b><br/>the Charter's proposed layer — independent,<br/>human-accountable"]:::charter
+  A -.->|"future assurance of scoped claims — not owned by any layer"| HF
 
   X["publicai.io — Web3 token (PUBLIC)<br/>UNRELATED — do not confuse"]:::warn
 

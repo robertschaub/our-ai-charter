@@ -1,6 +1,6 @@
 # The public-interest control-and-evidence layer
 
-*Cooperator-facing one-pager: what the Public AI Network actually adds on top of existing compute. Model-plural and neutrally governed by design; not a new runtime, scheduler, model, or certification authority.*
+*Cooperator-facing one-pager: what the proposed public-AI network actually adds on top of existing compute. Model-plural and neutrally governed by design; not a new runtime, scheduler, model, or certification authority.*
 
 ## In one line
 

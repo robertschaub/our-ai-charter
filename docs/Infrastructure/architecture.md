@@ -1,8 +1,8 @@
-# Federated public AI infrastructure for the Public AI Network
+# Federated public AI infrastructure for the proposed public-AI network
 
-How to build the Public AI Network's AI-infrastructure pillar as federated, governed public capacity — not a single global GPU pool.
+How to build the proposed network's AI-infrastructure pillar as federated, governed public capacity — not a single global GPU pool.
 
-*Naming: throughout, **the Public AI Network** is the umbrella effort; **the federation** (the federated public AI infrastructure) is the concrete system designed here — see the [overview](../network-overview.md).*
+*Naming: throughout, **the proposed public-AI network** is this initiative's umbrella effort; **the federation** (the federated public AI infrastructure) is the concrete system designed here — see the [overview](../network-overview.md).*
 
 _As of June 2026; re-verify figures and program statuses before public citation. Sources at the end._
 
@@ -102,7 +102,7 @@ In short: **a node serves AI services, built on models, producing workloads.** "
 
 ### Current Apertus/PublicAI reference architecture
 
-This diagram is a **source-informed map of the current public architecture**, not a claim about a formal Public AI Network governance layer. It combines PublicAI's utility description (chat/API, vLLM, partner clusters, global routing) with its published AWS/Intel Apertus deployment blueprint (AWS Zurich, EKS Auto Mode, Intel/GPU serving, guardrails, storage/state services).
+This diagram is a **source-informed map of the current public architecture**, not a claim about a formal governance layer for this proposed network. It combines PublicAI's utility description (chat/API, vLLM, partner clusters, global routing) with its published AWS/Intel Apertus deployment blueprint (AWS Zurich, EKS Auto Mode, Intel/GPU serving, guardrails, storage/state services).
 
 ```mermaid
 flowchart TB
@@ -124,7 +124,7 @@ flowchart TB
   APERTUS -.->|deployed on| PVLLM
 ```
 
-What exists already: a live public-model access surface, Apertus as the flagship Swiss model family, API/chat access, distributed inference, and at least one documented production deployment pattern. What is not yet shown here: public allocation rules, formal node admission, common data-class routing, signed evidence cards, redress, and anti-capture governance. Note the tension this map makes visible — the flagship anchor today runs partly on a **US hyperscaler (AWS Zurich) with US-rooted Bedrock Guardrails**, the very stack §4 shows one jurisdiction can toggle. That is not a reason to avoid it; it is the clearest reason the broker, portability, and multi-vendor layers below exist.
+What exists already: a live public-model access surface, Apertus as a strong Swiss model-family anchor, API/chat access, distributed inference, and at least one documented production deployment pattern. What is not yet shown here: public allocation rules, formal node admission, common data-class routing, signed evidence cards, redress, and anti-capture governance. Note the tension this map makes visible — the current anchor runs partly on a **US hyperscaler (AWS Zurich) with US-rooted Bedrock Guardrails**, the very stack §4 shows one jurisdiction can toggle. That is not a reason to avoid it; it is the clearest reason the broker, portability, and multi-vendor layers below exist.
 
 ### Proposed federated broker (model-plural, neutrally governed)
 

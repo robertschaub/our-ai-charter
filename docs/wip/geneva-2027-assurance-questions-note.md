@@ -17,7 +17,7 @@ Apertus appears only as a **motivating case** — Europe's clearest signal that 
 
 AI's base layer — models, compute, data — is concentrating among a few commercial and geopolitical actors. Open public models answer transparency **at the model level**: weights, data, and methods can be inspected. But for a free and fair society, people also need to **independently weigh** what a deployed system tells them — and that depends on a layer open models do not themselves provide: independent evidence, accountability, capture-resistant governance, and international coordination. **Open models are necessary, not sufficient.** *Sovereignty is not autarky.*
 
-The official Geneva 2027 process is explicitly asking contributors to move *beyond declarations* and bring **concrete, reusable tools**, with Apertus a prominent open-infrastructure reference in the surrounding discourse ([channel demand](../Evidence/geneva-2027-channel-demand.md)). These questions are aimed at that.
+The official Geneva 2027 process is explicitly asking contributors to move *beyond declarations* and bring **concrete, reusable tools**; Apertus is a prominent Swiss public-AI reference in the surrounding discourse, but not yet confirmed as an official prep-report example ([channel demand](../Evidence/geneva-2027-channel-demand.md)). These questions are aimed at that opening.
 
 ## Five questions
 

@@ -4,7 +4,7 @@
 
 *A 250-CISO paper says the window to catch AI failures has collapsed from years to hours. The popular fix — "govern at runtime" — is half right, and it stops exactly where the hard part begins.*
 
-A striking security paper is making the rounds, and it earns the attention. *The AI Vulnerability Storm* — a strategy briefing from SANS, the Cloud Security Alliance, OWASP's GenAI Security Project and [un]prompted, reviewed by more than 250 CISOs — reports that the mean time from a vulnerability being disclosed to being exploited has fallen from about 2.3 years in 2019 to under a day in 2026.
+A striking security paper is making the rounds, and it earns the attention. *[The AI Vulnerability Storm](https://cloudsecurityalliance.org/artifacts/the-ai-vulnerability-storm)* — a strategy briefing from SANS, the Cloud Security Alliance, OWASP's GenAI Security Project and [un]prompted, reviewed by more than 250 CISOs — reports, citing Zero Day Clock, that the mean time from a vulnerability being disclosed to confirmed exploitation has fallen from about 2.3 years in 2019 to less than a day in 2026.
 
 Sit with that. The assumption under most of our governance — that we can describe a system's behaviour up front, certify the description, and patch faster than anyone can abuse the gap — no longer holds. "Certify once, deploy forever" is dead. On that, the alarm is earned.
 

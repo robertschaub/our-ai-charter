@@ -1,6 +1,6 @@
 ---
 title: Our AI Charter
-description: Protect and strengthen free and fair societies in the digital age through a global, trustworthy public AI network that is accountable to people and supports societal resilience and economic prosperity.
+description: Protect and strengthen free and fair societies in the digital age through public-AI governance and infrastructure that are accountable to people and support societal resilience and economic prosperity.
 hide:
   - toc
 ---
@@ -12,14 +12,14 @@ hide:
 </div>
 
 <div class="lead" markdown>
-Our AI Charter is an **early public draft for a Public AI Network** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing AI systems across the network.
+Our AI Charter is an **early public draft for a public-AI governance and evidence layer** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** for finding, comparing, and accessing AI systems across a proposed network.
 </div>
 
 AI is becoming the infrastructure people learn, work, decide, and form opinion with. Infrastructure that important should not depend on a few providers, unclear shutdown powers, hidden data practices, unverifiable factual claims, or systems that affected people cannot challenge.
 
 <div class="mission" markdown>
 <span class="mission-label">Our mission</span>
-Protect and strengthen free and fair societies in the digital age through a global, trustworthy public AI network that is **accountable to people** and supports **societal resilience** and **economic prosperity**.
+Protect and strengthen free and fair societies in the digital age through public-AI governance and infrastructure that are **accountable to people** and support **societal resilience** and **economic prosperity**.
 </div>
 
 <div class="feature-quote" markdown>
@@ -29,7 +29,7 @@ Protect and strengthen free and fair societies in the digital age through a glob
 
 <div class="grid cards" markdown>
 
--   :material-network:{ .lg .middle } __Public AI Network__
+-   :material-network:{ .lg .middle } __Public-AI Governance & Infrastructure__
 
     ---
 

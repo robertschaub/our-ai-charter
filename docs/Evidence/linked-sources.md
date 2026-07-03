@@ -2,7 +2,7 @@
 
 **Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](../Published/the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).  
 **Compiled:** 2026-06-22.  
-**Purpose:** identify which cited initiatives are mature enough to matter for the *Public AI Network* effort, and where *Our AI Charter* can add a trust-and-evidence layer.
+**Purpose:** identify which cited initiatives are mature enough to matter for the public-AI governance and infrastructure effort, and where *Our AI Charter* can add a trust-and-evidence layer.
 
 ## Yardstick
 
@@ -18,7 +18,7 @@ The sources span operational anchors, standards and legal foundations, regional 
 
 | Priority | Initiative | Why it matters most | Where the Charter contribution could be effective |
 |---:|---|---|---|
-| 1 | **Public AI Network / PAINT** — https://publicai.network/ | Closest conceptual match: AI as public infrastructure, public access, public accountability, and permanent public goods. | Provide a simple trust-and-evidence framework that public-AI initiatives can use to explain why they are public-interest, accountable, and correctable. |
+| 1 | **Public AI / PAINT** — https://publicai.network/ | Closest conceptual match: AI as public infrastructure, public access, public accountability, and permanent public goods. | Provide a simple trust-and-evidence framework that public-AI initiatives can use to explain why they are public-interest, accountable, and correctable. |
 | 2 | **Apertus / Swiss AI Initiative** — https://www.swiss-ai.org/apertus | Strongest Swiss technical proof point for sovereign, open, public AI. | Create an evaluation card for Apertus-like models: what is open, documented, testable, risky, and publicly challengeable. |
 | 3 | **Public AI Inference Utility** — https://publicai.co/ | Makes open models usable as infrastructure, not merely downloadable artifacts. | Define public-service expectations for inference utilities: model origin, usage limits, safeguards, incident reporting, and redress channels. |
 | 4 | **Current AI** — https://www.currentai.org | International funding and coalition bridge for public-interest AI. | Position the Charter as a lightweight assurance package for grantees and public-interest AI projects. |

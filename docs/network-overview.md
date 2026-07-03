@@ -1,17 +1,17 @@
 ---
 title: The Network
-description: What the Public AI Network is — its pillars, how it is used and built, and what joining means today.
+description: What the proposed public-AI network is — its pillars, how it is used and built, and what joining means today.
 ---
 
 # The Network
 
-> **Where this stands today.** The Public AI Network is an **early-stage, voluntary** design. No public front door, admission body, assessor, adjudicator, public register, certification, or trust badge exists yet — only the proposal, the public drafts, and prospective partners. "Joining" today means registering interest in a role, not endorsement or certification.
+> **Where this stands today.** This proposed public-AI network is an **early-stage, voluntary** design. No public front door, admission body, assessor, adjudicator, public register, certification, or trust badge exists yet — only the proposal, the public drafts, and prospective partners. "Joining" today means registering interest in a role, not endorsement or certification.
 
 *The [home page](index.md) covers both building blocks; the [federated public AI infrastructure](Infrastructure/architecture.md) details this network's technical design; the [Charter Commitments](Assurance/Framework/charter-commitments.md) define the assurance layer; the [initiation strategy](Strategy/initiation-strategy.md) sets out the sequence and roadmap.*
 
 ## What it is
 
-The **Public AI Network** is an international effort to make public AI usable as shared civic infrastructure: open and plural, accountable to affected people, inspectable by appropriate parties, and resistant to capture by any single state, company, funder, or model provider. A **network, not a fortress** — and capture-resistance is a design commitment, not a guarantee: a voluntary network can be captured, so the design works to make that hard and visible.
+The proposed public-AI network is an international effort to make public AI usable as shared civic infrastructure: open and plural, accountable to affected people, inspectable by appropriate parties, and resistant to capture by any single state, company, funder, or model provider. A **network, not a fortress** — and capture-resistance is a design commitment, not a guarantee: a voluntary network can be captured, so the design works to make that hard and visible.
 
 Four pillars:
 
@@ -20,7 +20,7 @@ Four pillars:
 3. **Shared assurance and evaluation** — public, checkable evidence for what a system claims and how it answers for failures.
 4. **Federated public AI infrastructure** — independent compute nodes under shared rules; the first buildable substrate.
 
-Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement and *PublicAI / SPIU* a specific inference utility this initiative draws on; **the Public AI Network** is this co-stewarded effort, with **AI Assurance & Certification** as its trust-and-evidence building block.
+Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement and *PublicAI / SPIU* a specific inference utility this initiative draws on; this proposed network is the co-stewarded effort described here, with **AI Assurance & Certification** as its trust-and-evidence building block.
 
 ## How it is used
 

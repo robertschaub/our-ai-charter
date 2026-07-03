@@ -79,7 +79,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ## Priority and sequence
 
-Building block 1 (Public AI Network / sovereignty) leads. The **keystones are #1 (the package/toolkit first, not the standard) and #3** — a toolkit you can run on an Apertus-class public model is a releasable artifact; a brief about it is an input. **#2 and #6** are cheap connective tissue to do early. **#7** is the gated destination.
+Building block 1 (public-AI sovereignty and infrastructure) leads. The **keystones are #1 (the package/toolkit first, not the standard) and #3** — a toolkit you can run on an Apertus-class public model is a releasable artifact; a brief about it is an input. **#2 and #6** are cheap connective tissue to do early. **#7** is the gated destination.
 
 ## Constraints to hold
 
