@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews; updated 2026-07-03 with the LinkedIn prompt, question-routing research, and an agentic-coding capability snapshot. Re-verify legal, model-performance, and initiative-status claims before external use.
+> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews; updated 2026-07-03 with the LinkedIn prompt, question-routing research, an agentic-coding capability snapshot, and a hosted-vs-self-host + cost section. Re-verify legal, model-performance, and initiative-status claims before external use.
 
 # Copyright-clean open/public LLMs - competitiveness strategy
 
@@ -35,6 +35,84 @@ Open models now reach roughly **~70–80% on SWE-bench Verified** (harness-depen
 **The fully-open / publicly-governed models trail on code.** Apertus, SEA-LION, and OLMo — the most transparent (open weights **+ data + recipe**) and the "public AI" ones — are general-purpose, not code-specialised; **there is no top-tier public-AI coding model.** Via the Public AI utility (`publicai` on Hugging Face) you reach these public models; the strong open coders run through other inference providers (commercial), not the public utility.
 
 **Implication for this strategy:** agentic coding is a domain where copyright-clean / public models will *not* win on raw capability soon. It reinforces the core move — compete on **trust, sovereignty, auditability, domain fit, and lawful provenance**, not benchmark rank — and means a competitive *public* coding model would be a deliberate build (the model-factory, post-training, and agent-tuning layers of the flywheel below), not an off-the-shelf option today.
+
+## Running it in practice — hosted, self-hosted, and cost
+
+Competitiveness is not only capability — it is whether an institution can actually **run** a public/open model for real work, **affordably** and **sovereignly**. That is the activation gap, made concrete for the two everyday uses (agentic coding and chat). The diagrams render on the site and extend the [actor-map stack diagram](../Evidence/actors-and-landscape.md).
+
+### Hosted — via an inference provider
+
+```mermaid
+flowchart LR
+  subgraph LOCAL["Your machine (local)"]
+    U["You<br/>task · approve diffs"]
+    CL["Cline · agentic coding<br/>plan · edit · run · loop"]:::acc
+    MCP["MCP tools (client-side)<br/>web search · fetch · codebase RAG · git/fs"]
+    CH["Chat app<br/>chat · writing · translation"]
+    U --> CL
+    MCP <--> CL
+    U --> CH
+  end
+  CL -->|"LLM call + tool results"| HF
+  CH -->|"chat"| HF
+  HF["Hugging Face<br/>Inference Providers router"]
+  HF -.->|"completion, then apply / iterate"| CL
+  subgraph HOSTED["Hosted models"]
+    DEV["Devstral · Mistral (EU)<br/>open · best non-authoritarian coder"]:::acc
+    PA["Public AI (publicai)<br/>inference utility"]
+    AP["Apertus · swiss-ai (CH)<br/>public · chat / translation"]
+    PA --> AP
+  end
+  HF -->|"provider: mistral — coding"| DEV
+  HF -->|"provider: publicai — chat"| PA
+  subgraph SRV["Servers underneath (hosted)"]
+    HUB["Data servers<br/>HF Hub — weights + datasets"]
+    GPU["Compute servers<br/>donated GPU clusters · vLLM"]
+  end
+  AP -.->|"weights from"| HUB
+  PA -.->|"runs on"| GPU
+  A["Charter assurance layer<br/>grounding-faithfulness · outside the flow"]:::ch
+  A -.-> HF
+  classDef acc stroke:#534AB7,stroke-width:2px;
+  classDef ch fill:#EEEDFE,stroke:#534AB7,stroke-width:2px,color:#26215C;
+```
+
+Web search and RAG are added **client-side** (MCP tools for the agent; app retrieval for chat) before the model call; the router sends coding to **Devstral (Mistral, EU)** or, via the **Public AI** utility, chat to **Apertus (CH)**. Your prompts leave your device to the provider. *Caveat:* those same tools open a **prompt-injection** surface — retrieved web content or a rogue MCP server can steer an agent that edits files and runs commands — so tool/retrieval safety, not only grounding-faithfulness, is part of what an assurance layer must cover.
+
+### Self-hosted / on-prem — the sovereignty path
+
+```mermaid
+flowchart LR
+  HUB["Hugging Face Hub"] -->|"one-time weights download"| W
+  subgraph YOURS["Your controlled infrastructure"]
+    W["Open weights<br/>Devstral · Apertus · (or any)"]:::acc
+    GPU["Your GPUs<br/>workstation · on-prem · EU/Swiss cloud · CSCS"]
+    RT["Local runtime<br/>Ollama / vLLM · OpenAI-compatible"]
+    CLI["Cline / chat app"]
+    W --> RT
+    GPU --> RT
+    CLI -->|"localhost endpoint"| RT
+    RT -.->|"completion"| CLI
+  end
+  N1["No prompts leave your control · no provider jurisdiction"]:::good
+  N2["But: you inherit the model's baked-in alignment<br/>— choose weights by jurisdiction/values — and bear compute + ops cost"]:::warn
+  classDef acc stroke:#534AB7,stroke-width:2px;
+  classDef good stroke:#1D9E75,stroke-width:1.5px,color:#0F6E56;
+  classDef warn stroke:#D85A30,stroke-width:1.5px,stroke-dasharray:4 3,color:#993C1D;
+```
+
+Download the open weights once and serve them yourself; point Cline at the local endpoint. This is the strongest sovereignty position — **no data egress, no provider jurisdiction** — but the model's alignment still travels with the weights (so weight *choice* by jurisdiction still matters), and you carry the compute and operations cost.
+
+### Cost — the factor that often decides
+
+Agentic coding is **token-heavy** (long context plus many tool-call round-trips), so cost weighs as much as capability:
+
+| How you run it | Cost shape | Notes |
+|---|---|---|
+| **Hosted API** (per-token) | Pay per token; open models are far cheaper than frontier APIs. | **Public AI routing is currently free but rate-limited / best-effort** (donated GPU) — good to prototype, not a guaranteed SLA. |
+| **Self-hosted** (your GPUs) | No per-token fee; you pay **capital or rental GPU + ops**. | Economical at volume or when data cannot leave; small models (Devstral Small, Apertus-8B) run on modest GPUs. |
+
+Rule of thumb: prototype on the free/hosted tier, move heavy or sensitive workloads to self-host, escalate only the hardest tasks to a frontier API. This is the note's **"no durable funding model"** counter-thesis made concrete — a free public-inference tier still costs someone real GPU money, so sustainable public AI needs institutional funding, not only donated compute.
 
 ## Strongest objections
 
