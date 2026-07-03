@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews; updated 2026-07-03 with the LinkedIn prompt and question-routing research. Re-verify legal, model-performance, and initiative-status claims before external use.
+> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews; updated 2026-07-03 with the LinkedIn prompt, question-routing research, and an agentic-coding capability snapshot. Re-verify legal, model-performance, and initiative-status claims before external use.
 
 # Copyright-clean open/public LLMs - competitiveness strategy
 
@@ -15,6 +15,26 @@ The first-pass answer - a public data trust plus provenance - is necessary but p
 The stronger answer is therefore not "out-scrape closed labs." It is: **out-institutionalize them where trust, sovereignty, auditability, local language quality, and procurement legitimacy matter.** Open/public LLMs do not need to beat the best closed model on every general benchmark to matter. They need to become the default trusted layer for public administration, research, education, cultural and language infrastructure, regulated workflows, and SMEs that need portability.
 
 Stanford's 2026 AI Index is the best current reality check: as of March 2026, the top closed model led the top open model by 3.3%, up from 0.5% in August 2024 - the gap reopened in 2025 after briefly closing in 2024; it also notes that leading model performance is clustering and that competition is shifting toward cost, reliability, and domain performance ([Stanford AI Index 2026](https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance)).
+
+## Capability snapshot: agentic coding (mid-2026)
+
+Agentic coding — an agent (Cline, Aider, OpenHands) that reads a repo, plans, edits across files, and iterates — is one of the highest-demand LLM uses, and it sharpens the *open ≠ public* distinction this note turns on.
+
+**The strongest open-weight coding models are not the publicly-governed ones.** The current open leaders are a few families, mostly Chinese-lab or Mistral, released open-weight under permissive licences (Apache-2.0 / MIT / modified-MIT) but **not** open-data or publicly governed:
+
+| Open-weight family | Origin | Note |
+|---|---|---|
+| **GLM** (4.6 / 5.x) | Z.ai / Zhipu (CN) | Top open agentic-coding all-rounder; strong Cline / Claude-Code fit |
+| **Qwen3-Coder** | Alibaba (CN) | Dedicated agentic-coding line (large MoE + small variants) |
+| **DeepSeek** (V3.x / V4) | DeepSeek (CN) | Strong reasoning + coding, cost-efficient |
+| **Kimi K2** | Moonshot (CN) | Agentic tool-use / long-horizon tasks |
+| **Devstral** | Mistral + All Hands (EU/US) | Purpose-built for coding agents; best option runnable on one GPU |
+
+Open models now reach roughly **~70–80% on SWE-bench Verified** (harness-dependent), closing on but still behind the best proprietary (~88%). *Versions and scores churn monthly — treat as directional and re-verify against a live leaderboard ([SWE-bench](https://www.swebench.com/), [kilo.ai open-source models](https://kilo.ai/open-source-models)).*
+
+**The fully-open / publicly-governed models trail on code.** Apertus, SEA-LION, and OLMo — the most transparent (open weights **+ data + recipe**) and the "public AI" ones — are general-purpose, not code-specialised; **there is no top-tier public-AI coding model.** Via the Public AI utility (`publicai` on Hugging Face) you reach these public models; the strong open coders run through other inference providers (commercial), not the public utility.
+
+**Implication for this strategy:** agentic coding is a domain where copyright-clean / public models will *not* win on raw capability soon. It reinforces the core move — compete on **trust, sovereignty, auditability, domain fit, and lawful provenance**, not benchmark rank — and means a competitive *public* coding model would be a deliberate build (the model-factory, post-training, and agent-tuning layers of the flywheel below), not an off-the-shelf option today.
 
 ## Strongest objections
 
