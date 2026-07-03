@@ -5,9 +5,32 @@ Who is already building pieces of an open, accountable, internationally co-stewa
 ## The public-AI movement & shared infrastructure
 
 - **Public AI / [Metagov](https://metagov.org/projects/public-ai)** — the clearest articulation of AI "provisioned like electricity, water, roads, libraries" ([Public AI: Infrastructure for the Common Good](https://zenodo.org/records/13914560)). Its [Public AI Inference Utility](https://publicai.co/) now serves Apertus and SEA-LION; a current [Switzerland fellowship](https://publicai.network/jobs/fellow-switzerland/) is intended to build Swiss institutional relationships and prepare participation in the 2027 Swiss AI Summit.
+- **[Hugging Face](https://huggingface.co/) — the model archive/marketplace, complementary to Public AI (not a rival).** The neutral hub where public and sovereign teams publish models and datasets and developers get the SDKs. Since **17 Sep 2025** the [Public AI Inference Utility](https://publicai.co/) is an **official Hugging Face Inference Provider** ([HF blog](https://huggingface.co/blog/inference-providers-publicai)): a model like Apertus is *found* on HF and *served* — currently free via HF routing — by Public AI's nonprofit, donated-GPU compute behind it. Two layers of one stack (HF = archive + tooling + routing; Public AI = inference/compute utility), not competitors.
 - **[Current AI](https://www.currentai.org/about)** — a multistakeholder public-interest-AI partnership launched at the 2025 Paris AI Action Summit (governments + philanthropies + companies); Switzerland is a Country Partner. Its new [Open Source AI Gap Map](https://map.currentai.org/) evaluates 24,626 projects across openness, capability, adoption and maturity and invites methodological review. **Joshua Tan serves as interim CTO** according to his [current research page](https://www.joshuatan.com/research/) and is listed among [Current AI's employees](https://www.linkedin.com/company/currentaiofficial/) — a verified personnel link to the Public AI network, where he leads product and strategy.
 - **[AI Alliance — Project Tapestry](https://thealliance.ai/projects/tapestry)** — shared infrastructure for training open models across institutions.
 - **Public AI Switzerland / publicai.ch (SPIU — Swiss Public Inference Utility)** — a customer-owned cooperative distributing Apertus, in formation; linked to the international [Public AI Inference Utility](https://publicai.co/) (shared inbox `hello@publicai.co`). Founding membership held in trust (pending registration) by **[Datalets.ch](https://datalets.ch/)** — Oleg Lavrovsky's open-data consultancy, a sole proprietorship per the Swiss commercial register (**not** a non-profit); the non-profit in this cluster is **[Opendata.ch](https://opendata.ch/)**, where Lavrovsky serves on the advisory board. *(Note: `publicai.io` is an unrelated Web3/crypto project; the relevant family is publicai.network / publicai.co / publicai.ch.)*
+
+**The shared-infrastructure stack at a glance** — and where the Charter's assurance layer sits (orthogonal to all of them):
+
+```mermaid
+flowchart TB
+  M["Public / sovereign models<br/>Apertus · SEA-LION · …"]
+  HF["<b>Hugging Face</b><br/>archive · marketplace · SDKs · routing"]
+  PA["<b>Public AI · publicai.co</b><br/>nonprofit inference utility (compute)<br/>backed by Mozilla · Metagov"]
+  CH["<b>publicai.ch · SPIU</b><br/>Swiss customer-owned cooperative"]
+
+  M -->|published on| HF
+  HF <-->|"official inference provider (17 Sep 2025)"| PA
+  PA -->|fronted in Switzerland by| CH
+
+  A["<b>AI Assurance and Certification</b><br/>the Charter's layer — independent,<br/>human-accountable"]:::charter
+  A -.->|"certifies deployed systems — not owned by any layer"| HF
+
+  X["publicai.io — Web3 token (PUBLIC)<br/>UNRELATED — do not confuse"]:::warn
+
+  classDef charter fill:#EEEDFE,stroke:#534AB7,stroke-width:2px,color:#26215C;
+  classDef warn stroke:#D85A30,stroke-dasharray:5 3,color:#993C1D;
+```
 - **[Open Future](https://openfuture.eu/)** — European digital-commons think tank already cited in this repo (the [EuroHPC-governance critique](https://openfuture.eu/blog/who-controls-europes-ai-future/)); its [*AI and the commons* / Public AI programme](https://openfuture.eu/our-work/ai-and-the-commons/) argues "AI technologies can be built and governed as public infrastructure" — closely aligned with this initiative. **Alek Tarkowski** (Director of Strategy; ex–Creative Commons board; founder of Centrum Cyfrowe; **board member, Wikimedia Europe**) is the connector into the Wikimedia chapters' AI work below.
 - **[Wikimedia CH](https://wikimedia.ch/)** — the Swiss chapter of the Wikimedia movement, running a "Wikimedia and AI" mission to *actively shape AI governance*. Its Jan 2026 white paper *Collective intelligence vs artificial intelligence* ([roundtable report](https://wikimedia.ch/en/news/open-knowledge-powers-ai-but-at-what-cost-report-from-the-roundtable-on-wikimedia-and-ai/), with Open Future + IMD Lausanne) argues Wikimedia should be "the backbone of a public, human-governed knowledge infrastructure" and backs "active work on standards and governance." A knowledge-commons ally for the data-and-knowledge-commons pillar and a Swiss-anchored civil-society actor that may engage the Geneva 2027 process — *verify the Geneva-engagement plan before relying on it.*
 
