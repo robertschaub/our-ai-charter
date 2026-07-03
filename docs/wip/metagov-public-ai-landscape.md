@@ -2,16 +2,16 @@
 
 # Metagov & Public AI — landscape for the assurance & certification building block
 
-*What Metagov is, who runs its AI-governance work, and where the Charter's [AI Assurance & Certification](../About.md) building block sits among the ecosystem's adjacent projects — for the [Public AI Fellow (Switzerland)](https://publicai.network/jobs/fellow-switzerland) application and for Charter positioning.*
+*What Metagov is, who runs its AI-governance work, and where the Charter's [AI Assurance & Certification](../About.md) building block sits among the ecosystem's adjacent projects — for engaging the Public AI ecosystem (including its open [Fellow (Switzerland)](https://publicai.network/jobs/fellow-switzerland) role) and for Charter positioning.*
 
 ## TL;DR
 
-- **Metagov (the Metagovernance Project) is the incubator behind the Public AI Network** — the coalition the fellowship role sits within. Public AI is "one of the major Metagov research areas," and the fellowship contact, **Joshua Tan**, is a Metagov co-founder and a Public AI Research Director. Understanding Metagov *is* understanding the org behind the job.
+- **Metagov (the Metagovernance Project) is the incubator behind the Public AI Network** — the coalition the open Fellow (Switzerland) role sits within. Public AI is "one of the major Metagov research areas," and that role's contact, **Joshua Tan**, is a Metagov co-founder and a Public AI Research Director. Understanding Metagov *is* understanding the coalition behind that role.
 - **The Charter's opening, in one line:** across the whole ecosystem — free inference, sovereign models, benchmarks, deliberation — there is **no assurance/certification layer for *trustworthy public AI, accountable to people*.** "Accountable" is delivered through *ownership and governance*, not through *independent evidence*. That is exactly the [AI Assurance & Certification building block](../About.md).
 - **The neighbours to differentiate from** are evaluation (Weval, Community-Aligned Benchmarks), technical safety (Atlas Computing), and one narrow certification precedent (Calm Tech Certified) — **allies, not competitors**. Name them correctly and the Charter reads as the missing layer, not a duplicate.
 - **Closest internal ally: Atlas Computing / Evan Miyazono** — who is *also* Metagov's Research Director for AI governance. **Best "it can be done here" precedent: Calm Tech Certified** — a working certification standard already running inside Metagov.
 
-## 1. What Metagov is (the org behind the fellowship)
+## 1. What Metagov is (the coalition behind the role)
 
 Facts (sourced):
 
@@ -45,9 +45,9 @@ Facts (sourced):
 
 This is the same *openness ≠ independent verification* thesis the [Apertus note](apertus-fit-and-engagement-plan.md) reaches from the model side — here reached from the ecosystem-map side.
 
-## 4. For the fellowship application / interview
+## 4. Positioning the Charter with Public AI / Metagov
 
-**My read** — three grounded moves for positioning the Charter in an application or conversation:
+**My read** — three grounded moves for positioning the Charter in conversation with the coalition:
 
 - **Lead with the assurance gap** (§3) as the differentiated contribution: it operationalises the "publicly accountable" pillar the coalition asserts but does not yet build.
 - **Name the neighbours correctly** (Weval, Atlas, Community-Aligned Benchmarks) — signals knowledge of the landscape, not the slogans, and positions the Charter as *complementary*.

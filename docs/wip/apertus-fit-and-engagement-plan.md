@@ -56,16 +56,16 @@ Grounded channels, in order of leverage:
 
 Keep the first ask **cheap to grant**.
 
-### Fellow, Switzerland — who matters (application map)
+### Fellow, Switzerland — the coalition around the role
 
-*Added 2026-07-03 from the live [posting](https://publicai.network/jobs/fellow-switzerland). The posting names **no Swiss mentor**: the fellow reports via **Josh (`josh@publicai.co`)** and works with "the engineering team and the **Public AI Switzerland cooperative members**"; named institutional partners are **CSCS, Swiss AI Initiative, ETH, EPFL**. The remit is **operational** — grow the cooperative, advance Apertus deployment, build Swiss public-sector/research relationships, feed the **Swiss National AI Dialogue**, and prep the **Swiss AI Summit (Feb 2027 — unconfirmed, §6)**. My read of who matters, in tiers:*
+*Added 2026-07-03 from the live [posting](https://publicai.network/jobs/fellow-switzerland). The posting names **no Swiss mentor**: the fellow reports via **Josh (`josh@publicai.co`)** and works with "the engineering team and the **Public AI Switzerland cooperative members**"; named institutional partners are **CSCS, Swiss AI Initiative, ETH, EPFL**. The remit is **operational** — grow the cooperative, advance Apertus deployment, build Swiss public-sector/research relationships, feed the **Swiss National AI Dialogue**, and prep the **Swiss AI Summit (Feb 2027 — unconfirmed, §6)**. The people and bodies around the role, by tier (assessment):*
 
-- **Decides — Joshua Tan.** Sole named contact; the connective node for all of Public AI/Metagov. This is the relationship to get right.
-- **Swiss operational core (what you'd run) — Oleg Lavrovsky / Datalets.ch** (holds the cooperative's founding dues in trust — the day-to-day civic-tech anchor; §1), the still-forming **Public AI Switzerland / SPIU** membership ([spiu.ch](https://spiu.ch/), [publicai.ch](https://publicai.ch/)), plus **Nick Vincent** (co-Research Director) and **Brandon Jackson** (product).
+- **Contact / decides — Joshua Tan.** Sole named contact; the connective node for all of Public AI/Metagov.
+- **Swiss operational core (the role's remit) — Oleg Lavrovsky / Datalets.ch** (holds the cooperative's founding dues in trust — the day-to-day civic-tech anchor; §1), the still-forming **Public AI Switzerland / SPIU** membership ([spiu.ch](https://spiu.ch/), [publicai.ch](https://publicai.ch/)), plus **Nick Vincent** (co-Research Director) and **Brandon Jackson** (product).
 - **Swiss relationships the role exists to build — Antoine Bosselut / Imanol Schlag / Martin Jaggi** (Apertus technical leads; Bosselut co-leads Apertus & the Swiss AI Initiative — §1), **Marcel Salathé** (EPFL AI Center co-director; highest-leverage ecosystem bridge — [full map](marcel-salathe-stakeholder-map.md)), and **ICAIN / Katharina Frey** for the internationally-co-stewarded angle.
-- **Warm path in / assurance allies (assessment) — Alek Tarkowski** (Open Future; Wikimedia Europe board; Public AI Seminar S3 organiser) — a natural warm bridge into the coalition/seminar network; **B Cavello** (Aspen Digital; Metagov board; Seminar S2–3); and — for the Charter's differentiator — **Samuel Klein** and **Evan Miyazono / Atlas Computing**, whose work sits closest to the [assurance & certification building block](metagov-public-ai-landscape.md).
+- **Bridges and assurance allies (assessment) — Alek Tarkowski** (Open Future; Wikimedia Europe board; Public AI Seminar S3 organiser) — a natural warm bridge into the coalition/seminar network; **B Cavello** (Aspen Digital; Metagov board; Seminar S2–3); and — for the Charter's differentiator — **Samuel Klein** and **Evan Miyazono / Atlas Computing**, whose work sits closest to the [assurance & certification building block](metagov-public-ai-landscape.md).
 
-**Framing discipline:** the role is *operator/connector*, not *assurance-researcher* — lead with what you'd operationally do for Public AI Switzerland, then position assurance as the value you uniquely add. Mirror the posting's summit wording; do not assert a February date (§6).
+**Note:** the role is *operator/connector*, not *assurance-researcher*; the Charter's distinct contribution — independent assurance — sits alongside that remit, not within it. (On the summit reference, see §6.)
 
 ## 6. Open questions (explicitly unverified)
 

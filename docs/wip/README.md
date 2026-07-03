@@ -26,7 +26,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 - **[fair-in-practice-assurance-case.md](fair-in-practice-assurance-case.md)** — obligation 4 prototype; collective impact, measurement, and systemic remedy.
 - **[open-to-evidence-assurance-case.md](open-to-evidence-assurance-case.md)** — obligation 5 prototype; grounding module plus cross-cutting claim discipline.
 - **[capabilities-and-assurance-interface.md](capabilities-and-assurance-interface.md)** — Phase-2/3 sketch for checking declared capabilities and independently assured claims.
-- **[public-ai-people-and-pathways.md](public-ai-people-and-pathways.md)** — visual + connection capstone for the Public AI / fellowship work: the fellowship who-matters map and the Tan/Tarkowski/Klein/Cavello seminar-network diagram (Mermaid), the *co-organised Season 3 only* Tan↔Tarkowski finding, Klein's profile, and the Bosselut/Ticino grounding; links to the Apertus and landscape notes for detail.
+- **[public-ai-people-and-pathways.md](public-ai-people-and-pathways.md)** — visual + connection capstone for the Public AI coalition: a who's-who map of the coalition (including the open Swiss role) and the Tan/Tarkowski/Klein/Cavello seminar-network diagram (Mermaid), the *co-organised Season 3 only* Tan↔Tarkowski finding, Klein's profile, and the Bosselut/Ticino grounding; links to the Apertus and landscape notes for detail.
 
 ## Related curated notes
 
