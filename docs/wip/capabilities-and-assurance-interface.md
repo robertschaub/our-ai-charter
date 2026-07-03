@@ -1,10 +1,16 @@
 > **Status: WORKING NOTES** — design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange. **Concepts and principles, not interfaces** — mechanisms are deliberately out of scope at this stage. Phase-2/3. Companion to [charter-structure-and-views.md](../Assurance/Concepts/charter-structure-and-views.md): the demand side's *check* surface.
 
-# A queryable Capabilities & Assurance Interface (CAI) — design direction
+# Capabilities & Assurance Interface (CAI) — a design direction
 
-*A way for a person or their agent to ask, of one deployed system: **what is it for** (capabilities) and **what has been assured** (assurance claim-state). The "check" step of the demand side — and **not a trust badge.***
+*A way for a person or their agent to ask, of one deployed system: **what is it for** (capabilities) and **what has been assured** (assurance). The "check" step of the demand side.*
 
-## Lead with the danger
+## What it is
+
+Picture every deployed system carrying a **public label** in two halves. **Capabilities:** what the system is for, its limits, prohibited uses, operating envelope, and version — *declared by the provider.* **Assurance:** which Charter obligations have been *independently verified*, at what depth, and how recently. A person — or the agent acting for them — can ask a system both questions and get a scoped, honest answer before relying on it.
+
+**"CAI" names the concept and its public-interest profile, not a running system.** The *interface* here is conceptual — what the label must carry and what each field means — not an API, a wire format, or a spec. The Charter's contribution is that profile: binding the label to the obligations and to honest assurance-depth labels. What it must never become is a single green light — and that danger comes first.
+
+## The central danger
 
 A machine-readable assurance surface propagates **false confidence as fast as true confidence.** Agents and procurement systems will read a green light and act on it, ignoring scope, depth, and freshness. So the CAI is worth having **only as a scoped, honest, freshness-checked claim surface — never an "AI trust API" or badge.** "Queryable certification" is the phrase to avoid.
 
@@ -21,6 +27,6 @@ A machine-readable assurance surface propagates **false confidence as fast as tr
 - **Now — the self-declared half only:** a provider publishes its **capabilities** (purpose, prohibited uses, operating envelope, version, limits) plus a **link to the human-readable release risk assessment**, with assured fields marked **not-yet-independently-attested**. Safe, because it claims nothing it cannot back.
 - **Deferred — the assured half:** independently-signed obligation statuses, public-scrutiny records, and revocation — which wait on the assessor ecosystem and trust stack above.
 
-## What this is / is not
+## What this is
 
-A design **direction** and a **profile**, not a spec, a standard, or "queryable certification." It is the demand side's *check* surface — read alongside *find* (discovery) and *watch* (runtime inspection) in the [structure map](../Assurance/Concepts/charter-structure-and-views.md). Mechanisms (schemas, signing, logs) are intentionally left out at this stage.
+A design **direction** and a **profile** — the demand side's *check* surface, read alongside *find* (discovery) and *watch* (runtime inspection) in the [structure map](../Assurance/Concepts/charter-structure-and-views.md). Mechanisms (schemas, signing, logs) are intentionally left out at this stage.
