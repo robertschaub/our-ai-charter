@@ -60,32 +60,42 @@ flowchart TB
 
 *Apertus is built under the Swiss AI Initiative (ETH + EPFL AI Centers) on CSCS compute, then distributed; the **Public AI utility** node is the hinge back to §1. Salathé is a bridge/interpreter, not a technical lead (§5).*
 
-## 3. How the key people actually connect (network)
+## 3. Connective ties — who bridges the clusters
+
+*Not the structure (that is §1–2) — the ties that cross it: the shared venue, one-person org-bridges, and the hinges into the Apertus cluster.*
 
 ```mermaid
 flowchart LR
-  TAN["<b>Joshua Tan</b><br/>Metagov co-founder · Public AI lead<br/>founding-paper author"]
-  UTIL["Public AI utility<br/>+ Swiss co-op (SPIU)"]
-  SEM(["Public AI Seminar"])
-  TAN --> UTIL
+  TAN["Joshua Tan<br/>hub — Metagov · Public AI · Current AI"]
+  SEM(["Public AI Seminar<br/>shared venue"])
+  KLEIN["Samuel Klein"]
+  CAV["B Cavello · Aspen"]
+  ALEK["Alek Tarkowski · Open Future"]
+  KRA["Alex Krasodomski<br/>Chatham House · Public AI fellow"]
+  SWISS(["Swiss civic-tech<br/>Opendata.ch · Swiss AI Weeks"])
+  LAV["Oleg Lavrovsky"]
+  WIL["Sabine Wildemann"]
+  APE["Apertus / SNAI · §2"]
+  SAL["Marcel Salathé"]
+
   TAN --> SEM
-
-  KLEIN["Samuel Klein<br/>co-founder · Underlay/Omnipedia"]
-  ALEK["Alek Tarkowski / Open Future<br/>EU-policy arm"]
-  CAV["B Cavello / Aspen"]
-
-  KLEIN -->|S1 co-organiser| SEM
-  CAV -->|S2 and S3| SEM
-  ALEK -->|S3 co-organiser| SEM
-
-  ALEK -.->|Open Future = coalition partner| TAN
-  KLEIN -.->|co-founder, not a Metagov RD| TAN
+  KLEIN -->|S1| SEM
+  CAV -->|S2–3| SEM
+  ALEK -->|S3| SEM
+  KRA -.->|fellow| TAN
+  ALEK -.->|Wikimedia Europe board| WM["Wikimedia CH"]
+  LAV --- SWISS
+  WIL --- SWISS
+  SWISS -.->|CH chapter roots| TAN
+  TAN -.->|utility serves Apertus| APE
+  SAL -.->|EPFL AI Center bridge| APE
 ```
 
 - **Joshua Tan — the nucleus.** Metagov co-founder; co-author of the founding paper *[An Alternative to Regulation: The Case for Public AI](https://arxiv.org/abs/2311.11350)* (Vincent, Bau, Schwettmann, Tan; Nov 2023); leads product/strategy; ran the seminar **Seasons 1–3**; operates the inference utility.
 - **Alek Tarkowski / Open Future — the EU-policy arm.** Co-organised the seminar **Season 3 only** (Apr–Jun 2025) with Tan; authored Open Future's [White Paper on Public AI](https://openfuture.eu/publication/white-paper-on-public-ai/) and the [Jan 2026 *European Public AI* brief](https://openfuture.eu/publication/european-public-ai-policy-brief/). **Not** a co-author of the founding paper — a well-placed peer, not Tan's principal.
 - **Samuel Klein — co-founder, verification thesis.** Public AI Network co-founder; co-author of the *Infrastructure for the Common Good* whitepaper; seminar **Season 1** co-organiser; Berkman Klein affiliate, ex–Wikimedia Foundation trustee, works on Underlay / Omnipedia. Full profile in the [landscape note](metagov-public-ai-landscape.md).
 - **B Cavello / Aspen Digital** — seminar Seasons 2–3; Metagov board — the convening backbone.
+- **Cross-cluster bridges** — **Tan** spans Metagov · Public AI · Current AI; the **Public AI utility serves Apertus** and **Salathé** bridges EPFL ↔ Apertus (§2); **Lavrovsky + Wildemann** tie the CH chapter into Swiss civic-tech (Opendata.ch, Swiss AI Weeks); **Krasodomski** is a Public AI fellow; **Tarkowski** also bridges to Wikimedia.
 
 **Reading:** same movement, different lanes — Tan the intellectual/organisational core, Tarkowski the Brussels policy flank, Klein the verification/provenance founder. They intersect through the coalition and, for Tan × Tarkowski, through one seminar season. Treat these as professional peer ties, not proven close partnerships.
 
