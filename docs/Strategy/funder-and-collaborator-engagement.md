@@ -26,7 +26,7 @@ Roles and contacts are in the [actor map](../Evidence/actors-and-landscape.md); 
 | Warm only | McGovern Foundation; European AI & Society Fund; Open Society + co-funders | public-interest funders | thesis, timeline, and *what would you need to see* |
 | Warm only | Current AI | relationship-only; no open call | via the Public AI / Metagov door |
 
-Stiftung Mercator Schweiz is already a warm line through the [Swissnex fellowship](geneva-2027-swissnex-fellowship.md) — let that build through the application; don't double-approach it cold.
+Stiftung Mercator Schweiz is a warm line via the [Swissnex "Geneva Loading" fellowship](geneva-2027-swissnex-fellowship.md) channel — let the relationship build through that channel; don't double-approach it cold.
 
 ## The discipline
 

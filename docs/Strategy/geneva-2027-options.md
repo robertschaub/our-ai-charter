@@ -38,7 +38,7 @@ Roles are recorded in the [actor map](../Evidence/actors-and-landscape.md). Re-v
 4. **Use official channels — Route A/A'** only once there is a coalition and concrete deliverable.
 5. **Use E/F later** for political and funding support.
 
-If the Swissnex/Mercator fellowship becomes too costly or is not selected, use the lower-effort fallback in the [fellowship plan](geneva-2027-swissnex-fellowship.md): publish the brief/checklist/worked example independently, then attach it to a side-event module, consultation input, or adjacent Geneva convening. The goal stays the same: one reusable public artifact, not a claimed summit role.
+If the Swissnex/Mercator fellowship channel is not available or not taken up, use the lower-effort fallback in the [fellowship plan](geneva-2027-swissnex-fellowship.md): publish the brief/checklist/worked example independently, then attach it to a side-event module, consultation input, or adjacent Geneva convening. The goal stays the same: one reusable public artifact, not a claimed summit role.
 
 ## Guardrails
 

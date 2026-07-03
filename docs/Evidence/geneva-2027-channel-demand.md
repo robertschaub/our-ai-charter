@@ -9,7 +9,7 @@ Of the four channels a Swiss public-interest contributor would feed into, **only
 The one channel with an explicit, stated artifact expectation.
 
 - **Artifact wanted (verbatim):** "at least one public-facing output connected to the AI Summit or the challenges of global AI governance: a policy brief, a white paper, an article or another widely published media format contributing to the public debate."
-- **Format/length:** four formats named; **no length or structure mandated** — the test is that it is *public-facing* and *contributes to the debate*. Selection criteria include **"publication feasibility,"** so a concrete publication plan strengthens the application.
+- **Format/length:** four formats named; **no length or structure mandated** — the test is that it is *public-facing* and *contributes to the debate*. Selection criteria include **"publication feasibility,"** so a concrete publication plan strengthens a proposal.
 - **Cadence (time-boxed cohort):** applications **12 Jul 2026** · notification mid-Aug · prep session Sept 2026 (CH) · SV immersion **16–20 Nov 2026** · summit side event Q2 2027.
 - **FAQ / prior-cohort output examples:** not public.
 - Source: [Swissnex — "Geneva Loading…"](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) · [Swissnex programs](https://swissnex.org/event/type/program/)
