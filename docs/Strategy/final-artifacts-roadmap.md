@@ -1,17 +1,34 @@
-# Final-artifacts roadmap — what this initiative could ultimately release
+# Artifacts roadmap — inputs to assemble, and durable end-products
 
-Companion to the [artifact-production plan](../wip/artifact-production-plan.md), which covers the **inputs** to assemble for Geneva 2027. This note covers the **durable end-products** the initiative could ship — together with others — that live in the world on their own.
+This note covers both the near-term **inputs** to assemble for Geneva 2027 (memos, briefs, a one-pager — the *I-series* below) and the **durable end-products** the initiative could ship with others (standards, software, a signable charter, a report index — the *#-series* below) that live in the world on their own.
 
 ## The distinction
 
-- **Input** (the other note): a memo, brief, one-pager, or non-paper you carry into a meeting or process.
-- **Final artifact** (this note): a standard, a piece of software, a signable charter with a register, a public report index, a running governed utility, a procurement clause, a mark — a thing others use without you in the room.
+- **Input** (the *I-series* below): a memo, brief, one-pager, or non-paper you carry into a meeting or process.
+- **Final artifact** (the *#-series* below): a standard, a piece of software, a signable charter with a register, a public report index, a running governed utility, a procurement clause, a mark — a thing others use without you in the room.
+
+## Inputs to assemble now (I1–I5)
+
+*The near-term **inputs** — memos and briefs — to carry into Geneva 2027 meetings and processes. The bottleneck is assembly and packaging, not more thinking: strong assets already exist (two published articles, the bilingual non-paper, the actor map and verified-findings base, the Charter Commitments, and a red-teamed evaluation protocol). Assemble them; don't write new manifestos.*
+
+| Input | What it is | Seeds / role | Effort · when |
+|---|---|---|---|
+| **I1 — Keystone memo** | "Geneva 2027 Public AI Governance & Evidence Package" (~2–3 pp): problem → governance blueprint + one evaluation pilot + roundtable → the ask → honest status | the spine for every downstream route | Low (assemble) · now |
+| **I2 — Forwardable one-pager** | a 1-page summary warm contacts can forward to international anchors | executive summary of I1 | Very low · now |
+| **I3 — Publication commitment** | abstract + outline + named venue + timeline (½ p) | a concrete publication plan (public-facing fellowships reward "publication feasibility") | Very low · now |
+| **I4 — Evaluation package** *(the differentiator)* | method v0.3 + codebook + report skeleton + one public calibration set + a portable-harness *plan* — the [evaluation PoC scope](../wip/evaluation-poc-scope.md) operationalises this | **seeds durable artifact #1** (eval toolkit → standard); answers the process's "concrete tools" ask | Medium · brief over summer |
+| **I5 — Governance blueprint** | the *how*: roles, anti-capture, no-secret-kill-switch, oversight, conflict-of-interest, audit path, external adjudicator, attestation-with-penalties (~2 pp) | substance for the Route B conversations; **seeds durable artifact #4** (co-stewardship pack) | Medium · next |
+
+**Produce on demand** (cheap, when a conversation needs it): a plain-language FAQ / anti-overclaim Q&A; a pre-sprint scoping doc (if a neutral convener engages); a roundtable concept (lowest urgency).
+**Conditional:** a Swiss AI Action-Plan ~1-page input *only if* the [go/no-go bar](swiss-action-plan-contribution.md) is met; a co-authored "sovereignty not autarky" op-ed if a warm opportunity matures (avoid "constitution" / new-institution framing).
+**Don't produce:** a new manifesto from scratch (two are published — cite them); a cold standalone Apertus governance proposal to SNAI (route via the summit and warm peer paths); a Current AI submission (no open call — a relationship target, not a channel).
+**First move:** start with **I1** (keystone memo) — it unlocks I2/I3 and feeds I4/I5 — drafted MVP-mode, plus the forwardable one-pager (I2) derived from it.
 
 ## The key insight
 
 The hard intellectual content already exists — five obligations, eight duties, the three-layer assurance stack ([Charter Commitments](../Assurance/Framework/charter-commitments.md)) and a red-teamed [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md). What is missing is the **durable form** that lets it live independently. The [landscape scan](../Assurance/Background/landscape-and-positioning.md) names the gap none of the peers fills — *"none certifies that a deployed system's claims are supported by the sources it cited"* — the **unoccupied grounding-faithfulness wedge**. That is the most differentiated artifact available. Peer initiatives supply the templates for the *forms*; nearly every artifact below is a **co-production**, not a solo output.
 
-*Artifact numbers (#1–#7) are stable IDs shared with the [artifact-production plan](../wip/artifact-production-plan.md) and the analysis they came from. **Priority is shown by tier, not by number order** — so the sequence reads #1, #3 (keystone), then #2, #6, then #4, #5, then #7.*
+*Two series: **inputs I1–I5** (above) are the near-term things you carry into a room; **durable artifacts #1–#7** (below) are what others use without you. Some inputs seed an output (I4 → #1; I5 → #4). **Priority is shown by tier, not by number order** — the durable sequence reads #1, #3 (keystone), then #2, #6, then #4, #5, then #7.*
 
 ---
 

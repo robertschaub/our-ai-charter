@@ -1,6 +1,6 @@
 # Geneva 2027 — channel demand (what each channel accepts)
 
-*Compiled from public web sources via research agents (June 2026); re-verify before citing. Companion to the [artifact-production plan](../wip/artifact-production-plan.md).*
+*Compiled from public web sources via research agents (June 2026); re-verify before citing. Companion to the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
 
 Of the four channels a Swiss public-interest contributor would feed into, **only two currently accept a submittable artifact.**
 

@@ -17,7 +17,6 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 ## Geneva 2027 contribution
 
-- **[artifact-production-plan.md](artifact-production-plan.md)** — prioritized inputs for the Geneva 2027 contribution: what to produce, what to reuse, and what not to produce.
 - **[geneva-2027-keystone-memo.md](geneva-2027-keystone-memo.md)** — forwardable memo for the fellowship and downstream routes; promotable to `Outreach/` once a carrier group and first deliverable exist.
 - **[geneva-2027-assurance-questions-note.md](geneva-2027-assurance-questions-note.md)** — forwardable, question-led entry artifact (five open questions on the public-AI governance/evidence layer); the lower-risk first move ahead of the keystone memo's package + ask.
 - **[evaluation-poc-scope.md](evaluation-poc-scope.md)** — runnable plan for one pilot of the evaluation protocol on an Apertus-based cited-source deployment; the *results-not-a-framework* asset.
@@ -35,5 +34,5 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 - **[geneva-2027-swissnex-fellowship.md](../Strategy/geneva-2027-swissnex-fellowship.md)** — fellowship channel assessment.
 - **[architecture.md](../Infrastructure/architecture.md)** — federated public AI infrastructure: architecture.
 - **[control-and-evidence-layer.md](../Infrastructure/control-and-evidence-layer.md)** — cooperator one-pager on the control-and-evidence layer.
-- **[final-artifacts-roadmap.md](../Strategy/final-artifacts-roadmap.md)** — durable end-products the initiative could ship.
+- **[final-artifacts-roadmap.md](../Strategy/final-artifacts-roadmap.md)** — the artifacts roadmap: near-term inputs (I1–I5, folded in from the former production plan) + durable end-products (#1–#7).
 - **[geneva-2027-channel-demand.md](../Evidence/geneva-2027-channel-demand.md)** — what each Geneva 2027 channel accepts.

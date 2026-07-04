@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** — grounded assessment + engagement plan. Every factual claim below is tied to a primary source (verified 2026-07-03); assessment is labelled as such and unverified points are listed explicitly in §6. Promotable into the [initiation strategy](../Strategy/initiation-strategy.md) / [artifact-production plan](artifact-production-plan.md) once a first eval case and a carrier conversation exist.
+> **Status: WORKING NOTES** — grounded assessment + engagement plan. Every factual claim below is tied to a primary source (verified 2026-07-03); assessment is labelled as such and unverified points are listed explicitly in §6. Promotable into the [initiation strategy](../Strategy/initiation-strategy.md) / [artifacts roadmap](../Strategy/final-artifacts-roadmap.md) once a first eval case and a carrier conversation exist.
 
 # Apertus — fit & how to engage
 
-*Working notes — rebuilt 2026-07-03 from primary-source verification · WIP · public-safe. Companions: [Salathé actor note](public-ai-people-and-pathways.md), [channel demand](../Evidence/geneva-2027-channel-demand.md), [evaluation PoC scope](evaluation-poc-scope.md), [keystone memo](geneva-2027-keystone-memo.md), [artifact-production plan](artifact-production-plan.md), [initiation strategy](../Strategy/initiation-strategy.md), [actor & landscape map](../Evidence/actors-and-landscape.md), [verified findings](../Evidence/verified-findings.md).*
+*Working notes — rebuilt 2026-07-03 from primary-source verification · WIP · public-safe. Companions: [Salathé actor note](public-ai-people-and-pathways.md), [channel demand](../Evidence/geneva-2027-channel-demand.md), [evaluation PoC scope](evaluation-poc-scope.md), [keystone memo](geneva-2027-keystone-memo.md), [artifacts roadmap](../Strategy/final-artifacts-roadmap.md), [initiation strategy](../Strategy/initiation-strategy.md), [actor & landscape map](../Evidence/actors-and-landscape.md), [verified findings](../Evidence/verified-findings.md).*
 
 ## In one line
 

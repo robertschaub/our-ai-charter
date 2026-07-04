@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** — the runnable plan for one pilot of the [grounding-faithfulness & contestability protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md). Operationalises artifact #4 of the [production plan](artifact-production-plan.md) and the lead move of the [engagement plan](apertus-fit-and-engagement-plan.md): *bring results, not a framework*.
+> **Status: WORKING NOTES** — the runnable plan for one pilot of the [grounding-faithfulness & contestability protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md). Operationalises input **I4** (evaluation package) of the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md) and the lead move of the [engagement plan](apertus-fit-and-engagement-plan.md): *bring results, not a framework*.
 
 # Evaluation proof-of-concept — scope
 
-*Working notes — 2026-06-29 · WIP · public-safe. Companions: [protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) ([1-pager](../Assurance/Protocol/one-pager.md)), [production plan](artifact-production-plan.md) #4, [engagement plan](apertus-fit-and-engagement-plan.md), [risk audit](../Assurance/Background/risk-and-vulnerability-audit.md).*
+*Working notes — 2026-06-29 · WIP · public-safe. Companions: [protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) ([1-pager](../Assurance/Protocol/one-pager.md)), [artifacts roadmap](../Strategy/final-artifacts-roadmap.md) I4, [engagement plan](apertus-fit-and-engagement-plan.md), [risk audit](../Assurance/Background/risk-and-vulnerability-audit.md).*
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Turn the protocol into **one runnable evaluation** on **one public-interest depl
    - **(a)** target an existing **Apertus-based cited-source Q&A / RAG assistant** (a real public-interest deployment), or
    - **(b)** stand up a **minimal reference RAG + citation harness** over an Apertus endpoint (PublicAI inference / Hugging Face) so there is a deployable factual system to evaluate.
    Either way, state plainly that the result describes **that deployment**, not Apertus-the-model. *(This is also why the PoC fits the Charter's frame: the civic-assurance layer is about deployments of public models.)*
-2. **Naming discipline.** Name Apertus **publicly** only with partner agreement ([production plan](artifact-production-plan.md)). Absent that, publish as *"an Apertus-class open public deployment."*
+2. **Naming discipline.** Name Apertus **publicly** only with partner agreement ([artifacts roadmap](../Strategy/final-artifacts-roadmap.md)). Absent that, publish as *"an Apertus-class open public deployment."*
 
 ## What it measures (from protocol §4)
 
