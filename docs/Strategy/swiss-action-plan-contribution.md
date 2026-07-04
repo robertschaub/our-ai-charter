@@ -7,6 +7,7 @@ A go/no-go layer for filing a public-interest contribution into the Swiss AI Act
 - **Where:** the Swiss AI Action Plan, **governance track** ("innovation-friendly, streamlined AI governance"), via the digitalswitzerland participation platform (`chat.digitalswitzerland.ch`, access on request). Coordinated by digitalswitzerland with BAKOM.
 - **Timing:** no imminent hard deadline — structured rounds have passed and contribution is rolling through 2026. The soft window is *before the plan finalises*; verify whether a closing date has been published.
 - **Framing constraint:** the official track is light-touch / voluntary-codes. A contribution must read as **additive** to that — never as a call for heavier regulation or a new institution.
+- **What the plan contains (orientation):** digitalswitzerland's *AI Action Plan for Switzerland* sets out **23 actions across five focus areas** — AI education & literacy, world-class research & innovation, resilient digital infrastructure, AI-ready data, and **smart AI governance** (the target track), coordinated with BAKOM/OFCOM. Named principals include Andreas Meyer (President) and Franziska Barmettler (CEO) of digitalswitzerland, with Marcel Salathé (EPFL AI Center) and André Golliez (Swiss Data Alliance) among the steering figures ([ai-actionplan.ch](https://ai-actionplan.ch/)).
 
 ## Go / no-go criteria
 
