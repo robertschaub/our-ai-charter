@@ -18,6 +18,7 @@ Each obligation is a **Claims → Arguments → Evidence** view: the public **cl
 | **D4 — control** *(supporting)* | function-creep control; who may change purpose | change-control records | evidence-observed |
 | **D7 — transparency** *(supporting)* | purpose publicly stated; capability not oversold | public purpose statement | evidence-observed |
 | **D8 — re-authorization, withdrawal** *(supporting)* | purpose shift → re-authorize; beyond-purpose use → withdraw | material-change + withdrawal records | implementation-checked |
+| **misuse monitoring** *(where exposed)* | a declaration is not a defence — abuse/misuse is actively watched | app-security / abuse-monitoring module | effectiveness-tested |
 
 Remedy is mostly **narrowing or withdrawal**; individual harm from an out-of-purpose use routes to obligation 2. Duty-heavy — the module column is nearly empty.
 
@@ -32,6 +33,7 @@ Remedy is mostly **narrowing or withdrawal**; individual harm from an out-of-pur
 | **D7 — transparency** | notice that AI is materially involved; an understandable explanation | notice + explanation artefacts | evidence-observed |
 | **D8 — incidents, withdrawal** | incidents/appeals logged; escalation + withdrawal that work | incident + appeal records | implementation-checked |
 | **D4 — control** *(supporting)* | who can restrict/recall/shut down — no hidden powers | restriction-transparency module | evidence-observed |
+| **D3 — risk register** *(supporting)* | consequential-use risk registered, tiered, monitored | release risk assessment | documented |
 
 **Remedy splits individual vs collective:** individual — correct → reconsider under human review → reverse/compensate, with a published response time; **collective/systemic** — repeated failures, disparate error rates, or group-level harm trigger regulator- or representative-review (a person cannot appeal a *pattern*).
 
@@ -41,16 +43,16 @@ Remedy is mostly **narrowing or withdrawal**; individual harm from an out-of-pur
 
 | Duty (argument) | Shows | Evidence / module | Min. depth |
 |---|---|---|---|
-| **D5 — safety, security, privacy** *(primary)* | hazard analysis; cyber + LLM threat model; prompt-injection & output-handling tests; tool/agent permission bounds; data minimisation, lawful basis, retention | app-security / prompt-injection · privacy/provenance | **effectiveness-tested** |
-| **D4 — continuity, exit** *(resilience)* | critical-dependency map; fallback limits; continuity + exit plans | continuity / exit records | implementation-checked |
+| **D5 — safety, security, privacy** *(primary)* | hazard analysis; cyber + LLM threat model; prompt-injection & output-handling tests; tool/agent permission bounds; data minimisation, lawful basis, retention, access/deletion; provenance | app-security / prompt-injection · privacy/provenance | **effectiveness-tested** |
+| **D4 — continuity, exit** *(resilience)* | critical-dependency map; fallback limits; continuity + exit plans where reliance is material | continuity / exit records | implementation-checked |
 | **D3 — risk register** | safety/security/privacy hazards tiered + monitored | risk register | evidence-observed |
 | **D8 — incidents, withdrawal** | incident response; rollback/withdrawal | incident records | implementation-checked |
 
-Remedy: patch → rollback → withdraw; a breach → **notify affected people + regulator**. The most effectiveness-test-heavy obligation — it leans hardest on existing security/privacy standards and lightest on novel Charter machinery.
+Remedy: patch → rollback → withdraw; a breach → **notify affected people + regulator**; a resilience failure → invoke fallback/continuity. Individual privacy redress (access/deletion) sits in D5; affected-person harm routes to obligation 2. The most effectiveness-test-heavy obligation — it leans hardest on existing security/privacy standards and lightest on novel Charter machinery.
 
 ## Obligation 4 — Fair in practice
 
-**Claim:** where the system may materially affect people, its performance is **tested and monitored for uneven or discriminatory outcomes** across groups, languages, regions, and contexts — and disparities are disclosed, mitigated, constrained, or withdrawn. **Conditional** (fires only where material impact is plausible) and inherently **collective** (assessed on aggregates, not a single output).
+**Claim:** where the system may materially affect people, its performance is **tested and monitored for uneven or discriminatory outcomes** across groups, languages, regions, and contexts — and disparities are disclosed, mitigated, constrained, or withdrawn. **Conditional** (fires only where material impact is plausible) and inherently **collective** (assessed on aggregates, not a single output); tier and which groups/contexts to test are a **risk-calibrator** call.
 
 | Duty (argument) | Shows | Evidence / module | Min. depth |
 |---|---|---|---|
@@ -81,6 +83,7 @@ Remedy: correct → re-verify (paraphrase-regression) → **withdraw the claim**
 3. **Obligations interlock** — remedies cross-reference (individual redress in obligation 2; affected groups in obligation 1; systemic remedy in 4 and 5), so the annex needs obligation→obligation references, not just obligation→duty.
 4. **One obligation can bundle several properties** — obligation 3 spans safe/secure/private/resilient across different duties (D5 vs D4); it may render as sub-cards.
 5. **Obligation 5 is partly meta** — it governs the *integrity of the other cases' own claims*; the "say only what the assurance depth supports" claim-discipline rule that recurs in every case **is obligation 5 operating reflexively** on the Charter's own outputs.
+6. **The collective-impact lens and risk calibrator are load-bearing** — obligation 4 is assessed on aggregates, its remedy is systemic, and "which groups and contexts count" is a calibrator judgment; both lenses are structural, not decorative.
 
 **Conclusion:** the Claims→Arguments→Evidence instrument generalizes cleanly across all five obligations without inventing new controls — the evidence that it is a *view over the duties*, ready to graduate into a certification-model annex once an obligation is piloted.
 
