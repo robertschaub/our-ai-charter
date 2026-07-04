@@ -23,7 +23,7 @@ Use a **Claims → Arguments → Evidence** view:
 3. **Controls & evidence** — what must be done and how it is proven, labelled by assurance depth; links to duty 3 and relevant modules.
 4. **Remedy & escalation** — remedy owed, escalation route, and withdrawal triggers; links to duties 6 and 8.
 
-This view is a crosswalk over existing duties, not a new control layer. The five working prototypes live in `docs/wip/`: [answerable](../../wip/answerable-to-people-assurance-case.md), [purpose-bound](../../wip/purpose-bound-assurance-case.md), [safe-secure-private-resilient](../../wip/safe-secure-private-resilient-assurance-case.md), [fair-in-practice](../../wip/fair-in-practice-assurance-case.md), and [open-to-evidence](../../wip/open-to-evidence-assurance-case.md).
+This view is a crosswalk over existing duties, not a new control layer. The five worked prototypes are consolidated in [assurance-cases.md](assurance-cases.md).
 
 ## Two planes
 
@@ -61,7 +61,7 @@ Modules are triggered, not optional decoration. Every assessed system gets a bas
 The outward surfaces are concepts, not interface specs:
 
 - **Find** — discovery and navigation across the network's **AI systems** and the providers behind them, based on scoped assurance depth rather than an "approved" badge. The directory must remain plural and neutral: the index is a chokepoint, and a captured registry is a captured market.
-- **Check** — a [Capabilities & Assurance Interface](../../wip/capabilities-and-assurance-interface.md): what a system says it is for, what has been assured, and what is not verified.
+- **Check** — a [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md): what a system says it is for, what has been assured, and what is not verified.
 - **Watch** — runtime inspection at least-exposure: each audience sees only its slice (own session, affected-person decision, assessor sample, regulator access, public aggregate). Inspection must be verifiable rather than self-reported, privacy-bounded (confirm behaviour without exposing content), and itself assessed — the assurance plane checks that inspection is adequate.
 
 These surfaces steer discovery, procurement, and trust. They are governed public-power surfaces, not neutral plumbing.
@@ -80,10 +80,10 @@ Without this leg, the system only produces claims. With it, claims are answerabl
 
 - [Charter Commitments](../Framework/charter-commitments.md) — assurance plane: obligations, duties, scope, depth labels, withdrawal.
 - [Grounding-Faithfulness & Contestability](../Protocol/grounding-faithfulness-and-contestability.md) — assurance plane: factual-output honesty module.
-- Five `wip/` assurance cases — obligation-to-duty crosswalk prototypes.
+- [Assurance cases](assurance-cases.md) — the five obligation-to-duty crosswalk prototypes.
 - [Control-and-evidence layer](../../Infrastructure/control-and-evidence-layer.md) — policy broker plus evidence plane.
 - [User-workflow governance](user-workflow-governance.md) — runtime reference model.
-- [Capabilities & Assurance Interface](../../wip/capabilities-and-assurance-interface.md) — demand-side check surface.
+- [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md) — demand-side check surface.
 
 ## What this is
 

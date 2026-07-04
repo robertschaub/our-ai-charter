@@ -134,6 +134,8 @@ nav:
           - Concepts:
               - "Structuring the Charter — obligations, planes, lenses": Assurance/Concepts/charter-structure-and-views.md
               - "Governance from the AI user's workflow": Assurance/Concepts/user-workflow-governance.md
+              - "Assurance cases (obligation prototypes)": Assurance/Concepts/assurance-cases.md
+              - "Capabilities & Assurance Interface": Assurance/Concepts/capabilities-and-assurance-interface.md
           - Protocol:
               - "Grounding, Faithfulness & Contestability": Assurance/Protocol/grounding-faithfulness-and-contestability.md
               - One-pager: Assurance/Protocol/one-pager.md
@@ -165,7 +167,6 @@ nav:
       - Overview: wip/README.md
       - Artifact-production plan: wip/artifact-production-plan.md
       - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
-      - "Geneva 2027 — near-term push (Jul 2026)": wip/geneva-2027-near-term-push.md
       - "Apertus — fit & engagement plan": wip/apertus-fit-and-engagement-plan.md
       - "Metagov & Public AI — assurance landscape": wip/metagov-public-ai-landscape.md
       - "Public AI — stakeholder & connection map": wip/public-ai-people-and-pathways.md
@@ -173,10 +174,4 @@ nav:
       - "Evaluation proof-of-concept — scope": wip/evaluation-poc-scope.md
       - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
       - "AI governance — when vs. who (draft article)": wip/article-when-vs-who-ai-governance.md
-      - "Assurance case: Answerable to people": wip/answerable-to-people-assurance-case.md
-      - "Assurance case: Purpose-bound": wip/purpose-bound-assurance-case.md
-      - "Assurance case: Safe/secure/private/resilient": wip/safe-secure-private-resilient-assurance-case.md
-      - "Assurance case: Fair in practice": wip/fair-in-practice-assurance-case.md
-      - "Assurance case: Open to evidence": wip/open-to-evidence-assurance-case.md
-      - "Capabilities & Assurance Interface (sketch)": wip/capabilities-and-assurance-interface.md
   - About: About.md

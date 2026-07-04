@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** — design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange. **Concepts and principles, not interfaces** — mechanisms are deliberately out of scope at this stage. Phase-2/3. Companion to [charter-structure-and-views.md](../Assurance/Concepts/charter-structure-and-views.md): the demand side's *check* surface.
-
 # Capabilities & Assurance Interface (CAI) — a design direction
 
-*A way for a person or their agent to ask, of one deployed system: **what is it for** (capabilities) and **what has been assured** (assurance). The "check" step of the demand side.*
+*Design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange — **concepts and principles, not interfaces** (mechanisms deliberately out of scope at this stage). Phase-2/3. Companion to [charter-structure-and-views.md](charter-structure-and-views.md): the demand side's *check* surface.*
+
+A way for a person or their agent to ask, of one deployed system: **what is it for** (capabilities) and **what has been assured** (assurance). The "check" step of the demand side.
 
 ## What it is
 
@@ -29,4 +29,4 @@ A machine-readable assurance surface propagates **false confidence as fast as tr
 
 ## What this is
 
-A design **direction** and a **profile** — the demand side's *check* surface, read alongside *find* (discovery) and *watch* (runtime inspection) in the [structure map](../Assurance/Concepts/charter-structure-and-views.md). Mechanisms (schemas, signing, logs) are intentionally left out at this stage.
+A design **direction** and a **profile** — the demand side's *check* surface, read alongside *find* (discovery) and *watch* (runtime inspection) in the [structure map](charter-structure-and-views.md). Mechanisms (schemas, signing, logs) are intentionally left out at this stage.
