@@ -76,7 +76,7 @@ The near-term goal is a credible **Geneva 2027 Public AI Governance & Evidence P
 
 - **Shape policy, fund, or partner** → [The Public AI Network](Published/the-public-ai-network.md) (Swiss readers: [KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)) → [Overview](network-overview.md) → [initiation strategy](Strategy/initiation-strategy.md).
 - **Build, operate, or assess AI** → [Charter Commitments](Assurance/Framework/charter-commitments.md) → [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md) → [certification model](Assurance/Framework/certification-model.md).
-- **Pressure-test the work** → [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md), then the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md); evidence in [verified findings](Evidence/verified-findings.md) and [landscape & positioning](Assurance/Background/landscape-and-positioning.md).
+- **Pressure-test the work** → [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md), then the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md); evidence in [verified findings](Evidence/verified-findings.md) and the [landscape & positioning](Strategy/landscape-and-positioning.md) scan.
 
 ## How to help
 

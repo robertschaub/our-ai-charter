@@ -142,9 +142,9 @@ nav:
           - Background:
               - Risk & vulnerability audit: Assurance/Background/risk-and-vulnerability-audit.md
               - What the world has already declared: Assurance/Background/what-the-world-has-already-declared.md
-              - Landscape & positioning: Assurance/Background/landscape-and-positioning.md
   - Strategy:
       - Initiation strategy: Strategy/initiation-strategy.md
+      - "Landscape & positioning (build vs. join)": Strategy/landscape-and-positioning.md
       - Geneva 2027 — contribution routes and partners: Strategy/geneva-2027-options.md
       - Geneva 2027 — Swissnex/Mercator fellowship & plan: Strategy/geneva-2027-swissnex-fellowship.md
       - Digital-sovereignty motions (24.3209 + 26.3221): Strategy/digital-sovereignty-motions.md

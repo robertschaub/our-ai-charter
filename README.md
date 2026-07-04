@@ -44,6 +44,7 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 ### Strategy, outreach, evidence
 
 - **[Initiation strategy](docs/Strategy/initiation-strategy.md)** — *DRAFT*. Current proposition, anchors, alliance-first route, pre-sprint, Geneva 2027 package, asks, guardrails, and the 30/60/90 roadmap.
+- **[Landscape & positioning (build vs. join)](docs/Strategy/landscape-and-positioning.md)** — *DRAFT*. Is the grounding-faithfulness wedge still open, and should the initiative build or join? Competitor scan, where-to-federate, ISO 42001 positioning, and an obsolescence watch list.
 - **[Geneva 2027 routes](docs/Strategy/geneva-2027-options.md)** — *DRAFT*. Realistic channels into the summit and the actors tied to each route.
 - **[Swissnex/Mercator fellowship plan](docs/Strategy/geneva-2027-swissnex-fellowship.md)** — *DRAFT*. Time-boxed fellowship opportunity and artifact-first plan; re-verify program details before acting.
 - **[Digital-sovereignty motions](docs/Strategy/digital-sovereignty-motions.md)** — *DRAFT*. How motions 24.3209 and 26.3221 create a policy window for governance and evidence.
@@ -62,7 +63,7 @@ The trust-and-evidence layer: can a deployed AI show its work, answer for its us
 - **[Grounding-Faithfulness & Contestability](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT*. First evaluation module; see also the [one-pager](docs/Assurance/Protocol/one-pager.md).
 - **[Certification model](docs/Assurance/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.
 - **[Charter structure and views](docs/Assurance/Concepts/charter-structure-and-views.md)** · **[User-workflow governance](docs/Assurance/Concepts/user-workflow-governance.md)** · **[Assurance cases](docs/Assurance/Concepts/assurance-cases.md)** · **[Capabilities & Assurance Interface](docs/Assurance/Concepts/capabilities-and-assurance-interface.md)** — *DRAFT*. Concept notes that map obligations, duties, runtime, reader-facing lenses, the obligation→duty assurance-case prototypes, and the demand-side "check" surface.
-- **[Risk and vulnerability audit](docs/Assurance/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/Assurance/Background/what-the-world-has-already-declared.md)** · **[Landscape & positioning](docs/Assurance/Background/landscape-and-positioning.md)** — *DRAFT*. Background and positioning.
+- **[Risk and vulnerability audit](docs/Assurance/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/Assurance/Background/what-the-world-has-already-declared.md)** — *DRAFT*. Background reference: the risks the Charter must make inspectable, and the declarations it makes checkable.
 - **[Draft notes](docs/wip/README.md)** — *WORKING NOTES*. Provisional public-safe material not yet anchored into the curated set.
 
 ## How to help
