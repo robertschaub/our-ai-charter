@@ -37,6 +37,7 @@ Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](..
 - FactHarbor masst sich **keine** Rolle als Zertifizierungs- oder Audit-Behörde an.
 - Wir stossen einen ergebnisoffenen **Prozess** an, keine einseitige Kampagne.
 - Die Ausrichtung ist **international**: Die Schweiz wirkt als Gastgeberin, Vermittlerin und Brückenbauerin — Schweizer Nutzen und internationale Wirkung ergänzen sich.
+- Für einen **inländischen Policy-Sprint** das Ziel als **nationales Impulsprogramm für ein internationales Netzwerk offener, charta-gebundener KI-Modelle** führen (Schweiz als Knotenpunkt/Koordinatorin — positiv gerahmt: internationales Ansehen und wirtschaftliche Stärke folgen aus der Rolle). Die härtere **Anti-Vereinnahmungs-/branded-„Public AI"-Sprache** aber leicht halten und der **Genf-2027-Spur** vorbehalten; als Überschrift wirkt sie zu geopolitisch aufgeladen.
 
 ## Relevante Dokumente
 
