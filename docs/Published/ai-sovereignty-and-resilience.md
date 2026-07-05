@@ -22,7 +22,7 @@ Marcel Salathé has, in recent weeks, reinvigorated the debate around an open Sw
 What is remarkable is that Switzerland already has excellent building blocks for both of these aims.
 
 - With **Apertus**, there is a publicly funded and fully open language model (EPFL, ETH Zurich, CSCS) that offers exactly this technological transparency in weights and methods.
-- The **Swiss AI Initiative / SNAI** brings together the country's leading research.
+- The **Swiss National AI Institute (SNAI)** of ETH and EPFL — with its **Swiss AI Initiative** — brings together the country's leading research.
 - As a partner country of the **Current AI** initiative, we are already internationally connected. Initiatives such as Expedition Zukunft and digitalswitzerland, as well as actors from International Geneva, further show that the methodological and diplomatic expertise for such multilateral processes is present in the country.
 - And the **AI Summit 2027 in Geneva** offers us a tangible, fast-approaching window of opportunity.
 

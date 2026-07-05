@@ -22,7 +22,7 @@ Marcel Salathé hat die Diskussion um ein offenes Schweizer KI-Modell in den ver
 Das Bemerkenswerte daran: Für diese beiden Anliegen verfügt die Schweiz bereits über hervorragende Bausteine.
 
 - Mit **Apertus** existiert ein öffentlich finanziertes und vollständig offenes Sprachmodell (EPFL, ETH Zürich, CSCS), das genau diese technologische Transparenz bei Gewichten und Methoden bietet.
-- Die **Swiss AI Initiative / SNAI** bündelt die nationale Spitzenforschung.
+- Das **Swiss National AI Institute (SNAI)** von ETH und EPFL — mit seiner **Swiss AI Initiative** — bündelt die nationale Spitzenforschung.
 - Als Partnerland der Initiative **Current AI** sind wir bereits international vernetzt. Initiativen wie Expedition Zukunft, digitalswitzerland oder Akteure des internationalen Genf zeigen zudem, dass die methodische und diplomatische Expertise für solche multilateralen Prozesse im Land vorhanden ist.
 - Und der **KI-Gipfel 2027 in Genf** bietet uns ein greifbares, nahendes Zeitfenster.
 
