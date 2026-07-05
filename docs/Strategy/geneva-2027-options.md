@@ -33,7 +33,7 @@ Roles are recorded in the [actor map](../Evidence/actors-and-landscape.md). Re-v
 ## Where to start
 
 1. **Substance first — Route B.** Open public models and PublicAI-style access are the closest fit; engage as an open governance question.
-2. **Produce the blueprint — Route C.** A neutral pre-sprint turns the idea into a memo others can carry. The **domestic cross-party sprint** now leads with the goal itself — a **national impulse programme for an international network of open, charter-bound AI models** with Switzerland as hub/coordinator (motion-anchored — see [action plan](../Outreach/action-plan.en.md)); positive framing (host/coordinator, resilience, independence) carries the headline. Keep the harder **capture-resistance / co-stewardship** wording as separate, Geneva-framed detail.
+2. **Produce the blueprint — Route C.** A neutral pre-sprint turns the idea into a memo others can carry. The **domestic cross-party sprint** now leads with the goal itself — a **national impulse programme for an international network of open, charter-bound AI models** with Switzerland as hub/coordinator (motion-anchored — see [action plan](../Outreach/action-plan.en.md)); positive framing (host/coordinator, resilience, self-determination) carries the headline. Keep the harder **capture-resistance / co-stewardship** wording as separate, Geneva-framed detail.
 3. **Open doors — Route D.** International-Geneva conveners supply multilateral context and visibility.
 4. **Use official channels — Route A/A'** only once there is a coalition and concrete deliverable.
 5. **Use E/F later** for political and funding support.

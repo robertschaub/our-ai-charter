@@ -49,6 +49,6 @@ To take part, open a [GitHub issue](https://github.com/robertschaub/our-ai-chart
 
 Beyond what does not exist *yet* (see the status box above), these are boundaries by design:
 
-- Not a new language model competing with Apertus/SNAI or any other public model.
+- Not a new language model competing with Apertus or any other public model.
 - Not a single global GPU pool or a claim of full-stack sovereignty.
 - Not a way for funders, operators, or model providers to buy control over the rules.
