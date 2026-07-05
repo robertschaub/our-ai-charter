@@ -18,7 +18,7 @@ The sources span operational anchors, standards and legal foundations, regional 
 
 | Priority | Initiative | Why it matters most | Where the Charter contribution could be effective |
 |---:|---|---|---|
-| 1 | **Public AI / PAINT** — https://publicai.network/ | Closest conceptual match: AI as public infrastructure, public access, public accountability, and permanent public goods. | Provide a simple trust-and-evidence framework that public-AI initiatives can use to explain why they are public-interest, accountable, and correctable. |
+| 1 | **Public AI Network / PAINT** — https://publicai.network/ | Closest conceptual match: AI as public infrastructure, public access, public accountability, and permanent public goods. | Provide a simple trust-and-evidence framework that public-AI initiatives can use to explain why they are public-interest, accountable, and correctable. |
 | 2 | **Apertus / Swiss AI Initiative** — https://www.swiss-ai.org/apertus | Strongest Swiss technical proof point for sovereign, open, public AI. | Create an evaluation card for Apertus-like models: what is open, documented, testable, risky, and publicly challengeable. |
 | 3 | **Public AI Inference Utility** — https://publicai.co/ | Makes open models usable as infrastructure, not merely downloadable artifacts. | Define public-service expectations for inference utilities: model origin, usage limits, safeguards, incident reporting, and redress channels. |
 | 4 | **Current AI** — https://www.currentai.org | International funding and coalition bridge for public-interest AI. | Position the Charter as a lightweight assurance package for grantees and public-interest AI projects. |
