@@ -6,7 +6,7 @@ _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
 **Update 2026-06-19:** Der Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Externe Aussagen vor Verwendung prüfen.
 
-**Aufhänger (CH):** „Internationales, vertrauenswürdiges öffentliches KI-Netzwerk – die Schweiz als Wegbereiterin." — Einstiegssatz für Schweizer Kontakte. „Wegbereiterin" (bewusst nicht „Koordinatorin"): eine aktive, sichtbare Rolle, ohne Mandat oder Eigentümerschaft zu suggerieren — anschlussfähig an die Rolle als Gastgeberin und Brückenbauerin (siehe Leitplanken).
+**Aufhänger (CH):** „Internationales, vertrauenswürdiges öffentliches KI-Netzwerk – die Schweiz als Wegbereiterin." — Einstiegssatz für Schweizer Kontakte. Im **aktuellen Auftritt** „Wegbereiterin / Gastgeberin / Brückenbauerin" wählen: eine aktive, sichtbare Rolle, **ohne heute ein Mandat oder Eigentümerschaft zu suggerieren**. Die im Ziel genannte Rolle „Knotenpunkt und **Koordinator**" ist die **angestrebte Rolle im Netzwerk** (was das Netzwerk der Schweiz gäbe), kein Anspruch auf ein Koordinationsmandat heute (siehe Leitplanken).
 
 **Rolle:** Impulsgeber und Allianzbildner. Die Schweiz soll als glaubwürdige Gastgeberin und Knotenpunkt wirken — von Beginn an international ausgerichtet. Es wird keine neue Institution behauptet.
 
@@ -37,7 +37,7 @@ Die vollständige, quellenbelegte Ankerliste steht in den [Verified Findings](..
 - FactHarbor masst sich **keine** Rolle als Zertifizierungs- oder Audit-Behörde an.
 - Wir stossen einen ergebnisoffenen **Prozess** an, keine einseitige Kampagne.
 - Die Ausrichtung ist **international**: Die Schweiz wirkt als Gastgeberin, Vermittlerin und Brückenbauerin — Schweizer Nutzen und internationale Wirkung ergänzen sich.
-- Für einen **inländischen Policy-Sprint** das Ziel als **nationales Impulsprogramm für ein internationales Netzwerk offener, charta-gebundener KI-Modelle** führen (Schweiz als Knotenpunkt/Koordinatorin — positiv gerahmt: internationales Ansehen und wirtschaftliche Stärke folgen aus der Rolle). Die härtere **Anti-Vereinnahmungs-/branded-„Public AI"-Sprache** aber leicht halten und der **Genf-2027-Spur** vorbehalten; als Überschrift wirkt sie zu geopolitisch aufgeladen.
+- Für einen **inländischen Policy-Sprint** das Ziel als **nationales Impulsprogramm für ein internationales Netzwerk offener, charta-gebundener KI-Modelle** führen (Schweiz als Knotenpunkt; Koordination als angestrebte Netzwerk-Rolle — positiv gerahmt: internationales Ansehen und wirtschaftliche Stärke folgen aus der Rolle). Die härtere **Anti-Vereinnahmungs-/branded-„Public AI"-Sprache** aber leicht halten und der **Genf-2027-Spur** vorbehalten; als Überschrift wirkt sie zu geopolitisch aufgeladen.
 
 ## Relevante Dokumente
 
