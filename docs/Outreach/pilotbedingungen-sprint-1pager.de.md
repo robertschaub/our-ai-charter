@@ -29,6 +29,8 @@
 
 Programm-Eckwerte · Governance-/Charta-Grundzüge · Auswahl-/Förderkriterien · Postulat/Interpellation oder Vorbereitungsmandat für einen Pre-Sprint.
 
+*Umsetzung/Pilotierung ist ein späterer, koalitionsgetragener Schritt — der Beitrag bis Genf 2027 ist Prozess, Blueprint und Charta-Entwurf.*
+
 ## Was es nicht ist
 
 Keine neue Behörde, keine Zertifizierungs- oder Audit-Stelle, kein Gütesiegel · kein Konkurrenzmodell zu Apertus/SNAI · keine Schweizer Insellösung (im Gegenteil: international vernetzt).
