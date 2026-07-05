@@ -12,7 +12,7 @@ hide:
 </div>
 
 <div class="lead" markdown>
-Our AI Charter is an **early public draft for a public-AI governance and evidence layer** in which participating AI providers commit to **public obligations** and join a **shared navigation architecture** — a common way to find, compare, and reach the AI systems that take part.
+Our AI Charter is an **early public draft for a public-AI governance and evidence layer** for an **international network of open AI models** whose providers commit to a **common charter of public obligations** — with a **shared navigation architecture** to find, compare, and reach the AI systems that take part.
 </div>
 
 AI is becoming the infrastructure people learn, work, decide, and form opinion with. Infrastructure that important should not depend on a few providers, unclear shutdown powers, hidden data practices, unverifiable factual claims, or systems that affected people cannot challenge.
@@ -68,9 +68,9 @@ The [Charter Commitments](Assurance/Framework/charter-commitments.md) turn those
 
 ## Where the work stands
 
-This is **Phase 1: public drafting and connection-building** — nothing is certified or operational yet ([what stands today](network-overview.md)). Coalitions, roles, and processes are stated as **intent, not fact**; the work is additive to existing efforts, especially SNAI/Apertus; and Switzerland is framed as host, node, and bridge, not owner.
+This is **Phase 1: public drafting and connection-building** — nothing is certified or operational yet ([what stands today](network-overview.md)). Coalitions, roles, and processes are stated as **intent, not fact**, and the work is **additive to existing open-model and public-AI efforts, not a competitor**.
 
-The near-term goal is a credible **Geneva 2027 Public AI Governance & Evidence Package** — a neutral clarification process, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path. The route is **alliance and mandate first, lawmaking later**, and the building blocks already exist: open Swiss models (Apertus/SNAI), the Current AI partnership, two Council-of-States-adopted sovereignty motions, and the Geneva 2027 summit window. The [initiation strategy](Strategy/initiation-strategy.md) gives the sequence and roadmap; the [verified findings](Evidence/verified-findings.md) hold the sourced anchors.
+The near-term goal is a credible **Geneva 2027 Public AI Governance & Evidence Package** — a neutral clarification process, a governance blueprint, one evidence/evaluation pilot outline, and a roundtable path — building on existing open models (Apertus among them), the Current AI partnership, and the Geneva 2027 summit window. The route is **alliance and mandate first, lawmaking later**. The work is **incubating in Switzerland — as a neutral host and bridge, not owner — and international by design**. The [initiation strategy](Strategy/initiation-strategy.md) gives the sequence and roadmap; the [verified findings](Evidence/verified-findings.md) hold the sourced anchors.
 
 ## Find your path
 
