@@ -7,9 +7,9 @@
 
 Our AI Charter exists to **protect and strengthen free and fair societies in the digital age** — through public-AI governance and infrastructure that are accountable to people and support societal resilience and economic prosperity.
 
-It is an early public draft for a **public-AI governance and evidence layer**: open, plural, accountable AI infrastructure that free societies can inspect, contest, and rely on. It is not affiliated with any existing Public AI coalition unless explicitly stated, and it is not a certification, standard, Trust Mark, registry, or active pilot.
+It is an early public draft for an **international network of open AI models** whose providers commit to a **common charter of public obligations**, backed by an **independent governance-and-evidence layer** — open, plural, and accountable, so free societies can inspect, contest, and rely on it. It is not affiliated with any existing Public AI coalition unless explicitly stated, and it is not a certification, standard, Trust Mark, registry, or active pilot.
 
-The current operational priority is the **public-AI sovereignty and infrastructure** work — resilience, Swiss and international coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence building block: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
+The current operational priority is the **Public-AI Governance & Infrastructure** work — sovereignty, resilience, Swiss and international coordination, and a Geneva 2027 window — pursued internationally with Switzerland as the entry point. **AI Assurance & Certification** is the trust-and-evidence building block: the obligations, evaluation method, and future assurance model that would let public-AI claims be checked instead of merely asserted.
 
 Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · About: **[About.md](docs/About.md)** · Stewarded by Robert Schaub and the **[FactHarbor association (Verein)](docs/About.md#stewardship-and-governance)**.
 

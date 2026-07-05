@@ -12,7 +12,7 @@ hide:
 </div>
 
 <div class="lead" markdown>
-Our AI Charter is an **early public draft for a public-AI governance and evidence layer** for an **international network of open AI models** whose providers commit to a **common charter of public obligations** — with a **shared navigation architecture** to find, compare, and reach the AI systems that take part.
+Our AI Charter is an **early public draft for an international network of open AI models** whose providers commit to a **common charter of public obligations**, backed by an **independent governance-and-evidence layer** — with a **shared navigation architecture** to find, compare, and reach the AI systems that take part.
 </div>
 
 AI is becoming the infrastructure people learn, work, decide, and form opinion with. Infrastructure that important should not depend on a few providers, unclear shutdown powers, hidden data practices, unverifiable factual claims, or systems that affected people cannot challenge.
