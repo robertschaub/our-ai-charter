@@ -19,7 +19,7 @@ This is also an economic problem. Capability, skills, bargaining power, and valu
 Switzerland has unusually strong assets for a public-AI governance and evidence contribution:
 
 - **Technological and scientific:** With *Apertus*, a fully open, publicly funded Swiss language model already exists (EPFL, ETH Zurich, CSCS; Apache 2.0). Weights, training data, code, and methods are transparently accessible.
-- **Institutional:** The Swiss AI Initiative / Swiss National AI Institute (SNAI), a partnership of the ETH and EPFL AI Centers, connects more than 800 researchers across more than 10 institutions, alongside the Swiss National Supercomputing Centre (CSCS).
+- **Institutional:** The **Swiss National AI Institute (SNAI)** — a partnership of the ETH and EPFL AI Centers, which runs the **Swiss AI Initiative** — connects more than 800 researchers across more than 10 institutions, alongside the Swiss National Supercomputing Centre (CSCS).
 - **Diplomatic:** As host of the Geneva AI Summit 2027, Switzerland can act as a neutral convenor and bridge-builder.
 - **Internationally anchored:** Switzerland is already a Country Partner of *Current AI*, the Paris-based partnership for public-interest AI.
 - **Political:** In 2026 the Council of States adopted two relevant motions: 24.3209 on sovereign digital infrastructure and 26.3221 on an impetus programme for digital sovereignty, including open source and AI. Both are now before the National Council. They strengthen the case for building; the governance and evidence layer is still open.
