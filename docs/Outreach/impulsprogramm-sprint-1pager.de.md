@@ -22,6 +22,7 @@
 
 - **Gemeinsame Charta**, auf die sich die Beteiligten **überprüfbar** verpflichten: Zweckbindung, Provenienz, Verantwortlichkeiten, Anfechtbarkeit, Exit-Fähigkeit.
 - **Offene Modelle im Verbund** — Interoperabilität, Anbieterwechsel, Betriebskontinuität.
+- **Gemeinsamer, rechtekonformer Daten-Commons** — im Verbund gebündelte Lizenzierung klärt rechtekompatible Trainingsdaten (auch für offene Nutzung) verhandlungsstärker und günstiger als im Alleingang.
 - **Governance & Trägerschaft** — Rollen, unabhängige Aufsicht, transparente Finanzierung.
 - **Schweizer Knotenpunkt-Rolle** — Gastgeberin und Koordinatorin; Anschluss an Genf 2027.
 

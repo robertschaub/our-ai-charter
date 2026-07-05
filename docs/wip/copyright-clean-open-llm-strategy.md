@@ -217,7 +217,7 @@ The main market mistake is to position copyright-clean open/public LLMs as a gen
 
 Build the **rights-clean public frontier flywheel** - an *ecosystem* agenda, not a to-do list for one actor. This initiative contributes one part of it: the rights, governance, evidence, procurement, and accountability layer (see [control & evidence layer](../Infrastructure/control-and-evidence-layer.md)); the compute, model-factory, and inference-utility layers belong to partners:
 
-1. **Data layer:** combine public-domain/open corpora, lawful TDM with opt-out compliance, public-sector data, cultural archives, and negotiated licensing pools.
+1. **Data layer:** combine public-domain/open corpora, lawful TDM with opt-out compliance, public-sector data, cultural archives, and negotiated licensing pools — where an **international network multiplies bargaining power** and spreads cost across members and jurisdictions (a credible public counterpart rightsholders can license to once, for open-compatible use), rather than each public model negotiating alone.
 2. **Rights layer:** maintain crawler logs, provenance metadata, opt-out registries, takedown/update workflows, model training summaries, and source-domain reporting.
 3. **Compute layer:** pool national/public compute through Swiss AI, EuroHPC, AI Factories, universities, and trusted commercial partners.
 4. **Model factory:** release reproducible model flows: data recipes, training code, checkpoints, post-training data, evals, safety tests, and deployment configs.

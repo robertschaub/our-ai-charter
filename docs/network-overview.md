@@ -16,7 +16,7 @@ The proposed public-AI network is an international effort to make public AI usab
 Four pillars:
 
 1. **Open, plural models** — no privileged model, country, or vendor.
-2. **Data and knowledge commons** — lawful, rights-respecting, documented sources and provenance.
+2. **Data and knowledge commons** — lawful, rights-respecting, documented sources and provenance, with **pooled licensing** to clear rights-compatible data (including for open use) at a network scale and cost no single public model could reach.
 3. **Shared assurance and evaluation** — public, checkable evidence for what a system claims and how it answers for failures.
 4. **Federated public AI infrastructure** — independent compute nodes under shared rules; the first buildable substrate.
 
