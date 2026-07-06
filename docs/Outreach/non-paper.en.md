@@ -24,7 +24,7 @@ Switzerland has unusually strong assets for a public-AI governance and evidence 
 - **Internationally anchored:** Switzerland is already a Country Partner of *Current AI*, the Paris-based partnership for public-interest AI.
 - **Political:** In 2026 the Council of States adopted two relevant motions: 24.3209 on sovereign digital infrastructure and 26.3221 on an impetus programme for digital sovereignty, including open source and AI. Both are now before the National Council. They strengthen the case for building; the governance and evidence layer is still open.
 
-The strongest Swiss contribution is therefore not another isolated national model. It is a credible host-and-node role for internationally co-stewarded public AI infrastructure: open, inspectable, multilingual, scientifically grounded, rights-respecting, and protected from political or commercial capture.
+The strongest Swiss contribution therefore lies in a credible host-and-node role for internationally co-stewarded public AI infrastructure: open, inspectable, multilingual, scientifically grounded, rights-respecting, and protected from political or commercial capture.
 
 ## 3. The missing layer: governance plus evidence
 

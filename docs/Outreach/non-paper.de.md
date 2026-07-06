@@ -24,7 +24,7 @@ Die Schweiz verfügt über ungewöhnlich starke Voraussetzungen für einen Publi
 - **International verankert:** Die Schweiz ist bereits Country Partner von *Current AI*, der in Paris ansässigen Partnerschaft für gemeinwohlorientierte KI.
 - **Politisch:** Der Ständerat hat 2026 zwei einschlägige Motionen angenommen: 24.3209 zur souveränen digitalen Infrastruktur und 26.3221 zu einem Impulsprogramm für digitale Souveränität, einschliesslich Open Source und KI. Beide liegen nun beim Nationalrat. Sie stärken den Auftrag zum Aufbau; die Governance- und Nachweisschicht bleibt offen.
 
-Der stärkste Schweizer Beitrag ist daher nicht ein weiteres isoliertes nationales Modell. Er liegt in einer glaubwürdigen Rolle als Gastgeberin und Knotenpunkt einer international ko-getragenen Public-AI-Infrastruktur: offen, überprüfbar, mehrsprachig, wissenschaftlich fundiert, grundrechtswahrend und vor politischer oder kommerzieller Vereinnahmung geschützt.
+Der stärkste Schweizer Beitrag liegt daher in einer glaubwürdigen Rolle als Gastgeberin und Knotenpunkt einer international ko-getragenen Public-AI-Infrastruktur: offen, überprüfbar, mehrsprachig, wissenschaftlich fundiert, grundrechtswahrend und vor politischer oder kommerzieller Vereinnahmung geschützt.
 
 ## 3. Die fehlende Schicht: Governance plus Nachweise
 
