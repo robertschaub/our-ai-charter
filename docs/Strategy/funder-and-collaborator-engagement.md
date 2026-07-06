@@ -28,6 +28,40 @@ Roles and contacts are in the [actor map](../Evidence/actors-and-landscape.md); 
 
 Stiftung Mercator Schweiz is a warm line via the [Swissnex "Geneva Loading" fellowship](geneva-2027-swissnex-fellowship.md) channel — let the relationship build through that channel; don't double-approach it cold.
 
+## Cost-bearer map — who could fund or host (Switzerland & international)
+
+A deeper, grounded ranking of *cost-bearers* — who could fund or host the work — extending and ranking the funders named in [*Who, for what*](#who-for-what) above. Researched 2026-07-06 from primary and official sources; each row is an assessment of **fit**, not a secured route, and the [stage rule](#the-stage-rule-map-and-warm-not-ask) still governs *timing* (map and warm now; a deliverable-backed ask later). Re-verify amounts and open calls before acting.
+
+**The opportunity — the cost-bearer may already exist.** The initiatives closest to the goal are also the most realistic funders/hosts. Most consequential: the [Paris Charter on AI in the Public Interest](https://www.elysee.fr/en/emmanuel-macron/2025/02/11/the-paris-charter-on-artificial-intelligence-in-the-public-interest) (Feb 2025, ten states **including Switzerland**) and its vehicle [Current AI](https://www.currentai.org/) already pledged "independent auditing and accountability tools" but have **not built** that layer — so the non-duplicative position is *the independent assurance institution the ecosystem committed to yet lacks*, pitched **into** it via Switzerland's partner seat, not beside it. This is also why leading with the **assurance/charter layer** rather than "another open-model network" (which [ICAIN](https://icain.ch/), Public AI and OpenEuroLLM already are) both lowers the "already covered" risk and points straight at the funder.
+
+### Switzerland
+
+| Cost-bearer | Money? | Fit & entry | Confidence |
+|---|---|---|---|
+| **Stiftung Mercator Schweiz** — *Digitalisierung + Gesellschaft*; the CHF 4m "Digitalisierung und Demokratie" line with the [Hasler Foundation](https://haslerstiftung.ch/) | Yes (grants) | Best values + funding-mode fit (public-interest, democracy-&-AI, funds non-profits). Enquire to the programme with an institutional co-anchor; **don't double-approach** it cold *and* via the [Swissnex channel](geneva-2027-swissnex-fellowship.md). | High (fit) |
+| **ICAIN / IGAIP** — Swiss FDFA + ETH; live grant programme | Yes (IGAIP) | Best institutional **host** + Geneva-2027 on-ramp; its scope is *access*, so frame the Charter as a governance-**enabler**, not a competing network. | Med-high |
+| **Motion 26.3221 line** (via SERI/OFCOM), *if the National Council also adopts* | Future (no franc figure) | Strong on *content* (open source + AI + pilots) but 12–24 months out and nationally framed — political tailwind, not a near-term cheque; position the Charter as a ready-made pilot. | Medium |
+| **Innosuisse** (Swiss Accelerator / Flagship) | Yes | Precedent exists (it funded [LatticeFlow](https://latticeflow.ai/)'s AI-governance/compliance tooling), but core instruments need a company + research partner and a market angle — awkward for a neutral public-good blueprint. | Medium |
+| **Swiss AI Action Plan** (digitalswitzerland + OFCOM) | **No** (in-kind) | Host / legitimacy + a Geneva badge, not money; has a *Smart AI Governance* pillar — contribute via its participation platform. | High (no money) |
+| **Fondation Botnar / Gebert Rüf Stiftung** | Yes | Off-thesis unless narrowly reframed (Botnar = youth/health AI; Gebert Rüf = science-to-market). | Low-med |
+| **SNSF** | Yes | Research-project instrument only — needs an academic PI/host and a research reframe. | Low-med |
+| *ETH Domain — Swiss AI Initiative (CHF 20m)* | earmarked | **Not available** — funds model training/compute, not governance; cite only as precedent that Switzerland funds open-model public-interest AI at scale. | — |
+
+### International
+
+| Cost-bearer | Money? | Fit & entry | Confidence |
+|---|---|---|---|
+| **Current AI / Paris-Charter partner track** — [$400m, $2.5bn/5yr goal](https://www.currentai.org/) | Yes | Highest strategic fit, hardest money (relationship/cohorts, no open call). Enter via Switzerland's Paris-Charter partner seat + the Public AI / Metagov node; position as the assurance layer they pledged but haven't built. | High (fit) / Med (near-term) |
+| **EuroHPC AI Factories** — [Switzerland rejoined the JU 11 Nov 2025](https://www.eurohpc-ju.europa.eu/switzerland-officially-rejoins-eurohpc-joint-undertaking-2025-11-11_en); "HEARTS" antenna | In-kind (compute) | Confirmed CH-eligible — but for the *open-models* limb only, **not** governance/assurance. | High |
+| **Mozilla Foundation** (part of the Humanity AI $500m/5yr cluster) | Yes (~$50k scale) | Best genuinely-open philanthropic door (open calls/cohorts, open-source values); good to seed the charter-draft/blueprint. | High (access) / Med (size) |
+| **European AI & Society Fund** | Yes | Closest thematic twin (AI governance/accountability), open-call culture — but currently closed and Swiss eligibility unconfirmed. | Medium |
+| **Patrick J. McGovern Foundation** | Yes | Explicitly funds "architecture to evaluate and govern AI" internationally; invite-only → needs a warm intro (it co-funds Current AI — a bridge). | Medium |
+| **Open Society / Omidyar** (the [$200m funders' initiative](https://www.opensocietyfoundations.org/newsroom/open-society-and-other-funders-launch-new-initiative-to-ensure-ai-advances-the-public-interest) / Humanity AI) | Yes | Fund exactly this space but invite/referral-only — reachable only through existing partners. | Low-med (access) |
+| **Horizon Europe / Digital Europe** | Yes | Switzerland now eligible (associated country), but no confirmed fitting open call and prime-eligibility for a solo body is doubtful — needs a consortium. | Low (near-term) |
+| *UN / ITU / GPAI / OECD; Bertelsmann Stiftung* | — | **Not cost-bearers** — conveners / standard-setters (legitimacy & Geneva venues), resp. an operator/ally, not funders. | — |
+
+**Open verifications (before relying on any of these):** parliament.ch was not directly fetchable, so Motion 26.3221's status rests on Swiss trade press (adopted by the Council of States 30:7:1 on 10.6.2026, now before the National Council; no franc figure); the Swiss AI Action Plan's full *Smart AI Governance* action list was not retrievable (an assurance action may already exist there); European AI & Society Fund's Swiss eligibility is unconfirmed; and whether Current AI has a *dedicated* governance/assurance grant line (only tooling grants seen so far).
+
 ## The discipline
 
 - **The question that turns a funder chat into intelligence:** *what would you need to see before this is something you would fund / co-produce?* That answer is the most valuable thing to leave with.
