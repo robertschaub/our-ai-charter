@@ -2,7 +2,7 @@
 
 # National impulse programme for an international network of open AI models — sprint presentation
 
-*Short presentation and handout for a policy-sprint scoping (e.g. with a neutral convenor). German version: [impulsprogramm-sprint-praesentation.de.md](impulsprogramm-sprint-praesentation.de.md). Brief version: [1-pager (DE)](impulsprogramm-sprint-1pager.de.md) · fuller framing: [Non-Paper](non-paper.en.md).*
+*Short presentation and handout for a policy-sprint scoping (e.g. with a neutral convenor). German version: [impulsprogramm-sprint-praesentation.de.md](impulsprogramm-sprint-praesentation.de.md). Projectable slides: [Slides (EN, HTML)](impulsprogramm-sprint-slides.en.html). Brief version: [1-pager (DE)](impulsprogramm-sprint-1pager.de.md) · fuller framing: [Non-Paper](non-paper.en.md).*
 
 This page is a through-line for a 30-minute scoping conversation and a handout at the same time: from the goal through the building blocks to the concrete ask.
 

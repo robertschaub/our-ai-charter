@@ -2,7 +2,7 @@
 
 # Nationales Impulsprogramm für ein internationales Netzwerk offener KI-Modelle — Sprint-Präsentation
 
-*Kurzpräsentation und Handout für ein Policy-Sprint-Scoping (z. B. mit einem neutralen Convenor wie Expedition Zukunft). Englische Fassung: [sprint presentation (EN)](impulsprogramm-sprint-presentation.en.md) · projektierbare Folien: [Slides (HTML)](impulsprogramm-sprint-slides.de.html). Knappe Fassung: [1-Pager](impulsprogramm-sprint-1pager.de.md) · ausführliche Rahmung: [Non-Paper](non-paper.de.md).*
+*Kurzpräsentation und Handout für ein Policy-Sprint-Scoping (z. B. mit einem neutralen Convenor wie Expedition Zukunft). Englische Fassung: [sprint presentation (EN)](impulsprogramm-sprint-presentation.en.md) · projektierbare Folien: [DE](impulsprogramm-sprint-slides.de.html) / [EN](impulsprogramm-sprint-slides.en.html). Knappe Fassung: [1-Pager](impulsprogramm-sprint-1pager.de.md) · ausführliche Rahmung: [Non-Paper](non-paper.de.md).*
 
 Diese Seite dient als roter Faden für ein 30-minütiges Sondierungsgespräch und zugleich als Handout: vom Ziel über die Bausteine bis zur konkreten Bitte.
 
