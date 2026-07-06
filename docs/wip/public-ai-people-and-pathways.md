@@ -99,6 +99,24 @@ flowchart LR
 
 **Reading:** same movement, different lanes — Tan the intellectual/organisational core, Tarkowski the Brussels policy flank, Klein the verification/provenance founder. They intersect through the coalition and, for Tan × Tarkowski, through one seminar season. Treat these as professional peer ties, not proven close partnerships.
 
+### Alek Tarkowski — one bridge, close up
+
+*A focused lens on a single bridge — Alek's ties from §1 and §3 in one person-centric view (structural, publicly-sourced links only).*
+
+```mermaid
+flowchart LR
+  CC["Creative Commons<br/>ex-board"] --> ALEK
+  CYF["Centrum Cyfrowe<br/>founder"] --> ALEK
+  ALEK["Alek Tarkowski<br/>Open Future · Dir. of Strategy"]
+  ALEK -->|"Open Future = EU-policy arm"| PAN["Public AI Network<br/>Metagov coalition"]
+  ALEK -->|"peer · co-ran Seminar S3 (2025)"| TAN["Joshua Tan<br/>coalition hub"]
+  TAN --> PAN
+  ALEK -.->|"via Wikimedia Europe board"| WMCH["Wikimedia CH<br/>knowledge-commons ally"]
+  WMCH -.->|"Geneva-2027 plan — verify"| GEN["Geneva 2027 Summit"]
+```
+
+Alek is a **bridge, not a decision-maker** — his leverage is Open Future (the coalition's EU-policy arm) and his Wikimedia Europe board seat; coalition decisions route through Tan. The dashed Wikimedia CH → Geneva-2027 link is his report, not yet confirmed in public sources — **verify**.
+
 ## 4. Apertus grounding confirmed this session
 
 Both folded into the [Apertus note §1](apertus-fit-and-engagement-plan.md); recorded here so the people-map stays self-contained.
