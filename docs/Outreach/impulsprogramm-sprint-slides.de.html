@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impulsprogramm-Sprint — Folien (DE)</title>
+<style>
+  :root{
+    --indigo:#534AB7; --ink:#26215C; --wash:#EEEDFE; --muted:#5c5c6b;
+    --line:#d9d7ee; --bg:#ffffff; --accent:#534AB7;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:var(--bg); overflow:hidden;
+  }
+  .deck{height:100vh;width:100vw;position:relative}
+  .slide{
+    position:absolute;inset:0;display:none;
+    flex-direction:column;justify-content:center;
+    padding:6vh 8vw;overflow:auto;
+  }
+  .slide.active{display:flex;animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.85rem;font-weight:700;color:var(--indigo);margin:0 0 .6rem}
+  h1{font-size:clamp(1.7rem,4.6vw,3.2rem);line-height:1.12;margin:.2rem 0 .6rem}
+  h2{font-size:clamp(1.4rem,3.2vw,2.2rem);line-height:1.15;margin:0 0 1.1rem;color:var(--ink)}
+  .lead{font-size:clamp(1.05rem,2vw,1.5rem);line-height:1.5;color:#38334f}
+  .quote{
+    border-left:5px solid var(--indigo);background:var(--wash);
+    padding:1.1rem 1.4rem;border-radius:.4rem;font-size:clamp(1.05rem,2vw,1.55rem);line-height:1.5;
+  }
+  ul{margin:.4rem 0 0;padding-left:1.2em;font-size:clamp(1rem,1.8vw,1.4rem);line-height:1.55}
+  li{margin:.5rem 0}
+  li b, strong{color:var(--ink)}
+  .sub{color:var(--muted);font-size:clamp(.9rem,1.4vw,1.05rem);margin-top:1rem}
+  .draft{position:fixed;top:14px;right:18px;font-size:.72rem;font-weight:700;letter-spacing:.12em;
+    color:#fff;background:var(--indigo);padding:.2rem .5rem;border-radius:.3rem;opacity:.9;z-index:5}
+  /* layer diagram */
+  .stack{display:flex;flex-direction:column;gap:.55rem;max-width:56rem}
+  .box{border:1.5px solid var(--line);border-radius:.5rem;padding:.7rem 1rem;background:#fafaff;font-size:clamp(.92rem,1.5vw,1.2rem)}
+  .box .t{font-weight:700;color:var(--ink)}
+  .box .d{color:var(--muted);font-size:.9em}
+  .box.hl{border-color:var(--indigo);background:var(--wash);border-width:2px}
+  .row2{display:flex;gap:.55rem}
+  .row2 .box{flex:1}
+  .arrow{color:var(--indigo);font-weight:700;text-align:center;font-size:1rem;margin:-.15rem 0}
+  .hostnote{margin-top:.6rem;color:var(--indigo);font-weight:600;font-size:clamp(.9rem,1.5vw,1.15rem)}
+  /* mini table */
+  table{border-collapse:collapse;width:100%;max-width:62rem;font-size:clamp(.9rem,1.5vw,1.15rem)}
+  th,td{border:1px solid var(--line);padding:.55rem .7rem;text-align:left;vertical-align:top}
+  th{background:var(--wash);color:var(--ink)}
+  td.b{color:var(--ink);font-weight:600}
+  .ask{border:2px solid var(--indigo);border-radius:.6rem;background:var(--wash);padding:1rem 1.3rem;max-width:58rem}
+  .ask ul{margin:.2rem 0}
+  /* controls */
+  .ctrl{position:fixed;bottom:14px;right:18px;display:flex;gap:.4rem;align-items:center;z-index:5}
+  .ctrl button{font:inherit;border:1px solid var(--line);background:#fff;color:var(--ink);
+    border-radius:.4rem;padding:.35rem .7rem;cursor:pointer}
+  .ctrl button:hover{border-color:var(--indigo);color:var(--indigo)}
+  .counter{color:var(--muted);font-size:.85rem;min-width:3.2rem;text-align:center}
+  .progress{position:fixed;top:0;left:0;height:4px;background:var(--indigo);width:0;transition:width .2s;z-index:6}
+  .hint{position:fixed;bottom:16px;left:18px;color:var(--muted);font-size:.8rem;z-index:5}
+  a{color:var(--indigo)}
+  @media print{
+    body{overflow:visible}
+    .slide{display:flex !important;position:static;height:auto;min-height:96vh;page-break-after:always;border-bottom:1px solid var(--line)}
+    .ctrl,.hint,.progress,.draft{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="draft">DRAFT</div>
+<div class="progress" id="progress"></div>
+<div class="deck" id="deck">
+
+  <section class="slide active">
+    <p class="eyebrow">Sprint-Vorschlag · Sondierung</p>
+    <h1>Nationales Impulsprogramm für ein internationales Netzwerk offener KI-Modelle</h1>
+    <p class="lead">Gemeinsame, überprüfbare Charta · unabhängige Nachweisschicht · Schweiz als Knotenpunkt und Koordinator.</p>
+    <p class="sub">Kurzpräsentation &amp; Handout. Vertiefung: 1-Pager · Non-Paper.</p>
+  </section>
+
+  <section class="slide">
+    <h2>1 · Das Ziel</h2>
+    <p class="quote">Ein <b>nationales Impulsprogramm</b> für ein <b>internationales Netzwerk offener KI-Modelle</b>, dessen Beteiligte sich <b>überprüfbar auf eine gemeinsame Charta verpflichten</b>. So schützt und stärkt es <b>freie und faire Gesellschaften im digitalen Zeitalter</b> und fördert deren <b>Resilienz und Selbstbestimmung</b>. Als <b>wichtiger internationaler Knotenpunkt und Koordinator</b> gewinnt die <b>Schweiz</b> zugleich an <b>Ansehen und wirtschaftlicher Stärke</b>.</p>
+  </section>
+
+  <section class="slide">
+    <h2>2 · Die Sprint-Frage</h2>
+    <p class="quote">Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt und Koordinator wirkt?</p>
+    <p class="sub">Zuschnitt-Leiter: Mission (Ziel) → Programm-Design (Charta, Governance, Auswahl, Trägerschaft) → konkreter Baustein.</p>
+  </section>
+
+  <section class="slide">
+    <h2>3 · Warum jetzt</h2>
+    <ul>
+      <li><b>Politisches Fenster:</b> Ständerat 2026 — Motion <b>26.3221</b> (Impulsprogramm, 10.6.) und <b>24.3209</b> (souveräne Infrastruktur, 20.3.); beide jetzt im Nationalrat. Sie stärken den <i>Aufbau</i> — Zweck, Governance, Vernetzung bleiben offen.</li>
+      <li><b>Bausteine vorhanden:</b> Apertus (vollständig offen) · Schweiz ist Partnerland von Current AI · Swiss AI Action Plan (23 Actions).</li>
+      <li><b>Zeitfenster:</b> KI-Gipfel Genf 2027 — und im Juli 2026 tagen in Genf UN Global Dialogue on AI Governance (6.–7.7.) und ITU AI for Good (7.–10.7.).</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>4 · Wo die Charta- und Assurance-Schicht sitzt</h2>
+    <div class="stack">
+      <div class="box hl"><span class="t">Unabhängige Governance- und Evidenzschicht (Assurance)</span><br><span class="d">Nachweis statt Selbstauskunft — prüft und weist nach</span></div>
+      <div class="arrow">▲ prüft / bindet zurück</div>
+      <div class="box hl"><span class="t">Gemeinsame Charta</span><br><span class="d">öffentliche Pflichten, überprüfbare Verpflichtung — bindet das Netzwerk</span></div>
+      <div class="arrow">▲</div>
+      <div class="row2">
+        <div class="box"><span class="t">Offene KI-Modelle</span><br><span class="d">z. B. Apertus, weitere</span></div>
+        <div class="box"><span class="t">Zugang und Betrieb</span><br><span class="d">Public-AI-Utilities</span></div>
+      </div>
+    </div>
+    <p class="hostnote">Schweiz: Knotenpunkt und Koordinator — initiiert und vernetzt (Gastgeberin, Brückenbauerin).</p>
+    <p class="sub">Modelle und Zugang existieren bereits — der eigenständige Beitrag ist Charta + unabhängiger Nachweis darüber.</p>
+  </section>
+
+  <section class="slide">
+    <h2>5 · Bausteine des Programms</h2>
+    <ul>
+      <li><b>Gemeinsame Charta</b>, überprüfbar verpflichtend: Zweckbindung, Provenienz, Verantwortlichkeiten, Anfechtbarkeit, Exit-Fähigkeit.</li>
+      <li><b>Offene Modelle im Verbund</b> — Interoperabilität, Anbieterwechsel; ergänzt Apertus, kein Konkurrenzmodell.</li>
+      <li><b>Rechtekonformer Daten-Commons</b> — gebündelte Lizenzierung, verhandlungsstärker als im Alleingang.</li>
+      <li><b>Unabhängige Governance und Trägerschaft</b> — Rollen, Aufsicht ausserhalb Einzelner, transparente Finanzierung.</li>
+      <li><b>Schweizer Knotenpunkt-Rolle</b> — Gastgeberin und Brückenbauerin; Koordination als angestrebte Netzwerk-Rolle.</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>6 · Bereits im Gang — der ergänzende Beitrag</h2>
+    <table>
+      <tr><th>Läuft bereits</th><th>Der ergänzende Beitrag</th></tr>
+      <tr><td>Offene Modelle und Compute (Apertus / Swiss AI Initiative)</td><td class="b">die überprüfbare gemeinsame Charta darüber</td></tr>
+      <tr><td>Zugang und Netzwerk (Public AI, ICAIN)</td><td class="b">unabhängiger Nachweis statt Eigentum/Selbstauskunft</td></tr>
+      <tr><td>Internationale Charta-Ebene (Paris Charter / Current AI; CH beteiligt)</td><td class="b">die dort benannte, noch aufzubauende Evidenzschicht</td></tr>
+      <tr><td>Nationale Agenda (Swiss AI Action Plan, Motionen)</td><td class="b">Governance, Evidenz und internationale Vernetzung</td></tr>
+    </table>
+    <p class="sub">Kurz: Modelle, Zugang und Absichtserklärungen sind da — der unabhängige, charta-gebundene Nachweis fehlt. Genau dort liegt der Beitrag.</p>
+  </section>
+
+  <section class="slide">
+    <h2>7 · Möglicher Sprint-Output</h2>
+    <p class="lead">Programm-Eckwerte · Governance-/Charta-Grundzüge · Auswahl-/Förderkriterien · Postulat/Interpellation oder Vorbereitungsmandat für einen Pre-Sprint.</p>
+    <p class="sub">Realismus: Umsetzung/Pilotierung bis Genf 2027 ist ein späterer, koalitionsgetragener Schritt. Beitrag bis dahin = Prozess, Blueprint, Charta-Entwurf.</p>
+  </section>
+
+  <section class="slide">
+    <h2>8 · Wer dahinter steht</h2>
+    <ul>
+      <li><b>Our AI Charter</b> — öffentlicher Governance- und Evidenzrahmen für KI-Systeme (Pflichten, Überprüfbarkeit, Anfechtbarkeit).</li>
+      <li><b>FactHarbor</b> — offene, gemeinnützige Plattformidee für strukturierte Evidenzmodelle.</li>
+      <li><b>FactHarbor Verein</b> — gemeinnütziger Schweizer Träger, mit Unabhängigkeitsregeln.</li>
+    </ul>
+    <p class="sub">Anspruch: Prozess und Koalition, nicht Deutungshoheit — keine Zertifizierungs-/Audit-Behörde, keine fertige Koalition, kein „schon charta-konform".</p>
+  </section>
+
+  <section class="slide">
+    <h2>9 · Was ich heute von Ihnen brauche</h2>
+    <div class="ask">
+      <ul>
+        <li><b>Prozessfähig?</b> Trägt das Ziel als Sprint-Thema — oder engerer Zuschnitt / anderer Convenor?</li>
+        <li><b>Trägerschaft und Mandat?</b> Parlamentarische Gruppe, Bundesamt, Stiftung, institutioneller Convenor?</li>
+        <li><b>Echte Lücke?</b> Wo ist gegenüber Motionen, Action Plan, früherem KI-Sprint die echte Ergänzung?</li>
+        <li><b>Nächster Schritt?</b> Feedback auf den 1-Pager · Intro zur Policy-Design-Seite · zweites Gespräch.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="slide">
+    <p class="eyebrow">Abschluss</p>
+    <h1>Danke — was wäre der nächste kleine Schritt?</h1>
+    <p class="lead">Ist das eine prozessfähige Frage? Und falls ja: welcher Vorabklärungsschritt zuerst?</p>
+  </section>
+
+</div>
+
+<div class="ctrl">
+  <button id="prev" aria-label="Zurück">‹</button>
+  <span class="counter" id="counter">1 / 1</span>
+  <button id="next" aria-label="Weiter">›</button>
+</div>
+<div class="hint">← → / Leertaste / Klick · F: Vollbild</div>
+
+<script>
+(function(){
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var i = 0;
+  var counter = document.getElementById('counter');
+  var progress = document.getElementById('progress');
+  function show(n){
+    i = Math.max(0, Math.min(slides.length-1, n));
+    slides.forEach(function(s,k){ s.classList.toggle('active', k===i); });
+    counter.textContent = (i+1)+' / '+slides.length;
+    progress.style.width = ((i)/(slides.length-1)*100)+'%';
+    if(location.hash !== '#'+(i+1)) history.replaceState(null,'','#'+(i+1));
+  }
+  function next(){ show(i+1); }
+  function prev(){ show(i-1); }
+  document.getElementById('next').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+  document.getElementById('prev').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+  document.addEventListener('keydown', function(e){
+    if(e.key==='ArrowRight'||e.key==='PageDown'){ next(); }
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){ prev(); }
+    else if(e.key===' '){ e.preventDefault(); next(); }
+    else if(e.key==='Home'){ show(0); }
+    else if(e.key==='End'){ show(slides.length-1); }
+    else if(e.key==='f'||e.key==='F'){
+      if(!document.fullscreenElement){ document.documentElement.requestFullscreen && document.documentElement.requestFullscreen(); }
+      else { document.exitFullscreen && document.exitFullscreen(); }
+    }
+  });
+  document.getElementById('deck').addEventListener('click', function(e){
+    if(e.target.closest('a')) return;   // don't swallow link clicks
+    next();
+  });
+  var start = parseInt((location.hash||'').replace('#',''),10);
+  show(isNaN(start) ? 0 : start-1);
+})();
+</script>
+</body>
+</html>
