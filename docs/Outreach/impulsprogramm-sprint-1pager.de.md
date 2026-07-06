@@ -6,11 +6,11 @@
 
 ## Ziel
 
-> Ein **nationales Impulsprogramm** für ein **internationales Netzwerk offener KI-Modelle**, dessen Beteiligte sich **überprüfbar auf eine gemeinsame Charta verpflichten**. So schützt und stärkt es **freie und faire Gesellschaften im digitalen Zeitalter** und fördert deren **Resilienz und Selbstbestimmung**. Als **wichtiger internationaler Knotenpunkt und Koordinator** dieses Netzwerks gewinnt die **Schweiz** dadurch zugleich an **internationalem Ansehen und wirtschaftlicher Stärke**.
+> Ein **nationales Impulsprogramm** für ein **internationales Netzwerk offener KI-Modelle**, dessen Beteiligte sich **überprüfbar auf eine gemeinsame Charta verpflichten**. So schützt und stärkt es **freie und faire Gesellschaften im digitalen Zeitalter** und fördert deren **Resilienz und Selbstbestimmung**. Als **wichtiger internationaler Knotenpunkt, Gastgeberin und Brückenbauerin** dieses Netzwerks gewinnt die **Schweiz** dadurch zugleich an **internationalem Ansehen und wirtschaftlicher Stärke**; **Koordination** ist die angestrebte Netzwerkrolle.
 
 ## Die Sprint-Frage
 
-> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt und Koordinator wirkt?
+> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt, mit Koordination als angestrebter Netzwerkrolle?
 
 ## Warum jetzt — Anschlusspunkte
 

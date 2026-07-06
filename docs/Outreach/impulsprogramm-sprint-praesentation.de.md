@@ -10,11 +10,11 @@ Diese Seite dient als roter Faden für ein 30-minütiges Sondierungsgespräch un
 
 ## 1 · Das Ziel
 
-> Ein **nationales Impulsprogramm** für ein **internationales Netzwerk offener KI-Modelle**, dessen Beteiligte sich **überprüfbar auf eine gemeinsame Charta verpflichten**. So schützt und stärkt es **freie und faire Gesellschaften im digitalen Zeitalter** und fördert deren **Resilienz und Selbstbestimmung**. Als **wichtiger internationaler Knotenpunkt und Koordinator** dieses Netzwerks gewinnt die **Schweiz** dadurch zugleich an **internationalem Ansehen und wirtschaftlicher Stärke**.
+> Ein **nationales Impulsprogramm** für ein **internationales Netzwerk offener KI-Modelle**, dessen Beteiligte sich **überprüfbar auf eine gemeinsame Charta verpflichten**. So schützt und stärkt es **freie und faire Gesellschaften im digitalen Zeitalter** und fördert deren **Resilienz und Selbstbestimmung**. Als **wichtiger internationaler Knotenpunkt, Gastgeberin und Brückenbauerin** dieses Netzwerks gewinnt die **Schweiz** dadurch zugleich an **internationalem Ansehen und wirtschaftlicher Stärke**; **Koordination** ist die angestrebte Netzwerkrolle.
 
 ## 2 · Die Sprint-Frage
 
-> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt und Koordinator wirkt?
+> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt, mit Koordination als angestrebter Netzwerkrolle?
 
 *Zuschnitt-Leiter für das Gespräch: **Mission (Ziel)** → **Programm-Design** (Charta, Governance, Auswahl, Trägerschaft) → **konkreter Baustein** (z. B. ein Apertus-class-Modell im Netzwerk).*
 
@@ -34,7 +34,7 @@ flowchart TB
   A["Zugang & Betrieb<br/>(Public-AI-Utilities)"]
   C["<b>Gemeinsame Charta</b><br/>öffentliche Pflichten,<br/>überprüfbare Verpflichtung"]
   E["<b>Unabhängige Governance-<br/>und Evidenzschicht (Assurance)</b><br/>Nachweis statt Selbstauskunft"]
-  CH["<b>Schweiz</b><br/>Knotenpunkt und Koordinator<br/>Gastgeberin · Brückenbauerin"]
+  CH["<b>Schweiz</b><br/>Knotenpunkt · Gastgeberin · Brückenbauerin<br/>Koordination als angestrebte Netzwerkrolle"]
 
   M --> A
   C -->|bindet| M
@@ -62,7 +62,7 @@ Die eigene Frage soll als **Ergänzung** erkennbar sein, nicht als Doppelspur:
 |---|---|
 | Offene Modelle & Compute (Apertus / Swiss AI Initiative) | die **überprüfbare gemeinsame Charta** darüber |
 | Zugang & Netzwerk (Public AI, ICAIN) | **unabhängiger Nachweis** statt Vertrauen allein auf Eigentum/Selbstauskunft |
-| Internationale Charta-Ebene (Paris Charter / Current AI; CH beteiligt) | die dort benannte, noch **aufzubauende unabhängige Evidenzschicht** |
+| Internationale Charta-Ebene (Paris Charter / Current AI; CH beteiligt) | dort benannte **unabhängige Auditing-/Accountability-Tools**; eine konkrete Evidenz-/Assurance-Schicht ist noch nicht sichtbar instanziiert |
 | Nationale Agenda (Swiss AI Action Plan, Motionen) | **Governance, Evidenz und internationale Vernetzung** |
 
 Kurz: Modelle, Zugang und politische Absichtserklärungen sind da — was fehlt, ist der **unabhängige, charta-gebundene Nachweis, dass öffentliche KI ihre öffentlichen Versprechen auch hält**. Genau dort liegt der Beitrag.

@@ -10,11 +10,11 @@ This page is a through-line for a 30-minute scoping conversation and a handout a
 
 ## 1 · The goal
 
-> A **national impulse programme** for an **international network of open AI models** whose participants **verifiably commit to a common charter**. In doing so, it **protects and strengthens free and fair societies in the digital age** and fosters their **resilience and self-determination**. As the network's **key international hub and coordinator**, **Switzerland** in turn gains in **international standing and economic strength**.
+> A **national impulse programme** for an **international network of open AI models** whose participants **verifiably commit to a common charter**. In doing so, it **protects and strengthens free and fair societies in the digital age** and fosters their **resilience and self-determination**. As the network's **key international hub, host and bridge-builder**, **Switzerland** in turn gains in **international standing and economic strength**; **coordination** is the aspired network role.
 
 ## 2 · The sprint question
 
-> How should a national impulse programme be designed and governed so that an international network of open AI models emerges whose participants verifiably commit to a common charter — with Switzerland acting as hub and coordinator?
+> How should a national impulse programme be designed and governed so that an international network of open AI models emerges whose participants verifiably commit to a common charter — with Switzerland acting as hub, host and bridge-builder, and coordination as the aspired network role?
 
 *Scoping ladder: **mission (goal)** → **programme design** (charter, governance, selection, sponsorship) → **concrete building block** (e.g. an Apertus-class model in the network).*
 
@@ -34,7 +34,7 @@ flowchart TB
   A["Access and operation<br/>(public-AI utilities)"]
   C["<b>Common charter</b><br/>public obligations,<br/>verifiable commitment"]
   E["<b>Independent governance<br/>and evidence layer (assurance)</b><br/>evidence, not self-report"]
-  CH["<b>Switzerland</b><br/>hub and coordinator<br/>host · bridge-builder"]
+  CH["<b>Switzerland</b><br/>hub · host · bridge-builder<br/>coordination as aspired network role"]
 
   M --> A
   C -->|binds| M
@@ -62,7 +62,7 @@ The proposal should be recognisable as a **complement**, not a duplicate:
 |---|---|
 | Open models and compute (Apertus / Swiss AI Initiative) | the **verifiable common charter** above them |
 | Access and network (Public AI, ICAIN) | **independent evidence** rather than trust resting on ownership/self-report |
-| International charter level (Paris Charter / Current AI; CH is a partner) | the independent evidence layer named there, **still to be built** |
+| International charter level (Paris Charter / Current AI; CH is a partner) | the **independent auditing/accountability tools** named there; a concrete evidence/assurance layer is not yet visibly instantiated |
 | National agenda (Swiss AI Action Plan, motions) | **governance, evidence and international networking** |
 
 Short: models, access and political declarations exist — what is missing is the **independent, charter-bound evidence that public AI keeps its public promises**. That is where the contribution sits.
