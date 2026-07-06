@@ -30,6 +30,13 @@ Do not start with a parliamentary instrument. Start with a mandate:
 
 The [Verified Findings](../Evidence/verified-findings.md) explain the instrument constraint: a non-parliamentarian can trigger a motion, postulate, or parliamentary initiative only indirectly through a council member. Therefore the route is **alliance/mandate first, lawmaking later**.
 
+**The impulse lever and the funding lever are different things — do not conflate them.**
+
+- **Impulse / legitimacy.** A facilitated cross-party process — an [Expedition Zukunft](https://www.expeditionzukunft.ch/sprint) *Policy Sprint*, or the [Impulsprogramm motion 26.3221](digital-sovereignty-motions.md) — produces a **mandate and a cross-party parliamentary package, not money**. A sprint is itself foundation-funded and runs *on behalf of parliamentarians*: it needs carriers from **at least four factions** to co-own the question, so a non-parliamentarian supplies the question, evidence, and expertise — not a commission. Motion 26.3221 is likewise a mandate the Federal Council still opposes, names no franc figure, and has cleared only the first chamber: tailwind, not a cheque.
+- **Funding.** The money for a pilot comes from the [cost-bearer map](funder-and-collaborator-engagement.md) — foundations (Mercator/Hasler), ICAIN, Innosuisse, international funders — **largely independent of the parliamentary route**.
+
+So a Policy Sprint is a coalition-and-mandate engine: it earns the pull that makes the work fundable, then the funding ask routes through the cost-bearer map once a deliverable exists.
+
 ## Roadmap
 
 Treat this as a relative sequence. As of June 2026 the article is published, the non-paper exists, and first outreach has begun.
