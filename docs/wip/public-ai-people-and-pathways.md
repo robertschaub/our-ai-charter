@@ -10,6 +10,7 @@
 - **Alek Tarkowski is a peer of Tan's, not a gatekeeper.** They co-ran the Public AI Seminar's **Season 3 only**; Open Future is the coalition's **European-policy arm**. A credible bridge into Tan's orbit, but decisions route through Tan.
 - **Samuel Klein** is the co-founder whose work (verification / provenance) sits **closest to the Charter's assurance building block**.
 - **Swiss side:** the Public AI chapter is **publicai.ch / SPIU** (Oleg Lavrovsky, Sabine Wildemann); **Apertus** sits in the **Swiss AI Initiative** (ETH + EPFL AI Centers, CSCS) with leads **Bosselut / Schlag / Jaggi**.
+- **Geneva 2027 prep already overlaps this map (§6):** the Apr 2026 ICT4Peace × GenAI Zürich roundtable feeding the government's tripartite platform included publicai.ch's **Wildemann** and the Apertus cluster (**Frey/ICAIN, Jaggi, El-Assady**) — the Charter's target venue and its open-model allies in one room.
 
 ## 1. Public AI — international + Swiss chapter (map)
 
@@ -112,10 +113,9 @@ flowchart LR
   ALEK -->|"peer · co-ran Seminar S3 (2025)"| TAN["Joshua Tan<br/>coalition hub"]
   TAN --> PAN
   ALEK -.->|"via Wikimedia Europe board"| WMCH["Wikimedia CH<br/>knowledge-commons ally"]
-  WMCH -.->|"Geneva-2027 plan — verify"| GEN["Geneva 2027 Summit"]
 ```
 
-Alek is a **bridge, not a decision-maker** — his leverage is Open Future (the coalition's EU-policy arm) and his Wikimedia Europe board seat; coalition decisions route through Tan. The dashed Wikimedia CH → Geneva-2027 link is his report, not yet confirmed in public sources — **verify**.
+Alek is a **bridge, not a decision-maker** — his leverage is Open Future (the coalition's EU-policy arm) and his Wikimedia Europe board seat; coalition decisions route through Tan. (Wikimedia CH appears as a public knowledge-commons ally via Alek's Wikimedia Europe board seat; any specific Geneva 2027 engagement is unconfirmed — see the [actor map](../Evidence/actors-and-landscape.md).)
 
 ## 4. Apertus grounding confirmed this session
 
@@ -133,6 +133,42 @@ Both folded into the [Apertus note §1](apertus-fit-and-engagement-plan.md); rec
 - **How to use him** — best as an **orientation / correction / framing** contact *once a concrete artifact exists*; weak as a first ask for adoption or governance ownership. Keep the Public AI / Metagov route (Tan, direct) separate. Natural ask: *"We're drafting a public governance-and-evidence layer for open public-AI deployments — Apertus as a motivating case, not a client. What is technically wrong, politically unhelpful, or duplicative from the EPFL / SNAI view?"* For technical detail, El-Assady / Schlag / Bosselut / Jaggi are better routes.
 - **Name him as** — "Marcel Salathé, EPFL AI Center co-director and public Apertus/SNAI-adjacent voice." Avoid "Apertus lead," "Public AI / Metagov bridge," or "supporter / partner / endorser."
 
+## 6. Geneva 2027 prep cluster — who is in the room
+
+*Where the Charter's assurance layer most naturally docks (channel mechanics: [geneva-2027-channel-demand.md](../Evidence/geneva-2027-channel-demand.md); assurance angle: [geneva-2027-assurance-questions-note.md](geneva-2027-assurance-questions-note.md)). The connective finding: the Apr 2026 prep roundtable already contained this map's Public AI and Apertus nodes.*
+
+```mermaid
+flowchart TB
+  subgraph PREP["Geneva 2027 prep — ICT4Peace x GenAI Zürich"]
+    direction LR
+    ICT["ICT4Peace<br/>Stauffacher · Buzatu · Dahinden (board)"]
+    GENAI["GenAI Zürich<br/>Samuylov · Anderegg"]
+  end
+  GOV["Swiss govt steer<br/>BAKOM · Schneider<br/>FDFA · Reubi"]
+  TRI(["Plateforme Tripartite<br/>Bern · 13 Apr 2026"])
+  MERC["Stiftung Mercator CH<br/>Grella — funder in the room"]
+  GESDA["GESDA<br/>Paeffgen — science diplomacy"]
+  ECO["Ecosystem conveners<br/>digitalswitzerland · AI Hub CH<br/>RegHorizon · foraus"]
+
+  GOV -->|five guiding questions| PREP
+  PREP -->|roundtable + written call| TRI
+  MERC -.-> PREP
+  GESDA -.-> PREP
+  ECO -.-> PREP
+
+  WIL["Sabine Wildemann<br/>publicai.ch · §1"]:::bridge -.->|at roundtable| PREP
+  FREY["Katharina Frey · ICAIN<br/>§2 hinge"]:::bridge -.->|at roundtable| PREP
+  JAG["Martin Jaggi · Apertus §2"]:::bridge -.->|at roundtable| PREP
+  ELA["Menna El-Assady<br/>Apertus + UN Sci. Panel"]:::bridge -.->|at roundtable| PREP
+
+  classDef bridge fill:#EEEDFE,stroke:#534AB7,color:#26215C;
+```
+
+- **The venue already overlaps this map.** The prep roundtable (1 Apr 2026) included **Sabine Wildemann** (publicai.ch, §1), **Katharina Frey / ICAIN** (§2 hinge), **Martin Jaggi** (Apertus, §2), **Menna El-Assady** (Apertus + UN Scientific Panel) and **Daniel Dobos** (Swisscom) — the Charter's target venue and its open-model allies in one room.
+- **The process is government-owned.** BAKOM's **Thomas Schneider** authored the five guiding questions; **Markus Reubi** (FDFA) leads substantive prep; ICT4Peace × GenAI Zürich run the civil-society input into the *Plateforme Tripartite*.
+- **A top funder is engaged.** **Stiftung Mercator CH** (via **Lukas Grella**) submitted to the prep call and co-funds the Swissnex "Geneva Loading" 2027 fellowship — consistent with the [cost-bearer read](../Strategy/funder-and-collaborator-engagement.md).
+- **Door, not open call.** The April written call is **closed**; the next input window is not yet dated. Engage via ICT4Peace / GenAI Zürich or the tripartite workstreams as they form. *Roles from the report appendices — re-verify before outreach.*
+
 ## Reading
 
 - The role's decisions route through **Tan**; the Charter's distinct contribution is **independent assurance**, where **Klein** and **Miyazono / Atlas** are the nearest allies.
@@ -144,3 +180,5 @@ Both folded into the [Apertus note §1](apertus-fit-and-engagement-plan.md); rec
 Built 2026-07-03 from primary sources: [Public AI Seminar](https://publicai.network/seminar.html), [The Case for Public AI (arXiv 2311.11350)](https://arxiv.org/abs/2311.11350), [Open Future](https://openfuture.eu/), [Berkman Klein — SJ Klein](https://cyber.harvard.edu/people/sklein), the [Fellow posting](https://metagov.org/join/jobs/public-ai-fellow-switzerland), [swiss-ai.org team](https://www.swiss-ai.org/team-3), [CSCS](https://www.cscs.ch/science/computer-science-hpc/2026/apertus-powers-in-house-ai-translation-for-ticino) and [EPFL](https://actu.epfl.ch/news/apertus-powers-in-house-ai-translation-for-ticin-3/) on Ticino. Facts cited inline; assessments labelled. Added Swiss/coalition names (Wildemann, Krasodomski, Krause, El-Assady, Schulthess) are carried from the match-rated [actor map](../Evidence/actors-and-landscape.md). The Salathé actor note (§5) folds a former standalone profile; its public EPFL / AI Center / Apertus-commentary / citizens'-assembly sources are linked inline.
 
 **Update 2026-07-06:** the open Fellow (Switzerland) role is **funded by Current AI** (offered with Metagov) — confirmed from the [posting](https://metagov.org/join/jobs/public-ai-fellow-switzerland).
+
+**Update 2026-07-06 (b):** added §6 — the Geneva 2027 prep cluster — from the [ICT4Peace × GenAI Zürich report](https://ict4peace.org/wp-content/uploads/2026/04/Geneva-2027-AI-Summit-Roadmap-Ge-nAI-Zurich-Checkpoint-Report.pdf) appendices (roundtable + form respondents). New individuals were added to the [actor directory](../Evidence/actors-and-landscape.md); relationship detail is kept here.

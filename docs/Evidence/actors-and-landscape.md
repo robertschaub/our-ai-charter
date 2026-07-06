@@ -32,8 +32,9 @@ flowchart TB
   classDef warn stroke:#D85A30,stroke-dasharray:5 3,color:#993C1D;
 ```
 - **[Open Future](https://openfuture.eu/)** — European digital-commons think tank already cited in this repo (the [EuroHPC-governance critique](https://openfuture.eu/blog/who-controls-europes-ai-future/)); its [*AI and the commons* / Public AI programme](https://openfuture.eu/our-work/ai-and-the-commons/) argues "AI technologies can be built and governed as public infrastructure" — closely aligned with this initiative. **Alek Tarkowski** (Director of Strategy; ex–Creative Commons board; founder of Centrum Cyfrowe; **board member, Wikimedia Europe**) is the connector into the Wikimedia chapters' AI work below.
-- **[Wikimedia CH](https://wikimedia.ch/)** — the Swiss chapter of the Wikimedia movement, running a "Wikimedia and AI" mission to *actively shape AI governance*. Its Jan 2026 white paper *Collective intelligence vs artificial intelligence* ([roundtable report](https://wikimedia.ch/en/news/open-knowledge-powers-ai-but-at-what-cost-report-from-the-roundtable-on-wikimedia-and-ai/), with Open Future + IMD Lausanne) argues Wikimedia should be "the backbone of a public, human-governed knowledge infrastructure" and backs "active work on standards and governance." A knowledge-commons ally for the data-and-knowledge-commons pillar and a Swiss-anchored civil-society actor that may engage the Geneva 2027 process — *verify the Geneva-engagement plan before relying on it.*
+- **[Wikimedia CH](https://wikimedia.ch/)** — the Swiss chapter of the Wikimedia movement, running a "Wikimedia and AI" mission to *actively shape AI governance*. Its Jan 2026 white paper *Collective intelligence vs artificial intelligence* ([roundtable report](https://wikimedia.ch/en/news/open-knowledge-powers-ai-but-at-what-cost-report-from-the-roundtable-on-wikimedia-and-ai/), with Open Future + IMD Lausanne) argues Wikimedia should be "the backbone of a public, human-governed knowledge infrastructure" and backs "active work on standards and governance." A knowledge-commons ally for the data-and-knowledge-commons pillar and a Swiss-anchored civil-society actor whose **public** AI-governance work makes it a natural ally; any specific Geneva 2027 engagement is unconfirmed and not publicly sourced.
 - **[Zentrum SDS — Souveräne Digitale Schweiz](https://netzwerksds.ch/)** — a Swiss public-sector-led digital-sovereignty coalition, formally launched **28 April 2026** (an informal network since summer 2025): **31 founding members**, >CHF 200k in contributions, initiated by the **Institut Public Sector Transformation (IPST) at Bern University of Applied Sciences**. Members span cantonal/municipal IT (City of Zürich OIZ; Cantons Bern, Basel-Stadt, Solothurn), Swiss Post, Switch, and ~25 IT firms (Infomaniak, VSHN, Adnovum, Bedag, Cloudscale…); four working groups — open-source software, Microsoft-365 alternatives, Swiss cloud, and **artificial intelligence** ([launch report](https://www.swisscybersecurity.net/news/2026-04-29/update-schweizer-zentrum-fuer-digitale-souveraenitaet-startet-mit-31-mitstreitern)). A Swiss sovereignty/resilience ally (building block 1); its AI workstream is new — verify scope before relying on it.
+- **[Global South Network for Trustworthy AI](https://www.trustworthyai.network/)** — civil-society-led international network launched at the IndiaAI Impact Summit (20 Feb 2026); ~15 member orgs (Digital Futures Lab, Global Centre on AI Governance, ITS Rio, Derechos Digitales, Masakhane, CeRAI/IIT-Madras, …). Evaluates real-world AI impacts, builds locally-grounded oversight instruments, and elevates Global-South leadership in AI governance; flagship work includes multilingual safety benchmarks and procurement guidance for Global-South governments. A values-aligned Trustworthy-AI ally that the UN/Geneva processes are urged to engage (with MAP-AI) as an inclusion/legitimacy condition.
 
 ## Bridges into diplomacy & middle-power framing
 
@@ -58,7 +59,10 @@ flowchart TB
 
 ## Geneva 2027 conveners & door-openers
 
-- **Daniel Stauffacher** — [ICT4Peace](https://ict4peace.org/) — non-governmental convening around the Geneva 2027 process.
+- **Daniel Stauffacher · Anne-Marie Buzatu** — [ICT4Peace](https://ict4peace.org/) — co-hosted the official Geneva 2027 prep roundtable (1 Apr 2026) and the written call that fed the government's *Plateforme Tripartite* ([report](https://ict4peace.org/wp-content/uploads/2026/04/Geneva-2027-AI-Summit-Roadmap-Ge-nAI-Zurich-Checkpoint-Report.pdf)); board member **Martin Dahinden** (ex-Swiss Ambassador to the US, ex-Director SDC) adds diplomatic reach.
+- **GenAI Zürich** (Denis Samuylov, Eric Anderegg) — Zürich AI-community convener; co-ran the 2027 prep roundtable + written call with ICT4Peace.
+- **Ayisha Piotti** — [RegHorizon](https://reghorizon.com/); AI policy (ETH); runs the annual AI Policy Summit — policy convener present in the prep roundtable.
+- **AI Hub Switzerland** (Ansuya Ahluwalia, initiator) and **[digitalswitzerland](https://digitalswitzerland.com/)** (Kristof Hertig) — national ecosystem conveners in the prep roundtable.
 - **Jérôme Duberry** — [IHEID Geneva Tech Hub](https://www.graduateinstitute.ch/faculty/jerome-duberry) — academic broker for International Geneva; AI & democracy.
 - **Nicolas Seidler** — [Geneva Science-Policy Interface](https://www.gspi.ch/about/who-we-are) — brokers research into multilateral policy.
 - **ITU AI for Good** (Frederic Werner / Reinhard Scholl) — [AI for Good](https://aiforgood.itu.int/) — the largest recurring multilateral AI convening in Geneva.
@@ -68,6 +72,7 @@ flowchart TB
 - **[European AI & Society Fund](https://europeanaifund.org/funding/)** — European public-interest AI funder.
 - **[Open Society + co-funders public-interest AI initiative](https://www.opensocietyfoundations.org/newsroom/open-society-and-other-funders-launch-new-initiative-to-ensure-ai-advances-the-public-interest)** — funds responsible international AI governance and norms.
 - **[Patrick J. McGovern Foundation](https://www.mcgovern.org/2025-press-release/)** — public-AI architecture / institutions track.
+- **[Stiftung Mercator Schweiz](https://www.stiftung-mercator.ch/)** — Swiss public-interest funder; co-funds the Swissnex "Geneva Loading" 2027 fellowship, and portfolio manager **Lukas Grella** submitted to the official prep call — an engaged funder of the 2027 process.
 
 ## Contrasting approaches (for contrast, not alignment)
 
@@ -156,7 +161,7 @@ Switzerland-based or Switzerland-anchored individuals whose **public work** over
 ### Exclusions / disambiguations
 - `publicai.io` (Web3/crypto) is unrelated — the relevant family is publicai.network / publicai.co / publicai.ch / Metagov.
 - **Martin Vechev** (INSAIT) — separate AI-safety track, not this public-AI cluster.
-- **Niniane Paeffgen** — no longer at the Swiss Digital Initiative (left 2022; now GESDA-adjacent).
+- **Niniane Paeffgen** — now **Program Lead, [GESDA Foundation](https://gesda.global/)** (confirmed via the Apr 2026 prep call); left the Swiss Digital Initiative in 2022. A science-diplomacy door alongside GESDA DG Marilyne Andersen.
 - **Jörg Mäder** — lost his National Council seat in 2023; not a sitting federal parliamentarian.
 
 ---

@@ -4,7 +4,7 @@ How a public-interest **governance + evidence** contribution can reach the **Gen
 
 ## What the summit is
 
-- Next global AI summit in the series: Bletchley 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026 → **Geneva, first half 2027** → UAE 2028.
+- Next global AI summit in the series: Bletchley 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026 → **Geneva, 21–22 June 2027** → UAE 2028.
 - Switzerland hosts; organisation sits with **UVEK** and **EDA/FDFA**. Publicly named leads include Amb. Markus Reubi (EDA) and Amb. Thomas Schneider (BAKOM/OFCOM).
 - Switzerland frames itself as neutral convenor / sectoral middle way. Preparation is underway; re-verify dates and process before outreach.
 - Distinct from — but now converging with — the **UN/ITU multilateral track** that lands in Geneva a year earlier: the **inaugural UN Global Dialogue on AI Governance (6–7 July 2026)**, run back-to-back with the **ITU AI for Good Summit (7–10 July 2026)**, both informed by the UN Scientific Panel's first report (1 July 2026; co-chairs Bengio & Ressa). It is the nearest live venue to observe the process and test a governance/evidence contribution a year before the 2027 summit; the Panel→Dialogue cadence continues (annual report → second Dialogue, May 2027, New York). Sources in [linked sources](../Evidence/linked-sources.md).
@@ -14,6 +14,8 @@ How a public-interest **governance + evidence** contribution can reach the **Gen
 No slot, endorsement, role, or summit access is secured. Geneva 2027 is a window to **prepare for**, not a status to claim.
 
 The target contribution is the bounded package named in the [initiation strategy](initiation-strategy.md): neutral pre-sprint, governance blueprint, one evidence/evaluation pilot outline, and roundtable path.
+
+**Sequencing (pre-competitive phase).** The responsible-AI / assurance ecosystem is still forming and open public models are not yet broadly competitive, so demand-side moves — a buyer requiring an evidence baseline, or a certification/mark — are premature. The near-term contribution is *formation*: contribute method, shared vocabulary, and readiness into the forming workstreams, and build relationships; a procurement baseline or mark is a later step, gated on maturing models, a scheme, and demand (see [certification-model](../Assurance/Framework/certification-model.md), phased). This reframes the earlier "secure one buyer first" instinct: right lever, wrong phase.
 
 ## Routes in
 
