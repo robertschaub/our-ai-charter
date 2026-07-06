@@ -14,7 +14,7 @@ Diese Seite dient als roter Faden für ein 30-minütiges Sondierungsgespräch un
 
 ## 2 · Die Sprint-Frage
 
-> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt — mit Koordination, die aus Vertrauen und Neutralität erwächst, nicht aus einem Mandat?
+> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt, woraus eine koordinierende Rolle erwächst?
 
 *Zuschnitt-Leiter für das Gespräch: **Mission (Ziel)** → **Programm-Design** (Charta, Governance, Auswahl, Trägerschaft) → **konkreter Baustein** (z. B. ein Apertus-class-Modell im Netzwerk).*
 

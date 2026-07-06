@@ -10,7 +10,7 @@
 
 ## Die Sprint-Frage
 
-> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt — mit Koordination, die aus Vertrauen und Neutralität erwächst, nicht aus einem Mandat?
+> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt, woraus eine koordinierende Rolle erwächst?
 
 ## Warum jetzt — Anschlusspunkte
 

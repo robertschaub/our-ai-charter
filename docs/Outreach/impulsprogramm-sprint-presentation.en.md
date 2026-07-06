@@ -14,7 +14,7 @@ This page is a through-line for a 30-minute scoping conversation and a handout a
 
 ## 2 · The sprint question
 
-> How should a national impulse programme be designed and governed so that an international network of open AI models emerges whose participants verifiably commit to a common charter — with Switzerland acting as hub, host and bridge-builder, and coordination that grows from trust and neutrality, not from a mandate?
+> How should a national impulse programme be designed and governed so that an international network of open AI models emerges whose participants verifiably commit to a common charter — with Switzerland acting as hub, host and bridge-builder, from which a coordinating role emerges?
 
 *Scoping ladder: **mission (goal)** → **programme design** (charter, governance, selection, sponsorship) → **concrete building block** (e.g. an Apertus-class model in the network).*
 
