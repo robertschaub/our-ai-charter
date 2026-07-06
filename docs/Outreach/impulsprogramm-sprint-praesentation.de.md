@@ -33,14 +33,14 @@ flowchart TB
   M["Offene KI-Modelle<br/>(z. B. Apertus, weitere)"]
   A["Zugang & Betrieb<br/>(Public-AI-Utilities)"]
   C["<b>Gemeinsame Charta</b><br/>öffentliche Pflichten,<br/>überprüfbare Verpflichtung"]
-  E["<b>Unabhängige Governance-<br/>&amp; Evidenzschicht (Assurance)</b><br/>Nachweis statt Selbstauskunft"]
-  CH["<b>Schweiz</b><br/>Knotenpunkt &amp; Koordinator<br/>Gastgeberin · Brückenbauerin"]
+  E["<b>Unabhängige Governance-<br/>und Evidenzschicht (Assurance)</b><br/>Nachweis statt Selbstauskunft"]
+  CH["<b>Schweiz</b><br/>Knotenpunkt und Koordinator<br/>Gastgeberin · Brückenbauerin"]
 
   M --> A
   C -->|bindet| M
   C -->|bindet| A
-  E -->|prüft &amp; weist nach| C
-  CH -.->|initiiert &amp; vernetzt| C
+  E -->|prüft und weist nach| C
+  CH -.->|initiiert und vernetzt| C
 
   classDef hl fill:#EEEDFE,stroke:#534AB7,stroke-width:2px,color:#26215C;
   class C,E hl;
