@@ -10,11 +10,11 @@ Diese Seite dient als roter Faden für ein 30-minütiges Sondierungsgespräch un
 
 ## 1 · Das Ziel
 
-> Ein **nationales Impulsprogramm** für ein **internationales Netzwerk offener KI-Modelle**, dessen Beteiligte sich **überprüfbar auf eine gemeinsame Charta verpflichten**. So schützt und stärkt es **freie und faire Gesellschaften im digitalen Zeitalter** und fördert deren **Resilienz und Selbstbestimmung**. Als **wichtiger internationaler Knotenpunkt, Gastgeberin und Brückenbauerin** dieses Netzwerks gewinnt die **Schweiz** dadurch zugleich an **internationalem Ansehen und wirtschaftlicher Stärke**; **Koordination** ist die angestrebte Netzwerkrolle.
+> Ein **nationales Impulsprogramm** für ein **internationales Netzwerk offener KI-Modelle**, dessen Beteiligte sich **überprüfbar auf eine gemeinsame Charta verpflichten**. So schützt und stärkt es **freie und faire Gesellschaften im digitalen Zeitalter** und fördert deren **Resilienz und Selbstbestimmung**. Als **wichtiger internationaler Knotenpunkt, Gastgeberin und Brückenbauerin** dieses Netzwerks gewinnt die **Schweiz** dadurch zugleich an **internationalem Ansehen und wirtschaftlicher Stärke**; **Koordination** erwächst aus Vertrauen und Neutralität, nicht aus einem Mandat.
 
 ## 2 · Die Sprint-Frage
 
-> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt, mit Koordination als angestrebter Netzwerkrolle?
+> Wie sollte ein nationales Impulsprogramm ausgestaltet und gesteuert werden, damit ein internationales Netzwerk offener KI-Modelle entsteht, dessen Beteiligte sich überprüfbar auf eine gemeinsame Charta verpflichten — und in dem die Schweiz als Knotenpunkt, Gastgeberin und Brückenbauerin wirkt — mit Koordination, die aus Vertrauen und Neutralität erwächst, nicht aus einem Mandat?
 
 *Zuschnitt-Leiter für das Gespräch: **Mission (Ziel)** → **Programm-Design** (Charta, Governance, Auswahl, Trägerschaft) → **konkreter Baustein** (z. B. ein Apertus-class-Modell im Netzwerk).*
 
@@ -34,7 +34,7 @@ flowchart TB
   A["Zugang & Betrieb<br/>(Public-AI-Utilities)"]
   C["<b>Gemeinsame Charta</b><br/>öffentliche Pflichten,<br/>überprüfbare Verpflichtung"]
   E["<b>Unabhängige Governance-<br/>und Evidenzschicht (Assurance)</b><br/>Nachweis statt Selbstauskunft"]
-  CH["<b>Schweiz</b><br/>Knotenpunkt · Gastgeberin · Brückenbauerin<br/>Koordination als angestrebte Netzwerkrolle"]
+  CH["<b>Schweiz</b><br/>Knotenpunkt · Gastgeberin · Brückenbauerin<br/>Koordination erwächst aus Vertrauen, nicht Mandat"]
 
   M --> A
   C -->|bindet| M
@@ -52,7 +52,7 @@ flowchart TB
 - **Offene Modelle im Verbund** — Interoperabilität, Anbieterwechsel, Betriebskontinuität; ergänzt bestehende offene Modelle (z. B. Apertus), kein Konkurrenzmodell.
 - **Gemeinsamer, rechtekonformer Daten-Commons** — im Verbund gebündelte Lizenzierung klärt rechtekompatible Trainingsdaten (auch für offene Nutzung) verhandlungsstärker und günstiger als im Alleingang.
 - **Unabhängige Governance & Trägerschaft** — Rollen, Aufsicht ausserhalb einzelner Beteiligter, transparente Finanzierung.
-- **Schweizer Knotenpunkt-Rolle** — Gastgeberin und Brückenbauerin; Koordination als *angestrebte* Netzwerk-Rolle; Anschluss an Genf 2027.
+- **Schweizer Knotenpunkt-Rolle** — Gastgeberin und Brückenbauerin; Koordination erwächst aus Vertrauen und Neutralität; Anschluss an Genf 2027.
 
 ## 6 · Bereits vieles im Gang — der ergänzende Beitrag
 

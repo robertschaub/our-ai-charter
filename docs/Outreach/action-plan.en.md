@@ -35,7 +35,7 @@ The full, sourced list of anchors is in the [Verified Findings](../Evidence/veri
 - FactHarbor does **not** claim a role as a certification or audit authority.
 - We initiate an open-ended **process**, not a one-sided campaign.
 - The orientation is **international**: Switzerland acts as host, convenor, and bridge-builder — Swiss benefit and international impact complement each other.
-- For a **domestic policy sprint**, lead with the goal as a **national impulse programme for an international network of open, charter-bound AI models** (Switzerland as hub, with coordination as the aspired network role — framed positively: international standing and economic strength follow from the role). Keep the harder **capture-resistance / branded "Public AI"** wording light and reserved for the **Geneva-2027 track**; as a headline it reads as too geopolitically loaded.
+- For a **domestic policy sprint**, lead with the goal as a **national impulse programme for an international network of open, charter-bound AI models** (Switzerland as hub, with the coordinating role growing from trust and neutrality, not a mandate — framed positively: international standing and economic strength follow from the role). Keep the harder **capture-resistance / branded "Public AI"** wording light and reserved for the **Geneva-2027 track**; as a headline it reads as too geopolitically loaded.
 
 ## Relevant documents
 
