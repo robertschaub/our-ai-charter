@@ -37,10 +37,11 @@ A builder or deployer could then say, "we have declared the legal scope for this
 
 This avoids three common traps: pretending a voluntary mark is legal approval, treating a management-system certificate as product assurance, or using a narrow factuality test as if it covered the whole risk surface.
 
-For this charter, the auditable evidence should answer — as testable evidence, not just disclosure — the six practical questions the [Charter Commitments](charter-commitments.md) frame in full:
+For this charter, the auditable evidence should answer — as testable evidence, not just disclosure — the seven practical questions the [Charter Commitments](charter-commitments.md) frame in full:
 
 - **What is it for?** — assessed version, intended/prohibited uses, affected groups, limits, risk context.
 - **Who controls it?** — operator, models, data, tools, dependencies, and any update, restriction, or shutdown power.
+- **What data and rights does it depend on?** — training, retrieval, adaptation, and evaluation sources, rights basis, opt-outs, privacy treatment, licensed restrictions, and unresolved provenance gaps.
 - **Who is accountable?** — the named owner, jurisdiction, and support route that answers for it.
 - **How can people challenge it?** — notice, error-flagging, appeal of consequential decisions, and remedy.
 - **Who can inspect it?** — what is public, what assessors see confidentially, and what lawful oversight can require.
