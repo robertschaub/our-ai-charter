@@ -23,7 +23,7 @@
 
 - **Gemeinsame Charta**, auf die sich die Beteiligten **überprüfbar** verpflichten: Zweckbindung, Provenienz, Verantwortlichkeiten, Anfechtbarkeit, Exit-Fähigkeit.
 - **Offene Modelle im Verbund** — Interoperabilität, Anbieterwechsel, Betriebskontinuität; ergänzt bestehende offene Modelle (z. B. Apertus), kein Konkurrenzmodell.
-- **Gemeinsamer, rechtekonformer Daten-Commons** — im Verbund gebündelte Lizenzierung klärt rechtekompatible Trainingsdaten (auch für offene Nutzung) verhandlungsstärker und günstiger als im Alleingang.
+- **Rechteklarer Daten- und Provenienz-Commons** — ein Verbund klärt Herkunft, Datenschutz, Opt-outs und Nutzungsrechte für ausgewählte Trainingsdaten. Offen nutzbar werden nur tragfähig offene Teilkorpora; geschützte Inhalte laufen über Forschungs-, Audit- oder Lizenzzugänge. Der Nutzen: einmal gemeinsam klären, vielfach rechtekonform nutzen.
 - **Governance & Trägerschaft** — Rollen, unabhängige Aufsicht, transparente Finanzierung.
 - **Schweizer Knotenpunkt-Rolle** — Gastgeberin und Brückenbauerin; eine koordinierende Rolle kann daraus erwachsen.
 

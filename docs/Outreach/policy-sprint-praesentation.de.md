@@ -51,7 +51,7 @@ flowchart TB
 
 - **Gemeinsame Charta**, auf die sich die Beteiligten **überprüfbar** verpflichten: Zweckbindung, Provenienz, Verantwortlichkeiten, Anfechtbarkeit, Exit-Fähigkeit.
 - **Offene Modelle im Verbund** — Interoperabilität, Anbieterwechsel, Betriebskontinuität; ergänzt bestehende offene Modelle (z. B. Apertus), kein Konkurrenzmodell.
-- **Gemeinsamer, rechtekonformer Daten-Commons** — im Verbund gebündelte Lizenzierung klärt rechtekompatible Trainingsdaten (auch für offene Nutzung) verhandlungsstärker und günstiger als im Alleingang.
+- **Rechteklarer Daten- und Provenienz-Commons** — ein Verbund klärt Herkunft, Datenschutz, Opt-outs und Nutzungsrechte für ausgewählte Trainingsdaten. Offen nutzbar werden nur tragfähig offene Teilkorpora; geschützte Inhalte laufen über Forschungs-, Audit- oder Lizenzzugänge. Der Nutzen: einmal gemeinsam klären, vielfach rechtekonform nutzen.
 - **Unabhängige Governance & Trägerschaft** — Rollen, Aufsicht ausserhalb einzelner Beteiligter, transparente Finanzierung.
 - **Schweizer Knotenpunkt-Rolle** — Gastgeberin und Brückenbauerin; eine koordinierende Rolle kann daraus erwachsen.
 
@@ -88,6 +88,7 @@ Der Anspruch ist **Prozess und Koalition, nicht Deutungshoheit** — kein Anspru
     - **Prozessfähig?** Trägt das Ziel als Sprint-Thema — oder braucht es zuerst einen engeren Zuschnitt bzw. einen anderen Convenor?
     - **Trägerschaft & Mandat?** Was bräuchte ein tragfähiger Prozess: parlamentarische Gruppe, Bundesamt, Stiftung, institutioneller Convenor?
     - **Echte Lücke?** Wo liegt gegenüber Motionen, Swiss AI Action Plan und dem früheren KI-Policy-Sprint die echte Ergänzung statt Doppelspur?
+    - **Daten- und Rechtepfad?** Welche öffentlichen, wissenschaftlichen, medialen, kulturellen oder mehrsprachigen Datenbestände könnten in einem ersten rechteklaren Commons realistisch geklärt werden — offen, geschützt oder lizenziert?
     - **Nächster kleiner Schritt?** Feedback auf den [1-Pager](policy-sprint-1pager.de.md), eine Einführung zur Policy-Design-Seite, oder ein zweites Gespräch.
 
 ---

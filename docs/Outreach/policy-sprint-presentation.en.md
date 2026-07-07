@@ -51,7 +51,7 @@ flowchart TB
 
 - **Common charter** that participants **verifiably** commit to: purpose limitation, provenance, accountabilities, contestability, exit capability.
 - **Open models in a network** — interoperability, provider switching, operational continuity; complements existing open models (e.g. Apertus), not a competing model.
-- **Shared, rights-compliant data commons** — pooled licensing clears rights-compatible training data (including for open use), with more bargaining power and lower cost than going it alone.
+- **Rights-cleared data and provenance commons** — a network clears origin, data protection, opt-outs and usage rights for selected training data. Only legally robust open sub-corpora become openly reusable; protected content runs through research, audit or licensed access. The value: clear once together, reuse lawfully many times.
 - **Independent governance and sponsorship** — roles, oversight outside any single participant, transparent financing.
 - **Swiss hub role** — host and bridge-builder; a coordinating role can emerge from that.
 
@@ -88,6 +88,7 @@ The stance is **process and coalition, not authority** — no claim to a certifi
     - **Process-able?** Does the goal work as a sprint topic — or does it first need a narrower scope or a different convenor?
     - **Sponsorship and mandate?** What would a viable process need: a parliamentary group, a federal office, a foundation, an institutional convenor?
     - **A real gap?** Where, against the motions, the Swiss AI Action Plan and the earlier AI policy sprint, is the genuine complement rather than duplication?
+    - **Data and rights path?** Which public, scientific, media, cultural, or multilingual data collections could realistically be cleared in a first rights-cleared commons — open, protected, or licensed?
     - **Next small step?** Feedback on the [1-pager (DE)](policy-sprint-1pager.de.md), an introduction to the policy-design side, or a second conversation.
 
 ---

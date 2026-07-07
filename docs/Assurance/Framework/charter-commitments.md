@@ -50,9 +50,10 @@ People who use, buy, study, regulate, or are affected by AI need more than promi
 
 - **What is this system for?** The intended uses, prohibited uses, misuse boundaries, assessed version, affected groups, known limits, and risk context.
 - **Who controls it?** The operator, material dependencies, models, data, tools, cloud/compute dependencies, and any power to update, restrict, recall, or shut it down, including external orders or pressure to use those powers.
+- **What data and rights does it depend on?** Training, retrieval, adaptation, and evaluation sources, rights basis, opt-outs, privacy treatment, licensed restrictions, and unresolved provenance gaps.
 - **Who is accountable?** The entity that answers when the system is deployed, procured, embedded in a public workflow, used on personal data, misused, or involved in a safety, security, privacy, or discrimination incident.
 - **How can people challenge it?** The routes for objection, review, correction, reversal, withdrawal, or escalation where harm, data use, discrimination, consequential decisions, restrictions, or shutdowns are involved.
-- **Who can inspect it?** The boundary between public transparency, confidential audit, lawful oversight, protected research access, red-team evidence, security testing, privacy controls, and data provenance.
+- **Who can inspect it?** The boundary between public transparency, confidential audit, lawful oversight, protected research access, red-team evidence, security testing, and privacy controls.
 - **Can its claims and failures be checked?** The evidence trail for material factual claims, consequential decisions, restriction decisions, security/privacy/misuse incidents, disparate failure rates, material changes, corrections, withdrawals, and exit paths.
 
 Those needs are the bridge from the manifesto's five public obligations to concrete operational duties.

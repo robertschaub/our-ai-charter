@@ -16,9 +16,11 @@ The proposed public-AI network is an international effort to make public AI usab
 Four pillars:
 
 1. **Open, plural models** — no privileged model, country, or vendor.
-2. **Data and knowledge commons** — lawful, rights-respecting, documented sources and provenance, with **pooled licensing** to clear rights-compatible data (including for open use) at a network scale and cost no single public model could reach.
+2. **Data and provenance commons** — rights-cleared, privacy-respecting, documented data sources with tiered access: openly reusable sub-corpora where legally robust; protected research, audit, or licensed access where rights, privacy, or sensitivity require it; and shared clearance so public actors do not each negotiate alone.
 3. **Shared assurance and evaluation** — public, checkable evidence for what a system claims and how it answers for failures.
 4. **Federated public AI infrastructure** — independent compute nodes under shared rules; the first buildable substrate.
+
+The data commons is not a promise that all useful training data can be made open. It is a commitment to make origin, permissions, opt-outs, restrictions, and review routes explicit, so public AI is not built on hidden or legally fragile data practices. Where licensing is needed, the collective value is **clear once, reuse many**: a credible public counterpart that rightsholders can license to under common terms, rather than every public model negotiating alone.
 
 Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement and *PublicAI / SPIU* a specific inference utility this initiative draws on; this proposed network is the co-stewarded effort described here, with **AI Assurance & Certification** as its trust-and-evidence building block.
 

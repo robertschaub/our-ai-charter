@@ -19,6 +19,7 @@ Das ist auch ein wirtschaftliches Problem. Fähigkeiten, Kompetenzen, Verhandlun
 Die Schweiz verfügt über ungewöhnlich starke Voraussetzungen für einen Public-AI-Beitrag zu Governance und Nachweisbarkeit:
 
 - **Technologisch und wissenschaftlich:** Mit *Apertus* existiert bereits ein vollständig offenes, öffentlich finanziertes Schweizer Sprachmodell (EPFL, ETH Zürich, CSCS; Apache 2.0). Gewichte, Trainingsdaten, Code und Methoden sind transparent zugänglich.
+- **Daten- und Rechtekompetenz:** Aufbauend auf einer mehrsprachigen Behörden-, Kultur-, Medien- und Wissenschaftslandschaft, der Schweizer Open-Government-Data-Praxis und einer starken Datenschutz- und Rechtsstaatstradition kann die Schweiz einen glaubwürdigen Rahmen für rechteklare Trainings- und Prüfdaten schaffen: öffentliche und offene Teilkorpora, geschützte Forschungs- und Audit-Zugänge sowie faire Lizenzierungswege.
 - **Institutionell:** Das **Swiss National AI Institute (SNAI)** — eine Partnerschaft des ETH AI Center und des EPFL AI Center, in der die **Swiss AI Initiative** läuft — verbindet mehr als 800 Forschende an mehr als 10 Institutionen, neben dem Schweizerischen Nationalen Supercomputing-Zentrum (CSCS).
 - **Diplomatisch:** Als Gastgeberin des Geneva AI Summit 2027 kann die Schweiz als neutrale Vermittlerin und Brückenbauerin auftreten.
 - **International verankert:** Die Schweiz ist bereits Country Partner von *Current AI*, der in Paris ansässigen Partnerschaft für gemeinwohlorientierte KI.
@@ -50,9 +51,10 @@ Der Charter-Beitrag ist eine offene Spezifikation für diese Governance- und Nac
 Das unmittelbare Ziel ist ein abgegrenztes Paket, das an bestehende Public-AI- und Geneva-2027-Arbeiten andocken kann:
 
 1. **Governance-Blueprint** - Rollen, Anti-Capture-Regeln, Interessenkonfliktkontrollen, Aufsicht, Schlichtung, öffentliche Nachweise sowie Regeln für Einschränkung, Rückruf, Abschaltung oder externen Druck.
-2. **Evaluations- und Rechenschaftspraxis** - eine offene Methode zu Grounding-Faithfulness und Contestability für eingesetzte faktische Systeme: Stimmen zitierte Aussagen mit den Quellen überein, verzichtet das System auf Bluffen, können Fehler korrigiert werden, und sind Kontrollbefugnisse überprüfbar?
-3. **Pilotpfad auf bestehender Infrastruktur** - eine modellplurale öffentliche Schicht, über die überprüfbare gemeinwohlorientierte Modelle, einschliesslich Schweizer offener Infrastruktur, wo Partner zustimmen, erreicht und mit Verantwortlichkeiten genutzt werden können.
-4. **Koalitions- und Roundtable-Pfad** - eine kompakte Gruppe Schweizer und internationaler Partner, die prüft, ob dieses Paket ein Beitrag zu Geneva 2027 werden sollte.
+2. **Daten- und Provenienz-Blueprint** - Zugriffsstufen, Rechteklärung, Datenschutz, Opt-outs, Takedown/Korrektur, Provenienzregister und Lizenzierungswege für offene und geschützte Datenbestände.
+3. **Evaluations- und Rechenschaftspraxis** - eine offene Methode zu Grounding-Faithfulness und Contestability für eingesetzte faktische Systeme: Stimmen zitierte Aussagen mit den Quellen überein, verzichtet das System auf Bluffen, können Fehler korrigiert werden, und sind Kontrollbefugnisse überprüfbar?
+4. **Pilotpfad auf bestehender Infrastruktur** - eine modellplurale öffentliche Schicht, über die überprüfbare gemeinwohlorientierte Modelle, einschliesslich Schweizer offener Infrastruktur, wo Partner zustimmen, erreicht und mit Verantwortlichkeiten genutzt werden können.
+5. **Koalitions- und Roundtable-Pfad** - eine kompakte Gruppe Schweizer und internationaler Partner, die prüft, ob dieses Paket ein Beitrag zu Geneva 2027 werden sollte.
 
 ## 6. Was diese Initiative nicht ist
 
@@ -74,4 +76,4 @@ Das unmittelbare Ziel ist ein abgegrenztes Paket, das an bestehende Public-AI- u
 
 ---
 
-*Öffentliche Quellen: [Apertus](https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html); [SNAI](https://www.swiss-ai.org/); [Current AI](https://www.currentai.org/about); [Public AI Inference Utility](https://publicai.co/); [Geneva AI Summit 2027](https://www.admin.ch/de/newnsb/fVHic4Zdu8Sd1ZLKT3X6g); Schweizer Motionen [24.3209](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20243209) und [26.3221](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20263221); [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework); [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), insbesondere Artikel 72-73. Evidenznotizen: [Verified Findings](../Evidence/verified-findings.md).*
+*Öffentliche Quellen: [Apertus](https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html); [SNAI](https://www.swiss-ai.org/); [Current AI](https://www.currentai.org/about); [Public AI Inference Utility](https://publicai.co/); [opendata.swiss](https://opendata.swiss/); [Geneva AI Summit 2027](https://www.admin.ch/de/newnsb/fVHic4Zdu8Sd1ZLKT3X6g); Schweizer Motionen [24.3209](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20243209) und [26.3221](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20263221); [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework); [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj), insbesondere Artikel 72-73. Evidenznotizen: [Verified Findings](../Evidence/verified-findings.md).*

@@ -170,7 +170,7 @@ The bottom-line claim unpacks into eight decisions the **policy broker** makes a
 2. **For what purpose** — a declared purpose and prohibited-use baseline checked at admission, backed by abuse/misuse monitoring (a declaration is not a defence) → admission decision.
 3. **On which node** — node admission (signed agreement; capability + dependency disclosure) and, separately, per-request data-class/jurisdiction routing → node card + routing decision.
 4. **With what model** — an openness/trust classification and model/evaluation cards bound to the deployed version → model card + pinned version.
-5. **With what data** — input, training, and retrieval provenance, consent, and IP basis (the Charter's own headline) → data-provenance record.
+5. **With what data** — input, training, retrieval, adaptation, and evaluation provenance; consent, lawful basis or rights basis; opt-outs, licence restrictions, and unresolved provenance gaps — **the Charter's own headline** → data-provenance and access-tier record.
 6. **Under which evidence obligations** — signed, privacy-minimised, **risk-tiered** records, including *what was not logged and why* → evidence-plane outputs.
 7. **With which redress path** — a named accountable operator, an incident channel, appeal, and human approval for consequential actions → incident + appeal records.
 8. **With what protections against capture** — the §4 design rules (distribution, split-layer voting, funding decoupled from control, neutral host, multi-vendor *and* multi-model, autonomous verification).

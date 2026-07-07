@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-07-07
+- **Data/provenance commons made a prominent Charter pillar** — aligned the [home page](docs/index.md), [network overview](docs/network-overview.md), [Non-Paper](docs/Outreach/non-paper.de.md)/[EN](docs/Outreach/non-paper.en.md), [Charter Commitments](docs/Assurance/Framework/charter-commitments.md), infrastructure control/evidence docs, and policy-sprint questions around a rights-cleared, privacy-respecting **data and provenance commons**: openly reusable sub-corpora only where legally robust, protected research/audit/licensed access for rights- or sensitivity-bound data, and a collective **clear once, reuse many** path so public actors do not negotiate alone. Published article mirrors left unchanged.
 - **Sprint role wording softened from "coordinator" to emergent coordination** — updated the `policy-sprint-*` 1-pager, DE/EN presentation Markdown, DE/EN slides, and the sprint guardrails in the [action plan](docs/Outreach/action-plan.de.md)/[.en](docs/Outreach/action-plan.en.md) and [Geneva routes](docs/Strategy/geneva-2027-options.md): Switzerland is now named as **Knotenpunkt / Gastgeberin / Brückenbauerin** (hub / host / bridge-builder), with the formula that **eine koordinierende Rolle kann daraus erwachsen** / a coordinating role can emerge from that. This keeps the intended active role while avoiding a present coordination mandate claim.
 
 ## 2026-07-06
