@@ -10,11 +10,11 @@ This page is a through-line for a 30-minute scoping conversation and a handout a
 
 ## 1 · The goal
 
-> An **international network of open AI models** whose participants **verifiably commit to a common charter**. In doing so, it **protects and strengthens free and fair societies in the digital age** and fosters their **resilience and self-determination**. As the network's **key international hub, host, bridge-builder and coordinator**, **Switzerland** in turn gains in **international standing and economic strength**. Switzerland can **catalyse this build-up with a national impulse** — by which route (a policy sprint, an impulse programme in the sense of Motion 26.3221, or another) is deliberately left open.
+> An **international network of open AI models** whose participants **verifiably commit to a common charter**. In doing so, it **protects and strengthens free and fair societies in the digital age** and fosters their **resilience and self-determination**. As the network's **key international hub, host and bridge-builder**, **Switzerland** in turn gains in **international standing and economic strength**; a **coordinating role** can emerge from that. Switzerland can **catalyse this build-up with a national impulse** — by which route (a policy sprint, an impulse programme in the sense of Motion 26.3221, or another) is deliberately left open.
 
 ## 2 · The sprint question
 
-> How can Switzerland catalyse the build-up of an international network of open AI models whose participants verifiably commit to a common charter — with what sponsorship, what governance and funding criteria, and what first realistic steps, and in what role (hub, host, bridge-builder, coordinator) does Switzerland act?
+> How can Switzerland catalyse the build-up of an international network of open AI models whose participants verifiably commit to a common charter — with what sponsorship, what governance and funding criteria, and what first realistic steps? What role does Switzerland play as hub, host and bridge-builder, and can a coordinating role emerge from that?
 
 *Scoping ladder: **goal** → **route & sponsorship** (charter, governance, selection) → **concrete building block** (e.g. an Apertus-class model in the network).*
 
@@ -35,7 +35,7 @@ flowchart TB
   A["Access and operation<br/>(public-AI utilities)"]
   C["<b>Common charter</b><br/>public obligations,<br/>verifiable commitment"]
   E["<b>Independent governance<br/>and evidence layer (assurance)</b><br/>evidence, not self-report"]
-  CH["<b>Switzerland</b><br/>hub · host · bridge-builder · coordinator"]
+  CH["<b>Switzerland</b><br/>hub · host · bridge-builder<br/>coordinating role can emerge"]
 
   M --> A
   C -->|binds| M
@@ -53,7 +53,7 @@ flowchart TB
 - **Open models in a network** — interoperability, provider switching, operational continuity; complements existing open models (e.g. Apertus), not a competing model.
 - **Shared, rights-compliant data commons** — pooled licensing clears rights-compatible training data (including for open use), with more bargaining power and lower cost than going it alone.
 - **Independent governance and sponsorship** — roles, oversight outside any single participant, transparent financing.
-- **Swiss hub role** — host, bridge-builder and coordinator; connection to Geneva 2027.
+- **Swiss hub role** — host and bridge-builder; a coordinating role can emerge from that.
 
 ## 6 · Much already under way — the complementary contribution
 
