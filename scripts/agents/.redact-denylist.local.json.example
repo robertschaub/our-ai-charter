@@ -1,0 +1,5 @@
+[
+  { "find": "Full Name Here", "replace": "[PERSON A]" },
+  { "find": "another.person@example.com", "replace": "[PRIVATE EMAIL]" },
+  { "find": "/\\+?[0-9][0-9 ()\\-]{7,}[0-9]/", "replace": "[PHONE]" }
+]

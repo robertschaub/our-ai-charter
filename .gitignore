@@ -43,5 +43,8 @@ _site/
 HANDOVER.md
 *.local.md
 
+# Local redaction denylist for scripts/agents (never commit real personal strings)
+*.local.json
+
 # Gemini CLI local configuration
 .gemini/

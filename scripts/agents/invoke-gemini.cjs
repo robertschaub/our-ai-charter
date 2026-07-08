@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const { loadLocalEnv } = require('./load-local-env.cjs');
+const { redact } = require('./redact.cjs');
 
 const DEFAULT_MODEL = 'gemini-3.1-pro-preview';
 const DEFAULT_MAX_TOKENS = 4096;
@@ -125,6 +126,10 @@ async function main() {
   if (!args.prompt) {
     throw new Error('No prompt provided. Use --prompt "..." or pipe via stdin.');
   }
+
+  // Deterministic privacy backstop: scrub denylisted personal strings before anything leaves the machine.
+  args.prompt = redact(args.prompt);
+  if (args.system) args.system = redact(args.system);
 
   const requestBody = buildRequestBody(args);
 
