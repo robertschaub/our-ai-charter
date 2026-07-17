@@ -2,7 +2,7 @@
 
 *Compiled from public web sources via research agents (June 2026); re-verify before citing. Companion to the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
 
-Of the four channels a Swiss public-interest contributor would feed into, **only two currently accept a submittable artifact.**
+Of the channels a Swiss public-interest contributor would feed into, **two accept a submittable written artifact** (§§1–2); a third — the official ***Road to Geneva* pre-events programme** (§2b) — accepts a **hosted event** (registration ~Aug 2026).
 
 ## 1. Swissnex SF × Stiftung Mercator — "Geneva Loading…" fellowship
 
@@ -31,6 +31,16 @@ The clearest "what do they want" signal. The April 2026 written call (run by Gen
 - **Cadence:** first round **closed** (report submitted 13 Apr 2026). **Next input window not yet publicly dated** — the 50 "keep contributing" responses imply workstreams will form; monitor dig.watch / ICT4Peace.
 - Sources: [dig.watch process](https://dig.watch/processes/2027-geneva-ai-summit) · [dig.watch — prep report available](https://dig.watch/updates/report-on-geneva-2027-ai-summit-preparations-available) · [ICT4Peace/GenAI report PDF](https://ict4peace.org/wp-content/uploads/2026/04/Geneva-2027-AI-Summit-Roadmap-Ge-nAI-Zurich-Checkpoint-Report.pdf) · [ICT4Peace process page](https://ict4peace.org/activities/norms-of-responsible-state-behavior/geneva-2027-ai-summit/) · [admin.ch announcement](https://www.admin.ch/en/newnsb/qewY8BHWPhcMQEYV12fkr)
 
+## 2b. *Road to Geneva* — independent pre-events (open, no gatekeeper)
+
+Confirmed from the primary source ([genevaaisummit.swiss](https://www.genevaaisummit.swiss/), verified 2026-07-17): the official summit runs a **Road to Geneva** programme inviting organisations and institutions worldwide to host **independent pre-events** ahead of the 21–22 June 2027 summit.
+
+- **What it accepts:** a **hosted event**, not a written submission — e.g. a governance/evidence roundtable, a workshop, or a tool demo. Pre-events are explicitly *independent* (not official summit outcomes).
+- **How to participate:** by **registration** — the official site indicates a registration form and further details around **August 2026**; approved organisers may display the official *Road to Geneva* logo.
+- **Support:** **none** — no funding or organisational support is provided.
+- **Why it matters:** the **lowest-gatekeeper channel here** — participation is by registration, not invitation — and a natural home for a governance/evidence contribution, optionally co-hosted with a Swiss partner (a university, ICAIN, Wikimedia CH).
+- *Open item:* the registration form, deadlines, and eligibility detail are pending (site says ~August 2026); re-check then.
+
 ## 3. Current AI
 
 No open call, RFP, application form, or stated proposal format is public. The June 2026 pilot-grant cohort (USD 3.2M, four organisations) gave no path to apply for future rounds. **Engage by relationship, not a submittable artifact.** Sources: [currentai.org](https://www.currentai.org/) · [latest updates](https://www.currentai.org/latest-updates)
@@ -41,7 +51,7 @@ No public governance document, RFC, CONTRIBUTING, or external-governance-layer p
 
 ## How this feeds the curated set
 
-- **Don't conflate the timelines:** the "consultation draft due end-2026" milestone belongs to the *separate* Council of Europe AI Convention implementing-law track (FDJP/DETEC/FDFA), not the Geneva summit — whose next input window is not yet dated.
+- **Don't conflate the timelines:** the "consultation draft due end-2026" milestone belongs to the *separate* Council of Europe AI Convention implementing-law track (FDJP/DETEC/FDFA), not the Geneva summit — whose next *written-input* window is not yet dated (the open *Road to Geneva* **pre-event** registration, by contrast, opens ~Aug 2026 — §2b).
 - The five guiding questions and the "concrete tools" demand (above) are the precise spec the Geneva tool brief should answer.
 
 ## Sources

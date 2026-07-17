@@ -6,7 +6,8 @@ How a public-interest **governance + evidence** contribution can reach the **Gen
 
 - Next global AI summit in the series: Bletchley 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026 → **[Geneva, 21–22 June 2027](https://www.genevaaisummit.swiss/)** → UAE 2028.
 - Switzerland hosts; organisation sits with **UVEK** and **EDA/FDFA**. Publicly named leads include Amb. Markus Reubi (EDA) and Amb. Thomas Schneider (BAKOM/OFCOM).
-- Switzerland frames itself as neutral convenor / sectoral middle way. Preparation is underway; re-verify dates and process before outreach.
+- **Open on-ramp — the official *Road to Geneva* pre-events programme.** The summit invites organisations and institutions worldwide to run **independent pre-events** ahead of June 2027. Participation is by **registration, not invitation** (the official site indicates a registration form and further details will appear around **August 2026**); approved organisers may use the official *Road to Geneva* logo, and **no funding or organisational support** is provided — a rare no-gatekeeper channel. Source: [genevaaisummit.swiss](https://www.genevaaisummit.swiss/).
+- Switzerland frames itself as neutral convenor / sectoral middle way. Preparation is underway; dates now confirmed (21–22 June 2027) — re-verify the process, and watch for the pre-event registration, before outreach.
 - Distinct from — but now converging with — the **UN/ITU multilateral track** that lands in Geneva a year earlier: the **inaugural UN Global Dialogue on AI Governance (6–7 July 2026)**, run back-to-back with the **ITU AI for Good Summit (7–10 July 2026)**, both informed by the UN Scientific Panel's first report (1 July 2026; co-chairs Bengio & Ressa). It is the nearest live venue to observe the process and test a governance/evidence contribution a year before the 2027 summit; the Panel→Dialogue cadence continues (annual report → second Dialogue, May 2027, New York). Sources in [linked sources](../Evidence/linked-sources.md).
 
 ## Realistic standing
@@ -25,6 +26,7 @@ Roles are recorded in the [actor map](../Evidence/actors-and-landscape.md). Re-v
 |---|---|---|
 | **A. Official summit process** | Offer the governance/evidence layer as additive to Switzerland's preparation | Amb. Markus Reubi (EDA); Amb. Thomas Schneider (BAKOM) |
 | **A'. Swiss AI Action Plan** | One-page contributor input only if the [go/no-go bar](swiss-action-plan-contribution.md) is met | digitalswitzerland Action-Plan team with BAKOM |
+| **A''. *Road to Geneva* pre-event** | Register (or co-host) an independent pre-event under the official programme — e.g. a governance/evidence roundtable or a tool demo | Own convening, or with a Swiss partner (a university, ICAIN, Wikimedia CH — Route D'); registration opens ~Aug 2026 |
 | **B. Public-AI infrastructure node** | Position the Charter as governance/evidence layer for open public models and PublicAI-style access | Public AI / Metagov; publicai.ch / SPIU; Apertus leads; SNAI |
 | **C. Neutral pre-sprint** | Produce the blueprint and one evaluation outline through a neutral process | Expedition Zukunft; alternatives: GSPI, GESDA, IHEID Tech Hub |
 | **D. International Geneva** | Connect to multilateral and middle-power framing | ICT4Peace, Diplo/GIP, UNIDIR, ITU AI for Good, UN Scientific Panel, ICAIN |
@@ -39,6 +41,8 @@ Roles are recorded in the [actor map](../Evidence/actors-and-landscape.md). Re-v
 3. **Open doors — Route D.** International-Geneva conveners supply multilateral context and visibility.
 4. **Use official channels — Route A/A'** only once there is a coalition and concrete deliverable.
 5. **Use E/F later** for political and funding support.
+
+**Near-term, low-gatekeeper:** watch for the official *Road to Geneva* **pre-event registration (opens ~Aug 2026)** and consider running or co-hosting one (Route A'') — it puts the governance/evidence contribution into the official process by registration, not invitation.
 
 If the Swissnex/Mercator fellowship channel is not available or not taken up, use the lower-effort fallback in the [fellowship plan](geneva-2027-swissnex-fellowship.md): publish the brief/checklist/worked example independently, then attach it to a side-event module, consultation input, or adjacent Geneva convening. The goal stays the same: one reusable public artifact, not a claimed summit role.
 
