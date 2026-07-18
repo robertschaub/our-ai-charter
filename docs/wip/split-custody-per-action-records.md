@@ -2,7 +2,7 @@
 
 # Split custody for per-action records
 
-*Working notes — 2026-07-18 · public-safe. Companions: [Charter Commitments](../Assurance/Framework/charter-commitments.md) (operational duty 6, contestability), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md).*
+*Working notes — 2026-07-18 · public-safe · cross-model-reviewed (design refined same day). Companions: [Charter Commitments](../Assurance/Framework/charter-commitments.md) (operational duty 6, contestability), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md).*
 
 ## The question
 
@@ -14,14 +14,15 @@
 
 Custody should not pick a side. Split the record into three separable concerns — **integrity, content, access** — and allocate each to a different party:
 
-> Content stays with the liability-bearer; integrity hashes go to a neutral append-only log; the affected person always holds the scoped extract about their own determination; an independent fiduciary holds escrowed keys that open on dispute triggers under purpose limitation; courts hold the override.
+> Content stays with the liability-bearer, and an encrypted sealed copy is lodged with an independent fiduciary so the record survives its maker; batched, privacy-preserving integrity fingerprints go to a neutral append-only log; the affected person always holds the scoped extract about their own determination, plus a receipt proving the full record was lodged; the fiduciary's keys open only with authorization from a competent regulator, tribunal, or court, for a genuine dispute and that purpose alone; courts balance secrets and third-party privacy.
 
 | Concern | Allocation | Working precedent |
 |---|---|---|
 | Record content | Liability-bearing deployer (needs it to operate and defend) | Standard operator record-keeping; [EU AI Act Art. 12](https://artificialintelligenceact.eu/article/12/) logging |
-| Integrity | Neutral append-only log holding hash anchors only — alteration/deletion detectable by anyone, content readable by no one | [Certificate Transparency (RFC 6962)](https://datatracker.ietf.org/doc/html/rfc6962); tamper-evident audit-log practice |
-| Affected person's access | Scoped extract on their own determination, held as of right: basis, policy version in force, authority chain, bounds, human-review event — role-resolved, not biographic | [Tachograph driver card](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0165) (worker holds own record; authority card overrides company locks); [AI Act Art. 86](https://artificialintelligenceact.eu/article/86/) explanation right; [Platform Work Directive 2024/2831](https://www.etui.org/publications/eu-platform-work-directive) (transparency to workers *and* representatives) |
-| Full-content depth | Keys escrowed with a fiduciary independent of the party the record constrains; released on defined triggers (dispute, regulator demand, audit) under purpose limitation | [Data trusts](https://theodi.org/insights/explainers/what-is-a-data-trust/) (fiduciary stewardship); [ICAO Annex 13](https://skybrary.aero/sites/default/files/bookshelf/5876.pdf) (investigators take flight-recorder custody on a trigger; misuse for blame/discipline barred) |
+| Integrity | Neutral append-only log holding **batched** fingerprints only — alteration or disappearance detectable by anyone (via the receipt below), content and per-record metadata readable by no one | [Certificate Transparency (RFC 6962)](https://datatracker.ietf.org/doc/html/rfc6962); tamper-evident audit-log practice |
+| Survivability | An encrypted sealed copy of the record lodged with the independent fiduciary — the record outlives the institution's retention choices, vendor exits, and deletion | Flight-recorder deposit logic; answers the paper's "gone the day the vendor is" objection |
+| Affected person's access | Scoped extract on their own determination, held as of right: the decision, its basis, policy version in force, authority chain, bounds, human-review event, and the challenge route — role-resolved, not biographic — **plus a receipt proving the full record was lodged** | [Tachograph driver card](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0165) (worker holds own record; authority card overrides company locks); [AI Act Art. 86](https://artificialintelligenceact.eu/article/86/) explanation right; [Platform Work Directive 2024/2831](https://www.etui.org/publications/eu-platform-work-directive) (transparency to workers *and* representatives) |
+| Full-content depth | Sealed copy openable only with authorization from a competent regulator, tribunal, or court — the fiduciary cannot open it unilaterally — for a genuine dispute and that purpose alone | [Data trusts](https://theodi.org/insights/explainers/what-is-a-data-trust/) (fiduciary stewardship); [ICAO Annex 13](https://skybrary.aero/sites/default/files/bookshelf/5876.pdf) (investigators take flight-recorder custody on a trigger; misuse for blame/discipline barred) |
 | Secrets / third-party privacy conflicts | Court or supervisory authority receives the material, balances, passes through what the person needs | [CJEU C-203/22 *Dun & Bradstreet*](https://www.dpcuria.eu/case?reference=C-203%2F22) (2025), following [C-634/21 *SCHUFA*](https://www.dpcuria.eu/case?reference=C-634%2F21) |
 | Verification without disclosure | Cryptographic commitments + zero-knowledge proofs: confirm properties of a decision (registered policy applied; protected attribute unused) without revealing policy or data | [Kroll et al., *Accountable Algorithms*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2765268), 165 U. Pa. L. Rev. 633 (2017) |
 
@@ -34,12 +35,13 @@ erDiagram
   Deployer ||--o{ Action : "executes"
   Action }o--|| AffectedPerson : "affects"
   Action ||--|| Record : "generates as it acts"
-  Record }o--|| NeutralLog : "hash-anchored in"
+  Record }o--|| NeutralLog : "batch-anchored in"
+  Record }o--|| Fiduciary : "sealed copy lodged with"
   Record ||--o| Extract : "yields"
   Extract }o--|| AffectedPerson : "held as of right"
   Record ||--o{ EscrowKey : "content sealed under"
   EscrowKey }o--|| Fiduciary : "escrowed with"
-  EscrowKey }o--|| Court : "opens on dispute"
+  EscrowKey }o--|| Court : "opens with authorization"
   Court ||--o{ Extract : "passes through"
   Record ||--o{ AccessEvent : "every read recorded"
   AccessEvent }o--|| NeutralLog : "appended to"
@@ -54,6 +56,7 @@ erDiagram
   Extract {
     string own_determination_only
     string role_resolved_identity
+    string lodgment_receipt
   }
   EscrowKey {
     string scope
@@ -82,7 +85,7 @@ The custody question this note answers was posed in the comment thread of the pa
 
 ## Open questions
 
-1. **Custodian accreditation recursion.** Who evidences the evidence-holder? The paper calls this "attribution under capture" and offers plural observance as mitigation, not solution. Assessment: an accreditation chain bounds but does not close the regress.
+1. **Custodian accreditation — and the no-jurisdiction hard case.** Who accredits, audits, and can replace the fiduciary, and what makes its decisions binding where no regulator or court has effective jurisdiction (cross-border platforms, the humanitarian sector)? The paper calls the underlying recursion "attribution under capture" and offers plural observance as mitigation, not solution. Assessment: an accreditation chain bounds but does not close the regress; the jurisdiction-free case remains fully open.
 2. **Aggregation risk.** Many scoped extracts plus integrity metadata can still profile a person or a workforce; access logging mitigates, does not eliminate.
 3. **The two clocks.** Erasure rights run short, liability tails run long; layered retention with cryptographic erasure reconciles most cases, but the residue is a genuine conflict of laws that legislatures must rank sector by sector (the paper flags this; nothing found resolves it).
 4. **Adoption where insurance pressure is absent.** The paper's enforcement engine is underwriting; benefits scoring, humanitarian allocation, and algorithmic management sit where that engine is weakest. Candidate substitutes — procurement conditions, administrative and labour law, funder mandates — are noted in the sources above but no regime yet mandates the record there.
