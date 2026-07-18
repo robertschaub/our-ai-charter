@@ -75,13 +75,19 @@ Reading: the deployer executes and carries liability; the affected person bears 
 
 ## Public discussion record
 
-The custody question this note answers was posed in the comment thread of the paper's [accompanying article](https://www.linkedin.com/pulse/every-ai-framework-earth-regulates-same-layer-andrew-woodward-4nmzc), and the proposed solution was posted there in plain-language form on 2026-07-18:
+The custody question this note answers was posed in the comment thread of the paper's [accompanying article](https://www.linkedin.com/pulse/every-ai-framework-earth-regulates-same-layer-andrew-woodward-4nmzc), and the proposed solution was posted there on 2026-07-18 — first in a simpler form, then refined the same day to the standing version below (the refined design of this note, in plain language):
 
-> Following up on my own question with a proposed solution (same AI-assisted research as before).
+> Following up with a proposed solution (same AI-assisted research).
 >
-> The institution that answers for the system keeps the full records—it needs them to operate and to defend itself. But it can't quietly edit or delete them: a fingerprint of every record goes to an independent public ledger, so tampering shows. The person affected by a decision automatically gets the part about them—what it was based on, which rules applied, who authorized it, whether a human really reviewed it. The deeper, sensitive material stays locked; a neutral trustee holds the keys and opens them only for a genuine dispute, and only for that purpose. Where trade secrets or someone else's privacy collide, a court reads the material and passes on what the person needs. And every look into a record is itself logged—the watchers get watched.
+> The institution answering for the system keeps the full record—it needs it to operate and defend itself. But it can't quietly edit or delete it: an encrypted sealed copy sits with an independent trustee, and a privacy-protecting batch fingerprint goes to a public ledger, so tampering or disappearance shows without exposing records.
 >
-> None of this is new: truck tachographs, aviation black boxes, the EU's AI Act and platform-work rules each already run one piece. What I can't close is who checks the trustee. Happy to be shown where this breaks.
+> The affected person gets the part about their decision—what was decided, on what data and rules, who authorized it, whether a human really reviewed it, how to challenge it—plus a receipt proving the record was lodged.
+>
+> The trustee can't open the sealed copy alone: it takes authorization from a competent regulator, tribunal or court, for a genuine dispute and that purpose only; the same authority decides what to disclose where trade secrets or others' privacy collide. Every access is itself logged—the watchers get watched.
+>
+> None of this is exotic—tachographs, aviation investigations, the AI Act and platform-work rules already run or legislate the pieces.
+>
+> Still open: where no regulator or court has effective jurisdiction, who accredits, audits and can replace the trustee—and what makes its rulings binding?
 
 ## Open questions
 
