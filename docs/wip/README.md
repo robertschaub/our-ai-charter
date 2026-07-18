@@ -21,6 +21,10 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 - **[geneva-2027-assurance-questions-note.md](geneva-2027-assurance-questions-note.md)** — forwardable, question-led entry artifact (five open questions on the public-AI governance/evidence layer); the lower-risk first move ahead of the keystone memo's package + ask.
 - **[evaluation-poc-scope.md](evaluation-poc-scope.md)** — runnable plan for one pilot of the evaluation protocol on an Apertus-based cited-source deployment; the *results-not-a-framework* asset.
 
+## Assurance & accountability
+
+- **[split-custody-per-action-records.md](split-custody-per-action-records.md)** — who holds the keys when liability and harm sit on different parties: custody decomposed into content / integrity / access, each allocation grounded in a running precedent (tachograph cards, ICAO Annex 13, AI Act Art. 86, Platform Work Directive, CJEU C-203/22, *Accountable Algorithms*), with an ER model and the open custodian-accreditation question — answers a custody gap left open by *The Wrong Layer* (Stuart-Mueller & Woodward, July 2026).
+
 ## Draft articles
 
 - **[article-when-vs-who-ai-governance.md](article-when-vs-who-ai-governance.md)** — draft article for LinkedIn: AI's collapsing exploit window doesn't make certification obsolete; the real question is *who gets to check and contest* a system — reframed via the capability-vs-legitimacy (*can it run* / *may it run*) distinction. Publish, then mirror to `Published/`.
