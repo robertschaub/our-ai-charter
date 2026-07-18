@@ -70,6 +70,16 @@ Reading: the deployer executes and carries liability; the affected person bears 
 - **Who accredits the custodian** is an assurance-chain question — standard → assessor → accreditor → peer, no one checking their own work — i.e. exactly the [certification model's](../Assurance/Framework/charter-commitments.md) territory. The custodian role slots into that chain rather than requiring a new authority.
 - **Capture resistance.** Purpose limitation needs statute, not scheme rules — a US court has [declined to let Annex 13 block discovery](https://condonlaw.com/2021/02/texas-federal-court-rules-that-boeing-cannot-withhold-otherwise-discoverable-documents-and-information-based-on-the-icao-annex-13/) — matching the Charter's position that material control interventions must be attributable and reviewable, never secret and unilateral.
 
+## Public discussion record
+
+The custody question this note answers was posed in the comment thread of the paper's [accompanying article](https://www.linkedin.com/pulse/every-ai-framework-earth-regulates-same-layer-andrew-woodward-4nmzc), and the proposed solution was posted there in plain-language form on 2026-07-18:
+
+> Following up on my own question with a proposed solution (same AI-assisted research as before).
+>
+> The institution that answers for the system keeps the full records—it needs them to operate and to defend itself. But it can't quietly edit or delete them: a fingerprint of every record goes to an independent public ledger, so tampering shows. The person affected by a decision automatically gets the part about them—what it was based on, which rules applied, who authorized it, whether a human really reviewed it. The deeper, sensitive material stays locked; a neutral trustee holds the keys and opens them only for a genuine dispute, and only for that purpose. Where trade secrets or someone else's privacy collide, a court reads the material and passes on what the person needs. And every look into a record is itself logged—the watchers get watched.
+>
+> None of this is new: truck tachographs, aviation black boxes, the EU's AI Act and platform-work rules each already run one piece. What I can't close is who checks the trustee. Happy to be shown where this breaks.
+
 ## Open questions
 
 1. **Custodian accreditation recursion.** Who evidences the evidence-holder? The paper calls this "attribution under capture" and offers plural observance as mitigation, not solution. Assessment: an accreditation chain bounds but does not close the regress.
