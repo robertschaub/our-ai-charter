@@ -27,7 +27,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 ## Draft articles
 
-- **[article-when-vs-who-ai-governance.md](article-when-vs-who-ai-governance.md)** — draft article for LinkedIn: AI's collapsing exploit window doesn't make certification obsolete; the real question is *who gets to check and contest* a system — reframed via the capability-vs-legitimacy (*can it run* / *may it run*) distinction. Publish, then mirror to `Published/`.
+- **[article-when-vs-who-ai-governance.md](article-when-vs-who-ai-governance.md)** — draft article for LinkedIn: per-action records strengthen runtime governance, but public accountability also requires independent evidence assessment and a real path for affected people to challenge decisions. Publish, then mirror to `Published/`.
 
 ## Related curated notes
 
