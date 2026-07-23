@@ -1,4 +1,30 @@
-> **Status: WORKING NOTES** — draft article for publication (LinkedIn, then mirror to `Published/` once live). Engages the runtime-governance argument with one representative public source named. Public-safe; source-checked through 2026-07-22.
+> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; source-checked through 2026-07-22.
+<!-- Canonical LinkedIn Pulse URL pending — add to this banner and the README Articles entry once available. -->
+
+---
+
+𝗥𝘂𝗻𝘁𝗶𝗺𝗲 𝗔𝗜 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗚𝗲𝘁𝘀 𝘞𝘩𝘦𝘯 𝗥𝗶𝗴𝗵𝘁. 𝗧𝗵𝗲 𝗛𝗮𝗿𝗱𝗲𝗿 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗜𝘀 𝘞𝘩𝘰 𝗚𝗲𝘁𝘀 𝘁𝗼 𝗖𝗵𝗲𝗰𝗸?  
+  
+The window from vulnerability discovery to a weaponized exploit is collapsing from weeks to hours, according to a security briefing reviewed by more than 250 CISOs.  
+  
+That speed is one reason governance cannot stop at deployment. Agentic AI adds a separate problem: consequential actions can be composed at runtime, so they should be checked then — not only described in advance.  
+  
+But a technical gate is only as trustworthy as the institutions around it. Where the same operator runs the system, sets the policy, and controls the evidence, it is still marking its own homework — just faster.  
+  
+𝗦𝗼 𝘄𝗵𝗼 𝗴𝗲𝘁𝘀 𝘁𝗼 𝗰𝗵𝗲𝗰𝗸? 𝗡𝗼 𝗼𝗻𝗲 𝗯𝗼𝗱𝘆 𝗴𝗲𝘁𝘀 𝘁𝗵𝗲 𝘄𝗵𝗼𝗹𝗲 𝗰𝗵𝗮𝗶𝗻.  
+  
+  1. 𝗥𝘂𝗹𝗲𝗺𝗮𝗸𝗲𝗿 sets the published criteria  
+  2. 𝗢𝗽𝗲𝗿𝗮𝘁𝗼𝗿 runs the gate against a signed policy  
+  3. 𝗥𝗲𝗰𝗼𝗿𝗱 𝗸𝗲𝗲𝗽𝗲𝗿 preserves a sealed copy  
+  4. 𝗜𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝘁 𝗿𝗲𝘃𝗶𝗲𝘄𝗲r assesses the evidence  
+  5. 𝗥𝗲𝗺𝗲𝗱𝘆 𝗱𝗲𝗰𝗶𝗱𝗲𝗿 hears the affected person's challenge and  
+  
+  
+[**#AI**](https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED) [**#TrustworthyAI**](https://www.linkedin.com/search/results/all/?keywords=%23trustworthyai&origin=HASH_TAG_FROM_FEED) [**#AIGovernance**](https://www.linkedin.com/search/results/all/?keywords=%23aigovernance&origin=HASH_TAG_FROM_FEED) [**#PublicAI**](https://www.linkedin.com/search/results/all/?keywords=%23publicai&origin=HASH_TAG_FROM_FEED) [**#AgenticAI**](https://www.linkedin.com/search/results/all/?keywords=%23agenticai&origin=HASH_TAG_FROM_FEED)
+
+---
+
+![A public runtime gate surrounded by five separated roles: rulemaker, operator, record keeper, independent reviewer, and remedy decider, with sealed evidence held outside the gate](when-vs-who-ai-governance.png)
 
 # Runtime AI Governance Gets *When* Right. The Harder Question Is *Who Gets to Check?*
 
@@ -22,21 +48,35 @@ Which leads to the deeper point. **A gate is only as trustworthy as the institut
 
 A technical gate can answer a substantial question: *may this action proceed under the configured policy?* With a sound record behind it, the gate can later show what authority and evidence it applied. That is more than raw capability. But no gate can establish its own public legitimacy. Who sets the policy, who assesses the quality of the evidence, and who hears a challenge are institutional judgments, not cryptographic ones.
 
-Where the same operator composes the action, sets the policy, and controls the evidence, it is still marking its own homework faster. Independent custody, outside review, and a real path to challenge the decision complete the loop.
+Where the same operator composes the action, sets the policy, and controls the evidence, it is still marking its own homework faster. Independent custody, role-scoped access, outside review, and a real path to challenge the decision complete the loop.
 
-The public-interest version asks for three things a runtime gate alone cannot provide:
+**So who gets to check? No one body gets the whole chain.**
 
-- **Evidence others can actually inspect** — not merely a tamper-evident log, but a record whose relevance and sufficiency an independent party can assess: what the system claimed, the sources it used and where it used them, its uncertainty, its known limits, and — honestly — what was not recorded and why.
+1. **Rulemaker** — sets the published criteria, but does not operate or audit the system.
+2. **Operator** — runs the gate against a signed policy, but does not hold the only record.
+3. **Record keeper** — preserves a sealed copy, but cannot open it or decide the case alone.
+4. **Independent reviewer** — assesses the evidence, but is not selected or paid to pass by the operator.
+5. **Remedy decider** — hears the affected person's challenge and, where legally or contractually empowered, can bind the outcome.
+
+**Who checks the checkers?** Accreditation and peer review.
+
+**What stops capture?** Disclosed, diversified funding; no funder sets the criteria; assessors are assigned through rotation, escrow, or a public pool; and fees are fixed and outcome-independent.
+
+That structure must deliver three public-interest guarantees:
+
+- **Evidence the right parties can inspect without creating a surveillance file** — not merely a tamper-evident log, but an action record sufficient to assess claims, sources, uncertainty, limits, and known omissions. Access is role-scoped: the affected person can inspect the basis of their own determination; an independent custodian preserves the sealed full record but cannot open it alone; deeper access requires defined authority for a genuine dispute; and every access is logged.
 - **Decisions the affected can contest** — notice, review, challenge, and remedy for the people a system acts on, adjudicated by someone sitting outside any single operator.
 - **Duties that don't evaporate at deployment** — a named human institution that answers for the system's claims, harms, and consequential decisions across its whole life, not just at launch.
 
 None of that requires a new central authority. It requires role separation so no one certifies their own work. [ISO](https://www.iso.org/certification.html) writes standards, external certification bodies do the checking, and accreditation can independently confirm their competence. Journalism's [Journalism Trust Initiative](https://rsf.org/en/journalism-trust-initiative) similarly offers optional certification through external, independent auditors. Build the test, borrow the machinery.
 
+A public option answers who can keep an AI capability available. Independent assurance answers why anyone else should rely on its behaviour. Ownership creates leverage; independently verifiable evidence makes that leverage credible. But the chain has a boundary: where no regulator, tribunal, court, or enforceable agreement can authorize access, replace a failed custodian, and bind a remedy, the assured scope should say so rather than pretend the accountability loop is closed.
+
 And none of this means slowing every action to a crawl. Routine, rules-based checks can run in-band; ambiguous, out-of-bounds, or irreversible actions should escalate. The durable record then supports independent review and, when needed, adjudication. Check now, preserve the record, and make challenge possible. A collapsing exploit window is a reason to automate controls and preserve better evidence, not to collapse control, custody, and review into one operator.
 
-One honest limit, because it cuts against my side too. No certificate can guarantee that every future AI output will be *true*. But we can evaluate whether a system *shows its work*: whether it grounds its material claims, signals its doubt, and corrects itself. Honesty-of-process is testable even when the truth of every answer is not. And the same discipline should bind the humans and institutions deploying these systems, not only the models — evidence before reliance, from people as much as from machines.
+A second honest limit cuts against my side too. No certificate can guarantee that every future AI output will be *true*. But we can evaluate whether a system *shows its work*: whether it grounds its material claims, signals its doubt, and corrects itself. Honesty-of-process is testable even when the truth of every answer is not. And the same discipline should bind the humans and institutions deploying these systems, not only the models — evidence before reliance, from people as much as from machines.
 
-So move governance closer to the moment of action. But *when* is only half the question. The harder half is *who*: move the check out of the sole hands of whoever runs the system — into evidence independent parties can assess and decisions affected people can challenge.
+So move governance closer to the moment of action. But *when* is only half the question. The harder half is *who*: split rule, run, record, review, and remedy; make the evidence inspectable by the right parties under defined authority; and firewall the funding beneath the chain so affected people can challenge consequential decisions.
 
 This is a working proposal from a small, unfunded, model-plural effort, intended to contribute to open-model and public-interest work already under way. Where does it break? What's missing?
 
@@ -44,4 +84,4 @@ This is a working proposal from a small, unfunded, model-plural effort, intended
 
 `#AI #TrustworthyAI #AIGovernance #PublicAI #AgenticAI`
 
-*Working draft. Source and work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter).*
+*Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
