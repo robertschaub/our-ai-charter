@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; source-checked through 2026-07-22.
+> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; three public comments (below) are documented; source-checked through 2026-07-23.
 > Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 
 ---
@@ -87,3 +87,21 @@ This is a working proposal from a small, unfunded, model-plural effort, intended
 `#AI #TrustworthyAI #AIGovernance #PublicAI #AgenticAI`
 
 *Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
+
+---
+
+## Accompanying comments
+
+_Published on the [LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_runtime-ai-governance-gets-when-right-the-activity-7485969016478478336-K0gt/), 23 July 2026._
+
+**Robert Schaub**
+
+The difficult design problem is preserving independence without making runtime governance too slow. Routine checks can run automatically against signed policies, with evidence preserved independently. Only ambiguous, out-of-bounds, or irreversible cases need escalation to pre-certified human reviewers. A sector-wide pool, rotation and clear response times could make that review both independent and fast. The aim is not human approval of every action, but accountable human institutions around automated decisions.
+
+**Robert Schaub**
+
+Where the "checking" comes from: One test for any use of power — is it legitimate, and can those who bear it hold it answerable? The Remedy decider is where an AI decision finally answers to the person it fell on → [https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we)
+
+**Angelo Richiello — summary**
+
+Richiello argued that separating roles is necessary but insufficient: if incentives reward speed and deployment while no one is rewarded for questioning or stopping a decision, independent oversight can gradually become symbolic rather than real.
