@@ -1,5 +1,5 @@
 > **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; source-checked through 2026-07-22.
-<!-- Canonical LinkedIn Pulse URL pending — add to this banner and the README Articles entry once available. -->
+> Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 
 ---
 
@@ -17,10 +17,12 @@ But a technical gate is only as trustworthy as the institutions around it. Where
   2. 𝗢𝗽𝗲𝗿𝗮𝘁𝗼𝗿 runs the gate against a signed policy  
   3. 𝗥𝗲𝗰𝗼𝗿𝗱 𝗸𝗲𝗲𝗽𝗲𝗿 preserves a sealed copy  
   4. 𝗜𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝘁 𝗿𝗲𝘃𝗶𝗲𝘄𝗲r assesses the evidence  
-  5. 𝗥𝗲𝗺𝗲𝗱𝘆 𝗱𝗲𝗰𝗶𝗱𝗲𝗿 hears the affected person's challenge and  
+  5. 𝗥𝗲𝗺𝗲𝗱𝘆 𝗱𝗲𝗰𝗶𝗱𝗲𝗿 hears the affected person's challenge and can bind the outcome  
   
   
 [**#AI**](https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED) [**#TrustworthyAI**](https://www.linkedin.com/search/results/all/?keywords=%23trustworthyai&origin=HASH_TAG_FROM_FEED) [**#AIGovernance**](https://www.linkedin.com/search/results/all/?keywords=%23aigovernance&origin=HASH_TAG_FROM_FEED) [**#PublicAI**](https://www.linkedin.com/search/results/all/?keywords=%23publicai&origin=HASH_TAG_FROM_FEED) [**#AgenticAI**](https://www.linkedin.com/search/results/all/?keywords=%23agenticai&origin=HASH_TAG_FROM_FEED)
+
+𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 
 ---
 
