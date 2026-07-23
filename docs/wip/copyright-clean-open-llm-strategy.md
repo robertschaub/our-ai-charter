@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews; updated 2026-07-03 with the LinkedIn prompt, question-routing research, an agentic-coding capability snapshot, and a hosted-vs-self-host + cost section. Re-verify legal, model-performance, and initiative-status claims before external use.
+> **Status: WORKING NOTES** - grounded strategy note, prepared 2026-07-02 from web research plus three parallel assistant reviews; updated 2026-07-03 with the LinkedIn prompt, question-routing research, an agentic-coding capability snapshot, and a hosted-vs-self-host + cost section; updated 2026-07-07 with a grounded actor & mechanism map from primary sources (COMMUNIA study PDF read in full, Apertus technical report). Re-verify legal, model-performance, and initiative-status claims before external use.
 
 # Copyright-clean open/public LLMs - competitiveness strategy
 
@@ -15,6 +15,34 @@ The first-pass answer - a public data trust plus provenance - is necessary but p
 The stronger answer is therefore not "out-scrape closed labs." It is: **out-institutionalize them where trust, sovereignty, auditability, local language quality, and procurement legitimacy matter.** Open/public LLMs do not need to beat the best closed model on every general benchmark to matter. They need to become the default trusted layer for public administration, research, education, cultural and language infrastructure, regulated workflows, and SMEs that need portability.
 
 Stanford's 2026 AI Index is the best current reality check: as of March 2026, the top closed model led the top open model by 3.3%, up from 0.5% in August 2024 - the gap reopened in 2025 after briefly closing in 2024; it also notes that leading model performance is clustering and that competition is shifting toward cost, reliability, and domain performance ([Stanford AI Index 2026](https://hai.stanford.edu/ai-index/2026-ai-index-report/technical-performance)).
+
+## 2026-07-07 — how the field actually answers this (grounded map)
+
+*From primary sources read directly: the [COMMUNIA study](https://communia-association.org/2026/06/30/new-study-copyright-challenges-in-open-source-ai-development-in-the-european-union/) (full PDF), the [Apertus technical report](https://arxiv.org/abs/2509.14233), and dataset/org primary pages. Lower-confidence items are in Open questions.*
+
+The field has effectively abandoned "each team clears copyright alone." It splits into two philosophies, over four shared "solve-once" layers.
+
+**Two philosophies.** *Avoid* — train only on public-domain / open / directly-licensed data, so there is little to clear (pleias·Common Corpus, GPT-NL, largely Apertus); pleias: *"an Open Data approach means that a project does not need to invest resources in copyright vetting."* *Manage* — train on web-crawl under the DSM TDM exceptions and honour opt-outs (OpenEuroLLM, PLLUM, SOOFI, GAMS); notably most shift from Art. 3 to the *narrower* Art. 4 because open weights allow commercial use, inheriting the opt-out burden.
+
+**Four "solve-once" layers (maturity varies):**
+
+1. **Shared clean corpora** — Common Corpus (≈2T tokens, public-domain + permissive, per-document provenance; AI Alliance Open Trusted Data Initiative) and EleutherAI **Common Pile** (8 TB), whose **"Comma" 7B models are competitive with Llama 1/2** — the strongest proof the *Avoid* path can work; KL3M (legal/finance, CC-BY data + MIT tooling). *Caveat: FineWeb is openly licensed (ODC-By) but is filtered Common Crawl — not copyright-clean; don't lump it in.*
+2. **Shared provenance / audit tooling** — the **Data Provenance Initiative**'s Explorer (over 1,800 datasets) lets builders filter for license/consent instead of re-auditing; its own audit found *"license omission of 70%+ and error rates of 50%+"* on hosting sites, and its *Consent in Crisis* study found **~45% of C4 now Terms-of-Service-restricted** (the open web is closing fast).
+3. **Shared opt-out signalling — still fragmented.** robots.txt (REP), W3C **TDMRep** (a Community-Group report, *not* a standard), **Spawning**'s Do-Not-Train registry + API (Shutterstock alone added 444M+ URLs), Creative Commons **signals** (alpha ~Nov 2025, "may range in enforceability"), IPTC guidance. None is a binding standard; IPTC and CC both point to a missing **IETF** unifier.
+4. **Shared legal + compliance scaffolding** — EU AI Act **Art. 53(1)(c)/(d)** (a copyright policy honouring Art. 4(3) reservations + a public training-content summary on a common AI-Office template) and the **GPAI Code of Practice**; **Fairly Trained**'s "Licensed Model" label (a shared badge, but the licensing work stays per-team).
+
+**The policy prescription — COMMUNIA (Drabczyk & Tarkowski, June 2026), four recommendations:** (1) confirm AI training is legitimate TDM under Art. 3 *and* 4, and open-sourcing model weights doesn't forfeit Art. 3; (2) a statutory, un-waivable **right to host/share/republish** curated training datasets for verification; (3) a **good-faith safe harbor** for good-faith compliers; (4) *"Europe needs a European public training corpus as digital infrastructure."* Open Future's Jan-2026 *European Public AI* brief adds **"data labs"** stewarding a **"European data commons"** with a *"gatekeeping role"* and *"public-interest-oriented licensing."*
+
+**Two real "clear once, reuse many" precedents** (these upgrade the *Collective licensing / data compacts* and *Public data trust* rows below from theory to precedent):
+
+- **Slovenian National Library** — shares its in-copyright collection *on condition that datasets "will be reshared back to the National Library, so that it can further make them available for new research projects."*
+- **GPT-NL "Content Board"** — Dutch data providers *"collectively agreed on the terms and conditions of data sharing,"* with revenue-sharing proportional to contribution and use.
+
+**The killer datapoint for the collective-action thesis:** HPLT spent *"6 million Euro to clean up, deduplicate and refine Common Crawl … 50 terabytes … in 200 languages. Yet there is legal uncertainty whether this can be shared, leading to a waste of resources, as researchers have to each work with crawl data on their own"* — while these burdens *"fall hardest on open-source AI developers … while well-resourced global competitors can absorb legal ambiguity."* This is the empirical backbone for the network's *clear once, reuse many* framing.
+
+**Charter angle.** These commons proposals are strong on *what* and *why*, thin on the trustworthy *how* — stewardship, anti-capture, tiered access, checkable provenance. That governance/assurance skin is this initiative's [data-and-provenance-commons](../network-overview.md) contribution — **not** a rival corpus, and **not** a collecting society: none exists, so the "credible public counterpart rightsholders can license to" must read as *design intent*, not fact.
+
+**Name-adjacent watch:** the Apertus report (§4.2) says the Swiss AI Initiative plans to open a **"Swiss AI Charter"** for democratized refinement — verify its scope before Apertus-adjacent outreach.
 
 ## Capability snapshot: agentic coding (mid-2026)
 
@@ -244,3 +272,5 @@ Near-term artifacts that would fit this strategy:
 - Is the first proof point a model, an inference service, a procurement package, or a domain evaluation?
 - How much compute is required for a public/open model to be "frontier-competitive enough" in the target segments?
 - Should this be positioned under the Public AI Network name, or under a narrower functional label such as "public-AI rights and evidence layer"?
+- Who could credibly be the "public counterpart that rightsholders license to once"? No pan-European collecting society exists; the only working precedents are a national library (Slovenia) and a national data-provider pool (GPT-NL Content Board) — so is the realistic first step national/sectoral rather than European?
+- Which single opt-out standard should the network back (robots.txt / TDMRep / CC signals / a future IETF standard), given all are currently non-binding and fragmented — and does the Charter stay standard-neutral and require *some* documented machine-readable adherence instead?
