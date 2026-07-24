@@ -110,6 +110,8 @@ Die Frage an jede digitale Souveränitätspolitik ist also nicht: *Wie viel davo
 
 Deshalb nochmals, als Kompass: **Autarkie ist nicht Souveränität. Souveränität entsteht im Verbund — wenn wir Regeln mitsetzen, Systeme unabhängig prüfen und im Ernstfall wechseln können.**
 
+`#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz`
+
 ---
 
 *Vertiefung und Quellen: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/) — dort insbesondere [The Public AI Network](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (EN) und [KI-Souveränität und Resilienz](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) (DE).*
