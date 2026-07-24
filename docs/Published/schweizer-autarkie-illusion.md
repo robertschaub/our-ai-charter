@@ -1,10 +1,9 @@
-> **Status: WORKING NOTES** — Entwurf des deutschen LinkedIn-Artikels *«Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht»*, Stand 2026-07-24. Alle Zahlen und Zitate am 2026-07-24 gegen Primärquellen geprüft (Links inline). Vor Publikation: Tagesaktualität von Apertus 1.5 und Motionsstatus nochmals prüfen. Nach Publikation nach `docs/Published/` spiegeln und diesen Entwurf ersetzen.
+> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the LinkedIn article *Die Schweizer Autarkie-Illusion: Warum digitale Souveränität nicht im Alleingang entsteht*, published 24 July 2026. The accompanying feed post (above the article) is mirrored in plain text; all figures source-checked through 2026-07-24.
+> Canonical article: [https://www.linkedin.com/pulse/die-schweizer-autarkieillusion-warum-digitale-nicht-im-robert-schaub-1267e](https://www.linkedin.com/pulse/die-schweizer-autarkieillusion-warum-digitale-nicht-im-robert-schaub-1267e)
 
-# «Die Schweizer Autarkieillusion» — Artikel-Entwurf (DE)
+---
 
-## Feed-Post (Entwurf)
-
-**Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht**
+**Die Schweizer Autarkie-Illusion: Warum digitale Souveränität nicht im Alleingang entsteht**
 
 *Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht — was die Schweizer Geschichte dazu lehrt, und woran sich jede Souveränitätspolitik messen lassen muss.*
 
@@ -12,21 +11,21 @@ Apertus 1.5 ist ein wichtiger Schweizer Baustein — aber noch keine digitale So
 
 **Autarkie ist nicht Souveränität.** Wer die beiden verwechselt, investiert viel Geld in ein gutes Gefühl — und steht im Ernstfall trotzdem ohne Handlungsmacht da.
 
-Das [Réduit](https://hls-dhs-dss.ch/de/articles/008696/) von 1940 war eine militärische Notstrategie, die einen alpinen Kern sichern sollte und dafür die weitgehende Preisgabe des Mittellands in Kauf nahm — eine Warnung für die digitale Politik: Rückzug kann Notfallvorsorge sein, aber keine Souveränitätsstrategie.
+Das Réduit von 1940 war eine militärische Notstrategie, die einen alpinen Kern sichern sollte und dafür die weitgehende Preisgabe des Mittellands in Kauf nahm — eine Warnung für die digitale Politik: Rückzug kann Notfallvorsorge sein, aber keine Souveränitätsstrategie.
 
 Die bessere Antwort verbindet eigene Fähigkeiten mit gemeinsamer Infrastruktur, offenen Standards und echten Wechselmöglichkeiten. Souverän ist, wer prüfen, mitentscheiden, anfechten und ausweichen kann.
 
-Warum das zur Schweizer Neutralität passt — im Artikel. ↓
+**Warum das zur Schweizer Neutralität passt — im Artikel. ↓**
 
 `#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz`
 
+_[Original-Feed-Post auf LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7486373846992986112/)._
+
 ---
 
-![Autarkie ist nicht Souveränität: Ein isoliertes Schweizer System steht einem resilienten Verbund gegenüber.](autarkie-ist-nicht-souveraenitaet.png)
+![Autarkie ist nicht Souveränität: Ein isoliertes Schweizer System steht einem resilienten Verbund gegenüber.](schweizer-autarkie-illusion.png)
 
-## Artikel
-
-# Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht
+# Die Schweizer Autarkie-Illusion: Warum digitale Souveränität nicht im Alleingang entsteht
 
 *Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht — was die Schweizer Geschichte dazu lehrt, und woran sich jede Souveränitätspolitik messen lassen muss.*
 
@@ -114,25 +113,3 @@ Deshalb nochmals, als Kompass: **Autarkie ist nicht Souveränität. Souveränit�
 ---
 
 *Vertiefung und Quellen: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/) — dort insbesondere [The Public AI Network](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (EN) und [KI-Souveränität und Resilienz](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) (DE).*
-
-`#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz`
-
----
-
-## Titel
-
-**Gewählt (2026-07-24, Maintainer):** *Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht* — im Artikel gesetzt; der Feed-Post behält die kurze Leitthese «Autarkie ist nicht Souveränität».
-
-Verworfene Alternativen: «Autarkie ist nicht Souveränität» (Kurzform; bleibt die Leitthese des Feed-Posts) · «Kein digitales Réduit: Souveränität entsteht im Verbund» (Réduit-Leitmetapher im Titel war nicht gewählt).
-
-## Publikationsnotizen
-
-- **Timing:** «seit dieser Woche in Version 1.5» gilt bis ~Ende Juli, danach «seit Ende Juli».
-- **Angelo Richiello:** als knapper Ausgangspunkt mit Permalink auf seinen öffentlichen Kommentar genannt (verifiziert 2026-07-24); die Ökosystem-Essenz ist paraphrasiert, nicht zitiert. Nichts aus DMs oder dem 1:1. Die Zuspitzung «Autarkie ist nicht Souveränität» ist als eigene Verdichtung gekennzeichnet (deckt sich mit dem Charter-Launch-Post «because autarky is not sovereignty»).
-- **Verlinkte Fremdbeiträge (selektiv, wie gewünscht):** Guterres/UN (gemeinsame Regeln), Travis L. (Human Sovereignty), Liip-Blog (statt Barmettler-Post: Primärquelle). Der Barmettler-Thread (inkl. Jaggi zu v1.5/MoE) bewusst nicht verlinkt — Primärquellen (Liip, CSCS) sind zitierfest; bei Wunsch als Kommentar unter dem eigenen Post nachreichbar.
-- **Nicht verwendet:** EN 18286-Post, Vogt, Ciric, Moskowitz, Trojer — thematisch geprüft, tragen zur Kernthese wenig bei; Moskowitz/Trojer passen besser zum Assurance-Strang.
-- **Faktenstand (2026-07-24):** Apertus 1.5 am 24.07.2026 erschienen (CSCS); Liip-Zahlen: Apertus-70B auf OSS-Instanz (3'400+ Konversationen) vs. GPT-4o-mini Produktion (39'000+), Liip-Titel «after 8 months» (Datenfenster Sep 2025–Jun 2026), Trend 59→63 %; Capex-Zahl: CNBC/Statista (~700–725 Mrd. USD, Big Four, 2026); Motionen: Stand Juni/Juli 2026 beide vom Ständerat angenommen, im Nationalrat hängig.
-- **Bundesstrategie (ergänzt 2026-07-24):** Bericht des Bundesrates vom November 2025 und zugrunde liegendes Postulat 22.4411 gegen die amtlichen Fassungen geprüft. Der Bericht begrenzt seinen Fokus ausdrücklich auf staatliche Aufgaben, hält vollständige Autarkie für die hochintegrierte Schweiz für unrealistisch und leitet vier administrative Massnahmen, aber kein Investitionsprogramm ab.
-- **Anthropic-Abhängigkeit (ergänzt 2026-07-24):** Abschaltung vom 12. Juni sowie Aufhebung der Exportkontrollen am 30. Juni und differenzierte Wiederherstellung ab 1. Juli gegen die offiziellen Anthropic-Mitteilungen geprüft (Fable global; Mythos zunächst für ausgewählte US-Organisationen). Die Manipulierbarkeits-Aussage bezeichnet die strukturelle Kontrollmöglichkeit über Modelländerungen, Systemregeln, Filter und Zugang — nicht einen behaupteten konkreten Manipulationsfall.
-- **Adversariales Review (2026-07-24):** bestanden («holds with caveats»); alle sieben Punkte umgesetzt — Kommentar-Permalink statt Post-Link, Silizium-Formulierung auf Exportkontrolle präzisiert, Capex entschärft und CNBC-verlinkt, COMMUNIA-Post ohne irreführenden Slug verlinkt, Liip-Instanz-Asymmetrie benannt, Richiello-Essenz gegen den Live-Kommentar geprüft, Réduit-Analogie auf eine begrenzte, HLS-verlinkte Aussage reduziert.
-- **Review-Runde 2 nach Maintainer-Überarbeitung (2026-07-24):** Verdikt «ready with minor fixes», umgesetzt. Zweitverifikation gegen Primärquellen: Bundesrats-Bericht als PDF direkt gelesen — Definition «Kontroll- und Handlungsfähigkeit» (staatliche Aufgaben), Autarkie-Passagen S. 23/26 (Autarkie als offensichtlichste, aber kostspieligste Massnahme; wörtlich «kaum realistisch, dass ein hochintegriertes Land wie die Schweiz in allen relevanten Bereichen eigene digitale Ressourcen bereitstellt»), Handlungsoptionen S. 26 («Multi-Vendor-Ansätze oder Exit-Strategien», rechtliche Vorkehrungen, völkerrechtliche Mittel), Massnahmen 1–4 S. 25 f. rein administrativ, Arbeitsgruppe wörtlich «auf Ende 2027 befristet»; Postulat 22.4411 «Strategie digitale Souveränität der Schweiz» verlangte ausdrücklich auch «Aussagen zur Bereitstellung der notwendigen Mittel» (im Artikel ergänzt); Anthropic-Timeline gegen beide Anthropic-Mitteilungen (12.06. Sperre / 30.06. Aufhebung / Fable global ab 01.07., Mythos nur ausgewählte US-Organisationen — «teilweise» korrekt); Guterres-Aussage wörtlich im verlinkten UN-Post («The more AI advances without shared rules, the less say governments and people will have in the outcome»); Charter-Launch-Post enthält verbatim «because autarky is not sovereignty». Sprachfix: «in den Clouds einiger weniger ausländischer Anbieter». Bewusst belassen: «manipulierbar» (strukturell begründet und im Text selbst eingegrenzt), «patriotisches Projekt» (abstrakt, niemand benannt), gestrichene CTA-Fragen und Rütlirapport-Jahrestag (Maintainer-Entscheid).

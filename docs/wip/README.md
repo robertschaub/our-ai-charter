@@ -8,10 +8,6 @@ Public-safe provisional material. These notes are published on the site but are 
 
 This is a public repository. Do not paste private meetings, correspondence, outreach state, candid named-person assessments, secrets, or INTERNAL-marked material here. Private administrative context belongs outside this repo.
 
-## Draft articles
-
-- **[autarkie-ist-nicht-souveraenitaet.md](autarkie-ist-nicht-souveraenitaet.md)** — draft German LinkedIn article *«Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht»* for a Swiss policy audience: a one-sentence Réduit warning against retreat-as-sovereignty, resilience and security as enabling conditions, and human dignity and freedom, self-determination and privacy, truth and verifiability, justice and the rule of law, and solidarity through binding duties and mutual reliability as the value yardstick; uses the Apertus realities (Liip production numbers, investment gap, copyright→data cost) to make the case for federation over go-it-alone and contrasts the Federal Council's narrow administrative response with a values-bound Public AI network; includes feed-post draft and publication notes; adversarially reviewed 2026-07-24.
-
 ## Public AI & Apertus
 
 - **[apertus-fit-and-engagement-plan.md](apertus-fit-and-engagement-plan.md)** — does the Charter add value to Apertus, is it a good match, and how to engage; cross-model-reviewed assessment + a standing-first plan (Apertus as anchoring case, not client).
