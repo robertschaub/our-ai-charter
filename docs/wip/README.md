@@ -8,6 +8,10 @@ Public-safe provisional material. These notes are published on the site but are 
 
 This is a public repository. Do not paste private meetings, correspondence, outreach state, candid named-person assessments, secrets, or INTERNAL-marked material here. Private administrative context belongs outside this repo.
 
+## Draft articles
+
+- **[autarkie-ist-nicht-souveraenitaet.md](autarkie-ist-nicht-souveraenitaet.md)** — draft German LinkedIn article *«Autarkie ist nicht Souveränität»* for a Swiss policy audience: Angelo Richiello's public ecosystem comment as the hook, the 1940 Réduit and Plan Wahlen as the historical warning against retreat-as-sovereignty, the values catalogue (resilience, security, humanitarian values, freedom, justice, solidarity) as the yardstick, and the Apertus realities (Liip production numbers, investment gap, copyright→data cost) as the case for federation over go-it-alone; includes feed-post draft, title options, and publication notes; adversarially reviewed 2026-07-24.
+
 ## Public AI & Apertus
 
 - **[apertus-fit-and-engagement-plan.md](apertus-fit-and-engagement-plan.md)** — does the Charter add value to Apertus, is it a good match, and how to engage; cross-model-reviewed assessment + a standing-first plan (Apertus as anchoring case, not client).
