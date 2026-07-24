@@ -26,9 +26,9 @@ Warum das kein Widerspruch zur Neutralität ist, sondern ihre beste Lesart — i
 
 ## Artikel
 
-# Autarkie ist nicht Souveränität
+# Autarkie ist nicht Souveränität: Warum digitale Selbstbestimmung nur im Verbund entsteht
 
-*Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht. Warum Souveränität, Resilienz und Freiheit im digitalen Raum nur im Verbund entstehen — und was die Schweizer Geschichte dazu lehrt.*
+*Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht — was die Schweizer Geschichte dazu lehrt, und woran sich jede Souveränitätspolitik messen lassen muss.*
 
 ## Ein Kommentar als Ausgangspunkt
 
@@ -116,11 +116,11 @@ Wo widersprechen Sie? Welcher Baustein fehlt? Und wer sollte bei einem solchen V
 
 ---
 
-## Titel-Alternativen
+## Titel
 
-1. **Autarkie ist nicht Souveränität** *(Empfehlung — Ihre etablierte öffentliche Linie, klarste Aussage)*
-2. Autarkie ist nicht Souveränität: Warum digitale Selbstbestimmung nur im Verbund entsteht
-3. Kein digitales Réduit: Souveränität entsteht im Verbund *(schärfer; Réduit im Titel war nicht gewählt)*
+**Gewählt (2026-07-24, Maintainer):** *Autarkie ist nicht Souveränität: Warum digitale Selbstbestimmung nur im Verbund entsteht* — im Artikel gesetzt; Lead entsprechend angepasst (keine Verbund-Doppelung).
+
+Verworfene Alternativen: «Autarkie ist nicht Souveränität» (Kurzform; bleibt die erste Zeile des Feed-Posts) · «Kein digitales Réduit: Souveränität entsteht im Verbund» (Réduit-Leitmetapher im Titel war nicht gewählt).
 
 ## Publikationsnotizen
 
