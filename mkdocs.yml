@@ -119,6 +119,7 @@ nav:
   - Home: index.md
   - The Network: network-overview.md
   - Articles:
+      - "The Swiss Autarky Illusion (EN)": Published/swiss-autarky-illusion.md
       - "Die Schweizer Autarkie-Illusion (DE)": Published/schweizer-autarkie-illusion.md
       - "Runtime governance — when vs. who": Published/when-vs-who-ai-governance.md
       - Trustworthy AI, Accountable to People: Published/trustworthy-ai-accountable-to-people.md

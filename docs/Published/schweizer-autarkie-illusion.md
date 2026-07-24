@@ -115,3 +115,7 @@ Deshalb nochmals, als Kompass: **Autarkie ist nicht Souveränität. Souveränit�
 ---
 
 *Vertiefung und Quellen: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/) — dort insbesondere [The Public AI Network](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (EN) und [KI-Souveränität und Resilienz](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) (DE).*
+
+---
+
+_[English edition](swiss-autarky-illusion.md)._
