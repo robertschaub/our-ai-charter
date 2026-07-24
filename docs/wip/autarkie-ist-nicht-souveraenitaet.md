@@ -1,24 +1,22 @@
-> **Status: WORKING NOTES** — Entwurf des deutschen LinkedIn-Artikels *«Autarkie ist nicht Souveränität»*, Stand 2026-07-24. Alle Zahlen und Zitate am 2026-07-24 gegen Primärquellen geprüft (Links inline). Vor Publikation: Tagesaktualität von Apertus 1.5 und Motionsstatus nochmals prüfen. Nach Publikation nach `docs/Published/` spiegeln und diesen Entwurf ersetzen.
+> **Status: WORKING NOTES** — Entwurf des deutschen LinkedIn-Artikels *«Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht»*, Stand 2026-07-24. Alle Zahlen und Zitate am 2026-07-24 gegen Primärquellen geprüft (Links inline). Vor Publikation: Tagesaktualität von Apertus 1.5 und Motionsstatus nochmals prüfen. Nach Publikation nach `docs/Published/` spiegeln und diesen Entwurf ersetzen.
 
-# «Autarkie ist nicht Souveränität» — Artikel-Entwurf (DE)
+# «Die Schweizer Autarkieillusion» — Artikel-Entwurf (DE)
 
 ## Feed-Post (Entwurf)
 
-**Autarkie ist nicht Souveränität.**
+**Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht**
 
-Mit Apertus 1.5 ist diese Woche ein starker Schritt für offene KI aus der Schweiz erschienen. Zugleich wächst der Reflex, digitale Souveränität als Alleingang zu denken: eigenes Modell, eigene Cloud, eigene Regeln.
+*Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht — was die Schweizer Geschichte dazu lehrt, und woran sich jede Souveränitätspolitik messen lassen muss.*
 
-Die Schweizer Geschichte kennt diesen Reflex — und seinen Preis. Das Réduit von 1940 hätte im Ernstfall genau das preisgegeben, was es schützen sollte.
+Apertus 1.5 ist ein wichtiger Schweizer Baustein — aber noch keine digitale Souveränität.
 
-Digitale Souveränität entsteht nicht durch Rückzug, sondern durch Gestaltungsmacht im Verbund:
+**Autarkie ist nicht Souveränität.** Wer die beiden verwechselt, investiert viel Geld in ein gutes Gefühl — und steht im Ernstfall trotzdem ohne Handlungsmacht da.
 
-- gemeinsame Standards statt Insellösungen
-- prüfbare Evidenz statt Vertrauen per Etikett
-- geteilte Daten- und Rechenbasis statt einsamer Rechtsklärung
+Das [Réduit](https://hls-dhs-dss.ch/de/articles/008696/) von 1940 war eine militärische Notstrategie, die einen alpinen Kern sichern sollte und dafür die weitgehende Preisgabe des Mittellands in Kauf nahm — eine Warnung für die digitale Politik: Rückzug kann Notfallvorsorge sein, aber keine Souveränitätsstrategie.
 
-Der Massstab dafür sind nicht Besitzverhältnisse, sondern Werte: Resilienz, Sicherheit, humanitäre Werte, Freiheit, Gerechtigkeit, Solidarität.
+Die bessere Antwort verbindet eigene Fähigkeiten mit gemeinsamer Infrastruktur, offenen Standards und echten Wechselmöglichkeiten. Souverän ist, wer prüfen, mitentscheiden, anfechten und ausweichen kann.
 
-Warum das kein Widerspruch zur Neutralität ist, sondern ihre beste Lesart — im Artikel. ↓
+Warum das zur Schweizer Neutralität passt — im Artikel. ↓
 
 `#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz`
 
@@ -26,46 +24,45 @@ Warum das kein Widerspruch zur Neutralität ist, sondern ihre beste Lesart — i
 
 ## Artikel
 
-# Autarkie ist nicht Souveränität: Warum digitale Selbstbestimmung nur im Verbund entsteht
+# Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht
 
 *Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht — was die Schweizer Geschichte dazu lehrt, und woran sich jede Souveränitätspolitik messen lassen muss.*
 
-## Ein Kommentar als Ausgangspunkt
+## Mehr als ein Modell
 
-Als ich im Juni über [KI-Souveränität und Resilienz](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) schrieb, brachte Angelo Richiello — Strategieberater und Autor zu Wirtschaft und Geopolitik — die Debatte [in einem Kommentar](https://www.linkedin.com/feed/update/urn:li:ugcPost:7473522097219223552?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7473522097219223552%2C7473628756385935380%29) auf den entscheidenden Punkt: Digitale Souveränität sei heute nicht mehr nur eine technologische Frage, sondern zunehmend eine geopolitische. Und die eigentliche Herausforderung bestehe vielleicht weniger darin, ein Modell zu entwickeln, als darin, «ein langfristig tragfähiges Ökosystem aus Talenten, Forschung, Governance und internationalen Partnerschaften» aufzubauen.
+Ein [öffentlicher Kommentar von Angelo Richiello](https://www.linkedin.com/feed/update/urn:li:ugcPost:7473522097219223552?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7473522097219223552%2C7473628756385935380%29) zu meinem Beitrag über [KI-Souveränität und Resilienz](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) gab den Ausgangspunkt: Digitale Souveränität ist nicht nur eine technologische, sondern eine geopolitische Frage. Entscheidend ist weniger das einzelne Modell als ein tragfähiges Ökosystem aus Talenten, Forschung, Governance und internationalen Partnerschaften.
 
-Er hat recht. Seine Beobachtung verdient eine Zuspitzung, die ich seither als Kompass verwende: **Autarkie ist nicht Souveränität.** Wer die beiden verwechselt, investiert viel Geld in ein gutes Gefühl — und steht im Ernstfall trotzdem ohne Handlungsmacht da.
+**Autarkie ist nicht Souveränität.** Wer die beiden verwechselt, investiert viel Geld in ein gutes Gefühl — und steht im Ernstfall trotzdem ohne Handlungsmacht da.
 
 ## Der Reflex ist verständlich
 
-Die Abhängigkeit, um die es geht, ist real — nicht hypothetisch. Im Juni zwang eine Regierungsanordnung Anthropic, den Zugriff auf zwei seiner neuesten Modelle weltweit zu kappen; das Unternehmen [widersprach öffentlich](https://www.anthropic.com/news/fable-mythos-access) — und musste trotzdem abschalten. Ich habe damals [dazu geschrieben](https://www.linkedin.com/pulse/trustworthy-ai-accountable-people-robert-schaub-42vje): Was die Welt zum Denken benutzt, ist mit wenigen Handgriffen abschaltbar geworden.
+Wie real diese Abhängigkeit ist, zeigte sich im Juni: Auf staatliche Anordnung musste Anthropic zwei seiner neuesten KI-Modelle weltweit sperren — obwohl das Unternehmen [öffentlich widersprach](https://www.anthropic.com/news/fable-mythos-access). Wenige Wochen später durfte es den Zugang [teilweise wieder öffnen](https://www.anthropic.com/news/redeploying-fable-5).
+
+Das Beispiel macht die Machtverhältnisse sichtbar: Wer ein Modell kontrolliert, kann nicht nur den Zugang abschalten. Er kann auch verändern, wie das System antwortet — etwa durch neue Regeln oder Filter. Abhängige Länder haben darauf kaum Einfluss. Die Systeme sind also nicht nur abschaltbar, sondern auch manipulierbar.
 
 Dazu kommt der Alltag: Verwaltungen und Unternehmen arbeiten in den Clouds weniger ausländischer Anbieter. Die Hochleistungs-Chips, auf denen praktisch jedes KI-Training läuft, unterliegen den Exportkontrollen einer einzigen Jurisdiktion. Nutzungsbedingungen, Preise und Zugänge können sich ändern, ohne dass jemand hierzulande gefragt wird.
 
 Auf diesen Befund folgt reflexhaft eine vertraute Antwort: eigenes Modell, eigene Cloud, eigene Regeln — Rückzug auf das Eigene. Der Reflex ist menschlich. Und die Schweiz kennt ihn besser als die meisten.
 
-## Was das Réduit wirklich bedeutete
-
-Vor 86 Jahren, am 25. Juli 1940, versammelte General Guisan das Offizierskorps auf dem Rütli und verkündete die Ausrichtung auf das [Réduit](https://hls-dhs-dss.ch/de/articles/008696/): Konzentration der Armee im Alpenraum, vorbereitete Zerstörung der Alpentransversalen, Abschreckung durch die Aussicht auf einen langen Gebirgskrieg. In der verzweifelten Lage von 1940 hatte das eine militärische Logik — und man kann der Abschreckung zugutehalten, dass der Ernstfall nie eintrat.
-
-Nur darf man nicht vergessen, was diese Strategie für den Ernstfall vorsah: Das Mittelland — mit der grossen Mehrheit der Bevölkerung, der Industrie und der Städte — wäre schutzlos geblieben. **Das Réduit schützte einen Kern, indem es das Land preisgab.**
-
-Autark war die Schweiz auch damals nicht. Die Anbauschlacht des [Plans Wahlen](https://de.wikipedia.org/wiki/Plan_Wahlen) verdoppelte die Ackerfläche von 183'000 auf 352'000 Hektaren — das Ziel von 500'000 wurde nie erreicht — und die Bevölkerung lebte rationiert: Die verfügbaren Kalorien sanken im Schnitt von 3'200 auf 2'200 pro Tag. Überstanden hat das Land jene Jahre nicht durch Selbstversorgung, sondern durch die Kombination aus Wehrhaftigkeit, Austausch und Verhandlungsmacht.
-
-Die Lehre daraus ist nicht, dass Schutzvorkehrungen falsch wären. Sie ist präziser: **Rückzug ist keine Souveränität — er ist ihr Notersatz für den Fall, dass sie bereits verloren ist.** Ein digitales Réduit — der Rückzug auf «eigene» Systeme in der Hoffnung, der Rest der Welt bleibe draussen — wiederholte diesen Denkfehler ausgerechnet bei der Infrastruktur, an der Alltag, Wirtschaft, Verwaltung und öffentliche Meinungsbildung hängen. Man gewänne ein Symbol und verlöre die Fläche.
-
-Auch die Neutralität taugt nicht als Begründung für den Alleingang: Sie war nie ein Bauplan für Selbstversorgung, sondern ein aussenpolitisches Instrument — Unabhängigkeit *im* Austausch, nicht *vom* Austausch. Darauf komme ich zurück.
+Das [Réduit](https://hls-dhs-dss.ch/de/articles/008696/) von 1940 war eine militärische Notstrategie, die einen alpinen Kern sichern sollte und dafür die weitgehende Preisgabe des Mittellands in Kauf nahm — eine Warnung für die digitale Politik: Rückzug kann Notfallvorsorge sein, aber keine Souveränitätsstrategie.
 
 ## Souveränität heisst gestalten können — nicht alles besitzen
 
 Begriffe steuern Strategien. Darum lohnt sich die Unterscheidung:
 
-- **Autarkie** ist ein Besitzstand: der Anspruch, ohne andere auszukommen.
-- **Souveränität** ist eine Handlungsfähigkeit: Regeln mitsetzen, Systeme prüfen können, Entscheide anfechten können, Alternativen haben — und im Ernstfall wechseln können, ohne zusammenzubrechen.
+- **Autarkie** ist der Anspruch, ohne andere auszukommen.
+- **Souveränität** ist die Fähigkeit, trotz Abhängigkeiten Regeln mitsetzen, Systeme prüfen, Entscheide anfechten und im Ernstfall wechseln zu können, ohne zusammenzubrechen.
 
 Das Erste ist für ein kleines Land im digitalen Raum unerreichbar. Das Zweite ist erreichbar — aber nur gemeinsam mit anderen.
 
-Und Souveränität ist kein Selbstzweck. Sie ist Mittel für das, was wir eigentlich schützen wollen: **Resilienz** — Ausfälle, Druckversuche und Erpressbarkeit überstehen. **Sicherheit** — Menschen, Daten und Infrastrukturen schützen. **Humanitäre Werte und Freiheit** — niemand wird durch Systeme entmündigt, die er weder einsehen noch hinterfragen kann. **Gerechtigkeit** — wer von einem automatisierten Entscheid betroffen ist, kann ihn prüfen lassen und anfechten. **Solidarität** — freie Gesellschaften sichern sich gegenseitig ab, statt einzeln erpressbar zu sein. An diesen Zielen muss sich jede Souveränitätspolitik messen lassen — nicht an der Frage, wie viel Technik «uns gehört».
+Und Souveränität ist kein Selbstzweck. **Resilienz und Sicherheit** halten den gesellschaftlichen Handlungsraum offen: Sie sorgen dafür, dass Ausfälle, Druckversuche und Erpressung nicht über unsere Entscheidungen bestimmen. Aber erst die Werte sagen, wem dieser Raum dient und wie Macht darin begrenzt wird:
+
+- **Menschenwürde, Freiheit und Selbstbestimmung.** Technik dient Menschen, wahrt ihre Autonomie und Privatsphäre und entmündigt sie nicht.
+- **Wahrheit und Nachprüfbarkeit.** Aussagen und Entscheidungen müssen sich an Evidenz messen sowie prüfen und korrigieren lassen.
+- **Gerechtigkeit und Rechtsstaatlichkeit.** Für alle gelten dieselben nachvollziehbaren Regeln; Betroffene können Entscheidungen anfechten und Abhilfe verlangen.
+- **Solidarität und Verbindlichkeit.** Zuständigkeiten und Pflichten sind klar geregelt; jeder Partner hält eigene Kernfähigkeiten vor, trägt zur gemeinsamen Infrastruktur bei und kann sich im Ausfall auf die anderen verlassen.
+
+**Demokratische Rechenschaft und Unabhängigkeit von einseitiger Kontrolle** machen diese Werte durchsetzbar. An diesem Massstab muss sich jede Souveränitätspolitik messen lassen — nicht an der Frage, wie viel Technik «uns gehört».
 
 Der internationale Rahmen dazu ist deutlich formuliert: Je weiter KI ohne gemeinsame Regeln voranschreite, [warnt UN-Generalsekretär António Guterres](https://www.linkedin.com/feed/update/urn:li:activity:7478160520198524930), desto weniger Mitsprache behalten Regierungen und Menschen. Genau das ist der Punkt: **Wer sich abschottet, sitzt nicht mehr am Tisch, an dem die Regeln entstehen.** Und wo Souveränität letztlich ihren Sitz hat — bei Menschen und legitimen Institutionen, nicht bei den Systemen selbst — dazu läuft auf dieser Plattform gerade eine [lesenswerte Grundsatzdebatte](https://www.linkedin.com/posts/cktravis_aigovernance-aigovernance20-humansovereigntyai-share-7485646021276876800-azYv). Für mich gilt der [Test, den ich kürzlich vorgeschlagen habe](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we): Jede Macht — auch die über digitale Infrastruktur — muss legitim sein und denen antworten, die ihre Folgen tragen.
 
@@ -81,7 +78,7 @@ Aber Apertus allein trägt die Souveränitätserwartung nicht, die ihm öffentli
 
 **Drittens, die Datenrealität.** Apertus trainiert rechtsstaatlich sauber: dokumentierte Herkunft, respektierte Opt-outs, Schutz von Personendaten. Genau diese Sauberkeit hat einen Preis, den derzeit jedes offene Modell allein bezahlt: Eine [aktuelle COMMUNIA-Studie](https://communia-association.org/2026/06/30/new-study-copyright-challenges-in-open-source-ai-development-in-the-european-union/) zeigt, dass offene Modellteams in Europa aus Vorsicht sogar auf die engere Urheberrechts-Ausnahme ausweichen und die Opt-out-Klärung selbst stemmen — während das offene Netz sich schliesst (bei einem der wichtigsten Web-Korpora sind [rund 45 Prozent der Inhalte](https://www.dataprovenance.org/) inzwischen durch Nutzungsbedingungen eingeschränkt) und die bestfinanzierte Konkurrenz rechtliche Grauzonen schlicht absorbieren kann. **Wer sauber trainiert, verzichtet auf Daten, die andere nutzen. Solange jede Institution diese Klärung allein leistet, wird Rechtstreue zum strukturellen Nachteil.** Ich habe diese Frage [Anfang Juli öffentlich](https://www.linkedin.com/feed/update/urn:li:activity:7478119769771167744) an die Open-Model-Community gestellt.
 
-Das Fazit aus allen drei Punkten richtet sich nicht gegen Apertus — im Gegenteil. **Es scheitert nicht das Projekt; es scheitert die Erwartung, ein nationales Modell sei schon Souveränität.** Ein Modell ist ein Artefakt. Souveränität entsteht aus dem, was darum herum steht — Angelo Richiellos Ökosystem.
+Das Fazit aus allen drei Punkten richtet sich nicht gegen Apertus — im Gegenteil. **Es scheitert nicht das Projekt; es scheitert die Erwartung, ein nationales Modell sei schon Souveränität.** Ein Modell ist ein Artefakt. Souveränität entsteht aus dem Ökosystem darum herum.
 
 ## Souveränität entsteht im Verbund
 
@@ -94,19 +91,23 @@ Was heisst das konstruktiv? Vier Bausteine, die kein Land allein bauen muss — 
 
 Zur Ehrlichkeit gehört auch hier eine Grenze: Volle Unabhängigkeit über den ganzen Technologie-Stack gibt es für niemanden — die entscheidenden Beschleuniger-Chips unterliegen fast ausnahmslos der Exportkontrolle einer einzigen Jurisdiktion. Die Antwort darauf heisst Diversifizierung und verlässliche Partnerschaften, nicht Illusion.
 
-Ein solcher Verbund ist zugleich die wirtschaftliche Basis für Erfolg: Wertschöpfung, Fachkräfte und Verhandlungsmacht entstehen dort, wo man mitbaut und mitentscheidet — nicht dort, wo man nur einkauft. Und er ist politisch anschlussfähig: Der Ständerat hat mit den Motionen [24.3209](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20243209) (souveräne digitale Infrastruktur) und [26.3221](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20263221) (Impulsprogramm digitale Souveränität) zwei Wegmarken gesetzt; beide liegen beim Nationalrat. Die Richtung stimmt. Entscheidend wird sein, ob die Mittel in Anschlussfähigkeit investiert werden — oder in ein Réduit.
+Der Bundesrat zeigt diesen Widerspruch selbst. Sein [Bericht zur digitalen Souveränität](https://cms.news.admin.ch/fileservice/sdweb-docs-prod-nsbcch-files/files/2025/11/26/271b6aa0-8b5c-4ce8-b6ef-7f2443b0d86d.pdf) vom November 2025 definiert sie treffend als erforderliche «Kontroll- und Handlungsfähigkeit» des Staates. Er behandelt Autarkie zwar als mögliche Antwort auf besonders kritische Abhängigkeiten, erklärt eine vollständige Eigenversorgung über den gesamten Technologie-Stack für die hochintegrierte Schweiz aber ausdrücklich für unrealistisch. Als Alternativen nennt er Multi-Vendor-Ansätze, Exit-Strategien, internationale Zusammenarbeit und rechtliche Absicherung.
 
-Hier bekommt auch die Neutralität ihre beste Lesart: nicht als Mauer, sondern als Brücke. Die Schweiz hat eine lange Tradition der guten Dienste und der internationalen Gastgeberschaft — und mit dem [KI-Gipfel im Juni 2027 in Genf](https://www.genevaaisummit.swiss/) ein konkretes Zeitfenster, den Verbund freier Gesellschaften nicht nur zu fordern, sondern zu beherbergen: als glaubwürdige Gastgeberin und Brückenbauerin einer international getragenen, prüfbaren Public-AI-Infrastruktur.
+Doch das politische Ergebnis bleibt weit hinter dem Auftrag zurück. Das [Postulat 22.4411](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20224411) verlangte eine umfassende Strategie von staatspolitischer, wirtschaftlicher und gesellschaftlicher Bedeutung. Entstanden sind vor allem eine befristete Arbeitsgruppe, Übersichten, Risikoanalysen und Empfehlungen — kein Investitionsprogramm für eigene oder gemeinsam getragene digitale Handlungsfähigkeit.
+
+Hier beginnt die schweizerische Autarkieillusion. Wer technologische Eigenständigkeit als patriotisches Projekt beschwört, müsste auch ihren Preis ausweisen: enorme und dauerhafte Investitionen in Lieferketten, Rechenzentren, Chips, Modelle, Fachkräfte und Weiterentwicklung. Diese Bereitschaft ist nicht erkennbar. Und selbst mit ihr könnte die Schweiz den gesamten Technologie-Stack nicht allein beherrschen. **Autarkie ohne die Bereitschaft, ihre Kosten zu tragen, ist keine Strategie, sondern Selbsttäuschung.** Sie beseitigt Abhängigkeiten nicht; sie verdeckt sie, bis die nächste Krise sie sichtbar macht.
+
+Ein solcher Verbund ist dagegen die wirtschaftliche Basis für Erfolg: Wertschöpfung, Fachkräfte und Verhandlungsmacht entstehen dort, wo man mitbaut und mitentscheidet — nicht dort, wo man nur einkauft. Genau in diese Lücke zielen die Motionen [24.3209](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20243209) (souveräne digitale Infrastruktur) und [26.3221](https://www.parlament.ch/de/ratsbetrieb/suche-curia-vista/geschaeft?AffairId=20263221) (Impulsprogramm digitale Souveränität), die der Ständerat an den Nationalrat überwiesen hat. Entscheidend wird sein, ob daraus gemeinsam tragfähige Infrastruktur entsteht — oder ein digitales Réduit. **Wer weder die Kosten der Autarkie tragen noch verbindliche Partnerschaften aufbauen will, entscheidet sich nicht für Souveränität, sondern für fortbestehende Abhängigkeit.**
+
+Ein **wertegebundener Public-AI-Verbund** ist dabei kein Block von Staaten, die sich einmal als «frei» etikettiert haben. Er ist offen, aber nicht voraussetzungslos: Mitwirken können Institutionen, die sich überprüfbar an Menschenrechte, rechtsstaatliche Verfahren, demokratische Rechenschaft, Transparenz und wirksame Rechtsbehelfe binden. Verteilte Kontrolle, offene Standards und reale Wechsel- oder Ausschlussmöglichkeiten schützen den Verbund vor der Vereinnahmung durch einen Staat oder Konzern.
+
+Hier bekommt auch die Neutralität ihre beste Lesart: nicht als Mauer, sondern als Brücke. Die Schweiz hat eine lange Tradition der guten Dienste und der internationalen Gastgeberschaft — und mit dem [KI-Gipfel im Juni 2027 in Genf](https://www.genevaaisummit.swiss/) ein konkretes Zeitfenster, einen solchen wertegebundenen Public-AI-Verbund nicht nur zu fordern, sondern zu beherbergen: als glaubwürdige Gastgeberin und Brückenbauerin einer international getragenen, prüfbaren Public-AI-Infrastruktur.
 
 ## Der Massstab
 
-Die Frage an jede digitale Souveränitätspolitik ist also nicht: *Wie viel davon gehört uns?* Sondern: **Können wir prüfen, mitentscheiden, anfechten und ausweichen — und dient das Ganze Resilienz, Sicherheit, humanitären Werten, Freiheit, Gerechtigkeit und Solidarität?**
+Die Frage an jede digitale Souveränitätspolitik ist also nicht: *Wie viel davon gehört uns?* Sondern: **Können wir prüfen, mitentscheiden, anfechten und ausweichen — und dient das Ganze Menschenwürde und Freiheit, Selbstbestimmung und Privatsphäre, Wahrheit und Nachprüfbarkeit, Gerechtigkeit und Rechtsstaatlichkeit sowie gegenseitiger Verlässlichkeit?**
 
-Das Réduit von 1940 war für den äussersten Notfall gedacht — ein Dispositiv der Verzweiflung, nicht ein Modell des Zusammenlebens. Die bessere Schweizer Tradition für den digitalen Raum ist die andere: verlässlich, offen, verbindend.
-
-Deshalb nochmals, als Kompass: **Autarkie ist nicht Souveränität. Souveränität entsteht im Verbund — und sie muss den Menschen dienen, nicht den Symbolen.**
-
-Wo widersprechen Sie? Welcher Baustein fehlt? Und wer sollte bei einem solchen Verbund zuerst am Tisch sitzen?
+Deshalb nochmals, als Kompass: **Autarkie ist nicht Souveränität. Souveränität entsteht im Verbund — wenn wir Regeln mitsetzen, Systeme unabhängig prüfen und im Ernstfall wechseln können.**
 
 ---
 
@@ -118,15 +119,17 @@ Wo widersprechen Sie? Welcher Baustein fehlt? Und wer sollte bei einem solchen V
 
 ## Titel
 
-**Gewählt (2026-07-24, Maintainer):** *Autarkie ist nicht Souveränität: Warum digitale Selbstbestimmung nur im Verbund entsteht* — im Artikel gesetzt; Lead entsprechend angepasst (keine Verbund-Doppelung).
+**Gewählt (2026-07-24, Maintainer):** *Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht* — im Artikel gesetzt; der Feed-Post behält die kurze Leitthese «Autarkie ist nicht Souveränität».
 
-Verworfene Alternativen: «Autarkie ist nicht Souveränität» (Kurzform; bleibt die erste Zeile des Feed-Posts) · «Kein digitales Réduit: Souveränität entsteht im Verbund» (Réduit-Leitmetapher im Titel war nicht gewählt).
+Verworfene Alternativen: «Autarkie ist nicht Souveränität» (Kurzform; bleibt die Leitthese des Feed-Posts) · «Kein digitales Réduit: Souveränität entsteht im Verbund» (Réduit-Leitmetapher im Titel war nicht gewählt).
 
 ## Publikationsnotizen
 
-- **Timing-Hook:** «Vor 86 Jahren, am 25. Juli 1940» stimmt ab dem 25.07.2026 — Publikation am Rütlirapport-Jahrestag (morgen) maximiert den Aufhänger. Bei späterer Publikation Formulierung prüfen (sie bleibt korrekt, verliert nur den Jahrestags-Effekt). «seit dieser Woche in Version 1.5» gilt bis ~Ende Juli, danach «seit Ende Juli».
-- **Angelo Richiello:** namentlich, mit Permalink direkt auf seinen öffentlichen Kommentar (verifiziert 2026-07-24); zitiert ist nur die öffentliche Kommentar-Passage (elf Worte, wörtlich), die Paraphrase inkl. seines «vielleicht» ist gegen den Live-Kommentar geprüft; nichts aus DMs oder dem 1:1. Die Zuspitzung «Autarkie ist nicht Souveränität» ist explizit als eigene Verdichtung gekennzeichnet (deckt sich mit dem Charter-Launch-Post «because autarky is not sovereignty»).
+- **Timing:** «seit dieser Woche in Version 1.5» gilt bis ~Ende Juli, danach «seit Ende Juli».
+- **Angelo Richiello:** als knapper Ausgangspunkt mit Permalink auf seinen öffentlichen Kommentar genannt (verifiziert 2026-07-24); die Ökosystem-Essenz ist paraphrasiert, nicht zitiert. Nichts aus DMs oder dem 1:1. Die Zuspitzung «Autarkie ist nicht Souveränität» ist als eigene Verdichtung gekennzeichnet (deckt sich mit dem Charter-Launch-Post «because autarky is not sovereignty»).
 - **Verlinkte Fremdbeiträge (selektiv, wie gewünscht):** Guterres/UN (gemeinsame Regeln), Travis L. (Human Sovereignty), Liip-Blog (statt Barmettler-Post: Primärquelle). Der Barmettler-Thread (inkl. Jaggi zu v1.5/MoE) bewusst nicht verlinkt — Primärquellen (Liip, CSCS) sind zitierfest; bei Wunsch als Kommentar unter dem eigenen Post nachreichbar.
 - **Nicht verwendet:** EN 18286-Post, Vogt, Ciric, Moskowitz, Trojer — thematisch geprüft, tragen zur Kernthese wenig bei; Moskowitz/Trojer passen besser zum Assurance-Strang.
 - **Faktenstand (2026-07-24):** Apertus 1.5 am 24.07.2026 erschienen (CSCS); Liip-Zahlen: Apertus-70B auf OSS-Instanz (3'400+ Konversationen) vs. GPT-4o-mini Produktion (39'000+), Sep 2025–Jun 2026, Trend 59→63 %; Capex-Zahl: CNBC/Statista (~700–725 Mrd. USD, Big Four, 2026); Motionen: Stand Juni/Juli 2026 beide vom Ständerat angenommen, im Nationalrat hängig.
-- **Adversariales Review (2026-07-24):** bestanden («holds with caveats»); alle sieben Punkte umgesetzt — Kommentar-Permalink statt Post-Link, Silizium-Formulierung auf Exportkontrolle präzisiert, Capex entschärft und CNBC-verlinkt, COMMUNIA-Post ohne irreführenden Slug verlinkt, Liip-Instanz-Asymmetrie benannt, Richiello-Paraphrase («vielleicht») verbatim-treu, Réduit-Gegenargument (Abschreckung wirkte) aufgenommen.
+- **Bundesstrategie (ergänzt 2026-07-24):** Bericht des Bundesrates vom November 2025 und zugrunde liegendes Postulat 22.4411 gegen die amtlichen Fassungen geprüft. Der Bericht begrenzt seinen Fokus ausdrücklich auf staatliche Aufgaben, hält vollständige Autarkie für die hochintegrierte Schweiz für unrealistisch und leitet vier administrative Massnahmen, aber kein Investitionsprogramm ab.
+- **Anthropic-Abhängigkeit (ergänzt 2026-07-24):** Abschaltung vom 12. Juni sowie Aufhebung der Exportkontrollen am 30. Juni und differenzierte Wiederherstellung ab 1. Juli gegen die offiziellen Anthropic-Mitteilungen geprüft (Fable global; Mythos zunächst für ausgewählte US-Organisationen). Die Manipulierbarkeits-Aussage bezeichnet die strukturelle Kontrollmöglichkeit über Modelländerungen, Systemregeln, Filter und Zugang — nicht einen behaupteten konkreten Manipulationsfall.
+- **Adversariales Review (2026-07-24):** bestanden («holds with caveats»); alle sieben Punkte umgesetzt — Kommentar-Permalink statt Post-Link, Silizium-Formulierung auf Exportkontrolle präzisiert, Capex entschärft und CNBC-verlinkt, COMMUNIA-Post ohne irreführenden Slug verlinkt, Liip-Instanz-Asymmetrie benannt, Richiello-Essenz gegen den Live-Kommentar geprüft, Réduit-Analogie auf eine begrenzte, HLS-verlinkte Aussage reduziert.

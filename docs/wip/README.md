@@ -10,7 +10,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 ## Draft articles
 
-- **[autarkie-ist-nicht-souveraenitaet.md](autarkie-ist-nicht-souveraenitaet.md)** — draft German LinkedIn article *«Autarkie ist nicht Souveränität»* for a Swiss policy audience: Angelo Richiello's public ecosystem comment as the hook, the 1940 Réduit and Plan Wahlen as the historical warning against retreat-as-sovereignty, the values catalogue (resilience, security, humanitarian values, freedom, justice, solidarity) as the yardstick, and the Apertus realities (Liip production numbers, investment gap, copyright→data cost) as the case for federation over go-it-alone; includes feed-post draft, title options, and publication notes; adversarially reviewed 2026-07-24.
+- **[autarkie-ist-nicht-souveraenitaet.md](autarkie-ist-nicht-souveraenitaet.md)** — draft German LinkedIn article *«Die Schweizer Autarkieillusion: Warum digitale Souveränität nicht im Alleingang entsteht»* for a Swiss policy audience: a one-sentence Réduit warning against retreat-as-sovereignty, resilience and security as enabling conditions, and human dignity and freedom, self-determination and privacy, truth and verifiability, justice and the rule of law, and solidarity through binding duties and mutual reliability as the value yardstick; uses the Apertus realities (Liip production numbers, investment gap, copyright→data cost) to make the case for federation over go-it-alone and contrasts the Federal Council's narrow administrative response with a values-bound Public AI network; includes feed-post draft and publication notes; adversarially reviewed 2026-07-24.
 
 ## Public AI & Apertus
 
