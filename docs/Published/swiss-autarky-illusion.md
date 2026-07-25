@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24.
+> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange is documented below (2026-07-25).
 > Canonical article: [https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc](https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc)
 
 ---
@@ -119,3 +119,31 @@ So, once more, as a compass: **Autarky is not sovereignty. Sovereignty is built 
 ---
 
 _German original: [Die Schweizer Autarkie-Illusion](schweizer-autarkie-illusion.md)._
+
+---
+
+## Accompanying comments
+
+_Published on the [English LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_digitalsovereignty-publicai-aigovernance-ugcPost-7486430520470360065-TDNr), 24–25 July 2026._
+
+**Angelo Richiello — summary**
+
+Richiello welcomed the autarky/sovereignty distinction and added a further element: sovereignty also means keeping critical knowledge inside a country or alliance. Infrastructure can be procured; competence has to be built through sustained investment in education, research, and managerial capability — making digital sovereignty, in the long run, as much a question of human capital as of technology.
+
+**Christoph Nützel — summary**
+
+Nützel — arguing from Gaia-X and EU-consortium experience — held that the four building blocks are the easy part (Gaia-X sketched almost the same architecture years ago) and that such federations stall on the enforcement mechanics of the article's "verifiably commit" clause, the line consortium partners privately resist: submitting their own compliance claims to an audit they do not control. Solving that one clause, he wrote, unlocks the rest; skipping it reproduces the working-groups-without-investment outcome of the Federal Council report.
+
+**Robert Schaub — reply to Nützel**
+
+You're right: "verifiably commit" is the load-bearing clause. I'd enforce it through contractual access, not policing: assurance gates compute/corpus access and procurement preference; failure or expiry suspends status, with appeal. No consequence, no commitment.
+
+No member controls the audit. Start lean with independent evaluators: documented → evidence observed → implementation checked → effectiveness tested. At maturity: accredited assessors; separate standard-setter, assessor, accreditor, peer review (17065/IAF).
+
+Protect evidence, not the claim: claim, scope and result are public; internals stay assessor-confidential. Gaia-X clearing houses check signed self-descriptions against computable rules; higher stakes need evidence/testing. Your Lasers4MaaS traffic-light logic: reveal what's needed, not process IP.
+
+Catena-X shows the incentive: independent certification gates providers/solutions into its marketplace. If either Swiss motion becomes an implementation or funding vehicle, bake this condition into programme design.
+
+Full draft: [https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/](https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/)
+
+From your consortium work: where did resistance sit — rules, evidence, assessor choice, or consequences?
