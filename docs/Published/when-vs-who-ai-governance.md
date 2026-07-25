@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; three public comments (below) are documented; source-checked through 2026-07-23.
+> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; five public comments (below) are documented; source-checked through 2026-07-25.
 > Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 
 ---
@@ -92,7 +92,7 @@ This is a working proposal from a small, unfunded, model-plural effort, intended
 
 ## Accompanying comments
 
-_Published on the [LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_runtime-ai-governance-gets-when-right-the-activity-7485969016478478336-K0gt/), 23 July 2026._
+_Published on the [LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_runtime-ai-governance-gets-when-right-the-activity-7485969016478478336-K0gt/), 23–25 July 2026._
 
 **Robert Schaub**
 
@@ -105,3 +105,24 @@ Where the "checking" comes from: One test for any use of power — is it legitim
 **Angelo Richiello — summary**
 
 Richiello argued that separating roles is necessary but insufficient: if incentives reward speed and deployment while no one is rewarded for questioning or stopping a decision, independent oversight can gradually become symbolic rather than real.
+
+**Scott Armstrong — summary**
+
+Armstrong (founder of AEON, a runtime-authorization infrastructure effort for physical and AI-agent autonomy) endorsed the article's separation of runtime checking from institutional legitimacy and placed his own work in its chain: AEON builds the Operator role — running the gate against a signed policy, with a signed, verifiable decision proving what was checked — while accepting that no actor, himself included, can hold multiple roles without marking its own homework faster. The gap he flagged back: role separation is easy to diagram but hard to fund without capture, especially for infrastructure still dependent on the operators it is meant to check. His question: is a credible accreditation model emerging for the Independent reviewer and Remedy decider roles, or is that still the open problem?
+
+**Robert Schaub — reply to Armstrong**
+
+Scott Armstrong, My answer: the reviewer and binding-remedy institutions remain the open layer.
+
+AEON’s Operator role is clear: machine-readable authorization of who or what may act, where, when, and under what conditions, with a signed decision before the action executes.
+
+My article offers precedents, not an existing scheme.  
+ISO separates standard-setting, external certification and accreditation; JTI uses independent external auditors.
+
+The proposed model adds published criteria, independent evidence custody, reviewer rotation or a sector-wide pool, disclosed funding, outcome-independent fees and a remedy decider with legal or contractual authority.
+
+Applied to AEON:  
+Can an outside reviewer assess the criteria, admissibility decision and signed record?  
+Can an affected party take it to someone who can bind a remedy—without AEON also becoming rulemaker, custodian and judge?
+
+The substrate may be emerging; those institutions are not yet established.
