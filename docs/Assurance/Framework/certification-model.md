@@ -2,7 +2,7 @@
 
 # How could "trustworthy AI" be certified? — an assurance-stack model
 
-_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-06-25. Grounded in how certification works in other industries._
+_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-07-27. Grounded in how certification works in other industries._
 
 This is a **future-state model**, not a scheme that exists today, and the phased steps below are proposals — not work that is underway or scheduled. No pilot evaluations have been run; there is no Trust Mark, certificate, accredited assessor, or certification body. The current work is drafting and building connections.
 
@@ -106,6 +106,24 @@ _(Funding figures here are illustrative — verify before citing; they shift yea
 Standing up the full pyramid is hard and slow — which is exactly why Phase 1 matters. And the deepest legitimacy question answers itself: authority here is **manufactured by structure and transparency** (independent layers, public registry, revocation history), not granted to anyone.
 
 One incentive question remains open — raised by Angelo Richiello in the public discussion of the [runtime-governance article](../../Published/when-vs-who-ai-governance.md): the rules above remove the reward for *passing* (outcome-independent fees, no pay-to-pass, diversified funding), but nothing yet rewards *questioning or stopping*. Where speed and deployment keep paying while a justified stop pays no one, oversight can drift from real to symbolic even with cleanly separated roles — and, as the same discussion noted, formal incentives rarely reward constructive dissent, so making responsible challenge count as a recognised contribution is organisational culture as much as scheme design. Candidate directions, none adopted here yet: reviewer compensation independent of throughput and verdict; protected escalation routes; and demand-side consequences that make a justified stop valuable to those relying on the mark (the demand-side enforcement above).
+
+## Public discussion record
+
+The following reply was [published on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7485727693569982466/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287486003307099078657%2Curn%3Ali%3AugcPost%3A7485727693569982466%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287487570736052645889%2Curn%3Ali%3AugcPost%3A7485727693569982466%29) on 2026-07-27 in Andrew Woodward's hardware-rooted audit-trail discussion, replying to his proposal to train people who already hold relevant credentials. It is mirrored verbatim:
+
+> Andrew Woodward Yes—the personnel-certification framework exists, distinct from management-system certification. ISO/IEC 17024 governs bodies certifying people under schemes that specify competence requirements.
+>
+> ISACA's AAIA follows your existing-titles logic: an active CISA, or an active designation from ISACA's closed audit/accountancy list plus an IT-audit or IT-advisory role focus. No experience-only route.
+>
+> Current ANAB ISO/IEC 17024 scopes include AI credentials: CompTIA's DataAI and SecAI+, and SISA's CSPAI. So the standard does not categorically exclude AI credentials. The audit-side gap here is AAIA, absent from ISACA's current ANAB scope; separately, IAPP's handbook says AIGP is not ANAB-accredited. That is ANAB-specific, not worldwide.
+>
+> Competence is only half. A review regime also needs published decision criteria and an applicable challenge route. Your example shows the distinction: the coder can cite public CMS rules, while a beneficiary can appeal an appealable coverage or payment determination.
+>
+> A small group can start the function. My model still does not reward justified questioning or stopping.
+>
+> https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/
+
+_Primary-source check, 2026-07-27: [ISO/IEC 17024:2026](https://www.iso.org/standard/17024), [AAIA's current eligibility rules](https://www.isaca.org/credentialing/aaia), the current ANAB scopes for [CompTIA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=93&prgID=201&statusID=4), [SISA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=182567&prgID=201&statusID=4), [ISACA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=96&prgID=201&statusID=4), and [IAPP](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=2162&prgID=201&statusID=4), IAPP's [Candidate Handbook v5.3.2](https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blteb8b5d531fd78971/IAPP-Certification_Handbook.pdf), and CMS's [Original Medicare appeals guidance](https://www.cms.gov/medicare/appeals-grievances/fee-for-service). The comment's negative accreditation statements are deliberately ANAB-specific._
 
 ---
 _Sources: ISO/IEC 17065; ISO/IEC 42001, ISO/IEC 42005, and ISO/IEC 42006; the IAF (International Accreditation Forum); [EU AI Act Art. 43](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43) (conformity assessment and notified-body routes), [Art. 53](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53) (GPAI provider obligations), and [Art. 55](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55) (GPAI systemic-risk obligations); and certification, standards, and public-interest analogues including Fairtrade/FLOCERT, GOTS/IOAS, [IFCN/Poynter](https://ifcncodeofprinciples.poynter.org/about), [EFCSN](https://efcsn.com/code-of-standards/), [JTI](https://journalismtrustinitiative.org/jti-the-standard/) and [CWA 17493](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/cwa17493.pdf), [OpenSSF/Linux Foundation](https://www.linuxfoundation.org/blog/blog/open-source-security-foundation-openssf-reflection-and-future), [OASIS/CoSAI](https://www.oasis-open.org/2024/07/18/introducing-cosai/), [DPGA](https://www.digitalpublicgoods.net/standard), [MLCommons AILuminate](https://mlcommons.org/benchmarks/ailuminate/), [AI Alliance Trusted Evals](https://thealliance.ai/core-projects/trusted-evals), and [Current AI](https://www.currentai.org/)._

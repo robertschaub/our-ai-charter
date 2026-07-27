@@ -2,7 +2,7 @@
 
 # Split custody for per-action records
 
-*Working notes — 2026-07-18 · public-safe · cross-model-reviewed (design refined same day). Companions: [Charter Commitments](../Assurance/Framework/charter-commitments.md) (operational duty 6, contestability), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md).*
+*Working notes — 2026-07-18; public discussion updated 2026-07-27 · public-safe · cross-model-reviewed (design refined 2026-07-18). Companions: [Charter Commitments](../Assurance/Framework/charter-commitments.md) (operational duty 6, contestability), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md).*
 
 ## The question
 
@@ -88,6 +88,22 @@ The custody question this note answers was posed in the comment thread of the pa
 > None of this is exotic—tachographs, aviation investigations, the AI Act and platform-work rules already run or legislate the pieces.
 >
 > Still open: where no regulator or court has effective jurisdiction, who accredits, audits and can replace the trustee—and what makes its rulings binding?
+
+A second reply was [published on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7485329612839837696/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287487568262491254784%2Curn%3Ali%3Aactivity%3A7485329612839837696%29) on 2026-07-27 in Woodward's post on the owner-side limit of tamper evidence. It is mirrored verbatim:
+
+> Andrew Woodward The owner problem has technical and institutional layers; cryptography reaches more than one.
+>
+> An externally witnessed, time-stamped chain head makes alteration of that prefix detectable. It cannot prevent local rewriting, validate the source event, or expose omissions before anchoring. A hardware root can raise the barrier to software tampering without ensuring complete capture.
+>
+> A signed receipt helps narrowly: it proves an external log promised to include a specific record. Authenticated post-deadline evidence can demonstrate breach. It says nothing about an event never submitted.
+>
+> The design I am exploring splits custody: content with the liability-bearer; batched commitments in an independently monitored append-only log; a threshold-encrypted copy split across independent controllers, with no full key elsewhere; and a receipt or extract held by the affected person.
+>
+> Certificate Transparency, EU tachographs and aviation recorder custody supply pieces, not the whole.
+>
+> https://robertschaub.github.io/our-ai-charter/wip/split-custody-per-action-records/
+>
+> Still open: absent an effective regulator or court, who accredits and can replace the fiduciary, and what makes its decisions binding?
 
 ## Open questions
 
