@@ -116,7 +116,7 @@ Because state regulation is not uniform across jurisdictions, these Charter Comm
 
 **Independent and fair by design**
 
-If a conformity scheme is created, audits should be conducted by accredited, independent assessors against a published standard. The audited party must not unilaterally select or influence the assessor. Fees should be fixed, outcome-independent, conflict-disclosed, and, where possible, paid through steward assignment, escrow, rotation, or a public funding pool. A **subsidised and peer-verification tier** should keep any future Mark within reach of small, open-source, and Global-South builders, so trust is never a privilege of the well-funded.
+If a conformity scheme is created, audits should be conducted by accredited, independent assessors against a published standard. The audited party must not unilaterally select or influence the assessor. Fees should be fixed, outcome-independent, conflict-disclosed, and, where possible, paid through steward assignment, escrow, rotation, or a public funding pool. A **subsidised and peer-verification tier** should keep any future Mark within reach of small, open-source, and Global-South builders, so trust is never a privilege of the well-funded. These rules remove the reward for passing; what would positively reward questioning or stopping remains an open design question (see the [certification model](certification-model.md)).
 
 **How this binds us**
 

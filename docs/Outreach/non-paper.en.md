@@ -12,7 +12,7 @@ AI base infrastructure - models, compute, data, and the interfaces through which
 
 First, public institutions, researchers, media, civil society, and businesses become dependent on opaque systems that can be priced, restricted, redirected, or withdrawn by actors they do not govern. Second, society loses the ability to judge AI outputs independently, because data provenance, assumptions, methods, dependencies, and control powers are often not open to public inspection.
 
-This is also an economic problem. Capability, skills, bargaining power, and value creation concentrate where the infrastructure is controlled. A public-AI layer that keeps capability and economic benefit broadly distributed is not only a complement to governance; it is part of what makes co-stewardship durable and gives it a democratic mandate.
+This is also an economic problem. Capability, skills, bargaining power, and value creation concentrate where the infrastructure is controlled. A public-AI layer that keeps capability and economic benefit broadly distributed is not only a complement to governance; it is part of what makes co-stewardship durable and gives it a democratic mandate. The same holds for people: infrastructure can be procured, while the competence to understand, govern, and improve these systems must be built and retained through sustained investment in education, research, and managerial capability. In the long run, digital sovereignty is as much a question of human capital as of technology.
 
 ## 2. Switzerland's opening
 
