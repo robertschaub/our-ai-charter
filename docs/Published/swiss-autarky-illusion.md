@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange is documented below (2026-07-25).
+> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange is documented below (2026-07-25 and 2026-07-27).
 > Canonical article: [https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc](https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc)
 
 ---
@@ -124,7 +124,7 @@ _German original: [Die Schweizer Autarkie-Illusion](schweizer-autarkie-illusion.
 
 ## Accompanying comments
 
-_Published on the [English LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_digitalsovereignty-publicai-aigovernance-ugcPost-7486430520470360065-TDNr), 24–25 July 2026._
+_Published on the [English LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_digitalsovereignty-publicai-aigovernance-ugcPost-7486430520470360065-TDNr), 24–27 July 2026._
 
 **Angelo Richiello — summary**
 
@@ -147,3 +147,11 @@ Catena-X shows the incentive: independent certification gates providers/solution
 Full draft: [https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/](https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/)
 
 From your consortium work: where did resistance sit — rules, evidence, assessor choice, or consequences?
+
+**Robert Schaub — reply to Richiello** (posted 2026-07-27)
+
+Angelo Richiello Two texts point the same way: The Public AI Network names durable ecosystems — talent, research, shared public compute, lawful data commons — as the third pillar ([https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)), and this article argues that value creation, a skilled workforce, and bargaining power arise where you help build and help decide. Your addition goes further: "Infrastructure can be purchased. Competence cannot." — continuous investment in education, research and managerial capability.
+
+**Angelo Richiello — follow-up (summary)**
+
+Richiello called this the real dividing line: infrastructure can be financed, technology acquired, even regulations copied, but the ability to understand, govern, and continuously improve complex systems depends on people. Competence accumulates over years through education, research, managerial practice, and institutional learning — in the long run, he argued, perhaps the most strategic investment of all.

@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; five public comments (below) are documented; source-checked through 2026-07-25.
+> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; seven public comments (below) are documented; source-checked through 2026-07-27.
 > Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 
 ---
@@ -92,7 +92,7 @@ This is a working proposal from a small, unfunded, model-plural effort, intended
 
 ## Accompanying comments
 
-_Published on the [LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_runtime-ai-governance-gets-when-right-the-activity-7485969016478478336-K0gt/), 23–25 July 2026._
+_Published on the [LinkedIn feed post](https://www.linkedin.com/posts/robertschaub_runtime-ai-governance-gets-when-right-the-activity-7485969016478478336-K0gt/), 23–27 July 2026._
 
 **Robert Schaub**
 
@@ -126,3 +126,11 @@ Can an outside reviewer assess the criteria, admissibility decision and signed r
 Can an affected party take it to someone who can bind a remedy—without AEON also becoming rulemaker, custodian and judge?
 
 The substrate may be emerging; those institutions are not yet established.
+
+**Robert Schaub — reply to Richiello** (posted 2026-07-27)
+
+Angelo Richiello You're right — incentives decide whether the roles stay real. My texts address one half: fees fixed and outcome-independent, assessors not selected or paid by the audited party, funding diversified so no single stream dominates (in the article, and in more detail in the certification model: [https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/](https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/)). The other half — rewarding someone for questioning or stopping — none of them have answers yet. Open problem.
+
+**Angelo Richiello — follow-up (summary)**
+
+Richiello agreed and moved the point from institutional design to organisational culture: formal incentives can protect independence but rarely reward constructive dissent; the person who raises concerns is still often perceived as slowing progress rather than protecting long-term value. The real challenge, he argued, is to make responsible challenge a recognised contribution to performance rather than an exception to it.
