@@ -70,7 +70,7 @@ Reading: the deployer executes and carries liability; the affected person bears 
 ## Charter tie-in
 
 - **Contestability with teeth.** Operational duty 6's notice/review/remedy and the contestability module get a concrete custody mechanism: a right to challenge is ceremonial if the challenger can never reach the evidence (the paper's own point about "the evidence the worker never gets").
-- **Who accredits the custodian** is an assurance-chain question — standard → assessor → accreditor → peer, no one checking their own work — i.e. exactly the [certification model's](../Assurance/Framework/charter-commitments.md) territory. The custodian role slots into that chain rather than requiring a new authority.
+- **Who accredits the custodian** is an assurance-chain question — standard → assessor → accreditor → peer, no one checking their own work — i.e. exactly the [certification model's](../Assurance/Framework/certification-model.md) territory. The custodian role slots into that chain rather than requiring a new authority.
 - **Capture resistance.** Purpose limitation needs statute, not scheme rules — a US court has [declined to let Annex 13 block discovery](https://condonlaw.com/2021/02/texas-federal-court-rules-that-boeing-cannot-withhold-otherwise-discoverable-documents-and-information-based-on-the-icao-annex-13/) — matching the Charter's position that material control interventions must be attributable and reviewable, never secret and unilateral.
 
 ## Public discussion record
