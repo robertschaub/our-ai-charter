@@ -155,3 +155,7 @@ Angelo Richiello Two texts point the same way: The Public AI Network names durab
 **Angelo Richiello — follow-up (summary)**
 
 Richiello called this the real dividing line: infrastructure can be financed, technology acquired, even regulations copied, but the ability to understand, govern, and continuously improve complex systems depends on people. Competence accumulates over years through education, research, managerial practice, and institutional learning — in the long run, he argued, perhaps the most strategic investment of all.
+
+**Robert Schaub — follow-up** (posted 2026-07-27)
+
+Angelo Richiello Now recorded: the network overview names competence as the condition beneath all four pillars. [https://robertschaub.github.io/our-ai-charter/network-overview/](https://robertschaub.github.io/our-ai-charter/network-overview/)

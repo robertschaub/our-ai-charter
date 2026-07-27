@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; seven public comments (below) are documented; source-checked through 2026-07-27.
+> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; eight public comments (below) are documented; source-checked through 2026-07-27.
 > Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 
 ---
@@ -134,3 +134,7 @@ Angelo Richiello You're right — incentives decide whether the roles stay real.
 **Angelo Richiello — follow-up (summary)**
 
 Richiello agreed and moved the point from institutional design to organisational culture: formal incentives can protect independence but rarely reward constructive dissent; the person who raises concerns is still often perceived as slowing progress rather than protecting long-term value. The real challenge, he argued, is to make responsible challenge a recognised contribution to performance rather than an exception to it.
+
+**Robert Schaub — follow-up** (posted 2026-07-27)
+
+Angelo Richiello Now recorded: the certification model's honest part states the open incentive question — including your culture point — with credit: [https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/](https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/)
