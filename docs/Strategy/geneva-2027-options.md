@@ -30,7 +30,7 @@ Roles are recorded in the [actor map](../Evidence/actors-and-landscape.md). Re-v
 | **B. Public-AI infrastructure node** | Position the Charter as governance/evidence layer for open public models and PublicAI-style access | Public AI / Metagov; publicai.ch / SPIU; Apertus leads; SNAI |
 | **C. Neutral pre-sprint** | Produce the blueprint and one evaluation outline through a neutral process | Expedition Zukunft; alternatives: GSPI, GESDA, IHEID Tech Hub |
 | **D. International Geneva** | Connect to multilateral and middle-power framing | ICT4Peace, Diplo/GIP, UNIDIR, ITU AI for Good, UN Scientific Panel, ICAIN |
-| **D'. Framing allies** | Validate "network, not fortress" and middle-power thesis | Chatham House / Public AI, Oxford Martin; Open Future / Wikimedia CH (public-AI & knowledge-commons allies — see [actor map](../Evidence/actors-and-landscape.md)) |
+| **D'. Framing allies** | Validate "network, not fortress" and middle-power thesis | Chatham House / Public AI, Oxford Martin; Open Future / Wikimedia CH — whose Jul-2026 white paper names Geneva 2027 as Wikimedia's governance moment, with Wikimedia CH in an "early mover" role and a *Knowledge Commons AI Cluster* forming since Wikimania Paris (25 Jul 2026); see [actor map](../Evidence/actors-and-landscape.md) |
 | **E. Political flank** | Later carrier council member; possible 26.3221 funding route | Juillard, Z'graggen, Andrey, Christ, Michel |
 | **F. Funding** | Convening or pilot funding after coalition and deliverable | European AI & Society Fund, Open Society/co-funders, Patrick J. McGovern Foundation |
 
