@@ -1,6 +1,6 @@
 # Funder & collaborator engagement — approach
 
-How to approach co-producers and funders for the initiative's artifacts without a premature ask or an overclaim. Companion to the [financing ladder](initiation-strategy.md#financing), the [final-artifacts roadmap](final-artifacts-roadmap.md) (co-producers per artifact), the [actor & landscape map](../Evidence/actors-and-landscape.md) (who), and the [overclaim audit](swiss-action-plan-contribution.md) (discipline). First application: the Geneva 2027 [Route F](geneva-2027-options.md) and convenings such as AI for Good.
+How to approach co-producers and funders for the initiative's artifacts without a premature ask or an overclaim. Companion to the [financing ladder](initiation-strategy.md#financing), the [final-artifacts roadmap](final-artifacts-roadmap.md) (co-producers per artifact), the [actor & landscape map](../Evidence/actors-and-landscape.md) (who), and the [overclaim audit](swiss-action-plan-contribution.md) (discipline). First application: the Geneva 2027 [Route F](geneva-2027-options.md) and convenings such as Swiss AI Weeks (1 Sep – 4 Oct 2026), *Road to Geneva* pre-events, and future AI for Good editions.
 
 ## The stage rule: map and warm, not ask
 
@@ -26,13 +26,13 @@ Roles and contacts are in the [actor map](../Evidence/actors-and-landscape.md); 
 | Warm only | McGovern Foundation; European AI & Society Fund; Open Society + co-funders | public-interest funders | thesis, timeline, and *what would you need to see* |
 | Warm only | Current AI | relationship-only; no open call | via the Public AI / Metagov door |
 
-Stiftung Mercator Schweiz is a warm line via the [Swissnex "Geneva Loading" fellowship](geneva-2027-swissnex-fellowship.md) channel — let the relationship build through that channel; don't double-approach it cold.
+Stiftung Mercator Schweiz was a warm line via the [Swissnex "Geneva Loading" fellowship](geneva-2027-swissnex-fellowship.md) channel (application window closed 12 Jul 2026) — if a relationship forms through that channel, let it build there; either way, don't double-approach it cold.
 
 ## Cost-bearer map — who could fund or host (Switzerland & international)
 
 A deeper, grounded ranking of *cost-bearers* — who could fund or host the work — extending and ranking the funders named in [*Who, for what*](#who-for-what) above. Researched 2026-07-06 from primary and official sources; each row is an assessment of **fit**, not a secured route, and the [stage rule](#the-stage-rule-map-and-warm-not-ask) still governs *timing* (map and warm now; a deliverable-backed ask later). Re-verify amounts and open calls before acting.
 
-**The opportunity — the cost-bearer may already exist.** The initiatives closest to the goal are also the most realistic funders/hosts. Most consequential: the [Paris Charter on AI in the Public Interest](https://www.elysee.fr/en/emmanuel-macron/2025/02/11/the-paris-charter-on-artificial-intelligence-in-the-public-interest) (Feb 2025, ten states **including Switzerland**) and its vehicle [Current AI](https://www.currentai.org/) already pledged "independent auditing and accountability tools" but have **not built** that layer — so the non-duplicative position is *the independent assurance institution the ecosystem committed to yet lacks*, pitched **into** it via Switzerland's partner seat, not beside it. This is also why leading with the **assurance/charter layer** rather than "another open-model network" (which [ICAIN](https://icain.ch/), Public AI and OpenEuroLLM already are) both lowers the "already covered" risk and points straight at the funder.
+**The opportunity — the cost-bearer may already exist.** The initiatives closest to the goal are also the most realistic funders/hosts. Most consequential: the [Paris Charter on AI in the Public Interest](https://www.elysee.fr/en/emmanuel-macron/2025/02/11/the-paris-charter-on-artificial-intelligence-in-the-public-interest) (Feb 2025, ten states **including Switzerland**) and its vehicle [Current AI](https://www.currentai.org/) already pledged "independent auditing and accountability tools" but have **not built** that layer — so the non-duplicative position is *the independent assurance layer the ecosystem committed to yet lacks*, pitched **into** it via Switzerland's partner seat, not beside it. This is also why leading with the **assurance/charter layer** rather than "another open-model network" (which [ICAIN](https://icain.ch/), Public AI and OpenEuroLLM already are) both lowers the "already covered" risk and points straight at the funder.
 
 ### Switzerland
 

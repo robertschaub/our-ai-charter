@@ -39,7 +39,7 @@ So a Policy Sprint is a coalition-and-mandate engine: it earns the pull that mak
 
 ## Roadmap
 
-Treat this as a relative sequence. As of June 2026 the article is published, the non-paper exists, and first outreach has begun.
+Treat this as a relative sequence. As of July 2026 the articles are published (the sovereignty pair, the network statement, when-vs-who, and the autarky pair), the non-paper exists, and outreach is running (convenor scoping, public-thread engagement, actor mapping).
 
 **Days 0–30 — convert signal into mandate.** Finalise the non-paper; build a stakeholder map; request targeted orientation calls; ask a neutral convenor for a scoping conversation; decide the pre-sprint question. *Success:* three credible people say the question is worth structured exploration.
 
@@ -61,6 +61,6 @@ No large funding before a coalition and one concrete deliverable exist.
 
 - Claim processes and coalitions as **intent**, not fact.
 - Add to SNAI/Apertus and Current AI; do not compete with them.
-- Keep Switzerland as host/node/bridge, not owner; count the economic and technical capability spillovers, not only the values case.
+- Keep Switzerland as host/node/bridge, not owner; count the complementary economic and technical capability benefits, not only the values case.
 - Disclose commercial ties and reject funding that can shape findings.
 - Do not claim certification, audit authority, Trust Mark status, large funding need, or active pilot maturity.

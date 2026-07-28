@@ -1,10 +1,10 @@
 # Geneva 2027 — Swissnex/Mercator "Geneva Loading" fellowship (channel assessment)
 
-Discussion note (2026-06-25). A time-boxed route into the **Geneva AI Summit 2027** exists: the Swissnex San Francisco × Stiftung Mercator Schweiz **"Geneva Loading…"** preparatory fellowship. This note records the opportunity, fit, and fallback as a Geneva-2027 channel. Re-verify program details before acting.
+Discussion note (2026-06-25; channel state updated 2026-07-28). A time-boxed route into the **Geneva AI Summit 2027** ran in summer 2026: the Swissnex San Francisco × Stiftung Mercator Schweiz **"Geneva Loading…"** preparatory fellowship. **Its application window closed 12 Jul 2026** (selection was slated for mid-August 2026). This note records the channel, fit, and fallback as a Geneva-2027 route; the artifact-first logic below is channel-neutral and outlives the window. Re-verify programme state before citing.
 
 Companions: [routes map](geneva-2027-options.md), [initiation strategy](initiation-strategy.md), [verified findings](../Evidence/verified-findings.md), and [actor map](../Evidence/actors-and-landscape.md).
 
-## Opportunity
+## The channel (application window closed 12 Jul 2026)
 
 | | |
 |---|---|
@@ -13,9 +13,9 @@ Companions: [routes map](geneva-2027-options.md), [initiation strategy](initiati
 | **Output** | Public policy brief, white paper, article, or similar |
 | **Calendar** | Prep day in Switzerland (Sept 2026) → Silicon Valley immersion **16–20 Nov 2026** → official summit side-event slot in Geneva, **Q2 2027** |
 | **Support** | CHF 2,000 travel subsidy; access to Silicon Valley labs/companies |
-| **Deadline** | **12 Jul 2026**; selection mid-August |
+| **Application window** | Closed **12 Jul 2026**; selection was slated for mid-August 2026 |
 | **Contact** | Maulde Cuérel, AI & Tech Foresight Program Manager (Swissnex SF) |
-| **Entry format** | Four free-text answers (~1,050 words total) via a form; no attachments, so any output must be reachable from a public link |
+| **Entry format (as run)** | Four free-text answers (~1,050 words total) via a form; no attachments, so any output had to be reachable from a public link |
 
 Sources: [Swissnex SF](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) · [Digital Watch](https://dig.watch/processes/2027-geneva-ai-summit).
 
@@ -42,17 +42,17 @@ Main risks: the channel may not be available or taken up, real time cost, and op
 **Build one artifact and make it useful regardless of any single channel:** the **Geneva 2027 Public AI Governance & Evidence Package**, about two pages.
 
 - **Programme calendar:** SF immersion **16–20 Nov 2026**, a Sept prep day (TBD), and an H1-2027 Geneva side-event. The fallback below applies if this channel is not used.
-- **The package as the entry:** the four-answer format (above) would draw its "specific output" answer from the keystone memo; the published work must be reachable from a public link.
+- **The package outlives the window:** the keystone memo remains the "specific output" core for any successor call or adjacent channel; published work must stay reachable from a public link.
 - **In parallel:** one substance conversation — an Apertus/SNAI governance question or neutral-convenor scoping.
-- **Mid-August branch:** if the channel is taken up, the fellowship becomes the spine (SF input sharpens the memo; side event + cohort amplify); if not, the memo and first conversation route to the official consultation window, pre-sprint, and a possible parliamentary flank.
-- **When the summit's next input window opens** (not yet publicly dated — monitor dig.watch / ICT4Peace): submit the memo if the content remains current. *(The end-2026 federal milestone often cited is the separate Council of Europe AI Convention implementing-law consultation, not the summit.)*
+- **Mid-August branch:** if a selection materialises via this (now-closed) channel, the fellowship becomes the spine (SF input sharpens the memo; side event + cohort amplify); if not, the memo and first conversation route to the official consultation window, pre-sprint, and a possible parliamentary flank.
+- **When the summit's next input window opens:** the *Road to Geneva* pre-event registration launches in **August 2026** per OFCOM (form-plus-approval, no stated deadline; a "Call for Issues" follows in autumn 2026, side-event proposals in early 2027 — monitor genevaaisummit.swiss / dig.watch): submit the memo if the content remains current. *(The end-2026 federal milestone often cited is the separate Council of Europe AI Convention implementing-law consultation, not the summit.)*
 
 **Fallback without the SF week:** keep the effort bounded around one public artifact and attach it to whichever Geneva 2027 channel opens first. The low-effort ladder is:
 
 1. **Brief + checklist + one worked example** — publish a 1,000–1,500 word brief and the evaluation-kit skeleton independently.
 2. **Side-event module** — offer a 15-minute method demo inside someone else's workshop or side event, rather than owning an event.
 3. **Written input** — submit the brief to the next official or civil-society consultation window when it opens.
-4. **Adjacent convenings** — use AI for Good, ICT4Peace/GenAI Zürich, Swiss university, media-lab, NGO, or civic-tech sessions as lower-commitment paths into the summit conversation.
+4. **Adjacent convenings** — use Swiss AI Weeks (1 Sep – 4 Oct 2026), future AI for Good editions, ICT4Peace/GenAI Zürich, Swiss university, media-lab, NGO, or civic-tech sessions as lower-commitment paths into the summit conversation.
 5. **Lightweight adoption offer** — make the checklist available to another actor's project as an open method, without claiming partnership or endorsement.
 
 If none of those channels opens quickly, run the memo through pre-sprint → official consultation → parliamentary carrier. Lower visibility, but fully self-directed.
