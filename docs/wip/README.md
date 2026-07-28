@@ -8,6 +8,10 @@ Public-safe provisional material. These notes are published on the site but are 
 
 This is a public repository. Do not paste private meetings, correspondence, outreach state, candid named-person assessments, secrets, or INTERNAL-marked material here. Private administrative context belongs outside this repo.
 
+## Publication drafts
+
+- **[our-ai-charter-one-month-on.md](our-ai-charter-one-month-on.md)** — LinkedIn-ready article, accompanying feed post, and cover image that update the original project announcement: one public-AI network proposition, AI Assurance & Certification as its trust-and-evidence building block, an explicit Phase-1 boundary, and a bounded Geneva 2027 next step.
+
 ## Public AI & Apertus
 
 - **[apertus-fit-and-engagement-plan.md](apertus-fit-and-engagement-plan.md)** — does the Charter add value to Apertus, is it a good match, and how to engage; cross-model-reviewed assessment + a standing-first plan (Apertus as anchoring case, not client).
