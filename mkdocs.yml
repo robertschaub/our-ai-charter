@@ -119,6 +119,7 @@ nav:
   - Home: index.md
   - The Network: network-overview.md
   - Articles:
+      - "Our AI Charter — accountable public AI infrastructure": Published/our-ai-charter-public-ai-infrastructure.md
       - "The Swiss Autarky Illusion (EN)": Published/swiss-autarky-illusion.md
       - "Die Schweizer Autarkie-Illusion (DE)": Published/schweizer-autarkie-illusion.md
       - "Runtime governance — when vs. who": Published/when-vs-who-ai-governance.md
@@ -172,7 +173,6 @@ nav:
       - "Geneva 2027 — channel demand": Evidence/geneva-2027-channel-demand.md
   - Draft notes:
       - Overview: wip/README.md
-      - "Publication draft — Our AI Charter, one month on": wip/our-ai-charter-one-month-on.md
       - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
       - "Apertus — fit & engagement plan": wip/apertus-fit-and-engagement-plan.md
       - "Metagov & Public AI — assurance landscape": wip/metagov-public-ai-landscape.md
