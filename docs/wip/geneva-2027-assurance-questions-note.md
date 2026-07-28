@@ -8,10 +8,10 @@
 
 This is a short, forwardable set of **open questions** about the governance-and-evidence layer around public-interest AI, offered for reaction and correction — **not** a package, an ask, or a claim on anyone's project.
 
-- It is **not** Apertus's *"Swiss values charter"* (which aligns a model's behaviour to constitutional values — a different layer, about the model).
-- It is **not** affiliated with the existing *Public AI Network* coalition ([publicai.network](https://publicai.network/whitepaper/)); it asks questions that movement also cares about.
+- It is **not** the *"Apertus Charter"* (formerly *"Swiss AI Charter"*), which aligns a model's behaviour to constitutional values — a different layer, about the model.
+- It is **not** affiliated with the existing *Public AI Network* coalition ([publicai.network](https://publicai.network/whitepaper/)) nor with its Swiss chapter (publicai.ch, a cooperative in formation); it asks questions that movement also cares about.
 
-Apertus appears only as a **motivating case** — Europe's clearest signal that publicly funded, fully open AI is possible. The questions are model-plural by design.
+Apertus appears only as a **motivating case** — a prominent European signal that publicly funded, fully open AI is possible. The questions are model-plural by design.
 
 ## Why now
 

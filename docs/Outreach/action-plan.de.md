@@ -4,7 +4,7 @@
 
 _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
-**Update 2026-06-19:** Der Artikel ist publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md)); die direkte Kontaktaufnahme hat begonnen. Externe Aussagen vor Verwendung prüfen.
+**Update 2026-07-28:** Die Artikel sind publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md); [Die Schweizer Autarkie-Illusion](../Published/schweizer-autarkie-illusion.md)); die direkte Kontaktaufnahme läuft, und ein erstes Sondierungsgespräch mit einem neutralen Convenor hat im Juli 2026 stattgefunden. Externe Aussagen vor Verwendung prüfen.
 
 **Aufhänger (CH):** „Internationales, vertrauenswürdiges öffentliches KI-Netzwerk – die Schweiz als Wegbereiterin." — Einstiegssatz für Schweizer Kontakte. Im **aktuellen Auftritt** „Wegbereiterin / Gastgeberin / Brückenbauerin" wählen: eine aktive, sichtbare Rolle, **ohne heute ein Mandat oder Eigentümerschaft zu suggerieren**. Die koordinierende Rolle ist eine mögliche Folge dieses Vertrauensaufbaus, kein Anspruch auf ein Koordinationsmandat heute (siehe Leitplanken).
 

@@ -63,7 +63,7 @@ The declarations **declare**; none of them makes the promise **checkable** for a
 
 The charter's intended contribution would be the operational layer the declarations lack: first, **pilot evaluation reports** against criteria like those above; later, if justified, a **public registry**, **revocation**, and **procurement teeth** — so the principles become something a deployer is *checked against and can lose public status for failing.* This is the proposed shape, not work that is underway: no pilot evaluations have been run or scheduled. It especially translates the CoE treaty's procedural rights (notice, contest, remedy) and UNESCO's transparency/oversight principles into testable indicators.
 
-**Caveat (non-negotiable framing):** a voluntary evaluation report or future mark **is not law**. It cannot enforce a treaty or compel a non-participant. It is **"aligned with"** these instruments, never "compliant with," and it **complements** the EU AI Act / CoE Convention by giving buyers and the public usable, checkable evidence **now** — for the systems and the private deployers the declarations don't yet reach.
+**Caveat (non-negotiable framing):** a voluntary evaluation report or future mark **is not law**. It cannot enforce a treaty or compel a non-participant. It is **"aligned with"** these instruments, never "compliant with," and it **complements** the EU AI Act / CoE Convention by giving buyers and the public usable, checkable evidence ahead of binding law — once evaluations run — for the systems and the private deployers the declarations don't yet reach.
 
 ---
 

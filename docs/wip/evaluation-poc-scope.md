@@ -10,9 +10,9 @@ Turn the protocol into **one runnable evaluation** on **one public-interest depl
 
 ## Two scoping rules to settle first
 
-1. **Evaluate a *deployment*, not the weights.** The protocol scores a deployed factual system that *presents sources* (§2). Raw Apertus chat does not cite sources, so it would fail the use-case-validity check on its own. Choose one:
+1. **Evaluate a *deployment*, not the weights.** The protocol scores a deployed factual system that *presents sources* (§2). Raw Apertus chat did not cite sources as of the 1.0 release (checked 2026-06-29; re-verify against 1.5, released 2026-07-24), so it would fail the use-case-validity check on its own. Choose one:
    - **(a)** target an existing **Apertus-based cited-source Q&A / RAG assistant** (a real public-interest deployment), or
-   - **(b)** stand up a **minimal reference RAG + citation harness** over an Apertus endpoint (PublicAI inference / Hugging Face) so there is a deployable factual system to evaluate.
+   - **(b)** stand up a **minimal reference RAG + citation harness** over an Apertus endpoint (the publicai.co inference utility / Hugging Face) so there is a deployable factual system to evaluate.
    Either way, state plainly that the result describes **that deployment**, not Apertus-the-model. *(This is also why the PoC fits the Charter's frame: the civic-assurance layer is about deployments of public models.)*
 2. **Naming discipline.** Name Apertus **publicly** only with partner agreement ([artifacts roadmap](../Strategy/final-artifacts-roadmap.md)). Absent that, publish as *"an Apertus-class open public deployment."*
 

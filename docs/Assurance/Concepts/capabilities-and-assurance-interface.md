@@ -1,6 +1,6 @@
 # Capabilities & Assurance Interface (CAI) — a design direction
 
-*Design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange — **concepts and principles, not interfaces** (mechanisms deliberately out of scope at this stage). Phase-2/3. Companion to [charter-structure-and-views.md](charter-structure-and-views.md): the demand side's *check* surface.*
+*Design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange — **concepts and principles, not interfaces** (mechanisms deliberately out of scope at this stage). Late-phase: the self-declared half could accompany Phase 1, the assured half needs a mature Phase-2 scheme. Companion to [charter-structure-and-views.md](charter-structure-and-views.md): the demand side's *check* surface.*
 
 A way for a person or their agent to ask, of one deployed system: **what is it for** (capabilities) and **what has been assured** (assurance). The "check" step of the demand side.
 
@@ -18,9 +18,9 @@ A machine-readable assurance surface propagates **false confidence as fast as tr
 
 - **Profile, don't invent.** The form already exists in supply-chain-attestation and transparency practice; the Charter contributes only the *public-interest profile* — binding it to the obligations and assurance-depth labels — not a new standard.
 - **Decouple capabilities from assurance.** Self-declared capabilities must not borrow assurance's credibility: keep **self-declared** and **independently-assured** fields visibly distinct, each carrying its own provenance. Bind every assured claim to the **exact assessed version**, so a changed system falls **out of scope** rather than silently inheriting the old claim.
-- **Public scrutiny by default.** An assurance claim must be **publicly checkable**, not privately asserted — that is what defeats the fake-assessor and the "one story to the buyer, another to the regulator" failures.
+- **Public scrutiny by default.** An assurance claim must be **publicly checkable**, not privately asserted — that is what counters the fake-assessor and the "one story to the buyer, another to the regulator" failures.
 - **Scoped and fail-safe.** No global "trusted / safe / compliant" verdict; every claim carries its **scope, depth, and currentness**. When status cannot be confirmed, the honest answer is **"unknown," never "valid"** — and a stale "valid" must expire, not linger.
-- **The trust stack is the real dependency.** The hard part is not the format; it is the **institutional trust infrastructure** — accredited assessors, revocation, and enforcement with teeth (delisting, procurement exclusion). That is why the **assured half** is **Phase-3** — riding on a maturing certification scheme — not mere packaging of existing content.
+- **The trust stack is the real dependency.** The hard part is not the format; it is the **institutional trust infrastructure** — accredited assessors, revocation, and enforcement with teeth (delisting, procurement exclusion). That is why the **assured half** waits on a **mature Phase-2 conformity scheme** — riding on a maturing certification model — not mere packaging of existing content.
 
 ## Buildable now vs deferred
 

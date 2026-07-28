@@ -2,7 +2,7 @@
 
 # Geneva 2027 — Public AI Governance & Evidence Package
 
-*Forwardable keystone memo (~2 pp). Spine for the [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) channel and every downstream route. Assembled from the [non-paper](../Outreach/non-paper.en.md), the [initiation strategy](../Strategy/initiation-strategy.md), the [evaluation protocol one-pager](../Assurance/Protocol/one-pager.md), and the [Geneva 2027 routes map](../Strategy/geneva-2027-options.md) — see also the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
+*Forwardable keystone memo (~2 pp). Spine for the Geneva-2027 channels — the *Road to Geneva* pre-events track (registration launches August 2026), the [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) channel (application window closed 12 Jul 2026), and every downstream route. Assembled from the [non-paper](../Outreach/non-paper.en.md), the [initiation strategy](../Strategy/initiation-strategy.md), the [evaluation protocol one-pager](../Assurance/Protocol/one-pager.md), and the [Geneva 2027 routes map](../Strategy/geneva-2027-options.md) — see also the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
 
 ## In one line
 

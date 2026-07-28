@@ -4,7 +4,7 @@
 
 _German version: [action-plan.de.md](action-plan.de.md)._
 
-**Update 2026-06-19:** The article is published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md)); direct outreach has begun. Fact-check external claims before use.
+**Update 2026-07-28:** The articles are published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md); [The Swiss Autarky Illusion](../Published/swiss-autarky-illusion.md)); direct outreach is under way, and a first scoping conversation with a neutral convenor took place in July 2026. Fact-check external claims before use.
 
 **Role:** Catalyst and alliance-builder. Switzerland should act as credible host and hub, internationally oriented from the outset. No new institution is claimed.
 

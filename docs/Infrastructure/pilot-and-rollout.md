@@ -15,7 +15,7 @@ Minimum build:
 5. one public-data evaluation or multilingual civic-information agent;
 6. admission criteria, prohibited-use baseline, conflict disclosure, appeal/redress path, and anti-capture rule.
 
-Start with an **Apertus/PublicAI-backed inference + evaluation MVP** because it builds on the nearest live pattern. Apertus is the first anchor because the live open assets sit there today; the federation's rules remain model-plural. Add broker/evidence controls around the access layer, then federate a second independent node/provider, ideally with a second model family.
+Start with an **Apertus/PublicAI-backed inference + evaluation MVP** (PublicAI here = the Public AI Inference Utility, publicai.co — the live access layer, separately operated from the publicai.ch chapter) because it builds on the nearest live pattern. Apertus is the first anchor because the live open assets sit there today; the federation's rules remain model-plural. Add broker/evidence controls around the access layer, then federate a second independent node/provider, ideally with a second model family.
 
 A small **civic agent grid** can run in parallel as the citizen-participation track, but it carries more reliability and coordination risk. It should not replace the inference MVP.
 
@@ -34,7 +34,7 @@ Success is not global scale. Success is proving that public compute can be share
 |---|---|
 | First pilot | Apertus/PublicAI-backed inference + evaluation MVP; small civic agent grid in parallel |
 | First nodes/providers | One PublicAI-style inference utility node + one Swiss research/HPC or sovereign-cloud node |
-| First broker operator | PublicAI/SPIU-adjacent or Swiss/SNAI-adjacent neutral host; no new-institution claim |
+| First broker operator | PublicAI/SPIU-adjacent (publicai.ch: cooperative in formation, not yet registered) or Swiss/SNAI-adjacent neutral host; no new-institution claim |
 | Identity scope | PKI/CA + signed SLAs for institutional nodes; Keycloak/OIDC for users; eduGAIN-style later |
 | Contribution credits | Banded GPU-credit accounting later; do not block the pilot |
 | Commercial providers | Allowed only with disclosure, portability, quota limits, and no control over governance or findings |

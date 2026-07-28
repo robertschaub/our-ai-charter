@@ -2,7 +2,7 @@
 
 # Policy-sprint presentation: an international network of open AI models with a common charter
 
-*Short presentation and handout for a policy-sprint scoping (e.g. with a neutral convenor). German version: [policy-sprint-praesentation.de.md](policy-sprint-praesentation.de.md). Projectable slides: [Slides (EN, HTML)](policy-sprint-slides.en.html). Brief version: [1-pager (DE)](policy-sprint-1pager.de.md) · fuller framing: [Non-Paper](non-paper.en.md).*
+*Short presentation and handout for a policy-sprint scoping (e.g. with a neutral convenor such as Expedition Zukunft). German version: [policy-sprint-praesentation.de.md](policy-sprint-praesentation.de.md). Projectable slides: [Slides (EN, HTML)](policy-sprint-slides.en.html). Brief version: [1-pager (DE)](policy-sprint-1pager.de.md) · fuller framing: [Non-Paper](non-paper.en.md).*
 
 This page is a through-line for a 30-minute scoping conversation and a handout at the same time: from the goal through the building blocks to the concrete ask.
 
@@ -22,7 +22,7 @@ This page is a through-line for a 30-minute scoping conversation and a handout a
 
 - **Political window:** In 2026 the Council of States adopted two relevant motions — **26.3221** (impulse programme for digital sovereignty, 10 Jun 2026) and **24.3209** (sovereign digital infrastructure, 20 Mar 2026); both are now before the National Council. They strengthen the *build* — purpose, governance and international networking remain open.
 - **Building blocks in place:** **Apertus** (fully open; EPFL, ETH Zurich, CSCS) as a Swiss model in the network; Switzerland is already a **Current AI Country Partner**; the **Swiss AI Action Plan** (digitalswitzerland/OFCOM, 23 actions) supplies the implementation agenda.
-- **Timing:** the **Geneva AI Summit 2027** as the international stage. In July 2026 the first **UN Global Dialogue on AI Governance** (6–7 Jul) and **ITU AI for Good** (7–10 Jul) also meet in Geneva — real multilateral momentum, a year before the summit.
+- **Timing:** the **Geneva AI Summit 2027** as the international stage. In early July 2026 the first **UN Global Dialogue on AI Governance** (6–7 Jul) and **ITU AI for Good** (7–10 Jul) already met in Geneva — real multilateral momentum, a year before the summit.
 - **Time pressure:** something **tangible** should exist by the summit (**June 2027**) — a process, blueprint and charter draft others can carry; the window is tight.
 
 ## 4 · Where the charter and assurance layer sits
