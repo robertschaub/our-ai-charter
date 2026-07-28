@@ -20,7 +20,7 @@ Diese Seite dient als roter Faden für ein 30-minütiges Sondierungsgespräch un
 
 ## 3 · Warum jetzt
 
-- **Politisches Fenster:** Der Ständerat hat 2026 zwei einschlägige Motionen angenommen — **26.3221** (Impulsprogramm digitale Souveränität, 10.6.2026) und **24.3209** (souveräne digitale Infrastruktur, 20.3.2026); beide liegen nun beim Nationalrat. Sie stärken den *Aufbau* — Zweck, Governance und internationale Vernetzung bleiben offen.
+- **Politisches Fenster:** Der Ständerat hat 2026 zwei einschlägige Motionen angenommen — **26.3221** (Impulsprogramm digitale Souveränität, 9.6.2026) und **24.3209** (souveräne digitale Infrastruktur, 19.3.2026); beide liegen nun beim Nationalrat. Sie stärken den *Aufbau* — Zweck, Governance und internationale Vernetzung bleiben offen.
 - **Bausteine vorhanden:** **Apertus** (vollständig offen; EPFL, ETH Zürich, CSCS) als Schweizer Modell im Netzwerk; die Schweiz ist bereits **Partnerland von Current AI**; der **Swiss AI Action Plan** (digitalswitzerland/BAKOM, 23 Actions) liefert die Umsetzungsagenda.
 - **Zeitfenster:** der **KI-Gipfel Genf 2027** als internationale Bühne. Anfang Juli 2026 tagten in Genf bereits der erste **UN Global Dialogue on AI Governance** (6.–7.7.) und die **ITU-AI-for-Good-Woche** (7.–10.7.) — das multilaterale Momentum ist real, ein Jahr vor dem Gipfel.
 - **Zeitdruck:** Bis zum Gipfel (**Juni 2027**) soll etwas **Greifbares** vorliegen — Prozess, Blueprint und Charta-Entwurf, den andere weitertragen können; das Zeitfenster ist eng.
