@@ -8,7 +8,7 @@ Full record and sources: [Verified Findings → Live political window](../Eviden
 
 **Motion 24.3209** (Charles Juillard, Die Mitte / Jura), "Für eine souveräne digitale Infrastruktur in der Schweiz im Zeitalter der künstlichen Intelligenz," asks the Federal Council to present a **law revision** so the Confederation, private sector, cantons, and research institutes can drive, co-finance, and supervise sovereign digital infrastructure, including cloud services and an independent exchange platform.
 
-Status: Federal Council recommended rejection on 22 May 2024; Council of States adopted 31:11 in March 2026; now before the National Council committee (June 2026 status).
+Status: Federal Council recommended rejection on 22 May 2024; Council of States adopted 31:11 on 19 March 2026; now before the National Council committee (re-verified 2026-07-28 at Curia Vista: Stand «In Kommission des Nationalrats»).
 
 **Role here:** substantive peg for the [Postulate](../Outreach/postulat.en.md). Its eventual law revision or consultation would be the window for independent-governance criteria. The complement to raise carefully: supervision cannot only sit inside the executive if the goal is trustworthy public oversight.
 
@@ -16,9 +16,9 @@ Status: Federal Council recommended rejection on 22 May 2024; Council of States 
 
 **Motion 26.3221** (Heidi Z'graggen, Die Mitte / Uri), "Impulsprogramm zur Stärkung der digitalen Souveränität der Schweiz," calls for time-limited seed funding for pilot projects in **digital infrastructure, open source, cybersecurity, and AI**.
 
-Status: Federal Council recommended rejection; Council of States adopted 30:7 with 1 abstention on 10 June 2026; now before the National Council. It binds the Federal Council only if both chambers adopt it.
+Status: Federal Council recommended rejection (27 May 2026); Council of States adopted 30:7 with 1 abstention on 9 June 2026 (the Curia Vista chronology logs the vote on 09.06.2026; media reports ran 10 June); now assigned to the responsible National Council committee (re-verified 2026-07-28: Stand «Zugewiesen an die behandelnde Kommission»). It binds the Federal Council only if both chambers adopt it.
 
-**Role here:** possible funding/pilot vehicle for a public-interest governance + evaluation pilot, especially in the AI/open-source field. The critical unknowns are lead office, budget, duration, and pilot-selection mechanism.
+**Role here:** possible funding/pilot vehicle for a public-interest governance + evaluation pilot, especially in the AI/open-source field. The critical unknowns are lead office, budget, duration, and pilot-selection mechanism — and the funding climate: the Federal Council's 27 May 2026 response stated that the EMBAG start-up financing (Anschubfinanzierung) for digital projects is being dropped under the Entlastungspaket 2027.
 
 ## Where this work could plug in
 
@@ -38,6 +38,7 @@ Status: Federal Council recommended rejection; Council of States adopted 30:7 wi
 ## What to watch
 
 - National Council committee handling and vote dates.
+- Postulate 22.4411: the fulfilling report is delivered and a write-off proposal is pending («Abschreibungsantrag liegt vor», as of 2026-07-28).
 - 24.3209 law-revision shape and any consultation.
 - 26.3221 implementation if adopted: lead office, budget, duration, pilot-selection route.
 - Whether the AI/open-source field names Apertus, Swiss AI Initiative, or SNAI.

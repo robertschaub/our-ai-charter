@@ -38,7 +38,7 @@ flowchart TB
   ALEK["Alek Tarkowski · Open Future<br/>EU-policy arm"] -.-> INTL
 ```
 
-Detail on the role's remit and framing cautions is in the [Apertus note](apertus-fit-and-engagement-plan.md) (§5). Dashed = bridges into the coalition. *State 2026-07-27:* the publicai.ch team page lists Sotnikova, Wolfenstädter, Höhener, Tan, Lavrovsky, Kanduri; Wildemann (founding co-host) no longer appears — no reason stated publicly. Jackson's own site now leads with Head of Product at OpenFn; current Public AI pages put product & strategy with Tan.
+Detail on the role's remit and framing cautions is in the [Apertus note](apertus-fit-and-engagement-plan.md) (§5). Dashed = bridges into the coalition. *State 2026-07-27, re-verified 2026-07-28 (the standalone team page now redirects into About):* the publicai.ch listing shows Sotnikova, Wolfenstädter, Höhener, Tan, Lavrovsky, Kanduri; Wildemann (founding co-host) no longer appears — no reason stated publicly. Jackson's own site now leads with Head of Product at OpenFn; current Public AI pages put product & strategy with Tan.
 
 ## 2. Apertus & the Swiss AI ecosystem (CH)
 
