@@ -110,4 +110,4 @@ Core message: public AI needs public evidence, accountability, and correction me
 
 - Summaries are distilled from the linked initiatives' own descriptions and from the earlier working-draft source review.
 - This document intentionally prioritizes strategic usefulness over equal-length treatment of every link.
-- **Apertus link note:** the official site is `apertvs.ai` (Swiss AI Initiative; `swiss-ai.org/apertus` redirects there).
+- **Apertus link note:** the project site is now `apertus-ai.org` — the earlier Latin-V domain `apertvs.ai` 308-redirects there (verified 2026-07-27). `apertus.ai` (plain U, no hyphen) remains an **unaffiliated reseller** — never "correct" links to it.

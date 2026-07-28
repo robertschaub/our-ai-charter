@@ -24,7 +24,7 @@ The data commons is not a promise that all useful training data can be made open
 
 Underneath all four sits **competence**: infrastructure can be procured, but the ability to understand, govern, and continuously improve these systems has to be built — through sustained investment in education, research, and managerial capability — and kept broadly held across the network's institutions rather than concentrated with any provider. In the long run, this human capital is as decisive for sovereignty as the technology itself.
 
-Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement and *PublicAI / SPIU* a specific inference utility this initiative draws on; this proposed network is the co-stewarded effort described here, with **AI Assurance & Certification** as its trust-and-evidence building block.
+Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement; the *Public AI Inference Utility* (publicai.co) is a specific nonprofit inference service this initiative draws on, with *publicai.ch / SPIU* its Swiss cooperative-in-formation front; this proposed network is the co-stewarded effort described here, with **AI Assurance & Certification** as its trust-and-evidence building block.
 
 ## How it is used
 

@@ -47,7 +47,7 @@ No open call, RFP, application form, or stated proposal format is public. The Ju
 
 ## 4. Apertus / Swiss AI Initiative (SNAI)
 
-No public governance document, RFC, CONTRIBUTING, or external-governance-layer process across the website, GitHub (`github.com/swiss-ai`) or Hugging Face (`huggingface.co/swiss-ai`). Apache-2.0 (no acceptable-use hook to attach an external layer to). De-facto channels: a code/site-scoped **GitHub issue**, or the **`llm-requests@swiss-ai.org`** inbox (from the model cards). **Higher-leverage: route an Apertus-oriented governance/evaluation proposal through the summit process (channel 2),** where open auditable infrastructure + governance is explicitly solicited. Sources: [apertvs.ai](https://apertvs.ai/) · [swiss-ai GitHub](https://github.com/swiss-ai) · [swiss-ai HF](https://huggingface.co/swiss-ai)
+No public governance document, RFC, CONTRIBUTING, or external-governance-layer process across the website, GitHub (`github.com/swiss-ai`) or Hugging Face (`huggingface.co/swiss-ai`). Apache-2.0 (no acceptable-use hook to attach an external layer to). De-facto channels: a code/site-scoped **GitHub issue**, or the **`llm-requests@swiss-ai.org`** inbox (from the model cards). **Higher-leverage: route an Apertus-oriented governance/evaluation proposal through the summit process (channel 2),** where open auditable infrastructure + governance is explicitly solicited. Sources: [apertus-ai.org](https://www.apertus-ai.org/) · [swiss-ai GitHub](https://github.com/swiss-ai) · [swiss-ai HF](https://huggingface.co/swiss-ai)
 
 ## How this feeds the curated set
 
@@ -65,4 +65,4 @@ No public governance document, RFC, CONTRIBUTING, or external-governance-layer p
 - [admin.ch — Switzerland to host 2027 AI summit](https://www.admin.ch/en/newnsb/qewY8BHWPhcMQEYV12fkr)
 - [Diplo — Ten ways Switzerland can contribute](https://www.diplomacy.edu/blog/ai-summit-in-geneva-ten-ways-switzerland-can-contribute-to-ai-and-humanity/)
 - [Current AI](https://www.currentai.org/) · [MacArthur — public-interest AI partnership](https://www.macfound.org/press/grantee-news/new-partnership-to-promote-public-interest-ai)
-- [apertvs.ai](https://apertvs.ai/) · [swiss-ai GitHub](https://github.com/swiss-ai) · [swiss-ai Hugging Face](https://huggingface.co/swiss-ai)
+- [apertus-ai.org](https://www.apertus-ai.org/) · [swiss-ai GitHub](https://github.com/swiss-ai) · [swiss-ai Hugging Face](https://huggingface.co/swiss-ai)

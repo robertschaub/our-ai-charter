@@ -2,14 +2,14 @@
 
 # Public AI — stakeholder & connection map (Swiss ecosystem)
 
-*Visual map for the **Public AI coalition (international + Swiss)** and the **Apertus / Swiss-AI ecosystem** — including the open [Public AI Fellow (Switzerland)](https://metagov.org/join/jobs/public-ai-fellow-switzerland) role — and how the key people connect. The stable actor directory is [actors-and-landscape.md](../Evidence/actors-and-landscape.md); this note keeps the diagrams and relationship guardrails. Diagrams render on the site.*
+*Visual map for the **Public AI coalition (international + Swiss)** and the **Apertus / Swiss-AI ecosystem** — including the [Public AI Fellow (Switzerland)](https://metagov.org/join/jobs/public-ai-fellow-switzerland) role (posting still listed 2026-07-27; no public appointee announcement) — and how the key people connect. The stable actor directory is [actors-and-landscape.md](../Evidence/actors-and-landscape.md); this note keeps the diagrams and relationship guardrails. Diagrams render on the site.*
 
 ## TL;DR
 
-- **Joshua Tan is the coalition's connective node**, and the contact for the open Fellow (Switzerland) role (`josh@publicai.co`) — a role **funded by Current AI, offered with Metagov**. That role is **operational** — grow Public AI Switzerland / SPIU, advance Apertus deployment, build Swiss relationships, prep the 2027 summit — so **independent assurance is a Charter differentiator, distinct from that remit**.
+- **Joshua Tan is the coalition's connective node**, and the contact for the Fellow (Switzerland) role (`josh@publicai.co`; posting still listed 2026-07-27, no public appointee announcement) — a role **funded by Current AI, offered with Metagov**. That role is **operational** — grow Public AI Switzerland / SPIU, advance Apertus deployment, build Swiss relationships, prep the 2027 summit — so **independent assurance is a Charter differentiator, distinct from that remit**.
 - **Alek Tarkowski is a peer of Tan's, not a gatekeeper.** They co-ran the Public AI Seminar's **Season 3 only**; Open Future is the coalition's **European-policy arm**. A credible bridge into Tan's orbit, but decisions route through Tan.
 - **Samuel Klein** is the co-founder whose work (verification / provenance) sits **closest to the Charter's assurance building block**.
-- **Swiss side:** the Public AI chapter is **publicai.ch / SPIU** (Oleg Lavrovsky, Sabine Wildemann); **Apertus** sits in the **Swiss AI Initiative** (ETH + EPFL AI Centers, CSCS) with leads **Bosselut / Schlag / Jaggi**.
+- **Swiss side:** the Public AI chapter is **publicai.ch / SPIU**, a cooperative in formation (statutory founding assembly **11 Aug 2026**; team listed 2026-07-27: Sotnikova, Wolfenstädter, Höhener, Tan, Lavrovsky, Kanduri — **Wildemann, the founding co-host, is no longer listed**); **Apertus** sits in the **Swiss AI Initiative** (ETH + EPFL AI Centers, CSCS) with leads **Bosselut / Schlag / Jaggi**, and **Lavrovsky is now also EPFL AI Center community manager** — a direct chapter↔Apertus-cluster tie.
 - **Geneva 2027 prep already overlaps this map (§6):** the Apr 2026 ICT4Peace × GenAI Zürich roundtable feeding the government's tripartite platform included publicai.ch's **Wildemann** and the Apertus cluster (**Frey/ICAIN, Jaggi, El-Assady**) — the Charter's target venue and its open-model allies in one room.
 
 ## 1. Public AI — international + Swiss chapter (map)
@@ -21,15 +21,15 @@ flowchart TB
     direction LR
     TAN["Joshua Tan<br/>lead · Fellow (CH) contact"]
     NV["Nick Vincent<br/>co-research director"]
-    BJ["Brandon Jackson<br/>product"]
+    BJ["Brandon Jackson<br/>whitepaper lead author<br/>own site now leads with OpenFn"]
     KLEIN["Samuel Klein<br/>co-founder"]
     CAV["B Cavello<br/>Aspen · Metagov board"]
   end
   UTIL["Public AI Inference Utility<br/>publicai.co (nonprofit)"]
-  subgraph CHX["Public AI Switzerland — publicai.ch / SPIU"]
+  subgraph CHX["Public AI Switzerland — publicai.ch / SPIU<br/>cooperative in formation · founding 11 Aug 2026"]
     direction LR
-    LAV["Oleg Lavrovsky<br/>Datalets · dues trustee"]
-    WIL["Sabine Wildemann<br/>co-founder · Swiss AI Weeks"]
+    LAV["Oleg Lavrovsky<br/>Datalets · dues trustee<br/>EPFL AI Center community mgr"]
+    WIL["Sabine Wildemann<br/>founding co-host · Swiss AI Weeks<br/>off the team page since ≤2026-07-27"]
   end
   MG --> INTL
   TAN --> UTIL
@@ -38,7 +38,7 @@ flowchart TB
   ALEK["Alek Tarkowski · Open Future<br/>EU-policy arm"] -.-> INTL
 ```
 
-Detail on the role's remit and framing cautions is in the [Apertus note](apertus-fit-and-engagement-plan.md) (§5). Dashed = bridges into the coalition.
+Detail on the role's remit and framing cautions is in the [Apertus note](apertus-fit-and-engagement-plan.md) (§5). Dashed = bridges into the coalition. *State 2026-07-27:* the publicai.ch team page lists Sotnikova, Wolfenstädter, Höhener, Tan, Lavrovsky, Kanduri; Wildemann (founding co-host) no longer appears — no reason stated publicly. Jackson's own site now leads with Head of Product at OpenFn; current Public AI pages put product & strategy with Tan.
 
 ## 2. Apertus & the Swiss AI ecosystem (CH)
 
@@ -88,6 +88,7 @@ flowchart LR
   LAV --- SWISS
   WIL --- SWISS
   SWISS -.->|CH chapter roots| TAN
+  LAV -.->|"EPFL AI Center community mgr (2026)"| APE
   TAN -.->|utility serves Apertus| APE
   SAL -.->|EPFL AI Center bridge| APE
 ```
@@ -96,7 +97,7 @@ flowchart LR
 - **Alek Tarkowski / Open Future — the EU-policy arm.** Co-organised the seminar **Season 3 only** (Apr–Jun 2025) with Tan; authored Open Future's [White Paper on Public AI](https://openfuture.eu/publication/white-paper-on-public-ai/) and the [Jan 2026 *European Public AI* brief](https://openfuture.eu/publication/european-public-ai-policy-brief/). **Not** a co-author of the founding paper — a well-placed peer, not Tan's principal.
 - **Samuel Klein — co-founder, verification thesis.** Public AI Network co-founder; co-author of the *Infrastructure for the Common Good* whitepaper; seminar **Season 1** co-organiser; Berkman Klein affiliate, ex–Wikimedia Foundation trustee, works on Underlay / Omnipedia. Full profile in the [landscape note](metagov-public-ai-landscape.md).
 - **B Cavello / Aspen Digital** — seminar Seasons 2–3; Metagov board — the convening backbone.
-- **Cross-cluster bridges** — **Tan** spans Metagov · Public AI · Current AI; the **Public AI utility serves Apertus** and **Salathé** bridges EPFL ↔ Apertus (§2); **Lavrovsky + Wildemann** tie the CH chapter into Swiss civic-tech (Opendata.ch, Swiss AI Weeks); **Krasodomski** is a Public AI fellow; **Tarkowski** also bridges to Wikimedia.
+- **Cross-cluster bridges** — **Tan** spans Metagov · Public AI · Current AI; the **Public AI utility serves Apertus** and **Salathé** bridges EPFL ↔ Apertus (§2); **Lavrovsky + Wildemann** tie the CH chapter into Swiss civic-tech (Opendata.ch, Swiss AI Weeks), and **Lavrovsky is now also EPFL AI Center community manager** supporting the Swiss AI Initiative ([EPFL page](https://people.epfl.ch/oleg.lavrovsky?lang=en), noted 2026-07-27) — the map's first *institutional* chapter↔Apertus-cluster tie; **Krasodomski** is a Public AI fellow; **Tarkowski** also bridges to Wikimedia.
 
 **Reading:** same movement, different lanes — Tan the intellectual/organisational core, Tarkowski the Brussels policy flank, Klein the verification/provenance founder. They intersect through the coalition and, for Tan × Tarkowski, through one seminar season. Treat these as professional peer ties, not proven close partnerships.
 
@@ -182,3 +183,5 @@ Built 2026-07-03 from primary sources: [Public AI Seminar](https://publicai.netw
 **Update 2026-07-06:** the open Fellow (Switzerland) role is **funded by Current AI** (offered with Metagov) — confirmed from the [posting](https://metagov.org/join/jobs/public-ai-fellow-switzerland).
 
 **Update 2026-07-06 (b):** added §6 — the Geneva 2027 prep cluster — from the [ICT4Peace × GenAI Zürich report](https://ict4peace.org/wp-content/uploads/2026/04/Geneva-2027-AI-Summit-Roadmap-Ge-nAI-Zurich-Checkpoint-Report.pdf) appendices (roundtable + form respondents). New individuals were added to the [actor directory](../Evidence/actors-and-landscape.md); relationship detail is kept here.
+
+**Update 2026-07-27:** people-state refresh from the [what-they-build deep-dive](public-ai-what-they-build.md): the cooperative's statutory founding assembly is set for **11 Aug 2026** (statutes published; no register entry yet); the publicai.ch team page changed (Wildemann no longer listed, no reason stated; new names Sotnikova, Wolfenstädter, Höhener, Kanduri); **Lavrovsky is also EPFL AI Center community manager** (new chapter↔Apertus institutional tie, reflected in §1/§3); Jackson's own site leads with OpenFn; the Fellow (Switzerland) posting was still listed with no public appointee announcement — earlier "open role" phrasings in this note now carry that date.
