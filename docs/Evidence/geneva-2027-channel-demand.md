@@ -2,7 +2,7 @@
 
 *Compiled from public web sources via research agents (June 2026); re-verify before citing. Companion to the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
 
-Of the channels a Swiss public-interest contributor would feed into, **two accept a submittable written artifact** (§§1–2); a third — the official ***Road to Geneva* pre-events programme** (§2b) — accepts a **hosted event** (registration ~Aug 2026).
+Of the channels a Swiss public-interest contributor would feed into, **two accept a submittable written artifact** (§§1–2); a third — the official ***Road to Geneva* pre-events programme** (§2b) — accepts a **hosted event** (registration launches August 2026; no stated deadline).
 
 ## 1. Swissnex SF × Stiftung Mercator — "Geneva Loading…" fellowship
 
@@ -10,7 +10,7 @@ The one channel with an explicit, stated artifact expectation.
 
 - **Artifact wanted (verbatim):** "at least one public-facing output connected to the AI Summit or the challenges of global AI governance: a policy brief, a white paper, an article or another widely published media format contributing to the public debate."
 - **Format/length:** four formats named; **no length or structure mandated** — the test is that it is *public-facing* and *contributes to the debate*. Selection criteria include **"publication feasibility,"** so a concrete publication plan strengthens a proposal.
-- **Cadence (time-boxed cohort):** applications **12 Jul 2026** · notification mid-Aug · prep session Sept 2026 (CH) · SV immersion **16–20 Nov 2026** · summit side event Q2 2027.
+- **Cadence (time-boxed cohort):** applications closed **12 Jul 2026** · notification mid-Aug · prep session Sept 2026 (CH) · SV immersion **16–20 Nov 2026** · summit side event Q2 2027.
 - **FAQ / prior-cohort output examples:** not public.
 - Source: [Swissnex — "Geneva Loading…"](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) · [Swissnex programs](https://swissnex.org/event/type/program/)
 
@@ -31,15 +31,15 @@ The clearest "what do they want" signal. The April 2026 written call (run by Gen
 - **Cadence:** first round **closed** (report submitted 13 Apr 2026). **Next input window not yet publicly dated** — the 50 "keep contributing" responses imply workstreams will form; monitor dig.watch / ICT4Peace.
 - Sources: [dig.watch process](https://dig.watch/processes/2027-geneva-ai-summit) · [dig.watch — prep report available](https://dig.watch/updates/report-on-geneva-2027-ai-summit-preparations-available) · [ICT4Peace/GenAI report PDF](https://ict4peace.org/wp-content/uploads/2026/04/Geneva-2027-AI-Summit-Roadmap-Ge-nAI-Zurich-Checkpoint-Report.pdf) · [ICT4Peace process page](https://ict4peace.org/activities/norms-of-responsible-state-behavior/geneva-2027-ai-summit/) · [admin.ch announcement](https://www.admin.ch/en/newnsb/qewY8BHWPhcMQEYV12fkr)
 
-## 2b. *Road to Geneva* — independent pre-events (open, no gatekeeper)
+## 2b. *Road to Geneva* — independent pre-events (open, low-gatekeeper)
 
-Confirmed from the primary source ([genevaaisummit.swiss](https://www.genevaaisummit.swiss/), verified 2026-07-17): the official summit runs a **Road to Geneva** programme inviting organisations and institutions worldwide to host **independent pre-events** ahead of the 21–22 June 2027 summit.
+Confirmed from the primary source ([genevaaisummit.swiss](https://www.genevaaisummit.swiss/), verified 2026-07-17; re-verified 2026-07-28 with [OFCOM's 14 Jul 2026 announcement](https://www.bakom.admin.ch/en/geneva-ai-summit-2027-international-summit-on-artificial-intelligence-in-geneva)): the official summit runs a **Road to Geneva** programme inviting organisations and institutions worldwide to host **independent pre-events** ahead of the 21–22 June 2027 summit.
 
 - **What it accepts:** a **hosted event**, not a written submission — e.g. a governance/evidence roundtable, a workshop, or a tool demo. Pre-events are explicitly *independent* (not official summit outcomes).
-- **How to participate:** by **registration** — the official site indicates a registration form and further details around **August 2026**; approved organisers may display the official *Road to Geneva* logo.
+- **How to participate:** by **registration** — OFCOM pins the official launch to **August 2026** via the summit website; a registration form with **no stated deadline** (approval step; approved organisers may display the official *Road to Geneva* logo; no funding or organisational support).
 - **Support:** **none** — no funding or organisational support is provided.
 - **Why it matters:** the **lowest-gatekeeper channel here** — participation is by registration, not invitation — and a natural home for a governance/evidence contribution, optionally co-hosted with a Swiss partner (a university, ICAIN, Wikimedia CH).
-- *Open item:* the registration form, deadlines, and eligibility detail are pending (site says ~August 2026); re-check then.
+- *Open item:* the registration form goes live with the August 2026 launch (no deadline stated); a **"Call for Issues"** follows in autumn 2026 and side-event proposals in early 2027 — re-check at launch.
 
 ## 3. Current AI
 
@@ -51,7 +51,7 @@ No public governance document, RFC, CONTRIBUTING, or external-governance-layer p
 
 ## How this feeds the curated set
 
-- **Don't conflate the timelines:** the "consultation draft due end-2026" milestone belongs to the *separate* Council of Europe AI Convention implementing-law track (FDJP/DETEC/FDFA), not the Geneva summit — whose next *written-input* window is not yet dated (the open *Road to Geneva* **pre-event** registration, by contrast, opens ~Aug 2026 — §2b).
+- **Don't conflate the timelines:** the "consultation draft due end-2026" milestone belongs to the *separate* Council of Europe AI Convention implementing-law track (FDJP/DETEC/FDFA), not the Geneva summit — whose next *written-input* window is not yet dated (the open *Road to Geneva* **pre-event** registration, by contrast, launches August 2026 — §2b).
 - The five guiding questions and the "concrete tools" demand (above) are the precise spec the Geneva tool brief should answer.
 
 ## Sources
