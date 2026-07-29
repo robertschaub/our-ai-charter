@@ -1,9 +1,9 @@
-> **Status: DRAFT (v0.14)**
+> **Status: DRAFT (v0.15)**
 
 # Charter Commitments
 **A public charter for trustworthy AI — built together, answerable to people.**
 
-_Draft v0.14 (2026-06-19). Open for comment._
+_Draft v0.15 (2026-07-29). Open for comment._
 
 ---
 
@@ -43,6 +43,12 @@ _These are the assurance roles for committing organisations. For the wider netwo
 **"Legal-scope map"** means the provider's declaration of the markets, jurisdictions, use-cases, role in the value chain, applicable legal regimes, and required legal artefacts for the assessed release. At minimum, it states the assessed release and version; markets and jurisdictions; provider, deployer, distributor, importer, or operator role where relevant; intended and prohibited uses; claimed risk category where relevant; domain regimes considered; required artefacts or routes such as technical documentation, impact assessment, data-protection assessment, GPAI documentation, AI-involvement notice, generated-content marking or labelling, CE or notified-body route, or sector approval where applicable; responsible owner; date; unresolved legal assumptions; and events that require narrowing or withdrawal. The assessor checks presence, scope consistency, and contradiction by authoritative evidence; it does not give a legal opinion.
 
 **"Responsibility map"** means the release assessment names, for each duty and module, the responsible party, evidence source, inherited control, contractual dependency, unresolved gap, and escalation route. A claim cannot rely on an outsourced or upstream control unless the evaluator or future assessor can review adequate evidence for it.
+
+**"Consequential action"** means an external action reasonably capable of creating a legal or financial obligation; materially affecting a person's rights, safety, opportunities, or access to essential services; communicating or disclosing protected information on someone's behalf; changing a physical system; or causing another material effect that the affected person cannot readily reverse.
+
+**"Action mandate"** means a machine-verifiable expression of authority that identifies the principal, permitted action, target or recipient, purpose, limits, duration, conditions, and current revocation state.
+
+**"Authority chain"** means the reviewable path from the principal through every acting or delegated agent, tool, and executing service. It records the scope and current state of authority at each step, whether subdelegation is permitted, and which entity is accountable for commitment and effect.
 
 **What people need to be able to demand**
 
@@ -88,6 +94,19 @@ Evidence should be proportionate to risk, scale, and organisational form. A smal
 6. **Fairness, inclusion, human oversight, and remedy.** The system identifies affected groups, monitors disparate failure/refusal/error patterns where relevant, tests performance across relevant groups, languages, regions, contexts, and accessibility needs, publishes limitations, and provides escalation or remedy routes. Consequential uses require notice, response times, meaningful human review or override where risk warrants it, and privacy-preserving outcome records.
 7. **Transparency, explanation, provenance, and claim integrity.** Users are told when AI is materially involved; generated, materially altered, or synthetic content is marked or labelled where relevant; public limits and uncertainty are understandable; factual and consequential claims are traceable to sources or documented evidence; training, retrieval, or data-source provenance is retained where relevant; unsupported claims are corrected; and reports clearly mark what was assessed, not assessed, documented, implementation-checked, or effectiveness-tested.
 8. **Lifecycle monitoring, change control, incidents, and withdrawal.** The system maintains material-change logs, reassessments, drift or currentness checks, third-party incident handling, correction records, security/privacy/misuse/abuse incident records, disparate-performance records where relevant, rollback or withdrawal records, and documented exit paths. Silent material changes, repeated failures, hidden failures, false evidence, or unjustified redactions trigger withdrawal of the pilot listing or future mark claim.
+
+**Consequential-action baseline**
+
+When an assessed release can propose, prepare, or perform a consequential action, duties 2 and 4–8 apply to each action path as well as to the release as a whole. Evidence must show:
+
+1. **Distinguishable stages.** Observation, inference, recommendation, preparation, authorization, commitment, and external effect are technically distinguishable and governable.
+2. **A structured proposal.** Before commitment, the system records the declared objective, proposed action, target or recipient, exact parameters, material inputs and derived claims, data to be disclosed, cost or obligation, material consequences, reversibility, and any commercial influence relevant to the recommendation.
+3. **Provable authority.** The action mandate is specific, purpose-bound, no broader than necessary, time-limited, and revocable. The authority chain includes every agent or service that receives delegated power, the permitted scope of any subdelegation, and the current state and ordering of overlapping or changed mandates.
+4. **Independent admissibility and complete mediation.** Every consequential action path is checked against the current mandate, applicable policy and version, relevant constraints, and system state by a component that does not rely on the acting model to approve its own request. The result is allow, deny, or escalate for fresh authorization; ambiguity or missing authority fails closed.
+5. **Verification at commitment.** The executing service verifies the exact current authority and approved parameters before the effect becomes binding. A broader, substituted, expired, revoked, changed, or replayed request is blocked.
+6. **An action-and-effect record.** A privacy-preserving, tamper-evident record joins the proposal, authority chain, policy and admissibility decision, commitment status, external effect, and human-review event. It provides an appropriate receipt or extract and routes for cancellation, reversal or compensation where possible, challenge, and remedy.
+
+A deterministic authorization gate can prove that declared rules were applied; it cannot by itself establish that those rules are lawful, fair, or legitimate. Human accountability, independent review, affected-person access, and remedy remain required. The [agentic-control working note](../../wip/ambient-agentic-ai-control.md#7-a-compliant-technical-control-plane) develops one implementation path, while the [split-custody proposal](../../wip/split-custody-per-action-records.md) addresses record integrity, access, and survivability.
 
 **Public-interest module candidates**
 
@@ -141,6 +160,7 @@ _Signed,_
 - **Legal floor and legal-scope map:** define the mandatory declaration fields for jurisdictions, roles, risk categories, domain regimes, legal artefacts, and withdrawal triggers without implying that the Charter certifies legal compliance.
 - **Coercive-order handling:** define how systems document, disclose, challenge, and recover from government, platform, provider, or other external orders to restrict, manipulate, recall, or shut down a system, including what can be public and what must be held for confidential oversight.
 - **Security assurance model:** threat model; audit scope (weights/APIs/data/agents/infra/supply chain); audit frequency + continuous monitoring; incident-reporting timelines; transparency logs for signatures/provenance; defence against audit-shopping & "provenance theater" (signing ≠ lawful/consensual data).
+- **Consequential-action assessment:** standardise the proposal, mandate, authority-chain, admissibility, commitment, effect, and remedy fields; define tests for subdelegation, revocation propagation, complete mediation, parameter substitution, replay, and point-of-effect verification.
 - **Risk modules:** define which risks are in the common baseline and which require specialised modules: AI-app security, privacy/data governance, harmful misuse, bias/disparate impact, value-chain resilience, and resource/global-access impact.
 - **Release risk assessment format:** define the mandatory provider disclosure fields, currentness checks, material-update triggers, assurance-depth labels, coordinated-disclosure rules, and redaction reason codes, while protecting raw user data, exploit details, secrets, and legitimate confidential evidence.
 - **Go-to-market:** buyers-first (procurement pledges) + a narrow testable v1 (one standard, one governance model, one audit method, one public report index, 3–5 diverse regional pilots; publish results and withdrawals early).

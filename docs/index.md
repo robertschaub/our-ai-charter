@@ -65,7 +65,7 @@ Whether you use, buy, study, regulate, or are affected by an AI system, you shou
 6. **Who can inspect it?** Public transparency, confidential audit access, lawful oversight, and protected research access.
 7. **Can claims and failures be checked?** Material claims, incidents, disparate failures, changes, and corrections must leave evidence.
 
-The [Charter Commitments](Assurance/Framework/charter-commitments.md) turn those questions into five public obligations and eight operational duties. The first evaluation module tests one narrow but important slice: whether a factual AI system [shows its work](Assurance/Protocol/grounding-faithfulness-and-contestability.md).
+The [Charter Commitments](Assurance/Framework/charter-commitments.md) turn those questions into five public obligations, eight operational duties, and a per-action baseline joining authority, admissibility, commitment, consequence, and remedy for consequential AI. The first evaluation module tests one narrow but important slice: whether a factual AI system [shows its work](Assurance/Protocol/grounding-faithfulness-and-contestability.md).
 
 ## Where the work stands
 

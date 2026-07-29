@@ -2,7 +2,7 @@
 
 # Split custody for per-action records
 
-*Working notes — 2026-07-18; public discussion updated 2026-07-27 · public-safe · cross-model-reviewed (design refined 2026-07-18). Companions: [Charter Commitments](../Assurance/Framework/charter-commitments.md) (operational duty 6, contestability), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md).*
+*Working notes — 2026-07-18; public discussion updated 2026-07-27 · public-safe · cross-model-reviewed (design refined 2026-07-18). Companions: [Charter Commitments](../Assurance/Framework/charter-commitments.md) (consequential-action baseline), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md).*
 
 ## The question
 
@@ -47,11 +47,14 @@ erDiagram
   AccessEvent }o--|| NeutralLog : "appended to"
 
   Record {
+    string proposed_action
     string basis
     string authority_chain
     string admissibility_decision
     string policy_model_version
+    string commitment_and_effect
     string human_review_event
+    string challenge_and_remedy
   }
   Extract {
     string own_determination_only

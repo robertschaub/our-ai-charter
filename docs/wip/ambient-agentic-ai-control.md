@@ -281,18 +281,19 @@ sequenceDiagram
 
 ### 7.1 The mandate object
 
-A standardized mandate should carry at least:
+The [Charter Commitments](../Assurance/Framework/charter-commitments.md) establish the consequential-action baseline as a cross-cutting obligation; this mandate object is one implementation candidate. A standardized mandate should carry at least:
 
 - principal and authorized agent identity;
+- authority chain from the principal through each delegated agent, tool, and connected service, including whether subdelegation is permitted and its scope at every hop;
 - exact action class and connected service;
 - target, recipient, account, resource, or device;
 - permitted data fields and disclosure destination;
 - amount, frequency, volume, geographic, and time limits where relevant;
 - declared purpose and user objective;
-- issue time, expiry, revocation endpoint, and nonce or replay protection;
+- issue time, expiry, current state, version, ordering or conflict rule, revocation endpoint, and nonce or replay protection;
 - whether substitution of service, product, recipient, or material terms is allowed;
 - action risk and reversibility class;
-- cryptographic binding to the approved parameters.
+- cryptographic binding to the approved parameters and delegation ancestry.
 
 OAuth Rich Authorization Requests show that fine-grained, structured authorization is practical, including transaction-specific details ([RFC 9396](https://datatracker.ietf.org/doc/rfc9396/)). Secure Payment Confirmation similarly demonstrates browser-controlled presentation of transaction details and cryptographic proof of confirmation, although it is a web-payment specification rather than a general agent standard ([W3C candidate specification](https://www.w3.org/TR/secure-payment-confirmation/)). These are precedents to adapt, not proof that the general problem is solved.
 
@@ -301,6 +302,8 @@ OAuth Rich Authorization Requests show that fine-grained, structured authorizati
 Every consequential tool call must pass the gate. There must be no alternate path by which the model can call a broader tool, reuse an old token, change a recipient after approval, or ask a connected service to accept the model's assertion that “the user approved.”
 
 The connected service shares responsibility: it must verify the mandate's signature, scope, expiry, revocation, and exact parameters. This avoids placing the entire control burden on the device provider and stops a compromised agent before commitment.
+
+Where one agent delegates to another, every hop must prove authority no broader than its parent's current mandate. Revocation and narrowing must propagate through the chain before any later commitment.
 
 NIST's 2026 concept paper identifies agent identification, authorization, auditing, non-repudiation, and prompt-injection controls as an emerging standards problem ([NIST NCCoE](https://www.nist.gov/news-events/news/2026/02/new-concept-paper-identity-and-authority-software-agents)). It is a useful workstream, not yet a finished international solution.
 
