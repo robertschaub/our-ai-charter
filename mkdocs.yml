@@ -182,5 +182,6 @@ nav:
       - "Geneva 2027 — assurance questions note": wip/geneva-2027-assurance-questions-note.md
       - "Evaluation proof-of-concept — scope": wip/evaluation-poc-scope.md
       - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
+      - "Ambient agentic AI — control rules": wip/ambient-agentic-ai-control.md
       - "Split custody for per-action records": wip/split-custody-per-action-records.md
   - About: About.md
