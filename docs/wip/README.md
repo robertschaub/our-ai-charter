@@ -25,6 +25,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 ## Assurance & accountability
 
+- **[empathy-as-runtime-constraint.md](empathy-as-runtime-constraint.md)** — proposed article and LinkedIn post: defines empathy as a practice of dialogue, iteration, and transparency that earns trust; makes **test every use of power** its operational rule; and applies affected voice, proportionality, independent challenge, remedy, and firm limits to AI-supported decisions at individual and population scale.
 - **[ambient-agentic-ai-control.md](ambient-agentic-ai-control.md)** — **EU-led international proposal for ambient and agentic devices**: separates confirmed device facts from reporting, maps the AI Act as amended by the 2026 Digital Omnibus on AI plus GDPR/GPSR/CRA coverage, identifies the horizontal control gap, and specifies mandates, model-independent authorization, downstream verification, inspect/stop/reverse rights, conformity tests, enforcement, and an EU→Council of Europe→ISO adoption path.
 - **[split-custody-per-action-records.md](split-custody-per-action-records.md)** — who holds the keys when liability and harm sit on different parties: custody decomposed into content / integrity / access, each allocation grounded in a running precedent (tachograph cards, ICAO Annex 13, AI Act Art. 86, Platform Work Directive, CJEU C-203/22, *Accountable Algorithms*), with an ER model and the open custodian-accreditation question — answers a custody gap left open by *The Wrong Layer* (Stuart-Mueller & Woodward, July 2026).
 
