@@ -101,7 +101,7 @@ The trigger alone is not enough. Human escalation is justified when three condit
 2. the stakes justify interruption; and
 3. the system cannot responsibly resolve the issue inside its existing authority.
 
-This is more concrete than “keep a human in the loop.” It says which decision the human must make, why it matters now, and what the system must do if no valid decision arrives. Silence may select a reversible default. It must never authorize an irreversible action. This preserves human attention for Stop gates that can still change a material outcome instead of spending it on routine, reversible approvals.
+This is more concrete than “keep a human in the loop.” It says which decision the human must make, why it matters now, and what the system must do if no valid decision arrives. Silence may select only a declared reversible default already within existing authority; it cannot grant or extend authority. This preserves human attention for Stop gates that can still change a material outcome instead of spending it on routine, reversible approvals.
 
 ## Autonomy needs bounded authority, not endless prompts
 
@@ -121,8 +121,9 @@ The draft [Charter Commitments](../Assurance/Framework/charter-commitments.md) m
 2. record the exact proposal before commitment;
 3. bind the action to a specific, purpose-limited, time-limited, revocable mandate that is no broader than necessary, with a reviewable authority chain — the path from the person granting authority through every agent and service that acts — and a rule for overlapping or superseded mandates;
 4. have a component independent of the acting model return **allow, deny, or escalate** against the current mandate and policy;
-5. require the service producing the external effect to verify the exact authority and parameters again; and
-6. join the proposal, authority, decision, effect, review, and remedy in a privacy-preserving, tamper-evident record that yields a receipt and routes for cancellation, reversal, compensation, challenge, and remedy.
+5. route each escalation under a declared human-intervention contract that names the event and rule, exact decision, eligible role and substitute, evidence and options, response bound and safe default, permitted dispositions, and record and monitoring consequences;
+6. require the service producing the external effect to verify the exact authority and parameters again; and
+7. join the proposal, authority, decision, effect, review, and remedy in a privacy-preserving, tamper-evident record that yields a receipt and routes for cancellation, reversal, compensation, challenge, and remedy.
 
 The acting model must not approve its own request. Every consequential path must pass the gate, and each delegated agent must receive no more authority than its parent currently holds. Ambiguous, expired, revoked, broadened, substituted, or replayed authority fails closed: the action does not proceed.
 
@@ -146,7 +147,7 @@ At **Check**, the assistant links findings to the application and criteria. A mi
 
 At **Decide**, before an award, rejection, notification, or payment becomes effective, the commit gate binds the exact applicant, programme rule, amount, evidence, disclosed data, decision-maker, and current policy version. A properly authorized official reviews the consequential judgment, but review quality is not established by a click. Workload, time-on-task distributions, override and divergence rates, and sampled reasoning quality are monitored together, with the sampling done from outside the deciding unit. A reviewer who never disagrees is a finding, not a reassurance. The executing service verifies the mandate rather than trusting the model’s claim that approval occurred.
 
-At **Review**, the applicant receives, as of right, a scoped extract of their own determination: the decision, its basis, the policy version, the authority chain, the human-review event, and the challenge route — plus a receipt showing that the full record was lodged. The agency preserves the decision basis, authority, review event, and outcome; monitors repeated errors and uneven outcomes; and corrects, reopens, or withdraws reliance when the evidence no longer holds.
+At **Review**, the applicant receives, as of right, a scoped extract of their own determination: the decision, its basis, the policy version, the authority chain, the human-intervention event, and the challenge route — plus a receipt showing that the full record was lodged. The agency preserves the decision basis, authority, intervention event, and outcome; monitors repeated errors and uneven outcomes; and corrects, reopens, or withdraws reliance when the evidence no longer holds.
 
 The point is not to automate public judgment. It is to prevent automation from quietly crossing the line between assisting a judgment and exercising power.
 
@@ -154,7 +155,7 @@ The point is not to automate public judgment. It is to prevent automation from q
 
 Runtime governance fails if it produces only a green light.
 
-The decision record should be sufficient to reconstruct the proposal, material evidence and uncertainty, authority chain, policy and system version, admissibility decision, commitment, external effect, human-review event, and route to challenge or remedy. It should also say what was deliberately not captured and why.
+The decision record should be sufficient to reconstruct the proposal, material evidence and uncertainty, authority chain, policy and system version, admissibility decision, commitment, external effect, human-intervention event, and route to challenge or remedy. It should also say what was deliberately not captured and why.
 
 But accountability must not become ambient surveillance. The record’s subject is the consequential action and its authority, not the whole conversation. Access should be role-scoped, sensitive content protected, and every deeper access itself logged. The Charter’s [split-custody proposal](split-custody-per-action-records.md) separates content, integrity, survivability, and access so neither the operator nor an evidence custodian quietly controls the whole record.
 

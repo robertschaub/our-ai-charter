@@ -76,11 +76,26 @@ Calibration runs on two axes. The **use case and stakes** set where Stop kicks i
 - Repeated failure — **Flag**.
 - Earlier error discovered — **Flag → Stop**; correct and surface.
 
+## Human intervention contract
+
+A **Stop** is not an alert to whichever person happens to be available. Every material Stop — including one produced by a machine **escalate** response — needs a declared intervention contract:
+
+| Contract field | Must answer |
+|---|---|
+| **Trigger and state** | Which event and rule caused the intervention; at which gate; and what are the current action, system, mandate, and policy states where applicable? |
+| **Decision and route** | What exact decision is required; which authorized role may make it; what competence and independence are required; and who may substitute — or which safe state persists if no substitute is permitted? |
+| **Decision basis** | Which material evidence, uncertainty, consequences, reversibility, alternatives, and conflicts must that person see? |
+| **Response bound and default** | By when must the decision arrive; what safe state applies while waiting; and what happens on timeout or no response? If the decision would grant or extend authority, no response fails closed; only a declared reversible fallback already within existing authority may proceed. |
+| **Permitted dispositions** | May the decision-maker allow within scope, deny, narrow or modify, seek outside review, cancel or reverse, or route to remedy? |
+| **Record and feedback** | Which authorization, review, override, or remedy decision, reasons, timing, action, and effect are recorded; what can be challenged; which monitoring signal is updated; and can the result constrain, re-authorize, suspend, or withdraw the operating envelope or system? |
+
+Route by authority, not proximity: authorization goes to the principal or a valid delegate; consequential domain judgment to a competent accountable official; conflicted or contested cases to independent review; challenge and remedy to an empowered remedy decider; and aggregate or lifecycle signals to the accountable release owner or regulator. The [five-role institutional model](../../Published/when-vs-who-ai-governance.md) explains why rulemaking, operation, record custody, independent review, and remedy should not collapse into one unchecked actor.
+
 ## Preventing "allow all"
 
 1. **Escalate decisions, not mechanics.** Ask one framed question with options, tradeoff, recommendation, and default.
 2. **Scope every grant.** Permission is for this action and resource, not everything forever.
-3. **Use safe defaults on silence.** Timeout selects the reversible option; silence never authorizes irreversible action.
+3. **Use safe defaults on silence.** Timeout cannot grant or extend authority. It selects only a declared reversible fallback already within existing authority; otherwise the Stop remains.
 4. **Watch escalation rate.** If the system asks too often, re-scope the task or tool.
 
 ## What this is

@@ -279,6 +279,8 @@ sequenceDiagram
     R-->>U: Human-readable result, cancellation, challenge route
 ```
 
+Any fresh confirmation or human review in this sequence should follow the runtime model's [human intervention contract](../Assurance/Concepts/user-workflow-governance.md#human-intervention-contract), so the trigger, authorized role, response bound, safe default, record, and monitoring consequence are declared rather than improvised.
+
 ### 7.1 The mandate object
 
 The [Charter Commitments](../Assurance/Framework/charter-commitments.md) establish the consequential-action baseline as a cross-cutting obligation; this mandate object is one implementation candidate. A standardized mandate should carry at least:

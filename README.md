@@ -63,7 +63,7 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 
 The trust-and-evidence layer: can a deployed AI show its work, answer for its use, and leave evidence others can check?
 
-- **[Charter Commitments](docs/Assurance/Framework/charter-commitments.md)** — *DRAFT v0.16*. Five obligations, eight operational duties, a per-action baseline for consequential AI, module candidates, assurance stack, and open decisions.
+- **[Charter Commitments](docs/Assurance/Framework/charter-commitments.md)** — *DRAFT v0.17*. Five obligations, eight operational duties, a per-action baseline for consequential AI including a human-intervention contract, module candidates, assurance stack, and open decisions.
 - **[Grounding-Faithfulness & Contestability](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT*. First evaluation module; see also the [one-pager](docs/Assurance/Protocol/one-pager.md).
 - **[Certification model](docs/Assurance/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.
 - **[Charter structure and views](docs/Assurance/Concepts/charter-structure-and-views.md)** · **[User-workflow governance](docs/Assurance/Concepts/user-workflow-governance.md)** · **[Assurance cases](docs/Assurance/Concepts/assurance-cases.md)** · **[Capabilities & Assurance Interface](docs/Assurance/Concepts/capabilities-and-assurance-interface.md)** — *DRAFT*. Concept notes that map obligations, duties, runtime, reader-facing lenses, the obligation→duty assurance-case prototypes, and the demand-side "check" surface.
