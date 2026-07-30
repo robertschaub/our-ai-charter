@@ -119,6 +119,7 @@ nav:
   - Home: index.md
   - The Network: network-overview.md
   - Articles:
+      - "Runtime governance — when to interrupt": Published/when-should-runtime-ai-governance-interrupt.md
       - "Our AI Charter — accountable public AI infrastructure": Published/our-ai-charter-public-ai-infrastructure.md
       - "The Swiss Autarky Illusion (EN)": Published/swiss-autarky-illusion.md
       - "Die Schweizer Autarkie-Illusion (DE)": Published/schweizer-autarkie-illusion.md
@@ -182,7 +183,6 @@ nav:
       - "Geneva 2027 — assurance questions note": wip/geneva-2027-assurance-questions-note.md
       - "Evaluation proof-of-concept — scope": wip/evaluation-poc-scope.md
       - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
-      - "Article draft — runtime governance: when": wip/article-runtime-ai-governance-when.md
       - "Ambient agentic AI — control rules": wip/ambient-agentic-ai-control.md
       - "Split custody for per-action records": wip/split-custody-per-action-records.md
   - About: About.md

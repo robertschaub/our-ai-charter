@@ -84,13 +84,15 @@ The custody question this note answers was posed in the comment thread of the pa
 >
 > The institution answering for the system keeps the full record—it needs it to operate and defend itself. But it can't quietly edit or delete it: an encrypted sealed copy sits with an independent trustee, and a privacy-protecting batch fingerprint goes to a public ledger, so tampering or disappearance shows without exposing records.
 >
-> The affected person gets the part about their decision—what was decided, on what data and rules, who authorized or reviewed it, how the human intervened, how to challenge it—plus a receipt proving the record was lodged.
+> The affected person gets the part about their decision—what was decided, on what data and rules, who authorized it, whether a human really reviewed it, how to challenge it—plus a receipt proving the record was lodged.
 >
 > The trustee can't open the sealed copy alone: it takes authorization from a competent regulator, tribunal or court, for a genuine dispute and that purpose only; the same authority decides what to disclose where trade secrets or others' privacy collide. Every access is itself logged—the watchers get watched.
 >
 > None of this is exotic—tachographs, aviation investigations, the AI Act and platform-work rules already run or legislate the pieces.
 >
 > Still open: where no regulator or court has effective jurisdiction, who accredits, audits and can replace the trustee—and what makes its rulings binding?
+
+The Charter now calls the recorded intervention, including the reviewer's authority and response, the **human-intervention event**.
 
 A second reply was [published on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7485329612839837696/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287487568262491254784%2Curn%3Ali%3Aactivity%3A7485329612839837696%29) on 2026-07-27 in Woodward's post on the owner-side limit of tamper evidence. It is mirrored verbatim:
 
