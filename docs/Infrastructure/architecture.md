@@ -26,7 +26,7 @@ This architecture exists to make compute answer to the Charter's five public obl
 | Obligation | How the architecture serves it |
 |---|---|
 | **Purpose-bound** | The policy broker binds every workload to a stated purpose and a prohibited-use baseline; the workload spec carries `purpose`, data class, and risk class. |
-| **Answerable to people** | Every node has a named operator under a signed agreement (civic peering / PKI); the evidence plane plus an appeal/redress path makes someone accountable; consequential agent actions require human approval. |
+| **Answerable to people** | Every node has a named operator under a signed agreement (civic peering / PKI); the evidence plane plus an appeal/redress path makes someone accountable; consequential agent actions require a valid bounded mandate, an independent authorization check, and human escalation where risk warrants it. |
 | **Safe, secure, private, resilient** | Data-class + jurisdiction routing (PII to the trusted core only); confidential computing/attestation; sandboxed agents; multi-site resilience and an emergency inference reserve; weight escrow for continuity. |
 | **Fair in practice** | Transparent, published quota and allocation rules; equitable public tiers; Global-South access on the ICAIN model; no single-actor capture of routing or visibility. |
 | **Open to evidence and correction** | The evidence plane records model/node/evaluation cards, incidents, unresolved-risk notes, and public reports; redundant verification lets others check what ran. |
@@ -172,14 +172,14 @@ The bottom-line claim unpacks into eight decisions the **policy broker** makes a
 4. **With what model** — an openness/trust classification and model/evaluation cards bound to the deployed version → model card + pinned version.
 5. **With what data** — input, training, retrieval, adaptation, and evaluation provenance; consent, lawful basis or rights basis; opt-outs, licence restrictions, and unresolved provenance gaps — **the Charter's own headline** → data-provenance and access-tier record.
 6. **Under which evidence obligations** — signed, privacy-minimised, **risk-tiered** records, including *what was not logged and why* → evidence-plane outputs.
-7. **With which redress path** — a named accountable operator, an incident channel, appeal, and human approval for consequential actions → incident + appeal records.
+7. **With which redress path** — a named accountable operator, an incident channel, appeal, and — for consequential actions — a valid bounded mandate with an independent authorization check and risk-triggered human escalation → incident + appeal records.
 8. **With what protections against capture** — the §4 design rules (distribution, split-layer voting, funding decoupled from control, neutral host, multi-vendor *and* multi-model, autonomous verification).
 
 The load-bearing addition is **assurance and adjudication**: a signed record only proves *someone signed*, so the layer needs attestation, audit/sampling rights, and penalties for false attestation, plus a **named adjudicator outside any single member** with evidentiary standards and graduated sanctions. Without it the evidence plane is self-reporting; with it, placing the adjudicator beyond any one member is also what stops a neutral host from being read as covert control.
 
 ### Workload lanes
 
-Separate lanes because each has different latency, cost, risk, and governance needs: **(1) public inference**, **(2) evaluation & evidence**, **(3) adaptation**, **(4) federated co-training** (later), **(5) agent compute** (constrained). Agent-lane minimum controls: per-task token/GPU/time budget; model/tool allowlists by risk; sandboxed execution; source/retrieval logging that minimises personal-data retention; claim- and citation-check hooks; human approval for consequential actions; hard stop on budget/policy/safety breach. MCP helps tool interoperability but its own spec flags consent, data-access, and code-execution risks — for public agents these controls are mandatory.
+Separate lanes because each has different latency, cost, risk, and governance needs: **(1) public inference**, **(2) evaluation & evidence**, **(3) adaptation**, **(4) federated co-training** (later), **(5) agent compute** (constrained). Agent-lane minimum controls: per-task token/GPU/time budget; model/tool allowlists by risk; sandboxed execution; source/retrieval logging that minimises personal-data retention; claim- and citation-check hooks; bounded mandates with an independent authorization check and human escalation for consequential actions; hard stop on budget/policy/safety breach. MCP helps tool interoperability but its own spec flags consent, data-access, and code-execution risks — for public agents these controls are mandatory.
 
 ### Compute tiers (trust × latency)
 
@@ -276,7 +276,7 @@ The first pilot stays in tiers 0–1; tier 2 follows with formal partners; tier 
 | **Compute capture** (one state/funder/cloud/lab) | Publish allocation rules, routing logic, partner credits, conflicts of interest, accountability reports; apply the §4 design rules |
 | **Jurisdiction confusion** | Data classes, jurisdiction constraints, sovereign-only routing, auditable operator profiles |
 | **Node tampering / poisoning** | Node certificates (civic peering); redundant cross-checks (C2); redundant execution, spot checks, and adjudication for C3 |
-| **Agent abuse** | Tool allowlists, scoped permissions, sandboxing, budgets, human approval, full traces |
+| **Agent abuse** | Tool allowlists, scoped permissions, sandboxing, budgets, independent authorization check with human escalation, full traces |
 | **HPC usability gap** | Dual stack: HPC for training/batch, cloud-native for APIs/serving/agents |
 | **Silicon / vendor lock-in** | Multi-vendor procurement, open formats, portability, weight escrow |
 | **Sustainability blind spot** | Energy/carbon metadata in node profiles + scheduler policy |

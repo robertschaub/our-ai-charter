@@ -20,7 +20,7 @@
 
 ## Conditions across every step
 
-- **Allowed, able, accountable:** the user is authorised to use the tool, competent to oversee it, and responsible for what they ship.
+- **Allowed, able, accountable:** the user is authorized to use the tool, competent to oversee it, and responsible for what they ship.
 - **Safety, privacy, resilience:** misuse resistance, data protection, and fallback/exit where reliance is material.
 - **Fairness:** for consequential uses, ask whether the output may be systematically worse for some affected group.
 - **Traceability:** record what was asked, used, claimed, decided, challenged, and fixed.
@@ -35,11 +35,13 @@
 | **Commit** | evidence and fairness considered; accountable human signs off where needed | hold, seek independent review, or reject |
 | **Rely** | challenge/remedy route works and remains current | switch, add fallback, or withdraw reliance |
 
-Loops and chains re-enter **Verify**: each model/tool hop can add unverified claims, injected content, or drift. For autonomous or high-frequency actions, **Commit** moves up a level: a human authorises a bounded operating envelope with limits, monitoring, rollback, and kill-switch.
+Loops and chains re-enter **Submit** and **Verify**: each model/tool hop can add fresh data, untrusted instructions, unverified claims, or drift. For autonomous or high-frequency actions, **Commit** moves up a level: a human authorizes a bounded operating envelope with limits, monitoring, rollback, and kill-switch.
 
 ## Escalation triggers
 
 Every trigger is traced. It interrupts only when material in context: **Silent** (log), **Flag** (surface non-blocking), or **Stop** (block for decision).
+
+**Two layers, two vocabularies.** Silent, Flag, and Stop describe what the *person* experiences. Where an independent authorization component gates a consequential action, it returns *allow, deny, or escalate* against the current mandate and policy (see the [Charter Commitments](../Framework/charter-commitments.md)). They are not synonyms: only *escalate* necessarily produces a Stop, a *deny* is a machine refusal that may never reach a person, and an *allow* can still carry a Flag.
 
 Calibration runs on two axes. The **use case and stakes** set where Stop kicks in: irreversible, external, regulated, or person-affecting → Stop readily; internal, reversible, or draft → mostly Silent trace. The **user** — competence, role, standing preferences — sets the manner and frequency: an expert with standing preferences → fewer, decision-only asks; a novice in a high-stakes domain → escalate more, and explain.
 
@@ -76,7 +78,7 @@ Calibration runs on two axes. The **use case and stakes** set where Stop kicks i
 
 1. **Escalate decisions, not mechanics.** Ask one framed question with options, tradeoff, recommendation, and default.
 2. **Scope every grant.** Permission is for this action and resource, not everything forever.
-3. **Use safe defaults on silence.** Timeout selects the reversible option; silence never authorises irreversible action.
+3. **Use safe defaults on silence.** Timeout selects the reversible option; silence never authorizes irreversible action.
 4. **Watch escalation rate.** If the system asks too often, re-scope the task or tool.
 
 ## What this is

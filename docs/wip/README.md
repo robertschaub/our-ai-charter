@@ -23,6 +23,10 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 - **[geneva-2027-assurance-questions-note.md](geneva-2027-assurance-questions-note.md)** — forwardable, question-led entry artifact (five open questions on the public-AI governance/evidence layer); the lower-risk first move ahead of the keystone memo's package + ask.
 - **[evaluation-poc-scope.md](evaluation-poc-scope.md)** — runnable plan for one pilot of the evaluation protocol on an Apertus-based cited-source deployment; the *results-not-a-framework* asset.
 
+## Draft articles
+
+- **[article-runtime-ai-governance-when.md](article-runtime-ai-governance-when.md)** — companion to the published *when vs. who* article: defines *when* through two clocks (system lifecycle and action), five runtime gates, *trace wide, escalate narrow*, bounded authority for autonomous use, and the transition from proposal to external effect.
+
 ## Assurance & accountability
 
 - **[ambient-agentic-ai-control.md](ambient-agentic-ai-control.md)** — **EU-led international proposal for ambient and agentic devices**: separates confirmed device facts from reporting, maps the AI Act as amended by the 2026 AI Omnibus plus GDPR/GPSR/CRA coverage, identifies the horizontal control gap, and specifies mandates, model-independent authorization, downstream verification, inspect/stop/reverse rights, conformity tests, enforcement, and an EU→Council of Europe→ISO adoption path.
