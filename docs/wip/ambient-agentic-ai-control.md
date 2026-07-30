@@ -130,7 +130,7 @@ The later the category, the stronger the pre-action gate must be. “Reverse eve
 
 ## 3. What existing EU law already does
 
-The EU does not start from zero. The applicable framework is the [AI Act, Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng), as amended by the [AI Omnibus, Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), together with data-protection, consumer-product, consumer-protection, competition, and cybersecurity law.
+The EU does not start from zero. The applicable framework is the [AI Act, Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng), as amended by the [Digital Omnibus on AI, Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) (widely referred to as the AI Omnibus), together with data-protection, consumer-product, consumer-protection, competition, and cybersecurity law.
 
 ### 3.1 AI Act
 
@@ -145,7 +145,7 @@ The EU does not start from zero. The applicable framework is the [AI Act, Regula
 | Articles 72–73 | Post-market monitoring and serious-incident reporting for the systems in scope | Ordinary agentic consumer systems can remain outside the high-risk duties |
 | Article 86 | A right to a clear and meaningful explanation for certain decisions based on high-risk output | Narrower than a general action record and usually arrives after a decision |
 
-The 2026 AI Omnibus did not create a horizontal agentic-control class. It extended the high-risk application timetable: stand-alone high-risk rules apply from **2 December 2027**, and high-risk systems embedded in regulated physical products from **2 August 2028** ([European Commission, 27 July 2026](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)).
+The 2026 Digital Omnibus on AI did not create a horizontal agentic-control class. It extended the high-risk application timetable: stand-alone high-risk rules apply from **2 December 2027**, and high-risk systems embedded in regulated physical products from **2 August 2028** ([European Commission, 27 July 2026](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)).
 
 The most important legal conclusion is narrow but significant:
 
@@ -562,7 +562,7 @@ That is a practical demand legislators can place on any ambient AI device before
 ### Primary EU and international law
 
 - [EU AI Act — Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
-- [AI Omnibus — Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)
+- [Digital Omnibus on AI — Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)
 - [AI Act Article 7 — amendments to Annex III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-7)
 - [AI Act Article 14 — human oversight](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14)
 - [AI Act Article 50 — transparency](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)

@@ -4,9 +4,9 @@
 
 𝗪𝗵𝗲𝗻 𝗦𝗵𝗼𝘂𝗹𝗱 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 𝗔𝗜 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗜𝗻𝘁𝗲𝗿𝗿𝘂𝗽𝘁?
 
-My last article asked who gets to check the runtime gate. This companion asks when it should interrupt.
-
 Ask a person to approve every step and the system trains them to stop reading. Approve nothing after launch and a live agent can move beyond what anyone assessed.
+
+My last article asked who gets to check the runtime gate. This one asks when it should interrupt.
 
 The better rule:
 
@@ -21,7 +21,7 @@ For each action, the Our AI Charter model asks:
 
 𝗔𝘂𝘁𝗵𝗼𝗿𝗶𝘇𝗲 → 𝗦𝘂𝗯𝗺𝗶𝘁 → 𝗩𝗲𝗿𝗶𝗳𝘆 → 𝗖𝗼𝗺𝗺𝗶𝘁 → 𝗥𝗲𝗹𝘆
 
-Every model, tool, or agent hop re-arms Submit and Verify. When no person is in the seat, the gates change enforcer: Authorize creates a bounded mandate in advance; boundary and evidence checks enforce Submit and Verify; and the executing service enforces Commit before the effect becomes binding.
+Each time a model, tool, agent, or document contributes new material, the input and evidence checks re-open — fresh instructions and evidence must be screened, and drift reassessed. When nobody is in the seat, the checks do not disappear: a bounded mandate granted in advance replaces the click, and the service carrying out the action verifies that authority before anything becomes binding.
 
 That does not mean endless approval prompts. Trace wide. Escalate narrow. Preserve human attention for consequential boundaries: when evidence becomes a decision basis, authority expands, data crosses a trust boundary, a proposal becomes an external effect, or the system leaves its approved conditions.
 
@@ -31,11 +31,11 @@ Which transition must not occur without which evidence, whose authority, and wha
 
 Full article below ↓
 
-#AI #AIGovernance #AgenticAI #PublicAI #AIAccountability
+#AI #TrustworthyAI #AIGovernance #AgenticAI #PublicAI #AIAccountability
 
 ---
 
-![Two connected AI-governance clocks: an outer system lifecycle from Design to Remedy surrounds an inner action path pairing Plan/Authorize, Prepare/Submit, Check/Verify, Decide/Commit, and Review/Rely; a diverse independent review group sits at the amber Decide/Commit boundary](article-runtime-ai-governance-when.png)
+![Two connected AI-governance clocks: an outer system lifecycle running Design, Deploy, Operate, Incident, and Remedy surrounds an inner action path pairing Plan/Authorize, Prepare/Submit, Check/Verify, Decide/Commit, and Review/Rely; a diverse independent review group sits at the amber Decide/Commit boundary](article-runtime-ai-governance-when.png)
 
 # When Should Runtime AI Governance Interrupt?
 
@@ -49,7 +49,7 @@ The better rule is:
 
 > **Govern the transition, not every step.**
 
-Intervene when evidence becomes a decision basis, when authority expands, when data crosses a trust boundary, when a proposal becomes an external effect, or when a live system leaves the conditions under which it was approved. Trace the rest. Those are the transitions this article names.
+Intervene when evidence becomes a decision basis, when authority expands, when data crosses a trust boundary — where control or assurance changes — when a proposal becomes an external effect, or when a live system leaves the conditions under which it was approved. Trace the rest. Those are the transitions this article names.
 
 That is what *when* should mean.
 
@@ -59,11 +59,11 @@ Runtime governance does not replace lifecycle governance. It gives the lifecycle
 
 The first clock is the life of the system:
 
-**design → deploy → runtime → incident → remedy**
+**design → deploy → operate → incident → remedy**
 
 Before deployment, the provider and deployer define purpose, risk, limits, evidence, responsibilities, and exit conditions. During operation, they monitor performance, dependencies, misuse, drift, complaints, and material changes. When the system fails, they investigate, correct, constrain, roll back, or withdraw it. Afterwards, affected people still need a route to challenge the decision and obtain a remedy.
 
-This is not a novel rejection of existing governance. The [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) treats risk management as continuous across the lifecycle and includes post-deployment monitoring, appeal, override, recovery, and decommissioning. For high-risk systems, the [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) pairs human oversight (Article 14) with post-market monitoring (Article 72) and serious-incident reporting (Article 73). The [2026 AI Omnibus](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32026R1744) moved the application of the Chapter III high-risk duties, including Article 14, to 2 December 2027 for Annex III systems and 2 August 2028 for product-based Annex I systems. Agentic systems are shipping now.
+This is not a novel rejection of existing governance. The [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) treats risk management as continuous across the lifecycle and includes post-deployment monitoring, appeal, override, recovery, and decommissioning. For high-risk systems, the [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) pairs human oversight (Article 14) with post-market monitoring (Article 72) and serious-incident reporting (Article 73). The July 2026 [Digital Omnibus on AI](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) (Regulation (EU) 2026/1744) moved the application of the Chapter III high-risk duties, including Article 14, to 2 December 2027 for Annex III systems and 2 August 2028 for product-based Annex I systems. Agentic systems are shipping now.
 
 The second clock is the life of one AI-supported action:
 
@@ -111,6 +111,8 @@ The workable middle is a **bounded operating envelope**. A person or accountable
 
 Aggregate limits matter as much as per-action limits. A thousand individually admissible actions can compose an effect nobody authorized, so the gate needs cumulative counters and aggregate escalation triggers, not only a per-request test.
 
+## What must be true at the gate
+
 The five gates form a timeline: they say when and why governance should intervene. The Charter requirements form a control-and-evidence specification: they say what must be true — and what evidence must survive — for a consequential action to cross those boundaries. They do not map one-to-one: the structured proposal carries Submit and Verify into Commit, while the action-and-effect record connects the path through Rely.
 
 The draft [Charter Commitments](../Assurance/Framework/charter-commitments.md) make this operational for consequential actions; the [agentic-control working note](ambient-agentic-ai-control.md#7-a-compliant-technical-control-plane) develops one implementation path:
@@ -122,11 +124,11 @@ The draft [Charter Commitments](../Assurance/Framework/charter-commitments.md) m
 5. require the service producing the external effect to verify the exact authority and parameters again; and
 6. join the proposal, authority, decision, effect, review, and remedy in a privacy-preserving, tamper-evident record that yields a receipt and routes for cancellation, reversal, compensation, challenge, and remedy.
 
-**Silent, Flag, and Stop** describe the user experience; **allow, deny, and escalate** are machine gate responses. They map to each other but are not synonyms: *escalate* produces a Stop, *deny* may never interrupt a person if a safe fallback exists, and *allow* may still carry a Flag.
-
 The acting model must not approve its own request. Every consequential path must pass the gate, and each delegated agent must receive no more authority than its parent currently holds. Ambiguous, expired, revoked, broadened, substituted, or replayed authority fails closed: the action does not proceed.
 
-Unavailable authority also fails closed. A signed mandate may support bounded offline verification only where its scope, short validity window, maximum allowed policy lag, revocation model, and residual risk were declared in advance; an indefinite cached *allow* is not a substitute for a current check. Revocation and narrowing must propagate through the delegation chain within a published bound. An action in flight when authority or policy changes is cancelled or, if already committed, routed to reversal and remedy. An interrupted multi-step workflow needs a named recovery owner responsible for cancellation, reversal, or compensation when partial commitment cannot be cleanly undone.
+Unavailable authority also fails closed by default. A signed mandate may support bounded offline verification only where its scope, short validity window, maximum allowed policy lag, revocation model, and residual risk were declared in advance; an indefinite cached *allow* is not a substitute for a current check. Revocation and narrowing must propagate through the delegation chain within a published bound. An action in flight when authority or policy changes is cancelled or, if already committed, routed to reversal and remedy. An interrupted multi-step workflow needs a named recovery owner responsible for cancellation, reversal, or compensation when partial commitment cannot be cleanly undone.
+
+**Silent, Flag, and Stop** describe the user experience; **allow, deny, and escalate** are machine gate responses. They map to each other but are not synonyms: *escalate* produces a Stop, *deny* may never interrupt a person if a safe fallback exists, and *allow* may still carry a Flag.
 
 The pieces are feasible even though the general system is unfinished. [OAuth Rich Authorization Requests](https://datatracker.ietf.org/doc/html/rfc9396) already shows how fine-grained transaction details can be bound to an authorization request. The US National Cybersecurity Center of Excellence’s February 2026 [draft concept paper](https://www.nccoe.nist.gov/sites/default/files/2026-02/accelerating-the-adoption-of-software-and-ai-agent-identity-and-authorization-concept-paper.pdf) for a potential demonstration project explores agent identification, authorization, access delegation, intent, binding agent actions to human identity, verifiable auditing, and prompt-injection controls. That is a signal that standards work is starting, not that it is finished. The OWASP [LLM Prompt Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html) recommends least-privilege tools and screening proposed actions against the user’s original intent; [LLM06:2025 Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/) adds downstream, user-context execution and approval for high-impact actions.
 
@@ -142,7 +144,7 @@ At **Prepare**, applicant data can enter only through the approved system and fo
 
 At **Check**, the assistant links findings to the application and criteria. A minor ambiguity may be flagged. Missing evidence on an eligibility condition, conflicting records, or a suspected injected instruction stops the path before the output becomes a decision basis. A draft is only a draft while nothing relies on it; filing it in the case record or using it to frame the decision has already crossed that boundary.
 
-At **Decide**, before an award, rejection, notification, or payment becomes effective, the commit gate binds the exact applicant, programme rule, amount, evidence, disclosed data, decision-maker, and current policy version. A properly authorized official reviews the consequential judgment, but review quality is not established by a click. Workload, time-on-task distributions, override and divergence rates, and sampled reasoning quality are monitored together. A reviewer who never disagrees is a finding, not a reassurance. The executing service verifies the mandate rather than trusting the model’s claim that approval occurred.
+At **Decide**, before an award, rejection, notification, or payment becomes effective, the commit gate binds the exact applicant, programme rule, amount, evidence, disclosed data, decision-maker, and current policy version. A properly authorized official reviews the consequential judgment, but review quality is not established by a click. Workload, time-on-task distributions, override and divergence rates, and sampled reasoning quality are monitored together, with the sampling done from outside the deciding unit. A reviewer who never disagrees is a finding, not a reassurance. The executing service verifies the mandate rather than trusting the model’s claim that approval occurred.
 
 At **Review**, the applicant receives, as of right, a scoped extract of their own determination: the decision, its basis, the policy version, the authority chain, the human-review event, and the challenge route — plus a receipt showing that the full record was lodged. The agency preserves the decision basis, authority, review event, and outcome; monitors repeated errors and uneven outcomes; and corrects, reopens, or withdraws reliance when the evidence no longer holds.
 
@@ -178,7 +180,7 @@ Ask instead:
 
 If the system cannot answer, it should not cross that boundary.
 
-This is how the Charter’s five public obligations reach runtime: not as labels, but as controls that keep actions purpose-bound; answerable to people; safe, secure, private, and resilient; fair in practice; and open to evidence and correction.
+This is how the Charter’s five public obligations reach runtime: not as labels, but as controls that keep actions purpose-bound; answerable to people; safe, secure, private, and resilient; fair in practice; and open to evidence and correction. Fairness cannot be established by a single gate. Per-action checks must screen for unjustified treatment, while aggregate outcome monitoring reveals patterns that individual checks cannot.
 
 Runtime governance gets *when* right when it governs the handoffs:
 
