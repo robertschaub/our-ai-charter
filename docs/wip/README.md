@@ -25,7 +25,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 ## Draft articles
 
-- **[article-runtime-ai-governance-when.md](article-runtime-ai-governance-when.md)** — companion to the published *when vs. who* article: defines *when* through two clocks (system lifecycle and action), five runtime gates, human-intervention contracts, *trace wide, escalate narrow*, bounded authority for autonomous use, and the transition from proposal to external effect.
+- **[article-runtime-ai-governance-when.md](article-runtime-ai-governance-when.md)** — companion to the published *when vs. who* article: governs authority-bearing transitions through two clocks, five gates, machine-enforced admission and commitment boundaries, fail-closed bounded authority, narrow human escalation, and an action-scoped record from gate decision to effect and remedy.
 
 ## Assurance & accountability
 
