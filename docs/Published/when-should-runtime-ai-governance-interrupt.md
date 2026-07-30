@@ -1,7 +1,7 @@
-> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The proposed accompanying feed post and cover are retained here.
+> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The accompanying feed post and cover are mirrored here.
 > Canonical article: [https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc](https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc)
 
-## Proposed accompanying feed post
+## Accompanying feed post
 
 𝗪𝗵𝗲𝗻 𝗦𝗵𝗼𝘂𝗹𝗱 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 𝗔𝗜 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗜𝗻𝘁𝗲𝗿𝗿𝘂𝗽𝘁?
 
@@ -35,6 +35,8 @@ Which transition must not occur without which evidence, whose authority, and wha
 Full article below ↓
 
 #AI #TrustworthyAI #AIGovernance #AgenticAI #PublicAI #AIAccountability
+
+_[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_ai-trustworthyai-aigovernance-activity-7488606064989360129-JukJ)._
 
 ---
 
