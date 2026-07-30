@@ -10,13 +10,15 @@
 
 ## Five steps
 
-| Step | User question | Governs |
+The user-facing workflow uses ordinary verbs: **plan the use → prepare the inputs → check the evidence → decide the action → review the effects**. Each step has a corresponding operational gate:
+
+| Step and gate | User question | Governs |
 |---|---|---|
-| **1. Frame** | Is AI the right tool, and what is at stake? | purpose, authority, risk tier |
-| **2. Footing** | Who stands behind it, what sources does it use, and is input safe? | provider, sources, privacy, IP/confidentiality |
-| **3. Read** | What is it claiming, and can I see the work? | evidence, source validity, uncertainty |
-| **4. Act** | Should this output affect a decision or external action? | consequence, fairness, notice, human sign-off |
-| **5. After** | How is it challenged, corrected, and learned from? | complaint, remedy, correction, reliance |
+| **1. Plan → Authorize** | Is AI — and this system — right for the purpose, and what is at stake? | purpose, provider/system suitability, authority, limits, risk tier |
+| **2. Prepare → Submit** | May these data, sources, and instructions enter the system safely? | input provenance, privacy, IP/confidentiality, trust boundary |
+| **3. Check → Verify** | What is it claiming, and is the evidence sound enough for this use? | evidence, source validity, uncertainty |
+| **4. Decide → Commit** | Should this exact output affect a decision or external action? | consequence, fairness, notice, human sign-off |
+| **5. Review → Rely** | What happened, can it be challenged or corrected, and should reliance continue? | effects, complaint, remedy, correction, reliance |
 
 ## Conditions across every step
 
@@ -29,13 +31,13 @@
 
 | Gate | Pass condition | If it fails |
 |---|---|---|
-| **Authorize** | tool sanctioned; user permitted and competent | use approved tool, get trained, or get sign-off |
-| **Submit** | privacy/IP/confidentiality basis is clear | redact, anonymise, or do not submit |
+| **Authorize** | purpose and limits defined; system sanctioned; user permitted and competent | set scope, use an approved system, get trained, or get sign-off |
+| **Submit** | data, sources, and instructions permitted; privacy/IP/confidentiality basis is clear | redact, isolate, replace the input, or do not submit |
 | **Verify** | sources resolve, evidence checked, uncertainty carried forward | keep verifying; do not convert doubt into certainty |
 | **Commit** | evidence and fairness considered; accountable human signs off where needed | hold, seek independent review, or reject |
 | **Rely** | challenge/remedy route works and remains current | switch, add fallback, or withdraw reliance |
 
-Loops and chains re-enter **Submit** and **Verify**: each model/tool hop can add fresh data, untrusted instructions, unverified claims, or drift. For autonomous or high-frequency actions, **Commit** moves up a level: a human authorizes a bounded operating envelope with limits, monitoring, rollback, and kill-switch.
+Loops and chains re-enter **Submit** and **Verify**: each model/tool hop can add fresh data, untrusted instructions, unverified claims, or drift. For autonomous or high-frequency actions, **Authorize** establishes a bounded operating envelope with limits, monitoring, rollback, and a safe stop; **Commit** remains point-of-effect verification by the service executing the action.
 
 ## Escalation triggers
 

@@ -1,9 +1,9 @@
-> **Status: DRAFT (v0.15)**
+> **Status: DRAFT (v0.16)**
 
 # Charter Commitments
 **A public charter for trustworthy AI — built together, answerable to people.**
 
-_Draft v0.15 (2026-07-29). Open for comment._
+_Draft v0.16 (2026-07-30). Open for comment._
 
 ---
 
@@ -104,7 +104,7 @@ When an assessed release can propose, prepare, or perform a consequential action
 3. **Provable authority.** The action mandate is specific, purpose-bound, no broader than necessary, time-limited, and revocable. The authority chain includes every agent or service that receives delegated power, the permitted scope of any subdelegation, and the current state and ordering of overlapping or changed mandates.
 4. **Independent admissibility and complete mediation.** Every consequential action path is checked against the current mandate, applicable policy and version, relevant constraints, and system state by a component that does not rely on the acting model to approve its own request. The result is allow, deny, or escalate for fresh authorization; ambiguity or missing authority fails closed.
 5. **Verification at commitment.** The executing service verifies the exact current authority and approved parameters before the effect becomes binding. A broader, substituted, expired, revoked, changed, or replayed request is blocked.
-6. **An action-and-effect record.** A privacy-preserving, tamper-evident record joins the proposal, authority chain, policy and admissibility decision, commitment status, external effect, and human-review event. It provides an appropriate receipt or extract and routes for cancellation, reversal or compensation where possible, challenge, and remedy.
+6. **An action-and-effect record.** A privacy-preserving, tamper-evident record joins the proposal, authority chain, policy and admissibility decision, commitment status, external effect, and human-review event. It provides an appropriate receipt or extract and routes for cancellation, reversal or compensation where possible, challenge, and remedy. An interrupted multi-step workflow has a named recovery owner responsible for cancellation, reversal, or compensation when partial commitment cannot be cleanly undone.
 
 A deterministic authorization gate can prove that declared rules were applied; it cannot by itself establish that those rules are lawful, fair, or legitimate. Human accountability, independent review, affected-person access, and remedy remain required. The [agentic-control working note](../../wip/ambient-agentic-ai-control.md#7-a-compliant-technical-control-plane) develops one implementation path, while the [split-custody proposal](../../wip/split-custody-per-action-records.md) addresses record integrity, access, and survivability.
 

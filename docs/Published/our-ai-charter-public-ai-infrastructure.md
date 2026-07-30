@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-28** — verbatim mirror of the LinkedIn article *Our AI Charter: From Open Models to Accountable Public AI Infrastructure*, published 28 July 2026 and revised 29 July 2026 to add the runtime decision path. The accompanying feed post (above) and cover are mirrored here.
+> **Status: PUBLISHED 2026-07-28** — mirror of the LinkedIn article *Our AI Charter: From Open Models to Accountable Public AI Infrastructure*, published 28 July 2026. This repository copy was revised 29 July 2026 to add the runtime decision path and 30 July 2026 to clarify its user-facing step labels. The accompanying feed post (above) and cover are mirrored here.
 > Canonical article: [https://www.linkedin.com/pulse/our-ai-charter-from-open-models-accountable-public-robert-schaub-qafie/](https://www.linkedin.com/pulse/our-ai-charter-from-open-models-accountable-public-robert-schaub-qafie/)
 
 ---
@@ -69,9 +69,9 @@ The broker would decide what may run, where, under which purpose and data rules.
 
 At the decision point, the runtime path is:
 
-**frame → footing → read → act → after**
+**plan → prepare → check → decide → review**
 
-Frame the purpose, authority, and stakes. Establish the footing: provider, sources, privacy, and rights. Read the evidence and carry uncertainty forward. Before an output changes a decision or triggers an external action, apply the commit gate: proceed, hold for human or independent review, or reject. Afterward, preserve the trace so the decision can be challenged, corrected, and learned from. The corresponding gates are **authorize → submit → verify → commit → rely**.
+Plan the use: decide whether AI — and this system — is suitable, who has authority, for what purpose, and within what limits. Prepare the inputs: admit data, sources, and instructions only under the applicable privacy, rights, and confidentiality rules. Check the evidence and carry uncertainty forward. Decide whether the exact output may change a decision or trigger an external action: proceed, hold for human or independent review, or reject. Review the effects and preserve the trace so the decision can be challenged, corrected, and learned from. The corresponding gates are **authorize → submit → verify → commit → rely**.
 
 The core rule is **trace wide, escalate narrow**: keep a reviewable record, but interrupt a person only when they can materially change a sufficiently consequential outcome. Irreversible, external, regulated, or person-affecting actions should stop for decision. Autonomous or high-frequency actions may operate inside a human-authorized envelope with defined limits, monitoring, rollback, and a kill-switch. The full [runtime reference model](https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/user-workflow-governance/) carries the detailed triggers and failure actions.
 
