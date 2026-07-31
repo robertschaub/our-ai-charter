@@ -30,7 +30,7 @@ Then test every use of AI-supported power:
 
 Dialogue must be safe, accessible, early enough to matter, and connected to review and remedy.
 
-**Intelligence finds a path. Empathy makes human consequences visible. Justice sets the limits. Democracy determines who decides.**
+**Intelligence finds a path. Empathy makes human consequences visible. Justice sets the limits. Legitimate authority determines who decides—and accountability keeps that power answerable.**
 
 The central rule:
 
@@ -43,6 +43,8 @@ Builder companion: [*How We Can Build AI That Acts with Empathy*](how-to-build-a
 #AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights
 
 ---
+
+![Affected people contribute distinct perspectives through a transparent AI instrument to an answerable human decision-maker; a correction loops back through an independent review gate toward remedy.](empathy-is-a-practice.png)
 
 # AI and Empathy: Dialogue, Correction and Human Answerability
 
@@ -145,13 +147,13 @@ Legitimate authority, safe participation, independent review, binding remedy, an
 
 ## Empathy must be part of the architecture
 
-Architecture here means both technical controls and the human institutions around them. The *Best Workplace* rhythm—engage, iterate, and earn trust through transparency—must be joined to truthfulness, justice, contestability, democratic accountability, and human responsibility.
+Architecture here means both technical controls and the human institutions around them. The *Best Workplace* rhythm—engage, iterate, and earn trust through transparency—must be joined to truthfulness, justice, contestability, legitimate governance, and human responsibility. Where AI participates in public power, that governance must be democratically accountable.
 
 1. **Empathy to notice suffering.** Engage everyone who uses or is affected by the system; seek voice before inference; and let repeated feedback change the next iteration.
 2. **Truthfulness to resist sycophancy.** Separate testimony, evidence, inference, disagreement, and absence; carry uncertainty forward instead of telling users what they want to hear.
 3. **Justice and rights to prevent favouritism.** Test proportionality and less-harmful alternatives at individual and population scale, with limits that hold even when they frustrate the goal.
 4. **Transparency and contestability to preserve human agency.** Disclose AI’s role, purpose, limits, mistakes, and corrections; provide safe challenge, independent review, and effective remedy.
-5. **Democratic accountability to determine whose values are served.** Legitimate institutions—not a model or its operator alone—must decide public purposes, acceptable risks, and binding limits.
+5. **Legitimate governance to determine whose values are served.** Legitimate institutions—not a model or its operator alone—must assign decision authority and set acceptable risks and binding limits. Where AI participates in public power, those institutions must be democratically accountable.
 6. **Human responsibility for decisions machines must not own.** Name the power-holder, constrain its authority, preserve an action-scoped record, and keep it answerable for consequences.
 
 This is consistent with the [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/), which treats every trustworthiness characteristic—including safety, accountability and transparency, and fairness with harmful bias managed—as an attribute of a socio-technical system rather than of a model alone.
@@ -164,7 +166,7 @@ The [Council of Europe AI Convention](https://www.coe.int/en/web/artificial-inte
 
 AI can support this practice by facilitating dialogue, surfacing individual and collective consequences, carrying uncertainty forward, and showing what changed after feedback. Require a record of who was heard, what remains inferred, which alternatives were considered, what was disclosed, what was corrected, and which limits held when the goal pressed against them.
 
-> **Intelligence tells a system how to achieve an objective. Empathy makes human consequences visible. Justice determines which consequences are unacceptable. Democracy determines who gets to decide.**
+> **Intelligence tells a system how to achieve an objective. Empathy makes human consequences visible. Justice sets the limits. Legitimate authority determines who decides—and accountability keeps that power answerable.**
 
 That is empathy made iterative, transparent, and answerable.
 

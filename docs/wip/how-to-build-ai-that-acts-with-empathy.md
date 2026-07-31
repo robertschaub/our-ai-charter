@@ -37,6 +37,8 @@ Full article below ↓
 
 ---
 
+![A person's testimony, tentative inference, confirmation and revocable memory remain separate as they pass through external entry and commitment gates around a layered AI system, with human review and rollback controls.](how-to-build-ai-that-acts-with-empathy.png)
+
 # How We Can Build AI That Acts with Empathy
 
 *The honest target is not artificial feeling. It is grounded, correctable behaviour that protects human agency.*
