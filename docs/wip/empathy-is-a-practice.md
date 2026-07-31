@@ -116,6 +116,8 @@ The defensible technical target is therefore **perspective discipline**:
 
 This can support empathy and its feedback loop. It cannot replace dialogue, confer legitimate authority, provide independent challenge and remedy, or earn trust on behalf of the people and institutions using it.
 
+Even if a system outperforms humans in a domain—or several models deliberate and vote—its capability or their agreement may inform judgment; it does not confer authority, democratic consent, independent review, or remedy.
+
 That is what it means to make empathy part of the architecture. A powerful system should recognize disclosed or situational vulnerability, seek different perspectives, and treat human welfare as a constraint—not simply a variable to trade away for efficiency. Intelligence can optimize a path; it cannot decide whether that path is humane, fair, or legitimately authorized.
 
 ## Test every use of AI-supported power

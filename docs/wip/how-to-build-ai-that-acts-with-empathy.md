@@ -89,7 +89,7 @@ The companion article’s [central rule](empathy-is-a-practice.md#the-central-ru
 - **Engage everyone who uses or is affected by the system.** Governance identifies intended users, affected people, missing voices, and legitimate representatives before design and deployment. Interfaces make dialogue, correction, refusal, accessibility, and escalation usable; orchestration keeps what people said separate from inference; assurance includes affected people and distributional evidence. Preserve who participated or was absent, unresolved disagreement, tests with affected groups, and what changed in response.
 - **Work in transparent iterations.** Interfaces disclose AI’s role, sources, uncertainty, memory, limits, and corrections. Orchestration versions context, permissions, policies, and decisions. Governance treats feedback as evidence—not automatic truth or training consent—and tells affected people what changed. Preserve versioned system records, before-and-after results, material-change notices, monitored outcomes, and rollback evidence.
 - **Test every use of power.** Orchestration and execution implement the five runtime gates, enforce the entry and commitment boundaries outside the model, and check purpose, authority, evidence, less-harmful alternatives, and binding limits. Assurance examines individual and population effects with aggregate escalation. Preserve action-scoped gate records, outcome and disparity evidence, and independent-review findings. A prompt cannot perform this function.
-- **Keep the human or institution answerable.** Governance names the power-holder, decision owner, independent reviewer, and remedy owner; interfaces provide reasons and challenge routes; execution binds consequential actions to current authority and records them before effect. Publish roles and limits, preserve mandates and decision receipts, and measure correction, appeal, and remedy. The model, prompt, and inference service never become the accountable decision-maker.
+- **Keep the human or institution answerable.** Governance names the power-holder, decision owner, independent reviewer, and remedy owner; interfaces provide reasons and challenge routes; execution binds consequential actions to current authority and records them before effect. Publish roles and limits, preserve mandates and decision receipts, and measure correction, appeal, and remedy. The model, prompt, and inference service never become the accountable decision-maker. Agreement among models is evidence, not authority: ensemble, multi-agent debate, and voting outputs must pass the same external gates and cannot supply independent review or remedy.
 
 ### Make dialogue iterative—and trigger it at the right moments
 
@@ -155,7 +155,7 @@ Facial movements do not map reliably to fixed emotions across [people, situation
 
 Ordinary dialogue may improve the next response. It must not silently rewrite the model, its objectives, or its memory.
 
-> **An empathic AI should be easier to correct than to believe, more interested in the user’s autonomy than their engagement, and always honest about what it knows, what it infers, and what it cannot be shown to feel.**
+> **An AI that acts with empathy should make misunderstanding easy to correct and unwarranted trust difficult to acquire, prioritize the user’s autonomy over engagement, and be honest about what it knows, what it infers, and what it cannot be shown to feel.**
 
 That is not artificial feeling. It is disciplined, testable, and accountable design.
 
