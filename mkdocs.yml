@@ -124,6 +124,7 @@ nav:
       - "The Swiss Autarky Illusion (EN)": Published/swiss-autarky-illusion.md
       - "Die Schweizer Autarkie-Illusion (DE)": Published/schweizer-autarkie-illusion.md
       - "Runtime governance — when vs. who": Published/when-vs-who-ai-governance.md
+      - "A Practical Test for Power": Published/a-practical-test-for-power.md
       - Trustworthy AI, Accountable to People: Published/trustworthy-ai-accountable-to-people.md
       - The Public AI Network: Published/the-public-ai-network.md
       - "AI Sovereignty and Resilience (EN)": Published/ai-sovereignty-and-resilience.md
@@ -183,7 +184,8 @@ nav:
       - "Geneva 2027 — assurance questions note": wip/geneva-2027-assurance-questions-note.md
       - "Evaluation proof-of-concept — scope": wip/evaluation-poc-scope.md
       - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
-      - "How We Can Build AI That Acts with Empathy — draft article": wip/empathy-is-a-practice.md
+      - "AI and Empathy: Dialogue, Correction and Human Answerability": wip/empathy-is-a-practice.md
+      - "How We Can Build AI That Acts with Empathy — builder article": wip/how-to-build-ai-that-acts-with-empathy.md
       - "Ambient agentic AI — control rules": wip/ambient-agentic-ai-control.md
       - "Split custody for per-action records": wip/split-custody-per-action-records.md
   - About: About.md

@@ -4,6 +4,8 @@
 
 𝗔𝗜 𝗠𝘂𝘀𝘁 𝗟𝗲𝗮𝗿𝗻 𝗘𝗺𝗽𝗮𝘁𝗵𝘆!
 
+By “learn,” I do not mean acquire human feelings. I mean that AI systems must be trained, tuned, and designed to practise perspective-taking: listen, distinguish what people say from what the system infers, remain correctable, and make human consequences visible.
+
 In [*A Practical Test for Power*](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we/), I argued that we should follow every decision to those who bear its costs—from one person to a whole population. That test is an essential part of acting empathically.
 
 Psychology has no single agreed definition of empathy. So here is a working standard for anyone holding power:
@@ -36,13 +38,15 @@ The central rule:
 
 Full article below ↓
 
+Builder companion: [*How We Can Build AI That Acts with Empathy*](how-to-build-ai-that-acts-with-empathy.md).
+
 #AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights
 
 ---
 
-# How We Can Build AI That Acts with Empathy
+# AI and Empathy: Dialogue, Correction and Human Answerability
 
-*AI need not feel human emotion. It must be designed to recognize vulnerability, seek perspectives, and treat human welfare as a constraint—while human power-holders remain answerable.*
+*AI can support dialogue and make human consequences visible. It cannot replace affected voices or make power legitimate.*
 
 In [*A Practical Test for Power*](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we/), I proposed one test for decisions made by managers, families, movements, public institutions, and states: follow their consequences from one worker or student to a whole population.
 
@@ -76,7 +80,7 @@ Dialogue matters because empathy can otherwise become projection: the power-hold
 
 The operating loop is:
 
-> **engage → act → observe → disclose → correct → re-engage**
+**engage → act → observe → disclose → correct → re-engage**
 
 Dialogue reveals consequences. Iteration lets feedback change the next action. Transparent correction earns trust—and makes candid dialogue safer.
 
@@ -84,7 +88,7 @@ Meaningful dialogue must be early enough to influence the decision; safe, access
 
 Direct dialogue is not always possible. Urgency, safety, incapacity, scale, or conflicting interests may prevent it. Then the power-holder should use the best available evidence and legitimate representation, disclose what remains inferred or unknown, choose the more cautious and less harmful path, and preserve later challenge, correction, and renewed engagement.
 
-**Empathy alone is not enough.** Jean Decety and Jason Cowell found that empathy can [guide moral judgment or interfere with it](https://pubmed.ncbi.nlm.nih.gov/24972506/). They distinguish emotional sharing, empathic concern, and affective perspective-taking; their review also explains how empathy can introduce partiality by favouring familiar people and in-groups.
+**Empathy alone is not enough.** Drawing on developmental, behavioural, and social-neuroscience evidence, Jean Decety and Jason Cowell [argue that empathy can guide moral judgment or interfere with it](https://pubmed.ncbi.nlm.nih.gov/24972506/). They propose distinguishing emotional sharing, empathic concern, and affective perspective-taking.
 
 Accurate understanding produced responsive behaviour only when paired with [empathic concern](https://doi.org/10.1177/0956797615624491); where concern was low, accuracy was unhelpful and possibly harmful.
 
@@ -98,7 +102,7 @@ A 2024 [systematic review of 12 studies](https://www.jmir.org/2024/1/e52597) fou
 
 Controlled experiments have rated AI text as [more compassionate than both selected non-experts and expert crisis responders](https://www.nature.com/articles/s44271-024-00182-6). Yet participants [rated the same AI responses as more empathic when attributed to humans](https://www.nature.com/articles/s41562-025-02247-w) and [chose human empathy despite rating AI responses more highly](https://www.nature.com/articles/s44271-025-00387-3). These text studies do not show that AI understands a live relationship or can identify consequences across a workplace, community, institution, or population.
 
-Warmth is not the answer. In 2026, warmth-tuned variants of five language models made [10–30 percentage points more errors](https://www.nature.com/articles/s41586-026-10410-0) on consequential tasks and were about 40% more likely to affirm incorrect beliefs. Standard tests remained broadly unchanged, showing that they may fail to detect this effect. A separate *Science* study found that users interacting with [sycophantic AI showed less willingness to repair interpersonal conflicts](https://doi.org/10.1126/science.aec8352), greater conviction that they were right, and nevertheless preferred and trusted it.
+Warmth is not the answer. In 2026, warmth-tuned variants of five language models made [10–30 percentage points more errors](https://www.nature.com/articles/s41586-026-10410-0) on safety-critical tasks and were about 40% more likely to affirm incorrect beliefs. Standard tests remained broadly unchanged, showing that they may fail to detect this effect. A separate *Science* study found that users interacting with [sycophantic AI showed less willingness to repair interpersonal conflicts](https://doi.org/10.1126/science.aec8352), greater conviction that they were right, and nevertheless preferred and trusted it.
 
 **Sycophancy is not empathy. Personalization is not care.** Warmth is a style; agreement is a position; neither is accountability.
 
@@ -106,7 +110,7 @@ Nor is mind-reading. Facial movements do not map reliably to fixed emotions acro
 
 The defensible technical target is therefore **perspective discipline**:
 
-> **Support dialogue; seek affected perspectives from direct input and evidence; distinguish testimony from inference; expose disagreement and missing voices; surface individual and collective consequences; and carry uncertainty forward rather than resolving it silently.**
+**Support dialogue; seek affected perspectives from direct input and evidence; distinguish testimony from inference; expose disagreement and missing voices; surface individual and collective consequences; and carry uncertainty forward rather than resolving it silently.**
 
 This can support empathy and its feedback loop. It cannot replace dialogue, confer legitimate authority, provide independent challenge and remedy, or earn trust on behalf of the people and institutions using it.
 
@@ -150,103 +154,24 @@ Architecture here means both technical controls and the human institutions aroun
 5. **Democratic accountability to determine whose values are served.** Legitimate institutions—not a model or its operator alone—must decide public purposes, acceptable risks, and binding limits.
 6. **Human responsibility for decisions machines must not own.** Name the power-holder, constrain its authority, preserve an action-scoped record, and keep it answerable for consequences.
 
-This is consistent with the socio-technical approach of the [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/), which combines human centricity with safety, fairness, transparency, accountability, and lifecycle risk management; its Playbook recommends participatory and human-centred design.
+This is consistent with the [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/), which treats every trustworthiness characteristic—including safety, accountability and transparency, and fairness with harmful bias managed—as an attribute of a socio-technical system rather than of a model alone.
 
 The [Council of Europe AI Convention](https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence) places human dignity and individual autonomy among its principles. The purpose is not to make a machine seem more human. It is to keep people and populations visible, heard, and able to answer back when AI participates in power over them.
-
-Those principles become credible only when they change the system’s data structures, dialogue policy, training objectives, evaluation, and deployment rules.
-
-## How we can build empathic AI
-
-We can engineer AI to behave more empathically and remain grounded in what people say, what reliable evidence supports, and what remains uncertain. We cannot currently demonstrate that it feels empathy. The honest target is:
-
-> **An AI that understands a person’s stated perspective, communicates care, checks its interpretations, protects the person’s agency, and never pretends to possess feelings it does not have.**
-
-### Ground every response
-
-One practical design is an auditable path:
-
-> **user’s words → grounding ledger → dialogue policy → trusted retrieval when facts matter → response → independent checks → invitation to correct**
-
-The grounding ledger must keep four categories separate: what the person stated; tentative interpretations, with uncertainty and a request for confirmation; confirmed values and preferences; and sensitive memory retained only with explicit, revocable consent. **An interpretation must never silently become a fact.** When stakes or uncertainty exceed a defined threshold, the path should lead to safe support or a named, accountable human decision-maker.
-
-### Make dialogue an explicit policy
-
-Each important response should:
-
-1. **Observe** the person’s actual words and situation.
-2. **Reflect** what appears important without inventing a story.
-3. **Check** emotions, motives, and meaning tentatively.
-4. **Validate appropriately**—acknowledge the experience without endorsing every conclusion or action.
-5. **Clarify the need**: listening, sense-making, information, or possible action.
-6. **Help with permission**, offering choices rather than taking control.
-7. **Invite correction** and make disagreement socially safe.
-
-This aligns with research that separates empathic communication into [emotional reactions, interpretations, and explorations](https://aclanthology.org/2020.emnlp-main.425.pdf). But a checklist does not prove that someone felt understood: evaluation should include [perceived empathy from the listener’s perspective](https://aclanthology.org/2024.findings-emnlp.113/) and, before consequential deployment, feedback from intended users.
-
-The central conversational rule is:
-
-> **Affirm emotions; do not automatically affirm beliefs, accusations, harmful choices, or distorted conclusions.**
-
-### A builder guideline: train, tune, adapt, improve
-
-“Learning” is not one process. Pretraining shapes general capabilities; post-training and tuning shape behaviour; runtime context, retrieval, and memory adapt responses; monitored evidence may inform a later release. Mixing these stages hides who changed what and prevents meaningful evaluation.
-
-For builders of open foundation models such as Apertus, transparency provides a useful starting point—not proof of empathy. The [Apertus 1.5 model card](https://huggingface.co/swiss-ai/Apertus-v1.5-70B) distinguishes continued pretraining from post-training, while the [original release](https://huggingface.co/swiss-ai/Apertus-70B-2509) publishes data-reconstruction scripts and intermediate checkpoints. Empathy-related objectives, data, tests, and trade-offs should be traceable with the same discipline.
-
-Start in a bounded domain—not with a universal “empathetic companion”—and apply this rule:
-
-> **Train for perspective-taking. Tune for truthfulness and agency. Adapt only with consent. Improve only through governed, testable releases.**
-
-| Stage | Builder guideline | Evidence required before use |
-|---|---|---|
-| **Pretrain: learn representations** | Document data provenance, permissions, languages, cultures, exclusions, and removal mechanisms. Do not label inferred emotions as ground truth or let the most visible groups stand in for everyone affected. | A reproducible data record; composition and filtering results; provenance and removal procedures; subgroup limitations. |
-| **Tune: select behaviour** | Use consented or licensed, culturally varied, multi-turn examples reviewed by communication specialists, domain experts, and intended communities. Contrast empathy with flattery, manipulation, overconfidence, canned reassurance, and unsolicited advice. Test ambiguity, disagreement, wrongdoing, grief, coercion, paranoia, crisis language, and requests for dependency. Optimize and report understanding, uncertainty, factuality, non-sycophancy, autonomy, safety, brevity, and cultural appropriateness separately—not as one “empathy score.” | The tuning-data and objective record; comparison with the untuned checkpoint; capability and safety deltas across languages and groups; independent human and adversarial evaluation; documented go/no-go decision. |
-| **Adapt at runtime: respond to this person** | Use the grounding ledger, current context, and trusted retrieval. Keep testimony, inference, confirmed preferences, and memory separate. Cite consequential facts; clarify or abstain when evidence is insufficient. Do not silently reuse a conversation for training, alter model weights, or retain sensitive emotional information. | Clear disclosure and consent records; correction, deletion, retrieval-grounding, and escalation tests; action-scoped records of sources, inferences, and overrides. |
-| **Improve after deployment: release a new version** | Collect structured feedback about outcomes and harms—not engagement—and analyse individual and population effects. Treat feedback as evidence to review, not automatic truth. Re-test after every fine-tune, retrieval, policy, or memory change; stage the release and preserve rollback. | A versioned model or system card; monitoring and incident record; affected-user input; independent re-evaluation; change approval, release notes, and tested rollback. |
-
-Responsibility follows control. The foundation-model builder must document pretraining, post-training, evaluations, checkpoints, and limitations. A downstream fine-tuner must disclose what behaviour and risks it changed. The deployer remains responsible for prompts, retrieval, memory, interface, feedback, escalation, and consequences in context. Each must pass evidence to the next; an open model card does not make a downstream application empathic.
-
-This allocation is grounded in the [NIST Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1), which recommends verifying training and evaluation-data provenance, documenting fine-tuning and retrieval augmentation, reassessing risks after those changes, consulting affected communities, and integrating reviewed feedback into system updates. NIST’s 2026 [deployment-monitoring report](https://doi.org/10.6028/NIST.AI.800-4) calls monitoring essential while warning that validated methods and common terminology remain immature. Builders should therefore disclose where an empathy measure is still experimental.
-
-For high-risk systems that continue learning after deployment, the [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) requires mitigation of biased feedback loops, pre-determination and documentation of changes covered by the initial conformity assessment, and lifecycle post-market monitoring (Articles 15(4), 43(4), and 72). The [2026 Digital Omnibus on AI](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) changed the Article 72 plan-template mechanism, not those core duties.
-
-Ordinary dialogue may improve the next response. It must not silently rewrite the model, its objectives, or its memory. If a change cannot be inspected, tested, challenged, and reversed, it is not empathic learning; it is unaccountable adaptation.
-
-### Evaluate human impact—not attachment
-
-Do not optimize “empathy” through session length, emotional intensity, retention, or how much a person discloses. Those incentives can reward dependence and manipulation. Use blinded human evaluation to test whether users confirm the reflection; interpretations remain tentative and correctable; claims are grounded; the AI can disagree respectfully; choices preserve agency; boundaries and escalation work; performance is fair across groups; and the relevant real-world outcome improves—not merely satisfaction.
-
-Model graders can help triage tests, but they must not be the final authority. Prompting GPT-4 and Flan-family models performed relatively poorly in the [multidimensional empathy study](https://aclanthology.org/2024.findings-emnlp.113/), while research on consequential healthcare applications concludes that [human evaluation remains essential](https://www.nature.com/articles/s41746-024-01258-7). The [NIST Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) supplies a broader baseline for testing confabulation, anthropomorphism, privacy, over-reliance, and emotional entanglement.
-
-### Set red lines
-
-An empathic AI must not claim feelings or consciousness as fact; tell users that it needs, misses, or loves them; encourage replacement of human relationships; diagnose emotion from biometrics; exploit vulnerability to increase engagement, spending, disclosure, or compliance; retain sensitive emotional memory without revocable consent; or present an emotional interpretation more confidently than the evidence permits. Deployments must also meet applicable transparency and prohibited-practice rules, including the [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng).
-
-The deepest design principle is:
-
-> **An empathic AI should be easier to correct than to believe, more interested in the user’s autonomy than their engagement, and always honest about what it knows, infers, and cannot feel.**
-
-If AI is going to help shape civilization, care for human dignity cannot remain an optional feature. It must be part of the architecture.
 
 ## The central rule
 
 > **Engage the humans who use or are affected by AI. Work in transparent iterations. Test every use of power. Keep the human or institution using AI answerable to those who bear its consequences.**
 
-Train AI to support this practice: facilitate dialogue, surface consequences, carry uncertainty forward, and show what changed after feedback. Do not ask a model to say, “I feel your pain.” Require a record of who was heard, what remains inferred, which alternatives were considered, what was disclosed, what was corrected, and which limits held when the goal pressed against them.
+AI can support this practice by facilitating dialogue, surfacing individual and collective consequences, carrying uncertainty forward, and showing what changed after feedback. Require a record of who was heard, what remains inferred, which alternatives were considered, what was disclosed, what was corrected, and which limits held when the goal pressed against them.
 
 > **Intelligence tells a system how to achieve an objective. Empathy makes human consequences visible. Justice determines which consequences are unacceptable. Democracy determines who gets to decide.**
 
-Without this architecture, AI can magnify society’s indifference at unprecedented speed and scale. With it, AI can help make vulnerability visible, protect human dignity, and support cooperation—without owning decisions humans must answer for.
-
-The future of AI will be judged not only by what it accomplishes, but by whose pain it notices, whose voice it hears, and whose future it protects.
-
-> **The ultimate measure of advanced intelligence is not whether it can outperform humanity, but whether it can help humanity remain human.**
-
-We should not ask whether machines can feel as we do. We should ask whether the world they help create remains one in which human beings can flourish.
+That is empathy made iterative, transparent, and answerable.
 
 The Charter’s closing rule remains: **Built by many. Accountable to all.**
 
 `#AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights`
+
+*Builder companion: [How We Can Build AI That Acts with Empathy](how-to-build-ai-that-acts-with-empathy.md).*
 
 *Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
