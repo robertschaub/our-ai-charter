@@ -1,6 +1,7 @@
-> **Status: WORKING NOTES** — proposed LinkedIn article and accompanying feed post; sources checked 31 July 2026.
+> **Status: PUBLISHED 2026-07-31** — mirror of the LinkedIn article *How We Can Build AI That Acts with Empathy*, published 31 July 2026. The accompanying feed post and cover are mirrored here; sources were checked before publication.
+> Canonical article: [https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/](https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/) · Feed post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7488907212669743104/](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488907212669743104/)
 
-## Proposed accompanying feed post
+## Accompanying feed post
 
 𝗛𝗼𝘄 𝗖𝗮𝗻 𝗪𝗲 𝗕𝘂𝗶𝗹𝗱 𝗔𝗜 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘀 𝘄𝗶𝘁𝗵 𝗘𝗺𝗽𝗮𝘁𝗵𝘆?
 
@@ -161,4 +162,4 @@ That is not artificial feeling. It is disciplined, testable, and accountable des
 
 `#AI #AIEngineering #TrustworthyAI #AIGovernance #Empathy #OpenModels`
 
-*Companion article: [AI and Empathy: Dialogue, Correction and Human Answerability](empathy-is-a-practice.md) · Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
+*Companion article: [AI and Empathy: Dialogue, Correction and Human Answerability](https://www.linkedin.com/pulse/ai-empathy-dialogue-correction-human-answerability-robert-schaub-highe/) · Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*

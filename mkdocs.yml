@@ -119,6 +119,8 @@ nav:
   - Home: index.md
   - The Network: network-overview.md
   - Articles:
+      - "AI and Empathy: Dialogue, Correction and Human Answerability": Published/empathy-is-a-practice.md
+      - "How We Can Build AI That Acts with Empathy — builder article": Published/how-to-build-ai-that-acts-with-empathy.md
       - "Runtime governance — when to interrupt": Published/when-should-runtime-ai-governance-interrupt.md
       - "Our AI Charter — accountable public AI infrastructure": Published/our-ai-charter-public-ai-infrastructure.md
       - "The Swiss Autarky Illusion (EN)": Published/swiss-autarky-illusion.md
@@ -184,8 +186,6 @@ nav:
       - "Geneva 2027 — assurance questions note": wip/geneva-2027-assurance-questions-note.md
       - "Evaluation proof-of-concept — scope": wip/evaluation-poc-scope.md
       - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
-      - "AI and Empathy: Dialogue, Correction and Human Answerability": wip/empathy-is-a-practice.md
-      - "How We Can Build AI That Acts with Empathy — builder article": wip/how-to-build-ai-that-acts-with-empathy.md
       - "Ambient agentic AI — control rules": wip/ambient-agentic-ai-control.md
       - "Split custody for per-action records": wip/split-custody-per-action-records.md
   - About: About.md

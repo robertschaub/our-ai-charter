@@ -1,6 +1,7 @@
-> **Status: WORKING NOTES** — proposed LinkedIn article and accompanying feed post; sources checked 31 July 2026.
+> **Status: PUBLISHED 2026-07-31** — mirror of the LinkedIn article *AI and Empathy: Dialogue, Correction and Human Answerability*, published 31 July 2026. The accompanying feed post and cover are mirrored here; sources were checked before publication.
+> Canonical article: [https://www.linkedin.com/pulse/ai-empathy-dialogue-correction-human-answerability-robert-schaub-highe/](https://www.linkedin.com/pulse/ai-empathy-dialogue-correction-human-answerability-robert-schaub-highe/) · Feed post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7488909411894149120/](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488909411894149120/)
 
-## Proposed accompanying feed post
+## Accompanying feed post
 
 𝗔𝗜 𝗠𝘂𝘀𝘁 𝗟𝗲𝗮𝗿𝗻 𝗘𝗺𝗽𝗮𝘁𝗵𝘆!
 
@@ -38,7 +39,7 @@ The central rule:
 
 Full article below ↓
 
-Builder companion: [*How We Can Build AI That Acts with Empathy*](how-to-build-ai-that-acts-with-empathy.md).
+Builder companion: [*How We Can Build AI That Acts with Empathy*](https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/).
 
 #AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights
 
@@ -176,6 +177,6 @@ That is empathy made iterative, transparent, and answerable.
 
 `#AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights`
 
-*Builder companion: [How We Can Build AI That Acts with Empathy](how-to-build-ai-that-acts-with-empathy.md).*
+*Builder companion: [How We Can Build AI That Acts with Empathy](https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/).*
 
 *Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
