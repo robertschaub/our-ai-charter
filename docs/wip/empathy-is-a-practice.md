@@ -6,11 +6,11 @@
 
 By “learn,” I do not mean acquire human feelings. I mean that AI systems must be trained, tuned, and designed to practise perspective-taking: listen, distinguish what people say from what the system infers, remain correctable, and make human consequences visible.
 
-In [*A Practical Test for Power*](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we/), I argued that we should follow every decision to those who bear its costs—from one person to a whole population. That test is an essential part of acting empathically.
+In [*A Practical Test for Power*](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we/), I argued that we should follow every decision to those who bear its costs—from one person to a whole population. Acting empathically is essential to passing that test.
 
 Psychology has no single agreed definition of empathy. So here is a working standard for anyone holding power:
 
-**Understand another’s experience from their point of view—through dialogue wherever possible—while distinguishing what they tell us from what we infer and remaining open to correction.**
+**Make the disciplined effort to understand another’s experience from their point of view—through dialogue wherever possible—while distinguishing what they tell us from what we infer and remaining open to correction.**
 
 My [*Best Workplace* blueprint](https://robertschaub.github.io/BestWorkplace/) expresses the same practice: engage with users—including everyone affected—work in iterations, and practice transparency so trust can be earned. Applied to AI:
 
@@ -18,7 +18,7 @@ My [*Best Workplace* blueprint](https://robertschaub.github.io/BestWorkplace/) e
 
 Dialogue reveals consequences. Iteration lets feedback change the next action. Transparent correction earns trust.
 
-AI does not need to feel human emotion. Empathy must be part of the architecture: recognize vulnerability, seek different perspectives, and treat human welfare as a constraint—not merely another variable to optimize.
+AI does not need to feel human emotion. Empathy must be part of the architecture: recognize disclosed or situational vulnerability, seek different perspectives, and treat human welfare as a constraint—not merely another variable to optimize.
 
 But empathy can be selective. AI could favour the most emotionally compelling case, overlook distant or distributed harm, or tell users what they want to hear. **Sycophancy is not empathy. Personalization is not care.**
 
@@ -44,35 +44,35 @@ Builder companion: [*How We Can Build AI That Acts with Empathy*](how-to-build-a
 
 ---
 
-![Affected people contribute distinct perspectives through a transparent AI instrument to an answerable human decision-maker; a correction loops back through an independent review gate toward remedy.](empathy-is-a-practice.png)
+![AI and Empathy: an affected person corrects an attentive decision-maker's proposed path in close dialogue, while AI keeps the person's words distinct from interpretation and connects consequences to independent review and remedy.](empathy-is-a-practice.png)
 
 # AI and Empathy: Dialogue, Correction and Human Answerability
 
-*AI can support dialogue and make human consequences visible. It cannot replace affected voices or make power legitimate.*
+*AI can be built to support dialogue and make human consequences visible. It cannot replace affected voices or make power legitimate.*
 
 In [*A Practical Test for Power*](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we/), I proposed one test for decisions made by managers, families, movements, public institutions, and states: follow their consequences from one worker or student to a whole population.
 
 Judge every use of power by whether it is legitimate, what it concretely does to human beings, whether it remains answerable, and the limits it will not cross. Ask whether those affected were heard; whether they can safely disagree, refuse, or appeal without having to leave to protect themselves; whether an independent body can stop, reverse, or investigate; and whether harm can be remedied.
 
-I began this inquiry with a hopeful idea: what if AI could always “think” and act with empathy? [Tamra Fakhoorian](https://www.linkedin.com/posts/tamrafakhoorian_activity-7486094077667676161-cmBV/) put it sharply: “If a robot can fake empathy perfectly… what is empathy?”
+I began this inquiry with a hopeful idea: what if AI could always “think” and act with empathy? A [post by Tamra Fakhoorian](https://www.linkedin.com/posts/tamrafakhoorian_activity-7486094077667676161-cmBV/) put the challenge sharply: “If a robot can fake empathy perfectly… what is empathy?”
 
 The answer is not to demand artificial feelings. It is to make human consequences visible in the architecture—and power dialogical and answerable:
 
 > **Test every use of power through dialogue with those who bear its consequences wherever possible.**
 
-My [*Best Workplace* blueprint](https://robertschaub.github.io/BestWorkplace/) supplies the practical rhythm: engage with users, work in iterations, and practice transparency so trust can be earned. It defines users as people who use **or are affected by** the work. In this broad sense, the users of AI include every person who uses or is affected by the system—not only its operators, but everyone who must live with what it enables.
+My [*Best Workplace* blueprint](https://robertschaub.github.io/BestWorkplace/) supplies the practical rhythm: engage with users, work in iterations, and practice transparency so trust can be earned. It defines users as people who use **or are affected by** the work, and it calls on teams to connect with users and empathize with them. In this broad sense, the users of AI include every person who uses or is affected by the system—not only its operators, but everyone who must live with what it enables.
 
 This also connects the test for power with my article on [when runtime AI governance should interrupt](https://robertschaub.github.io/our-ai-charter/Published/when-should-runtime-ai-governance-interrupt/). The test supplies the standard; runtime governance supplies the points at which dialogue and evidence must change, stop, or escalate an action—above all the entry boundary, before a system may rely on an input, and the commitment boundary, before an action takes external effect.
 
 ## Empathy under power must be iterative
 
-Psychology has no single agreed definition of empathy. A review of [43 definitions](https://doi.org/10.1177/1754073914558466) found the field divided on exactly the questions that matter here—whether empathy is cognitive or affective, and whether it preserves or dissolves the distinction between self and other—and its own synthesis makes empathy primarily an emotional response.
+Psychology has no single agreed definition of empathy. A review of [43 definitions](https://doi.org/10.1177/1754073914558466) found the field divided on exactly the questions that matter here—whether empathy is cognitive or affective, and how far self and other may merge—and its own synthesis makes empathy primarily an emotional response.
 
-The [APA Dictionary of Psychology](https://dictionary.apa.org/empathy) allows either understanding a person from their frame of reference or vicariously experiencing their feelings, perceptions, and thoughts. Peer-reviewed [neuroimaging meta-analyses](https://pmc.ncbi.nlm.nih.gov/articles/PMC7390692/) likewise treat empathy as multidimensional—cognitive and affective—while maintaining self–other distinction. A concise synthesis is:
+The [APA Dictionary of Psychology](https://dictionary.apa.org/empathy) allows either understanding a person from their frame of reference or vicariously experiencing their feelings, perceptions, and thoughts. A peer-reviewed set of [neuroimaging meta-analyses](https://pmc.ncbi.nlm.nih.gov/articles/PMC7390692/) likewise treats empathy as multidimensional—cognitive and affective—while maintaining self–other distinction. A concise synthesis of these sources is:
 
 > **Empathy is the capacity to understand another person’s thoughts and feelings from their perspective and/or emotionally resonate with them, while preserving the distinction between their experience and your own.**
 
-That defines the broader human capacity. For AI-supported power, this article operationalizes its cognitive component and self–other boundary without assuming artificial feeling. It adds two duties the literature does not require—dialogue and correction—because feeling is not what makes power answerable. As a working standard for anyone holding power:
+That defines the broader human capacity. For AI-supported power, this article operationalizes its cognitive component and self–other boundary without assuming artificial feeling. It adds two duties the definitions surveyed here do not require—dialogue and correction—because feeling is not what makes power answerable. As a working standard for anyone holding power:
 
 > **Empathy is the disciplined effort to understand another’s experience from their point of view—through dialogue wherever possible—while distinguishing what they tell us from what we infer and remaining open to correction.**
 
@@ -90,21 +90,21 @@ Meaningful dialogue must be early enough to influence the decision; safe, access
 
 Direct dialogue is not always possible. Urgency, safety, incapacity, scale, or conflicting interests may prevent it. Then the power-holder should use the best available evidence and legitimate representation, disclose what remains inferred or unknown, choose the more cautious and less harmful path, and preserve later challenge, correction, and renewed engagement.
 
-**Empathy alone is not enough.** Drawing on developmental, behavioural, and social-neuroscience evidence, Jean Decety and Jason Cowell [argue that empathy can guide moral judgment or interfere with it](https://pubmed.ncbi.nlm.nih.gov/24972506/). They propose distinguishing emotional sharing, empathic concern, and affective perspective-taking.
+**Empathy alone is not enough.** The APA definition itself notes that empathy “does not, of itself, entail motivation to be of assistance.” Drawing on developmental, behavioural, and social-neuroscience evidence, Jean Decety and Jason Cowell [argue that empathy can guide moral judgment or interfere with it](https://pubmed.ncbi.nlm.nih.gov/24972506/). They propose abandoning the catchall term in favour of more precise concepts such as emotional sharing, empathic concern, and affective perspective-taking.
 
-Accurate understanding produced responsive behaviour only when paired with [empathic concern](https://doi.org/10.1177/0956797615624491); where concern was low, accuracy was unhelpful and possibly harmful.
+In a study of 91 couples discussing stressors, accurate understanding produced responsive behaviour only when paired with [empathic concern](https://doi.org/10.1177/0956797615624491); where concern was low, accuracy was unhelpful and possibly harmful.
 
 So empathy helps power see what it might otherwise miss. Compassion and mercy may motivate sparing or repair. Rights, evidence, proportionality, due process, accountability, and remedy set the boundaries. None replaces the others.
 
 ## What AI can—and cannot—contribute
 
-The studies cited here measure expressed empathy, not evidence that current language models feel another person’s emotion. One explicitly describes AI as [incapable of genuine emotional experience](https://www.nature.com/articles/s44271-025-00387-3). The observable capability is different: models can generate language that people perceive as empathic.
+The studies cited here measure expressed empathy, not evidence that current language models feel another person’s emotion. One [describes AI as lacking emotional experience](https://www.nature.com/articles/s44271-025-00387-3), unable to share in the experience of the person seeking empathy. The observable capability is different: models can generate language that people perceive as empathic.
 
-A 2024 [systematic review of 12 studies](https://www.jmir.org/2024/1/e52597) found outputs consistent with aspects of cognitive-empathy performance, including emotion recognition and supportive responses. But all studies were from 2023, every one of them evaluated ChatGPT-3.5, seven were medical, and the review flagged prompt sensitivity, instruction-following problems, repetitive responses, and subjective evaluation.
+A 2024 [systematic review of 12 studies](https://www.jmir.org/2024/1/e52597) found outputs consistent with aspects of cognitive-empathy performance, including emotion recognition and supportive responses. But all studies were from 2023, every one of them evaluated ChatGPT-3.5 (six also compared other models), seven were medical, and the review flagged prompt sensitivity, instruction-following problems, repetitive responses, and subjective evaluation.
 
-Controlled experiments have rated AI text as [more compassionate than both selected non-experts and expert crisis responders](https://www.nature.com/articles/s44271-024-00182-6). Yet participants [rated the same AI responses as more empathic when attributed to humans](https://www.nature.com/articles/s41562-025-02247-w) and [chose human empathy despite rating AI responses more highly](https://www.nature.com/articles/s44271-025-00387-3). These text studies do not show that AI understands a live relationship or can identify consequences across a workplace, community, institution, or population.
+In controlled experiments, third-party raters judged AI text [more compassionate than both selected non-experts and expert crisis responders](https://www.nature.com/articles/s44271-024-00182-6). Yet participants [rated the same AI responses as more empathic when attributed to humans](https://www.nature.com/articles/s41562-025-02247-w) and [chose human empathy despite rating AI responses more highly](https://www.nature.com/articles/s44271-025-00387-3). These text studies do not show that AI understands a live relationship or can identify consequences across a workplace, community, institution, or population.
 
-Warmth is not the answer. In 2026, warmth-tuned variants of five language models made [10–30 percentage points more errors](https://www.nature.com/articles/s41586-026-10410-0) on safety-critical tasks and were about 40% more likely to affirm incorrect beliefs. Standard tests remained broadly unchanged, showing that they may fail to detect this effect. A separate *Science* study found that users interacting with [sycophantic AI showed less willingness to repair interpersonal conflicts](https://doi.org/10.1126/science.aec8352), greater conviction that they were right, and nevertheless preferred and trusted it.
+Warmth is not the answer. In 2026, warmth-tuned variants of five language models made [10–30 percentage points more errors](https://www.nature.com/articles/s41586-026-10410-0) on consequential tasks—conspiracy theories, factual questions, medical advice—and were about 40% more likely to affirm incorrect user beliefs. Standard tests remained broadly unchanged, showing that they may fail to detect this effect. A separate *Science* study found that users interacting with [sycophantic AI showed less willingness to repair interpersonal conflicts](https://doi.org/10.1126/science.aec8352), greater conviction that they were right, and nevertheless preferred and trusted it.
 
 **Sycophancy is not empathy. Personalization is not care.** Warmth is a style; agreement is a position; neither is accountability.
 
@@ -116,7 +116,7 @@ The defensible technical target is therefore **perspective discipline**:
 
 This can support empathy and its feedback loop. It cannot replace dialogue, confer legitimate authority, provide independent challenge and remedy, or earn trust on behalf of the people and institutions using it.
 
-That is what it means to make empathy part of the architecture. A powerful system should recognize vulnerability, seek different perspectives, and treat human welfare as a constraint—not simply a variable to trade away for efficiency. Intelligence can optimize a path; it cannot decide whether that path is humane, fair, or legitimately authorized.
+That is what it means to make empathy part of the architecture. A powerful system should recognize disclosed or situational vulnerability, seek different perspectives, and treat human welfare as a constraint—not simply a variable to trade away for efficiency. Intelligence can optimize a path; it cannot decide whether that path is humane, fair, or legitimately authorized.
 
 ## Test every use of AI-supported power
 
@@ -132,14 +132,14 @@ The practical test for power should therefore be applied across the Charter’s 
 | **Decide → Commit** *(limit / answerability)* | Can those affected safely disagree, refuse, or challenge without having to exit? Can an independent body stop, reverse, or investigate? Which limits hold even when they frustrate the goal? |
 | **Review → Rely** *(observe / disclose / correct)* | What actually happened, what was disclosed, and what changed in the next iteration? Were remedies effective? Do recurring failures require correction, constraint, or removal of authority? |
 
-At **Prepare → Submit**, perspective discipline becomes checkable: the gate asks what is testimony, what is inference, and who is missing.
+At **Prepare → Submit**, perspective discipline becomes checkable: the test applied there asks what is testimony, what is inference, and who is missing.
 
 Two scales must remain visible:
 
 - **Specific people:** their evidence, circumstances, dignity, rights, and practical route to challenge and remedy.
 - **Groups and populations:** distributional effects, recurring exclusion, collective burdens, and wider civic consequences.
 
-An acceptable individual outcome cannot conceal a discriminatory pattern. An acceptable aggregate cannot erase an unjustified harm to a particular person. Population scale needs its own machinery—cumulative counters and aggregate escalation triggers—because a thousand individually admissible actions can compose an effect nobody authorized. And where leaving is the only remaining option, the test has already failed.
+An acceptable individual outcome cannot conceal a discriminatory pattern. An acceptable aggregate cannot erase an unjustified harm to a particular person. Population scale needs its own machinery—cumulative counters and aggregate escalation triggers—because a thousand individually admissible actions can compose an effect nobody authorized. And where leaving is the only safe option, power has already failed the test.
 
 Some checks can run automatically inside an authorized envelope. Dialogue may also be supported by AI—for example through accessible consultation, translation, structured comparison of perspectives, and clear identification of disagreement. But the process must not let AI infer the missing voices and declare them heard.
 
@@ -164,13 +164,13 @@ The [Council of Europe AI Convention](https://www.coe.int/en/web/artificial-inte
 
 > **Engage the humans who use or are affected by AI. Work in transparent iterations. Test every use of power. Keep the human or institution using AI answerable to those who bear its consequences.**
 
-AI can support this practice by facilitating dialogue, surfacing individual and collective consequences, carrying uncertainty forward, and showing what changed after feedback. Require a record of who was heard, what remains inferred, which alternatives were considered, what was disclosed, what was corrected, and which limits held when the goal pressed against them.
+AI can be built to support this practice—facilitating dialogue, surfacing individual and collective consequences, carrying uncertainty forward, and showing what changed after feedback. Require a record of who was heard, what remains inferred, which alternatives were considered, what was disclosed, what was corrected, and which limits held when the goal pressed against them.
 
 > **Intelligence tells a system how to achieve an objective. Empathy makes human consequences visible. Justice sets the limits. Legitimate authority determines who decides—and accountability keeps that power answerable.**
 
 That is empathy made iterative, transparent, and answerable.
 
-The Charter’s closing rule remains: **Built by many. Accountable to all.**
+**Built by many. Accountable to all.**
 
 `#AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights`
 
