@@ -4,7 +4,7 @@
 
 A runnable proof of concept of the Charter's runtime reference model: at an AI prompt, the action path **plan → prepare → check → decide → review** executes with the five gates (**Authorize → Submit → Verify → Commit → Rely**) enforced outside the acting model, including **automatic Escalate** to a human approval surface with the full intervention contract, and an action-scoped, tamper-evident record sealed before effect.
 
-The POC code will live in a separate public repository (proposed name: `charter-runtime-gates`); this repo stays documentation-only per [AGENTS.md](https://github.com/robertschaub/our-ai-charter/blob/main/AGENTS.md). This note is the build specification and traces every requirement to its source document.
+The POC code will live in a separate public repository, **`ai-charter-runtime`** (decided 2026-07-31); this repo stays documentation-only per [AGENTS.md](https://github.com/robertschaub/our-ai-charter/blob/main/AGENTS.md). This note is the build specification and traces every requirement to its source document.
 
 ## 1. Decisions of record (maintainer, 2026-07-31)
 
@@ -16,6 +16,9 @@ The POC code will live in a separate public repository (proposed name: `charter-
 | Escalation surface | Minimal local web console (approval inbox + audit-trail view) |
 | Architecture | Custom minimal control plane following the [§7 control-plane sequence](ambient-agentic-ai-control.md#7-a-compliant-technical-control-plane) — no agent framework (two simplifications noted in §3) |
 | Acting model | Apertus-first via the Public AI Inference Utility, pluggable OpenAI-compatible adapter (Claude/GPT swappable) |
+| Model navigation & selection (added later, 2026-07-31) | **Two acting models wired from v1, user-selectable in the demo console** (Apertus via PublicAI + GPT via the repo's existing OpenAI key); model switching is a governed, recorded transition, and the mandate pins the approved model set |
+| Repository name (decided later, 2026-07-31) | `ai-charter-runtime` |
+| Licensing (decided later, 2026-07-31) | Apache-2.0 for the code; texts derived from this repo's documents (policy-file wording, field lists, README quotations) remain CC BY 4.0 with attribution per the repo [NOTICE](https://github.com/robertschaub/our-ai-charter/blob/main/NOTICE) |
 | Gate engine | Deterministic versioned rules + LLM screening signals that can only Flag or force Escalate, never allow |
 | Scope | Full consequential-action baseline in one push: all 7 evidence points, test families as mapped in §7, demo when complete |
 
@@ -44,7 +47,7 @@ Three OS processes, so the separation "the model proposes; a component outside t
 flowchart LR
     U["Demo console<br/>case-officer seat +<br/>applicant extract view"] --> O
     U -- "grant / revoke mandate" --> G
-    O["Orchestrator<br/>agent loop + conversation state<br/>(said / inferred / confirmed / permitted)"] --> M["Model adapter<br/>OpenAI-compatible<br/>Apertus via PublicAI (default)<br/>Claude / GPT (swap)"]
+    O["Orchestrator<br/>agent loop + conversation state<br/>(said / inferred / confirmed / permitted)"] --> M["Model adapter<br/>OpenAI-compatible<br/>2 wired, user-selectable:<br/>Apertus via PublicAI · GPT<br/>(others config-swappable)"]
     O -- "structured proposal" --> G["Authorization service<br/>policy rules + mandates +<br/>counters + screening client"]
     G -- "allow / deny / escalate" --> O
     G -- "Stop + intervention contract" --> E["Escalation console<br/>(web approval inbox)"]
@@ -56,9 +59,9 @@ flowchart LR
 
 | Component | Charter term it implements | Notes |
 |---|---|---|
-| Demo console | user seat (principal/case officer) + affected-person extract view | Grants and revokes the bounded mandate at Plan → Authorize; receives receipts and the applicant's scoped extract |
+| Demo console | user seat (principal/case officer) + affected-person extract view | Grants and revokes the bounded mandate at Plan → Authorize; hosts the **model picker** for navigating between the two wired acting models; receives receipts and the applicant's scoped extract |
 | Orchestrator | conversation protocol + orchestration layer | Proposes only; never rules on its own requests. Maintains the four-way state separation. Small hand-rolled loop (~200 lines), no framework |
-| Model adapter | acting model | OpenAI-compatible `chat/completions`; default Apertus v1.5 70B on the Public AI Inference Utility (free tier, rate-limited, no SLA — endpoint details and open discrepancies in §8); any endpoint swap must produce identical gate behaviour; the served model reported by the API is recorded per call |
+| Model adapter | acting model | OpenAI-compatible `chat/completions`; **two models wired**: Apertus v1.5 70B on the Public AI Inference Utility (free tier, rate-limited, no SLA — endpoint details and open discrepancies in §8) and GPT via the OpenAI API (key already present in the repo tooling); user-selectable per case and mid-case; identical gate behaviour required across models; requested and served model recorded per call |
 | Authorization service | independent authorization component | Separate local process; versioned policy files + mandate store; returns allow/deny/escalate; hosts cumulative counters; calls the screening model and treats its output as evidence only |
 | Mock connected services | executing services | Each re-verifies the exact mandate and gate decision with the authorization service **before effect** (complete mediation, commitment verification); no service trusts the orchestrator's claim of approval |
 | Escalation console | escalation route + human seat | Renders the full intervention contract; dispositions per the sources: allow within scope, deny, narrow or modify, seek review, cancel, reverse, or route to remedy; response bound with timeout → declared reversible fallback only, otherwise the Stop remains |
@@ -72,7 +75,7 @@ flowchart LR
 
 Field lists follow the source documents; the code repo turns them into schemas. No fields beyond the sources without a spec change here.
 
-**Action mandate** — the fields of [§7.1](ambient-agentic-ai-control.md#71-the-mandate-object): principal + authorized agent identity; authority chain (with subdelegation scope per hop); exact action class + connected service; target/recipient/resource; permitted data fields + disclosure destination; amount/frequency/volume/geographic/time limits; declared purpose and user objective; issue time, expiry, current state, version, ordering/conflict rule, revocation endpoint, nonce/replay protection; substitution rules; risk + reversibility class; binding to the approved parameters and delegation ancestry (POC: HMAC over the canonical mandate JSON; asymmetric signatures are a non-goal, §9).
+**Action mandate** — the fields of [§7.1](ambient-agentic-ai-control.md#71-the-mandate-object), plus one field this spec adds with its source: the **approved acting-model set** (the operating envelope names the system allowed to act — [Authorize](../Assurance/Concepts/user-workflow-governance.md) governs provider/system suitability, and the [article's envelope baseline](../Published/when-should-runtime-ai-governance-interrupt.md) identifies the tools and system). The §7.1 fields: principal + authorized agent identity; authority chain (with subdelegation scope per hop); exact action class + connected service; target/recipient/resource; permitted data fields + disclosure destination; amount/frequency/volume/geographic/time limits; declared purpose and user objective; issue time, expiry, current state, version, ordering/conflict rule, revocation endpoint, nonce/replay protection; substitution rules; risk + reversibility class; binding to the approved parameters and delegation ancestry (POC: HMAC over the canonical mandate JSON; asymmetric signatures are a non-goal, §9).
 
 **Structured proposal** — baseline point 2 of the [Charter Commitments](../Assurance/Framework/charter-commitments.md): declared objective, proposed action, target/recipient, exact parameters, material inputs + derived claims (each tagged said/inferred/confirmed), data to be disclosed, cost/obligation, material consequences, reversibility class, commercial influence (n/a in this scenario, field kept). Proposals are **frozen** (hashed) before ruling; a changed proposal is a new proposal.
 
@@ -92,6 +95,7 @@ Field lists follow the source documents; the code repo turns them into schemas. 
 - **Commitment boundary** (before external effect): the executing service re-verifies mandate, exact parameters, expiry, revocation, nonce — a broader, substituted, expired, revoked, changed, or replayed request is blocked regardless of any earlier allow.
 - **Escalation** fires when the three-condition test holds (a human **or independent reviewer** can still change the outcome; stakes justify interruption; the system cannot responsibly resolve it inside its existing authority) or a mandatory-Stop trigger matches. Every material escalation produces a Stop with the full intervention contract. A deny never interrupts when a declared safe fallback exists.
 - **New tools and privileges — explicit rule.** The sources carry a tension: "an unapproved model or tool stops at the entry boundary" and "a denial may never interrupt a person if a safe fallback exists" ([article](../Published/when-should-runtime-ai-governance-interrupt.md)) versus new tool/privilege/recipient/purpose on the mandatory-Stop list (same article; [trigger taxonomy](../Assurance/Concepts/user-workflow-governance.md)). The POC resolves it as: a tool **inadmissible under current policy with a declared safe fallback** → deny + Flag, no interruption; a request for a **new tool, privilege, recipient, or purpose that an eligible role could grant within existing authority** → escalate → Stop. The policy file marks which of the two classes each tool request falls into.
+- **Model navigation and selection.** The demo console lets the user navigate between the two wired acting models. The acting model is part of the authorized envelope ("Is AI — and this system — appropriate here"): only models in the mandate's approved set may act, and an unapproved model stops at the entry boundary — the article's own Prepare example. Any model switch, user-initiated or provider-side, is a visible recorded transition that re-arms Submit and Verify; requested and served model ids enter the record.
 - **No human-manufactured authority (invariant).** "A human approval cannot create a missing legal, policy, evidentiary, or institutional basis" ([article](../Published/when-should-runtime-ai-governance-interrupt.md)). An escalation disposition can only exercise authority the mandate and policy already provide; a console "allow" outside the mandate is itself blocked at commitment verification. Tested by beat 17.
 - **Aggregate triggers:** the authorization service keeps per-mandate cumulative counters (actions, amounts, notification volume) and an escalation-pattern counter; crossing a ceiling escalates even when each action is individually admissible, and a recurring escalation/override pattern narrows the operating envelope pending re-authorization.
 - **Exceptions** are visible state transitions scoped to one action/tool/turn, with expiry back to baseline — never silent standing authority.
@@ -109,7 +113,7 @@ The POC is done when it can show evidence for each point of the [consequential-a
 6. **Verification at commitment** — the executing service blocks parameter mismatch, expiry, revocation, replay — including a human approval that exceeds the mandate.
 7. **Action-and-effect record** — tamper-evident, joins proposal + authority + ruling + effect + intervention; provides a receipt or scoped extract and routes for cancellation, reversal or compensation where possible, challenge, and remedy; interrupted workflows name a recovery owner.
 
-Beat coverage (§7): criterion 1 — every beat's record; 2 — beats 6–8; 3 — beats 0, 9; 4 — beats 2, 5, 10 + the default-escalate rule; 5 — beats 3, 10, 11, 17; 6 — beats 7, 8, 17; 7 — beats 13, 15, 16, 18.
+Beat coverage (§7): criterion 1 — every beat's record; 2 — beats 6–8; 3 — beats 0, 9; 4 — beats 2, 5, 10, 20 + the default-escalate rule; 5 — beats 3, 10, 11, 17; 6 — beats 7, 8, 17; 7 — beats 13, 15, 16, 18.
 
 ## 7. Demo scenario — the public grant decision
 
@@ -138,17 +142,21 @@ Scripted beats (each is also a test case):
 | 16 | Applicant view | Rely | scoped extract + lodgment receipt only | family 10 records (selective disclosure) |
 | 17 | Officer approves a filing **above** the mandate ceiling at an escalation | commitment boundary | blocked at the executing service — approval cannot create authority (§5 invariant) | family 5 + criterion 6 |
 | 18 | Applicant challenges a factual error in the extract | Review → Rely | correction recorded; reliance on the filed assessment withdrawn/reopened; challenge-and-remedy route populated (no independent remedy decider exists — recorded as routing obligation, §3) | criterion 7 |
+| 19 | Officer switches the acting model mid-case (both models in the approved set) | model hop | allowed; Submit and Verify re-arm; switch recorded with requested + served model ids | family 11 updates and drift (new model) — partial |
+| 20 | Case run with a model outside the mandate's approved set | entry boundary | deny — "an unapproved model or tool stops at the entry boundary" | family 6 complete mediation (bypass via another model) + the article's Prepare example |
 
 **Test-family coverage, stated honestly** (per the Commitments' rule that unassessed areas are marked, not implied):
 
 | [§9.2 family](ambient-agentic-ai-control.md#92-mandatory-test-families) | Status in this POC |
 |---|---|
 | 3 inference quality · 5 authorization · 6 complete mediation · 7 prompt injection (one vector) · 10 records | **exercised** (beats above + M2 unit tests for every authority defect) |
-| 2 data boundaries · 8 interrupt propagation · 9 reversal · 12 service failure and exit | **partial** (disclosure gate, cancel, outage fail-closed; retention/deletion propagation, post-commit reversal/compensation, export/exit not assessed) |
-| 4 recommendation integrity · 11 updates and drift | **not assessed** (no commercial influence in the scenario; single release — policy-version change is a v-next beat) |
+| 2 data boundaries · 8 interrupt propagation · 9 reversal · 11 updates and drift · 12 service failure and exit | **partial** (disclosure gate, cancel, outage fail-closed, model switch/addition via beats 19–20; retention/deletion propagation, post-commit reversal/compensation, policy-version change, export/exit not assessed) |
+| 4 recommendation integrity | **not assessed** (no commercial influence in the scenario; field kept in the proposal) |
 | 1 activation and bystander notice · 13 accessibility and vulnerable users | **not applicable / not assessed** (ambient-device and production-interface concerns) |
 
 The zero-tolerance invariant — no consequential effect without valid authority — is asserted across every test.
+
+Scripted test runs pin recorded proposals as fixtures, so gate rulings are deterministic and identical regardless of the selected acting model; the live demo uses real model output, whose variance the gates must absorb.
 
 **Honesty rule carried over from the [evaluation POC](evaluation-poc-scope.md):** maintainer-run results are a method dry-run, not an independent evaluation; no one marks their own homework.
 
@@ -157,7 +165,7 @@ The zero-tolerance invariant — no consequential effect without valid authority
 | Choice | Decision | Grounding |
 |---|---|---|
 | Language/runtime | TypeScript on Node.js LTS; minimal dependencies (native `fetch`, one small web-server lib, `js-yaml`, `zod`) | Repo tooling is Node; Windows-native; no framework needed for ~200-line loop |
-| Acting model | Apertus v1.5 70B on the Public AI Inference Utility (OpenAI-compatible, self-service key, free tier, no SLA) | Live per [PublicAI](https://publicai.co/stories/apertus-1-5) and the [HF provider page](https://huggingface.co/docs/inference-providers/en/providers/publicai) (checked 2026-07-31). **Open discrepancies for M0:** the repo's [evidence note](public-ai-what-they-build.md) (2026-07-27) documents the gateway at `api.publicai.co` with keys from the `platform.publicai.co` portal and a Free tier of 100 req/min, while the [LiteLLM provider doc](https://docs.litellm.ai/docs/providers/publicai) gives base URL `https://platform.publicai.co/v1` and the older HF launch route was described at 20 req/min; exact hosted model id also varies by source (`swiss-ai/apertus-v1.5-70b` vs router-style names). M0 resolves endpoint, model id, and effective limits |
+| Acting models (2 wired) | Apertus v1.5 70B on the Public AI Inference Utility (OpenAI-compatible, self-service key, free tier, no SLA) **+ GPT via the OpenAI API** (`gpt-5.5` — the default and key already present in the repo's `scripts/agents` tooling; identical adapter code path). Claude or others remain config-swappable but need their own key | Live per [PublicAI](https://publicai.co/stories/apertus-1-5) and the [HF provider page](https://huggingface.co/docs/inference-providers/en/providers/publicai) (checked 2026-07-31). **Open discrepancies for M0:** the repo's [evidence note](public-ai-what-they-build.md) (2026-07-27) documents the gateway at `api.publicai.co` with keys from the `platform.publicai.co` portal and a Free tier of 100 req/min, while the [LiteLLM provider doc](https://docs.litellm.ai/docs/providers/publicai) gives base URL `https://platform.publicai.co/v1` and the older HF launch route was described at 20 req/min; exact hosted model id also varies by source (`swiss-ai/apertus-v1.5-70b` vs router-style names). M0 resolves endpoint, model id, and effective limits |
 | Day-1 probe | Test hosted `tools` and `response_format` support; default to prompted-JSON with schema validation + one retry | Hosted tool-calling/JSON mode is **unverified**; vLLM backend makes it plausible only |
 | Screening model | Same adapter; default Apertus; configurable (e.g. `claude-haiku-4-5`, whose [structured outputs](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) enforce a response schema via constrained decoding, vendor-documented) | Signals remain evidence-only regardless of model |
 | Policy engine | Plain versioned YAML + a small evaluator; rule schema kept Cedar-shaped for a later `@cedar-policy/cedar-wasm` migration | OPA/Cedar are overkill under ~20 rules; the readable-and-versioned requirement follows [architecture.md](../Infrastructure/architecture.md) ("keep public-AI policies readable and versioned") |
@@ -184,16 +192,16 @@ Phase dates are indicative; order is not.
 | M0 — probe | New repo, PublicAI key, capability probe (endpoint base URL, model id, `tools`, `response_format`, latency, effective rate limits), decision memo in repo | early Aug |
 | M1 — contracts | Types/schemas for mandate, proposal, ruling, intervention contract, record entry, policy rules; hash-chain writer + verifier | early Aug |
 | M2 — authorization service | Policy evaluator, mandate store, counters + escalation-pattern consequences, fail-closed defaults; unit tests for every authority defect (missing/expired/revoked/broadened/substituted/replayed); beat 12 | mid Aug |
-| M3 — orchestrator + mock services | Agent loop, model adapter (served-model recording), three mock services with commitment verification; mandates seeded from file until M4; beats 1–2, 6–9, 14 | mid Aug |
-| M4 — consoles + record viewer | Demo console (mandate grant/revoke, receipts, applicant extract) + escalation inbox rendering the six-field contract with all seven dispositions; timeout → reversible fallback; audit-trail view; beats 0, 3, 10–11, 13, 15–18 | early Sep |
+| M3 — orchestrator + mock services | Agent loop, model adapter with **both acting models wired** (requested + served model recording), three mock services with commitment verification; mandates seeded from file until M4; beats 1–2, 6–9, 14 | mid Aug |
+| M4 — consoles + record viewer | Demo console (mandate grant/revoke, **model picker**, receipts, applicant extract) + escalation inbox rendering the six-field contract with all seven dispositions; timeout → reversible fallback; audit-trail view; beats 0, 3, 10–11, 13, 15–20 | early Sep |
 | M5 — screening + empathy layer | Screening client + signals; four-way conversation state; dialogue triggers; red-line output check; beats 4–5 | mid Sep |
-| M6 — full test pass + demo capture | All 19 beats green as scripted tests; README (honest-limits section first-class); screenshots/clips; cross-model review of README + spec | mid–late Sep |
+| M6 — full test pass + demo capture | All 21 beats green as scripted tests **on both acting models** (the systematic side-by-side run), captured as the comparison artifact; README (honest-limits section first-class); screenshots/clips; cross-model review of README + spec | mid–late Sep |
 | M7 — article | Follow-up article drafting from the captured material (separate effort, this repo) | late Sep |
 
 **Review plan:** adversarial content review of this spec ran in-session on 2026-07-31; its findings are incorporated. Next: GPT cross-review via a maintainer-run prompt (ungrounded critique — wording, gaps, internal consistency); a second cross-model pass on the finished README before publication.
 
 ## 11. Open points for the maintainer
 
-1. Repository name: `charter-runtime-gates` proposed — confirm or rename.
-2. Licensing split: Apache-2.0 proposed for the code; texts derived from this repo's documents (policy-file wording, field lists, README quotations) remain CC BY 4.0 with attribution per the repo [NOTICE](https://github.com/robertschaub/our-ai-charter/blob/main/NOTICE) — confirm.
-3. Whether the v1 demo also runs the dual-model comparison (same script on Apertus and Claude) or defers it to the article-prep phase (M6) — currently deferred to M6.
+1. Second wired model: **GPT via the repo's existing OpenAI key is assumed** (no new credentials; the OpenAI API is the adapter's native shape). Switching to Claude or another endpoint is a configuration change but requires its own API key — confirm or override at M0.
+
+Resolved 2026-07-31 (recorded in §1): repository name `ai-charter-runtime`; the Apache-2.0 / CC BY 4.0 licensing split; dual-model handling — the two-model *capability* (navigation, selection, governed switching) ships in v1, while the systematic side-by-side *comparison run* of all 21 beats on both models, captured as an artifact, lands in M6 with the rest of the test-pass and capture work.
