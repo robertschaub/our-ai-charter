@@ -10,7 +10,7 @@ The useful relationship is therefore complementary:
 
 > **Hugging Face can be an interoperable discovery and evidence surface, but should not become the network's sole host, governor, or source of truth.**
 
-This maps closely to the network's [find → check → use](../network-overview.md#how-it-is-used) path. The Hub helps people find models and datasets; cards and evaluations help them check documented claims; Inference Providers and Spaces help them use models. The Charter's [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md) adds the missing public-interest decisions and accountabilities around those functions.
+This maps closely to the network's [find → check → use](../network-overview.md#how-it-would-work) path. The Hub helps people find models and datasets; cards and evaluations help them check documented claims; Inference Providers and Spaces help them use models. The Charter's [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md) adds the missing public-interest decisions and accountabilities around those functions.
 
 ## Where the fit is strongest
 

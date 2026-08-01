@@ -1,58 +1,85 @@
 ---
-title: The Network
-description: What the proposed public-AI network is — its pillars, how it is used and built, and what joining means today.
+title: The proposed public-AI network
+description: Why a public-AI network is needed, what it would add, how it would work, and how to take part today.
 ---
 
-# The Network
+# The proposed public-AI network
 
-> **Where this stands today.** This proposed public-AI network is an **early-stage, voluntary** design. No public front door, admission body, assessor, adjudicator, public register, certification, or trust badge exists yet — only the proposal, the public drafts, and prospective partners. "Joining" today means registering interest in a role, not endorsement or certification.
+Open models are necessary, but they are not public infrastructure by themselves. Digital sovereignty is the capacity to inspect systems, help set their rules, contest decisions, and switch; this proposal connects the models, lawful data, evidence, governance, and federated compute needed to make that possible.
 
-*The [home page](index.md) covers both building blocks; the [federated public AI infrastructure](Infrastructure/architecture.md) details this network's technical design; the [Charter Commitments](Assurance/Framework/charter-commitments.md) define the assurance layer; the [initiation strategy](Strategy/initiation-strategy.md) sets out the sequence and roadmap.*
+> **Where this stands today.** This proposed public-AI network is an **early-stage, voluntary** design. No public front door, admission body, assessor, adjudicator, public register, certification, or trust badge exists yet — only the proposal, the public drafts, and prospective partners. Taking part today means contributing, testing the case, or registering interest in a role — not endorsement or certification.
 
-## What it is
+*The current [project statement](Published/our-ai-charter-public-ai-infrastructure.md) makes the fuller case; the [sovereignty argument](Published/swiss-autarky-illusion.md) explains why autarky is not sovereignty. See the [architecture](Infrastructure/architecture.md), [Charter Commitments](Assurance/Framework/charter-commitments.md), and [initiation strategy](Strategy/initiation-strategy.md) for technical, assurance, and coalition detail.*
 
-The proposed public-AI network is an international effort to make public AI usable as shared civic infrastructure: open and plural, accountable to affected people, inspectable by appropriate parties, and resistant to capture by any single state, company, funder, or model provider. A **network, not a fortress** — and capture-resistance is a design commitment, not a guarantee: a voluntary network can be captured, so the design works to make that hard and visible.
+## Why a network
 
-Four pillars:
+AI is becoming infrastructure through which people learn, work, decide, and form opinion. An open model can still sit behind opaque routing, data practices, access controls, and failure review; a collection of national models is therefore not yet shared public infrastructure. A federation lets institutions keep local control while sharing standards, evidence, accountability, and fallback paths — widening access for researchers, public bodies, startups, and civic builders without dependence on one provider.
 
-1. **Open, plural models** — no privileged model, country, or vendor.
-2. **Data and provenance commons** — rights-cleared, privacy-respecting, documented data sources with tiered access: openly reusable sub-corpora where legally robust; protected research, audit, or licensed access where rights, privacy, or sensitivity require it; and shared clearance so public actors do not each negotiate alone.
-3. **Shared assurance and evaluation** — public, checkable evidence for what a system claims and how it answers for failures.
-4. **Federated public AI infrastructure** — independent compute nodes under shared rules; the first buildable substrate.
+## What it combines
 
-The data commons is not a promise that all useful training data can be made open. It is a commitment to make origin, permissions, opt-outs, restrictions, and review routes explicit, so public AI is not built on hidden or legally fragile data practices. Where licensing is needed, the collective value is **clear once, reuse many**: a credible public counterpart that rightsholders can license to under common terms, rather than every public model negotiating alone.
+Four connected pillars:
 
-Underneath all four sits **competence**: infrastructure can be procured, but the ability to understand, govern, and continuously improve these systems has to be built — through sustained investment in education, research, and managerial capability — and kept broadly held across the network's institutions rather than concentrated with any provider. In the long run, this human capital is as decisive for sovereignty as the technology itself.
+1. **Open, plural models** — inspectable and comparable, with none privileged in the network's rules.
+2. **Data and provenance commons** — documented origin, permissions, opt-outs, restrictions, and access conditions.
+3. **Shared assurance and evaluation** — scoped, checkable evidence, independent review, correction, and remedy.
+4. **Federated public AI infrastructure** — independently operated compute nodes under shared rules and local control.
 
-Holding them together: **anti-capture governance** and **demand** from public institutions, researchers, civic builders, and procurement. *Public AI* is the broader movement; the *Public AI Inference Utility* (publicai.co) is a separately operated nonprofit inference service this initiative draws on; *publicai.ch / SPIU* is a self-described Swiss chapter — a proposed cooperative linked to that utility; this proposed network is the co-stewarded effort described here, with **AI Assurance & Certification** as its trust-and-evidence building block.
+**AI Assurance & Certification** is the third pillar's trust-and-evidence building block: the obligations, evaluation method, and future assurance structure that make public-AI claims checkable.
 
-## How it is used
+The data commons does not assume that all useful training data can be open. Its benefit is **clear once, reuse many**: handle rights, provenance, and access conditions collectively instead of making every public model negotiate alone.
 
-The user path is **find → check → use**: find an **AI system** that matches the need (purpose, capability, jurisdiction, language, openness, evidence status); check its capabilities and assurance separately ([what to ask](index.md#what-must-be-checkable)) — what it claims to do versus what has been independently reviewed and what is still unverified; and use it as an **AI service** (an endpoint, assistant, agent, or evaluator) through a public front door once one exists, with access tiered by user role and data sensitivity. The same offering is an **AI system** when you find, compare, and assess it — who owns it, what it must comply with — and an **AI service** when it is served and used. Discovery must stay plural and neutral, because whoever controls discovery can shape the market.
+Here, **public** describes obligations, accountability, access, and governance — not an operator's legal form. Public, academic, cooperative, nonprofit, and mission-aligned commercial nodes could participate under the same disclosure, portability, evidence, and anti-capture rules.
 
-## How it is built
+Under all four sits **competence**. Infrastructure can be procured; the ability to understand, govern, and improve it must be built through education, research, managerial capability, and institutional learning — and kept broadly distributed. **Anti-capture governance** and public-interest **demand** hold the pillars together.
 
-The first practical build is the **federated public AI infrastructure**: one governed access point — a **policy broker** that decides what may run, where, and what evidence is kept — serving several public models — and the **AI services** built on them — across at least two independently operated **nodes** (compute run by accountable **operators**), with public model/node/evaluation cards and an **evidence plane** (public where possible, protected-access where sensitive, never raw personal data). The build is small and phased: define and align → prototype → federate a second node → institutionalise under a neutral host. The [pilot & rollout strategy](Infrastructure/pilot-and-rollout.md) gives the MVP and open decisions; the [architecture](Infrastructure/architecture.md) gives the broker, evidence plane, compute tiers, and controls.
+## How it would work
 
-## How to join
+The intended user path is **find → check → use**:
 
-Right now, joining means **registering interest** — nothing is live to operate or certify yet. Phase 1 is drafting and coalition-building, so here is how different people and organisations can help today:
+1. **Find** a system suited to the purpose, jurisdiction, language, openness, and capability needed.
+2. **Check** its claims, reviewed evidence, known limits, and unverified areas ([questions to ask](index.md#what-must-be-checkable)).
+3. **Use** it as an endpoint, assistant, agent, or evaluator under access rules suited to the user and data.
 
-- **AI builders & research teams** — developing models, datasets, or evaluations: cooperate rather than enlist — show where the governance-and-evidence proposal overclaims or duplicates your work, align on shared openness and evaluation criteria, and (later) volunteer a system for an evaluation pilot. None are running yet.
-- **Contributors** — sharpen the drafts directly: critique, research an open question, translate, or draft a section. No permission needed.
-- **Advocates & connectors** — people with reach or convening power: open one useful door — an introduction, a neutral convenor, an institutional anchor, or a venue — and make the case publicly.
-- **Funders & supporting organisations** — resource a concrete deliverable (an evaluation protocol, a pilot outline, the coalition process) or give in-kind (compute, staff, a venue). Funding is disclosed and diversified, and no funder controls the rules or the findings.
-- **Policy & institutional leaders** — back sovereign, open, public-interest AI where you already have a say: motions, national action plans, or a neutral roundtable toward Geneva 2027. Alliance and mandate first, lawmaking later.
-- **Users & the public** — follow and share, and hold the AI you already use to the [questions that must be checkable](index.md#what-must-be-checkable).
+The same offering is an **AI system** when found, compared, or held to account and an **AI service** when served and used — two views, not separate layers.
 
-**Later — operational roles** once the network runs, kept distinct because they carry power and accountability: **operator / node**, **model & data providers** (with provenance and rights duties), **deployer**, **steward**, and **assessor / adjudicator**. Admission will be rules-based, appealable, role-specific, and proportionate to risk and scale, so small and Global-South operators are not burdened out — starting from signed commitments and self-attestation, maturing to independent review, audit sampling, public status, and sanctions for false claims. Membership is not a trust badge: only verified claims may be made.
+Discovery must remain plural and neutral because whoever controls discovery can shape the market.
 
-To take part, open a [GitHub issue](https://github.com/robertschaub/our-ai-charter/issues) (templates provided) or, for an introduction, funding, or anything not-for-public, write to [info@factharbor.ch](mailto:info@factharbor.ch). Registering interest is not endorsement or certification, and the initiator contributes the method but operates no assessor or registry.
+Existing gateways, schedulers, registries, and identity systems mostly answer a capability question: **can this run?** The proposed public-interest layer makes the legitimacy and accountability question explicit and portable: **may it run — for whom, for what purpose, on which node, with what model and data, under which evidence duties, and with what route to challenge and remedy?**
 
-## What this is not
+No body should control that whole chain. Service roles — model or data provider, deployer, node operator — would remain distinct from the rule steward, evidence custodian, independent reviewer, and remedy decider ([why the roles must stay separate](Published/when-vs-who-ai-governance.md)). If the scheme matured, accreditation and peer review would check the reviewers.
 
-Beyond what does not exist *yet* (see the status box above), these are boundaries by design:
+## What would be built first
 
-- Not a new language model competing with Apertus or any other public model.
+The proposed first pilot is deliberately small: a simple access layer; a **model-plural policy broker** deciding whether and where a workload may run and what evidence must be kept; several public models; at least two independent nodes; and an **evidence-and-accountability plane**.
+
+The nearest live starting pattern is an Apertus-backed inference and evaluation service following the Public AI Inference Utility pattern, extended with broker and evidence controls, then federated with a second node or provider and ideally a second model family. These are reference components, not an affiliation or active-pilot claim. Node control would stay local while policy, quota, accounting, evidence, and accountability are shared.
+
+Evidence would be public where safe, protected and access-logged where review requires it, and not retained without lawful need; raw personal data would never enter the public evidence layer. The sequence is **define and align → prototype → federate → institutionalise**; the [pilot and rollout strategy](Infrastructure/pilot-and-rollout.md) holds the MVP and open decisions.
+
+Success is not global scale. It is proving that public compute can be shared under inspectable rules.
+
+## What happens next
+
+The work is in **Phase 1: public drafting and connection-building**. The near-term target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The route is **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
+
+## How to take part now
+
+- **Builders and researchers** — identify overclaims, duplication, and unrealistic evidence duties; later, offer a system for a bounded pilot.
+- **Contributors** — critique, research, translate, or improve a draft through GitHub.
+- **Connectors** — open one useful door to a neutral convenor, institutional anchor, partner, or venue.
+- **Funders** — support one deliverable or contribute compute, staff, or a venue without controlling rules or findings.
+- **Policy and institutional leaders** — test the question through procurement, policy, a pre-sprint, or Geneva 2027.
+- **Users and the public** — apply the [checkable questions](index.md#what-must-be-checkable) when choosing, buying, evaluating, or challenging AI.
+
+If operational roles are created, admission would be rules-based, appealable, role-specific, and proportionate. It could begin with signed commitments and self-attestation, then mature through independent review, public status, and consequences for false claims. Membership would never be a trust badge: only verified, scoped claims could be made.
+
+To take part, open a [GitHub issue](https://github.com/robertschaub/our-ai-charter/issues) or, for introductions, funding, or anything not for public posting, write to [info@factharbor.ch](mailto:info@factharbor.ch). The initiator contributes the method but operates no assessor, adjudicator, or registry.
+
+## Boundaries
+
+This proposal contributes to the broader public-AI movement; it does not claim affiliation with an existing coalition unless explicitly stated. The **Public AI Inference Utility** (publicai.co) is a separately operated nonprofit service whose access pattern informs the design; **publicai.ch / SPIU** is a self-described Swiss chapter and proposed cooperative linked to that utility. Both are separate from this initiative.
+
+- Not a new language model competing with Apertus or another public model.
+- Not a new runtime, scheduler, marketplace, identity system, or standalone certification authority.
 - Not a single global GPU pool or a claim of full-stack sovereignty.
-- Not a way for funders, operators, or model providers to buy control over the rules.
+- Not a way for funders, operators, model providers, or a host country to buy control over the rules or findings.

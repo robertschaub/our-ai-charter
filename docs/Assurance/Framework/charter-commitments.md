@@ -30,7 +30,7 @@ _Today only the **Supporter** step is open — publicly endorsing the commitment
 - **Pilot participant** — organisations may volunteer a specific deployed system for a draft evaluation report. No Mark or certificate is issued in this phase, and no pilot evaluations are running yet — volunteering registers interest in a possible future step.
 - **Future Trust Mark candidate / holder** — once a conformity scheme exists, members may submit a specific model or system for independent audit against the operational duties. Any future Mark is granted **per model and version — never as a blanket badge for an organisation** — and may be revoked.
 
-_These are the assurance roles for committing organisations. For the wider network — builders, funders, convenors, advocates, and supporters — see [How to join](../../network-overview.md#how-to-join)._
+_These are the assurance roles for committing organisations. For the wider network — builders, funders, convenors, advocates, and supporters — see [How to take part now](../../network-overview.md#how-to-take-part-now)._
 
 **Key terms**
 

@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-08-01
+- **Network overview rebuilt around the public-AI proposition** — [the overview](docs/network-overview.md) now leads with the sovereignty test, defines what "public" means, maps AI Assurance & Certification to the third pillar, preserves the system/service lens, distinguishes capability from the proposed control-and-evidence layer, separates service from accountability roles, aligns the first build with the Apertus/Public AI Inference Utility reference pattern, names the bounded Geneva 2027 target, and replaces present-tense joining language with concrete ways to take part now. README, navigation, and inbound anchors reconciled.
 - **Hook-coverage claim hedged in the agent rules** — [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md) no longer assert that the destructive-git PreToolUse hook fires for the main session only: during the runtime-POC repository configuration an identical hook was observed firing for a subagent Bash call as well. The instruction is unchanged (never delegate destructive git to subagents); the premise is now stated as a backstop with variable coverage rather than a guarantee.
 
 ## 2026-07-31

@@ -117,7 +117,7 @@ extra:
 
 nav:
   - Home: index.md
-  - The Network: network-overview.md
+  - Network overview: network-overview.md
   - Articles:
       - "AI and Empathy: Dialogue, Correction and Human Answerability": Published/empathy-is-a-practice.md
       - "How We Can Build AI That Acts with Empathy — builder article": Published/how-to-build-ai-that-acts-with-empathy.md

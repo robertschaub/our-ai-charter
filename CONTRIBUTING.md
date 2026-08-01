@@ -2,7 +2,7 @@
 
 This is an open draft, meant to be improved by critique. You do not need permission to take part.
 
-Builders, funders, convenors, supporters, and policy backers — see **[How to join](docs/network-overview.md#how-to-join)** for all the ways to take part. This page covers contributing to the drafts themselves.
+Builders, funders, convenors, supporters, and policy backers — see **[How to take part now](docs/network-overview.md#how-to-take-part-now)** for all the ways to help. This page covers contributing to the drafts themselves.
 
 ## Working norms
 
