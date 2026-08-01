@@ -1,6 +1,6 @@
 ---
 title: The proposed public-AI network
-description: Why a public-AI network is needed, what it would add, how it would work, and how to take part today.
+description: Why a public-AI network is needed, what it would add, how it would govern AI-supported action, and how to take part today.
 ---
 
 # The proposed public-AI network
@@ -44,9 +44,15 @@ The same offering is an **AI system** when found, compared, or held to account a
 
 Discovery must remain plural and neutral because whoever controls discovery can shape the market.
 
-Existing gateways, schedulers, registries, and identity systems mostly answer a capability question: **can this run?** The proposed public-interest layer makes the legitimacy and accountability question explicit and portable: **may it run — for whom, for what purpose, on which node, with what model and data, under which evidence duties, and with what route to challenge and remedy?**
+## How it would govern action and human consequences
 
-No body should control that whole chain. Service roles — model or data provider, deployer, node operator — would remain distinct from the rule steward, evidence custodian, independent reviewer, and remedy decider ([why the roles must stay separate](Published/when-vs-who-ai-governance.md)). If the scheme matured, accreditation and peer review would check the reviewers.
+Existing gateways, schedulers, registries, and identity systems mostly answer **can this run?** The proposed public-interest layer asks **may it run — for whom, for what purpose, on which node, with what model and data, under which evidence duties, and with what route to challenge and remedy?** Accountability therefore cannot stop at choosing a model or evaluating a release. The network would connect lifecycle governance — **design → deploy → operate → incident → remedy** — with [five activity/gate pairs for each AI-supported action](Published/when-should-runtime-ai-governance-interrupt.md): **Plan → Authorize; Prepare → Submit; Check → Verify; Decide → Commit; Review → Rely.**
+
+The rule is to govern every authority-bearing transition, not every inference. A component outside the acting model would return **allow, deny, or escalate**; the service producing an external effect would verify that decision again. Routine, reversible actions inside an authorized envelope could remain silent. External, irreversible, regulated, person-affecting, or out-of-bounds actions would stop when required authority or evidence is absent — human approval cannot manufacture the missing basis. Preserve an action-scoped record of authority, material evidence and uncertainty, effect, and challenge route — not every token or the whole conversation.
+
+Those gates are also moments to reopen dialogue. [How We Can Build AI That Acts with Empathy](Published/how-to-build-ai-that-acts-with-empathy.md) treats empathy as observable, correctable behaviour that protects human agency — not artificial feeling. Keep distinct what a person said, what the system inferred, what the person confirmed, and what it has revocable permission to use or remember; seek affected perspectives; carry disagreement and uncertainty forward; and make correction, refusal, and escalation usable. Reopen dialogue only when an unresolved interpretation, permission, missing perspective, or observed consequence could change a transition, following **engage → act → observe → disclose → correct → re-engage**. **Sycophancy is not empathy:** models can support perspective-taking but cannot supply legitimate authority, independent review, or remedy. For builders: **train for perspective-taking; tune for truthfulness and agency; adapt only with consent; improve only through governed, testable releases.**
+
+No body should control the accountability chain. Service roles — model or data provider, deployer, node operator — would remain distinct from the rule steward, evidence custodian, independent reviewer, and remedy decider ([why the roles must stay separate](Published/when-vs-who-ai-governance.md)). If the scheme matured, accreditation and peer review would check the reviewers.
 
 ## What would be built first
 
