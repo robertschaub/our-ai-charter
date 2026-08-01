@@ -2,6 +2,9 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-08-02
+- **Network overview reconciled with the remaining published arguments** — [the overview](docs/network-overview.md) now carries the practical test for power, individual and population-scale effects, the five public trust obligations, values-bound participation, the economic case for distributed competence, multilingual interoperability, and a first public model-and-provenance catalogue without turning into an article index.
+
 ## 2026-08-01
 - **Network overview foregrounds runtime governance and empathic design** — [the overview](docs/network-overview.md) now treats the five activity/gate pairs and the empathy practice as central operating mechanisms: govern authority-bearing transitions rather than every inference; preserve an action-scoped record without ambient surveillance; reopen dialogue where interpretation, permission, affected perspectives, or consequences could change an action; and keep perspective-taking, truthfulness, consent, human authority, review, and remedy distinct.
 - **Network overview rebuilt around the public-AI proposition** — [the overview](docs/network-overview.md) now leads with the sovereignty test, defines what "public" means, maps AI Assurance & Certification to the third pillar, preserves the system/service lens, distinguishes capability from the proposed control-and-evidence layer, separates service from accountability roles, aligns the first build with the Apertus/Public AI Inference Utility reference pattern, names the bounded Geneva 2027 target, and replaces present-tense joining language with concrete ways to take part now. README, navigation, and inbound anchors reconciled.

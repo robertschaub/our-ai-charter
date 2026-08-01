@@ -43,7 +43,7 @@ Published mirrors and translations of external articles. Status is shown inline 
 
 Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, resilience, and coordination across free societies.
 
-- **[The proposed public-AI network](docs/network-overview.md)** — *DRAFT*. Plain-language case for the network: why open models are not enough, what the four pillars and control-and-evidence layer add, how five runtime gates and an empathy practice govern AI-supported action, how a first federation would work, and how to take part now.
+- **[The proposed public-AI network](docs/network-overview.md)** — *DRAFT*. Plain-language case for the network: why open models are not enough, what the four pillars and control-and-evidence layer add, how five runtime gates, a practical test for power, and an empathy practice govern AI-supported action, how a first federation would work, and how to take part now.
 - **[Federated public AI infrastructure — architecture](docs/Infrastructure/architecture.md)** — *DRAFT*. Technical and governance architecture for a model-plural federation, broker, evidence plane, compute tiers, and anti-capture controls.
 - **[Federated public AI infrastructure — pilot & rollout](docs/Infrastructure/pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and framing.
 - **[Public-interest control & evidence layer](docs/Infrastructure/control-and-evidence-layer.md)** — *DRAFT*. Cooperator one-pager: the legitimacy/accountability layer (policy broker, evidence plane, assurance & adjudication) the network adds on top of existing compute.
