@@ -189,4 +189,5 @@ nav:
       - "Ambient agentic AI — control rules": wip/ambient-agentic-ai-control.md
       - "Split custody for per-action records": wip/split-custody-per-action-records.md
       - "Runtime gates POC — specification": wip/runtime-gates-poc-spec.md
+      - "JusticeTree VBE ↔ Charter — runtime crosswalk": wip/justice-tree-vbe-charter-crosswalk.md
   - About: About.md
