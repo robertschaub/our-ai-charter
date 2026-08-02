@@ -7,24 +7,26 @@ description: Why a public-AI network is needed, what it would add, how it would 
 
 **Our AI Charter is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.**
 
-Open models are necessary, but they are not public infrastructure by themselves. Digital sovereignty here means the capacity to inspect systems, help set their rules, contest decisions, and switch.
-
-*The current [project statement](Published/our-ai-charter-public-ai-infrastructure.md) makes the fuller case; the [sovereignty argument](Published/swiss-autarky-illusion.md) explains why autarky is not sovereignty. See the [architecture](Infrastructure/architecture.md), [Charter Commitments](Assurance/Framework/charter-commitments.md), and [initiation strategy](Strategy/initiation-strategy.md) for technical, assurance, and coalition detail.*
+The practical aim is a shared way for people and institutions to find, compare, and reach participating AI systems, inspect their claims, and challenge decisions that affect them — without depending on any one provider.
 
 ## Why a network
 
-AI is becoming infrastructure through which people learn, work, decide, and form opinion. An open model can still sit behind opaque routing, data practices, access controls, and failure review; a collection of national models is therefore not yet shared public infrastructure. A federation lets institutions keep local control while sharing standards, evidence, accountability, and fallback paths — widening access for researchers, public bodies, startups, and civic builders without dependence on one provider.
+AI is fast becoming infrastructure — the layer through which people learn, work, govern, and make sense of the world. The question is not only which model performs best, but whether people and democratic institutions can inspect, shape, and contest the systems they increasingly rely on.
+
+Open, inspectable models are essential: they widen access, support research and adaptation, and reduce dependence on systems whose inner workings cannot be examined. But a model is only one part of an AI service. Openness alone does not answer basic questions: Who decides where a request runs? Which model, data, tools, and compute node were used? What happens if a provider changes, fails, or withdraws? Who can inspect an incident or challenge an AI-supported decision?
+
+A federation would let participants keep local control while sharing public obligations, standards, evidence, accountability, and fallback paths. Researchers, public bodies, startups, and civic builders could reach plural models through that shared structure. [Digital sovereignty does not mean building everything alone](Published/swiss-autarky-illusion.md); it means being able to inspect, help decide, contest, and switch. Distributing control across a federation is intended to make it harder for any one power to capture the rules or cut off access.
 
 ## What it combines
 
-Four connected pillars:
+The [published project statement](Published/our-ai-charter-public-ai-infrastructure.md) sets out four connected pillars:
 
 1. **Open, plural models** — inspectable and comparable across languages and regions through shared interfaces, with none privileged in the network's rules.
 2. **Data and provenance commons** — documented origin, permissions, opt-outs, restrictions, and access conditions.
 3. **Shared assurance and evaluation** — scoped, checkable evidence, independent review, correction, and remedy.
-4. **Federated public AI infrastructure** — independently operated compute nodes under shared rules and local control.
+4. **[Federated public AI infrastructure](Infrastructure/architecture.md)** — independently operated compute nodes under shared rules and local control.
 
-**AI Assurance & Certification** is the third pillar's trust-and-evidence building block: the obligations, evaluation method, and future assurance structure that would make public-AI claims checkable.
+**AI Assurance & Certification** is the third pillar's trust-and-evidence building block: the [Charter Commitments](Assurance/Framework/charter-commitments.md), evaluation method, and future assurance structure that would make public-AI claims checkable.
 
 The data commons does not assume that all useful training data can be open. Its benefit is **clear once, reuse many**: handle rights, provenance, and access conditions collectively instead of making every public model negotiate alone.
 
@@ -72,7 +74,7 @@ Success is not global scale. It is proving that public compute can be shared und
 
 The work is in **Phase 1: public drafting and connection-building**. What exists is the proposal and the public drafts; prospective coalitions, roles, and processes are intent, not fact. No operational network access portal, admission body, assessor, adjudicator, register, certificate, trust badge, or live evaluation pilot exists yet, and no model or provider is Charter-certified.
 
-The near-term target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The route is **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
+The near-term target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The [initiation strategy](Strategy/initiation-strategy.md) sets the route: **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
 
 ## How to take part now
 
