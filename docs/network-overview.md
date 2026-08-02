@@ -5,9 +5,9 @@ description: Why a public-AI network is needed, what it would add, how it would 
 
 # The proposed public-AI network
 
-Open models are necessary, but they are not public infrastructure by themselves. Digital sovereignty here means the capacity to inspect systems, help set their rules, contest decisions, and switch; this proposal connects the models, lawful data, evidence, governance, and federated compute needed to make that possible.
+**Our AI Charter is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.**
 
-> **Where this stands today.** This proposed public-AI network is an **early-stage, voluntary** design. No operational network access portal, admission body, assessor, adjudicator, register, certificate, trust badge, or live evaluation pilot exists yet. No model or provider is Charter-certified. What exists is the proposal and the public drafts; prospective coalitions, roles, and processes are intent, not fact. Taking part today means publicly supporting the commitments, contributing, testing the case, or registering interest in a role. None of these actions means that the initiative endorses or certifies a participant.
+Open models are necessary, but they are not public infrastructure by themselves. Digital sovereignty here means the capacity to inspect systems, help set their rules, contest decisions, and switch.
 
 *The current [project statement](Published/our-ai-charter-public-ai-infrastructure.md) makes the fuller case; the [sovereignty argument](Published/swiss-autarky-illusion.md) explains why autarky is not sovereignty. See the [architecture](Infrastructure/architecture.md), [Charter Commitments](Assurance/Framework/charter-commitments.md), and [initiation strategy](Strategy/initiation-strategy.md) for technical, assurance, and coalition detail.*
 
@@ -70,9 +70,13 @@ Success is not global scale. It is proving that public compute can be shared und
 
 ## What happens next
 
-The work is in **Phase 1: public drafting and connection-building**. The near-term target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The route is **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
+The work is in **Phase 1: public drafting and connection-building**. What exists is the proposal and the public drafts; prospective coalitions, roles, and processes are intent, not fact. No operational network access portal, admission body, assessor, adjudicator, register, certificate, trust badge, or live evaluation pilot exists yet, and no model or provider is Charter-certified.
+
+The near-term target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The route is **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
 
 ## How to take part now
+
+Taking part today means publicly supporting the commitments, contributing, testing the case, or registering interest in a role. None of these actions means that the initiative endorses or certifies a participant.
 
 - **Builders and researchers** — identify overclaims, duplication, and unrealistic evidence duties; later, offer a system for a bounded pilot.
 - **Contributors** — critique, research, translate, or improve a draft through GitHub.

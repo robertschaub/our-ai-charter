@@ -3,7 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-08-02
-- **Network overview review findings resolved** — [the overview](docs/network-overview.md) now states the proposal's maturity boundary and sole open **Supporter** step precisely; distinguishes service roles from independent accountability roles, labelled self-attestation from verified trust claims, and the live reference access layer from proposed pilot controls; restores shared identity and the power test's affected voices; and disambiguates the existing public-AI initiatives without importing volatile organisational detail.
+- **Network overview review findings resolved** — [the overview](docs/network-overview.md) now foregrounds the published network proposition and places its maturity boundary with the Phase 1 plan; states the sole open **Supporter** step precisely; distinguishes service roles from independent accountability roles, labelled self-attestation from verified trust claims, and the live reference access layer from proposed pilot controls; restores shared identity and the power test's affected voices; and disambiguates existing public-AI initiatives without importing volatile organisational detail.
 - **Network overview reconciled with the remaining published arguments** — [the overview](docs/network-overview.md) now carries the practical test for power, individual and population-scale effects, the five public trust obligations, values-bound participation, the economic case for distributed competence, multilingual interoperability, and a first public model-and-provenance catalogue without turning into an article index.
 
 ## 2026-08-01
