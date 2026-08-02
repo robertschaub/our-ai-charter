@@ -1,173 +1,142 @@
-> **Status: WORKING NOTES** — public-source architecture comparison, not an endorsement, partnership, interoperability claim, or assessment of an operational system.
+> **Status: WORKING NOTES** — public-source design comparison, not an endorsement, partnership, interoperability claim, or assessment of either implementation.
 
-# JusticeTree VBE and Our AI Charter — runtime crosswalk
+# JusticeTree VBE and Our AI Charter — symmetric runtime crosswalk
 
-*Working notes — 2026-08-02 · reviewed only against the public materials linked below. JusticeTree's branded terms are used solely to identify its published work; this note does not adopt them as Charter terminology.*
+*Working notes — 2026-08-02 · JusticeTree pages and Charter sources rechecked on that date. JusticeTree's branded terms identify its published work; they are not adopted as Charter terminology.*
 
-## Purpose and boundary
+## Scope and evidence rule
 
-This note tests whether JusticeTree AI Systems' **Validation Before Execution™ (VBE)** design and the Our AI Charter runtime model describe compatible controls for one synthetic administrative action. It has three outputs: a concept crosswalk, a shared-case test matrix, and the questions that would need answers before any joint comparison or interoperability pilot. Teresa Villa, JusticeTree's founder, framed ten of the comparison questions in the public graphic accompanying her LinkedIn post; they are paraphrased here rather than reproduced.
+This note compares two **public designs** for controlling a consequential action before effect. Teresa Villa's LinkedIn post poses ten implementation questions for Validation Before Execution™ (VBE), paraphrased in the table headers below; the questions are not themselves answers. This note attributes an answer to JusticeTree only where a reviewed JusticeTree page supplies it.
 
-The comparison is between **designs**, not implementations. JusticeTree describes VBE as a published framework and reference architecture, while stating that operational validation tools are in development, its Pilot 001 is not operational, and its simulator is educational. The Charter's runtime proof of concept is likewise a demonstrator specification, not an independent institution or certification claim. Unresolved points are labelled **Open** where needed; none of the anticipated results is reported as operationally proven.
+The same rule applies to both sides:
 
-JusticeTree states that VBE and its other original frameworks are JusticeTree-owned. Its Technology & Attribution page separately describes TraceStack as third-party work used under a non-commercial reference licence; this review did not inspect the licence text itself. No public reuse licence for VBE specifications or test material was identified in the reviewed pages. Compare and cite; do not copy branded schemas, language, or test assets without permission.
+- **Stated** means the reviewed public source says it directly.
+- **Open** means the reviewed public sources do not specify it. It does **not** mean the capability is absent.
+- **Untested** means this review examined no runnable result or operational evidence for that claim.
 
-## Short assessment
-
-The designs belong to the same control family:
-
-- a probabilistic model may propose an action but does not authorize its own request;
-- current, scoped authority and admissible evidence are checked before consequence;
-- a failed or unresolved check leaves the action in a non-executing state;
-- material changes invalidate earlier conclusions;
-- the decision produces an action-scoped record that another party can inspect.
-
-VBE's centre is a four-part release test — **authority, evidence, timing, execution** — expressed through concise architecture questions. The Charter's centre is a two-clock accountability model: lifecycle governance plus five action/gate pairs — **Plan → Authorize; Prepare → Submit; Check → Verify; Decide → Commit; Review → Rely** — surrounded by separated institutional roles, affected-person access, and remedy.
-
-The strongest convergence is the pre-effect authority boundary. The strongest unresolved differences are what a human may do after a failed check, what "independent verification" proves, and whether a record of non-release can establish that no bypass path executed.
-
-Two limits cut across both designs: a per-action record cannot expose an action or omission that was never lodged without an independent detection mechanism, and it cannot by itself establish population-level fairness.
-
-This is not a priority or originality finding. Decision/enforcement separation has a dated standards antecedent in the 2013 XACML 3.0 architecture; transaction-specific authorization, least privilege, and downstream checks also appear in OAuth Rich Authorization Requests, OWASP's excessive-agency guidance, and NIST's agent-identity and authorization work. The useful comparison is what each design adds around those primitives.
-
-## Concept crosswalk
-
-The VBE concerns below are paraphrased from Teresa Villa's public ten-question graphic and the JusticeTree framework pages; the third column is this note's analysis.
-
-| VBE concern | Charter counterpart | Convergence or point to resolve |
+| Side | Public material compared | Maturity boundary used here |
 |---|---|---|
-| **When authority is checked** | Authorize at the operating-envelope boundary; re-check exact current authority at Commit | Convergent. The Charter also re-arms intermediate gates when data, tools, models, evidence, or context change. |
-| **Expiry and revocation** | Purpose-limited, scope-limited, time-limited, revocable action mandate | Convergent. The Charter additionally names target, service, data, ceilings, delegation, substitution, and replay constraints. |
-| **What invalidates an earlier pass** | A ruling is bound to the frozen proposal, mandate and version, policy digest, acting model, service/action class, nonce, counters, and validity window | VBE names several material changes; an interoperable profile needs one exhaustive invalidation and propagation rule. |
-| **Deterministic checks and human judgment** | Hard authorization rules are deterministic; model signals may only flag or escalate; disputed evidence and proportionality route to accountable judgment | Compatible if "judgment" resolves a declared question inside existing authority rather than bypassing a hard rule. |
-| **Human action after failure** | An escalation permits only declared dispositions; a person cannot manufacture missing legal, policy, evidentiary, or institutional basis | Material ambiguity. "Override" should be split into resolving review, revising the proposal, exercising existing discretion, or issuing a separate mandate. A hard failure itself should not become an allow. |
-| **Evidence sufficiency** | Submit checks whether data, sources, and instructions may enter under rights, privacy, and confidentiality constraints; Verify checks grounding, material uncertainty, contradiction, relevance, and fitness for the use | Convergent in aim. Authenticity and completeness can be partly mechanized; sufficiency and fairness often need a named evidentiary standard and accountable decision-maker. |
-| **Exceptions** | A visible, scoped, expiring state transition; return to baseline; repeated exceptions can narrow the envelope or require re-authorization | VBE's exception record maps well. The Charter adds anti-normalization and aggregate-pattern consequences. |
-| **Trust boundaries** | Entry boundary before reliance or inference; every model/tool hop re-arms Submit and Verify; commitment boundary before effect | The Charter treats trust as several transitions, not one system perimeter. The location and enforcer of each VBE boundary need to be explicit. |
-| **Audit artifact creation** | Pre-effect commitment record plus post-effect outcome, intervention event, challenge route, and recovery owner | Convergent, with a Charter addition for crashes and partially committed workflows. |
-| **Independent verification** | Tamper-evident record, external checkpoint, split custody, affected-person extract, outside review, and remedy | Cryptographic integrity, truthful capture, completeness, institutional independence, and binding adjudication are different claims and must be labelled separately. |
+| **JusticeTree** | Published VBE framework, four volumes, pipeline, How JusticeTree Works, Architecture Center, simulator and Pilot 001 design | JusticeTree says the framework is published, operational validation tools are in development, the simulator is educational, and Pilot 001 is not operational. |
+| **Our AI Charter** | Draft consequential-action baseline, published runtime article, workflow reference model, and working POC/custody specifications | This note tests the public rules, not an implementation. The POC specification declares synthetic effects, minimal cryptography, simulated institutions, and no independent reviewer or remedy decider; its code has not yet been built — M0 is the first milestone. |
+
+JusticeTree's Technology & Attribution page states that JusticeTree owns VBE and that TraceStack™ belongs to Quantum Inquiry and is used under a non-commercial reference licence. This review did not inspect that licence text. No public reuse licence for VBE specifications or test assets was identified on the reviewed pages; compare and cite rather than copy them without permission.
+
+## Bottom line
+
+- **Strong convergence:** both designs separate recommendation from permission, test current authority and supporting evidence before consequence, keep unresolved actions non-executing, and require a traceable decision record.
+- **Different public emphasis:** VBE organizes the release question around **authority, evidence, timing, and execution**. The Charter connects lifecycle governance to five action/gate pairs — **Plan → Authorize; Prepare → Submit; Check → Verify; Decide → Commit; Review → Rely** — and specifies service-side enforcement, intervention, effect records, challenge, and lifecycle feedback in more detail.
+- **No implementation conclusion:** greater public detail is not proof of working control, and the converse also holds: JusticeTree publishes a running educational demonstrator of its scenario paths, while the Charter has no equivalent artifact at any maturity. This review found no execution results that support a comparative effectiveness claim for either side.
+
+## Ten-question crosswalk
+
+| Question | JusticeTree public design | Charter public design | Clear comparison or gap |
+|---|---|---|---|
+| **1. When is authority checked?** | **Stated:** Authority Validation asks whether the actor has a current, attributable right within scope. Runtime Authority Validation™ is designed to recheck authority at the point of proposed action during future controlled pilots. | **Stated:** Authorize sets the operating envelope; Commit and the effect-producing service recheck exact current authority before the effect binds. | Both require a pre-effect authority check. **Open for VBE:** the reviewed pages do not identify the effect-producing enforcer or exact binding instant. **Untested for the Charter here:** the service-side rule is specified, not demonstrated by this note. |
+| **2. Can authority expire or be revoked?** | **Stated:** the validation contract includes effective and expiration windows plus revalidation triggers. | **Stated:** mandates are purpose- and scope-bound, time-limited, revocable, versioned, and checked for current state. | Expiry converges. **Open for VBE:** the reviewed pages do not specify a revocation mechanism or exact stale-artifact response beyond withholding a condition that is no longer valid. |
+| **3. What invalidates an earlier pass?** | **Stated:** the Execution Integrity Window™ states the intended requirement that conditions remain current through release; the contract names revalidation triggers; a no-longer-valid condition yields Action Withheld. | **Stated:** the POC design invalidates a ruling when its frozen proposal, mandate version, policy, acting model, service/action class, nonce, counter reservation, or validity window changes. | Both reject permanent permission. **Open for VBE:** no exhaustive invalidation and propagation rule is public. **Charter limit:** the POC records a deliberate TTL-bounded interpretation after `commit-verify`, not a recheck at effect start. |
+| **4. Is every gate deterministic?** | **Stated:** each validation result should carry a source, rule, version, reviewer or accountable actor, timestamp, reason, and link to the proposed action. **Open:** the pages do not classify which checks are deterministic and which require judgment. | **Stated:** hard authorization rules are deterministic; model screening may flag or escalate but never allow; disputed meaning, sufficiency, or fairness routes to accountable judgment. | The Charter states the machine/judgment split more precisely. Both still require a case-specific evidentiary rule and competent decision-maker; neither generic architecture supplies the domain standard. |
+| **5. Can a human override a failure?** | **Stated:** Indeterminate or Escalated conditions route to accountable human review; a Safe State withholds execution. **Open:** the reviewed pages do not say whether a hard Fail may be overridden or whether review creates a new result. | **Stated:** an intervention contract limits the role, evidence, time, default, dispositions, and record. Human approval cannot create a missing legal, policy, evidentiary, or institutional basis. | This is a material protocol gap, not evidence that VBE permits override. **Charter limit:** the POC simulates reviewer roles and has no independent reviewer or remedy decider. |
+| **6. What is sufficient evidence?** | **Stated:** Evidence Validation tests relevance, completeness, currency, source integrity, traceability, conflicts, missing records, and sufficiency. | **Stated:** Submit governs whether material may enter under privacy, rights, and confidentiality constraints; Verify governs source validity, evidence, uncertainty, disagreement, and fitness for use. | The categories substantially converge. **Open on both sides:** a generic architecture cannot establish the legal or domain-specific sufficiency threshold, and this review tested no detection or judgment quality. |
+| **7. How are exceptions recorded?** | The LinkedIn post asks the question. **Open:** the reviewed JusticeTree pages describe review and safe-state routing but not a general exception lifecycle, expiry rule, return to baseline, or override record. | **Stated:** an exception is a visible, scoped, expiring state transition inside existing authority, followed by return to baseline; the intervention event and aggregate pattern are recorded. | Charter treatment is more explicit in the public design. The missing VBE detail is a clarification need, not a finding that exceptions are uncontrolled. |
+| **8. Where is the trust boundary?** | **Stated:** JusticeTree positions a validation boundary between recommendation and execution and separates source preparation, validation, decision controls, and traceability. | **Stated:** an entry boundary operates before reliance or inference; a commitment boundary operates before effect; every model/tool hop re-arms Submit and Verify. | Both separate recommendation from action. **Open for VBE:** the reviewed pages do not enumerate every enforcement point or show complete mediation of alternate paths. **Untested for the Charter here:** complete mediation is a specification claim. |
+| **9. What creates the audit artifact?** | **Stated:** the validation contract defines result metadata; Proof of Inaction™ is intended to preserve evidence that Action Withheld was maintained; the traceability layer links sources, validation, controls, and outcomes. | **Stated:** an action-and-effect record joins proposal, authority, policy/ruling, pre-effect commitment, post-effect outcome, intervention, challenge, and recovery; split custody is a separate working design. | **Open for VBE:** no public record schema, capture transaction, tamper/rollback protocol, custody model, or crash-recovery rule was identified. **Charter limit:** the POC cryptography is explicitly minimal and split custody remains future work. |
+| **10. Can the audit be independently verified?** | The LinkedIn post asks the question; TraceStack is named as a reference framework and JT-L6 as audit/traceability. **Open:** no public verification protocol or independent institution is specified. | **Stated as design:** external checkpoints, split custody, affected-person extracts, logged access, outside review, and remedy are separated. | Neither side has operational independent-verification evidence in this review. Integrity, truthful capture, completeness, institutional independence, and binding remedy remain different claims. Neither design can expose a record that was never lodged without an independent detection duty. |
 
 ## Decision semantics
 
-JusticeTree's current Architecture Center distinguishes four validation states from two downstream outcomes. The most plausible provisional mapping is:
+JusticeTree uses four per-volume resolution states, two final outcomes, and a second routing vocabulary. The mapping below is analytical, not a claim of identical protocols.
 
-| JusticeTree validation state or outcome | Charter machine result | Charter user effect | Rule for the shared comparison |
+| JusticeTree public term | Public meaning | Closest Charter result | Mapping limit |
 |---|---|---|---|
-| **Pass** | `allow` | Silent or Flag | Valid only for the exact bound proposal and current state; an allow may carry a Flag except where the concern undermines the basis for the consequential transition. It is not a general trust or compliance verdict. |
-| **Fail** | `deny` | May be Silent or Flag when a safe fallback exists; otherwise the user effect is not determined by `deny` alone | No execution token. A denial does not itself imply Stop, and a person cannot turn a missing basis into authority through a bare approval. |
-| **Indeterminate** | `escalate` if an authorized reviewer can resolve the declared question; otherwise `deny` | Stop if escalated; a denial may remain non-interrupting where a safe fallback exists | Uncertainty remains distinct from a hard failure. Timeout cannot grant authority. |
-| **Escalated** | `escalate` | Stop | The action remains non-executing until an authorized, single-use disposition resolves the declared question. |
-| **Action Released / Action Withheld** | External effect / no effect | Consequence, not a validation verdict | Released follows a valid route to effect. Withheld is the umbrella non-release outcome for failed, indeterminate, or escalated actions; it is not a synonym for Fail. |
-
-This mapping is **provisional**. Villa's ten-question graphic uses **REVIEW**, while the current Architecture Center enumerates Pass, Fail, Indeterminate, and Escalated and separately shows Action Released or Action Withheld. Until JusticeTree clarifies the relationship, this note treats review as a human route rather than normalizing it into a fifth result. It also remains open whether later human action produces a new decision or mutates the original result.
+| **Pass** | A validation volume resolves positively. Release still requires all applicable conditions to support the action and remain current. | `allow` | Neither is a general trust, legality, or compliance verdict. A Charter allow may carry a Flag unless the concern undermines the basis. |
+| **Fail** | A required condition fails; the pipeline places the action in Action Withheld. | `deny` | A Charter denial does not itself imply a user-facing Stop; a safe fallback may remain Silent or Flagged. |
+| **Indeterminate** | A condition is unresolved; the action is withheld and may route to review. | `escalate` if an authorized reviewer can resolve the declared question; otherwise `deny` | The reviewed VBE pages do not publish the transition rule from review to a fresh final decision. |
+| **Escalated** | The condition requires accountable human review and remains non-executing. | `escalate` → Stop | Both require a non-executing route; only the Charter sources publish the full intervention contract. |
+| **Action Released / Action Withheld** | Final release or non-release outcome. Withheld covers failed, indeterminate, escalated, or no-longer-valid conditions. | External effect / no effect | These are outcomes, not synonyms for Pass/Fail or allow/deny. |
+| **Proceed / Review / Safe State** | Routing vocabulary on the “How JusticeTree Works” page. | Continue / Stop for intervention / non-executing fallback | **Partly open for VBE:** the page maps Review to Indeterminate and Escalated conditions, but Pass/Fail precedence into Proceed/Safe State and the return-from-review transition are not published. |
 
 ## Shared synthetic case
 
-Use one fictional public-benefit case with the same generic public-benefit suspension scenario type as JusticeTree's simulator, expressed with the Charter's authority boundaries. No JusticeTree text, parameters, or fixtures are reproduced.
+The neutral case uses the same generic public-benefit suspension scenario type as JusticeTree's educational simulator; no JusticeTree parameters or fixtures are reproduced.
 
-**Proposed action:** an agency system proposes to schedule the suspension of a fictional household benefit after an AI-assisted review reports missing eligibility evidence.
+**Proposed action:** a fictional public agency prepares to suspend one household's benefit payments because an AI-assisted eligibility review reports missing records.
 
-**Bounded roles and authority:**
+For a fair comparison, both designs receive the same synthetic policy, actor and authority facts, evidence set, timestamps, proposed effect, and later changes. Each must return its own decision and record artifact. The comparison records missing fields as missing; it does not invent an equivalent.
 
-- The **agency** is the principal and rule owner.
-- The **AI assistant** may retrieve permitted records, compare them with the published criteria, identify uncertainty, and draft a recommendation. It may not decide or execute a suspension.
-- A **case officer** may correct factual case material and recommend a disposition but cannot expand the agency mandate.
-- An **authorized deciding official** may choose among legally and procedurally available dispositions after seeing the material evidence and uncertainty.
-- The **benefit service** schedules a suspension only after re-verifying at the point of effect the exact household, ground, policy version, notice, waiting period, effective date, deciding role, mandate state, and single-use commitment reference.
-- The **affected household** receives notice, a scoped decision extract and record receipt, and a usable challenge route.
+## Symmetric test matrix
 
-All identifiers and records in the comparison are synthetic. The comparison performs no real eligibility determination, suspension, disclosure, or legal assessment.
+Every row below compares public design commitments. No row reports an implementation result.
 
-## Comparison test matrix
+| # | Test | JusticeTree public design | Charter public design | What is established or open |
+|---|---|---|---|---|
+| 1 | All authority, evidence, timing, and execution conditions hold | **Stated:** action becomes eligible for release within the valid window. | **Stated:** relevant gates allow; the service rechecks and records commitment and effect. | Common intended success path; **Untested** on both sides here. |
+| 2 | Acting system has no delegation | **Stated:** Authority fails and the action is withheld/safe-stated. | **Stated:** missing mandate denies/fails closed; no commit token. | Convergent rule. |
+| 3 | Authority expires or is revoked after an earlier pass | **Stated for expiry/currentness:** no-longer-valid conditions are withheld. **Open for revocation mechanics.** | **Stated:** expiry or revocation invalidates the ruling before commitment. | Same expiry outcome; VBE revocation protocol remains public-document open. |
+| 4 | Required evidence is absent or current records conflict | **Stated:** missing/conflicting evidence fails or remains unresolved and routes away from release; the simulator includes an evidence-missing case. | **Stated:** Verify denies or escalates with the six-field intervention contract. | Both need a case-specific sufficiency rule and authorized reviewer. |
+| 5 | New material evidence arrives after an earlier pass | **Stated generally:** revalidation triggers and currentness through release. **Open:** exact downstream invalidation sequence. | **Stated:** new input re-arms Submit/Verify and a changed proposal needs a fresh ruling. | Common revalidation principle; different public specificity. |
+| 6 | Notice or waiting period is unmet | **Stated:** Timing fails and Action Withheld results. | **Stated:** Commit denies while unmet; escalation is possible only for a resolvable timing question within authority. | Convergent non-execution. |
+| 7 | Policy, jurisdiction, model/provider, or material data changes | **Open beyond the general currentness/revalidation rule:** the reviewed pages do not enumerate these triggers. | **Stated:** affected gates re-arm; binding-tuple or disclosure changes invalidate the earlier ruling. | VBE trigger set requires clarification; Charter behavior is specified but untested here. |
+| 8 | Household, date, amount, ground, or route differs from what was validated | **Stated:** Execution Validation asks whether action matches the validated scope and limits. **Open:** exact enforcer and object binding. | **Stated:** the executing service blocks broader, substituted, changed, expired, or replayed requests. | Same invariant; VBE enforcement protocol remains open. |
+| 9 | A person approves despite missing authority or a hard prohibition | **Open:** the public pages do not define hard-Fail override semantics. | **Stated:** approval cannot manufacture the missing basis; valid new authority requires a separate mandate and fresh ruling. | No VBE behavior is inferred. |
+| 10 | An uploaded document instructs the agent to ignore policy | **Open:** no prompt-injection or untrusted-instruction control was identified in the reviewed VBE pages. | **Stated:** detection signals may Stop/escalate but never allow; screening is explicitly fallible. | Charter specifies containment after a signal, not detection effectiveness; neither side is proven resistant here. |
+| 11 | Direct service call, replay, or reused release artifact | **Open:** Safe-State Routing™ and Proof of Inaction™ state the target outcome, but no public bypass/replay protocol was identified. | **Stated:** complete mediation, exact binding, nonce, single use, and idempotency reject the attempt. | Charter protocol is more detailed; no comparative execution test has run. |
+| 12 | Reviewer is unavailable or times out | **Open:** no public response deadline, default, or late-decision rule was identified. | **Stated:** only a declared reversible fallback inside existing authority may proceed; otherwise Stop remains and a late approval is a no-op. | VBE timeout semantics require clarification. |
+| 13 | Crash occurs after commitment but before effect outcome | **Open:** no public partial-commit or recovery-owner rule was identified. | **Stated:** effect becomes `unknown → reconciliation-required`; a named owner resolves, cancels, reverses, or compensates. | Charter recovery is a design requirement, not a result reviewed here. |
+| 14 | A record entry is altered or a valid tail is removed | **Open:** traceability is a target, but no public tamper, truncation, or custody protocol was identified. | **Stated as POC design:** hash-chain plus external head checkpoint; explicitly minimal cryptography and future split custody. | Neither side has operational proof in this review. |
+| 15 | Household challenges a factual error | **Stated:** validation includes human-review requirements. **Open:** no public affected-person access, receipt, challenge, or empowered-remedy procedure was identified. | **Stated:** scoped extract, receipt, correction and challenge/remedy route; **POC limit:** no independent remedy decider. | Both need a real institution with authority to bind correction or remedy. |
+| 16 | The action record is never created or lodged | **Open:** the reviewed VBE material does not establish independent omission detection. | **Stated blind spot:** cryptography cannot expose an event never recorded; lodgment duty, notice entitlement, and oversight are needed. | A limit of the whole per-action-record family, not a VBE-specific defect. |
+| 17 | Individually admissible actions create a disparate group pattern | **Open:** no aggregate-outcome or population-feedback rule was identified in the reviewed VBE pages. | **Stated normatively:** monitor aggregate patterns and constrain, re-authorize, suspend, or withdraw; **POC limit:** the reviewed specification contains no population-fairness fixture. | A per-action release gate cannot establish population fairness. |
 
-The anticipated VBE outcomes are inferred from its public architecture and simulator, not confirmed implementation results. This note has not reviewed runnable Charter implementation or output; the Charter rows state expected behaviour from its public specification. A comparison can run once each side exposes suitable executable artifacts and can return actual results.
+## Load-bearing gaps before a real comparison
 
-| # | Test stimulus | Anticipated VBE path | Charter path and expected evidence |
-|---|---|---|---|
-| 1 | Current authority, complete current evidence, valid notice period, exact execution parameters | All four volumes pass; action eligible for release | Authorize/Submit/Verify/Commit allow; service verifies; sealed commitment followed by effect outcome and affected-person receipt. |
-| 2 | The assistant has no delegation for benefit suspension | Authority fails; remaining path withheld | Deny at Authorize and again at Commit if attempted; record the missing mandate; issue no commit token. |
-| 3 | Delegation expired or was revoked after an earlier allow | Earlier pass invalidated; action withheld | Old ruling invalid; current mandate check fails closed; record revocation/expiry and attempted stale use. |
-| 4 | A required eligibility record is absent or two current records conflict | Evidence unresolved; safe-state review | Verify escalates with all six intervention-contract fields: trigger and state; decision and route; decision basis; response bound and default; permitted dispositions; record and feedback consequences. |
-| 5 | New material evidence arrives after a prior pass | Evidence and downstream conclusions re-evaluated | New input re-arms Submit and Verify; proposal revision invalidates the old ruling; no silent reuse of the earlier pass. |
-| 6 | Statutory notice or waiting period has not elapsed | Timing fails; action withheld | Commit denies while the timing condition is unmet. It escalates only if an authorized person or reviewer can resolve a declared timing question before the deadline; no execution occurs before the condition is met. |
-| 7 | Policy, jurisdiction, model/provider, or material data condition changes | Prior eligibility should be revalidated | The affected gate re-arms; changed policy or mandate invalidates the ruling; a provider change also re-checks permitted disclosure. |
-| 8 | Household, effective date, amount, or ground differs from the approved proposal | Execution validation fails | Executing service rejects the parameter mismatch even if an upstream screen or person previously allowed the original proposal. |
-| 9 | A person clicks "approve" despite absent authority or a hard prohibition | **Open:** public VBE language about governed override needs clarification | Commitment verification blocks the action. Any valid new authority is a separate, scoped mandate transition followed by a fresh ruling. |
-| 10 | An uploaded document instructs the agent to ignore policy and suspend immediately | Trust-boundary or evidence failure; review/withhold | Submit screening may force escalation but can never allow; complete mediation prevents the document from becoming authority. |
-| 11 | The orchestrator calls the benefit service directly, replays a ruling, or reuses a token | Execution path must fail for the release claim to hold | Service denies missing, mismatched, expired, or consumed authorization; nonce and idempotency evidence record the attempt. |
-| 12 | The authorized reviewer is unavailable or the review times out | Safe state persists | The declared reversible fallback may run only if already authorized; otherwise Stop remains. A late approval is a recorded no-op. |
-| 13 | The process crashes after commitment but before the service reports the effect | **Open:** expected VBE state and recovery ownership need definition | Pre-effect commitment survives; effect is `unknown` and reconciliation-required; a named recovery owner resolves, cancels, reverses, or compensates. |
-| 14 | A record line is changed or the valid tail is removed | Independent verification should detect loss of integrity | Hash-chain verification detects modification; an external checkpoint is needed for tail rollback. Neither proves that the original event was truthful. |
-| 15 | The household challenges a factual error | Review and audit route should expose the basis; Pilot 001 does not supply an independent reviewer or remedy decider | Rely reopens; scoped extract and receipt support challenge; correction and withdrawal of reliance are recorded; an empowered remedy decider remains an institutional dependency. |
-| 16 | The system never creates or lodges the action record | **Open:** the reviewed public materials do not establish an independent omission-detection mechanism | Known blind spot: cryptography cannot expose an event never recorded. Requires a lodgment duty, notice entitlement, and independent oversight able to detect silence. |
-| 17 | Individually admissible suspensions produce a repeated disparate group pattern | **Open:** outside a single release decision unless lifecycle feedback is defined; Pilot 001 does not supply an independent reviewer or remedy decider | Aggregate monitoring can trigger review, constraint, re-authorization, suspension, or withdrawal, but the POC does not supply an independent reviewer or remedy decider; a per-action gate cannot establish population fairness. |
+These are gaps in the reviewed **public evidence**, not claims about undisclosed capabilities:
 
-## Questions raised by the public materials
+1. **VBE state protocol:** precedence among the four resolution states, Proceed/Review/Safe State, hard-Fail review, timeout, and issuance of a fresh result after review.
+2. **Enforcement and binding:** the VBE effect-producing enforcer, exact binding instant, object identity, bypass/replay controls, and exhaustive invalidation propagation. The Charter specifies these but still needs observed implementation evidence.
+3. **Evidence judgment:** the domain rule for sufficiency and fairness, the reviewer’s competence and authority, and reproducibility limits for non-deterministic judgment on both sides.
+4. **Record assurance:** VBE record schema, atomic capture, truthful-source limits, tamper/truncation detection, custody, access, and crash recovery; Charter implementation evidence for its specified record, plus its acknowledged minimal-cryptography and custody limits.
+5. **Independent institutions:** appointment, funding, conflicts, affected-person access, and binding remedy. The Charter requires these roles but its POC omits two; the reviewed VBE pages do not specify them.
+6. **Lifecycle and population effects:** VBE aggregate feedback and release-level consequences; Charter evidence that its required monitoring and withdrawal rules work in practice.
+7. **Test and reuse basis:** runnable artifacts, conformance tests, threat models, observed results, and permission to reuse any JusticeTree schema or fixture.
 
-1. **Normative source.** Which JusticeTree artifact governs when the ten questions, four validation volumes, framework pages, simulator, and architecture-centre views differ in terminology or sequence?
-2. **Decision protocol.** How does the graphic's PASS/FAIL/REVIEW language relate to the Architecture Center's Pass/Fail/Indeterminate/Escalated states? Is review a non-executing route, and does a later disposition create a fresh decision with a new validity window?
-3. **Authority after failure.** Can any human override a hard failure, or may they only resolve a question within existing authority, revise the proposal, or issue a separately governed mandate?
-4. **Binding instant.** At what exact point does validation become binding, and what happens if authority, policy, evidence, or jurisdiction changes between decision and effect?
-5. **Complete mediation.** Which component enforces the result at the effect-producing service, and what evidence demonstrates resistance to bypass, replay, substitution, and side-channel execution?
-6. **Record claim.** What exact schema is produced before effect and after outcome? Which properties are merely signed, tamper-evident, externally witnessed, complete, independently reviewed, or adjudicated?
-7. **Custody and privacy.** Who holds content and keys, what the affected person receives, how every access is controlled and logged, and how retention, deletion, secrets, and third-party privacy are reconciled?
-8. **Independent institutions.** Who appoints and funds the verifier, who hears the affected person's challenge, and who can bind correction, reversal, compensation, or another remedy?
-9. **Evidence and reproducibility.** Which rules are deterministic, which judgments are not, what evidentiary standard governs sufficiency, and what can an outside party reproduce without pretending that human judgment is deterministic?
-10. **Status, tests, and reuse.** What implementation, conformance tests, threat model, pilot evidence, and reuse licence are available for an external comparison?
+## Minimum evidence for a bounded comparison
 
-These questions arise from public materials; this note does not represent questions sent to JusticeTree or answers received. Corrections are welcome.
+1. one jointly accepted synthetic case and policy version;
+2. one machine-readable proposal, authority object, decision artifact, and record schema from each design;
+3. the same 17 fixtures, including changed state, bypass, replay, timeout, crash, challenge, omission, and aggregate effects;
+4. observed acceptance and rejection results from a common effect-service stub that honors only the release artifact each design says should authorize that exact action — not screenshots or intended outcomes;
+5. explicit untested claims and institutional dependencies for each side;
+6. affected-person outputs and custody/access rules; and
+7. separate approval of the final comparison by each project, without implied endorsement or shared ownership.
 
-## How this comparison could be wrong
+## Interpretation limits
 
-- **Abstraction mismatch.** It compares a concise founder graphic and public architecture pages with a more detailed Charter specification; apparent omissions may exist in unpublished or later JusticeTree material.
-- **Shared antecedents.** Convergence is expected where both designs draw on established authorization, policy-enforcement, least-privilege, and assurance patterns. Similarity is not evidence of coordination or priority.
-- **Record-family limits.** Fixtures 16 and 17 expose blind spots of the broader per-action-record family, not defects unique to either design.
-- **The wrong-layer objection.** Per-action evidence is absent from many lifecycle-focused regimes and can close a real accountability gap. It does not replace lifecycle assurance, population-level evaluation, independent institutions, or remedy.
-
-## Minimum deliverables for a real comparison
-
-A bounded comparison should produce evidence, not a merged framework:
-
-1. one shared synthetic case file and policy version;
-2. one machine-readable proposed-action object and authority object from each design;
-3. the same valid, invalid, incomplete, changed-state, bypass, replay, timeout, crash, challenge, and omission fixtures;
-4. the decision and non-execution artifacts each implementation actually emits;
-5. proof that the effect-producing service rejects unauthorized and stale requests;
-6. an affected-person extract and a map of who may inspect the sealed evidence;
-7. an explicit list of untested claims and architectural assumptions;
-8. a short convergence/divergence report approved separately by each project, with no implied endorsement or shared ownership.
-
-Success is not identical terminology. It is agreement on which transition is controlled, whose authority applies, what evidence is required, which component enforces the result, what record survives, and who can challenge the consequence.
-
-## Charter position
-
-- Do not create a sixth runtime gate or replace the five-gate model. VBE is best treated as a convergent external architecture that tests the consequential-action baseline.
-- Preserve the Charter's explicit rule that a person cannot manufacture a missing basis and its distinction between functional separation from the acting model and institutional independence.
-- Use generic control terms in any shared fixture unless JusticeTree grants permission to use branded specifications or assets.
-- Treat timing as a useful explicit comparison dimension; in the Charter it spans mandate validity, evidence currentness, policy state, waiting periods, commitment, and lifecycle invalidation.
-- Do not call a record immutable or claim proof of inaction without stating the capture, mediation, witnessing, and omission limits.
-- Do not imply affiliation, certification, operational maturity, or a live joint pilot unless both projects state it publicly.
+- The sources differ in abstraction: JusticeTree's public framework is concise; the Charter sources include a detailed POC specification. Apparent omission may reflect publication scope.
+- Shared antecedents — XACML 3.0's decision/enforcement split, RFC 9396's transaction-scoped authorization, OWASP's excessive-agency guidance, and NIST NCCoE's agent-authorization work — make convergence unsurprising; similarity is not evidence of coordination, originality, or priority.
+- Per-action evidence complements but does not replace lifecycle assurance, population evaluation, independent institutions, or remedy.
+- This comparison does not create a sixth runtime gate or replace the Charter's five-gate model; VBE is read as a convergent external architecture.
+- This note does not represent questions sent to JusticeTree or answers received. Corrections with public sources are welcome.
 
 ## Public sources reviewed
 
 **JusticeTree / VBE**
 
 - Teresa Villa, [LinkedIn post: ten architecture questions](https://www.linkedin.com/posts/teresa-villa-09402b292_artificialintelligence-aigovernance-responsibleai-share-7487688749007482880-a_k_) (reviewed 2026-08-02).
-- JusticeTree AI Systems, [founder page](https://justicetreeai.us.com/founder/), [Validation Before Execution framework](https://justicetreeai.us.com/framework/), [four validation volumes](https://justicetreeai.us.com/volumes/), and [reference pipeline](https://justicetreeai.us.com/validation-before-execution-pipeline/) (reviewed 2026-08-02).
-- JusticeTree AI Systems, [Validation Simulator](https://justicetreeai.us.com/validation-simulator/), [Pilot 001 — Proof of Inaction](https://justicetreeai.us.com/pilot-001/), [Architecture Center](https://justicetreeai.us.com/architecture-center/), and [Technology & Attribution](https://justicetreeai.us.com/technology-attribution/) (reviewed 2026-08-02).
+- JusticeTree AI Systems, [Framework](https://justicetreeai.us.com/framework/), [Four Validation Volumes](https://justicetreeai.us.com/volumes/), [VBE Pipeline](https://justicetreeai.us.com/validation-before-execution-pipeline/), [How JusticeTree Works](https://justicetreeai.us.com/how-justicetree-works/), and [Architecture Center](https://justicetreeai.us.com/architecture-center/) (reviewed 2026-08-02).
+- JusticeTree AI Systems, [Validation Simulator](https://justicetreeai.us.com/validation-simulator/), [Pilot 001 — Proof of Inaction](https://justicetreeai.us.com/pilot-001/), [Executive Overview](https://justicetreeai.us.com/executive-overview/), [Platform Status](https://justicetreeai.us.com/platform-status/), [Founder](https://justicetreeai.us.com/founder/), and [Technology & Attribution](https://justicetreeai.us.com/technology-attribution/) (reviewed 2026-08-02).
 
 **Our AI Charter**
 
-- [Charter Commitments](../Assurance/Framework/charter-commitments.md) — consequential-action baseline.
-- [When Should Runtime AI Governance Interrupt?](../Published/when-should-runtime-ai-governance-interrupt.md) — two clocks, five gates, and the shared practical test.
-- [Runtime AI Governance Gets *When* Right — the Harder Question Is *Who Gets to Check?*](../Published/when-vs-who-ai-governance.md) — separated institutional roles.
-- [User-workflow governance](../Assurance/Concepts/user-workflow-governance.md) — gate semantics and human-intervention contract.
-- [Runtime gates POC specification](runtime-gates-poc-spec.md) — data contracts, transaction semantics, demo beats, and honest limits.
+- [Charter Commitments](../Assurance/Framework/charter-commitments.md) — draft consequential-action baseline.
+- [When Should Runtime AI Governance Interrupt?](../Published/when-should-runtime-ai-governance-interrupt.md) — two clocks, five gates, enforcement boundaries, and limits.
+- [Runtime AI Governance Gets *When* Right — the Harder Question Is *Who Gets to Check?*](../Published/when-vs-who-ai-governance.md) — institutional roles.
+- [User-workflow governance](../Assurance/Concepts/user-workflow-governance.md) — gate, UX, and intervention semantics.
+- [Runtime gates POC specification](runtime-gates-poc-spec.md) — detailed protocol and declared limits.
 - [Split custody for per-action records](split-custody-per-action-records.md) — integrity, content, access, survivability, and omission limits.
 
 **Established control antecedents**
 
-- OASIS, [eXtensible Access Control Markup Language (XACML) Version 3.0](https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html) (OASIS Standard, 22 January 2013) — policy decision/enforcement separation.
+- OASIS, [XACML 3.0](https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html) (OASIS Standard, 22 January 2013) — policy decision/enforcement separation.
 - IETF, [RFC 9396 — OAuth 2.0 Rich Authorization Requests](https://datatracker.ietf.org/doc/html/rfc9396) (May 2023) — fine-grained transaction authorization.
-- OWASP, [LLM06:2025 Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/) (2025 edition) — least privilege, downstream authorization, and approval for high-impact actions.
-- NIST NCCoE, [Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) (concept paper published 5 February 2026) — current agent identity, authorization, audit, and non-repudiation work.
+- OWASP, [LLM06:2025 Excessive Agency](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/) (2025 edition) — least privilege, downstream authorization, and high-impact approval.
+- NIST NCCoE, [Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) (concept paper published 5 February 2026) — agent identity, authorization, audit, and non-repudiation work.
