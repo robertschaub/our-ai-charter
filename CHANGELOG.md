@@ -3,7 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-08-02
-- **Network overview review findings resolved** — [the overview](docs/network-overview.md) now names the existing Public AI Network coalition, uses the published five-role terminology, distinguishes its live access-layer reference from proposed pilot controls, qualifies the missing front door as an operational access portal, makes the five obligations explicitly prospective, separates labelled self-attestation from independently verified trust claims, restores the no-live-pilot and no-certified-provider boundaries, and disambiguates publicai.network / publicai.co / publicai.ch without importing volatile organisational detail.
+- **Network overview review findings resolved** — [the overview](docs/network-overview.md) now states the proposal's maturity boundary and sole open **Supporter** step precisely; distinguishes service roles from independent accountability roles, labelled self-attestation from verified trust claims, and the live reference access layer from proposed pilot controls; restores shared identity and the power test's affected voices; and disambiguates the existing public-AI initiatives without importing volatile organisational detail.
 - **Network overview reconciled with the remaining published arguments** — [the overview](docs/network-overview.md) now carries the practical test for power, individual and population-scale effects, the five public trust obligations, values-bound participation, the economic case for distributed competence, multilingual interoperability, and a first public model-and-provenance catalogue without turning into an article index.
 
 ## 2026-08-01
