@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange is documented below (2026-07-25 and 2026-07-27).
+> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange and a related NCS-policy comment are documented below through 2026-08-01.
 > Canonical article: [https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc](https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc)
 
 ---
@@ -159,3 +159,34 @@ Richiello called this the real dividing line: infrastructure can be financed, te
 **Robert Schaub — follow-up** (posted 2026-07-27)
 
 Angelo Richiello Now recorded: the network overview names competence as the condition beneath all four pillars. [https://robertschaub.github.io/our-ai-charter/network-overview/](https://robertschaub.github.io/our-ai-charter/network-overview/)
+
+---
+
+## Related public comment
+
+**Robert Schaub — comment on ICT4Peace's NCS input** (posted 2026-08-01)
+
+_Published on [Daniel Stauffacher's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7487866562515861505/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287489346736004612096%2Curn%3Ali%3Aactivity%3A7487866562515861505%29) sharing Anne-Marie Buzatu's *ICT4Peace Input to Swiss Strategic Review of the National Cyberstrategy (NCS)*._
+
+Thank you Daniel Stauffacher and Anne-Marie Buzatu, this is an important contribution.
+
+Its framing of “open strategic autonomy” closely matches an argument I have been developing:
+
+Autarky is the ambition to get by without others - Sovereignty and Resilience is more:
+
+- Sovereignty is the ability, despite dependencies, to help set rules, inspect systems, challenge decisions and switch in a crisis without collapsing.
+- Resilience preserves society’s room to act; rights and democratic accountability determine whom it serves.
+
+For AI, this means looking beyond ownership or any single national model. A model is an artefact; sovereignty emerges from the ecosystem around it:
+
+- Shared standards and interoperability
+- A public evidence-and-governance layer
+- Shared data foundations
+- Pooled compute with model pluralism
+
+Under all four sits competence—the ability to understand, govern, and improve the infrastructure.
+
+Switzerland’s strongest role is therefore not to build a digital fortress,
+but to act as a credible host and bridge-builder for internationally co-stewarded public-AI infrastructure.
+
+The next NCS could make this operational.
