@@ -45,7 +45,8 @@ A deeper, grounded ranking of *cost-bearers* — who could fund or host the work
 | **Swiss AI Action Plan** (digitalswitzerland + OFCOM) | **No** (in-kind) | Host / legitimacy + a Geneva badge, not money; has a *Smart AI Governance* pillar — contribute via its participation platform. | High (no money) |
 | **Fondation Botnar / Gebert Rüf Stiftung** | Yes | Off-thesis unless narrowly reframed (Botnar = youth/health AI; Gebert Rüf = science-to-market). | Low-med |
 | **SNSF** | Yes | Research-project instrument only — needs an academic PI/host and a research reframe. | Low-med |
-| *ETH Domain — Swiss AI Initiative (CHF 20m)* | earmarked | **Not available** — funds model training/compute, not governance; cite only as precedent that Switzerland funds open-model public-interest AI at scale. | — |
+| **Swiss AI Initiative compute grants** | In-kind compute | Large calls run twice yearly and target **>500k GPU hours**; small grants accept **≤32k GPU hours** continuously. Under the Large Projects rules, an eligible academic lead may include an NGO partner that neither requests nor accesses resources. Treat this as a possible vehicle only after an academic team and a compute-ready research design exist—not as funding for governance work. Current Call 4: DoI **24 Aug 2026, 17:00 CEST**; full proposal **14 Sep 2026, 17:00 CEST**. See the [exploratory RAISD research fit](../Outreach/swiss-ai-raisd-fit-note.en.md). | High (rules); collaboration and compute case unconfirmed |
+| *ETH Domain — Swiss AI Initiative programme backing (CHF 20m)* | earmarked | Separate from the open Large Projects compute call above; cite only as precedent that Switzerland funds open-model public-interest AI at scale. | — |
 
 ### International
 
