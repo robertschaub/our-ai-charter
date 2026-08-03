@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The accompanying feed post and cover are mirrored here.
+> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The accompanying feed post, cover, and related public discussion are mirrored here.
 > Canonical article: [https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc](https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc)
 
 ## Accompanying feed post
@@ -192,3 +192,35 @@ Govern every authority-bearing transition. Preserve the action-scoped record. Ke
 `#AI #AIGovernance #AgenticAI #PublicAI #TrustworthyAI #AIAccountability`
 
 *Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
+
+---
+
+## Related public discussion
+
+**Robert Schaub — reply in Valerie (Val) Fraser's *The Cost of Not Seeing* discussion** (posted 2026-08-03)
+
+_Published on [Fraser's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7487804966309466113/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287489986109435789314%2Curn%3Ali%3AugcPost%3A7487804966309466113%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287490017573451857920%2Curn%3Ali%3AugcPost%3A7487804966309466113%29). Fraser had moved the question upstream: to conditions that make concerns unsafe or futile to voice, and to AI-generated meeting notes that can make a qualified or dissenting discussion appear more settled than it was._
+
+You're right about the ordering: nothing downstream can recover a concern that was never voiced, or restore doubt that the record no longer shows.
+
+The person responsible for the meeting should circulate AI-generated notes as a draft, clearly separating what was decided from what remained contested or unresolved.
+
+Participants should be able to correct the draft or ensure unresolved disagreement remains visible before it is relied on.
+
+Where a summary may shape a consequential decision, a named reviewer should verify its key claims against the available evidence; fluency is not evidence.
+
+These controls cannot replace a safe route to raise concerns outside the reporting line.
+
+They should be proportionate—strongest where decisions have real consequences, without turning every meeting into surveillance.
+
+**Valerie (Val) Fraser — follow-up (summary)** (posted 2026-08-03)
+
+_In a [follow-up reply](https://www.linkedin.com/feed/update/urn:li:ugcPost:7487804966309466113/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287489986109435789314%2Curn%3Ali%3AugcPost%3A7487804966309466113%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287490023768011198464%2Curn%3Ali%3AugcPost%3A7487804966309466113%29), Fraser argued that even an accurate decision record can flatten adjacent risks, tensions, and the conditions that made a concern meaningful. If such a record later becomes learning material for AI, future outputs may inherit the simplified account as though it were the whole truth._
+
+**Robert Schaub — follow-up** (posted 2026-08-03)
+
+_[Published in response](https://www.linkedin.com/feed/update/urn:li:ugcPost:7487804966309466113/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287489986109435789314%2Curn%3Ali%3AugcPost%3A7487804966309466113%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287490035897443373056%2Curn%3Ali%3AugcPost%3A7487804966309466113%29)._
+
+I agree—the key is to distinguish the purpose of the record from any later use. A decision summary can accurately document what was decided and still be incomplete as an account of everything that informed it.
+
+The practical safeguard is to label what the summary is for, preserve the uncertainty and unresolved context that were material to the decision, and not reuse it as training or decision input without first checking that it contains the context needed for that new purpose. The aim is not to record everything, but to prevent a concise record from later being treated as the whole truth.
