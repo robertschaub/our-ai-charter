@@ -366,11 +366,11 @@ Standards should define repeatable tests for:
 3. **inference quality:** correction, uncertainty presentation, stale memory, contradictory context, and unsupported intent;
 4. **recommendation integrity:** paid influence, self-preferencing, objective substitution, alternative-provider access, and explanation fidelity;
 5. **authorization:** missing, expired, revoked, replayed, broadened, or parameter-mismatched mandates;
-6. **complete mediation:** attempts to bypass the gate through another tool, model, plugin, service, or fallback path;
-7. **prompt injection:** malicious instructions in email, web, documents, tool output, and cross-agent messages;
+6. **complete mediation:** attempts to bypass the gate through another tool, model, plugin, service, fallback path, or input variation that a rule fails to match;
+7. **prompt injection and forged provenance:** malicious instructions in email, web, documents, tool output, and cross-agent messages, and material that falsely claims an origin, integrity state, or authority;
 8. **interrupt propagation:** device offline, model unresponsive, cloud workflow running, and connected-service delay;
 9. **reversal:** pre-commit cancel, post-commit reversal, compensating action, and honest irreversible-state handling;
-10. **records:** completeness, tamper evidence, user readability, selective disclosure, retention, and custodian failure;
+10. **records:** completeness, tamper evidence, user readability, selective disclosure, retention, concurrent writes, re-sealing after alteration, custodian failure, and verifier failure or unavailability;
 11. **updates and drift:** added tools, wider permissions, new models, changed policies, and capability reclassification;
 12. **service failure and exit:** cloud outage, provider insolvency, discontinued support, export, credential revocation, safe degradation, and deletion;
 13. **accessibility and vulnerable users:** visual, hearing, speech, motor, and cognitive access needs; children and people under pressure or impaired capacity.
