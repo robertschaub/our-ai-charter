@@ -73,7 +73,7 @@ The trust-and-evidence layer: can a deployed AI show its work, answer for its us
 - **[Certification model](docs/Assurance/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.
 - **[Charter structure and views](docs/Assurance/Concepts/charter-structure-and-views.md)** · **[User-workflow governance](docs/Assurance/Concepts/user-workflow-governance.md)** · **[Assurance cases](docs/Assurance/Concepts/assurance-cases.md)** · **[Capabilities & Assurance Interface](docs/Assurance/Concepts/capabilities-and-assurance-interface.md)** — *DRAFT*. Concept notes that map obligations, duties, runtime, reader-facing lenses, the obligation→duty assurance-case prototypes, and the demand-side "check" surface.
 - **[Risk and vulnerability audit](docs/Assurance/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/Assurance/Background/what-the-world-has-already-declared.md)** — *DRAFT*. Background reference: the risks the Charter must make inspectable, and the declarations it makes checkable.
-- **[Draft notes](docs/wip/README.md)** — *WORKING NOTES*. Provisional public-safe material not yet anchored into the curated set, including the EU-led ambient/agentic-control proposal, runtime proof-of-concept specifications, and bounded external-architecture comparisons.
+- **[Draft notes](docs/wip/README.md)** — *WORKING NOTES*. Provisional public-safe material not yet anchored into the curated set, including the EU-led ambient/agentic-control proposal, the evidence-backed system-use decision record, runtime proof-of-concept specifications, and bounded external-architecture comparisons.
 
 ## How to help
 

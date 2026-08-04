@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-08-04
+- **System-use decision record prepared for the runtime POC** — a new [pre-ingress working specification](docs/wip/system-use-decision-record.md) defines the evidence-backed lifecycle decision, schema, state transitions, runtime bindings, and acceptance tests that should land after M5.5 review and before provider/browser/output-release wiring; a bounded [implementation handoff](docs/wip/system-use-decision-implementation-handoff.md) carries that scope into implementor and reviewer prompts, including dual-source provenance and disclosure-honest invalidation requirements. The decision remains distinct from legal approval, Charter assurance, and per-action authorization.
 - **Article index added** — the website's Articles navigation now begins with a compact [index of all published articles and translations](docs/Published/index.md), with dates and one-line descriptions.
 
 ## 2026-08-03

@@ -190,6 +190,8 @@ nav:
       - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
       - "Ambient agentic AI — control rules": wip/ambient-agentic-ai-control.md
       - "Split custody for per-action records": wip/split-custody-per-action-records.md
+      - "System-use decision record — pre-ingress": wip/system-use-decision-record.md
+      - "System-use decision — implementation handoff": wip/system-use-decision-implementation-handoff.md
       - "Runtime gates POC — specification": wip/runtime-gates-poc-spec.md
       - "JusticeTree VBE ↔ Charter — symmetric runtime crosswalk": wip/justice-tree-vbe-charter-crosswalk.md
   - About: About.md
