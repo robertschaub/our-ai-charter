@@ -26,7 +26,7 @@ Status is shown inline here. Page banners appear only on published pages, normat
 
 ### Articles
 
-Published mirrors and translations of external articles. Status is shown inline and in each page banner.
+Published mirrors and translations of external articles. Browse the compact [site article index](docs/Published/index.md); status is shown inline below and in each article's page banner.
 
 - **[AI and Empathy: Dialogue, Correction and Human Answerability](docs/Published/empathy-is-a-practice.md)** — *PUBLISHED* (2026-07-31). Defines empathy under AI-supported power as disciplined perspective-taking through dialogue, iteration, transparent correction, and answerability; distinguishes expressed empathy from feeling, warmth, sycophancy, and legitimate authority. Feed post and cover mirrored. [Article](https://www.linkedin.com/pulse/ai-empathy-dialogue-correction-human-answerability-robert-schaub-highe/) · [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488909411894149120/).
 - **[How We Can Build AI That Acts with Empathy](docs/Published/how-to-build-ai-that-acts-with-empathy.md)** — *PUBLISHED* (2026-07-31). Builder guideline for grounding, training, tuning, consent-controlled adaptation, governed improvement, system-layer responsibilities, five dialogue gates, evaluation, monitoring, red lines, and evidence. Feed post and cover mirrored. [Article](https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/) · [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488907212669743104/).

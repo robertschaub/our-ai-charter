@@ -2,6 +2,9 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-08-04
+- **Article index added** — the website's Articles navigation now begins with a compact [index of all published articles and translations](docs/Published/index.md), with dates and one-line descriptions.
+
 ## 2026-08-03
 - **Charter v0.18 closes four evidence-control gaps** — [the Charter Commitments](docs/Assurance/Framework/charter-commitments.md) now require reasons for material alternatives, contrary evidence, or applicable rules considered but not used; integrity evidence that covers the decision, recording, and verification components as well as the governing rules and configuration; pre-deployment comparison for outcome-relevant changes; and privacy-preserving lineage from corrected or withdrawn inputs to affected decisions and claims. The ambient-agent test families now also cover unmatched input variants, forged provenance, concurrent writes, re-sealing after alteration, and verifier failure. README and the runtime POC source-version reference aligned; no new section or taxonomy added.
 - **RAISD exploratory research fit note added** — a new [one-page outreach draft](docs/Outreach/swiss-ai-raisd-fit-note.en.md) asks whether a bounded provenance, evidence, contestability, and correction layer could dock with RAISD's work on AI-mediated democratic information. It names Prof. Anikó Hannák as the clearest publicly verified academic anchor, separates the collaboration question from any grant bid, records the Swiss AI Initiative's **>500k** large-call and **≤32k** rolling small-grant thresholds plus the current Call-4 deadlines, and states that no collaboration, compute case, or application readiness is known. Strategy, README, site index, and navigation are aligned.
