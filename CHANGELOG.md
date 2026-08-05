@@ -3,6 +3,7 @@
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-08-05
+- **Draft synthesis article added and tightened** — [*The Public AI We Need: Sovereign, Inspectable and Accountable*](docs/wip/the-public-ai-we-need.md) brings the essential argument of the prior Our AI Charter articles and feed posts into one persuasive narrative: sovereignty without autarky, the four public-AI pillars and the competence beneath them, the practical test for power and five obligations, two governance clocks and five action gates, separated accountability roles, empathy as correctable perspective, a bounded first substrate, and the Phase-1 maturity boundary. Sources and the Richiello, Nützel, and Stuart-Mueller/Woodward credits remain in the article; the network overview now carries the fuller access-enforcement mechanism and missing-record limit. The article restores the original synthesis opening, which explains how the published concerns converge on one Public AI proposition, while making provider change and named human accountability concrete; the proposed feed post retains the public grant case.
 - **Initiative trademark notation added** — added ™ to the primary repository and website identity surfaces and clarified in [NOTICE](NOTICE) that it denotes a claimed trade mark, not registration, certification, or Trust Mark status. Published article mirrors and ordinary later references remain unchanged.
 
 ## 2026-08-04

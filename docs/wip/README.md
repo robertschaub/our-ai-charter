@@ -10,7 +10,7 @@ This is a public repository. Do not paste private meetings, correspondence, outr
 
 ## Public AI & Apertus
 
-- **[ai-is-becoming-infrastructure.md](ai-is-becoming-infrastructure.md)** — draft synthesis article and proposed feed post connecting the published work on sovereignty, the four public-AI pillars, answerable power, runtime governance, independent review, empathy, the first buildable layer, and the Phase-1 boundary.
+- **[The Public AI We Need: Sovereign, Inspectable and Accountable](the-public-ai-we-need.md)** — draft synthesis article and proposed feed post connecting the published work on sovereignty, the four public-AI pillars, answerable power, runtime governance, independent review, empathy, the first buildable layer, and the Phase-1 boundary.
 - **[apertus-fit-and-engagement-plan.md](apertus-fit-and-engagement-plan.md)** — does the Charter add value to Apertus, is it a good match, and how to engage; cross-model-reviewed assessment + a standing-first plan (Apertus as anchoring case, not client).
 - **[metagov-public-ai-landscape.md](metagov-public-ai-landscape.md)** — what Metagov is, who runs its AI-governance work, and the *assurance/certification adjacency map* (Weval · Community-Aligned Benchmarks · Atlas Computing · Calm Tech Certified) locating the Charter's building block as the missing assurance layer.
 - **[public-ai-people-and-pathways.md](public-ai-people-and-pathways.md)** — the **stakeholder & connection map**: focused diagrams for Public AI (international + Swiss chapter) and the Apertus / Swiss-AI ecosystem, the cross-cluster bridges, and a Marcel Salathé actor note.
