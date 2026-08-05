@@ -1,4 +1,4 @@
-# Our AI Charter
+# Our AI Charter™
 
 > [!TIP]
 > **Read this as a website → [robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** — full navigation, search, and a cleaner read than browsing the files here.

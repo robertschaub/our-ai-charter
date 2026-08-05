@@ -5,7 +5,7 @@ description: Why a public-AI network is needed, what it would add, how it would 
 
 # The proposed public-AI network
 
-**Our AI Charter is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.**
+**Our AI Charter™ is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.**
 
 The practical aim is a shared way for people and institutions to find, compare, and reach participating AI systems, inspect their claims, and challenge decisions that affect them — without depending on any one provider.
 

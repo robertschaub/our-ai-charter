@@ -1,6 +1,6 @@
 # About
 
-Our AI Charter belongs to a broader program:
+Our AI Charter™ belongs to a broader program:
 
 > Working to build a free and fair society where technology is used responsibly and enables well-grounded decision-making.
 

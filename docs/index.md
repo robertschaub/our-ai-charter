@@ -1,11 +1,11 @@
 ---
-title: Our AI Charter
+title: Our AI Charter™
 description: Protect and strengthen free and fair societies in the digital age through public-AI governance and infrastructure that are accountable to people and support societal resilience and economic prosperity.
 hide:
   - toc
 ---
 
-# Our AI Charter
+# Our AI Charter™
 
 <div class="tagline" markdown>
 **Trustworthy AI for free, fair, and resilient societies.**
