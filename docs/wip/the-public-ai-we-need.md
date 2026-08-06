@@ -8,15 +8,20 @@
 
 A public agency can assess grant applications with an open model, on approved infrastructure, under domestic control — and the applicant who is refused still cannot see which evidence decided the case.
 
-Ownership is not sovereignty. Gates are not accountability.
+Ownership is not sovereignty.  
+Gates are not accountability.
 
-These articles argue for a federated Public AI network that can be inspected, governed and contested—while power remains answerable to those who bear its consequences.
+We need a federated Public AI network that can be inspected, governed and contested—while power remains answerable to those who bear its consequences.
 
-It rests on four connected pillars: open, plural models; a data and provenance commons; shared assurance and evaluation; and federated public infrastructure under common rules.
+It rests on four connected pillars:
+- Open, plural models
+- Data and provenance commons
+- Shared assurance and evaluation
+- Federated public infrastructure under common rules
 
 *Full article below ↓*
 
-The ten earlier articles behind it are listed at the end.
+The earlier articles that discuss different aspects in detail are listed at the end.
 
 `#PublicAI #DigitalSovereignty #AIAccountability`
 
