@@ -30,6 +30,8 @@ Add or tag them in the comments (I've listed a few to start), and let's connect 
 
 `#PublicAI #AIGovernance #DigitalSovereignty #OpenModels #TrustworthyAI`
 
+_[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7474731926705283072-O1zl) — opening line verified against this mirror, 2026-08-06._
+
 ---
 
 ![The Public AI Network](the-public-ai-network.png)

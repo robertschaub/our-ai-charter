@@ -17,6 +17,8 @@ If you build AI, fund it, study it, govern it, teach it, or simply rely on it â€
 
 _The Anthropic access event this post cites is attributed to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access)._
 
+_A [feed post sharing this article](https://www.linkedin.com/posts/robertschaub_trustworthy-ai-accountable-to-people-activity-7471667943433646080-vmAn) is also on LinkedIn. Checked 2026-08-06: it opens on the article's "world to build instead" paragraph, not on the launch post mirrored above â€” the launch post's own URL is not recorded._
+
 ---
 
 ![Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.png)
