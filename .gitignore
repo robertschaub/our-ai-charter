@@ -10,6 +10,10 @@ desktop.ini
 *.swp
 *~
 
+# Obsidian workspace artifacts — Markdown is the authoritative format here
+*.canvas
+*.base
+
 # Local agent/runtime artifacts (personal, not shared)
 *.log
 logs/
