@@ -2,7 +2,7 @@
 
 *Compiled from public web sources via research agents (June 2026); re-verify before citing. Companion to the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
 
-Of the channels a Swiss public-interest contributor would feed into, **two accept a submittable written artifact** (§§1–2); a third — the official ***Road to Geneva* pre-events programme** (§2b) — accepts a **hosted event** (registration launches August 2026; no stated deadline).
+Of the channels a Swiss public-interest contributor would feed into, **two accept a submittable written artifact** (§§1–2); a third — the official ***Road to Geneva* pre-events programme** (§2b) — accepts a **hosted event**. The official site says the programme starts in August and opens in late summer; as of **2026-08-06**, its registration form was not yet visible.
 
 ## 1. Swissnex SF × Stiftung Mercator — "Geneva Loading…" fellowship
 
@@ -33,13 +33,13 @@ The clearest "what do they want" signal. The April 2026 written call (run by Gen
 
 ## 2b. *Road to Geneva* — independent pre-events (open, low-gatekeeper)
 
-Confirmed from the primary source ([genevaaisummit.swiss](https://www.genevaaisummit.swiss/), verified 2026-07-17; re-verified 2026-07-28 with [OFCOM's 14 Jul 2026 announcement](https://www.bakom.admin.ch/en/geneva-ai-summit-2027-international-summit-on-artificial-intelligence-in-geneva)): the official summit runs a **Road to Geneva** programme inviting organisations and institutions worldwide to host **independent pre-events** ahead of the 21–22 June 2027 summit.
+Confirmed from the primary source ([genevaaisummit.swiss](https://www.genevaaisummit.swiss/), verified 2026-07-17; re-verified 2026-08-06 with [OFCOM's 14 Jul 2026 announcement](https://www.bakom.admin.ch/en/geneva-ai-summit-2027-international-summit-on-artificial-intelligence-in-geneva)): the official summit runs a **Road to Geneva** programme inviting organisations and institutions worldwide to host **independent pre-events** ahead of the 21–22 June 2027 summit.
 
 - **What it accepts:** a **hosted event**, not a written submission — e.g. a governance/evidence roundtable, a workshop, or a tool demo. Pre-events are explicitly *independent* (not official summit outcomes).
-- **How to participate:** by **registration** — OFCOM pins the official launch to **August 2026** via the summit website; a registration form with **no stated deadline** (approval step; approved organisers may display the official *Road to Geneva* logo; no funding or organisational support).
+- **How to participate:** by **registration** — the timeline says **August 2026** and the FAQ says **late summer**. As of **2026-08-06**, the promised form was not yet visible. No deadline is stated; approval allows organisers to display the official *Road to Geneva* logo.
 - **Support:** **none** — no funding or organisational support is provided.
 - **Why it matters:** the **lowest-gatekeeper channel here** — participation is by registration, not invitation — and a natural home for a governance/evidence contribution, optionally co-hosted with a Swiss partner (a university, ICAIN, Wikimedia CH).
-- *Open item:* the registration form goes live with the August 2026 launch (no deadline stated); a **"Call for Issues"** follows in autumn 2026 and side-event proposals in early 2027 — re-check at launch.
+- *Open items:* wait for the designated pre-event form and re-check the official page; the site's generic contact form is not identified as the registration route and should not be used as a substitute. Newsletter signup is the only notification action offered now. A **"Call for Issues"** follows in autumn 2026, participant modalities are due later in 2026, and side-event proposals follow in early 2027.
 
 ## 3. Current AI
 
