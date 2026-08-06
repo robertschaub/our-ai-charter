@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange and a related NCS-policy comment are documented below through 2026-08-01.
+> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange and two related public comments — on ICT4Peace's NCS input and on a sovereignty-versus-autarky post — are documented below through 2026-08-04.
 > Canonical article: [https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc](https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc)
 
 ---
@@ -162,7 +162,7 @@ Angelo Richiello Now recorded: the network overview names competence as the cond
 
 ---
 
-## Related public comment
+## Related public comments
 
 **Robert Schaub — comment on ICT4Peace's NCS input** (posted 2026-08-01)
 
@@ -190,3 +190,22 @@ Switzerland’s strongest role is therefore not to build a digital fortress,
 but to act as a credible host and bridge-builder for internationally co-stewarded public-AI infrastructure.
 
 The next NCS could make this operational.
+
+---
+
+**Robert Schaub — comment on the Durable Leverage Framework** (posted 2026-08-04)
+
+_Published on [Lara Stuart-Mueller's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7490338177702879232/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287490488771994484736%2Curn%3Ali%3AugcPost%3A7490338177702879232%29) setting out a "Durable Leverage Framework": sovereignty as selective ownership, governed interdependence, and non-negotiable governance rather than autarky, applied to Africa's build-versus-partner choices._
+
+Thanks for setting this out, Lara.
+
+It connects closely with the sovereignty test I have used in my published work:
+
+- can institutions help set the rules
+- inspect systems independently
+- switch providers without collapse
+- and can affected people contest consequential decisions?
+
+One further condition matters: institutional control is not yet public accountability. Neither a foreign vendor nor a domestic institution should control the rules, the evidence and the appeal path at once.
+
+Independent review, correction and remedy are what make interdependence genuinely governed and durable.

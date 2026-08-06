@@ -143,6 +143,7 @@ nav:
           - Concepts:
               - "Structuring the Charter — obligations, planes, lenses": Assurance/Concepts/charter-structure-and-views.md
               - "Governance from the AI user's workflow": Assurance/Concepts/user-workflow-governance.md
+              - "Evaluation methods → institutional requirements": Assurance/Concepts/evaluation-to-institutional-requirements.md
               - "Assurance cases (obligation prototypes)": Assurance/Concepts/assurance-cases.md
               - "Capabilities & Assurance Interface": Assurance/Concepts/capabilities-and-assurance-interface.md
           - Protocol:

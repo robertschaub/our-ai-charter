@@ -2,7 +2,7 @@
 
 # Exploratory RAISD research fit: evidence and contestability for AI-mediated public information
 
-*For discussion with Prof. Anikó Hannák and the RAISD team. No collaboration, consortium, or grant proposal is implied.*
+*For discussion with the RAISD team. No collaboration, consortium, or grant proposal is implied.*
 
 ## Proposed fit
 
