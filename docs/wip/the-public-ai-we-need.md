@@ -4,22 +4,27 @@
 
 ---
 
-**The Public AI We Need: Sovereign, Inspectable and Accountable**
+𝗧𝗵𝗲 𝗣𝘂𝗯𝗹𝗶𝗰 𝗔𝗜 𝗪𝗲 𝗡𝗲𝗲𝗱: 𝗦𝗼𝘃𝗲𝗿𝗲𝗶𝗴𝗻, 𝗜𝗻𝘀𝗽𝗲𝗰𝘁𝗮𝗯𝗹𝗲 𝗮𝗻𝗱 𝗔𝗰𝗰𝗼𝘂𝗻𝘁𝗮𝗯𝗹𝗲
 
 A public agency can assess grant applications with an open model, on approved infrastructure, under domestic control — and the applicant who is refused still cannot see which evidence decided the case.
 
-Ownership is not sovereignty.  
-Gates are not accountability.
+𝗢𝘄𝗻𝗲𝗿𝘀𝗵𝗶𝗽 𝗶𝘀 𝗻𝗼𝘁 𝘀𝗼𝘃𝗲𝗿𝗲𝗶𝗴𝗻𝘁𝘆.  
+𝗚𝗮𝘁𝗲𝘀 𝗮𝗿𝗲 𝗻𝗼𝘁 𝗮𝗰𝗰𝗼𝘂𝗻𝘁𝗮𝗯𝗶𝗹𝗶𝘁𝘆.
 
-We need a federated Public AI network that can be inspected, governed and contested—while power remains answerable to those who bear its consequences.
+We need a federated Public AI network that can be inspected, governed and contested — while power remains answerable to those who bear its consequences.
 
-It rests on four connected pillars:
-- Open, plural models
-- Data and provenance commons
-- Shared assurance and evaluation
-- Federated public infrastructure under common rules
+𝗙𝗼𝘂𝗿 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 𝗽𝗶𝗹𝗹𝗮𝗿𝘀:
 
-*Full article below ↓*
+1. 𝗢𝗽𝗲𝗻, 𝗽𝗹𝘂𝗿𝗮𝗹 𝗺𝗼𝗱𝗲𝗹𝘀
+2. 𝗗𝗮𝘁𝗮 𝗮𝗻𝗱 𝗽𝗿𝗼𝘃𝗲𝗻𝗮𝗻𝗰𝗲 𝗰𝗼𝗺𝗺𝗼𝗻𝘀
+3. 𝗦𝗵𝗮𝗿𝗲𝗱 𝗮𝘀𝘀𝘂𝗿𝗮𝗻𝗰𝗲 𝗮𝗻𝗱 𝗲𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻
+4. 𝗙𝗲𝗱𝗲𝗿𝗮𝘁𝗲𝗱 𝗽𝘂𝗯𝗹𝗶𝗰 𝗶𝗻𝗳𝗿𝗮𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲 𝘂𝗻𝗱𝗲𝗿 𝗰𝗼𝗺𝗺𝗼𝗻 𝗿𝘂𝗹𝗲𝘀
+
+And governance at the moment AI-supported power is exercised:
+
+𝗔𝘂𝘁𝗵𝗼𝗿𝗶𝘇𝗲 → 𝗦𝘂𝗯𝗺𝗶𝘁 → 𝗩𝗲𝗿𝗶𝗳𝘆 → 𝗖𝗼𝗺𝗺𝗶𝘁 → 𝗥𝗲𝗹𝘆
+
+Full article below ↓
 
 The earlier articles that discuss different aspects in detail are listed at the end.
 
