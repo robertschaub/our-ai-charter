@@ -94,7 +94,7 @@ The launch article, [*Trustworthy AI, Accountable to People*](../Published/trust
 
 ## Govern the transition where information becomes power
 
-The deeper shift is not a new device but a new position in the chain: AI is becoming [the layer between what people intend and what happens](https://www.linkedin.com/posts/robertschaub_breaking-openais-new-device-is-not-an-iphone-activity-7488181871034507265-jpXP). It must not treat what it predicts someone wants as permission to act. People must be able to inspect and correct important assumptions, approve consequential actions before they happen, interrupt execution across connected services before commitment, and challenge or reverse outcomes where possible.
+The deeper shift is not a new device but a new position in the chain. As Lara Stuart-Mueller frames it, AI is becoming [the layer between what people intend and what happens](https://www.linkedin.com/posts/robertschaub_breaking-openais-new-device-is-not-an-iphone-activity-7488181871034507265-jpXP) — and it must not treat what it predicts someone wants as permission to act. People must be able to inspect and correct important assumptions, approve consequential actions before they happen, interrupt execution across connected services before commitment, and challenge or reverse outcomes where possible.
 
 Broad obligations must reach both a system's life and the exact action it helps take. AI governance therefore has two connected clocks. The first is the system lifecycle:
 
