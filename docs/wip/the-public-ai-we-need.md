@@ -2,22 +2,21 @@
 
 ## Proposed accompanying feed post
 
-**Open Models Are Necessary. They Are Not Enough.**
+---
+
+**The Public AI We Need: Sovereign, Inspectable and Accountable**
 
 A public agency can assess grant applications with an open model, on approved infrastructure, under domestic control — and the applicant who is refused still cannot see which evidence decided the case.
 
-Ownership is not sovereignty. Gates are not accountability. Warmth is not empathy.
+Ownership is not sovereignty. Gates are not accountability.
 
 These articles argue for a federated Public AI network that can be inspected, governed and contested—while power remains answerable to those who bear its consequences.
 
-It rests on four connected pillars: open, plural models; a data and provenance commons; shared assurance and evaluation; and federated public infrastructure under common rules. Under all four sits competence.
-
-The ten earlier articles behind it, grouped and described:
-https://robertschaub.github.io/our-ai-charter/wip/the-public-ai-we-need/#earlier-articles-and-posts
-
-Phase 1: public drafts—not an operating network, pilot, certification scheme or coalition.
+It rests on four connected pillars: open, plural models; a data and provenance commons; shared assurance and evaluation; and federated public infrastructure under common rules.
 
 *Full article below ↓*
+
+The ten earlier articles behind it are listed at the end.
 
 `#PublicAI #DigitalSovereignty #AIAccountability`
 
@@ -29,7 +28,7 @@ Phase 1: public drafts—not an operating network, pilot, certification scheme o
 
 *The essential argument of Our AI Charter—from sovereignty and public infrastructure to runtime governance, empathy, and remedy.*
 
-A public agency assesses grant applications with an open model, on approved infrastructure, under domestic control. Every sovereignty box is ticked. And the applicant who is refused still cannot see which evidence decided the case, or challenge it.
+A public agency assesses grant applications with an open model, on approved infrastructure, under domestic control. Every ownership and control box is ticked. And the applicant who is refused still cannot see which evidence decided the case, or challenge it.
 
 AI is becoming part of the infrastructure through which people learn, work, communicate, govern, and make sense of the world — much of it running on services a public body cannot inspect, and cannot leave without losing something it depends on.
 
@@ -40,6 +39,8 @@ The articles and public posts behind Our AI Charter™ began from different conc
 > **Free societies need a federated Public AI network: open and plural enough to resist unilateral control, governed by shared public obligations, and backed by evidence, independent review, and remedy.**
 
 This is not only a technology proposal. It is a proposal about power.
+
+And it is a proposal, not a going concern. Our AI Charter is in **Phase 1: public drafting and connection-building** — not an operating network, live pilot, coalition, certification scheme, registry, assessor, or adjudicator. No model or provider is Charter-certified. It does not yet resolve institutional ownership, sustainable funding, cross-jurisdictional authority, or how a binding remedy would be enforced. What follows is design, offered so that others can inspect, criticise, improve, or reject it.
 
 ## Sovereignty is the capacity to act
 
@@ -61,7 +62,7 @@ The wider aim is international: free societies should cooperate without surrende
 
 ## Open models are necessary—and not enough
 
-Open, inspectable models widen access, support research and adaptation, and reduce dependence on systems that cannot be examined. But open weights do not tell a public body which service actually processed its data, whether a model changed, how a disputed output was produced, or who will answer when an AI-supported decision harms someone.
+Open, inspectable models widen access, support research and adaptation, and reduce dependence on systems that cannot be examined. They are necessary because independent inspection, adaptation, continuity, and provider exit cannot be guaranteed if every model remains under a vendor's exclusive control. But open weights do not tell a public body which service actually processed its data, whether a model changed, how a disputed output was produced, or who will answer when an AI-supported decision harms someone.
 
 A collection of national models is not yet public infrastructure. The [Our AI Charter project statement](../Published/our-ai-charter-public-ai-infrastructure.md) joins four connected pillars:
 
@@ -103,7 +104,7 @@ The launch article, [*Trustworthy AI, Accountable to People*](../Published/trust
 
 The deeper shift is not a new device but a new position in the chain. As Lara Stuart-Mueller frames it, AI is becoming [the layer between what people intend and what happens](https://www.linkedin.com/posts/robertschaub_breaking-openais-new-device-is-not-an-iphone-activity-7488181871034507265-jpXP) — and it must not treat what it predicts someone wants as permission to act. People must be able to inspect and correct important assumptions, approve consequential actions before they happen, interrupt execution across connected services before commitment, and challenge or reverse outcomes where possible.
 
-Broad obligations must reach both a system's life and the exact action it helps take. AI governance therefore has two connected clocks. The first is the system lifecycle:
+Broad obligations must reach both a system's life and the exact action it helps take. The four pillars describe what the network provides; the gates below apply it at authority-bearing transitions — they do not mirror the pillars one for one, and they do not wrap every inference. Governance therefore has two connected clocks. The first is the system lifecycle:
 
 **design → deploy → operate → incident → remedy**
 
@@ -135,7 +136,7 @@ Return to the grant decision:
 - **Prepare** — applicant data may enter only the approved system, for the declared purpose.
 - **Check** — missing eligibility evidence stops the path before the draft becomes a decision basis.
 - **Decide** — the commit gate binds applicant, rule, amount, evidence, decision-maker, and policy version; the executing service verifies that decision rather than trusting an approval click.
-- **Review** — the applicant receives a scoped extract and a receipt showing the full record was lodged — precisely what the applicant in the opening could not obtain.
+- **Review** — the applicant receives a scoped extract and a receipt showing the full record was lodged, and can put the decision to a reviewer outside the agency who can reach that record and order correction or reversal. That is precisely what the applicant in the opening could not obtain.
 
 The point is not to automate public judgment, but to stop automation from quietly crossing from assisting a judgment to exercising power. The example also exposes three distinct units: **assurance of a release, authorization of an action, and accountability for its consequence. None substitutes for the other two.**
 
@@ -173,9 +174,7 @@ For builders, [the practical rule](../Published/how-to-build-ai-that-acts-with-e
 
 At runtime, keep distinct what a person said, what the system inferred, what the person confirmed, and what it may remember. An interpretation must never silently become fact, memory, or training data. A system must never tell users it needs, misses, or loves them. The human or institution using AI remains answerable; no model or ensemble can supply legitimate authority, independent review, or remedy.
 
-## What exists today
-
-Our AI Charter is in **Phase 1: public drafting and connection-building**. It is not an operating network, live pilot, coalition, certification scheme, registry, assessor, or adjudicator. No model or provider is Charter-certified. What exists is a public body of work others can inspect, criticise, improve, or reject.
+## What comes next
 
 The current roadmap uses Geneva 2027 as a deadline for a bounded governance blueprint, one evidence-and-evaluation pilot outline, a neutral clarification process, and a roundtable path. The route is **alliance and mandate first, lawmaking later**. Switzerland is one possible host and bridge—not the owner of an international network.
 
@@ -187,6 +186,7 @@ The Charter is public because its claims should be contestable from the beginnin
 
 **Built by many. Accountable to all.**
 
+---
 ## Earlier articles and posts
 
 The earlier articles behind this synthesis, grouped by the part of the argument they develop:
