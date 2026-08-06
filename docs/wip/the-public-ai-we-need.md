@@ -104,7 +104,7 @@ The second is one AI-supported action:
 
 **plan → prepare → check → decide → review**
 
-Stuart-Mueller and Woodward's preprint [*The Wrong Layer*](https://doi.org/10.5281/zenodo.21397661) supplies the premise: governance needs per-action evidence that a consequential machine action was authorized, admissible, and bounded when it occurred. The Charter's [runtime decision path](../Assurance/Concepts/user-workflow-governance.md) adds five public-facing gates and the route from record to independent review and remedy:
+Two efforts reached this requirement independently. The Charter's [runtime decision path](../Assurance/Concepts/user-workflow-governance.md) was drafted in June 2026; Stuart-Mueller and Woodward's July preprint [*The Wrong Layer*](https://doi.org/10.5281/zenodo.21397661) makes the same core case — governance needs per-action evidence that a consequential machine action was authorized, admissible, and bounded when it occurred. Convergence from different starting points is some evidence the requirement is real. The Charter's contribution is the two-clock structure, five public-facing gates, and the route from record to independent review and remedy:
 
 1. **Plan → Authorize:** Is this system appropriate, and who has authority within which limits?
 2. **Prepare → Submit:** May these data and instructions enter under the applicable rights and privacy rules?

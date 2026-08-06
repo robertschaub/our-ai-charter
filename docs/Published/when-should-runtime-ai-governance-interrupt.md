@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The accompanying feed post, cover, and related public discussion are mirrored here.
+> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. This repository copy was revised 2026-08-06 to record that the Charter's runtime model and *The Wrong Layer* reached the per-action requirement independently — the Charter's gates and two-lifecycle structure are in this repository's public history from 28 June 2026 — rather than the Charter taking a premise from the preprint; the live article still carries the earlier wording. The accompanying feed post, cover, and related public discussion are mirrored here.
 > Canonical article: [https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc](https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc)
 
 ## Accompanying feed post
@@ -58,7 +58,7 @@ Intervene when evidence becomes a decision basis, authority expands, data crosse
 
 Three roles must not blur: the model proposes; a component outside the model decides under current policy and authority; the service producing the effect verifies that decision again.
 
-[Stuart-Mueller and Woodward's *The Wrong Layer*](https://doi.org/10.5281/zenodo.21397661) supplies an important premise: governance needs per-action evidence that a consequential machine action was authorized, admissible, and bounded when it occurred. The Charter model developed here adds a two-clock timing structure, five public-facing gates, and the institutional route from record to independent review and remedy.
+[Stuart-Mueller and Woodward's *The Wrong Layer*](https://doi.org/10.5281/zenodo.21397661) makes the same core case independently: governance needs per-action evidence that a consequential machine action was authorized, admissible, and bounded when it occurred. The Charter model reached that requirement on its own track — its gates, fail-actions, and two-lifecycle structure were drafted in June 2026 — and adds a two-clock timing structure, five public-facing gates, and the institutional route from record to independent review and remedy.
 
 ## The “when” has two clocks
 
