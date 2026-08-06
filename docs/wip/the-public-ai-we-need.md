@@ -4,24 +4,15 @@
 
 **Open Models Are Necessary. They Are Not Enough.**
 
-Ownership is not sovereignty. What an AI predicts someone wants is not permission to act. Gates are not accountability. Warmth is not empathy. Certificates cannot make behaviour trustworthy.
+A public agency can assess grant applications with an open model, on approved infrastructure, under domestic control — and the applicant who is refused still cannot see which evidence decided the case.
+
+Ownership is not sovereignty. Gates are not accountability. Warmth is not empathy.
 
 These articles argue for a federated Public AI network that can be inspected, governed and contested—while power remains answerable to those who bear its consequences.
 
-Four connected pillars:
+It rests on four connected pillars: open, plural models; a data and provenance commons; shared assurance and evaluation; and federated public infrastructure under common rules. Under all four sits competence.
 
-1. **Open, plural models** that people and institutions can inspect and compare across languages, jurisdictions, capabilities, and known limits.
-2. **Data and provenance commons** documenting origin, permissions, opt-outs, restrictions, and access conditions—*clear once, reuse many*.
-3. **Shared assurance and evaluation** providing scoped evidence, correction, independent review, and remedy. **AI Assurance & Certification** is this trust-and-evidence building block.
-4. **Federated public AI infrastructure** connecting independently operated compute nodes under shared rules, local control, and fallback paths.
-
-The earlier articles group into three parts:
-
-- **AI Sovereignty** — autarky, interdependence and infrastructure.
-- **AI Accountable to People** — evidence, power and runtime gates.
-- **AI and Empathy** — perspective, correction and builder guidance.
-
-The earlier articles and their corresponding posts are grouped and described in the article's reading index:
+The ten earlier articles behind it, grouped and described:
 https://robertschaub.github.io/our-ai-charter/wip/the-public-ai-we-need/#earlier-articles-and-posts
 
 Phase 1: public drafts—not an operating network, pilot, certification scheme or coalition.
@@ -38,25 +29,33 @@ Phase 1: public drafts—not an operating network, pilot, certification scheme o
 
 *The essential argument of Our AI Charter—from sovereignty and public infrastructure to runtime governance, empathy, and remedy.*
 
-AI is becoming part of the infrastructure through which people learn, work, communicate, govern, and make sense of the world. The decisive question is therefore no longer only which model performs best. It is whether people and democratic institutions can **inspect, shape, and contest** the systems on which they increasingly depend and **change providers without losing an essential service**—and whether a named human institution remains answerable when AI affects a life, a right, or a public decision.
+A public agency assesses grant applications with an open model, on approved infrastructure, under domestic control. Every sovereignty box is ticked. And the applicant who is refused still cannot see which evidence decided the case, or challenge it.
 
-That question connects the articles and public posts behind Our AI Charter™. They began from different concerns: fragile dependence on a few providers, the limits of national AI strategies, factual claims that cannot be checked, automated actions that outrun their authority, and systems that sound caring while making people less able to correct or resist them. They converge on one proposition:
+AI is becoming part of the infrastructure through which people learn, work, communicate, govern, and make sense of the world — much of it running on services a public body cannot inspect, and cannot leave without losing something it depends on.
+
+The decisive question is therefore no longer only which model performs best. It is whether people and democratic institutions can **inspect, shape, and contest** those systems and **change providers without losing an essential service**—and whether a named human institution remains answerable when AI affects a life, a right, or a public decision.
+
+The articles and public posts behind Our AI Charter™ began from different concerns: fragile dependence on a few providers, the limits of national AI strategies, factual claims that cannot be checked, automated actions that outrun their authority, and systems that sound caring while making people less able to correct or resist them. They converge on one proposition:
 
 > **Free societies need a federated Public AI network: open and plural enough to resist unilateral control, governed by shared public obligations, and backed by evidence, independent review, and remedy.**
 
 This is not only a technology proposal. It is a proposal about power.
 
-## Sovereignty is the capacity to act—not the illusion of standing alone
+## Sovereignty is the capacity to act
 
-The understandable response to dependence is national models, national clouds, and national control. Domestic capability matters. But [autarky is not sovereignty](../Published/swiss-autarky-illusion.md).
+The understandable response to that dependence is national models, national clouds, and national control. Domestic capability matters. But [autarky is not sovereignty](../Published/swiss-autarky-illusion.md).
 
 Autarky is the ambition to manage without others. Sovereignty is the capacity to act despite interdependence: to help set the rules, inspect systems independently, contest consequential decisions, and change providers without losing an essential service. A country that owns one model but lacks alternatives, shared standards, skilled people, reliable partners, and an effective route to challenge decisions may own an artefact without being sovereign over the system around it.
 
-Switzerland's [Apertus](https://www.swiss-ai.org/apertus) makes the distinction concrete. It is genuinely open, but not yet sovereignty. In public-administration use, Liip [found](https://www.liip.ch/en/blog/apertus-after-8-months-what-we-learned-and-look-forward-using-switzerlands-ai-model) it effectively tied with an older, low-cost commercial model on whether an answer was acceptable (**82% versus 81%**), but behind on whether it was actually good (**55% versus 72%**) and on source fidelity (**0.50 versus 0.79**) — running on a smaller parallel instance, and by Liip's own framing a practice report, not a study. Its next phase has [CHF 20 million](https://www.swissinfo.ch/eng/swiss-ai/fact-and-fiction-about-the-swiss-ai-model-apertus/90110034) in federal funding, while four US technology companies plan [more than $700 billion](https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html) in 2026 investment. Because it honours provenance and opt-outs while [around 45%](https://www.dataprovenance.org/) of one major web corpus is restricted by terms of use, it also bears a compliance cost better-funded competitors can absorb.
+Switzerland's [Apertus](https://www.swiss-ai.org/apertus) makes the distinction concrete. It is genuinely open, but not yet sovereignty. In public-administration use, Liip [found](https://www.liip.ch/en/blog/apertus-after-8-months-what-we-learned-and-look-forward-using-switzerlands-ai-model) it effectively tied with an older, low-cost commercial model on whether an answer was acceptable (**82% versus 81%**), but behind on whether it was actually good (**55% versus 72%**) and on source fidelity (**0.50 versus 0.79**). Liip calls this a practice report rather than a study, and Apertus ran on a smaller parallel instance.
 
-The project does not fail this test; the expectation does. A model is an artefact. Sovereignty emerges from the ecosystem around it. Nor does a federation need to win the capability race to be worth building: for many bounded public and civic tasks, a model that can be inspected, audited, and corrected matters more than frontier performance.
+The asymmetries around it are starker. Its next phase has [CHF 20 million](https://www.swissinfo.ch/eng/swiss-ai/fact-and-fiction-about-the-swiss-ai-model-apertus/90110034) in federal funding, while four US technology companies plan [more than $700 billion](https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html) in 2026 investment. And because it honours provenance and opt-outs while [around 45%](https://www.dataprovenance.org/) of one major web corpus is restricted by terms of use, it bears a compliance cost better-funded competitors can absorb.
 
-Sovereignty is also not an end in itself. Resilience preserves room to act; values determine whom that room serves. The relevant tests are human dignity and freedom, self-determination and privacy, truth and verifiability, justice and the rule of law, and reciprocal reliability. Institutional control is not yet public accountability: neither a foreign vendor nor a domestic institution should hold the rules, the evidence, and the appeal path at once. The plainest form of the test is this: **can one party withdraw a system for everyone, in secret, with no appeal?** Contestable control means lawful recall, misuse safeguards, and named operators who answer publicly — never secret kill-switches.
+The project does not fail this test; the expectation does. Nor does a federation need to win the capability race to be worth building: for many bounded public and civic tasks, a model that can be inspected, audited, and corrected matters more than frontier performance.
+
+Sovereignty is also not an end in itself. Resilience preserves room to act; values determine whom that room serves — human dignity and freedom, self-determination and privacy, truth and verifiability, justice and the rule of law, reciprocal reliability.
+
+Institutional control is not yet public accountability: neither a foreign vendor nor a domestic institution should hold the rules, the evidence, and the appeal path at once. The plainest form of the test is this: **can one party withdraw a system for everyone, in secret, with no appeal?** Contestable control means lawful recall, misuse safeguards, and named operators who answer publicly — never secret kill-switches.
 
 The wider aim is international: free societies should cooperate without surrendering local control or accepting domination by a single state or company. That was the shared thrust of the early articles on [AI sovereignty and resilience](../Published/ai-sovereignty-and-resilience.md) and [the Public AI Network](../Published/the-public-ai-network.md).
 
@@ -73,9 +72,17 @@ A collection of national models is not yet public infrastructure. The [Our AI Ch
 
 Under all four sits **competence**. "Infrastructure can be purchased. Competence cannot," as Angelo Richiello put it. Understanding and governing complex systems accumulate through education, research, practice, and institutional learning. Value creation, skilled work, and bargaining power grow where institutions help build and decide, not merely buy.
 
-Anti-capture governance holds the pillars together. A captured registry can shape the market; self-controlled evidence can manufacture trust. The load-bearing phrase is "verifiably commit": practitioners with Gaia-X and EU-consortium experience report that such federations stall exactly there, because partners resist submitting their own compliance claims to an audit they do not control. The answer is consequence through access rather than general policing: assurance status would gate shared compute, corpus access, or procurement preference; failure or expiry would suspend status, with appeal, and no member would control the audit. **No consequence, no commitment.** Open weights mean anyone may still run a model privately; what the network governs is its own shared infrastructure and the public purse, which is where the leverage actually sits. The [network overview](../network-overview.md#how-to-take-part-now) carries the fuller path.
+Anti-capture governance holds the pillars together. A captured registry can shape the market; self-controlled evidence can manufacture trust.
+
+The load-bearing phrase is "verifiably commit". Practitioners with Gaia-X and EU-consortium experience report that such federations stall exactly there, because partners resist submitting their own compliance claims to an audit they do not control. The answer is consequence through access rather than general policing: assurance status would gate shared compute, corpus access, or procurement preference; failure or expiry would suspend status, with appeal, and no member would control the audit. **No consequence, no commitment.**
+
+Open weights mean anyone may still run a model privately. What the network governs is its own shared infrastructure and the public purse — which is where the leverage sits. The [network overview](../network-overview.md#how-to-take-part-now) carries the fuller path.
 
 Here, **public** describes obligations, access, accountability, and governance—not one legal form or central operator. Participation should depend on verifiable commitments to human rights, rule-of-law procedures, democratic accountability, transparency, and effective remedy. The proposal contributes to the wider public-AI movement; it claims no affiliation with an existing coalition.
+
+The user path should stay simpler than the governance beneath it: **find → check → use**. Find a suitable system; check its jurisdiction, openness, evidence, capabilities, and limits; use it through a service that preserves the rules, records, and challenge route. Discovery itself must stay plural.
+
+The first buildable substrate is deliberately bounded: a model-plural policy broker connected to at least two independent compute nodes, plus an evidence plane. The broker would decide what may run, where, and under which purpose and data rules. The evidence plane would preserve reviewable records, public where safe and protected where necessary. This would add accountable routing and evidence to existing models and public-compute work—not replace them.
 
 ## Start with the people who bear the consequences
 
@@ -114,13 +121,23 @@ Two efforts reached this requirement independently. The Charter's [runtime decis
 
 The rule developed in [*When Should Runtime AI Governance Interrupt?*](../Published/when-should-runtime-ai-governance-interrupt.md) is to **govern every authority-bearing transition—not every inference or mechanical step**.
 
-This avoids ceremonial approval of every step without letting a live system outrun what anyone assessed. **Trace wide, escalate narrow**: routine, reversible actions may proceed inside a bounded mandate. Escalate for human decision only when a human or independent reviewer can still change the outcome, the stakes justify interruption, and the system cannot responsibly resolve the issue within its existing authority. Subject to that test, triggers include an action exceeding its mandate, material or hard-to-reverse consequences, inadequate evidence, genuine discretion, an uncertain rights boundary, or a challenge from an affected person. A prohibited action must be denied. Where the applicable rules require human authorization, execution must stop until the responsible person or institution, acting within its mandate, has assessed sufficient evidence, applied the relevant rules, and recorded a reasoned decision through the proper process. A human click alone is not authorization.
+This avoids ceremonial approval of every step without letting a live system outrun what anyone assessed. **Trace wide, escalate narrow**: routine, reversible actions may proceed inside a bounded mandate.
+
+Escalate for human decision only when three conditions hold together — a human or independent reviewer can still change the outcome, the stakes justify interruption, and the system cannot responsibly resolve the issue within its existing authority. Subject to that test, triggers include an action exceeding its mandate, material or hard-to-reverse consequences, inadequate evidence, genuine discretion, an uncertain rights boundary, or a challenge from an affected person.
+
+A prohibited action must be denied outright. Where the applicable rules require human authorization, execution stops until a mandated decision-maker has weighed sufficient evidence, applied the relevant rules, and recorded a reasoned decision. **A human click alone is not authorization.**
 
 The acting model must not approve itself. An external component returns **allow, deny, or escalate**; the service producing the effect verifies again. Each consequential action leaves a scoped record of its basis, authority, effect, and challenge route—not a person's whole conversation. Accountability must not become surveillance.
 
-Consider a public grant decision. At **Plan**, the agency authorizes the AI to compare applications against published criteria and flag uncertainty—not to invent criteria or make the award. At **Prepare**, applicant data may enter only the approved system for the declared purpose. At **Check**, missing eligibility evidence stops the path before the draft becomes a decision basis. At **Decide**, the commit gate binds applicant, rule, amount, evidence, decision-maker, and policy version, and the executing service verifies that decision rather than trusting an approval click. At **Review**, the applicant receives a scoped extract and a receipt showing the full record was lodged. The point is not to automate public judgment, but to stop automation from quietly crossing from assisting a judgment to exercising power.
+Return to the grant decision:
 
-The example also exposes three distinct units: **assurance of a release, authorization of an action, and accountability for its consequence. None substitutes for the other two.**
+- **Plan** — the agency authorizes the AI to compare applications against published criteria and flag uncertainty, not to invent criteria or make the award.
+- **Prepare** — applicant data may enter only the approved system, for the declared purpose.
+- **Check** — missing eligibility evidence stops the path before the draft becomes a decision basis.
+- **Decide** — the commit gate binds applicant, rule, amount, evidence, decision-maker, and policy version; the executing service verifies that decision rather than trusting an approval click.
+- **Review** — the applicant receives a scoped extract and a receipt showing the full record was lodged — precisely what the applicant in the opening could not obtain.
+
+The point is not to automate public judgment, but to stop automation from quietly crossing from assisting a judgment to exercising power. The example also exposes three distinct units: **assurance of a release, authorization of an action, and accountability for its consequence. None substitutes for the other two.**
 
 ## No one body should control the accountability chain
 
@@ -138,7 +155,7 @@ No one body gets the whole chain. It need not invent wholly new machinery: someo
 
 The limits must remain visible. A gate can show that declared rules were applied to recorded inputs; it cannot prove the rules legitimate, the evidence true, the outcome fair, or the remedy effective. Where no enforceable arrangement can authorize access and bind a remedy, the accountability loop is open. And a record system cannot expose a determination that was never lodged. The fuller [network overview](../network-overview.md#how-it-would-govern-action-and-human-consequences) therefore adds a duty to lodge, a right to discover that a decision was made, and oversight able to detect an expected missing record.
 
-## Empathy means correctable perspective—not artificial feeling
+## Empathy means dialogue and correction
 
 Rules and records can still miss what power does to a person. The Charter's later articles therefore add [dialogue, correction, and human answerability](../Published/empathy-is-a-practice.md). Psychology has no single agreed definition of empathy, so what follows is a practice standard for power-holders, not a competing psychological definition: listen to affected people, distinguish what they say from what the system infers, keep uncertainty visible, and remain correctable—without claiming artificial feeling.
 
@@ -156,23 +173,13 @@ For builders, [the practical rule](../Published/how-to-build-ai-that-acts-with-e
 
 At runtime, keep distinct what a person said, what the system inferred, what the person confirmed, and what it may remember. An interpretation must never silently become fact, memory, or training data. A system must never tell users it needs, misses, or loves them. The human or institution using AI remains answerable; no model or ensemble can supply legitimate authority, independent review, or remedy.
 
-## Make the public path simple—and the claims honest
+## What exists today
 
-The user experience should be simpler than the governance beneath it:
-
-**find → check → use**
-
-Find a suitable system. Check its jurisdiction, openness, evidence, capabilities, and limits. Use it through a service that preserves the rules, records, and challenge route. Discovery must stay plural: whoever controls it can shape the market.
-
-The first buildable substrate is deliberately bounded: a model-plural policy broker connected to at least two independent compute nodes, plus an evidence plane. The broker would decide what may run, where, and under which purpose and data rules. The evidence plane would preserve reviewable records, public where safe and protected where necessary. This would add accountable routing and evidence to existing models and public-compute work—not replace them.
-
-The maturity claim matters as much as the design. Our AI Charter is in **Phase 1: public drafting and connection-building**. It is not an operating network, live pilot, coalition, certification scheme, registry, assessor, or adjudicator. No model or provider is Charter-certified. What exists is a public body of work others can inspect, criticise, improve, or reject.
+Our AI Charter is in **Phase 1: public drafting and connection-building**. It is not an operating network, live pilot, coalition, certification scheme, registry, assessor, or adjudicator. No model or provider is Charter-certified. What exists is a public body of work others can inspect, criticise, improve, or reject.
 
 The current roadmap uses Geneva 2027 as a deadline for a bounded governance blueprint, one evidence-and-evaluation pilot outline, a neutral clarification process, and a roundtable path. The route is **alliance and mandate first, lawmaking later**. Switzerland is one possible host and bridge—not the owner of an international network.
 
 ## Built by many. Accountable to all.
-
-The standard is more demanding than open weights, national ownership, a runtime gate, or a trust label. Free societies need public capacity to inspect, govern, contest, and switch the systems they rely on. Consequential AI-supported power must stay within authority, carry reviewable evidence, preserve correction, and answer to those who bear its effects.
 
 If you build AI, publish who can switch it off and on what grounds. If you buy or depend on AI, require traceable, contestable outputs. If you shape policy or study this, say where the argument breaks. Identify an overclaim, duplication, weak evidence duty, missing safeguard, or legitimate institutional home.
 
