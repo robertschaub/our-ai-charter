@@ -1,6 +1,7 @@
-> **Status: WORKING NOTES** — draft synthesis article for maintainer review; not published externally.
+> **Status: PUBLISHED 2026-08-06** — synthesis article bringing the essential argument of the ten earlier Our AI Charter articles into one place. The accompanying feed post (above the article) and the cover are mirrored here. Sources were checked before publication; the three LinkedIn post URLs in the reading index were fetched and confirmed on 2026-08-06.
+> Canonical article: _to be added once the LinkedIn edition is live._
 
-## Proposed accompanying feed post
+## Accompanying feed post
 
 ---
 
@@ -54,7 +55,7 @@ And it is a proposal, not a going concern. Our AI Charter is in **Phase 1: publi
 
 ## Sovereignty is the capacity to act
 
-The understandable response to that dependence is national models, national clouds, and national control. Domestic capability matters. But [autarky is not sovereignty](../Published/swiss-autarky-illusion.md).
+The understandable response to that dependence is national models, national clouds, and national control. Domestic capability matters. But [autarky is not sovereignty](swiss-autarky-illusion.md).
 
 Autarky is the ambition to manage without others. Sovereignty is the capacity to act despite interdependence: to help set the rules, inspect systems independently, contest consequential decisions, and change providers without losing an essential service. A country that owns one model but lacks alternatives, shared standards, skilled people, reliable partners, and an effective route to challenge decisions may own an artefact without being sovereign over the system around it.
 
@@ -68,13 +69,13 @@ Sovereignty is also not an end in itself. Resilience preserves room to act; valu
 
 Institutional control is not yet public accountability: neither a foreign vendor nor a domestic institution should hold the rules, the evidence, and the appeal path at once. The plainest form of the test is this: **can one party withdraw a system for everyone, in secret, with no appeal?** Contestable control means lawful recall, misuse safeguards, and named operators who answer publicly — never secret kill-switches.
 
-The wider aim is international: free societies should cooperate without surrendering local control or accepting domination by a single state or company. That was the shared thrust of the early articles on [AI sovereignty and resilience](../Published/ai-sovereignty-and-resilience.md) and [the Public AI Network](../Published/the-public-ai-network.md).
+The wider aim is international: free societies should cooperate without surrendering local control or accepting domination by a single state or company. That was the shared thrust of the early articles on [AI sovereignty and resilience](ai-sovereignty-and-resilience.md) and [the Public AI Network](the-public-ai-network.md).
 
 ## Open models are necessary—and not enough
 
 Open, inspectable models widen access, support research and adaptation, and reduce dependence on systems that cannot be examined. They are necessary because independent inspection, adaptation, continuity, and provider exit cannot be guaranteed if every model remains under a vendor's exclusive control. But open weights do not tell a public body which service actually processed its data, whether a model changed, how a disputed output was produced, or who will answer when an AI-supported decision harms someone.
 
-A collection of national models is not yet public infrastructure. The [Our AI Charter project statement](../Published/our-ai-charter-public-ai-infrastructure.md) joins four connected pillars:
+A collection of national models is not yet public infrastructure. The [Our AI Charter project statement](our-ai-charter-public-ai-infrastructure.md) joins four connected pillars:
 
 1. **Open, plural models** that people and institutions can inspect and compare across languages, jurisdictions, capabilities, and known limits.
 2. **Data and provenance commons** documenting origin, permissions, opt-outs, restrictions, and access conditions—*clear once, reuse many*.
@@ -97,7 +98,7 @@ The first buildable substrate is deliberately bounded: a model-plural policy bro
 
 ## Start with the people who bear the consequences
 
-Infrastructure and governance sound remote until a decision lands on someone. The [practical test for power](../Published/a-practical-test-for-power.md) starts there: follow a use of power to the people who bear its cost.
+Infrastructure and governance sound remote until a decision lands on someone. The [practical test for power](a-practical-test-for-power.md) starts there: follow a use of power to the people who bear its cost.
 
 For any AI-supported decision, ask:
 
@@ -108,7 +109,7 @@ For any AI-supported decision, ask:
 
 These questions lead to the Charter's five public obligations. AI-supported systems and the institutions using them should be **purpose-bound; answerable to people; safe, secure, private, and resilient; fair in practice; and open to evidence and correction**. Together they require named responsibility, notice and challenge, proportionate safeguards, testing and monitoring for materially uneven or discriminatory performance across groups, languages, regions, and contexts, and enough evidence to correct, constrain, or withdraw a system when its basis fails.
 
-The launch article, [*Trustworthy AI, Accountable to People*](../Published/trustworthy-ai-accountable-to-people.md), framed the essential test plainly: can a material claim or consequential decision be traced, tested, challenged, and corrected—and is a named human institution responsible for what follows?
+The launch article, [*Trustworthy AI, Accountable to People*](trustworthy-ai-accountable-to-people.md), framed the essential test plainly: can a material claim or consequential decision be traced, tested, challenged, and corrected—and is a named human institution responsible for what follows?
 
 ## Govern the transition where information becomes power
 
@@ -130,7 +131,7 @@ Two efforts reached this requirement independently. The Charter's [runtime decis
 4. **Decide → Commit:** May this exact proposal become an external action?
 5. **Review → Rely:** Does it remain supportable, monitored, challengeable, and correctable?
 
-The rule developed in [*When Should Runtime AI Governance Interrupt?*](../Published/when-should-runtime-ai-governance-interrupt.md) is to **govern every authority-bearing transition—not every inference or mechanical step**.
+The rule developed in [*When Should Runtime AI Governance Interrupt?*](when-should-runtime-ai-governance-interrupt.md) is to **govern every authority-bearing transition—not every inference or mechanical step**.
 
 This avoids ceremonial approval of every step without letting a live system outrun what anyone assessed. **Trace wide, escalate narrow**: routine, reversible actions may proceed inside a bounded mandate.
 
@@ -154,7 +155,7 @@ The point is not to automate public judgment, but to stop automation from quietl
 
 Runtime checking answers *when* a system should stop. It does not establish who wrote a fair rule, whether the evidence is good, whether a reviewer is independent, or whether an affected person can obtain a binding remedy. Where the same operator composes the action, sets the policy, and holds the evidence, it is still marking its own homework — just faster.
 
-The companion article on [*who gets to check*](../Published/when-vs-who-ai-governance.md) therefore separates five roles:
+The companion article on [*who gets to check*](when-vs-who-ai-governance.md) therefore separates five roles:
 
 1. **Rulemaker** — publishes the criteria but does not operate or audit the system.
 2. **Operator** — runs the gate against signed policy but does not hold the only record.
@@ -168,7 +169,7 @@ The limits must remain visible. A gate can show that declared rules were applied
 
 ## Empathy means dialogue and correction
 
-Rules and records can still miss what power does to a person. The Charter's later articles therefore add [dialogue, correction, and human answerability](../Published/empathy-is-a-practice.md). Psychology has no single agreed definition of empathy, so what follows is a practice standard for power-holders, not a competing psychological definition: listen to affected people, distinguish what they say from what the system infers, keep uncertainty visible, and remain correctable—without claiming artificial feeling.
+Rules and records can still miss what power does to a person. The Charter's later articles therefore add [dialogue, correction, and human answerability](empathy-is-a-practice.md). Psychology has no single agreed definition of empathy, so what follows is a practice standard for power-holders, not a competing psychological definition: listen to affected people, distinguish what they say from what the system infers, keep uncertainty visible, and remain correctable—without claiming artificial feeling.
 
 The operating loop is:
 
@@ -178,7 +179,7 @@ Dialogue must be safe, early enough to change an outcome, and connected to revie
 
 Warmth is no shortcut. Warmth-tuned models made [10–30 percentage points more errors](https://www.nature.com/articles/s41586-026-10410-0) on consequential tasks and were about 40% more likely to affirm incorrect beliefs. Users of [sycophantic AI](https://doi.org/10.1126/science.aec8352) became more convinced they were right and less willing to repair interpersonal conflicts—even while preferring and trusting it. **Sycophancy is not empathy. Personalization is not care.**
 
-For builders, [the practical rule](../Published/how-to-build-ai-that-acts-with-empathy.md) is:
+For builders, [the practical rule](how-to-build-ai-that-acts-with-empathy.md) is:
 
 > **Train for perspective-taking. Tune for truthfulness and agency. Adapt only with consent. Improve only through governed, testable releases.**
 

@@ -2,6 +2,7 @@
 
 Published articles and translations from Our AI Charter.
 
+- **[The Public AI We Need: Sovereign, Inspectable and Accountable](the-public-ai-we-need.md)** — 2026-08-06 · Synthesis of the ten earlier articles: sovereignty without autarky, the four pillars, answerable power, runtime gates, separated roles, correctable perspective, and the Phase-1 boundary.
 - **[AI and Empathy: Dialogue, Correction and Human Answerability](empathy-is-a-practice.md)** — 2026-07-31 · Empathy as dialogue, transparent correction, and answerability under AI-supported power.
 - **[How We Can Build AI That Acts with Empathy](how-to-build-ai-that-acts-with-empathy.md)** — 2026-07-31 · Builder guidance for perspective-taking, consent-controlled adaptation, dialogue gates, evaluation, and evidence.
 - **[When Should Runtime AI Governance Interrupt?](when-should-runtime-ai-governance-interrupt.md)** — 2026-07-30 · Five activity-and-gate pairs, bounded authority, narrow escalation, and reviewable action records.

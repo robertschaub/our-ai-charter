@@ -120,6 +120,7 @@ nav:
   - Network overview: network-overview.md
   - Articles:
       - Article index: Published/index.md
+      - "The Public AI We Need: Sovereign, Inspectable and Accountable": Published/the-public-ai-we-need.md
       - "AI and Empathy: Dialogue, Correction and Human Answerability": Published/empathy-is-a-practice.md
       - "How We Can Build AI That Acts with Empathy — builder article": Published/how-to-build-ai-that-acts-with-empathy.md
       - "Runtime governance — when to interrupt": Published/when-should-runtime-ai-governance-interrupt.md
@@ -180,7 +181,6 @@ nav:
       - "Geneva 2027 — channel demand": Evidence/geneva-2027-channel-demand.md
   - Draft notes:
       - Overview: wip/README.md
-      - "The Public AI We Need": wip/the-public-ai-we-need.md
       - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
       - "Apertus — fit & engagement plan": wip/apertus-fit-and-engagement-plan.md
       - "Metagov & Public AI — assurance landscape": wip/metagov-public-ai-landscape.md
