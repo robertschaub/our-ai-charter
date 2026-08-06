@@ -8,14 +8,14 @@ Ownership is not sovereignty. What an AI predicts someone wants is not permissio
 
 These articles argue for a federated Public AI network that can be inspected, governed and contested—while power remains answerable to those who bear its consequences.
 
-Four foundations:
+Four connected pillars:
 
 1. **Open, plural models** that people and institutions can inspect and compare across languages, jurisdictions, capabilities, and known limits.
 2. **Data and provenance commons** documenting origin, permissions, opt-outs, restrictions, and access conditions—*clear once, reuse many*.
 3. **Shared assurance and evaluation** providing scoped evidence, correction, independent review, and remedy. **AI Assurance & Certification** is this trust-and-evidence building block.
 4. **Federated public AI infrastructure** connecting independently operated compute nodes under shared rules, local control, and fallback paths.
 
-Three connected strands:
+The earlier articles group into three parts:
 
 - **AI Sovereignty** — autarky, interdependence and infrastructure.
 - **AI Accountable to People** — evidence, power and runtime gates.
@@ -32,7 +32,7 @@ Phase 1: public drafts—not an operating network, pilot, certification scheme o
 
 ---
 
-![The Public AI We Need: choose providers, trace the evidence, and challenge the decision](the-public-ai-we-need-v6.png)
+![The Public AI We Need: choose providers, trace the evidence, and challenge the decision](the-public-ai-we-need.png)
 
 # The Public AI We Need: Sovereign, Inspectable and Accountable
 
@@ -77,8 +77,6 @@ Anti-capture governance holds the pillars together. A captured registry can shap
 
 Here, **public** describes obligations, access, accountability, and governance—not one legal form or central operator. Participation should depend on verifiable commitments to human rights, rule-of-law procedures, democratic accountability, transparency, and effective remedy. The proposal contributes to the wider public-AI movement; it claims no affiliation with an existing coalition.
 
-The proposal is intended as a contribution to the wider public-AI movement, not a claim of affiliation with any existing coalition.
-
 ## Start with the people who bear the consequences
 
 Infrastructure and governance sound remote until a decision lands on someone. The [practical test for power](../Published/a-practical-test-for-power.md) starts there: follow a use of power to the people who bear its cost.
@@ -90,7 +88,7 @@ For any AI-supported decision, ask:
 - Can they safely disagree, refuse, or challenge—and can an independent body stop, reverse, or investigate? Where leaving is the only safe option, power has already failed the test.
 - How will harm be remedied, can repeated failure limit the power, and which boundaries hold even when they frustrate the goal?
 
-These questions lead to the Charter's five public obligations. AI-supported systems and the institutions using them should be **purpose-bound; answerable to people; safe, secure, private, and resilient; fair in practice; and open to evidence and correction**. Together they require named responsibility, notice and challenge, proportionate safeguards, monitoring across people and populations, and enough evidence to correct, constrain, or withdraw a system when its basis fails.
+These questions lead to the Charter's five public obligations. AI-supported systems and the institutions using them should be **purpose-bound; answerable to people; safe, secure, private, and resilient; fair in practice; and open to evidence and correction**. Together they require named responsibility, notice and challenge, proportionate safeguards, testing and monitoring for materially uneven or discriminatory performance across groups, languages, regions, and contexts, and enough evidence to correct, constrain, or withdraw a system when its basis fails.
 
 The launch article, [*Trustworthy AI, Accountable to People*](../Published/trustworthy-ai-accountable-to-people.md), framed the essential test plainly: can a material claim or consequential decision be traced, tested, challenged, and corrected—and is a named human institution responsible for what follows?
 
@@ -120,7 +118,7 @@ This avoids ceremonial approval of every step without letting a live system outr
 
 The acting model must not approve itself. An external component returns **allow, deny, or escalate**; the service producing the effect verifies again. Each consequential action leaves a scoped record of its basis, authority, effect, and challenge route—not a person's whole conversation. Accountability must not become surveillance.
 
-Return to the opening case. At **Plan**, the agency authorizes the AI to compare applications against published criteria and flag uncertainty—not to invent criteria or make the award. At **Prepare**, applicant data may enter only the approved system for the declared purpose. At **Check**, missing eligibility evidence stops the path before the draft becomes a decision basis. At **Decide**, the commit gate binds applicant, rule, amount, evidence, decision-maker, and policy version, and the executing service verifies that decision rather than trusting an approval click. At **Review**, the applicant receives a scoped extract and a receipt showing the full record was lodged. The point is not to automate public judgment, but to stop automation from quietly crossing from assisting a judgment to exercising power.
+Consider a public grant decision. At **Plan**, the agency authorizes the AI to compare applications against published criteria and flag uncertainty—not to invent criteria or make the award. At **Prepare**, applicant data may enter only the approved system for the declared purpose. At **Check**, missing eligibility evidence stops the path before the draft becomes a decision basis. At **Decide**, the commit gate binds applicant, rule, amount, evidence, decision-maker, and policy version, and the executing service verifies that decision rather than trusting an approval click. At **Review**, the applicant receives a scoped extract and a receipt showing the full record was lodged. The point is not to automate public judgment, but to stop automation from quietly crossing from assisting a judgment to exercising power.
 
 The example also exposes three distinct units: **assurance of a release, authorization of an action, and accountability for its consequence. None substitutes for the other two.**
 
@@ -142,7 +140,7 @@ The limits must remain visible. A gate can show that declared rules were applied
 
 ## Empathy means correctable perspective—not artificial feeling
 
-Rules and records can still miss what power does to a person. The Charter's later articles therefore add [dialogue, correction, and human answerability](../Published/empathy-is-a-practice.md): listen to affected people, distinguish what they say from what the system infers, keep uncertainty visible, and remain correctable—without claiming artificial feeling.
+Rules and records can still miss what power does to a person. The Charter's later articles therefore add [dialogue, correction, and human answerability](../Published/empathy-is-a-practice.md). Psychology has no single agreed definition of empathy, so what follows is a practice standard for power-holders, not a competing psychological definition: listen to affected people, distinguish what they say from what the system infers, keep uncertainty visible, and remain correctable—without claiming artificial feeling.
 
 The operating loop is:
 
@@ -191,7 +189,7 @@ The earlier articles behind this synthesis, grouped by the part of the argument 
 - [**AI Sovereignty and Resilience**](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd) — Why sovereignty requires resilience, governable interdependence, and the capacity to act.
 - [**The Public AI Network**](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7474731926705283072-O1zl/) — The international case for shared public AI infrastructure, common standards, and democratic accountability.
 - [**The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone**](https://www.linkedin.com/posts/robertschaub_digitalsovereignty-publicai-aigovernance-ugcPost-7486430520470360065-TDNr) — Sovereignty as the ability to inspect, help set the rules, contest decisions, and change providers—not national isolation.
-- [**Our AI Charter: From Open Models to Accountable Public AI Infrastructure**](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7487951694866345984-FPSP) — The four connected foundations, their governance-and-evidence layer, and the Phase 1 boundary.
+- [**Our AI Charter: From Open Models to Accountable Public AI Infrastructure**](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7487951694866345984-FPSP) — The four connected pillars, their governance-and-evidence layer, and the Phase 1 boundary.
 
 ### AI Accountable to People
 
