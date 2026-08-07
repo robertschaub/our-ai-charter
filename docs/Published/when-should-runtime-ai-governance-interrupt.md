@@ -224,3 +224,32 @@ _[Published in response](https://www.linkedin.com/feed/update/urn:li:ugcPost:748
 I agree—the key is to distinguish the purpose of the record from any later use. A decision summary can accurately document what was decided and still be incomplete as an account of everything that informed it.
 
 The practical safeguard is to label what the summary is for, preserve the uncertainty and unresolved context that were material to the decision, and not reuse it as training or decision input without first checking that it contains the context needed for that new purpose. The aim is not to record everything, but to prevent a concise record from later being treated as the whole truth.
+
+**Robert Schaub — comment on Lara Stuart-Mueller's EU AI Act post** (edited; verified 2026-08-07)
+
+_[Published on Stuart-Mueller's LinkedIn post](https://www.linkedin.com/posts/lara-stuart-mueller-bab1172ab_the-eu-ai-act-is-a-gigantic-regulatory-band-aid-share-7489860271662919680-xNnf)._
+
+The design point lands, but the dates complicate it.
+
+For high-risk systems, the Act contains technical design and lifecycle requirements, not just paperwork:
+Risk management, pre-market testing, event logging, and human oversight.
+Those duties do not begin applying until December 2027 or August 2028.
+
+The narrower gap is that the Act does not establish a general action-time check showing that each consequential action is authorised and within limits.
+Who performs that check is an institutional question, not only an engineering one!
+
+**Robert Schaub — comment on B. Setyadi's *AI Governance Series Vol. 1*** (posted 2026-08-04)
+
+_[Published on Setyadi's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7489956885828128768/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287490278578509725697%2Curn%3Ali%3AugcPost%3A7489956885828128768%29). Setyadi's visual paper proposes **Observe → Understand → Model → Validate → Infer → Respond** as a reasoning-preservation flow. The comment connects that flow to the Charter's distinction between testimony, inference, confirmation, permission, and action-time authorization._
+
+[B. Setyadi](https://www.linkedin.com/in/bsetyadi/) Your Observe → Understand → Model → Validate → Infer → Respond flow names an important design rule.
+
+I would add one governance boundary: preserve not only a reasoning trace, but the status of each element—what the person actually said, what the system inferred and with what uncertainty, what the person confirmed, and what it has revocable permission to use or remember.
+
+An interpretation must never silently become a fact.
+
+Where a conclusion may lead to consequential action, faithfully modelled intent is still not authorization.
+
+Observation, inference, recommendation, preparation, authorization, commitment and effect should remain distinct, with the final check outside the generative model and a record that supports challenge, correction and remedy.
+
+Preserve the reasoning—and preserve the person’s authority over what follows from it.

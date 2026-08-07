@@ -50,6 +50,41 @@ Not adopted text. Recorded as candidate work, in ascending order of cost.
 
   **A criterion for epistemic standing.** Capacity to disconfirm has to be structural, or it reduces to the reviewer's virtue. Three conditions, proposed in the exchange above and consistent with the Charter's existing [independence rule](../Assurance/Framework/charter-commitments.md): the reviewer can obtain evidence the institution would not volunteer; the finding changes the permission state rather than producing a report; and the reviewer does not depend on the reviewed party for appointment, funding, or renewal. The third is usually decisive — a reviewer who needs the relationship to continue can afford every finding except the disconfirming one. The Charter already states the economic half of this: the party that writes the method does not evaluate anyone, the assessor is paid a flat fee regardless of outcome, and the method-steward takes no per-product royalties from the systems it judges. What it does not yet state is the access half — what a reviewer may reach without the reviewed party's cooperation — which is where the [split-custody design](split-custody-per-action-records.md) becomes load-bearing rather than optional.
 
+## After the verdict: what the Charter does not route
+
+Three questions raised 2026-08-07, checked against the existing documents. One pattern underlies them: **the Charter has a verdict vocabulary and no onward routing.** Allow, deny, escalate, and fail-closed all describe what happens to the *action*. None describes what happens afterwards to the case, the rule, or the person.
+
+*This section reads the gaps against the normative [Charter Commitments](../Assurance/Framework/charter-commitments.md). The same three questions read against the two published runtime articles resolve differently, because the articles contain less than the Commitments do.*
+
+### 1. What follows "no basis"
+
+Not stated anywhere. The consequential-action baseline ends at *ambiguity or missing authority fails closed*, and the POC invariant stops an approval from manufacturing the missing basis. Both are about stopping. Neither says what happens next — so from outside, "no basis" is indistinguishable from being ignored.
+
+Four things should follow. Only the first exists today.
+
+1. **The action stops.** Fail closed. *(exists)*
+2. **The case is preserved, not closed.** The absence of a basis is recorded as a fact about the mandate and rule set, not as a failed request that disappears with the session — the same mechanism as the no-category state above.
+3. **It routes to whoever can create the missing basis.** *(partly exists, pattern-only)* Baseline 5 already routes to re-scoping and re-authorization — but only on "declared patterns or thresholds", never on a single unresolved case. One no-basis stop is recorded and goes nowhere.
+4. **The affected person gets an answer and a clock.** *(absent)* Baseline 7 requires a receipt saying what the record evidences, what it does not, and whether it was independently confirmed — all about the evidence. Nothing requires telling the person what stopped, what would have to change, who can change it, and when they will hear.
+
+Items 3 and 4 also need the two roles the [POC](runtime-gates-poc-spec.md) does not have (§9).
+
+### 2. Escalation graded by consequence
+
+**Correction (2026-08-07).** An earlier version of this section claimed the escalation verdict was undifferentiated and that four parameters needed adding. That was wrong, and it was wrong because the section was written from search results rather than from the text. **Consequential-action baseline 5 already specifies all four**: the human-intervention contract states the *authorized role, competence and independence requirements, and an authorized substitute or no-substitute rule*; the *response bound and safe no-response default*; the *permitted dispositions*; and that only *a declared reversible fallback already within existing authority may proceed*. It also states, verbatim, that **"Routing follows the authority required, not mere human availability"** — which is already the Charter's answer to the fixed-role-versus-most-senior question.
+
+The real gap is one link, not four parameters. **Baseline 2 records reversibility; baseline 5 never reads it.** The intervention contract is defined per escalation path by whoever writes it, with no required severity taxonomy — so two paths with identical consequence classes may carry different response bounds and defaults, and nothing detects that. The three-way taxonomy that would key it (**reversible / compensable / irreversible**, with the rule that the later the category the stronger the gate) exists only in [ambient agentic AI control](ambient-agentic-ai-control.md), a working note, and the normative layer does not reference it.
+
+Closing it needs no new machinery: require baseline 5's parameters to be set per reversibility class as recorded under baseline 2, and lift the taxonomy into the definitions block of [Charter Commitments](../Assurance/Framework/charter-commitments.md) alongside the existing definition of *responsibility map*.
+
+**Severity selects the body, not the rank.** The recipient is not one named reviewer but one of the separated roles, and which one depends on what would have to change. An operational error the accountable owner can fix stays inside the institution. A contested determination needs an **independent reviewer** — outside the deciding line, able to force reassessment without owning the outcome. A missing or expired basis is a **rulemaker** matter, because the mandate itself has to change. A consequence the institution cannot undo needs a **remedy decider**, because no amount of internal reassessment gives the affected person anything back. These are different kinds of authority, not rungs of one ladder: a rulemaker cannot grant a remedy, a remedy decider cannot amend a mandate, and an independent reviewer can do neither but can compel both to be reconsidered. The routing question is therefore not *how serious is this* but *which kind of change would answer it* — with severity deciding how far outside the institution that change has to be sourced.
+
+### 3. Who checks the checkers
+
+Already answered, for certification. The [certification model](../Assurance/Framework/certification-model.md) sets out standard-setter → certifier → accreditor → peer review, states the chain in as many words ("who checks the checkers?" → the accreditor; "who checks them?" → peer review), and proposes riding ISO/IEC 17065, national accreditation bodies, and the IAF against ISO/IEC 17011 rather than reinventing it. The same chain appears in three published articles. No work needed here.
+
+The gap is the **runtime** roles. That chain polices conformity assessors. It does not say who accredits an *independent reviewer* or a *remedy decider* inside an operating system — [network-overview](../network-overview.md) carries one conditional sentence and nothing further. They may not ride the same chain: a remedy decider exercises authority over an individual case, which resembles ombuds or dispute-resolution accreditation more than conformity assessment. Which family of precedent applies has not been checked.
+
 ## Open questions
 
 - Is representation error a distinct duty, or a trigger condition inside duty 8? Adding a duty is expensive and the Charter's duty set is deliberately short.
