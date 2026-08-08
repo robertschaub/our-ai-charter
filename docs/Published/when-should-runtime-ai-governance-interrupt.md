@@ -253,3 +253,34 @@ Where a conclusion may lead to consequential action, faithfully modelled intent 
 Observation, inference, recommendation, preparation, authorization, commitment and effect should remain distinct, with the final check outside the generative model and a record that supports challenge, correction and remedy.
 
 Preserve the reasoning—and preserve the person’s authority over what follows from it.
+
+**Robert Schaub — comment on Alexander Strüver's *The Real AI Safety Problem Is Not Runtime. It Is Certification.*** (posted 2026-08-02)
+
+_[Published on Strüver's LinkedIn post](https://www.linkedin.com/posts/alexander-str%C3%BCver-autor_engineering-artificialintelligence-aisafety-ugcPost-7489343727761793024-lRBT). Strüver's article argues that the AI-safety debate should move from runtime governance to certification — "runtime should solve physics, not politics." In [his public reply](https://www.linkedin.com/feed/update/urn:li:ugcPost:7489343727761793024/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287489635253192577024%2Curn%3Ali%3AugcPost%3A7489343727761793024%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287489637898997161984%2Curn%3Ali%3AugcPost%3A7489343727761793024%29), Strüver classified the described component as classical control engineering rather than governance — an engineering implementation of a certified configuration — distinguished governance (deciding requirements) from engineering (implementing, verifying, and enforcing them), noted that perfect enforcement establishes deterministic execution rather than autonomy, and asked what problem the runtime layer solves that established control engineering and certified configuration management do not already address. The working note [What the runtime layer adds](../wip/what-the-runtime-layer-adds.md) consolidates the answer._
+
+Alexander, I may be using “runtime governance” differently from the approach you are criticizing.
+I do not mean asking an LLM to reinterpret changing legislation during execution.
+
+In my model, policy and bounded authority are explicitly defined, versioned, and approved through the system lifecycle.
+At runtime, a component outside the acting model applies that current policy to the exact consequential action; the executing service verifies the authorization again, and an action-scoped record supports later review.
+
+Would you regard that as runtime governance—or as the engineering implementation and enforcement of a certified configuration? If the latter, our apparent disagreement may partly be terminological. If not, where would you place authorization of the exact action?
+
+**Robert Schaub — comment on Alexander Strüver's *AI Governance Is Confusing Governance With Engineering*** (posted 2026-08-07)
+
+_[Published on Strüver's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7491312554284347392/) sharing [his 7 August article](https://www.linkedin.com/pulse/ai-governance-confusing-engineering-alexander-str%C3%BCver-yxwoc/), which separates science (establishing capability), engineering (specializing it into architecture), and governance (defining the conditions of use), and argues that governance middleware cannot create a computational capability the architecture lacks._
+
+Alexander Strüver Your distinction is useful. I agree that governance terminology or surrounding software cannot create a capability the architecture lacks.
+
+But distinguishing functions does not place governance outside engineered implementation.
+
+Cars show the interface. UNECE R155 establishes lifecycle cybersecurity duties, while R156 governs software changes through version identification, integrity validation, compatibility checks, records and controlled execution. Regulators do not design the vehicle, but their requirements become operative and auditable through engineered controls; engineering evidence, incidents and changing threats feed back into the rules.
+
+Security makes this especially visible.
+Access control, separation of authority, logging and fail-safe behaviour are engineering mechanisms.
+They can be governance instruments when they specify who may act, under what conditions, with what evidence, and with what accountability.
+
+So I would distinguish the functions without isolating them:
+governance sets, maintains, and remains accountable for requirements and authority; engineering realizes and verifies the mechanisms.
+Their interface needs co-design.
+Does that fit your distinction?
