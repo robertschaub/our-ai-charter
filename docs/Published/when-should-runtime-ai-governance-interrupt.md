@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The accompanying feed post, cover, and related public discussion are mirrored here.
+> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The accompanying feed post, cover, and related public discussion are mirrored here. A marked repository note (2026-08-08) defining *runtime governance* was added to this copy; the live article does not carry it.
 > Canonical article: [https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc](https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc)
 
 ## Accompanying feed post
@@ -45,6 +45,8 @@ _[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_ai
 # When Should Runtime AI Governance Interrupt?
 
 *Companion to [Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?](when-vs-who-ai-governance.md). That article argued for independent institutions around the runtime gate. This one opens the gate itself.*
+
+*[Repository note, 2026-08-08 — not in the live article: in this article, **runtime governance** names the whole arrangement — the action-level control point wired to lifecycle governance and to the separated institutional roles (rule, run, record, review, remedy) — never the enforcement component alone. The component by itself is per-action authorization and evidence enforcement; see [What the runtime layer adds](../wip/what-the-runtime-layer-adds.md).]*
 
 Ask a person to approve every step and the system trains them to stop reading. Approve nothing after launch and the live system can move beyond what anyone assessed. Both are failures of timing.
 

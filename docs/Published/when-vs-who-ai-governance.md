@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; eight public comments (below) are documented; source-checked through 2026-07-27.
+> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; eight public comments (below) are documented; source-checked through 2026-07-27. A marked repository note (2026-08-08) defining *runtime governance* was added to this copy; the live article does not carry it.
 > Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 
 ---
@@ -31,6 +31,8 @@ But a technical gate is only as trustworthy as the institutions around it. Where
 # Runtime AI Governance Gets *When* Right. The Harder Question Is *Who Gets to Check?*
 
 *A [security briefing reviewed by more than 250 CISOs](https://www.sans.org/press/announcements/emergency-strategy-briefing-ai-driven-vulnerability-discovery-compresses-exploit-timelines) warns that AI-assisted vulnerability discovery is compressing exploit timelines. "Govern at runtime" is part of the answer. But a technical gate is not the same thing as public accountability.*
+
+*[Repository note, 2026-08-08 — not in the live article: **runtime governance** here names the arrangement — per-action checking wired to the five separated roles below — not the technical gate alone; see [What the runtime layer adds](../wip/what-the-runtime-layer-adds.md).]*
 
 *[The AI Vulnerability Storm](https://cloudsecurityalliance.org/artifacts/the-ai-vulnerability-storm)* — a strategy briefing from SANS, the Cloud Security Alliance, the OWASP GenAI Security Project, and [un]prompted — warns that the window between vulnerability discovery and weaponization is collapsing from weeks to hours. The underlying Zero Day Clock [measures a narrower interval](https://zerodayclock.com/audit): among CVEs with confirmed in-the-wild exploitation, the median time from NVD publication to a confirmed exploit signal fell from 771 days across 273 cases in the 2018 cohort to 0.0 days — same-day or earlier under the tracker's definition — across 44 cases in its still-small 2026 cohort at the May audit.
 
