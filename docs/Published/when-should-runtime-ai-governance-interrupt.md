@@ -272,12 +272,12 @@ Would you regard that as runtime governance—or as the engineering implementati
 
 Thank you, Alexander. I agree that the runtime component is engineered enforcement, not the institution that defines the requirements—and I am not claiming that it creates autonomy.
 
-The remaining distinction for me is between an authority boundary and the current state of authority within it. 
+The remaining distinction for me is between an authority boundary and the current state of authority within it.
 A certified system and policy may remain unchanged while a delegation expires, a mandate is revoked, or a spending ceiling is consumed.
 
 The execution-time question is therefore not only “Is this the certified configuration?” but also “Is this exact action still authorized now?”
 
-I would place that function in per-action authorization or security engineering, with governance upstream. 
+I would place that function in per-action authorization or security engineering, with governance upstream.
 
 In your architecture, is this current-authority check part of certified configuration management, or a separate runtime authorization layer?
 
@@ -286,14 +286,14 @@ _Strüver first answered with a lifecycle analogy — a vehicle certified in 200
 **Robert Schaub — second follow-up in the same thread** (posted 2026-08-03)
 
 Alexander Strüver
-I agree that authorization, physical admissibility, and autonomous capability are separate engineering concerns. 
+I agree that authorization, physical admissibility, and autonomous capability are separate engineering concerns.
 But I do not see engineering and governance as mutually exclusive categories.
 
-I use "governance" for the cross-cutting arrangement that determines who sets the constraints, who may change them, how they are enforced, what evidence survives, and who is accountable. 
+I use "governance" for the cross-cutting arrangement that determines who sets the constraints, who may change them, how they are enforced, what evidence survives, and who is accountable.
 
 Runtime authorization and physical runtime assurance are different technical controls within that arrangement.
 
-Authorization therefore does not create autonomy or establish physical safety. 
+Authorization therefore does not create autonomy or establish physical safety.
 It governs whether delegated authority still permits a particular action, while the safety layer governs whether that action remains within approved physical constraints.
 
 _Strüver closed the thread (2026-08-04) with two further replies: governance cannot establish whether an engineering claim is objectively true — "if a bridge is incorrectly certified, governance does not make the bridge structurally sound"; it can require evidence but cannot replace the objective reference against which evidence is evaluated, and in his view "must remain subordinate to objectively demonstrable engineering evidence—not the other way around."_

@@ -1,4 +1,4 @@
-> **Status: PUBLISHED 2026-07-23** — verbatim mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; eight public comments (below) are documented; source-checked through 2026-07-27. A marked repository note (2026-08-08) defining *runtime governance* was added to this copy; the live article does not carry it.
+> **Status: PUBLISHED 2026-07-23** — mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; eight public comments (below) are documented; source-checked through 2026-07-27. A marked repository note (2026-08-08) defining *runtime governance* was added to this copy; the live article does not carry it.
 > Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 
 ---
