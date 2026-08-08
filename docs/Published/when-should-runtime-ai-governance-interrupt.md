@@ -268,6 +268,36 @@ At runtime, a component outside the acting model applies that current policy to 
 
 Would you regard that as runtime governance—or as the engineering implementation and enforcement of a certified configuration? If the latter, our apparent disagreement may partly be terminological. If not, where would you place authorization of the exact action?
 
+**Robert Schaub — follow-up in the same thread** (posted 2026-08-03; thread dates derived from LinkedIn's relative timestamps on 2026-08-08)
+
+Thank you, Alexander. I agree that the runtime component is engineered enforcement, not the institution that defines the requirements—and I am not claiming that it creates autonomy.
+
+The remaining distinction for me is between an authority boundary and the current state of authority within it. 
+A certified system and policy may remain unchanged while a delegation expires, a mandate is revoked, or a spending ceiling is consumed.
+
+The execution-time question is therefore not only “Is this the certified configuration?” but also “Is this exact action still authorized now?”
+
+I would place that function in per-action authorization or security engineering, with governance upstream. 
+
+In your architecture, is this current-authority check part of certified configuration management, or a separate runtime authorization layer?
+
+_Strüver first answered with a lifecycle analogy — a vehicle certified in 2000 is not made to reinterpret 2002 legislation at startup; retrofit, re-certification, or retirement are lifecycle decisions — then, addressing the dynamic authorization facts directly, agreed (2026-08-03): "I completely agree that the runtime must verify the current authorization state before executing the action," classifying that function as "classical identity, access control, and authorization engineering … an important engineering function," distinct from physical admissibility and from autonomous capability: "different engineering layers solving different problems."_
+
+**Robert Schaub — second follow-up in the same thread** (posted 2026-08-03)
+
+Alexander Strüver
+I agree that authorization, physical admissibility, and autonomous capability are separate engineering concerns. 
+But I do not see engineering and governance as mutually exclusive categories.
+
+I use "governance" for the cross-cutting arrangement that determines who sets the constraints, who may change them, how they are enforced, what evidence survives, and who is accountable. 
+
+Runtime authorization and physical runtime assurance are different technical controls within that arrangement.
+
+Authorization therefore does not create autonomy or establish physical safety. 
+It governs whether delegated authority still permits a particular action, while the safety layer governs whether that action remains within approved physical constraints.
+
+_Strüver closed the thread (2026-08-04) with two further replies: governance cannot establish whether an engineering claim is objectively true — "if a bridge is incorrectly certified, governance does not make the bridge structurally sound"; it can require evidence but cannot replace the objective reference against which evidence is evaluated, and in his view "must remain subordinate to objectively demonstrable engineering evidence—not the other way around."_
+
 **Robert Schaub — comment on Alexander Strüver's *AI Governance Is Confusing Governance With Engineering*** (posted 2026-08-07)
 
 _[Published on Strüver's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7491312554284347392/) sharing [his 7 August article](https://www.linkedin.com/pulse/ai-governance-confusing-engineering-alexander-str%C3%BCver-yxwoc/), which separates science (establishing capability), engineering (specializing it into architecture), and governance (defining the conditions of use), and argues that governance middleware cannot create a computational capability the architecture lacks._
@@ -286,3 +316,5 @@ So I would distinguish the functions without isolating them:
 governance sets, maintains, and remains accountable for requirements and authority; engineering realizes and verifies the mechanisms.
 Their interface needs co-design.
 Does that fit your distinction?
+
+_Strüver answered in three parts (2026-08-07): yes to the interface and continuous feedback — engineering may tell governance a requirement is technically impossible, and incidents may cause governance to revise requirements — "but feedback between functions does not collapse the functions"; the mechanisms are "engineering mechanisms implementing governance requirements," whose "normative origin may be governance" while "their technical realization is engineering"; and caution on "co-design" — governance and engineering "can jointly refine the requirement–feasibility interface," but governance should not co-design the computational mechanism unless acting in an engineering capacity and carrying the corresponding technical burden of proof: "That boundary is exactly what I am arguing for."_
