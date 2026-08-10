@@ -2,6 +2,9 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-08-10
+- **Ownership-vocabulary comment documented** — added Robert Schaub's 2026-08-10 comment on [Neeraj Gaur's three-questions post](https://www.linkedin.com/posts/neerajgaurtechconsultant_before-an-ai-system-moves-into-production-share-7490424192010465280-C5kV/) to [*When Should Runtime AI Governance Interrupt?*](docs/Published/when-should-runtime-ai-governance-interrupt.md). Where the source post asks who owns the outcome, what evidence supports the decision, and what happens when it fails, the comment questions the first question's vocabulary rather than the difficulty of answering it: "owner" is project and asset language, a real deployment runs contractor → client → the person the output lands on, and that person is not a party to the contracts that allocate it. The word bundles three things that sit with different parties — authority to narrow, pause or reverse; liability, usually capped by contract; and answerability to the affected person — of which only the first two are normally assigned, often to the same party that holds the evidence and judges whether a failure occurred. The comment notes that regulation reaches for role-and-duty words instead (the AI Act's providers, deployers, and affected persons with a route to explanation and complaint), and adds a fourth question about what the person on the receiving end can actually do. No article numbers are cited and no position is attributed to Gaur or to other commenters.
+
 ## 2026-08-09
 - **Site article index regrouped thematically** — [docs/Published/index.md](docs/Published/index.md) now mirrors the synthesis article's reading index: the synthesis on top, the ten earlier articles grouped as AI Sovereignty, AI Accountable to People, and AI and Empathy in the same order; dates and one-line descriptions kept, with the two translation entries gaining the descriptions the article gives them.
 

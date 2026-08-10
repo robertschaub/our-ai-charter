@@ -318,3 +318,17 @@ Their interface needs co-design.
 Does that fit your distinction?
 
 _Strüver answered in three parts (2026-08-07): yes to the interface and continuous feedback — engineering may tell governance a requirement is technically impossible, and incidents may cause governance to revise requirements — "but feedback between functions does not collapse the functions"; the mechanisms are "engineering mechanisms implementing governance requirements," whose "normative origin may be governance" while "their technical realization is engineering"; and caution on "co-design" — governance and engineering "can jointly refine the requirement–feasibility interface," but governance should not co-design the computational mechanism unless acting in an engineering capacity and carrying the corresponding technical burden of proof: "That boundary is exactly what I am arguing for."_
+
+**Robert Schaub — comment on Neeraj Gaur's *3 Questions to Ensure AI System Readiness for Production*** (posted 2026-08-10)
+
+_[Published on Gaur's LinkedIn post](https://www.linkedin.com/posts/neerajgaurtechconsultant_before-an-ai-system-moves-into-production-share-7490424192010465280-C5kV/), which asks leadership to answer three questions before an AI system reaches production — who owns the outcome, what evidence supports the decision, what happens when it fails — and closes by asking which of them organizations find hardest to answer honestly. The comment questions the first question's vocabulary rather than the difficulty of answering it: "owner" is asset language, and the outcome falls on someone who is not a party to the contracts that allocate it._
+
+"Owner" is the part I'd question. It's borrowed from project and asset language, and a real deployment has a chain — a contractor who builds it, a client who deploys it, and a customer or citizen the output lands on. Ask who owns the outcome and you get an answer from inside that chain, settled by contract. The person the decision falls on is not a party to it.
+
+Three separable things also get bundled into the one word: authority (who can narrow, pause, reverse), liability (who pays, usually capped by contract), and answerability (who must explain and put it right, to the person affected). Only the first two are normally assigned — and often to the same party that holds the evidence and decides whether a failure was a failure.
+
+Regulation reaches for different words: the AI Act allocates duties to providers and deployers, and gives affected persons a route to explanation and complaint. Roles with duties, not ownership.
+
+So the fourth question I'd add: what can the person on the receiving end actually do — learn a decision was made about them, see its basis, contest it, and reach someone outside the operator who can bind a remedy?
+
+Because the only party who truly owns an outcome is the one who can't hand it back.
