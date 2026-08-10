@@ -287,6 +287,7 @@ The [Charter Commitments](../Assurance/Framework/charter-commitments.md) establi
 
 - principal and authorized agent identity;
 - authority chain from the principal through each delegated agent, tool, and connected service, including whether subdelegation is permitted and its scope at every hop;
+- authority basis at the root of that chain — what confers the principal's own authority, its scope and jurisdiction where relevant, and a reference to the supporting evidence with its assurance depth, which may be marked *not assessed*; the cryptographic binding below proves issuance, never entitlement;
 - exact action class and connected service;
 - target, recipient, account, resource, or device;
 - permitted data fields and disclosure destination;

@@ -69,7 +69,7 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 
 The trust-and-evidence layer: can a deployed AI show its work, answer for its use, and leave evidence others can check?
 
-- **[Charter Commitments](docs/Assurance/Framework/charter-commitments.md)** — *DRAFT v0.18*. Five obligations, eight operational duties, and a per-action baseline for consequential AI, now covering decision rationale, control-chain integrity, change-impact comparison, and correction lineage; plus module candidates, an assurance stack, and open decisions.
+- **[Charter Commitments](docs/Assurance/Framework/charter-commitments.md)** — *DRAFT v0.19*. Five obligations, eight operational duties, and a per-action baseline for consequential AI, now covering decision rationale, control-chain integrity, change-impact comparison, correction lineage, and the authority basis and source admissibility a consequential decision needs; plus module candidates, an assurance stack, and open decisions.
 - **[Grounding-Faithfulness & Contestability](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT*. First evaluation module; see also the [one-pager](docs/Assurance/Protocol/one-pager.md).
 - **[Certification model](docs/Assurance/Framework/certification-model.md)** — *DRAFT*. Future separation-of-powers assurance model; not an existing scheme.
 - **[From evaluation methods to institutional requirements](docs/Assurance/Concepts/evaluation-to-institutional-requirements.md)** — *DRAFT*. One-page crosswalk from scoped evaluation methods to institutional duties, evidence, remediation, and claim limits.

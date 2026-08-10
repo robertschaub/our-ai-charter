@@ -1,9 +1,9 @@
-> **Status: DRAFT (v0.2)**
+> **Status: DRAFT (v0.3)**
 
 # Grounding‑Faithfulness & Contestability
 **A voluntary evaluation protocol for factual AI systems — *public working draft, open for comment***
 
-**Working Draft v0.2** · 2026‑06‑14 · **Status: open for comment** (a pilot *evaluation* protocol — **not** a certification scheme, not yet a standard)
+**Working Draft v0.3** · 2026‑08‑10 · **Status: open for comment** (a pilot *evaluation* protocol — **not** a certification scheme, not yet a standard)
 **Author / editor:** Robert Schaub (fact‑checker; FactHarbor) · **Text licence:** CC BY 4.0 · **Canonical home:** <https://github.com/robertschaub/our-ai-charter> · **Comments:** _GitHub Issues in this repository_
 **Companion to** the manifesto *"Trustworthy AI, Accountable to People."*
 
@@ -28,7 +28,7 @@ The AI trust stack is maturing on *safety* — risk benchmarks (e.g. MLCommons A
 | **Deployed, user‑facing systems that make factual claims and present sources** — news/document summarisers, research & Q&A assistants, RAG search, fact‑checking aids. | Raw model weights / the model "in the abstract" — we evaluate the *deployed system + the practices around it*. |
 | The system **as configured for a stated use‑case and version** (prompts, retrieval, citation UI, logging, correction practice, user notices). | Whether outputs are **true** (no ultimate‑truth adjudication). |
 | **English‑language factual Q&A with cited sources** (one use‑case, to keep this version auditable). | General safety, bias, copyright, security — covered by other schemes. This **plugs into** NIST AI RMF / ISO 42001; it doesn't replace them. |
-| A **source‑validity floor** (a cited source must exist and not be fiction/satire — §4.1). | Full **source‑reliability grading** — a known gap, held as a *separate future module*, not silently smuggled in (§9). |
+| A **source‑validity floor** (a cited source must exist and not be fiction/satire — §4.1), plus a **recorded source‑standing marker**: is the citation the source entitled to establish the claim, a report of it, or neither (§4.1). | Full **source‑reliability grading** — *credibility*, as distinct from standing: a known gap, held as a *separate future module*, not silently smuggled in (§9). |
 
 This protocol is one public-interest module, not the whole Charter assurance surface. A Charter claim also needs a legal-scope map, common-baseline evidence, and companion module evidence for AI-app security, prompt injection and tool/agent permissions, privacy and data provenance, harmful misuse, disparate failure rates, material lifecycle change, third-party dependencies, and continuity/exit planning. Those risks are mapped in the [Risk and Vulnerability Audit](../Background/risk-and-vulnerability-audit.md). A report must list companion modules as **not assessed** unless a defined module was actually applied; this module alone cannot support a broad Charter alignment claim.
 
@@ -43,6 +43,8 @@ This protocol is one public-interest module, not the whole Charter assurance sur
 ### 4.1 Grounding‑faithfulness (the core)
 
 **Source‑validity floor.** Before scoring support, each cited source must (a) **resolve / be locatable** (no hallucinated or dead citations) and (b) **not be satire, fiction, or parody**. A claim "supported" only by a non‑existent or satirical source is scored **unsupported**. *Grading source reliability beyond this floor is out of scope here* — and the report must say so prominently, because a system can clear the floor while citing weak sources (§9).
+
+**Source standing — recorded, not graded.** Where a claim belongs to a class that has a source *entitled* to establish it — a court for its own judgment, a register for what it registers, a statistical office for its own release — the report records whether the citation **is** that source, is a **report of** it, or is **neither**. This is a factual attribute of the citation, not a credibility judgment and not a truth call, so it adds a field rather than a rating and does not change the cost model. It also does not change the support score: a claim supported only by "neither" is **reported separately**, not scored unsupported. Standing is what a system needs to answer "who says so, and were they in a position to"; §9 explains why it is separable from credibility.
 
 **Graded support** (judged from the source text alone, using no outside world‑knowledge, against a documented rubric):
 
@@ -106,11 +108,12 @@ Require a **correction process**, not just a log:
 
 ## 8 · Anti‑gaming
 
-A motivated vendor could: cite only sources for safe claims while omitting contrary evidence; make trivially narrow claims and leave the important implication uncited; cite low‑quality sources that happen to state the claim; over‑hedge; route audit traffic to a clean model; silently change the retrieval corpus after a report; over-redact a release risk assessment; hide a restriction or shutdown order; or optimise to the rater rubric. Guards: **auditor‑controlled held‑out + hidden query set** · **corpus/version hashing or retrieval logging** · **abstention/refusal‑rate audit** (§4.2) · the **source‑existence floor** (§4.1) · **scope‑change triggers** and **complaint‑triggered spot checks** · restriction/shutdown transparency logs · release-assessment redaction review · and measuring **coverage and citation sufficiency**, not just "supported when it answers." We measure *support*, not citation count.
+A motivated vendor could: cite only sources for safe claims while omitting contrary evidence; make trivially narrow claims and leave the important implication uncited; cite low‑quality sources that happen to state the claim; over‑hedge; route audit traffic to a clean model; silently change the retrieval corpus after a report; over-redact a release risk assessment; hide a restriction or shutdown order; or optimise to the rater rubric. Guards: **auditor‑controlled held‑out + hidden query set** · **corpus/version hashing or retrieval logging** · **abstention/refusal‑rate audit** (§4.2) · the **source‑existence floor** and **source‑standing record** (§4.1, which is what exposes the "cite whoever happens to state it" move) · **scope‑change triggers** and **complaint‑triggered spot checks** · restriction/shutdown transparency logs · release-assessment redaction review · and measuring **coverage and citation sufficiency**, not just "supported when it answers." We measure *support*, not citation count.
 
 ## 9 · Honest limitations
 
-- **Source *reliability* is not graded (this version).** We check that sources exist, aren't satire, and that claims match them — but a faithful citation of a weak source still passes. Grading credibility is a hard, contested, truth‑adjacent problem held for a separate module; until then, the report states this plainly. Election, health, legal, finance, public-safety, and news use-cases likely need a source-quality or source-risk module before any broad trust claim.
+- **Source *reliability* is not graded (this version).** We check that sources exist, aren't satire, that claims match them, and — new in v0.3 — whether the citation is the source entitled to establish the claim. But a faithful citation of a weak source still passes. Grading credibility is a hard, contested, truth‑adjacent problem held for a separate module; until then, the report states this plainly. Election, health, legal, finance, public-safety, and news use-cases likely need a source-quality or source-risk module before any broad trust claim.
+- **Standing and credibility are separate problems, and only one of them is hard.** Whether a source was *entitled* to establish a fact is largely checkable and factual; whether it is *credible* is contested and truth-adjacent. Earlier versions bundled both under "source quality" and deferred them together, which deferred the tractable half for the intractable half's reasons. §4.1 now records standing and leaves credibility deferred. The limit of that split is stated rather than hidden: standing tells you whether the right party spoke, never whether what they said is true, and for many claim classes no source is entitled to establish the fact at all — there, the field reads "neither" for every citation and carries no signal.
 - **"Support" is semantic judgment.** Entailment is genuinely hard; the rubric, double‑rating, and per‑category agreement reduce but don't remove subjectivity (especially "Partial/qualified").
 - **The statistics must be set per use‑case** — sample size, threshold, clustering, and power need a statistician; no universal number is asserted.
 - **Goodhart risk** (citation‑theatre, reflexive hedging) is mitigated by measuring support not citation count, abstention checks, and hidden/adversarial queries — but needs live testing.
