@@ -2,7 +2,7 @@
 
 # Show-your-work evaluation for factual AI systems
 
-**A pilot protocol for deployed systems that answer with cited sources - not a certification, standard, mark, or product.** v0.2 - 2026-06-14 - Robert Schaub, FactHarbor association (Verein), Zurich
+**A pilot protocol for deployed systems that answer with cited sources - not a certification, standard, mark, or product.** v0.3 - 2026-08-10 - Robert Schaub, FactHarbor association (Verein), Zurich
 
 _Full protocol: [grounding-faithfulness-and-contestability.md](grounding-faithfulness-and-contestability.md). Phase 1 is an open method contribution. FactHarbor is a paused alpha prototype, not an assessor or operating scheme._
 
@@ -16,7 +16,7 @@ This protocol evaluates honesty-of-process, not ultimate truth.
 
 ## Scope
 
-**In scope:** one deployed system, version, configuration, and use-case at a time. v0.2 is scoped to English factual Q&A that presents cited sources.
+**In scope:** one deployed system, version, configuration, and use-case at a time. v0.3 is scoped to English factual Q&A that presents cited sources. Source standing is assessed only for claim classes that the use-case profile enumerates in advance.
 
 **Out of scope:** raw model weights, general model quality, truth certification, source reliability beyond a validity floor, legal compliance, general safety, bias, privacy, security, or a broad Charter alignment claim.
 
@@ -24,7 +24,7 @@ Legal, security, privacy, fairness, misuse, dependency, and continuity risks rem
 
 ## What the protocol measures
 
-1. **Source-validity floor** - every cited source must resolve or be locatable, and must not be satire, fiction, or parody.
+1. **Source-validity and standing record** - every cited source must resolve or be locatable and must not be satire, fiction, or parody. For an enumerated claim class, record whether the citation is the entitled source, a report of it, not entitled, associated with a class that has no entitled source, or unattributed; this record does not establish truth or source credibility.
 2. **Grounding-faithfulness** - each checkable claim is scored against the cited source: verbatim, close paraphrase, reasonable entailment, partial or qualified, unsupported, or contradicted.
 3. **Calibration and abstention** - machine-readable confidence is scored for calibration; verbal hedging only as uncertainty signalling. Both should track support, without rewarding bluffing or blanket deflection.
 4. **Correction** - logged errors are fixed and do not reappear under paraphrase; severity and time-to-fix are reported.

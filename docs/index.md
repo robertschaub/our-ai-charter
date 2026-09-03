@@ -12,7 +12,7 @@ hide:
 </div>
 
 <div class="lead" markdown>
-Our AI Charter is an **early public draft for an international network of open AI models** whose providers commit to a **common charter of public obligations**, backed by an **independent governance-and-evidence layer** — with a **shared navigation architecture** to find, compare, and reach the AI systems that take part.
+Our AI Charter is an **early public draft proposing an international network of open AI models** whose providers **would commit** to a **common charter of public obligations**. The proposal includes a **governance-and-evidence layer separate from service provision** and a **shared navigation architecture** to find, compare, and reach participating AI systems.
 </div>
 
 AI is becoming the infrastructure people learn, work, decide, and form opinion with. Infrastructure that important should not depend on a few providers, unclear shutdown powers, hidden data practices, unverifiable factual claims, or systems that affected people cannot challenge.
@@ -24,7 +24,7 @@ Protect and strengthen free and fair societies in the digital age through public
 
 <div class="feature-quote" markdown>
 <span class="mission-label">Our position</span>
-**Sovereignty and resilience, not autarky.** Open, inspectable AI models matter, but sovereignty and resilience **come from what surrounds them**: standards, public evidence, accountable governance, and federated public AI infrastructure that **no single power can switch off or capture**. Public AI needs more than open models — it needs a **public-interest governance and evidence layer**.
+**Sovereignty and resilience, not autarky.** Open, inspectable AI models matter, but sovereignty and resilience **come from what surrounds them**: standards, public evidence, accountable governance, and federated public AI infrastructure **designed to reduce dependence on any one provider or authority and make capture harder**. Public AI needs more than open models — it needs a **public-interest governance and evidence layer**.
 </div>
 
 <div class="grid cards" markdown>

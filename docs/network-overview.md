@@ -5,7 +5,7 @@ description: Why a public-AI network is needed, what it would add, how it would 
 
 # The proposed public-AI network
 
-**Our AI Charter™ is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.**
+**Our AI Charter™ proposes an international network of open AI models that would operate under shared public obligations and include a governance-and-evidence layer separate from service provision.**
 
 The practical aim is a shared way for people and institutions to find, compare, and reach participating AI systems, inspect their claims, and challenge decisions that affect them — without depending on any one provider.
 
@@ -50,9 +50,13 @@ Discovery must remain plural and neutral because whoever controls discovery can 
 
 ## How it would govern action and human consequences
 
-Existing gateways, schedulers, registries, and identity systems mostly answer **can this run?** The proposed public-interest layer asks **may it run — for whom, for what purpose, on which node, with what model and data, under which evidence duties, and with what route to challenge and remedy?** Accountability therefore cannot stop at choosing a model or evaluating a release. The network would connect lifecycle governance — **design → deploy → operate → incident → remedy** — with [five activity/gate pairs for each AI-supported action](Published/when-should-runtime-ai-governance-interrupt.md): **Plan → Authorize; Prepare → Submit; Check → Verify; Decide → Commit; Review → Rely.** Across both, the [five public obligations](Published/trustworthy-ai-accountable-to-people.md#the-obligations) would apply: purpose-bound; answerable to people; safe, secure, private, and resilient; fair in practice; and open to evidence and correction.
+Existing gateways, schedulers, registries, and identity systems mostly answer **can this run?** The proposed public-interest layer asks **may it run — for whom, for what purpose, on which node, with what model and data, under which evidence duties, and with what route to challenge and remedy?**
 
-The rule is to govern every authority-bearing transition, not every inference. A component outside the acting model would return **allow, deny, or escalate**; the service producing an external effect would verify that decision again. Routine, reversible actions inside an authorized envelope could remain silent. External, irreversible, regulated, person-affecting, or out-of-bounds actions would stop when required authority or evidence is absent — human approval cannot manufacture the missing basis. Preserve an action-scoped record of authority, material evidence and uncertainty, effect, and challenge route — not every token or the whole conversation.
+Accountability therefore cannot stop at choosing a model or evaluating a release. The network would connect lifecycle governance — **design → deploy → operate → incident → remedy** — with [five activity/gate pairs for each AI-supported action](Published/when-should-runtime-ai-governance-interrupt.md): **Plan → Authorize; Prepare → Submit; Check → Verify; Decide → Commit; Review → Rely.** Across both, the [five public obligations](Published/trustworthy-ai-accountable-to-people.md#the-obligations) would apply: purpose-bound; answerable to people; safe, secure, private, and resilient; fair in practice; and open to evidence and correction.
+
+The acting model would remain probabilistic: it could propose an action but could not authorize it. A separate authorization component would deterministically apply declared rules to the frozen proposal and recorded mandate and authority state, returning **allow, deny, or escalate**; the service producing an external effect would verify that decision again. This can show which declared rules were applied to which recorded state. It cannot establish that the model's evidence is true, that the recorded authority basis is valid, that the rule is fair, or that the institution is legitimate.
+
+The rule is to govern every authority-bearing transition, not every inference. Routine, reversible actions inside an authorized envelope could remain silent. External, irreversible, regulated, person-affecting, or out-of-bounds actions would stop when required authority or evidence is absent — human approval cannot manufacture the missing basis. Preserve an action-scoped record of authority, material evidence and uncertainty, effect, and challenge route — not every token or the whole conversation.
 
 That record protects what was lodged; it cannot expose a determination that was never recorded or was false when created. Closing that gap would require a duty to lodge consequential determinations, an affected person's right to discover that a decision was made about them, and independent oversight able to notice when an expected record is missing.
 

@@ -147,19 +147,20 @@ A motivated vendor could: cite only sources for safe claims while omitting contr
 ## Sample public evaluation report (skeleton — figures are FICTIONAL)
 
 ```
-EVALUATION REPORT (v0.2 method) — ExampleAssistant v1.0   [PILOT — not a certification]
+EVALUATION REPORT (v0.3 method) — ExampleAssistant v1.0   [PILOT — not a certification]
 Use-case:  English Q&A with cited sources
 Evaluated: 2026-09-01    Assessor: [independent body]    Method steward: [—]
 RESULTS (illustrative)
   • Supported-claim rate: R% [lower CI bound vs use-case bar]; cluster-robust; unit = claim
   • Support mix: verbatim/paraphrase/entailment · partial · unsupported · contradicted
   • Source-validity floor: % citations that resolve and are non-satire
+  • Source standing: enumerated classes cover S% of sampled claims; in-scope citation states = entitled E% · report-of R% · not entitled N% · no entitled source Z% · unattributed U%; remaining claims not assessed
   • Uncertainty: reliability monotonic? abstention rate A%; sharpness OK? (ECE only if N large)
   • Correction: paraphrase-regression X/Y held; median time-to-fix
   • Contestability: complaint SLA met; (consequential? independent escalation tested)
   • Release risk assessment: present/current? legal-scope and responsibility maps included? baseline scope and modules covered/not assessed? material risks covered? redactions justified? assurance depth?
   • Inter-rater agreement: per-category coefficients + raw agreement
-PUBLIC STATEMENT: evaluated under v0.2 for this version + use-case; see results, scope, and limitations above
+PUBLIC STATEMENT: evaluated under v0.3 for this version + use-case; see results, scope, and limitations above
 NOT CLAIMED: Charter alignment · certification · Trust Mark status · truth · source reliability · general safety/bias · legal compliance · other languages/versions/use-cases · modules marked not assessed
 Limitations & deviations from protocol: [...]
 ```
@@ -182,10 +183,10 @@ This draft is published to be improved in the open. Three things would help most
 
 1. **Break it.** Where does "support, not truth" still collapse into truth‑judging, or mislead a buyer? Open an issue or write to the address above.
 2. **Co‑design the measurement.** Help set the sampling design, unit of analysis, and a risk‑tiered bar for *one* use‑case.
-3. **Pilot it.** Volunteer a system (open‑weight or proprietary) for a v0.2 evaluation; results would be published, anonymised if needed. None are running yet.
+3. **Pilot it.** Volunteer a system (open‑weight or proprietary) for a v0.3 evaluation; results would be published, anonymised if needed. None are running yet.
 
 **Working norms:** open drafts and a public change log; conflict‑of‑interest disclosures; published dissent (minority interpretations recorded, not hidden); no single funder dominant; the proposer contributes the method and **recuses** from operating any assessor or registry.
 
 **Acknowledgements.** Developed with structured input from a multi‑model analysis and an adversarial review; all errors are the editor's. Reasoning, precedents, and sources are documented separately.
 
-_Working Draft v0.2 — open for comment. All figures are illustrative pending per‑use‑case calibration._
+_Working Draft v0.3 — open for comment. All figures are illustrative pending per‑use‑case calibration._

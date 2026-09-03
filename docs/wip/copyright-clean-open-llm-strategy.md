@@ -6,7 +6,7 @@
 
 ## In one line
 
-Copyright-clean open/public LLMs will not become frontier-competitive through clean training data alone. The credible route is a **rights-clean public frontier flywheel**: lawful data, pooled compute, open model-flow releases, strong post-training, public inference, domain adoption, and one legally usable feedback loop.
+Copyright-clean open/public LLMs will not become frontier-competitive through clean training data alone. The credible route is a **rights-clean public model-development loop**: lawful data, pooled compute, open model-flow releases, strong post-training, public inference, domain adoption, and one legally usable feedback loop.
 
 ## Reality check
 
@@ -62,7 +62,7 @@ Open models now reach roughly **~70–80% on SWE-bench Verified** (harness-depen
 
 **The fully-open / publicly-governed models trail on code.** Apertus, SEA-LION, and OLMo — the most transparent (open weights **+ data + recipe**) and the "public AI" ones — are general-purpose, not code-specialised; **there is no top-tier public-AI coding model.** Via the Public AI utility (`publicai` on Hugging Face) you reach these public models; the strong open coders run through other inference providers (commercial), not the public utility.
 
-**Implication for this strategy:** agentic coding is a domain where copyright-clean / public models will *not* win on raw capability soon. It reinforces the core move — compete on **trust, sovereignty, auditability, domain fit, and lawful provenance**, not benchmark rank — and means a competitive *public* coding model would be a deliberate build (the model-factory, post-training, and agent-tuning layers of the flywheel below), not an off-the-shelf option today.
+**Implication for this strategy:** agentic coding is a domain where copyright-clean / public models will *not* win on raw capability soon. It reinforces the core move — compete on **trust, sovereignty, auditability, domain fit, and lawful provenance**, not benchmark rank — and means a competitive *public* coding model would be a deliberate build (the model-factory, post-training, and agent-tuning layers of the model-development loop below), not an off-the-shelf option today.
 
 ## Running it in practice — hosted, self-hosted, and cost
 
@@ -207,43 +207,41 @@ Use Salathé / EPFL AI Center / ETH AI Center only as a **Swiss orientation or c
 
 ## Strategy comparison
 
-Scores use 1-5: **maturity** = usable now; **potential** = ability to close the practical frontier gap under copyright constraints.
-
-| Strategy | Maturity | Potential | Comments | Main risks |
-|---|---:|---:|---|---|
-| Public-domain / permissive corpus only | 4 | 3 | Cleanest legal base; Common Corpus/Common Pile prove feasibility. | Not enough for broad frontier performance by itself. |
-| Lawful TDM plus opt-out pipeline | 3 | 4 | Required for scale in Europe; aligns with EU AI Act and DSM Article 4. | Opt-out standards remain fragmented; rightsholder disputes persist. |
-| Collective licensing / data compacts | 2 | 5 | Could unlock books, media, education, legal, science, and culture at scale. | Slow, politically contested, expensive, sector-specific. |
-| Public data trust / corpus institution | 2 | 5 | Creates a durable public data moat and shared provenance infrastructure. | Governance-heavy; needs funding, rights process, quality control. |
-| Open model factory: Apertus/OLMo/OpenEuroLLM pattern | 3 | 4 | Data, code, recipes, checkpoints, evals, and model cards build trust and scientific leverage. | One-off model releases decay quickly without recurring compute. |
-| Synthetic data and permitted distillation | 4 | 4 | Critical for instruction following, reasoning, domain scarcity, and smaller model quality. | Teacher-license constraints, inherited bias, quality collapse. |
-| Reasoning RL and test-time compute | 4 | 5 | Best current lever for math, code, STEM, and verification-heavy workflows. | Less useful for factual breadth and subjective judgment. |
-| Sparse MoE and efficient scaling | 4 | 4 | Needed to compete on cost/capacity; common among leading open-weight systems. | Hard training and serving engineering. |
-| Public inference utility | 3 | 5 | Turns open weights into usable services and creates a lawful feedback channel. | Needs long-term operational funding and reliability. |
-| Domain-specialized models plus RAG/tools | 5 | 4 | Best near-term wedge; can beat frontier models in bounded workflows. | Does not create general frontier capability. |
-| Procurement-driven public market | 2 | 5 | Demand-side lever: public buyers can reward transparency, portability, and lawful provenance. | Public procurement is slow unless packaged as concrete service offers. |
-| **Rights-clean public frontier flywheel** | **2** | **4** | Combines lawful data, compute, open model factory, post-training, inference utility, domain adoption, and a feedback loop. | Hard institution-building; failure mode is becoming only a policy slogan. |
+| Strategy | Evidence or strategic role | Main risks |
+|---|---|---|
+| Public-domain / permissive corpus only | Cleanest legal base; Common Corpus/Common Pile prove feasibility. | Not enough for broad frontier performance by itself. |
+| Lawful TDM plus opt-out pipeline | Required for scale in Europe; aligns with EU AI Act and DSM Article 4. | Opt-out standards remain fragmented; rightsholder disputes persist. |
+| Collective licensing / data compacts | Could unlock books, media, education, legal, science, and culture at scale. | Slow, politically contested, expensive, sector-specific. |
+| Public data trust / corpus institution | Creates a durable public data moat and shared provenance infrastructure. | Governance-heavy; needs funding, rights process, quality control. |
+| Open model factory: Apertus/OLMo/OpenEuroLLM pattern | Data, code, recipes, checkpoints, evals, and model cards build trust and scientific leverage. | One-off model releases decay quickly without recurring compute. |
+| Synthetic data and permitted distillation | Critical for instruction following, reasoning, domain scarcity, and smaller model quality. | Teacher-license constraints, inherited bias, quality collapse. |
+| Reasoning RL and test-time compute | Best current lever for math, code, STEM, and verification-heavy workflows. | Less useful for factual breadth and subjective judgment. |
+| Sparse MoE and efficient scaling | Needed to compete on cost/capacity; common among leading open-weight systems. | Hard training and serving engineering. |
+| Public inference utility | Turns open weights into usable services and creates a lawful feedback channel. | Needs long-term operational funding and reliability. |
+| Domain-specialized models plus RAG/tools | Best near-term wedge; can beat frontier models in bounded workflows. | Does not create general frontier capability. |
+| Procurement-driven public market | Demand-side lever: public buyers can reward transparency, portability, and lawful provenance. | Public procurement is slow unless packaged as concrete service offers. |
+| **Rights-clean public model-development loop** | Combines lawful data, compute, open model factory, post-training, inference utility, domain adoption, and a feedback loop. | Hard institution-building; failure mode is becoming only a policy slogan. |
 
 ## Persona and market assessment
 
 The main market mistake is to position copyright-clean open/public LLMs as a generic replacement for the best frontier model. The strongest wedges are buyers whose binding constraint is not raw benchmark rank but **control, auditability, lawful data, procurement legitimacy, cost, language fit, or avoidance of vendor lock-in**.
 
-| Segment / persona | Why they might choose open/public | Capability threshold | Best-fit strategy | Maturity / potential |
-|---|---|---|---|---|
-| Public-sector CIO | Sovereignty, auditability, lawful provenance, data control. | Reliable "good enough" service, hosted or on-prem, with documentation and support. | Public inference + domain RAG + procurement clauses. | 3 / 5 |
-| Public procurement officer | Avoid opaque lock-in and supplier concentration. | Clear license, training summary, switching rights, inspection rights. | Procurement framework and evidence package. | 2 / 5 |
-| Education ministry / university | Student privacy, local curriculum, public accountability. | Safe tutoring, teacher support, local-language quality. | Local model + curriculum data + safeguards. | 3 / 5 |
-| Research lab | Reproducibility, inspectability, open science. | Open weights, code, data information, checkpoints. | Apertus/OLMo-style model flow. | 4 / 5 |
-| Cultural or language institution | Minority languages, archives, dialects, cultural legitimacy. | Must outperform generic frontier models on local language/culture. | Data trust + community consent + multilingual model. | 3 / 5 |
-| SME / startup CTO | Cost, portability, no API lock-in, customization. | Easy hosted API, deployment templates, predictable pricing. | Managed public inference + fine-tuning templates. | 3 / 4 |
-| Regulated enterprise | Audit logs, privacy, liability chain, local deployment. | High reliability in narrow workflows. | VPC/on-prem domain models + evaluations. | 3 / 4 |
-| Publisher / media organization | Rights, attribution, archive tools, licensing revenue. | Provenance, retrieval-first design, no unlicensed memorization. | Licensing pool + rights-aware model/service. | 2 / 5 |
-| Developer / civic technologist | Hackability, local control, permissive reuse. | Docs, APIs, quantized models, eval harnesses. | Open model factory + inference stack. | 4 / 4 |
-| Civil-society watchdog | Auditability, independent evaluation, public-interest governance. | Low-cost access and transparent artifacts. | Public inference + open evals + governance participation. | 2 / 4 |
+| Segment / persona | Why they might choose open/public | Capability threshold | Best-fit strategy |
+|---|---|---|---|
+| Public-sector CIO | Sovereignty, auditability, lawful provenance, data control. | Reliable "good enough" service, hosted or on-prem, with documentation and support. | Public inference + domain RAG + procurement clauses. |
+| Public procurement officer | Avoid opaque lock-in and supplier concentration. | Clear license, training summary, switching rights, inspection rights. | Procurement framework and evidence package. |
+| Education ministry / university | Student privacy, local curriculum, public accountability. | Safe tutoring, teacher support, local-language quality. | Local model + curriculum data + safeguards. |
+| Research lab | Reproducibility, inspectability, open science. | Open weights, code, data information, checkpoints. | Apertus/OLMo-style model flow. |
+| Cultural or language institution | Minority languages, archives, dialects, cultural legitimacy. | Must outperform generic frontier models on local language/culture. | Data trust + community consent + multilingual model. |
+| SME / startup CTO | Cost, portability, no API lock-in, customization. | Easy hosted API, deployment templates, predictable pricing. | Managed public inference + fine-tuning templates. |
+| Regulated enterprise | Audit logs, privacy, liability chain, local deployment. | High reliability in narrow workflows. | VPC/on-prem domain models + evaluations. |
+| Publisher / media organization | Rights, attribution, archive tools, licensing revenue. | Provenance, retrieval-first design, no unlicensed memorization. | Licensing pool + rights-aware model/service. |
+| Developer / civic technologist | Hackability, local control, permissive reuse. | Docs, APIs, quantized models, eval harnesses. | Open model factory + inference stack. |
+| Civil-society watchdog | Auditability, independent evaluation, public-interest governance. | Low-cost access and transparent artifacts. | Public inference + open evals + governance participation. |
 
 ## Recommended strategy
 
-Build the **rights-clean public frontier flywheel** - an *ecosystem* agenda, not a to-do list for one actor. This initiative contributes one part of it: the rights, governance, evidence, procurement, and accountability layer (see [control & evidence layer](../Infrastructure/control-and-evidence-layer.md)); the compute, model-factory, and inference-utility layers belong to partners:
+Build the **rights-clean public model-development loop** - an *ecosystem* agenda, not a to-do list for one actor. This initiative contributes one part of it: the rights, governance, evidence, procurement, and accountability layer (see [control & evidence layer](../Infrastructure/control-and-evidence-layer.md)); the compute, model-factory, and inference-utility layers belong to partners:
 
 1. **Data layer:** combine public-domain/open corpora, lawful TDM with opt-out compliance, public-sector data, cultural archives, and negotiated licensing pools — where an **international network multiplies bargaining power** and spreads cost across members and jurisdictions (a credible public counterpart rightsholders can license to once, for open-compatible use), rather than each public model negotiating alone.
 2. **Rights layer:** maintain crawler logs, provenance metadata, opt-out registries, takedown/update workflows, model training summaries, and source-domain reporting.
