@@ -59,3 +59,5 @@ Report format:
 
 Honor AGENTS.md: public-repo discipline, cite sources, record minority views, and
 never introduce new claims of your own. Windows / PowerShell environment.
+
+Record the installed-session control checks and unknowns; declared tool lists are not proof of OS containment. Restricted rollout writers return assigned edits without Git mutations/shared state. Reviewers return findings and exact content evidence in chat. The integrator records results and performs authorized local integration; existing action/scope authority persists.

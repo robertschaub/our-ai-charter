@@ -4,7 +4,7 @@
 
 How AI agents (and humans) should work in the **Our AI Charter** repository.
 
-This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE.md](CLAUDE.md), [GEMINI.md](GEMINI.md), and [.github/copilot-instructions.md](.github/copilot-instructions.md) — point here. If they ever diverge, **this file wins**. If something is genuinely ambiguous, ask the maintainer before proceeding.
+This is the authoritative working-rules file. Tool-specific wrappers — [CLAUDE.md](CLAUDE.md), [GEMINI.md](GEMINI.md), and [.github/copilot-instructions.md](.github/copilot-instructions.md) — point here. If they ever diverge, **this file wins**. System/developer instructions and the current user task take precedence. Read applicable nested AGENTS.md before target work. Resolve routine choices within task authority; ask only for a material missing decision.
 
 ## What this repository is
 
@@ -33,14 +33,14 @@ Current agent priority:
 
 Boundary rules for agents:
 
-- Stay inside this repository root unless the maintainer explicitly names an external repository or path in the current task. The private administrative siblings (see *Private administrative siblings (maintainer-only)* below) are a standing named exception for maintainer-side agents.
-- Maintainer-side agents may **read** a private administrative sibling repository when a task requires it (see *Private administrative siblings (maintainer-only)* below), but must **never copy, import, summarize, quote, or paraphrase its confidential or personal content into this repository or any public artifact produced from it.**
+- Work in the task's authorized repositories and read/write scope. If another repository is needed, ask once, naming it, the purpose and read/write access; continue independent work while waiting. Approval covers this task and its handoffs until changed; do not ask again for the same scope.
+- Authorized cross-repository reads may include private material; access is not disclosure permission. Keep confidential or personal content out of this repository and public artifacts. Use MCP only for its identified source repository; availability is not authority. If MCP is unavailable or unqualified, use authorized direct reads.
 - Do not create public links, document dependencies, or process dependencies on private repositories, local machine paths, or unpublished operational records.
 - Public cross-links should point to public URLs or public files only.
 
 ## Public-repo discipline (read first)
 
-This repository is **public**, and it is the **default home for all Charter material** — published *and* draft. Two separate private administrative repositories exist for the narrow set of things that must stay private: `our-ai-charter-internal` (only personal DM/email correspondence with individuals, plus anything the maintainer explicitly marks INTERNAL) and `FactHarbor-internal` (finance, legal, banking, fundraising, Verein). Anything confidential belongs in one of those, never here.
+This repository is **public**, and it is the **default home for all Charter material** — published *and* draft. Personal correspondence, explicitly INTERNAL material and confidential administrative records belong in an authorized private home, never here. The current task identifies that home when needed; this public instruction does not grant access to it.
 
 - **Never commit personal correspondence, INTERNAL-marked, or otherwise confidential/personal data into this repo.** Drafts and works-in-progress are fine here — being unpublished does not make something private — but when you are unsure whether a specific item is sensitive, leave it out and ask the maintainer.
 - **Never commit secrets** — API keys, tokens, credentials, `.env` files. GitHub **secret scanning + push protection** is enabled and will block known secret formats, but treat it as a backstop, not a license to be careless.
@@ -48,44 +48,23 @@ This repository is **public**, and it is the **default home for all Charter mate
 - Do not create public links or process dependencies on private repositories. Keep non-public working material outside this repo.
 - Assume everything committed is **permanent and worldwide** — forks, caches, and search indexes mean you cannot fully un-publish.
 
-## Private administrative siblings (maintainer-only)
-
-Confidential material never lives in this public repo. It is split across **two private sibling repositories**:
-
-- **`our-ai-charter-internal`** — Our AI Charter's private sibling, now deliberately **narrow**: it holds only (1) personal DM/email correspondence with individuals acting in a private capacity, and (2) documents the maintainer has explicitly marked `<!-- Status: INTERNAL — <reason> -->`. Charter cooperation, outreach, strategy, and governance drafts are **no longer private by default** — they live in the public repo unless marked INTERNAL.
-- **`FactHarbor-internal`** — the FactHarbor Verein's administrative repo: legal, finance, banking, fundraising, and Verein organisation records — **including Our AI Charter's finances and Verein records.**
-
-Our AI Charter and FactHarbor are separate but related projects, both stewarded by Robert Schaub and the FactHarbor Verein. This public repository is the program's umbrella for the *public* normative and published work; the two private siblings are the home for anything confidential.
-
-- **Access is restricted to the maintainer, Robert Schaub.** External contributors and their agents have no access to either and should not expect any.
-- When the maintainer runs an AI agent on his own machine, that agent may be granted **read/write access to the private siblings** and may use them for cross-repo tasks.
-- The hard invariant still holds: **never copy, quote, or derive confidential or personal data from a private repo into this public repo or any public artifact.** When in doubt, leave it out and ask the maintainer.
-
 ## Where new files go (route by content, not by cwd)
 
-This public repo and the two private siblings are one program. Route every new file by what it contains, regardless of which repo the agent was launched in:
+This is the default home for public Charter material, whether published or draft: manifesto, charter, protocol, articles/posts/comments, background and cooperation/outreach/strategy/governance notes. Unpublished does not itself mean private.
 
-| Content | Home |
-|---|---|
-| Charter, manifesto, protocol, articles/posts/comments (**published _or_ draft**), public background, cooperation/outreach/strategy/governance notes — the default for anything not in a row below | **`our-ai-charter`** (here) |
-| Personal DM/email correspondence with an individual acting privately; any file whose header is marked `<!-- Status: INTERNAL — reason -->` | **`our-ai-charter-internal`** (private) |
-| Legal, finance, banking, fundraising, Verein organisation — including Our AI Charter's | **`FactHarbor-internal`** (private) |
-
-- **What "INTERNAL" means.** A file is INTERNAL when its header carries `<!-- Status: INTERNAL — <reason> -->` (the pre-commit guard greps for it). INTERNAL files live only in `our-ai-charter-internal`; if one turns up in this public working tree, move it to the private sibling instead of committing it.
-- **Drafts belong here too.** Articles, posts, comments, and adaptations live in this public repo whether or not they are published yet — being unpublished does not make something private. The only inherently private material is personal DM/email with an individual; and even that is **not** private when the person is acting as an official representative of an organisation.
-- **Authoring is not the same as publishing what's private.** Freely create and edit clearly-public material here. But never, on your own judgement, move currently-private content into this repo, strip an INTERNAL marker, or commit material whose sensitivity is unclear — a public misroute is permanent and worldwide. When unsure, keep it private (or mark it INTERNAL) and ask the maintainer.
-- This repo must **never** receive personal correspondence or INTERNAL-marked content, even temporarily in the working tree.
-- **Do not `git commit` or `push` here without maintainer review.** A local `.githooks/pre-commit` guard — once activated per clone (`git config core.hooksPath .githooks`) — blocks commits that carry an INTERNAL/confidential banner (e.g. `Status: INTERNAL`); it's a backstop, not a substitute for the rule. Only the Claude Code and Codex hook files ([.claude/settings.json](.claude/settings.json), [.codex/hooks.json](.codex/hooks.json)) enforce the destructive-git block automatically; other agents must self-enforce.
-- Writing into a private sibling requires the agent's tool workspace to grant access to that path; if it is unreachable, do the public part here and leave the private part to the maintainer.
+- Personal DM/email correspondence with individuals acting privately and material explicitly marked INTERNAL remain in an authorized private home. Official organisational communications are not private merely because unpublished; inspect sensitivity and disclosure authority before use.
+- Confidential finance/legal/banking/fundraising/Verein records, including the Charter's, remain outside this public repo.
+- Never move currently private content here, remove an INTERNAL marker, or commit unclear material on your own judgment. Access permission is not disclosure permission. Keep sensitive content out even temporarily; report a misroute privately rather than choosing an unassigned destination.
+- Use repository-relative/public links only. Public work must be self-contained and must not depend on private checkouts or machine paths.
 
 ## Where to work from (primary base)
 
-For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo** (`C:\DEV\our-ai-charter`) as the working base, reaching into **`our-ai-charter-internal`** for the confidential Charter side (and `FactHarbor-internal` for finance/legal/Verein) as the task needs it. Agents based in a private sibling are **also allowed** to do this work and may reach back here — for Charter topics the default base is simply this repo. Content routing (above) is unchanged regardless of base.
+Use this repository for public Charter outputs, including authorized cross-repository tasks. Prefer direct reads when they avoid a workspace change. If a client setting must change, preserve unrelated settings and restore temporary access afterward without overwriting intervening edits. A settings change cannot erase loaded context: start a fresh session when a later task requires excluding previously loaded private context. Ignored settings are not clone defaults or proof of effective access.
 
 ## Git & safety
 
-- **Work directly on `main` by default.** Solo maintainer + AI agents — commit straight to `main` for routine work. Do **not** create a branch or worktree unless the maintainer asks for one, or there is a strong reason to isolate the work (a large or risky change that may need rolling back, or parallel edits that would otherwise conflict). This overrides any general "branch off the default branch first" habit; the maintainer still decides *when* to commit and push.
-- **Avoid destructive git unless the user explicitly asks.** A local **PreToolUse hook** ([.claude/settings.json](.claude/settings.json) for Claude Code, mirrored in [.codex/hooks.json](.codex/hooks.json) for Codex) hard-blocks `git reset --hard`, `git push --force` (without `--force-with-lease`), `git clean -f`, and `git checkout -- .`. To undo committed work, prefer a **new revert commit** or a targeted `Edit` — not history rewrites. **Known false positive:** the hook matches the whole shell command string, so a commit message that merely *describes* those operations (for example when documenting the guard itself) is blocked even though the command is only `git add` + `git commit`. Reword the message; never route around the hook.
+- **Work directly on `main` by default.** Solo maintainer + AI agents — commit straight to `main` for routine work. Do **not** create a branch or worktree unless the maintainer asks for one, or there is a strong reason to isolate the work (a large or risky change that may need rolling back, or parallel edits that would otherwise conflict). This overrides any general "branch off the default branch first" habit; the current task must cover local commits/integration; publication and pushes require their own action/scope authority. During concurrent writing use owned task worktrees and one integrator for shared records/Git integration. Restricted writers return edits/evidence without Git mutations; reviewers return findings in chat. The integrator supplies branches, records pre-applied owned hunks separately, and commits only reviewed owned content.
+- **Avoid destructive git unless the user explicitly asks.** A local **PreToolUse hook** ([.claude/settings.json](.claude/settings.json) for Claude Code, mirrored in [.codex/hooks.json](.codex/hooks.json) for Codex) screens `git reset --hard`, `git push --force` (without `--force-with-lease`), `git clean -f`, and `git checkout -- .`. To undo committed work, prefer a **new revert commit** or a targeted `Edit` — not history rewrites. **Known false positive:** the hook matches the whole shell command string, so a commit message that merely *describes* those operations (for example when documenting the guard itself) is blocked even though the command is only `git add` + `git commit`. Reword the message; never route around the hook.
 - **Hook coverage is a backstop, not a guarantee.** Treat it as main-session-only — though in practice the hook has also been observed firing for a subagent Bash call (2026-08-01), so coverage varies by tool and version; rely on neither behavior. Never delegate a destructive or irreversible git step to a subagent; keep those in the main session.
 - Commit messages follow **conventional commits**: `type(scope): description` (e.g. `docs(protocol): clarify the support rubric`).
 - Do not add GitHub Actions or build/publish workflows copied from FactHarbor unless the maintainer explicitly asks for a document-only workflow.
@@ -110,19 +89,19 @@ For Our AI Charter / Public-AI topics, prefer to run the agent from **this repo*
 - **Cite sources; prefer the smallest concrete improvement** over a grand rewrite (see [CONTRIBUTING.md](CONTRIBUTING.md)). Record minority interpretations rather than hiding them.
 - **Licensing:** document text is **CC BY 4.0**; the initiative's name and any trust mark are **reserved** (see [NOTICE](NOTICE)). Do not paste in text under an incompatible license.
 
-## Model & effort routing
+## Task fit, review and model choice
 
-Match the model and reasoning effort to the task; do not default everything to the top tier. This applies both interactively and through `scripts/agents/invoke-claude.cjs`.
+Use one accountable implementer and proportionate verification. Trivial wording fixes need no multi-agent sequence, broad checks or completion file. Preserve sources, normative meaning, maturity and minority interpretations. Obtain independent review for material governance/privacy/public-claim changes or when requested; disposition follows evidence, not a model-count quorum. Reuse an existing task record for durable evidence.
 
-- **Mechanical** (locate a doc, quick lookup, link check, a small edit): a fast model (Haiku), **low** effort.
-- **Routine authoring** (a scoped draft, a copy-edit, a README/CHANGELOG reconciliation): a mid model (Sonnet), **medium** effort.
-- **Hard reasoning** (structuring an argument, reconciling conflicting sources, a normative-doc or protocol decision, adversarial review of a claim): **Opus**, **high**/**xhigh**.
-- **Long-horizon, whole-assignment work** (a large multi-document restructure, a multi-hour build): **Fable 5**, **high** — and only then. Fable costs ~2× Opus per token and its edge only shows on long, hard, end-to-end work; on small asks it is waste, and it falls back to Opus while unavailable.
-- **Effort is a per-task session default, not a floor.** Set it with `/effort` (or `--effort` on the wrapper); a skill or subagent may lower it via frontmatter for a cheaper step. Do **not** pin `CLAUDE_CODE_EFFORT_LEVEL` as an environment variable — it is a hard floor that overrides frontmatter. Escalate by task difficulty and reversibility, not by preference.
+Match the configured model's capacity/effort to the task and verify support in the actual client. Do not assume Claude aliases, prices or inherited tool access apply to Codex, Gemini or Cline. Record the actual read/write commands, state, control location, trust/activation and unknowns for restricted sessions. A role label or worktree is not containment; do not dispatch a writer if a required restriction cannot be established.
+
+Pushes, deployments, live analyses, and provider-spending operations require current authorization covering the specific action and scope. Authorization already given in the task remains valid; preparation or review alone does not grant it. Local commits require the review/adoption mandated for that task; do not ask for the same authorization twice.
+
+The three shared skills (doc-guard, docs-update, privacy-guard) are authoritative in `.claude/skills`; `.agents/skills` copies must match their shared frontmatter/body. No client-specific body differences are declared. Extra client metadata, if explicitly scoped, belongs separately. Bind skills to the current task and explicit arguments, not an assumed editor file.
 
 ## Consulting other models (GPT, Gemini, Claude)
 
-The limited documentation-support tooling includes small helper scripts under [`scripts/agents/`](scripts/agents), which let a maintainer-side agent consult another frontier model for a second opinion or cross-model review. Use them rather than improvising an API call.
+The limited documentation-support tooling includes small helper scripts under [`scripts/agents/`](scripts/agents), which let a maintainer-side agent consult another frontier model for a second opinion or cross-model review. Use them only within current provider-spend and disclosure authority, rather than improvising an API call. Redaction replaces configured matches only; it cannot guarantee privacy and is a no-op without a usable denylist. Review outbound content and use public-safe context.
 
 - `node scripts/agents/invoke-gpt.cjs --prompt "…" [--system "…"] [--model gpt-5.5] [--max-tokens N]` — OpenAI; needs `OPENAI_API_KEY`.
 - `node scripts/agents/invoke-gemini.cjs --prompt "…" [--system "…"] [--model gemini-3.1-pro-preview]` — Google; needs `GOOGLE_GENERATIVE_AI_API_KEY`.

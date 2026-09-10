@@ -18,8 +18,10 @@ After you add, rename, substantially edit, **promote** (e.g. `DRAFT` → `PUBLIS
 3. **Cross-links.** Check that links between documents (and from the README) resolve — relative paths and correct filenames. Fix anything a rename broke.
 4. **CHANGELOG.** Add a dated entry (ISO `YYYY-MM-DD`) in the [CHANGELOG](../../../CHANGELOG.md): what changed and, for the protocol/charter, the version bump. Keep entries terse and factual.
 5. **Public-repo check.** Confirm nothing private/internal or any secret was introduced — this is a public repo (see [AGENTS.md](../../../AGENTS.md)).
-6. **Commit.** Use a conventional commit, e.g. `docs(protocol): tighten the support rubric` or `docs: promote charter-commitments to published`.
+6. **Integration.** Return the reviewed diff/evidence to the designated integrator. Commit only when the current task covers it and required review is complete; use a conventional message. This workflow does not authorize a push or deployment.
 
 ## Output
 
 A short summary: which document changed, its label before/after, the index/changelog edits made, and any broken links found and fixed.
+
+Scope: apply only to the current authorized task and explicit arguments. A skill invocation is not an active-editor selection or permission for external calls, publication or extra writes. Restricted reviewers return chat findings; shared record writes belong to the integrator.

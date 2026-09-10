@@ -2,8 +2,14 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-09-09
+- **Cross-repository agent work clarified** — agents ask once for missing repository/read-write scope, continue under that task approval, and use authorized direct reads when MCP is unavailable. Access remains separate from public disclosure permission.
+
 ## 2026-09-05
 - **Two-page action-path diagrams published** — the [Evidence-Gated Agents PDF](output/pdf/evidence-gated-agents-action-path.pdf) now includes the funded prototype and a possible later product, with their scope labels and corrected legend.
+
+## 2026-09-04
+- **Runtime orchestrator boundary corrected** — the [runtime-gates POC spec](docs/wip/runtime-gates-poc-spec.md) replaces the absolute claim that the orchestrator cannot reach any authority-changing endpoint with the implemented boundary: of the routes classified authority-changing, it may invoke only explicitly allowlisted, authorization-owned proposal and revision transitions, including gate-ruling requests through the synthetic headless-test seam and the native fixed-precommit sequence, but authorization alone evaluates and records the result. Mandate changes remain principal-only; commit-verify, Commit-token receipt and effects remain services-host-only. The stale “~200 lines” estimate is removed. These are documentation corrections; the gate architecture and implementation are unchanged.
 
 ## 2026-08-28
 - **Public framing and draft precision tightened** — the root README, homepage, About page, and network overview now keep network participation and governance roles prospective, soften an absolute anti-capture claim to a design aim, and state that a probabilistic acting model cannot authorize its own action. A separate component's deterministic application of declared rules to a frozen proposal and recorded state can show which rules were applied, not validate the underlying authority basis or establish truth, fairness, or institutional legitimacy. The copyright-clean working note replaces “frontier flywheel” with “public model-development loop” and removes unexplained 1–5 maturity/potential scores while preserving the narrative contributions and risks. Four residual v0.2 labels in the v0.3 evaluation protocol now read v0.3; its current one-pager and sample-report skeleton now reflect v0.3's bounded source-standing record, while the intentional historical comparison remains unchanged. No normative duty or runtime implementation changed.

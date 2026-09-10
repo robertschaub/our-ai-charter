@@ -1,26 +1,13 @@
-# Claude Code instructions — Our AI Charter
+# Claude Code — Our AI Charter
 
-**Primary rules live in [AGENTS.md](AGENTS.md) — read it.** This file only adds Claude-Code-specific notes; if anything diverges, AGENTS.md is authoritative.
+@AGENTS.md
 
-## Snapshot
+Read AGENTS.md directly if the import was not loaded; it is canonical. Read any applicable nested rules before target work. This is a public documentation repository; its project priorities, routing, sources, licensing and disclosure rules stay in the root.
 
-A **public, documentation-first** repository: manifesto + charter + draft protocol + Public AI Network governance materials. Markdown is authoritative; the MkDocs site build, repository hooks, presentation assets, and `scripts/agents/` review helpers are the limited tooling exceptions. Do not add application runtime or product code.
+Shared skills are authoritative in `.claude/skills`, mirrored to `.agents/skills`. Bind to the authorized task and explicit arguments. Review/skill selection does not authorize publication, private access, provider spend or Git mutation.
 
-Current priority: this repo is **Our AI Charter**, a **Public AI Network** initiative, with **AI Assurance & Certification** as its trust-and-evidence building block. For the maintainer right now, the **Public AI Network (KI-Souveränität und Resilienz)** work is more urgent and higher priority; work on **AI Assurance & Certification (Trustworthy AI, Accountable to People)** only when explicitly asked, when it supports the Public AI Network work, or where there is clear low-hanging fruit.
+`.claude/settings.json` provides a destructive-Git guard when loaded/trusted. Coverage has varied by version/session; never delegate destructive/irreversible actions or treat a hook as containment. The repository does not set permission defaultMode; inspect the actual session contract, not user profiles. Preserve the long-haul Read/Write/Edit/Grep/Glob declaration and content-review Read/Grep/Glob declaration; verify installed enforcement before reliance.
 
-## Safety (see AGENTS.md §Git & safety)
+Small lookups stay in the main session or an actually available compatible lookup role; this repository has no declared scout agent. Use configured model/effort appropriate to the task and supported by the installed client. Do not assume historical pricing, fallback behavior or model names establish current capability.
 
-- A **PreToolUse hook** in [.claude/settings.json](.claude/settings.json) blocks destructive git (`reset --hard`, `push --force`, `clean -f`, `checkout -- .`). It uses Node.js (present in this workflow); treat its coverage as **main-session-only** (a backstop, not a guarantee — subagent coverage has proven variable) and never delegate destructive git to a subagent or Workflow agent.
-- This repo does **not** commit a permission `defaultMode`, so your own mode applies. If you run in `bypassPermissions`, that hook is your remaining guard — keep it.
-- This is a **public** repo and the **default home for all Charter material** (published or draft). Two private siblings exist for the narrow exceptions — `our-ai-charter-internal` (only personal DM/email correspondence with individuals, plus files explicitly marked `<!-- Status: INTERNAL — reason -->`) and `FactHarbor-internal` (finance/legal/banking/fundraising/Verein). Never commit personal correspondence, INTERNAL-marked, or secret material here. Cooperation/outreach/strategy/governance notes are **no longer private by default** — they belong here unless marked INTERNAL. See AGENTS.md § Where new files go and § Private administrative siblings.
-- This repo intentionally keeps only the FactHarbor practices that fit a document repository. Do not copy app workflows, build commands, generated indexes, runtime database guards, or deployment machinery into this project unless the maintainer explicitly asks.
-- For suspected leaked secrets or private material, follow [SECURITY.md](SECURITY.md); do not repeat the material in a public issue or PR.
-
-## Conventions
-
-- Conventional commits: `type(scope): description`.
-- **Work directly on `main`** — commit straight to the default branch for routine work; create a branch or worktree only when the maintainer asks, or a change is large/risky enough to isolate (see [AGENTS.md](AGENTS.md) § Git & safety).
-- Keep status banners, the README index, and CHANGELOG in sync — see the `/docs-update` skill. A status banner sits only on four kinds of page: the **normative** docs (Charter Commitments, evaluation protocol, certification model, one-pager) and the **outreach/parliamentary** drafts (Non-Paper, Aktionsplan, Postulat), both labelled `DRAFT`; **`PUBLISHED <date>`** (ISO `YYYY-MM-DD`) pages; and the **`docs/wip/`** notes, labelled `WORKING NOTES`. Briefings, evidence, strategy, background, and navigational pages carry none (see [AGENTS.md](AGENTS.md)). When the maintainer says a doc is "Published", set its banner to `PUBLISHED <date>` (today's date if publishing now).
-- When an article/post is published, its earlier draft is overwritten, deleted, or (rarely) moved to `Archive/<building-block>/` — archiving is **not** the default (Git history already preserves versions). The maintainer decides case by case; don't auto-act, and keep any archived files out of the index.
-- **Consulting other models:** [`scripts/agents/`](scripts/agents) holds `invoke-gpt.cjs` / `invoke-gemini.cjs` / `invoke-claude.cjs` for a second opinion or cross-model review — keys load from a gitignored `.env.local`; see [AGENTS.md](AGENTS.md) § Consulting other models.
-- Windows / PowerShell.
+Follow root worktree/ownership and current-action rules. Restricted writers return owned edits and evidence; the sole integrator handles shared records and authorized local commits. Use `/docs-update` for affected status/index/links, without an automatic commit or publish step.

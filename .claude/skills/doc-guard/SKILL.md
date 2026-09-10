@@ -5,7 +5,7 @@ description: Keep repository documentation lean, clear, and readable. Use automa
 
 # /doc-guard - keep documentation lean and readable
 
-Apply documentation guardrails to: $ARGUMENTS
+Apply documentation guardrails to: the documents/diff in the current authorized task and any explicit invocation arguments
 
 ## Purpose
 
@@ -98,7 +98,6 @@ source, or mission tie-in was flattened into a generic phrase.
 
 ## Hard stops
 
-Ask the maintainer before deleting or materially changing published normative
-text, changing a document's maturity label, retiring or moving a public
-document, adding material that may need private context, or publishing claims
-whose sources or licensing are uncertain.
+Preserve meaning, sources, obligations and maturity while tightening authorized text. Existing scope-specific approval remains valid. Ask only when the current task does not cover a substantive normative/maturity change, public retirement/move, private-context use or publication with uncertain sources/licensing.
+
+Scope: apply only to the current authorized task and explicit arguments. A skill invocation is not an active-editor selection or permission for external calls, publication or extra writes. Restricted reviewers return chat findings; shared record writes belong to the integrator.

@@ -15,11 +15,11 @@ description: >-
 
 Keep **strictly personal** information out of places it doesn't belong — a public repo, a third-party AI, a published or shared artifact — by replacing each personal span with a **typed placeholder** rather than the content itself.
 
-> This is model-applied judgement, not a hard technical block, and it cannot see text the user pastes directly into other apps. For a deterministic guarantee on text sent through `scripts/agents/invoke-*`, use the denylist backstop (last section).
+> This is model-applied judgement, not a hard technical block, and it cannot see text the user pastes directly into other apps. The optional denylist helper replaces configured matches only and is a no-op without a usable list; it does not guarantee removal of all private information.
 
 ## Trigger only on boundary crossings
 
-Redaction protects text that is **leaving a safe place**. Do **not** scrub content that will simply stay inside a **private** repo (e.g. `our-ai-charter-internal`) for the maintainer's own records — that content is meant to be complete. Run a pass when text is about to:
+Redaction protects text that is **leaving a safe place**. Do **not** scrub content that will simply stay inside a **private** repo for the maintainer's own records — that content is meant to be complete. Run a pass when text is about to:
 
 - go **out to an external model**, or
 - enter a **public repo**, or
@@ -57,4 +57,8 @@ State the boundary being crossed and the redactions by **type and count** (not v
 
 ## Deterministic backstop (stronger, optional)
 
-A skill is discipline. For enforcement on the highest-risk channel — text sent to third-party models — a redaction step in `scripts/agents/redact.cjs` (loaded by `invoke-gpt.cjs` / `invoke-gemini.cjs`) replaces entries from a gitignored denylist (`scripts/agents/.redact-denylist.local.json`) with placeholders before the request is sent. See `.redact-denylist.local.json.example` for the format.
+A skill guides judgment. For configured-match filtering on the channel — text sent to third-party models — a redaction step in `scripts/agents/redact.cjs` (loaded by `invoke-gpt.cjs` / `invoke-gemini.cjs`) replaces entries from a gitignored denylist (`scripts/agents/.redact-denylist.local.json`) with placeholders before the request is sent. See `.redact-denylist.local.json.example` for the format.
+
+This helper cannot discover unknown private facts, establish disclosure permission or ensure anonymization. Independently review the final outbound text against the authorized destination and scope. Do not send private material merely because a filter ran. No denylist or credential change is part of invoking this skill.
+
+Scope: apply only to the current authorized task and explicit arguments. A skill invocation is not an active-editor selection or permission for external calls, publication or extra writes. Restricted reviewers return chat findings; shared record writes belong to the integrator.
