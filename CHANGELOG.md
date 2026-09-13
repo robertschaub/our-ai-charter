@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-13
 
+- **Evidence-Gated Agents evaluation clarified after review** — The [concept note](docs/Assurance/Concepts/evidence-gated-agents.md) now assigns success rules to comparisons, specifies protocol and reference freezes, guards against checklist leakage, adds a fallible human-reference comparison and reports blinding limits. Clarified deterministic enforcement, moved aspiration status upfront and aligned index order.
+
 - **Evidence-Gated Agents aspiration and test documented** — Added the [concept note](docs/Assurance/Concepts/evidence-gated-agents.md) on mostly generic AI-derived evidence requirements and a proposed evaluation across domains, separating semantic adequacy from release enforcement. Indexed in the README and site navigation; research aspiration remains distinct from demonstrated capability.
 
 ## 2026-09-09
