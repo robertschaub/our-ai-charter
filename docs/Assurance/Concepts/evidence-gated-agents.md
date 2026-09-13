@@ -1,6 +1,6 @@
 # Evidence-Gated Agents: aspiration and test
 
-*Research aspiration and proposed evaluation, 2026-09-13. Reliability and generality remain to be demonstrated.*
+*Non-normative concept note and proposed evaluation, 2026-09-13. Reliability and generality remain to be demonstrated; this note does not define implementation obligations.*
 
 ## Aspiration: mostly generic evidence-gated agents
 
@@ -45,4 +45,4 @@ Blanket refusal cannot count as success. Neither the review ablation nor the hum
 
 Claims of generality must remain limited to the task families, domains and conditions actually tested.
 
-The [user-workflow governance model](user-workflow-governance.md) describes the surrounding authority, evidence and action controls. The [runtime gates proof-of-concept specification](../../wip/runtime-gates-poc-spec.md) defines the bounded implementation work separately from this research aspiration.
+The [Charter Commitments](../Framework/charter-commitments.md) state the governing principles and obligations. The [user-workflow governance model](user-workflow-governance.md) describes the surrounding authority, evidence and action controls. The [runtime gates proof-of-concept specification](../../wip/runtime-gates-poc-spec.md) defines the bounded runtime work on which this research builds.
