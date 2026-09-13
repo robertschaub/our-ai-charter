@@ -198,6 +198,7 @@ nav:
       - "System-use decision — implementation handoff": wip/system-use-decision-implementation-handoff.md
       - "Runtime gates POC — specification": wip/runtime-gates-poc-spec.md
       - "Evidence-Gated Agents — user needs and requirements": wip/evidence-gated-agents-requirements.md
+      - "Evidence-Gated Agents — specification": wip/evidence-gated-agents-spec.md
       - "Representation error and the correction route": wip/representation-error-and-correction-routes.md
       - "What the runtime layer adds": wip/what-the-runtime-layer-adds.md
       - "JusticeTree VBE ↔ Charter — symmetric runtime crosswalk": wip/justice-tree-vbe-charter-crosswalk.md

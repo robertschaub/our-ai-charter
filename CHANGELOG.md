@@ -5,6 +5,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 ## 2026-09-13
 
 - **Evidence-Gated Agents requirements drafted** — Added integrated user needs and requirements covering proposed prototype scope, possible extensions and research aspirations. Stage labels distinguish scope and evidence; they create no implementation obligations.
+- **Evidence-Gated Agents specification drafted** — Added proposed behaviour, retained conformance constraints and explicit contract gaps. The draft adopts no implementation baseline and leaves existing runtime authority unchanged.
 
 - **Evidence-Gated Agents concept authority clarified** — The [concept note](docs/Assurance/Concepts/evidence-gated-agents.md) now explicitly states that it creates no implementation obligations and links to the Charter Commitments and bounded runtime specification. Its research and evaluation content is unchanged.
 
