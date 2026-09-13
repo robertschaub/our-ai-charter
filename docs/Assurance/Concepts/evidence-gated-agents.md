@@ -45,4 +45,20 @@ Blanket refusal cannot count as success. Neither the review ablation nor the hum
 
 Claims of generality must remain limited to the task families, domains and conditions actually tested.
 
+## Path from the prototype to wider use
+
+The [user needs and requirements](../../wip/evidence-gated-agents-requirements.md) and [specification](../../wip/evidence-gated-agents-spec.md) describe the same capabilities across prototype and longer-term development. Both are working drafts; neither constitutes an adopted implementation baseline. The requirements document defines the stage labels. The proposed prototype is conditional on funding and scope activation.
+
+| Intended step | Exists | Prototype | Later extension | Aspiration |
+|---|---|---|---|---|
+| Identify material claims and dependencies | No general coverage claim established here | The drafting model declares the assessments it relies on; omissions are evaluated | A deny-only check for undeclared assertions, with its own acceptance threshold | Reliable identification across unfamiliar answers and tasks |
+| Propose evidence requirements | No general derivation claim established here | People set the action-specific evidence policy | Organisation-defined policies and authority basis | AI-derived requirements adequate for the proposed use |
+| Separately review adequacy | No adequacy-review capability established by the gate | Outside prototype scope | No implementation commitment | The separate review remains a central research question |
+| Find and assess evidence | FactHarbor Alpha is an existing, separate evidence foundation | Fixed public claims assessed before runtime; a local bundle supplies language-specific evidence | Governed acquisition and permitted organisation-specific sources; a fresh request after admission | Reliable assessment across unfamiliar tasks |
+| Enforce checks before release | The separate runtime proof of concept exercises gate mechanisms in a synthetic scenario | One governed real effect type: answer delivery, including rechecked revisions, receipts and bounded challenge/reliance states | Earlier input admission, governed agent/tool hops, a fresh Commit and executor check for each external effect, broader lifecycle control and institutional review/remedy | Reliable application across the claimed tasks and scales |
+
+Existing foundations are described in the [public action-path diagram](https://github.com/robertschaub/our-ai-charter/blob/main/output/pdf/evidence-gated-agents-action-path.pdf) and the [runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/README.md#honest-limits--read-this-first). They do not establish the proposed integration or generic evidence adequacy.
+
+The columns describe coverage, not a delivery sequence. Each extension needs its own scope, activation decision and evidence. One effect type can involve multiple attempts, revisions and releases. Successful gate enforcement does not establish adequate AI-derived requirements or independent adequacy review; those questions retain the separate evaluation described above.
+
 The [Charter Commitments](../Framework/charter-commitments.md) state the governing principles and obligations. The [user-workflow governance model](user-workflow-governance.md) describes the surrounding authority, evidence and action controls. The [runtime gates proof-of-concept specification](../../wip/runtime-gates-poc-spec.md) defines the bounded runtime work on which this research builds.
