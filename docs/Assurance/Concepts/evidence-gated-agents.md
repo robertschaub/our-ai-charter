@@ -12,7 +12,7 @@ The intended process is to:
 
 1. Identify material claims, assumptions and dependencies in the proposed answer or action.
 2. Propose the evidence requirements needed to justify them.
-3. Have a separate review challenge whether the requirements adequately cover the proposed answer or action, including material claims, assumptions or dependencies omitted in step 1.
+3. Have a separate review challenge whether the requirements adequately cover the proposed answer or action, including material claims, assumptions or dependencies omitted in step 1. New or revised inventory items return to step 2 and receive reviewed evidence requirements before the search in step 4.
 4. Search permitted sources and assess supporting evidence, counterevidence and unresolved gaps.
 5. Apply a separate, deterministic gate that enforces recorded requirements and review outcomes by rule: permit release, require revision or hold the proposal. The gate does not judge evidence adequacy, and a model verdict cannot itself authorize release. Material changes require renewed checks.
 
@@ -22,13 +22,13 @@ The aspiration includes discovering requirements the answering assistant overloo
 
 The central test is whether AI can derive and critically review adequate evidence requirements for unfamiliar tasks, then reduce unsupported releases while preserving useful, supported answers.
 
-Before any evaluated approach receives held-out material, publish a dated evaluation protocol under `docs/Assurance/Protocol/` and identify its Git commit in every run record. Fix the comparisons below, numeric thresholds, scoring and adjudication rules, sample selection, workflow, model configurations and resource limits. Record hashes of the frozen questions and reference requirements; preserve failed attempts and report deviations separately.
+Before any evaluated approach receives held-out material, publish a dated evaluation protocol under `docs/Assurance/Protocol/` and identify its Git commit in every run record. Fix the comparisons below, numeric thresholds, scoring and adjudication rules, sample selection, workflow, model configurations and resource limits. Include hashes of the frozen questions, reference requirements, reusable policies and domain context in that protocol commit; preserve failed attempts and report deviations separately.
 
 The evaluation should:
 
 - **Prevent question-specific checklist leakage.** Freeze reusable policies and domain context before held-out questions are authored or selected. Their authors must be separate from the question authors and have no access to the held-out questions. Permit no question-specific tuning. Include questions across domains with sufficient evidence, missing support, conflicting sources, misleading citations and changed evidence.
 - **Match comparison conditions.** Keep the acting model configuration fixed across approaches. Give each the same available sources, tools and resource limits, counting review-model usage within those limits. Add a human-reference approach: the proposed workflow receives the frozen human requirements instead of AI-derived requirements. Report the human preparation effort separately. Its requirements, outputs and assessor feedback must not reach the AI-derived approaches.
-- **Freeze contestable references and assess complete answers.** Domain-qualified reviewers prepare reference requirements before seeing any evaluated system output. Preserve that version; the frozen adjudication rules may credit justified alternatives. Assess both requirement coverage and every material assertion in the released answer, including undeclared claims. Normalize answer presentation and remove approach-identifying metadata without changing substantive content. Blind reviewers where possible and report where blinding fails, including recognizable requirements or receipts. Record unresolved disagreements.
+- **Freeze contestable references and assess complete answers.** Domain-qualified reviewers prepare and freeze reference requirements before the protocol commit, with no exposure to evaluated system outputs. Preserve that version; the frozen adjudication rules may credit justified alternatives. Assess both requirement coverage and every material assertion in the released answer, including undeclared claims. Normalize answer presentation and remove approach-identifying metadata without changing substantive content. Blind reviewers where possible and report where blinding fails, including recognizable requirements or receipts. Record unresolved disagreements.
 - **Measure errors and usefulness together.** Report missed requirements, unsupported releases, unjustified blocking, useful qualified answers, successful reassessment after evidence changes, cost and latency. Record omissions shared by the answering and reviewing agents.
 - **Test enforcement separately.** Attempt release after a failed or omitted check, modification of an approved answer, and reuse of an approval after relevant evidence changes. Blocking these attempts demonstrates enforcement integrity; semantic adequacy requires its own evidence.
 
@@ -37,8 +37,9 @@ Each comparison supports a different claim:
 | Claim | Comparison and success rule |
 |---|---|
 | **The full workflow improves release quality.** | Compare it with both an ordinary research agent and an agent with a general critique step. Primary success requires the predeclared reduction in unsupported releases against each, while meeting the predeclared usefulness threshold. |
-| **Requirement review adds value.** | Compare the full workflow with the proposed workflow with its requirement-review step removed. Claim an incremental review benefit only if it meets the predeclared requirement-coverage improvement threshold while satisfying the release-quality and usefulness safeguards. |
+| **Requirement review adds value.** | Compare the full workflow with the proposed workflow with its requirement-review step removed. Claim an incremental review benefit only if it meets the predeclared requirement-coverage improvement threshold while satisfying the release-quality and usefulness thresholds. |
 | **AI-derived requirements approach the human reference.** | Compare the full workflow with the human-reference approach, reporting gaps in requirement coverage, release quality and usefulness. Treat this as a diagnostic comparison; any claim of matching the reference requires predeclared noninferiority margins. The reference is not an infallible oracle. |
+| **The workflow generalizes within the claimed scope.** | Predeclare the domains or task families covered by the claim. The same frozen workflow must meet the primary release-quality and usefulness success rules within every declared group. Report results and uncertainty for each group; pooled success alone is insufficient. |
 
 Blanket refusal cannot count as success. Neither the review ablation nor the human-reference comparison alone establishes generic requirement derivation.
 
