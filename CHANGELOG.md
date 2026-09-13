@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-13
 
+- **Evidence-Gated Agents requirements drafted** — Added integrated user needs and requirements covering proposed prototype scope, possible extensions and research aspirations. Stage labels distinguish scope and evidence; they create no implementation obligations.
+
 - **Evidence-Gated Agents concept authority clarified** — The [concept note](docs/Assurance/Concepts/evidence-gated-agents.md) now explicitly states that it creates no implementation obligations and links to the Charter Commitments and bounded runtime specification. Its research and evaluation content is unchanged.
 
 - **Evidence-Gated Agents evaluation clarified after review** — The [concept note](docs/Assurance/Concepts/evidence-gated-agents.md) now assigns success rules to comparisons, specifies protocol and reference freezes, guards against checklist leakage, adds a fallible human-reference comparison and reports blinding limits. Clarified deterministic enforcement, moved aspiration status upfront and aligned index order. Follow-up requires primary success in every predeclared domain or task family, closes the requirement-review loop and aligns artifact freezes.
