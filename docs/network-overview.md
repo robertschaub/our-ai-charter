@@ -19,7 +19,7 @@ A federation would let participants keep local control while sharing public obli
 
 ## What it combines
 
-The [five-pillar overview on the homepage](index.md#five-connected-pillars) connects accountable AI decisions and actions; open, plural models; data and provenance commons; shared assurance and evaluation; and federated public AI infrastructure. This extends the four-pillar framing in the [July 2026 project statement](Published/our-ai-charter-public-ai-infrastructure.md) by making the governance of particular decisions and actions an explicit pillar.
+The proposal combines five pillars: accountable AI decisions and actions; open, plural models; data and provenance commons; shared assurance and evaluation; and federated public AI infrastructure. This extends the four-pillar framing in the [July 2026 project statement](Published/our-ai-charter-public-ai-infrastructure.md) by making the governance of particular decisions and actions an explicit pillar.
 
 **Accountable AI decisions and actions** concerns whether a particular consequential answer or action may proceed: who authorises it, which evidence and limits apply, and how its outcome can be inspected and challenged. **Shared assurance and evaluation** assesses claims about systems and their operation through evidence and independent review. Its **AI Assurance & Certification** building block comprises the [Charter Commitments](Assurance/Framework/charter-commitments.md), evaluation method and future assurance structure. The two responsibilities support each other throughout use; the pillar order is not an execution sequence. Models, data and infrastructure provide the resources for that use.
 

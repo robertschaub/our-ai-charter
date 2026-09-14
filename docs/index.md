@@ -11,7 +11,7 @@ hide:
 **Trustworthy AI for free, fair, and resilient societies.**
 </div>
 
-Our AI Charter is an **early public proposal for an international network of open AI models under shared public obligations**. A shared way to find, compare and use AI would connect the five pillars below, with governance and evidence separate from service provision.
+Our AI Charter is an **early public proposal for an international network of open AI models under shared public obligations**. The proposal includes a shared way to find, check and use participating AI systems, with governance and evidence separate from service provision.
 
 ## Five connected pillars
 
@@ -21,11 +21,11 @@ Our AI Charter is an **early public proposal for an international network of ope
 
     Who may authorise a consequential answer or action, on what evidence and within which limits? Its approval, refusal and execution outcome should be inspectable and open to challenge.
 
-2. **Open, plural models**
+2. **[Open, plural models](network-overview.md#why-a-network)**
 
     Inspectable models across languages and regions, with meaningful choice and none privileged in the network's rules.
 
-3. **Data and provenance commons**
+3. **[Data and provenance commons](network-overview.md#what-it-combines)**
 
     Documented sources, rights, restrictions and access conditions, handled collectively where possible.
 

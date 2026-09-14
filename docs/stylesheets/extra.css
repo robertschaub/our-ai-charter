@@ -67,7 +67,7 @@
   left: .7rem;
   top: .85rem;
   font-weight: 700;
-  color: var(--md-primary-fg-color);
+  color: var(--md-typeset-a-color);
 }
 
 .md-typeset .pillar-list p {
@@ -75,8 +75,8 @@
 }
 
 .md-typeset .pillar-list li:has(.focus-label) {
-  border-left-color: var(--md-primary-fg-color);
-  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  border-left-color: var(--md-typeset-a-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 4%, transparent);
 }
 
 .md-typeset .focus-label {
