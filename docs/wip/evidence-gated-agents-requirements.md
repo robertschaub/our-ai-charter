@@ -34,7 +34,7 @@ Acceptance references below identify required evaluation; they assert no complet
 
 An accountable operator needs to establish authority and evidence before an answer influences someone’s decision.
 
-- <a id="req-1"></a> **REQ-1 — Prototype:** release requires current authority and a current, sufficient declared evidence basis. Failed checks stop release; missing, stale or corrupt evidence must not pass. [Acceptance: release-blocking tests, SPEC-1](evidence-gated-agents-spec.md#spec-1).
+- <a id="req-1"></a> **REQ-1 — Prototype:** release requires current authority and a current, sufficient declared evidence basis. This applies both to a deterministic card that publishes an admitted assessment and to a newly drafted answer. Failed checks stop release; missing, stale or corrupt evidence must not pass. [Acceptance: release-blocking tests, SPEC-1](evidence-gated-agents-spec.md#spec-1).
 - <a id="req-2"></a> **REQ-2 — Prototype:** narrowed or revised answers rerun the checks; released text matches approved text. [Acceptance: revision and text comparisons, SPEC-1](evidence-gated-agents-spec.md#spec-1).
 
 The prototype covers one governed real effect type: answer delivery, potentially across multiple attempts, revisions and releases. Broader action coverage needs separate adoption and evidence.

@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-14
 
+- **Evidence-Gated Agents release-path gaps clarified** — Named replayed-ruling refusals alongside token and binding failures that still need durable failure records, and made explicit that both deterministic assessment cards and newly drafted answers require release checks. Scope, maturity and implementation authority are unchanged.
+
 - **Network navigation and contribution routes** — Grouped the network overview and infrastructure pages under Network, gave Assurance its own navigation group, and merged the homepage reader paths into How to help. Kept every navigation destination and existing page URL; the README now points to the shared contribution routes.
 
 - **Homepage review corrections** — Improved pillar-number contrast in dark mode, aligned the introduction with the find/check/use path, linked all five pillar titles and removed an immediate return link from the network overview.

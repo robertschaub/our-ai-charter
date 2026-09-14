@@ -64,13 +64,14 @@ flowchart TD
     S -->|Confirmed and matching| O["Attempt local test action"]
     G -->|Denied or needs review| N["Do not execute;<br/>record gate decision"]
     S -->|Native Commit denied or escalated| C["Do not execute;<br/>record Commit decision"]
+    S -->|Ruling replay rejected| RP["No new effect;<br/>explicit refusal<br/>Failure reason not recorded:<br/>gap to close"]
     S -->|Binding or token rejected| X["No new effect;<br/>reported as unconfirmed<br/>Failure reason not recorded:<br/>gap to close"]
     O -->|Success or failure| R["Record execution outcome"]
     O -->|Unconfirmed| U["Reconcile from existing evidence;<br/>record outcome or retain unknown"]
     S -->|Unconfirmed| U
 ```
 
-**Failures need records too.** A refused check and a failed execution are different results; neither should disappear from the record. An unconfirmed outcome must remain unresolved until evidence establishes it. The native runtime records Commit deny/escalate rulings and completed execution outcomes, but some [token or binding rejections return without a durable failure record and are reported to the caller as unconfirmed](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/services-mock/src/servicesHost.ts#L189-L191). The proposed answer adapter must define that missing failure record separately from the effect ledger. This is a development requirement, not a claim of complete current coverage.
+**Failures need records too.** A refused check and a failed execution are different results; neither should disappear from the record. An unconfirmed outcome must remain unresolved until evidence establishes it. The native runtime records Commit deny/escalate rulings and completed execution outcomes, but the legacy final check can [refuse a replayed ruling with no transaction operations](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/gate-core/src/authorizationCore.ts#L2721-L2729); [empty-operation results are not appended to the write-ahead log](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/gate-core/src/walStore.ts#L360-L361), so the refusal has no durable failure record. Some [token or binding rejections also return without a durable failure record and are reported to the caller as unconfirmed](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/services-mock/src/servicesHost.ts#L189-L191). The proposed answer adapter must define those missing failure records separately from the effect ledger. This is a development requirement, not a claim of complete current coverage.
 
 ### Proposed prototype: the answer-delivery path
 
@@ -96,7 +97,7 @@ flowchart TD
     G -->|Early denial| N["No release<br/>Denial receipt with reason"]
     G -->|Allowed| S{"Delivery service:<br/>request final check;<br/>verify text and recipient"}
     S -->|Commit denied or escalated| C["No release;<br/>record Commit decision"]
-    S -->|Binding or token rejected| X["No release;<br/>record failed check<br/>Adapter requirement"]
+    S -->|Ruling replay, binding or token rejected| X["No release;<br/>record failed check<br/>Adapter requirement"]
     S -->|Confirmed and matching| O["Attempt delivery of exact answer"]
     O -->|Confirmed success| R["Record successful delivery;<br/>complete success receipt"]
     O -->|Confirmed failure| RF["Record delivery failure"]
