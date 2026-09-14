@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-14
 
+- **Agent workflow simplified** - Routine work stays on main with one writer and one Git operator; parallel research/reviews remain available. Temporary worktrees are reserved for necessary concurrent writing or requested isolation. Added fast-forward-only pull, publication verification and safe cleanup rules to [AGENTS.md](AGENTS.md).
+
 - **Evidence-Gated Agents illustrated** — Added runtime and proposed answer-delivery flowcharts, including failed and unresolved outcomes, plus fictional success and early-denial receipts and a README entry point. Distinguished recorded native Commit decisions from token/binding failures reported as unconfirmed; identified the failure-recording gap and proposed adapter requirement. Diagram gates are condensed; the native final check needs a separate user request. Adopted implementation authority is unchanged.
 
 - **Evidence-Gated Agents overview broadened** — Reworked the [existing entry point](docs/Assurance/Concepts/evidence-gated-agents.md) around the whole project's goals, intended users, possible development paths, foundations and limits. Moved the unchanged research process, evaluation and coverage table to a linked [research note](docs/Assurance/Concepts/evidence-requirements-research.md). Updated navigation and the README; retained the previous section anchors as links to their new locations. Requirements, specification and implementation authority are unchanged.
