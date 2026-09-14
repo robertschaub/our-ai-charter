@@ -118,6 +118,7 @@ extra:
 nav:
   - Home: index.md
   - Network overview: network-overview.md
+  - Evidence-Gated Agents: Assurance/Concepts/evidence-gated-agents.md
   - Articles:
       - Article index: Published/index.md
       - "The Swiss F-35A fixed-price trap - Would AI fall into it today?": Published/f35-fixed-price-evidence.md
@@ -147,7 +148,6 @@ nav:
               - "Structuring the Charter — obligations, planes, lenses": Assurance/Concepts/charter-structure-and-views.md
               - "Governance from the AI user's workflow": Assurance/Concepts/user-workflow-governance.md
               - "Evaluation methods → institutional requirements": Assurance/Concepts/evaluation-to-institutional-requirements.md
-              - "Evidence-Gated Agents — project overview": Assurance/Concepts/evidence-gated-agents.md
               - "Evidence-Gated Agents — research and evaluation": Assurance/Concepts/evidence-requirements-research.md
               - "Assurance cases (obligation prototypes)": Assurance/Concepts/assurance-cases.md
               - "Capabilities & Assurance Interface": Assurance/Concepts/capabilities-and-assurance-interface.md

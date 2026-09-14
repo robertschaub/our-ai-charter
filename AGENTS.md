@@ -23,13 +23,11 @@ The public About page is [About.md](docs/About.md). This repository is the publi
 
 Current agent priority:
 
-- This repository is the public home of **Our AI Charter**, a **Public AI Network** initiative. It is organised as the network itself plus one building block:
-  - **The Public AI Network** (the `docs/` root) — the public-AI **sovereignty, resilience, Swiss innovation-location, and international-values** work: the network overview, the federated public AI infrastructure pillar, and the strategy/outreach/evidence that advance it (*KI-Souveränität und Resilienz*).
-  - **AI Assurance & Certification** (`docs/Assurance/`) — the **accountability, evaluation, Charter, and protocol** building block (*Trustworthy AI, Accountable to People*).
-- Published article mirrors live together in `docs/Published/` regardless of topic; do not create topic-specific `Published/` subfolders.
-- For the maintainer right now, the **Public AI Network (sovereignty/resilience) work is more urgent and higher priority**. When proposing next steps, choosing between open tasks, or deciding where to spend effort, agents should primarily invest there.
-- Work on the **AI Assurance & Certification** building block only when the maintainer explicitly asks for it, when it is needed to support the Public AI Network work, or where there is clear low-hanging fruit that does not distract from it.
-- Do not assume the evaluation-protocol or pilot-readiness path is the next priority merely because it is well developed in the repository.
+- The homepage presents five connected pillars: accountable AI decisions and actions; open, plural models; data and provenance commons; shared assurance and evaluation; and federated public AI infrastructure. These are complementary responsibilities, not sequential gates; public obligations and accountable human governance apply across them. This presentation does not change document ownership or folder locations.
+- **Robert Schaub’s current focus is Evidence-Gated Agents (EGA)** within **Accountable AI decisions and actions** (focus updated 2026-09-14). When proposing next steps or allocating effort, prioritise the maintainer’s current EGA task. Its public overview remains at `docs/Assurance/Concepts/evidence-gated-agents.md`; the runtime implementation is a separate repository. This priority does not grant implementation, cross-repository write or publication authority.
+- The broader **Public AI Network** work retains its sovereignty, resilience, Swiss and international coordination, and Geneva 2027 objectives. **AI Assurance & Certification** remains the trust-and-evidence building block supporting shared assurance and evaluation.
+- Published article mirrors live together in `docs/Published/` regardless of topic; do not create topic-specific `Published/` subfolders. Preserve dated four-pillar articles as historical publications; current orientation pages carry the five-pillar framing.
+- Do not infer the next task from document maturity; follow the maintainer’s current instructions and the task’s authorised scope.
 
 Boundary rules for agents:
 

@@ -54,6 +54,8 @@ _These are the assurance roles for committing organisations. For the wider netwo
 
 **"Source admissibility"** means whether the party that supplied a material input is entitled to establish the fact the input is used for — a court for its own judgment, a register for what it registers, a person for their own testimony, interpretation, or permission. It is distinct from whether the input was permitted to enter the system, and distinct from the source's general credibility. Three cases stay distinct, because collapsing them manufactures a signal that is not there: **no source is entitled** to establish the claim at all, which is recorded and from which no adverse inference follows; an entitled source exists and **this input is not it**; and standing is simply **unknown**, recorded as unattributed. Only the last two carry an adverse signal.
 
+<a id="what-people-need-to-be-able-to-demand"></a>
+
 **What people need to be able to demand**
 
 People who use, buy, study, regulate, or are affected by AI need more than promises. They need to know:

@@ -20,8 +20,7 @@
   background: color-mix(in srgb, var(--md-primary-fg-color) 6%, transparent);
 }
 
-.md-typeset .mission .mission-label,
-.md-typeset .feature-quote .mission-label {
+.md-typeset .mission .mission-label {
   display: block;
   margin-bottom: .5rem;
   font-size: .7rem;
@@ -45,58 +44,50 @@
   line-height: 1.4;
 }
 
-/* Home-page lead — the one-line definition under the tagline. A neutral frame
-   (not the indigo/teal of the mission/position panels) so it reads as the page's
-   primary definition. Colours derive from the Material palette so the frame
-   adapts to light/dark — a dark frame on light, a light frame on dark; the plain
-   rgba lines are fallbacks for browsers without color-mix(). */
-.md-typeset .lead {
-  margin: 0 0 1.5rem;
-  padding: 1.25rem 1.5rem;
-  border-radius: .3rem;
-  border: 1px solid rgba(0, 0, 0, .3);
-  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 30%, transparent);
-  border-left: .25rem solid var(--md-default-fg-color);
-  background: rgba(0, 0, 0, .04);
-  background: color-mix(in srgb, var(--md-default-fg-color) 4%, transparent);
-}
-
-.md-typeset .lead p {
+/* Connected homepage pillars; the focus also has an explicit text label. */
+.md-typeset .pillar-list > ol {
   margin: 0;
-  font-size: 1.1rem;
-  line-height: 1.55;
-}
-@media screen and (max-width: 44.9375em) {
-  .md-typeset .lead p { font-size: 1rem; }
+  padding: 0;
+  list-style: none;
+  counter-reset: pillar;
 }
 
-/* Home-page position — the Public AI Network thesis, parallel to the mission
-   panel but in a distinct teal tone so the "mission" and "position" blocks
-   stay visually separate. */
-.md-typeset .feature-quote {
-  margin: 1.5rem 0 2rem;
-  padding: 1.25rem 1.5rem;
-  border-radius: .3rem;
-  border: 1px solid rgba(0, 137, 123, .25);
-  border: 1px solid color-mix(in srgb, #00897b 25%, transparent);
-  border-left: .25rem solid #00897b;
-  background: rgba(0, 137, 123, .06);
-  background: color-mix(in srgb, #00897b 6%, transparent);
-}
-
-.md-typeset .feature-quote .mission-label {
-  color: #00897b;
-}
-
-.md-typeset .feature-quote p {
+.md-typeset .pillar-list > ol > li {
+  position: relative;
+  counter-increment: pillar;
   margin: 0;
-  font-size: 1.1rem;
-  line-height: 1.55;
+  padding: .65rem .8rem .65rem 2.4rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  border-left: .15rem solid transparent;
+}
+
+.md-typeset .pillar-list > ol > li::before {
+  content: counter(pillar);
+  position: absolute;
+  left: .7rem;
+  top: .85rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset .pillar-list p {
+  margin: .2rem 0;
+}
+
+.md-typeset .pillar-list li:has(.focus-label) {
+  border-left-color: var(--md-primary-fg-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+}
+
+.md-typeset .focus-label {
+  display: inline-block;
+  margin-left: .4rem;
+  font-size: .65rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 44.9375em) {
-  .md-typeset .mission p,
-  .md-typeset .feature-quote p {
+  .md-typeset .mission p {
     font-size: 1rem;
   }
   .md-typeset .tagline p {

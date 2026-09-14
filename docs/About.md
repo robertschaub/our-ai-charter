@@ -4,7 +4,7 @@ Our AI Charter™ belongs to a broader program:
 
 > Working to build a free and fair society where technology is used responsibly and enables well-grounded decision-making.
 
-Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** is an early public draft proposing an international network of open AI models whose providers would commit to common public obligations. The proposed network would include a governance-and-evidence layer separate from service provision, with **AI Assurance & Certification** (principles, obligations, evaluation, and a future assurance structure) as its trust-and-evidence building block. It is a contribution toward the broader public-AI movement, not an affiliation claim with any existing coalition unless stated. This repository is the public home of that work.
+Within that program, **[Our AI Charter](https://github.com/robertschaub/our-ai-charter)** is an early public draft proposing an international network of open AI models whose providers would commit to common public obligations. The proposed network would include a governance-and-evidence layer separate from service provision, with **AI Assurance & Certification** (principles, obligations, evaluation, and a future assurance structure) as its trust-and-evidence building block. It is a contribution toward the broader public-AI movement, not an affiliation claim with any existing coalition unless stated. This repository is the public home of that work. The [five-pillar overview](index.md#five-connected-pillars) explains how the parts relate under shared public obligations and accountable human governance, and identifies Robert Schaub’s current EGA focus.
 
 ## Stewardship and governance
 

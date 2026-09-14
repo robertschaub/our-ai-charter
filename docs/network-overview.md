@@ -19,14 +19,11 @@ A federation would let participants keep local control while sharing public obli
 
 ## What it combines
 
-The [published project statement](Published/our-ai-charter-public-ai-infrastructure.md) sets out four connected pillars:
+The [five-pillar overview on the homepage](index.md#five-connected-pillars) connects accountable AI decisions and actions; open, plural models; data and provenance commons; shared assurance and evaluation; and federated public AI infrastructure. This extends the four-pillar framing in the [July 2026 project statement](Published/our-ai-charter-public-ai-infrastructure.md) by making the governance of particular decisions and actions an explicit pillar.
 
-1. **Open, plural models** — inspectable and comparable across languages and regions through shared interfaces, with none privileged in the network's rules.
-2. **Data and provenance commons** — documented origin, permissions, opt-outs, restrictions, and access conditions.
-3. **Shared assurance and evaluation** — scoped, checkable evidence, independent review, correction, and remedy.
-4. **[Federated public AI infrastructure](Infrastructure/architecture.md)** — independently operated compute nodes under shared rules and local control.
+**Accountable AI decisions and actions** concerns whether a particular consequential answer or action may proceed: who authorises it, which evidence and limits apply, and how its outcome can be inspected and challenged. **Shared assurance and evaluation** assesses claims about systems and their operation through evidence and independent review. Its **AI Assurance & Certification** building block comprises the [Charter Commitments](Assurance/Framework/charter-commitments.md), evaluation method and future assurance structure. The two responsibilities support each other throughout use; the pillar order is not an execution sequence. Models, data and infrastructure provide the resources for that use.
 
-**AI Assurance & Certification** is the third pillar's trust-and-evidence building block: the [Charter Commitments](Assurance/Framework/charter-commitments.md), evaluation method, and future assurance structure that would make public-AI claims checkable.
+[Evidence-Gated Agents (EGA)](Assurance/Concepts/evidence-gated-agents.md) is Robert Schaub’s current focus within the decisions-and-actions pillar. It explores configurable applications and reusable components; their use would not depend on the proposed federation becoming operational. EGA remains early-stage work, with the proposed first prototype subject to funding and an agreed scope.
 
 The data commons does not assume that all useful training data can be open. Its benefit is **clear once, reuse many**: handle rights, provenance, and access conditions collectively instead of making every public model negotiate alone.
 
@@ -34,14 +31,14 @@ Here, **public** describes obligations, accountability, access, and governance �
 
 **Values-bound** would not mean a bloc of self-described “free” states. Participation would depend on verifiable commitments to human rights, rule-of-law procedures, democratic accountability, transparency, and effective remedy.
 
-Under all four sits **competence**. Infrastructure can be procured; the ability to understand, govern, and improve it must be built through education, research, managerial capability, and institutional learning — and kept broadly distributed. That is also an economic case: value creation, skilled work, and bargaining power grow where institutions help build and decide, not merely buy. **Anti-capture governance** and public-interest **demand** hold the pillars together.
+Across all five pillars, **competence** is essential. Infrastructure can be procured; the ability to understand, govern, and improve it must be built through education, research, managerial capability, and institutional learning — and kept broadly distributed. That is also an economic case: value creation, skilled work, and bargaining power grow where institutions help build and decide, not merely buy. **Accountable human governance** would establish rules, authority and routes to challenge and remedy across all five pillars. **Anti-capture governance** and public-interest **demand** hold the pillars together.
 
 ## How it would work
 
 The intended user path is **find → check → use**:
 
 1. **Find** a system suited to the purpose, jurisdiction, language, openness, and capability needed.
-2. **Check** its claims, reviewed evidence, known limits, and unverified areas ([questions to ask](index.md#what-must-be-checkable)).
+2. **Check** its claims, reviewed evidence, known limits, and unverified areas ([questions to ask](Assurance/Framework/charter-commitments.md#what-people-need-to-be-able-to-demand)).
 3. **Use** it as an endpoint, assistant, agent, or evaluator under access rules suited to the user and data.
 
 The same offering is an **AI system** when found, compared, or held to account and an **AI service** when served and used — two views, not separate layers.
@@ -78,9 +75,11 @@ Success is not global scale. It is proving that public compute can be shared und
 
 ## What happens next
 
-The work is in **Phase 1: public drafting and connection-building**. What exists is the proposal and the public drafts; prospective coalitions, roles, and processes are intent, not fact. No operational network access portal, admission body, assessor, adjudicator, register, certificate, trust badge, or live evaluation pilot exists yet, and no model or provider is Charter-certified.
+The proposed network remains in **Phase 1: public drafting and connection-building**. Its governance and federation plans are public drafts; prospective coalitions, roles and processes remain proposals. No operational network access portal, admission body, assessor, adjudicator, register, certificate, trust badge, or live evaluation pilot exists yet, and no model or provider is Charter-certified.
 
-The near-term target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The [initiation strategy](Strategy/initiation-strategy.md) sets the route: **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
+Robert Schaub’s current development focus is EGA, which draws on the separate FactHarbor Alpha and runtime proof-of-concept foundations. The integrated answer-delivery prototype remains proposed and subject to funding and an agreed scope. See the [current status and next step](index.md#where-the-work-stands).
+
+The network proposal’s target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The [initiation strategy](Strategy/initiation-strategy.md) sets the route: **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
 
 ## How to take part now
 
@@ -92,7 +91,7 @@ Taking part today means publicly supporting the commitments, contributing, testi
 - **Funders** — support one deliverable or contribute compute, staff, or a venue without controlling rules or findings.
 - **Policy and institutional leaders** — test the question through procurement, policy, a pre-sprint, or Geneva 2027.
 - **Supporters** — publicly endorse the [Charter Commitments](Assurance/Framework/charter-commitments.md), the one assurance step open today; member, pilot, and future mark steps only register interest.
-- **Users and the public** — apply the [checkable questions](index.md#what-must-be-checkable) when choosing, buying, evaluating, or challenging AI.
+- **Users and the public** — apply the [checkable questions](Assurance/Framework/charter-commitments.md#what-people-need-to-be-able-to-demand) when choosing, buying, evaluating, or challenging AI.
 
 If operational roles are created, admission would be rules-based, appealable, role-specific, and proportionate. It could begin with signed commitments and self-attestation, but self-attested admission would carry no public trust claim. Independent review could later support public status and consequences for false claims. Membership would never be a trust badge: only independently verified, scoped trust claims could be made; self-attested statements would remain visibly labelled as such.
 
@@ -105,6 +104,6 @@ To take part, open a [GitHub issue](https://github.com/robertschaub/our-ai-chart
 This proposal contributes to the broader public-AI movement. It is separate from the existing [**Public AI Network**](https://publicai.network/) coalition, the separately operated [**Public AI Inference Utility**](https://publicai.co/), and [**publicai.ch**](https://publicai.ch/). The utility's access pattern informs the proposed pilot; no affiliation with any of these initiatives is claimed.
 
 - Not a new language model competing with Apertus or another public model.
-- Not a new runtime, scheduler, marketplace, identity system, or standalone certification authority.
+- The federated infrastructure would build on existing runtimes, schedulers and identity systems; it is not a replacement marketplace or a standalone certification authority.
 - Not a single global GPU pool or a claim of full-stack sovereignty.
 - Not a way for funders, operators, model providers, or a host country to buy control over the rules or findings.
