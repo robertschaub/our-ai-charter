@@ -2,6 +2,10 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-09-14
+
+- **Evidence-Gated Agents overview broadened** — Reworked the [existing entry point](docs/Assurance/Concepts/evidence-gated-agents.md) around the whole project's goals, intended users, possible development paths, foundations and limits. Moved the unchanged research process, evaluation and coverage table to a linked [research note](docs/Assurance/Concepts/evidence-requirements-research.md). Updated navigation and the README; retained the previous section anchors as links to their new locations. Requirements, specification and implementation authority are unchanged.
+
 ## 2026-09-13
 
 - **Evidence-Gated Agents requirements drafted** — Added integrated user needs and requirements covering proposed prototype scope, possible extensions and research aspirations. Stage labels distinguish scope and evidence; they create no implementation obligations.
