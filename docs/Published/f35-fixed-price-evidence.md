@@ -1,6 +1,6 @@
-> **Status: DRAFT REVISION** — The 2026-09-12 LinkedIn article and post remain live. This local contract-effect correction was made on 2026-09-14 and has not been republished.
+> **Status: PUBLISHED 2026-09-12** — The contract-effect correction was republished and verified on 2026-09-14.
 
-[Current LinkedIn article (earlier text)](https://www.linkedin.com/pulse/swiss-f-35a-fixed-price-trap-would-ai-fall-today-robert-schaub-huoye/) · [Current accompanying post (earlier text)](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504514082520252416/)
+[LinkedIn article](https://www.linkedin.com/pulse/swiss-f-35a-fixed-price-trap-would-ai-fall-today-robert-schaub-huoye/) · [Accompanying post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504514082520252416/)
 
 [German version](f35-fixed-price-evidence.de.md)
 

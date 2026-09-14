@@ -6,7 +6,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 - **Evidence-Gated Agents release-path gaps clarified** — Named replayed-ruling refusals alongside token and binding failures that still need durable failure records, and made explicit that both deterministic assessment cards and newly drafted answers require release checks. Scope, maturity and implementation authority are unchanged.
 
-- **F-35A contract-effect wording corrected in draft mirrors** — The English and German local mirrors now attribute the above-estimate payment obligation to clause 4.4.1, retain armasuisse's competing interpretation, and limit the conclusion to the absence of support for an unconditional cost-ceiling assurance. The 2026-09-12 LinkedIn articles and posts remain live with their earlier wording; this correction has not been republished.
+- **F-35A contract-effect wording corrected and republished** — The English and German mirrors and their LinkedIn articles and posts now attribute the above-estimate payment obligation to clause 4.4.1, retain armasuisse's competing interpretation, and limit the conclusion to the absence of support for an unconditional cost-ceiling assurance. All four live texts were verified after publication.
 
 - **Network navigation and contribution routes** — Grouped the network overview and infrastructure pages under Network, gave Assurance its own navigation group, and merged the homepage reader paths into How to help. Kept every navigation destination and existing page URL; the README now points to the shared contribution routes.
 

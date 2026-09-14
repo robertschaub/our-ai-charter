@@ -1,6 +1,6 @@
-> **Status: DRAFT REVISION** — Der LinkedIn-Artikel und Begleitpost vom 12.09.2026 bleiben veröffentlicht. Diese lokale Korrektur zur Vertragswirkung entstand am 14.09.2026 und wurde noch nicht erneut veröffentlicht.
+> **Status: PUBLISHED 2026-09-12** — Die Korrektur zur Vertragswirkung wurde am 14.09.2026 erneut veröffentlicht und geprüft.
 
-[Aktueller LinkedIn-Artikel (früherer Wortlaut)](https://www.linkedin.com/pulse/die-schweizer-f-35a-fixpreisfalle-w%C3%BCrde-ki-heute-robert-schaub-pzpee/) · [Aktueller Begleitpost (früherer Wortlaut)](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504528739402301440/)
+[LinkedIn-Artikel](https://www.linkedin.com/pulse/die-schweizer-f-35a-fixpreisfalle-w%C3%BCrde-ki-heute-robert-schaub-pzpee/) · [Begleitpost](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504528739402301440/)
 
 [Englische Fassung](f35-fixed-price-evidence.md)
 
