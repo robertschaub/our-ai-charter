@@ -44,7 +44,7 @@
   line-height: 1.4;
 }
 
-/* Connected homepage pillars; the focus also has an explicit text label. */
+/* Connected homepage pillars. */
 .md-typeset .pillar-list > ol {
   margin: 0;
   padding: 0;
@@ -74,16 +74,9 @@
   margin: .2rem 0;
 }
 
-.md-typeset .pillar-list li:has(.focus-label) {
+.md-typeset .pillar-list li:has(.pillar-focus) {
   border-left-color: var(--md-typeset-a-color);
   background: color-mix(in srgb, var(--md-primary-fg-color) 4%, transparent);
-}
-
-.md-typeset .focus-label {
-  display: inline-block;
-  margin-left: .4rem;
-  font-size: .65rem;
-  font-weight: 600;
 }
 
 @media screen and (max-width: 44.9375em) {
