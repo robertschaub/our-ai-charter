@@ -82,6 +82,7 @@ Use this repository for public Charter outputs, including authorized cross-repos
 
 ## Working norms
 
+- **Project naming.** Write **Evidence-Gated Agents** without ©, ® or ™. Do not claim that the term was coined here or is exclusive to this project. Describe the design's contribution; copyright and licence notices apply to the articles, diagrams and code, not to the project name. Naming rule adopted 2026-09-12.
 - **Open drafts + a dated change log.** Record notable changes in [CHANGELOG.md](CHANGELOG.md) with an ISO date (`YYYY-MM-DD`).
 - **Use Git for versioning.** Keep published article filenames stable, and keep each article's accompanying feed post and comments **in that same file** as labelled companion sections (e.g. `## Accompanying feed post`) — not as separate `*-post.md` / `*-comment.md` mirrors. Do not create dated or versioned copies such as `*-v2.md` or `*-2026-06-16.md`. Use Git history, status labels, changelog entries, and document notes to record versions and changes.
 - **"Published" is an instruction to tag.** When the maintainer says a document is "Published", set its header status label to `PUBLISHED <date>` — ISO `YYYY-MM-DD`, using the date the maintainer states or today's date if it is being published now — and reconcile the README and site index. Handling any superseded earlier draft follows the next rule.

@@ -71,6 +71,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 - **Minimum first release:** a short fill-in template — board composition, funding caps + conflict-of-interest, no-secret-kill-switch, appeals, audit/revocation — adoptable by any public-AI node.
 - **Co-producer:** Public AI / Metagov, ICAIN, Current AI (accountability pillar).
 - **Go / no-go:** one public-AI node willing to pilot the template — otherwise it stays abstract.
+- **Partner-gated roadmap consideration — human governance competence:** if a public-AI pilot needs named competence criteria, or a credible training/personnel-certification partner wants to test an interface, add a small competence profile to this pack: role and authorized scope; required knowledge and practical abilities; competence evidence and issuer; issue, expiry, and reassessment; independence and support; and observed scenarios or decisions. Separately, derive bounded exercises from the runtime POC; neither the pack nor POC issues a credential. Activate only for a real pilot role or partner, a bounded scenario set, and independent review of the criteria. Keep course completion, credential verification, framework alignment, independent assessment, and the relevant scheme or credential's inclusion in an external accreditation scope visibly distinct.
 
 ### 5. Openness & accountability "card" spec
 *Form precedent: model cards / audit cards / C2PA (open spec + conformance); LF Model Openness Framework.*
