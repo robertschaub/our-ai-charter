@@ -117,8 +117,28 @@ extra:
 
 nav:
   - Home: index.md
-  - Network overview: network-overview.md
+  - Network:
+      - Overview: network-overview.md
+      - Federated infrastructure: Infrastructure/architecture.md
+      - Pilot & rollout: Infrastructure/pilot-and-rollout.md
+      - Control & evidence layer: Infrastructure/control-and-evidence-layer.md
   - Evidence-Gated Agents: Assurance/Concepts/evidence-gated-agents.md
+  - Assurance:
+      - Charter Commitments: Assurance/Framework/charter-commitments.md
+      - Certification model: Assurance/Framework/certification-model.md
+      - Concepts:
+          - "Structuring the Charter — obligations, planes, lenses": Assurance/Concepts/charter-structure-and-views.md
+          - "Governance from the AI user's workflow": Assurance/Concepts/user-workflow-governance.md
+          - "Evaluation methods → institutional requirements": Assurance/Concepts/evaluation-to-institutional-requirements.md
+          - "Evidence-Gated Agents — research and evaluation": Assurance/Concepts/evidence-requirements-research.md
+          - "Assurance cases (obligation prototypes)": Assurance/Concepts/assurance-cases.md
+          - "Capabilities & Assurance Interface": Assurance/Concepts/capabilities-and-assurance-interface.md
+      - Protocol:
+          - "Grounding, Faithfulness & Contestability": Assurance/Protocol/grounding-faithfulness-and-contestability.md
+          - One-pager: Assurance/Protocol/one-pager.md
+      - Background:
+          - Risk & vulnerability audit: Assurance/Background/risk-and-vulnerability-audit.md
+          - What the world has already declared: Assurance/Background/what-the-world-has-already-declared.md
   - Articles:
       - Article index: Published/index.md
       - "The Swiss F-35A fixed-price trap - Would AI fall into it today?": Published/f35-fixed-price-evidence.md
@@ -136,27 +156,6 @@ nav:
       - The Public AI Network: Published/the-public-ai-network.md
       - "AI Sovereignty and Resilience (EN)": Published/ai-sovereignty-and-resilience.md
       - "KI-Souveränität und Resilienz (DE)": Published/ki-souveraenitaet-und-resilienz.md
-  - What we build:
-      - Federated public AI infrastructure:
-          - Architecture: Infrastructure/architecture.md
-          - Pilot & rollout: Infrastructure/pilot-and-rollout.md
-          - Public-interest control & evidence layer: Infrastructure/control-and-evidence-layer.md
-      - AI Assurance & Certification:
-          - Charter Commitments: Assurance/Framework/charter-commitments.md
-          - Certification model: Assurance/Framework/certification-model.md
-          - Concepts:
-              - "Structuring the Charter — obligations, planes, lenses": Assurance/Concepts/charter-structure-and-views.md
-              - "Governance from the AI user's workflow": Assurance/Concepts/user-workflow-governance.md
-              - "Evaluation methods → institutional requirements": Assurance/Concepts/evaluation-to-institutional-requirements.md
-              - "Evidence-Gated Agents — research and evaluation": Assurance/Concepts/evidence-requirements-research.md
-              - "Assurance cases (obligation prototypes)": Assurance/Concepts/assurance-cases.md
-              - "Capabilities & Assurance Interface": Assurance/Concepts/capabilities-and-assurance-interface.md
-          - Protocol:
-              - "Grounding, Faithfulness & Contestability": Assurance/Protocol/grounding-faithfulness-and-contestability.md
-              - One-pager: Assurance/Protocol/one-pager.md
-          - Background:
-              - Risk & vulnerability audit: Assurance/Background/risk-and-vulnerability-audit.md
-              - What the world has already declared: Assurance/Background/what-the-world-has-already-declared.md
   - Strategy:
       - Initiation strategy: Strategy/initiation-strategy.md
       - "Landscape & positioning (build vs. join)": Strategy/landscape-and-positioning.md

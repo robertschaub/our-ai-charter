@@ -85,13 +85,9 @@ The trust-and-evidence layer: can a deployed AI show its work, answer for its us
 
 ## How to help
 
-Open an issue or pull request to:
+See [How to help on the website](docs/index.md#how-to-help) for development, review, cooperation and funding routes.
 
-1. **Stress-test the Public AI path** — overclaims, duplication, missing leverage, or weak governance assumptions.
-2. **Open one useful door** — a neutral convenor, institutional anchor, public-AI peer, or orientation conversation.
-3. **Improve the trust layer** — obligations, evidence model, evaluation method, or pilot framing.
-
-See **[CONTRIBUTING](CONTRIBUTING.md)** for working norms. For suspected leaked secrets, private material, or personal data, do **not** open a public issue; contact **[info@factharbor.ch](mailto:info@factharbor.ch)** or follow **[SECURITY](SECURITY.md)**.
+Use **[CONTRIBUTING](CONTRIBUTING.md)** for issue and pull-request guidance. For suspected leaked secrets, private material, or personal data, do **not** open a public issue; contact **[info@factharbor.ch](mailto:info@factharbor.ch)** or follow **[SECURITY](SECURITY.md)**.
 
 ## License
 

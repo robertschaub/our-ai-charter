@@ -62,20 +62,12 @@ Protect and strengthen free and fair societies in the digital age through public
 
 **Broader network and assurance work.** The proposed international network and certification scheme remain in public drafting and connection-building; neither is operational and no systems are Charter-certified. The [network strategy](Strategy/initiation-strategy.md) retains the Geneva 2027 governance-and-evidence ambition, pursued internationally from a Swiss starting point. Building a partner mandate remains a prerequisite for wider network implementation.
 
-## Find your path
-
-- **Shape policy, fund, or partner** → [The Public AI Network](Published/the-public-ai-network.md) (Swiss readers: [KI-Souveränität und Resilienz](Published/ki-souveraenitaet-und-resilienz.md)) → [Overview](network-overview.md) → [initiation strategy](Strategy/initiation-strategy.md). Current example: an exploratory [RAISD research docking note](Outreach/swiss-ai-raisd-fit-note.en.md).
-- **Build, operate, or assess human-accountable AI** → [Evidence-Gated Agents](Assurance/Concepts/evidence-gated-agents.md) → [runtime governance: when to interrupt](Published/when-should-runtime-ai-governance-interrupt.md) → [builder guideline for empathic AI](Published/how-to-build-ai-that-acts-with-empathy.md) → [Charter Commitments](Assurance/Framework/charter-commitments.md) → [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md) → [certification model](Assurance/Framework/certification-model.md).
-- **Pressure-test the work** → [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md), then the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md); evidence in [verified findings](Evidence/verified-findings.md) and the [landscape & positioning](Strategy/landscape-and-positioning.md) scan.
-
 ## How to help
 
-The highest-leverage help right now:
-
-1. **Build or cooperate** — if you develop AI, models, or evaluations, align on shared openness and evidence criteria instead of duplicating.
-2. **Stress-test the path** — where does the governance-and-evidence package overclaim, duplicate, or miss leverage?
-3. **Open one useful door** — an introduction, neutral convenor, institutional anchor, or venue.
-4. **Back it** — fund a concrete deliverable, or support it in the policy venues you shape.
+1. **Build or test** — Explore [Evidence-Gated Agents](Assurance/Concepts/evidence-gated-agents.md) and contribute practical use cases, development or evaluation expertise.
+2. **Scrutinise the work** — Challenge specific claims, gaps or design choices against the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [supporting evidence](Evidence/verified-findings.md).
+3. **Connect people and institutions** — Introduce a potential collaborator, neutral convenor or policymaker. The [network strategy](Strategy/initiation-strategy.md) sets out the broader cooperation route.
+4. **Back a concrete step** — Help fund a clearly scoped deliverable or support it in relevant policy venues.
 
 See [how to take part now](network-overview.md#how-to-take-part-now) for what each role can do, [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md) for working norms, and [About](About.md) for stewardship. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.
 

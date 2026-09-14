@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-14
 
+- **Network navigation and contribution routes** — Grouped the network overview and infrastructure pages under Network, gave Assurance its own navigation group, and merged the homepage reader paths into How to help. Kept every navigation destination and existing page URL; the README now points to the shared contribution routes.
+
 - **Homepage review corrections** — Improved pillar-number contrast in dark mode, aligned the introduction with the find/check/use path, linked all five pillar titles and removed an immediate return link from the network overview.
 
 - **Five connected pillars and current EGA focus** — Reworked the homepage around five pillars, leading with accountable AI decisions and actions and marking Robert Schaub’s current EGA focus. Rewrote the status section to distinguish existing foundations, the proposed prototype and the wider network; moved the position text to ordinary prose at the bottom. Removed the duplicate homepage checklist and directed its links to the existing questions in Charter Commitments. Aligned orientation pages, links and agent guidance, including human governance across the pillars. Existing EGA URLs and dated publications are preserved.
