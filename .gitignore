@@ -22,6 +22,8 @@ temp/
 .cache/
 .aider*
 .codex/runtime-logs/
+__pycache__/
+*.py[cod]
 
 # Secrets / environment — never commit these to a public repo
 .env

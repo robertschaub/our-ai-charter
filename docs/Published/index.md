@@ -13,6 +13,7 @@ Published articles and translations from Our AI Charter. The synthesis brings th
 
 ## AI Accountable to People
 
+- **[The Swiss F-35A fixed-price trap - Would AI fall into it today?](f35-fixed-price-evidence.md)** — English draft revision, 2026-09-12 · The contract dispute, selective evidence and the proposed Evidence-Gated Agents design. Article and link-free companion post aligned after withdrawal of the earlier LinkedIn publication. [Earlier German edition](f35-fixed-price-evidence.de.md).
 - **[Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.md)** — 2026-06-14 · The launch argument for AI assurance and accountability to people.
 - **[A Practical Test for Power](a-practical-test-for-power.md)** — 2026-07-19 · A human-centred test for legitimacy, consequences, disagreement, review, remedy, limits, and responsibility.
 - **[Runtime AI Governance Gets *When* Right — the Harder Question Is *Who Gets to Check?*](when-vs-who-ai-governance.md)** — 2026-07-23 · Independent evidence assessment, role-scoped inspection, contestability, and remedy.
