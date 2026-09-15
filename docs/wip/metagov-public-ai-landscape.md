@@ -2,7 +2,7 @@
 
 # Metagov & Public AI — landscape for the assurance & certification building block
 
-*What Metagov is, who runs its AI-governance work, and where the Charter's [AI Assurance & Certification](../About.md) building block sits among the ecosystem's adjacent projects — for engaging the Public AI ecosystem (including its [Fellow (Switzerland)](https://publicai.network/jobs/fellow-switzerland) role — posting still listed 2026-07-27, no public appointee announcement) and for Charter positioning.*
+*What Metagov is, who runs its AI-governance work, and where the Charter's [AI Assurance & Certification](../About.md) building block sits among the ecosystem's adjacent projects — for engaging the Public AI ecosystem (including its [Fellow (Switzerland)](https://publicai.network/jobs/fellow-switzerland) role — posting marked "Filled" on the [jobs index](https://publicai.network/jobs/) 2026-09-15, no public appointee announcement) and for Charter positioning.*
 
 ## TL;DR
 

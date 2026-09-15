@@ -248,7 +248,7 @@ Labelled assessment, grounded in §1–§6:
 - **Provenance work:** does the sovereignty-verification integration (nopinkypromises.ai PoC) or the job-spec observability/attribution work land in production?
 - **Guardrails:** does the `bedrock-guardrail-policy` (re)appear on the active `/v1/chat/completions` route in the published config?
 - **Current AI ↔ Public AI:** any formal agreement disclosure; duration of the dual role; whether Current AI's "Build" pillar absorbs or scales the utility.
-- **"Swiss AI Summit, February 2027":** still tasked to the Switzerland fellow in the posting; no public event by that name/date exists (the intergovernmental Geneva summit is 21–22 Jun 2027; swissaisummit.com is an unrelated commercial event). Same open question as the [Apertus note](apertus-fit-and-engagement-plan.md) §6. The fellowship posting was still listed 2026-07-27 with no public appointee announcement.
+- **"Swiss AI Summit, February 2027":** still tasked to the Switzerland fellow in the posting; no public event by that name/date exists (the intergovernmental Geneva summit is 21–22 Jun 2027; swissaisummit.com is an unrelated commercial event). Same open question as the [Apertus note](apertus-fit-and-engagement-plan.md) §6. The fellowship posting was marked "Filled" on the [jobs index](https://publicai.network/jobs/) on 2026-09-15, with no public appointee announcement.
 - **ALIA/Salamandra** (copy vs config), the promised burn-rate series, and whether publicai.ch's "hosted in Switzerland" gets specified once the cooperative formalises.
 
 ## Appendix — volatile metrics and provenance
