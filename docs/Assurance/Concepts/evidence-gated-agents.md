@@ -51,39 +51,27 @@ EGA draws on three related pieces of work:
 
 **Purpose:** show the complete intended EGA pattern, not current end-to-end functionality. A separate evidence service — FactHarbor in the selected prototype — searches and analyses evidence and returns a verdict and report. The EGA gate then applies authority, disclosure and evidence rules; the evidence service does not decide release or execution.
 
-**How to read it:** follow the solid arrows from the request to the agent's exact proposal, then through permitted disclosure, evidence search and analysis, verdict and report, `Verify` and `Commit`. Any failed check stops the attempt and creates a receipt. Dotted arrows supply the mandate and rules established outside the acting model.
-
-**Gate key:** `A` = Authorize: within mandate? · `S` = Submit: disclosure permitted? · `V` = Verify: evidence sufficient? · `C` = Commit: binding current?
+**How to read it:** each labelled rectangle names a step or check. The small `Pass?` diamonds only split the flow between continuing and stopping. A dotted arrow shows that the mandate and rules are established outside the acting model and govern the checks.
 
 ```mermaid
 flowchart TD
-    subgraph I["Accountable setup"]
-        M["Principal grants<br/>a bounded mandate"]
-        P["Rule owners set disclosure,<br/>evidence and release rules"]
-    end
-    M -. Authority .-> AU
-    P -. Rules .-> AU
-    P -. Rules .-> SU
-    P -. Rules .-> V
-    P -. Rules .-> C
+    SET["Accountable setup:<br/>mandate + disclosure,<br/>evidence and release rules"]
     U["Request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>an exact decision or action"]
-    A --> AU{"A"}
-    AU -->|Pass| SU{"S"}
-    SU -->|Pass| Q["Verification request:<br/>request + permitted context<br/>+ exact proposal"]
+    A --> PRE["Authorize + Submit:<br/>mandate and disclosure checks"]
+    SET -. Governs checks .-> PRE
+    PRE --> P{"Pass?"}
+    P -->|No| N1["Stop + receipt"]
+    P -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact proposal"]
     subgraph ES["Evidence service"]
         SEA["Evidence search<br/>and analysis"] --> VR["Evidence verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
     end
     Q --> SEA
-    VR --> V{"V"}
-    V -->|Pass| C{"C"}
-    C -->|Pass| O["Release decision or execute<br/>the authorised action"]
+    VR --> POST["Verify + Commit:<br/>evidence and binding checks"]
+    POST --> D{"Pass?"}
+    D -->|No / unclear / changed| N2["Stop + receipt"]
+    D -->|Yes| O["Release decision or execute<br/>the authorised action"]
     O --> R["Record outcome<br/>and issue receipt"]
     R --> Y["Rely, inspect, challenge<br/>and correct"]
-    AU -->|Denied or needs review| N["Stop attempt"]
-    SU -->|Denied or needs review| N
-    V -->|No / unclear / error| N
-    C -->|Denied or changed| N
-    N --> NR["Stop receipt"]
 ```
 
 <a id="existing-runtime-foundation"></a>
@@ -95,26 +83,25 @@ flowchart TD
 
 **Purpose:** show the planned bounded integration in which FactHarbor performs evidence search and analysis, returns its verdict and report, and reusable Runtime controls decide whether the exact agent decision may be released. Unlike View 1, this path does not execute a resulting action.
 
-**How to read it:** follow the request to the normal agent's exact decision, through authority and disclosure checks, FactHarbor's evidence search and analysis, its verdict and report, and the EGA release rule. `Commit` binds the checked version; release and stop both produce a receipt.
-
-**Gate key:** `A/S` = authority and disclosure pass? · `V` = EGA evidence rule pass?
+**How to read it:** each labelled rectangle names a step or check. The small `Pass?` diamonds only split the flow between continuing and stopping. FactHarbor supplies the evidence verdict and report; the EGA controls apply the release rule and bind the checked version. Release and stop both produce a receipt.
 
 The controlled evaluation selects requests expected to yield one clear, non-complex decision. Free requests remain available for exploration. A decision may contain related components, but the prototype does not test several independent decision and effect paths.
 
 ```mermaid
 flowchart TD
     U["Free request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>one exact decision"]
-    A --> G{"A/S"}
-    G -->|No| N["Stop"]
-    G -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact decision"]
+    A --> PRE["Authorize + Submit:<br/>authority and disclosure checks"]
+    PRE --> P{"Pass?"}
+    P -->|No| N1["Stop receipt"]
+    P -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact decision"]
     Q --> F["FactHarbor:<br/>evidence search and analysis"]
     F --> FR["FactHarbor verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
-    FR --> R{"V"}
-    R -->|No / unclear / error| N
-    R -->|Yes| C["Commit binds the exact<br/>checked decision and recipient"]
+    FR --> V["Verify:<br/>apply the EGA evidence rule"]
+    V --> D{"Pass?"}
+    D -->|No / unclear / error| N2["Stop receipt"]
+    D -->|Yes| C["Commit binds the exact<br/>checked decision and recipient"]
     C --> O["Release decision"]
     O --> RR["Release receipt"]
-    N --> NR["Stop receipt"]
 ```
 
 FactHarbor does not need to reproduce the agent's wording and does not decide the EGA release. It supplies the evidence record; the gate applies the release rule. A pending FactHarbor job, contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Completion never causes an automatic later release: a retry is a new attempt through all checks.
