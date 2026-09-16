@@ -49,7 +49,7 @@ Claims of generality must remain limited to the task families, domains and condi
 
 ## Path from the prototype to wider use
 
-The [user needs and requirements](../../wip/evidence-gated-agents-requirements.md) and [specification](../../wip/evidence-gated-agents-spec.md) describe the same capabilities across prototype and longer-term development. Both are working drafts; neither constitutes an adopted implementation baseline. The requirements document defines the stage labels. The dynamic decision-examination path is the selected prototype direction; its API and Runtime integration are not yet implemented.
+The dynamic decision-examination path is the selected prototype direction; its API and Runtime integration are not yet implemented. In the table below, **Prototype** means selected for the first integrated experiment, **Later extension** remains outside that prototype, and **Aspiration** identifies research intent whose reliability has not been established.
 
 | Intended step | Exists | Prototype | Later extension | Aspiration |
 |---|---|---|---|---|

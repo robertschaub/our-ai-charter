@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-16
 
+- **Detailed EGA working drafts moved out of the public site** — Removed the user-needs/requirements and technical-specification drafts from public navigation and links. The public project overview and research note remain self-contained; no implementation baseline was adopted by the move.
+
 - **Evidence-Gated Agents prototype direction updated** — Replaced the prepared-corpus and evidence-bundle prototype path with dynamic examination of the normal AI agent's exact decision through one FactHarbor run per attempt. Updated the overview, [current diagrams](output/pdf/evidence-gated-agents-dynamic-decision-path.pdf), requirements, specification and research crosswalk; separated prototype decision release from later action authorization and retained the integration as unfinished work. The stable `evidence-gated-agents-action-path.pdf` path continues to serve the submitted 5 September diagram, also available at its [immutable commit](https://github.com/robertschaub/our-ai-charter/blob/c54fae6c78a4dffa138c349aaddfc7a01944a192/output/pdf/evidence-gated-agents-action-path.pdf).
 
 ## 2026-09-14

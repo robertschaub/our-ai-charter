@@ -54,7 +54,7 @@ Protect and strengthen free and fair societies in the digital age through public
 
 *As of 14 September 2026.*
 
-**Current focus — Evidence-Gated Agents.** Robert Schaub is defining and preparing the first EGA prototype. The [requirements](wip/evidence-gated-agents-requirements.md) and [specification](wip/evidence-gated-agents-spec.md) are public working drafts; the implementation baseline remains to be agreed.
+**Current focus — Evidence-Gated Agents.** Robert Schaub is defining and preparing the first EGA prototype. The public [project overview](Assurance/Concepts/evidence-gated-agents.md) explains the selected direction and its limits; the implementation baseline remains to be agreed.
 
 **Existing foundations.** [FactHarbor Alpha](https://github.com/robertschaub/FactHarbor#what-is-factharbor) structures claims with supporting and opposing evidence, sources and confidence levels. [Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first) is a separate, runnable but unfinished proof of concept for checks outside the acting model, exercised through simulated scenarios and a local test action. The [Charter Commitments](Assurance/Framework/charter-commitments.md) and [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md) are public drafts.
 
