@@ -91,7 +91,9 @@ flowchart TD
     P -->|No| N1["Stop receipt"]
     P -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact decision"]
     subgraph ES["Evidence service"]
-        F["FactHarbor:<br/>evidence search and analysis"] --> FR["FactHarbor verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
+        subgraph FH["FactHarbor"]
+            F["Evidence search<br/>and analysis"] --> FR["Verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
+        end
     end
     Q --> F
     FR --> V["Verify:<br/>apply the EGA evidence rule"]
