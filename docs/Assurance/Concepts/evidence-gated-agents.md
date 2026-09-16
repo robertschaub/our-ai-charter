@@ -47,11 +47,13 @@ EGA draws on three related pieces of work:
 
 **Selected next step:** build a bounded prototype in which a normal AI agent proposes a decision and FactHarbor examines whether current evidence sufficiently supports that exact decision for the user’s request. The gate then releases the checked decision or stops it. This integration is not yet implemented.
 
-### Existing Runtime foundation
+### View 1 — Existing Runtime: control of one proposed action
 
-The principal grants a bounded mandate; rule owners set versioned policies outside the acting model. These specify permitted actions, information and limits. The Runtime can carry admitted evidence and screening signals into `Verify`, but it does not yet obtain a live FactHarbor examination. The legitimacy of the authority must be established by people; this proof of concept does not establish it. Rulemaker, operator and record keeper are simulated by one person; independent reviewer and remedy decider are absent. See the [runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
+**Purpose:** show the control mechanism that already exists in the separate Runtime proof of concept and could be reused by EGA. This is not the EGA prototype: it uses admitted evidence and screening signals, does not call FactHarbor, and ends only in a local test action.
 
-**Both figures are flowcharts:** solid arrows show the path and its branches; dotted arrows supply predefined authority, rules and admitted evidence. The first figure shows the existing Runtime foundation; the second adds FactHarbor's planned live evidence examination. In the native runtime, a separate user request starts the final Commit check without granting authority. Granting a mandate is not a step repeated for every proposal.
+**How to read it:** follow the solid arrows from the AI proposal through `Authorize`, `Submit`, `Verify` and `Commit` to a local test action or a recorded stop. Dotted arrows supply the mandate, rules and admitted evidence established outside the acting model. A separate service request starts the final `Commit` check; it does not grant a new mandate.
+
+The legitimacy of the mandate must be established by people; this proof of concept does not establish it. Rulemaker, operator and record keeper are simulated by one person; independent reviewer and remedy decider are absent. See the [runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
 
 ```mermaid
 flowchart TD
@@ -83,9 +85,12 @@ flowchart TD
 
 **Failures need records too.** A refused check and a failed execution are different results; neither should disappear from the record. An unconfirmed outcome must remain unresolved until evidence establishes it. The native runtime records Commit deny/escalate rulings and completed execution outcomes. Separately, [early legacy final-check defects return without transaction operations](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/gate-core/src/authorizationCore.ts#L2721-L2732); [empty-operation results are not appended to the write-ahead log](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/gate-core/src/walStore.ts#L360-L361), so those defects have no durable failure record. The services host can also [report some token or binding rejections as unconfirmed without retaining the specific failure reason](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/services-mock/src/servicesHost.ts#L189-L191). The proposed answer adapter must define those missing failure records separately from the effect ledger. This is a development requirement, not a claim of complete current coverage.
 
-### Selected prototype: dynamic decision examination
+<a id="selected-prototype-dynamic-decision-examination"></a>
+### View 2 — Selected EGA prototype: FactHarbor check before decision release
 
-The selected first EGA prototype is designed to connect a normal AI agent, FactHarbor and the runtime in a bounded German/English decision-release path. A user may enter a free request and permitted relevant context. The normal agent proposes one exact decision; FactHarbor then examines whether sufficient evidence supports that decision for the request. An EGA rule releases the exact checked decision or stops it. Both outcomes produce an inspectable receipt.
+**Purpose:** show the planned bounded integration of a normal AI agent, FactHarbor and reusable Runtime controls. Unlike View 1, this path releases a checked decision and does not execute a resulting action.
+
+**How to read it:** follow the request to the normal agent's exact decision, through authority and disclosure checks, one FactHarbor examination and the EGA release rule. `Commit` binds the checked version; release and stop both produce a receipt.
 
 The controlled evaluation selects requests expected to yield one clear, non-complex decision. Free requests remain available for exploration. A decision may contain related components, but the prototype does not test several independent decision and effect paths.
 
