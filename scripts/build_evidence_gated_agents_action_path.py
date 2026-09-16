@@ -13,7 +13,7 @@ from reportlab.pdfgen import canvas
 
 
 ROOT = Path(__file__).resolve().parent.parent
-OUTPUT = ROOT / "output" / "pdf" / "evidence-gated-agents-action-path.pdf"
+OUTPUT = ROOT / "output" / "pdf" / "evidence-gated-agents-dynamic-decision-path.pdf"
 TEMP = OUTPUT.with_name("evidence-gated-agents-action-path.rendering.pdf")
 W, H = landscape(A4)
 

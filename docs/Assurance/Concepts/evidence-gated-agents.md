@@ -105,7 +105,7 @@ The prototype's real effect is releasing the checked decision. It does not execu
 
 ### What an inspectable receipt could show
 
-**Fictional, shortened display examples, not generated receipts.** All identifiers, times and outcomes below are invented. These excerpts do not replace the full [R7 receipt requirements](../../wip/evidence-gated-agents-spec.md).
+**Fictional, shortened display examples, not generated receipts.** All identifiers, times and outcomes below are invented. These excerpts do not replace the full [receipt specification](../../wip/evidence-gated-agents-spec.md#spec-4).
 
 **Example 01, attempt 1: decision released**
 

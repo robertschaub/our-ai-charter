@@ -4,7 +4,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-16
 
-- **Evidence-Gated Agents prototype direction updated** — Replaced the prepared-corpus and evidence-bundle prototype path with dynamic examination of the normal AI agent's exact decision through one FactHarbor run per attempt. Updated the overview, [current diagrams](output/pdf/evidence-gated-agents-action-path.pdf), requirements, specification and research crosswalk; separated prototype decision release from later action authorization and retained the integration as unfinished work. The submitted 5 September diagram remains available at its [immutable commit](https://github.com/robertschaub/our-ai-charter/blob/c54fae6c78a4dffa138c349aaddfc7a01944a192/output/pdf/evidence-gated-agents-action-path.pdf).
+- **Evidence-Gated Agents prototype direction updated** — Replaced the prepared-corpus and evidence-bundle prototype path with dynamic examination of the normal AI agent's exact decision through one FactHarbor run per attempt. Updated the overview, [current diagrams](output/pdf/evidence-gated-agents-dynamic-decision-path.pdf), requirements, specification and research crosswalk; separated prototype decision release from later action authorization and retained the integration as unfinished work. The stable `evidence-gated-agents-action-path.pdf` path continues to serve the submitted 5 September diagram, also available at its [immutable commit](https://github.com/robertschaub/our-ai-charter/blob/c54fae6c78a4dffa138c349aaddfc7a01944a192/output/pdf/evidence-gated-agents-action-path.pdf).
 
 ## 2026-09-14
 
@@ -48,7 +48,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 - **Cross-repository agent work clarified** — agents ask once for missing repository/read-write scope, continue under that task approval, and use authorized direct reads when MCP is unavailable. Access remains separate from public disclosure permission.
 
 ## 2026-09-05
-- **Two-page action-path diagrams published** — the [Evidence-Gated Agents PDF as published on 5 September](https://github.com/robertschaub/our-ai-charter/blob/c54fae6c78a4dffa138c349aaddfc7a01944a192/output/pdf/evidence-gated-agents-action-path.pdf) includes the submitted prototype design and a possible later product, with their scope labels and corrected legend. The unpinned path now carries the selected 16 September design.
+- **Two-page action-path diagrams published** — the [Evidence-Gated Agents PDF as published on 5 September](output/pdf/evidence-gated-agents-action-path.pdf) includes the submitted prototype design and a possible later product, with their scope labels and corrected legend. Its stable path retains those reviewed bytes; the [selected 16 September design](output/pdf/evidence-gated-agents-dynamic-decision-path.pdf) is published separately.
 
 ## 2026-09-04
 - **Supplementary action-path legend corrected** — the two-page Prototype Fund attachment now distinguishes amber organisational/later scope from purple non-allow resolution paths, so retained escalation and fresh-proposal paths are no longer mislabeled as future-only functionality. Diagram logic and funded scope are unchanged.
