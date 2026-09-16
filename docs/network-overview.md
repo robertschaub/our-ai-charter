@@ -23,7 +23,7 @@ The proposal combines five pillars: accountable AI decisions and actions; open, 
 
 **Accountable AI decisions and actions** concerns whether a particular consequential answer or action may proceed: who authorises it, which evidence and limits apply, and how its outcome can be inspected and challenged. **Shared assurance and evaluation** assesses claims about systems and their operation through evidence and independent review. Its **AI Assurance & Certification** building block comprises the [Charter Commitments](Assurance/Framework/charter-commitments.md), evaluation method and future assurance structure. The two responsibilities support each other throughout use; the pillar order is not an execution sequence. Models, data and infrastructure provide the resources for that use.
 
-[Evidence-Gated Agents (EGA)](Assurance/Concepts/evidence-gated-agents.md) is Robert Schaub’s current focus within the decisions-and-actions pillar. It explores configurable applications and reusable components; their use would not depend on the proposed federation becoming operational. EGA remains early-stage work, with the proposed first prototype subject to funding and an agreed scope.
+[Evidence-Gated Agents (EGA)](Assurance/Concepts/evidence-gated-agents.md) is Robert Schaub’s current focus within the decisions-and-actions pillar. It explores configurable applications and reusable components; their use would not depend on the proposed federation becoming operational. EGA remains early-stage work. Its selected first-prototype direction dynamically examines a normal AI agent's exact decision through FactHarbor before release; the integration is not yet implemented.
 
 The data commons does not assume that all useful training data can be open. Its benefit is **clear once, reuse many**: handle rights, provenance, and access conditions collectively instead of making every public model negotiate alone.
 
@@ -77,7 +77,7 @@ Success is not global scale. It is proving that public compute can be shared und
 
 The proposed network remains in **Phase 1: public drafting and connection-building**. Its governance and federation plans are public drafts; prospective coalitions, roles and processes remain proposals. No operational network access portal, admission body, assessor, adjudicator, register, certificate, trust badge, or live evaluation pilot exists yet, and no model or provider is Charter-certified.
 
-Robert Schaub’s current development focus is EGA, which draws on the separate FactHarbor Alpha and runtime proof-of-concept foundations. The integrated answer-delivery prototype remains proposed and subject to funding and an agreed scope. See the [current status and next step](index.md#where-the-work-stands).
+Robert Schaub’s current development focus is EGA, which draws on the separate FactHarbor Alpha and runtime proof-of-concept foundations. The dynamic decision-release path is the selected prototype direction; its API and Runtime integration remain to be built and tested. See the [current status and next step](index.md#where-the-work-stands).
 
 The network proposal’s target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The [initiation strategy](Strategy/initiation-strategy.md) sets the route: **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
 
