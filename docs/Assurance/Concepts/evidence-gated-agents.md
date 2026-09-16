@@ -47,50 +47,53 @@ EGA draws on three related pieces of work:
 
 **Selected next step:** build a bounded prototype in which a normal AI agent proposes a decision and FactHarbor examines whether current evidence sufficiently supports that exact decision for the user’s request. The gate then releases the checked decision or stops it. This integration is not yet implemented.
 
-### View 1 — Existing Runtime: control of one proposed action
+### View 1 — EGA target model: evidence and authority before release or action
 
-**Purpose:** show the control mechanism that already exists in the separate Runtime proof of concept and could be reused by EGA. This is not the EGA prototype: it uses admitted evidence and screening signals, does not call FactHarbor, and ends only in a local test action.
+**Purpose:** show the complete intended EGA pattern, not current end-to-end functionality. A separate evidence service — FactHarbor in the selected prototype — searches and analyses evidence and returns a verdict and report. The EGA gate then applies authority, disclosure and evidence rules; the evidence service does not decide release or execution.
 
-**How to read it:** follow the solid arrows from the AI proposal through `Authorize`, `Submit`, `Verify` and `Commit` to a local test action or a recorded stop. Dotted arrows supply the mandate, rules and admitted evidence established outside the acting model. A separate service request starts the final `Commit` check; it does not grant a new mandate.
-
-The legitimacy of the mandate must be established by people; this proof of concept does not establish it. Rulemaker, operator and record keeper are simulated by one person; independent reviewer and remedy decider are absent. See the [runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
+**How to read it:** follow the solid arrows from the request to the agent's exact proposal, then through permitted disclosure, evidence search and analysis, verdict and report, `Verify` and `Commit`. Any failed check stops the attempt and creates a receipt. Dotted arrows supply the mandate and rules established outside the acting model.
 
 ```mermaid
 flowchart TD
-    subgraph I["Human setup"]
+    subgraph I["Accountable setup"]
         M["Principal grants<br/>a bounded mandate"]
-        P["Rule owners set<br/>versioned policies"]
+        P["Rule owners set disclosure,<br/>evidence and release rules"]
     end
-    E["Admitted evidence<br/>and screening signals"]
     M -. Authority .-> AU
     P -. Rules .-> AU
     P -. Rules .-> SU
     P -. Rules .-> V
-    E -. Evidence basis .-> V
-    A["AI proposes an action"] --> AU{"Authorize<br/>mandate covers proposal?"}
+    P -. Rules .-> C
+    U["Request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>an exact decision or action"]
+    A --> AU{"Authorize<br/>mandate covers proposal?"}
     AU -->|Allowed| SU{"Submit<br/>disclosure and input<br/>rules pass?"}
-    SU -->|Allowed| V{"Verify<br/>required evidence and<br/>screening checks pass?"}
-    V -->|Allowed| S{"Service requests final Commit:<br/>action and evidence binding<br/>still match approval?"}
-    S -->|Confirmed and matching| O["Attempt local test action"]
-    AU -->|Denied or needs review| N["Do not execute;<br/>record gate decision"]
+    SU -->|Allowed| Q["Verification request:<br/>request + permitted context<br/>+ exact proposal"]
+    subgraph ES["Evidence service"]
+        SEA["Evidence search<br/>and analysis"] --> VR["Evidence verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
+    end
+    Q --> SEA
+    VR --> V{"Verify<br/>sufficiently supported<br/>under the EGA rule?"}
+    V -->|Allowed| C{"Commit<br/>proposal, authority and evidence<br/>still bound and current?"}
+    C -->|Confirmed| O["Release decision or execute<br/>the authorised action"]
+    O --> R["Record outcome<br/>and issue receipt"]
+    R --> Y["Rely, inspect, challenge<br/>and correct"]
+    AU -->|Denied or needs review| N["Stop attempt"]
     SU -->|Denied or needs review| N
-    V -->|Denied or needs review| N
-    S -->|Native Commit denied or escalated| C["Do not execute;<br/>record Commit decision"]
-    S -->|Legacy final check:<br/>ruling replay rejected| RP["No new effect;<br/>explicit refusal<br/>Failure reason not recorded:<br/>gap to close"]
-    S -->|Binding or token rejected| X["No new effect;<br/>reported as unconfirmed<br/>Failure reason not recorded:<br/>gap to close"]
-    O -->|Success or failure| R["Record execution outcome"]
-    O -->|Unconfirmed| U["Reconcile from existing evidence;<br/>record outcome or retain unknown"]
-    S -->|Unconfirmed| U
+    V -->|No / unclear / error| N
+    C -->|Denied or changed| N
+    N --> NR["Stop receipt"]
 ```
 
-**Failures need records too.** A refused check and a failed execution are different results; neither should disappear from the record. An unconfirmed outcome must remain unresolved until evidence establishes it. The native runtime records Commit deny/escalate rulings and completed execution outcomes. Separately, [early legacy final-check defects return without transaction operations](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/gate-core/src/authorizationCore.ts#L2721-L2732); [empty-operation results are not appended to the write-ahead log](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/gate-core/src/walStore.ts#L360-L361), so those defects have no durable failure record. The services host can also [report some token or binding rejections as unconfirmed without retaining the specific failure reason](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/packages/services-mock/src/servicesHost.ts#L189-L191). The proposed answer adapter must define those missing failure records separately from the effect ledger. This is a development requirement, not a claim of complete current coverage.
+<a id="existing-runtime-foundation"></a>
+<a id="view-1-existing-runtime-control-of-one-proposed-action"></a>
+**Current foundation:** FactHarbor Alpha already performs evidence search and analysis and produces an inspectable verdict and report. Separately, the unfinished Runtime demonstrates gates and receipts outside the acting model using simulated scenarios and a local test action. It does not implement the complete View 1 path or call FactHarbor. See the [Runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
 
 <a id="selected-prototype-dynamic-decision-examination"></a>
 ### View 2 — Selected EGA prototype: FactHarbor check before decision release
 
-**Purpose:** show the planned bounded integration of a normal AI agent, FactHarbor and reusable Runtime controls. Unlike View 1, this path releases a checked decision and does not execute a resulting action.
+**Purpose:** show the planned bounded integration in which FactHarbor performs evidence search and analysis, returns its verdict and report, and reusable Runtime controls decide whether the exact agent decision may be released. Unlike View 1, this path does not execute a resulting action.
 
-**How to read it:** follow the request to the normal agent's exact decision, through authority and disclosure checks, one FactHarbor examination and the EGA release rule. `Commit` binds the checked version; release and stop both produce a receipt.
+**How to read it:** follow the request to the normal agent's exact decision, through authority and disclosure checks, FactHarbor's evidence search and analysis, its verdict and report, and the EGA release rule. `Commit` binds the checked version; release and stop both produce a receipt.
 
 The controlled evaluation selects requests expected to yield one clear, non-complex decision. Free requests remain available for exploration. A decision may contain related components, but the prototype does not test several independent decision and effect paths.
 
@@ -99,8 +102,10 @@ flowchart TD
     U["Free request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>one exact decision"]
     A --> G{"Authority and disclosure<br/>checks pass?"}
     G -->|No| N["Stop"]
-    G -->|Yes| F["One FactHarbor examination:<br/>evidence for and against,<br/>limitations, uncertainty"]
-    F --> R{"Completed and sufficiently<br/>supported under the EGA rule?"}
+    G -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact decision"]
+    Q --> F["FactHarbor:<br/>evidence search and analysis"]
+    F --> FR["FactHarbor verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
+    FR --> R{"Completed and sufficiently<br/>supported under the EGA rule?"}
     R -->|No / unclear / error| N
     R -->|Yes| C["Commit binds the exact<br/>checked decision and recipient"]
     C --> O["Release decision"]
