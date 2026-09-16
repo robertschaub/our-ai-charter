@@ -51,8 +51,6 @@ EGA draws on three related pieces of work:
 
 **Purpose:** show the complete intended EGA pattern, not current end-to-end functionality. A separate evidence service — FactHarbor in the selected prototype — searches and analyses evidence and returns a verdict and report. The EGA gate then applies authority, disclosure and evidence rules; the evidence service does not decide release or execution.
 
-**How to read it:** each labelled rectangle names a step or check. The small `Pass?` diamonds only split the flow between continuing and stopping. A dotted arrow shows that the mandate and rules are established outside the acting model and govern the checks.
-
 ```mermaid
 flowchart TD
     SET["Accountable setup:<br/>mandate + disclosure,<br/>evidence and release rules"]
@@ -82,8 +80,6 @@ flowchart TD
 ### View 2 — Selected EGA prototype: FactHarbor check before decision release
 
 **Purpose:** show the planned bounded integration in which FactHarbor performs evidence search and analysis, returns its verdict and report, and reusable Runtime controls decide whether the exact agent decision may be released. Unlike View 1, this path does not execute a resulting action.
-
-**How to read it:** each labelled rectangle names a step or check. The small `Pass?` diamonds only split the flow between continuing and stopping. FactHarbor supplies the evidence verdict and report; the EGA controls apply the release rule and bind the checked version. Release and stop both produce a receipt.
 
 The controlled evaluation selects requests expected to yield one clear, non-complex decision. Free requests remain available for exploration. A decision may contain related components, but the prototype does not test several independent decision and effect paths.
 
