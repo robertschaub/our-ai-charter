@@ -49,9 +49,9 @@ EGA draws on three related pieces of work:
 
 ### Existing Runtime foundation
 
-The principal grants a bounded mandate; rule owners set versioned policies outside the acting model. These specify permitted actions and limits. The legitimacy of that authority must be established by people; this proof of concept does not establish it. Rulemaker, operator and record keeper are simulated by one person; independent reviewer and remedy decider are absent. See the [runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
+The principal grants a bounded mandate; rule owners set versioned policies outside the acting model. These specify permitted actions, information and limits. The Runtime can carry admitted evidence and screening signals into `Verify`, but it does not yet obtain a live FactHarbor examination. The legitimacy of the authority must be established by people; this proof of concept does not establish it. Rulemaker, operator and record keeper are simulated by one person; independent reviewer and remedy decider are absent. See the [runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
 
-**Both figures are flowcharts:** solid arrows show the path and its branches; dotted arrows supply predefined authority and rules. Several gates are condensed. In the native runtime, a separate user request starts the final check without granting authority. Granting a mandate is not a step repeated for every proposal.
+**Both figures are flowcharts:** solid arrows show the path and its branches; dotted arrows supply predefined authority, rules and admitted evidence. The first figure shows the existing Runtime foundation; the second adds FactHarbor's planned live evidence examination. In the native runtime, a separate user request starts the final Commit check without granting authority. Granting a mandate is not a step repeated for every proposal.
 
 ```mermaid
 flowchart TD
@@ -59,12 +59,20 @@ flowchart TD
         M["Principal grants<br/>a bounded mandate"]
         P["Rule owners set<br/>versioned policies"]
     end
-    M -. Authority .-> G
-    P -. Rules .-> G
-    A["AI proposes an action"] --> G{"Runtime checks<br/>proposal against rules<br/>and mandate"}
-    G -->|Allowed| S{"Service requests final check<br/>and checks that the action<br/>matches the approval"}
+    E["Admitted evidence<br/>and screening signals"]
+    M -. Authority .-> AU
+    P -. Rules .-> AU
+    P -. Rules .-> SU
+    P -. Rules .-> V
+    E -. Evidence basis .-> V
+    A["AI proposes an action"] --> AU{"Authorize<br/>mandate covers proposal?"}
+    AU -->|Allowed| SU{"Submit<br/>disclosure and input<br/>rules pass?"}
+    SU -->|Allowed| V{"Verify<br/>required evidence and<br/>screening checks pass?"}
+    V -->|Allowed| S{"Service requests final Commit:<br/>action and evidence binding<br/>still match approval?"}
     S -->|Confirmed and matching| O["Attempt local test action"]
-    G -->|Denied or needs review| N["Do not execute;<br/>record gate decision"]
+    AU -->|Denied or needs review| N["Do not execute;<br/>record gate decision"]
+    SU -->|Denied or needs review| N
+    V -->|Denied or needs review| N
     S -->|Native Commit denied or escalated| C["Do not execute;<br/>record Commit decision"]
     S -->|Legacy final check:<br/>ruling replay rejected| RP["No new effect;<br/>explicit refusal<br/>Failure reason not recorded:<br/>gap to close"]
     S -->|Binding or token rejected| X["No new effect;<br/>reported as unconfirmed<br/>Failure reason not recorded:<br/>gap to close"]
