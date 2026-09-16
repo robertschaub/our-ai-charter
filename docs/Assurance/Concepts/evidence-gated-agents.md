@@ -85,7 +85,7 @@ The controlled evaluation selects requests expected to yield one clear, non-comp
 
 ```mermaid
 flowchart TD
-    U["Free request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>one exact decision"]
+    U["Request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>one exact decision"]
     A --> PRE["Authorize + Submit:<br/>authority and disclosure checks"]
     PRE --> P{"Pass?"}
     P -->|No| N1["Stop receipt"]
