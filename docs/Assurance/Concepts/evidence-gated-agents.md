@@ -51,7 +51,7 @@ EGA draws on three related pieces of work:
 
 **Purpose:** show the complete intended EGA pattern, not current end-to-end functionality. A separate evidence service — FactHarbor in the selected prototype — searches and analyses evidence and returns a verdict and report. The EGA gate then applies authority, disclosure and evidence rules; the evidence service does not decide release or execution.
 
-**How to read it:** follow the solid arrows from the request to the agent's exact proposal, then through permitted disclosure, evidence search and analysis, verdict and report, `Verify` and `Commit`. Any failed check stops the attempt and creates a receipt. Dotted arrows supply the mandate and rules established outside the acting model.
+**How to read it:** follow the solid arrows from the request to the agent's exact proposal, then through permitted disclosure, evidence search and analysis, verdict and report, `Verify` and `Commit`. The diamonds ask, in order: within mandate, disclosure permitted, evidence sufficient, and binding current. Any failed check stops the attempt and creates a receipt. Dotted arrows supply the mandate and rules established outside the acting model.
 
 ```mermaid
 flowchart TD
@@ -65,16 +65,16 @@ flowchart TD
     P -. Rules .-> V
     P -. Rules .-> C
     U["Request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>an exact decision or action"]
-    A --> AU{"Authorize<br/>mandate covers proposal?"}
-    AU -->|Allowed| SU{"Submit<br/>disclosure and input<br/>rules pass?"}
-    SU -->|Allowed| Q["Verification request:<br/>request + permitted context<br/>+ exact proposal"]
+    A --> AU{"Authorize<br/>within mandate?"}
+    AU -->|Pass| SU{"Submit<br/>disclosure permitted?"}
+    SU -->|Pass| Q["Verification request:<br/>request + permitted context<br/>+ exact proposal"]
     subgraph ES["Evidence service"]
         SEA["Evidence search<br/>and analysis"] --> VR["Evidence verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
     end
     Q --> SEA
-    VR --> V{"Verify<br/>sufficiently supported<br/>under the EGA rule?"}
-    V -->|Allowed| C{"Commit<br/>proposal, authority and evidence<br/>still bound and current?"}
-    C -->|Confirmed| O["Release decision or execute<br/>the authorised action"]
+    VR --> V{"Verify<br/>evidence sufficient?"}
+    V -->|Pass| C{"Commit<br/>binding current?"}
+    C -->|Pass| O["Release decision or execute<br/>the authorised action"]
     O --> R["Record outcome<br/>and issue receipt"]
     R --> Y["Rely, inspect, challenge<br/>and correct"]
     AU -->|Denied or needs review| N["Stop attempt"]
@@ -100,12 +100,12 @@ The controlled evaluation selects requests expected to yield one clear, non-comp
 ```mermaid
 flowchart TD
     U["Free request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>one exact decision"]
-    A --> G{"Authority and disclosure<br/>checks pass?"}
+    A --> G{"Authority + disclosure<br/>pass?"}
     G -->|No| N["Stop"]
     G -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact decision"]
     Q --> F["FactHarbor:<br/>evidence search and analysis"]
     F --> FR["FactHarbor verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
-    FR --> R{"Completed and sufficiently<br/>supported under the EGA rule?"}
+    FR --> R{"EGA rule<br/>pass?"}
     R -->|No / unclear / error| N
     R -->|Yes| C["Commit binds the exact<br/>checked decision and recipient"]
     C --> O["Release decision"]
