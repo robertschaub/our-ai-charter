@@ -11,7 +11,7 @@ It is an early public draft proposing an **international network of open AI mode
 
 The [homepage](docs/index.md#five-connected-pillars) presents five connected pillars under shared public obligations and accountable human governance, with routes to challenge and remedy. **Robert Schaub’s current focus is [Evidence-Gated Agents (EGA)](docs/Assurance/Concepts/evidence-gated-agents.md)** within **Accountable AI decisions and actions**: early-stage work exploring configurable applications and reusable components. The selected first-prototype direction dynamically examines a normal AI agent's exact decision through FactHarbor before release; the integration is not yet implemented. The broader network proposal retains its sovereignty, resilience and Geneva 2027 objectives. **AI Assurance & Certification** supports the shared assurance and evaluation pillar. See [what exists today and the selected next step](docs/index.md#where-the-work-stands).
 
-Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · About: **[About.md](docs/About.md)** · Stewarded by Robert Schaub and the **[FactHarbor association (Verein)](docs/About.md#stewardship-and-governance)**.
+Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.io/our-ai-charter/)** · About: **[About.md](docs/About.md)** · Privacy: **[draft notice for review](docs/privacy.md)** · Stewarded by Robert Schaub and the **[FactHarbor association (Verein)](docs/About.md#stewardship-and-governance)**.
 
 ## Start here
 
@@ -86,6 +86,8 @@ The trust-and-evidence layer: can a deployed AI show its work, answer for its us
 See [How to help on the website](docs/index.md#how-to-help) for development, review, cooperation and funding routes.
 
 Use **[CONTRIBUTING](CONTRIBUTING.md)** for issue and pull-request guidance. For suspected leaked secrets, private material, or personal data, do **not** open a public issue; contact **[info@factharbor.ch](mailto:info@factharbor.ch)** or follow **[SECURITY](SECURITY.md)**.
+
+The repository-specific **[privacy notice](docs/privacy.md)** is a draft prepared for review and is not yet effective.
 
 ## License
 

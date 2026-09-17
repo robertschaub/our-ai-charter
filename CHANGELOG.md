@@ -2,6 +2,10 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-09-17
+
+- **Repository-specific privacy notice prepared and corrected after review** — Added a fact-checked draft covering the static GitHub Pages site, public GitHub contributions, contact email, named browser-local preference stores, GitHub Pages request logging and Google Fonts. Clarified that no remote-media embed was found in the reviewed documentation tree. Recorded FactHarbor association stewardship and its serviceable postal address; retained explicit approval gates for retention, provider/transfer records and font self-hosting; linked the draft from the site navigation and README. Publishing the draft for review does not make it effective.
+
 ## 2026-09-16
 
 - **Detailed EGA working drafts moved out of the public site** — Removed the user-needs/requirements and technical-specification drafts from public navigation and links. The public project overview and research note remain self-contained; no implementation baseline was adopted by the move.

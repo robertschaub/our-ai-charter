@@ -203,3 +203,4 @@ nav:
       - "What the runtime layer adds": wip/what-the-runtime-layer-adds.md
       - "JusticeTree VBE ↔ Charter — symmetric runtime crosswalk": wip/justice-tree-vbe-charter-crosswalk.md
   - About: About.md
+  - Privacy: privacy.md
