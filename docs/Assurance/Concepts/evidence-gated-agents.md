@@ -104,6 +104,8 @@ flowchart TD
     O --> RR["Release receipt"]
 ```
 
+*Status on 18 September 2026: this integration is not implemented. The FactHarbor API contract, the release rule and Runtime compatibility are open preparation work; the homepage's [where the work stands](../../index.md#where-the-work-stands) carries the current status.*
+
 FactHarbor does not need to reproduce the agent's wording and does not decide the EGA release. It supplies the evidence record; the gate applies the release rule. A pending FactHarbor job, contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Completion never causes an automatic later release: a retry is a new attempt through all checks.
 
 **Why Commit?** The service rechecks the bound request, decision, recipient and evidence result immediately before release. A changed or narrower decision cannot reuse an earlier approval; it must start a new attempt through every check.
