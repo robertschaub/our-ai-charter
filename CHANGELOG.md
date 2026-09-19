@@ -2,6 +2,10 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-09-19
+
+- **Evidence-Gated Agents routing decision adopted** — View 2 of the [project overview](docs/Assurance/Concepts/evidence-gated-agents.md#selected-prototype-dynamic-decision-examination) now routes only responses containing a consequential decision or an instruction to act into the gate. Ordinary answers bypass it with a six-field, content-free routing record rather than a receipt; an evidence-based trigger judgment remains a later extension. The integration and its trigger fixtures remain unimplemented.
+
 ## 2026-09-18
 
 - **Evidence-Gated Agents status line added** — View 2 of the [project overview](docs/Assurance/Concepts/evidence-gated-agents.md) now carries a dated statement that the FactHarbor integration is not implemented and links the homepage status, so the two pages cannot drift.

@@ -83,10 +83,15 @@ flowchart TD
 
 The controlled evaluation selects requests expected to yield one clear, non-complex decision. Free requests remain available for exploration. A decision may contain related components, but the prototype does not test several independent decision and effect paths.
 
+A preset trigger rule routes only a response containing a consequential decision or an instruction to act into the gate. An ordinary answer bypasses the gate and leaves a minimal routing record — trigger decision, rule version, request and response fingerprints, timestamp and attempt ID — without retaining the request or response content. This routing record is not a receipt. Making the trigger judgment itself evidence-based and reviewable is a later extension.
+
 ```mermaid
 flowchart TD
-    U["Request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>one exact decision"]
-    A --> PRE["Authorize + Submit:<br/>authority and disclosure checks"]
+    U["Request + permitted<br/>relevant context"] --> A["Normal AI agent proposes<br/>one exact response"]
+    A --> T["Apply preset trigger rule"]
+    T --> R{"Route?"}
+    R -->|No| OA["Release ordinary answer<br/>+ minimal routing record"]
+    R -->|Yes| PRE["Authorize + Submit:<br/>authority and disclosure checks"]
     PRE --> P{"Pass?"}
     P -->|No| N1["Stop receipt"]
     P -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact decision"]
@@ -104,13 +109,13 @@ flowchart TD
     O --> RR["Release receipt"]
 ```
 
-*Status on 18 September 2026: this integration is not implemented. The FactHarbor API contract, the release rule and Runtime compatibility are open preparation work; the homepage's [where the work stands](../../index.md#where-the-work-stands) carries the current status.*
+*Status on 19 September 2026: this integration is not implemented. The trigger fixtures and routing-record schema, FactHarbor API contract, release rule and Runtime compatibility are open preparation work; the homepage's [where the work stands](../../index.md#where-the-work-stands) carries the current status.*
 
 FactHarbor does not need to reproduce the agent's wording and does not decide the EGA release. It supplies the evidence record; the gate applies the release rule. A pending FactHarbor job, contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Completion never causes an automatic later release: a retry is a new attempt through all checks.
 
 **Why Commit?** The service rechecks the bound request, decision, recipient and evidence result immediately before release. A changed or narrower decision cannot reuse an earlier approval; it must start a new attempt through every check.
 
-The prototype's real effect is releasing the checked decision. It does not execute a resulting action or check authority for that action. A later EGA would need a new authorization and evidence check at every autonomous action boundary.
+The gated path's real effect is releasing the checked decision. It does not execute a resulting action or check authority for that action. A later EGA would need a new authorization and evidence check at every autonomous action boundary.
 
 **Known limit:** FactHarbor's decomposition is model-assisted and may miss a consequential component. The evaluation compares the complete decision with the components FactHarbor identified and reports omissions, language differences and selected repeat-run variation. A release is not proof that the decision is true or complete.
 
