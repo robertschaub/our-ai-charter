@@ -1,8 +1,5 @@
 # Privacy notice
 
-> [!CAUTION]
-> **Draft for review — not yet effective.** Before approval and entry into effect, confirm the retention periods below and obtain the responsible FactHarbor association approval. This notice was checked against the repository and live site on 17 September 2026; it is not legal advice or retained-counsel sign-off. Publishing this draft for review does not make it effective.
-
 Last updated: 17 September 2026 · Draft version: 0.3
 
 ## At a glance
@@ -75,7 +72,7 @@ These providers may process data outside Switzerland. Before this notice becomes
 - **Website request and provider logs:** retained according to GitHub's and Google's applicable service policies; the project cannot delete those independent provider logs directly.
 - **Browser-local settings:** remain until you clear site data or the browser removes them.
 - **Public contributions and Git history:** retained for the durable public record. They may remain in forks, clones, releases, archives, or quoted discussion even if the original platform item is later changed.
-- **Privacy and support correspondence:** proposed maximum of two years after closure, unless a shorter period is sufficient or law, a dispute, or an overriding documentation need requires longer. **[REVIEW REQUIRED: approve this period and implement a deletion routine.]**
+- **Privacy and support correspondence:** proposed maximum of two years after closure, unless a shorter period is sufficient or law, a dispute, or an overriding documentation need requires longer.
 
 We ask contributors not to publish secrets, private correspondence, unnecessary personal data, or allegations about identifiable people. For sensitive material, use the private contact address instead of a public issue.
 
