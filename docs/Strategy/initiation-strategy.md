@@ -39,7 +39,7 @@ So a Policy Sprint is a coalition-and-mandate engine: it earns the pull that mak
 
 ## Roadmap
 
-Treat this as a relative sequence. As of July 2026 the articles are published (the sovereignty pair, the network statement, when-vs-who, and the autarky pair), the non-paper exists, and outreach is running (convenor scoping, public-thread engagement, actor mapping).
+Treat this as a relative sequence, not a report of private outreach state. The published article collection and bilingual non-paper exist; any next conversation should use a current, bounded ask and should not imply prior engagement, endorsement, or a mandate.
 
 **Days 0–30 — convert signal into mandate.** Finalise the non-paper; build a stakeholder map; request targeted orientation calls; ask a neutral convenor for a scoping conversation; decide the pre-sprint question. *Success:* three credible people say the question is worth structured exploration.
 
@@ -47,7 +47,7 @@ Treat this as a relative sequence. As of July 2026 the articles are published (t
 
 **Days 61–90 — connect public and political channels.** Prepare a Swiss-hosted roundtable path; define one demo use case tied to verifiable public-information infrastructure; draft interpellation/postulate options only if the mandate exists. *Success:* a carrier group, a concrete event/process date, and a political brief ready for a sponsor.
 
-Actor context: [Actors & landscape](../Evidence/actors-and-landscape.md).
+Public evidence context: [Verified findings](../Evidence/verified-findings.md) and [Linked sources](../Evidence/linked-sources.md).
 
 ## Financing
 

@@ -1,6 +1,6 @@
 # Privacy notice
 
-Last updated: 17 September 2026 · Draft version: 0.3
+Last updated: 22 September 2026 · Draft version: 0.4
 
 ## At a glance
 
@@ -59,13 +59,13 @@ GitHub hosts both the repository and the Pages site. GitHub states that it logs 
 
 ### Google Fonts
 
-The current site theme automatically requests font CSS and files from `fonts.googleapis.com` and `fonts.gstatic.com`. Google receives the network information needed to answer those requests under its own privacy terms. **[REVIEW REQUIRED: prefer self-hosting the fonts so a page view does not automatically contact Google.]**
+The current site theme automatically requests font CSS and files from `fonts.googleapis.com` and `fonts.gstatic.com`. Google receives the network information needed to answer those requests under its own privacy terms. The project intends to replace these remote requests with repository-hosted fonts; until that change is made, the Google requests remain part of the site's current operation.
 
 ### Other websites
 
 External links are normally contacted only when you select them. No externally hosted media embed was found in the reviewed documentation tree. Future project pages or standalone slide files may nevertheless contain such media; if it is embedded, its host receives a request when the media loads. Authors should prefer repository-hosted assets for privacy, availability, and provenance.
 
-These providers may process data outside Switzerland. Before this notice becomes effective, the association should record the relevant provider role and any required Swiss or EU transfer safeguard. Do not assume that a provider's global availability by itself supplies an adequate transfer basis.
+These providers may process data outside Switzerland. The association must assess and document the relevant provider roles and any required Swiss or EU transfer safeguards; a provider's global availability does not by itself establish an adequate transfer basis.
 
 ## 6. Retention
 
@@ -90,14 +90,6 @@ We use a public repository, restricted maintainer permissions, review practices,
 
 The project is not designed to collect children's data. Do not submit personal data about a child in a public contribution.
 
-## 9. Changes and review gates
+## 9. Changes and approval
 
-Material changes will be recorded in the repository and changelog. A dated version becomes effective only after the responsible association body approves it.
-
-Before approval:
-
-1. decide whether EU/EEA targeting creates an Article 27 representative requirement;
-2. self-host Google Fonts or document the chosen legal/technical basis;
-3. approve and operationalize correspondence retention;
-4. record GitHub and Google roles, contracts, and international-transfer safeguards;
-5. verify that no project analytics, forms, or additional embedded services have been introduced.
+Material changes will be recorded in the repository and changelog. A dated version becomes effective only after the responsible association body approves it. The operational approval checklist is maintained in the association's private administrative records rather than on this public page.

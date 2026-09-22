@@ -93,4 +93,4 @@ The stance is **process and coalition, not authority** — no claim to a certifi
 
 ---
 
-*Public sources and depth: [1-pager (DE)](policy-sprint-1pager.de.md) · [Non-Paper](non-paper.en.md) · [Action Plan](action-plan.en.md) · [Verified Findings](../Evidence/verified-findings.md) · [Actors & landscape](../Evidence/actors-and-landscape.md).*
+*Public sources and depth: [1-pager (DE)](policy-sprint-1pager.de.md) · [Non-Paper](non-paper.en.md) · [Action Plan](action-plan.en.md) · [Verified Findings](../Evidence/verified-findings.md) · [Linked sources](../Evidence/linked-sources.md).*

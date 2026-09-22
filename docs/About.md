@@ -19,4 +19,6 @@ The association binds itself to the standards this program asks of public AI inf
 
 **Robert Schaub** initiated Our AI Charter and maintains this repository. He is FactHarbor's founder and lead architect, with a long background in software engineering and project leadership. Contact: [info@factharbor.ch](mailto:info@factharbor.ch). Fuller public background: [LinkedIn](https://www.linkedin.com/in/robertschaub/).
 
+The association’s stewardship does not itself transfer copyright. Robert Schaub holds copyright in his own contributions; other contributions remain subject to their respective rights holders. See [NOTICE](https://github.com/robertschaub/our-ai-charter/blob/main/NOTICE) and [LICENSE](https://github.com/robertschaub/our-ai-charter/blob/main/LICENSE) for copyright attribution and reuse terms.
+
 Private administrative work — legal, finance, banking, fundraising, Verein operations, personal correspondence, and explicitly INTERNAL material — is kept outside the public repositories. Public Charter cooperation, outreach, strategy, and governance notes remain here by default.

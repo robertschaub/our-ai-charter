@@ -2,7 +2,7 @@
 
 # Copyright-clean open/public LLMs - competitiveness strategy
 
-*Working notes - 2026-07-02; routing update 2026-07-03. Public-safe. Related: [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [Marcel Salathé actor note](public-ai-people-and-pathways.md), [public-interest control & evidence layer](../Infrastructure/control-and-evidence-layer.md), [initiation strategy](../Strategy/initiation-strategy.md), [actors & landscape](../Evidence/actors-and-landscape.md).*
+*Working notes - 2026-07-02; routing update 2026-07-03. Public-safe. Related: [Apertus fit & engagement plan](apertus-fit-and-engagement-plan.md), [public-interest control & evidence layer](../Infrastructure/control-and-evidence-layer.md), [initiation strategy](../Strategy/initiation-strategy.md), and [verified findings](../Evidence/verified-findings.md).*
 
 ## In one line
 
@@ -66,7 +66,7 @@ Open models now reach roughly **~70–80% on SWE-bench Verified** (harness-depen
 
 ## Running it in practice — hosted, self-hosted, and cost
 
-Competitiveness is not only capability — it is whether an institution can actually **run** a public/open model for real work, **affordably** and **sovereignly**. That is the activation gap, made concrete for the two everyday uses (agentic coding and chat). The diagrams render on the site and extend the [actor-map stack diagram](../Evidence/actors-and-landscape.md).
+Competitiveness is not only capability — it is whether an institution can actually **run** a public/open model for real work, **affordably** and **sovereignly**. That is the activation gap, made concrete for the two everyday uses (agentic coding and chat). The diagrams render on the site and extend the infrastructure analysis in the [Apertus fit note](apertus-fit-and-engagement-plan.md).
 
 ### Hosted — via an inference provider
 

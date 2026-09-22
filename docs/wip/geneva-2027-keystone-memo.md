@@ -2,7 +2,7 @@
 
 # Geneva 2027 — Public AI Governance & Evidence Package
 
-*Forwardable keystone memo (~2 pp). Spine for the Geneva-2027 channels — the *Road to Geneva* pre-events track (registration launches August 2026), the [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) channel (application window closed 12 Jul 2026), and every downstream route. Assembled from the [non-paper](../Outreach/non-paper.en.md), the [initiation strategy](../Strategy/initiation-strategy.md), the [evaluation protocol one-pager](../Assurance/Protocol/one-pager.md), and the [Geneva 2027 routes map](../Strategy/geneva-2027-options.md) — see also the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
+*Forwardable keystone memo (~2 pp). Spine for Geneva-2027 channels — the live [*Road to Geneva* pre-events track](https://www.genevaaisummit.swiss/pre-events/), the closed [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/preparing-for-the-ai-summit-2027/) channel, and downstream routes. Assembled from the [non-paper](../Outreach/non-paper.en.md), the [initiation strategy](../Strategy/initiation-strategy.md), the [evaluation protocol one-pager](../Assurance/Protocol/one-pager.md), and the [Geneva 2027 routes map](../Strategy/geneva-2027-options.md) — see also the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
 
 ## In one line
 
@@ -25,7 +25,7 @@ Deliberately minimal and imperfect; start small. Four bounded pieces, not a broa
 1. **Governance blueprint** — how an open public-AI layer can *dock onto* existing structures (Apertus/SNAI, Current AI): roles, anti-capture, no-secret-kill-switch, independent oversight, conflict-of-interest rules, an audit path, and a **named adjudicator outside any single member** with attestation and penalties for false attestation (see the [control-and-evidence one-pager](../Infrastructure/control-and-evidence-layer.md)). Framed as a question *with* SNAI/Apertus, not as criticism. (From the [Charter Commitments](../Assurance/Framework/charter-commitments.md) duties and the [certification model](../Assurance/Framework/certification-model.md) governance.)
 2. **One evaluation/evidence pilot** — the [grounding-faithfulness & contestability protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) packaged as **one runnable tool on one use-case** (cited-source Q&A) on an open public model (model-plural by design; Apertus a natural first choice for a Swiss-anchored pilot). This is the differentiator: it answers the official process's call for *concrete, reusable tools*, not another declaration.
 3. **A neutral pre-sprint** — a scoped, neutrally-facilitated clarification process (not a campaign) to test three questions: governance, institutional home, political path.
-4. **A Swiss-hosted roundtable path** into the Geneva 2027 process — registrable as an official *Road to Geneva* independent pre-event (registration opens ~Aug 2026).
+4. **A Swiss-hosted roundtable path** into the Geneva 2027 process — registrable through the live official *Road to Geneva* independent-pre-event form; approval provides listing and the programme logo, not funding or organisational support.
 
 ## Why it succeeds — economic benefit is a basis, not a bonus
 
@@ -46,8 +46,8 @@ This stays in service of the core goal — *not* "Switzerland first", no commerc
 
 ## Honest status
 
-Founder-led, Phase 1 (public drafting). Two articles and an evaluation method are published; early orientation conversations are underway — **not yet a coalition.** No standard, certification body, audit authority, or active pilot is claimed. The work is **unfunded**; the positive funding path is in-kind first → a pilot-scale grant tied to one deliverable → company money last and filtered (see the *Financing* section of the [initiation strategy](../Strategy/initiation-strategy.md)).
+Founder-led, Phase 1 (public drafting). A public article collection and an evaluation method are published; **no coalition or external mandate is claimed.** The maintainer's current implementation focus is Evidence-Gated Agents, so this broader Geneva package remains a conditional route rather than the active build. No standard, certification body, audit authority, or active pilot is claimed. The work is **unfunded**; the positive funding path is in-kind first → a pilot-scale grant tied to one deliverable → company money last and filtered (see the *Financing* section of the [initiation strategy](../Strategy/initiation-strategy.md)).
 
 ---
 
-*Evidence and anchors: [Verified Findings](../Evidence/verified-findings.md). Who is already working in this space: [actor & landscape map](../Evidence/actors-and-landscape.md). Channel-by-channel intake: [channel demand](../Evidence/geneva-2027-channel-demand.md).*
+*Evidence and anchors: [Verified Findings](../Evidence/verified-findings.md). Channel-by-channel intake: [channel demand](../Evidence/geneva-2027-channel-demand.md).*

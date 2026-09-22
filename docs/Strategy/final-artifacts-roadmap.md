@@ -1,28 +1,28 @@
 # Artifacts roadmap — inputs to assemble, and durable end-products
 
-This note covers both the near-term **inputs** to assemble for Geneva 2027 (memos, briefs, a one-pager — the *I-series* below) and the **durable end-products** the initiative could ship with others (standards, software, a signable charter, a report index — the *#-series* below) that live in the world on their own.
+This note records both conditional **inputs** for a Geneva 2027 contribution (memos, briefs, a one-pager — the *I-series* below) and the **durable end-products** the initiative could ship with others (standards, software, a signable charter, a report index — the *#-series* below) that live in the world on their own. The maintainer's current implementation focus is Evidence-Gated Agents; the Geneva sequence resumes only when a concrete channel or collaborator justifies it.
 
 ## The distinction
 
 - **Input** (the *I-series* below): a memo, brief, one-pager, or non-paper you carry into a meeting or process.
 - **Final artifact** (the *#-series* below): a standard, a piece of software, a signable charter with a register, a public report index, a running governed utility, a procurement clause, a mark — a thing others use without you in the room.
 
-## Inputs to assemble now (I1–I5)
+## Geneva-track inputs (I1–I5; assemble when the track resumes)
 
-*The near-term **inputs** — memos and briefs — to carry into Geneva 2027 meetings and processes. The bottleneck is assembly and packaging, not more thinking: strong assets already exist (two published articles, the bilingual non-paper, the actor map and verified-findings base, the Charter Commitments, and a red-teamed evaluation protocol). Assemble them; don't write new manifestos.*
+*These are **inputs** — memos and briefs — for Geneva 2027 meetings and processes, not the active implementation backlog. Strong assets already exist (the published article collection, the bilingual non-paper, the verified-findings and linked-source base, the Charter Commitments, and a reviewed evaluation protocol). Assemble them when a route is live; don't write new manifestos.*
 
 | Input | What it is | Seeds / role | Effort · when |
 |---|---|---|---|
-| **I1 — Keystone memo** | "Geneva 2027 Public AI Governance & Evidence Package" (~2–3 pp): problem → governance blueprint + one evaluation pilot + roundtable → the ask → honest status | the spine for every downstream route | Low (assemble) · now |
-| **I2 — Forwardable one-pager** | a 1-page summary warm contacts can forward to international anchors | executive summary of I1 | Very low · now |
-| **I3 — Publication commitment** | abstract + outline + named venue + timeline (½ p) | a concrete publication plan (public-facing fellowships reward "publication feasibility") | Very low · now |
-| **I4 — Evaluation package** *(the differentiator)* | method v0.3 + codebook + report skeleton + one public calibration set + a portable-harness *plan* — the [evaluation PoC scope](../wip/evaluation-poc-scope.md) operationalises this | **seeds durable artifact #1** (eval toolkit → standard); answers the process's "concrete tools" ask | Medium · brief over summer |
-| **I5 — Governance blueprint** | the *how*: roles, anti-capture, no-secret-kill-switch, oversight, conflict-of-interest, audit path, external adjudicator, attestation-with-penalties (~2 pp) | substance for the Route B conversations; **seeds durable artifact #4** (co-stewardship pack) | Medium · next |
+| **I1 — Keystone memo** | "Geneva 2027 Public AI Governance & Evidence Package" (~2–3 pp): problem → governance blueprint + one evaluation pilot + roundtable → the ask → honest status | the spine for every downstream route | Low · when a Geneva route resumes |
+| **I2 — Forwardable one-pager** | a 1-page summary warm contacts can forward to international anchors | executive summary of I1 | Very low · derive from I1 |
+| **I3 — Publication commitment** | abstract + outline + named venue + timeline (½ p) | a concrete publication plan | Very low · only for a live channel |
+| **I4 — Evaluation package** *(the differentiator)* | method v0.3 + codebook + report skeleton + one public calibration set + a portable-harness *plan* — the [evaluation PoC scope](../wip/evaluation-poc-scope.md) operationalises this | **seeds durable artifact #1** (eval toolkit → standard); answers the process's "concrete tools" ask | Medium · channel-gated |
+| **I5 — Governance blueprint** | the *how*: roles, anti-capture, no-secret-kill-switch, oversight, conflict-of-interest, audit path, external adjudicator, attestation-with-penalties (~2 pp) | substance for Route B conversations; **seeds durable artifact #4** (co-stewardship pack) | Medium · channel-gated |
 
 **Produce on demand** (cheap, when a conversation needs it): a plain-language FAQ / anti-overclaim Q&A; a pre-sprint scoping doc (if a neutral convener engages); a roundtable concept (lowest urgency).
 **Conditional:** a Swiss AI Action-Plan ~1-page input *only if* the [go/no-go bar](swiss-action-plan-contribution.md) is met; a co-authored "sovereignty not autarky" op-ed if a warm opportunity matures (avoid "constitution" / new-institution framing).
-**Don't produce:** a new manifesto from scratch (two are published — cite them); a cold standalone Apertus governance proposal to SNAI (route via the summit and warm peer paths); a Current AI submission (no open call — a relationship target, not a channel).
-**First move:** start with **I1** (keystone memo) — it unlocks I2/I3 and feeds I4/I5 — drafted MVP-mode, plus the forwardable one-pager (I2) derived from it.
+**Don't produce:** a new manifesto from scratch (use the published collection); a cold standalone Apertus governance proposal to SNAI; a Current AI submission (no open call — a relationship target, not a channel).
+**First move when the Geneva track resumes:** refresh **I1** (keystone memo) against the live channel; then derive I2 rather than starting another document. Until then, prioritise the bounded EGA prototype work.
 
 ## The key insight
 
@@ -52,7 +52,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ### 2. Charter Commitments v1.0 + supporter/member register
 *Form precedent: IFCN / EFCSN code + verified-signatory; OSI Open Source AI Definition (a released definition document).*
-- **Minimum first release:** promote v0.14 → v1.0 (resolve the "Open decisions" minimally or mark them explicitly open), publish a signable version + a public supporter-list page.
+- **Minimum first release:** promote the current Charter Commitments draft (v0.19) → v1.0 only after resolving the "Open decisions" or marking them explicitly open; then publish a signable version + a public supporter-list page.
 - **Co-producer:** 3–5 early endorsers; an anchor willing to be listed.
 - **Go / no-go:** a handful of credible supporters ready to sign — otherwise it reads as a one-person idea (per the alliance-first [strategy](initiation-strategy.md)).
 
@@ -97,7 +97,7 @@ The hard intellectual content already exists — five obligations, eight duties,
 
 ## Priority and sequence
 
-Building block 1 (public-AI sovereignty and infrastructure) leads. The **keystones are #1 (the package/toolkit first, not the standard) and #3** — a toolkit you can run on an Apertus-class public model is a releasable artifact; a brief about it is an input. **#2 and #6** are cheap connective tissue to do early. **#7** is the gated destination.
+**Current implementation priority:** Evidence-Gated Agents within accountable AI decisions and actions. For the broader Geneva/public-infrastructure track, the **keystones remain #1 (the package/toolkit first, not the standard) and #3** — a toolkit you can run on an Apertus-class public model is a releasable artifact; a brief about it is only an input. **#2 and #6** are cheap connective tissue once external demand exists. **#7** remains a gated destination.
 
 ## Constraints to hold
 

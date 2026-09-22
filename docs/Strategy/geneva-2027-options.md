@@ -1,13 +1,13 @@
 # Geneva 2027 — contribution routes and partners
 
-How a public-interest **governance + evidence** contribution can reach the **Geneva AI Summit 2027**. This consolidates the [initiation strategy](initiation-strategy.md), [actor map](../Evidence/actors-and-landscape.md), and [verified findings](../Evidence/verified-findings.md); use those for detail and sources.
+How a public-interest **governance + evidence** contribution can reach the **Geneva AI Summit 2027**. This consolidates the [initiation strategy](initiation-strategy.md), [verified findings](../Evidence/verified-findings.md), and [linked sources](../Evidence/linked-sources.md); use those for detail and sources.
 
 ## What the summit is
 
 - Next global AI summit in the series: Bletchley 2023 → Seoul 2024 → Paris 2025 → New Delhi 2026 → **[Geneva, 21–22 June 2027](https://www.genevaaisummit.swiss/)** → UAE 2028.
 - Switzerland hosts; organisation sits with **UVEK** and **EDA/FDFA**. Publicly named leads include Amb. Markus Reubi (EDA) and Amb. Thomas Schneider (BAKOM/OFCOM).
-- **Open on-ramp — the official *Road to Geneva* pre-events programme.** The summit invites organisations and institutions worldwide to run **independent pre-events** ahead of June 2027. Participation is by **registration, not invitation**. The timeline says the programme starts in **August 2026** and the FAQ says it opens in **late summer**; as of **2026-08-06**, the promised form was not yet visible. No deadline is stated; approval brings the official logo, but **no funding or organisational support**. A **"Call for Issues"** follows in autumn 2026 and side-event proposals in early 2027 — a rare low-gatekeeper channel. Sources: [genevaaisummit.swiss](https://www.genevaaisummit.swiss/), [OFCOM](https://www.bakom.admin.ch/en/geneva-ai-summit-2027-international-summit-on-artificial-intelligence-in-geneva).
-- Switzerland frames itself as neutral convenor / sectoral middle way. Preparation is underway; dates now confirmed (21–22 June 2027) — re-verify the process, and watch for the pre-event registration, before outreach.
+- **Open on-ramp — the official *Road to Geneva* pre-events programme.** The summit invites organisations and institutions worldwide to run **independent pre-events** ahead of June 2027. The [dedicated pre-events page and submission form](https://www.genevaaisummit.swiss/pre-events/) are live; approved events are listed on a rolling basis. No deadline is stated; approval brings the official logo, but **no funding or organisational support**. A **"Call for Issues"** is announced for autumn 2026 and side-event proposals for early 2027. The page listed 90 approved pre-events on 2026-09-22; that is a changing snapshot, not a project result.
+- Switzerland frames itself as neutral convenor / sectoral middle way. Preparation is underway; dates are confirmed (21–22 June 2027). Re-verify the form and criteria before submitting.
 - Distinct from — but converging with — the **UN/ITU multilateral track** that landed in Geneva a year earlier: the **inaugural UN Global Dialogue on AI Governance ran 6–7 July 2026**, back-to-back with the **ITU AI for Good Summit (7–10 July 2026)**, both informed by the UN Scientific Panel's first report (1 July 2026; co-chairs Bengio & Ressa). The Panel→Dialogue cadence now carries the forward path: annual report → **second Dialogue, May 2027, New York** — and the 2027 summit itself runs together with ITU's AI for Good. Sources in [linked sources](../Evidence/linked-sources.md).
 
 ## Realistic standing
@@ -20,17 +20,17 @@ The target contribution is the bounded package named in the [initiation strategy
 
 ## Routes in
 
-Roles are recorded in the [actor map](../Evidence/actors-and-landscape.md). Re-verify before outreach.
+The routes below use public organisational roles only. Re-verify current role-holders and submission conditions before outreach.
 
 | Route | Move | With whom |
 |---|---|---|
 | **A. Official summit process** | Offer the governance/evidence layer as additive to Switzerland's preparation | Amb. Markus Reubi (EDA); Amb. Thomas Schneider (BAKOM) |
 | **A'. Swiss AI Action Plan** | One-page contributor input only if the [go/no-go bar](swiss-action-plan-contribution.md) is met | digitalswitzerland Action-Plan team with BAKOM |
-| **A''. *Road to Geneva* pre-event** | Register (or co-host) an independent pre-event under the official programme — e.g. a governance/evidence roundtable or a tool demo | Own convening, or with a Swiss partner (a university, ICAIN, Wikimedia CH — Route D'); designated form pending as of 2026-08-06 |
+| **A''. *Road to Geneva* pre-event** | Use the designated form to register (or co-host) an independent pre-event — e.g. a governance/evidence roundtable or a tool demo | Own convening, or with a Swiss institutional partner; form live as of 2026-09-22 |
 | **B. Public-AI infrastructure node** | Position the Charter as governance/evidence layer for open public models and PublicAI-style access | Public AI / Metagov; publicai.ch / SPIU; Apertus leads; SNAI |
 | **C. Neutral pre-sprint** | Produce the blueprint and one evaluation outline through a neutral process | Expedition Zukunft; alternatives: GSPI, GESDA, IHEID Tech Hub |
 | **D. International Geneva** | Connect to multilateral and middle-power framing | ICT4Peace, Diplo/GIP, UNIDIR, ITU AI for Good, UN Scientific Panel, ICAIN |
-| **D'. Framing allies** | Validate "network, not fortress" and middle-power thesis | Chatham House / Public AI, Oxford Martin; Open Future / Wikimedia CH — a Wikimedia CH-commissioned Jul-2026 white paper proposes an early-mover Geneva role and a Wiki AI cluster but disclaims representing any single organisation's position; treat it as a framing proposal, not confirmed Wikimedia CH engagement (see [actor map](../Evidence/actors-and-landscape.md)) |
+| **D'. Framing allies** | Validate "network, not fortress" and middle-power thesis | Chatham House / Public AI, Oxford Martin; Open Future / Wikimedia CH — a Wikimedia CH-commissioned Jul-2026 white paper proposes an early-mover Geneva role and a Wiki AI cluster but disclaims representing any single organisation's position; treat it as a framing proposal, not confirmed Wikimedia CH engagement |
 | **E. Political flank** | Later carrier council member; possible 26.3221 funding route | Juillard, Z'graggen, Andrey, Christ, Michel |
 | **F. Funding** | Convening or pilot funding after coalition and deliverable | European AI & Society Fund, Open Society/co-funders, Patrick J. McGovern Foundation |
 
@@ -42,7 +42,7 @@ Roles are recorded in the [actor map](../Evidence/actors-and-landscape.md). Re-v
 4. **Use official channels — Route A/A'** only once there is a coalition and concrete deliverable.
 5. **Use E/F later** for political and funding support.
 
-**Near-term, low-gatekeeper:** subscribe to the official newsletter, prepare a one-page event concept with one bounded output, and identify a credible reviewer or possible co-host. Do not use the site's generic contact form as a substitute application. When the designated *Road to Geneva* form appears, decide whether to register or co-host (Route A'') — the route puts the governance/evidence contribution into the official process by registration, not invitation.
+**Near-term, low-gatekeeper:** prepare a one-page event concept with one bounded output, identify a credible reviewer or possible co-host, and use the designated *Road to Geneva* form only when the proposal is ready (Route A''). Registration makes an event part of the official pre-events programme after approval; it does not create a summit role, funding, or organisational support.
 
 If no selection materialises via the Swissnex/Mercator fellowship channel (application window closed 12 Jul 2026), use the lower-effort fallback in the [fellowship plan](geneva-2027-swissnex-fellowship.md): publish the brief/checklist/worked example independently, then attach it to a side-event module, consultation input, or adjacent Geneva convening. The goal stays the same: one reusable public artifact, not a claimed summit role.
 

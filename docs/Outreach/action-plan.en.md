@@ -4,7 +4,7 @@
 
 _German version: [action-plan.de.md](action-plan.de.md)._
 
-**Update 2026-07-28:** The articles are published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md); [The Swiss Autarky Illusion](../Published/swiss-autarky-illusion.md)); direct outreach is under way, and a first scoping conversation with a neutral convenor took place in July 2026. Fact-check external claims before use.
+**Update 2026-09-22:** The articles are published ([AI Sovereignty and Resilience](../Published/ai-sovereignty-and-resilience.md); [The Swiss Autarky Illusion](../Published/swiss-autarky-illusion.md)). A neutral-convenor route remains one possible next step. Fact-check external claims before use.
 
 **Role:** Catalyst and alliance-builder. Switzerland should act as credible host and hub, internationally oriented from the outset. No new institution is claimed.
 
@@ -14,8 +14,8 @@ _German version: [action-plan.de.md](action-plan.de.md)._
 
 The detailed 30/60/90-day sequence is recorded in the [Initiation Strategy](../Strategy/initiation-strategy.md) (the authoritative version). This short form is for outreach only: keep the ask small, avoid implying a mandate, and route detailed roadmap questions back to the strategy.
 
-- **0–30 days:** Finalise the Non-Paper; hold first orientation conversations with the proponents of an open Swiss model. The neutral-convenor scoping step (Expedition Zukunft, `info@expeditionzukunft.ch`) is **done** — a first scoping conversation took place in July 2026. Goal: three credible supporters and a stakeholder map. The published LinkedIn article is an existing public signal, but no substitute for direct conversations.
-- **31–60 days:** Use the completed first scoping conversation to decide whether and with whom to set up a neutrally moderated clarification process (pre-sprint) around a Geneva 2027 Public AI Governance & Evidence Package.
+- **0–30 days:** Finalise the Non-Paper; hold first orientation conversations with proponents of an open Swiss model; assess whether an organisational neutral-convenor route would add value. Goal: three credible supporters and a public-interest stakeholder picture. The published LinkedIn article is an existing public signal, but no substitute for direct conversations.
+- **31–60 days:** Decide whether and with whom to set up a neutrally moderated clarification process (pre-sprint) around a Geneva 2027 Public AI Governance & Evidence Package.
 - **61–90 days:** Connect to the AI Summit Geneva 2027 and to relevant federal channels; prepare a postulate only if a carrier group and concrete package exist.
 
 **Parallel track:** monitor the Confederation's AI-regulation work due by end-2026 (the separate Council of Europe AI-Convention implementing-law track, not the summit) and Geneva 2027 preparation. Seek a discreet reality check through existing warm contacts only; keep the initiative connectable to official processes.

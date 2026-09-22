@@ -179,7 +179,6 @@ nav:
       - "Policy-sprint presentation (EN)": Outreach/policy-sprint-presentation.en.md
   - Evidence:
       - Verified findings: Evidence/verified-findings.md
-      - Actors & landscape: Evidence/actors-and-landscape.md
       - Linked sources: Evidence/linked-sources.md
       - "Geneva 2027 — channel demand": Evidence/geneva-2027-channel-demand.md
   - Draft notes:
@@ -187,7 +186,6 @@ nav:
       - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
       - "Apertus — fit & engagement plan": wip/apertus-fit-and-engagement-plan.md
       - "Metagov & Public AI — assurance landscape": wip/metagov-public-ai-landscape.md
-      - "Public AI — stakeholder & connection map": wip/public-ai-people-and-pathways.md
       - "Public AI — what they build": wip/public-ai-what-they-build.md
       - "Public AI — gaps table (forwardable)": wip/public-ai-gaps-table.md
       - "Geneva 2027 — assurance questions note": wip/geneva-2027-assurance-questions-note.md

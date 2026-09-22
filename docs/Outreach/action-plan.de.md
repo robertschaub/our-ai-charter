@@ -4,7 +4,7 @@
 
 _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
-**Update 2026-07-28:** Die Artikel sind publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md); [Die Schweizer Autarkie-Illusion](../Published/schweizer-autarkie-illusion.md)); die direkte Kontaktaufnahme läuft, und ein erstes Sondierungsgespräch mit einem neutralen Convenor hat im Juli 2026 stattgefunden. Externe Aussagen vor Verwendung prüfen.
+**Update 2026-09-22:** Die Artikel sind publiziert ([KI-Souveränität und Resilienz](../Published/ki-souveraenitaet-und-resilienz.md); [Die Schweizer Autarkie-Illusion](../Published/schweizer-autarkie-illusion.md)). Ein neutraler Convenor bleibt eine mögliche nächste Route. Externe Aussagen vor Verwendung prüfen.
 
 **Aufhänger (CH):** „Internationales, vertrauenswürdiges öffentliches KI-Netzwerk – die Schweiz als Wegbereiterin." — Einstiegssatz für Schweizer Kontakte. Im **aktuellen Auftritt** „Wegbereiterin / Gastgeberin / Brückenbauerin" wählen: eine aktive, sichtbare Rolle, **ohne heute ein Mandat oder Eigentümerschaft zu suggerieren**. Die koordinierende Rolle ist eine mögliche Folge dieses Vertrauensaufbaus, kein Anspruch auf ein Koordinationsmandat heute (siehe Leitplanken).
 
@@ -16,8 +16,8 @@ _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
 Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](../Strategy/initiation-strategy.md) festgehalten (massgebliche Fassung). Diese Kurzfassung dient nur der Ansprache: Die Bitte klein halten, kein Mandat suggerieren, Detailfragen zur Roadmap auf die Strategie zurückführen.
 
-- **0–30 Tage:** Non-Paper finalisieren; erste Orientierungsgespräche mit den Befürwortern eines offenen Schweizer Modells. Der Scoping-Schritt mit einem neutralen Konvener (Expedition Zukunft, `info@expeditionzukunft.ch`) ist **erledigt** — ein erstes Sondierungsgespräch fand im Juli 2026 statt. Ziel: drei glaubwürdige Unterstützer:innen und eine Stakeholder-Map. Der publizierte LinkedIn-Artikel ist ein vorhandenes öffentliches Signal, aber kein Ersatz für direkte Gespräche.
-- **31–60 Tage:** Das abgeschlossene erste Sondierungsgespräch auswerten und entscheiden, ob und mit wem ein neutral moderierter Klärungsprozess (Pre-Sprint) rund um ein Geneva 2027 Public AI Governance & Evidence Package aufgesetzt wird.
+- **0–30 Tage:** Non-Paper finalisieren; erste Orientierungsgespräche mit Befürwortern eines offenen Schweizer Modells führen; prüfen, ob ein neutraler Convenor auf Organisationsebene Mehrwert schafft. Ziel: drei glaubwürdige Unterstützer:innen und ein öffentlich vertretbares Stakeholder-Bild. Der publizierte LinkedIn-Artikel ist ein vorhandenes öffentliches Signal, aber kein Ersatz für direkte Gespräche.
+- **31–60 Tage:** Entscheiden, ob und mit wem ein neutral moderierter Klärungsprozess (Pre-Sprint) rund um ein Geneva 2027 Public AI Governance & Evidence Package aufgesetzt wird.
 - **61–90 Tage:** An den KI-Gipfel Genf 2027 und relevante Bundeskanäle andocken; ein Postulat nur vorbereiten, wenn es eine Trägergruppe und ein konkretes Paket gibt.
 
 **Paralleler Handlungsstrang:** Die KI-Regulierungsarbeiten des Bundes bis Ende 2026 (der separate Strang zur Umsetzung der KI-Konvention des Europarats, nicht der Gipfel) und die Vorbereitung des KI-Gipfels Genf 2027 beobachten. Einen diskreten Realitätsabgleich nur über bestehende warme Kontakte suchen; das Vorhaben anschlussfähig an offizielle Prozesse halten.

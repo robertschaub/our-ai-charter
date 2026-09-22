@@ -36,9 +36,9 @@ Success would mean reproducible findings and usable evidence, **not** a claim th
 
 ## Funding is a vehicle, not the premise
 
-The [Swiss AI Initiative](https://www.swiss-ai.org/compute-grants) holds large-project calls twice yearly for requests above **500,000 GPU hours** and accepts small-project applications up to **32,000 GPU hours** continuously. The current fourth call names AI and democratic processes; its Declaration of Intent is due **24 August 2026 at 17:00 CEST**, and the full proposal **14 September 2026 at 17:00 CEST**.
+The [Swiss AI Initiative](https://www.swiss-ai.org/compute-grants) holds large-project calls twice yearly for requests above **500,000 GPU hours** and accepts small-project applications up to **32,000 GPU hours** continuously. The fourth large-project call closed on **14 September 2026**; it is now historical context, not an available route.
 
-This note establishes neither a >500,000-hour compute case nor Call-4 readiness. A future large call—or the smaller rolling route—should be considered only after the academic team identifies a justified compute need. The grants provide compute, not partner funding; under the Large Projects rules, an NGO partner may neither request nor access the resources. Substantial FactHarbor work would therefore require a separate, proportionate scope and resourcing agreement.
+This note establishes neither a >500,000-hour compute case nor readiness for a future call. A future large call—or the smaller rolling route—should be considered only after the academic team identifies a justified compute need. The grants provide compute, not partner funding; under the Large Projects rules, an NGO partner may neither request nor access the resources. Substantial FactHarbor work would therefore require a separate, proportionate scope and resourcing agreement.
 
 ## Decision to explore
 

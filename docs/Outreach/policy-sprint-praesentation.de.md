@@ -93,4 +93,4 @@ Der Anspruch ist **Prozess und Koalition, nicht Deutungshoheit** — kein Anspru
 
 ---
 
-*Öffentliche Quellen und Vertiefung: [1-Pager](policy-sprint-1pager.de.md) · [Non-Paper](non-paper.de.md) · [Aktionsplan](action-plan.de.md) · [Verified Findings](../Evidence/verified-findings.md) · [Actors & landscape](../Evidence/actors-and-landscape.md).*
+*Öffentliche Quellen und Vertiefung: [1-Pager](policy-sprint-1pager.de.md) · [Non-Paper](non-paper.de.md) · [Aktionsplan](action-plan.de.md) · [Verified Findings](../Evidence/verified-findings.md) · [Linked sources](../Evidence/linked-sources.md).*

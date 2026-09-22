@@ -14,7 +14,7 @@ A go/no-go layer for filing a public-interest contribution into the Swiss AI Act
 **File only if all three hold:**
 
 1. **At least one substantive Swiss signal** — a real orientation call agreed or held with a credible Swiss actor (e.g. an EPFL/ETH AI-centre figure, the digitalswitzerland AI-Action-Plan team, or a neutral policy convenor), **or** an explicit "yes, bring this in" from someone inside the Action-Plan process. A like or a polite "interesting" does not count.
-2. **At least one relevant international acknowledgment** — a substantive reply from a public-AI or evaluation peer/body (see the [actor & landscape map](../Evidence/actors-and-landscape.md)) that *engages the framing* — a pointer, an introduction, or real critique. An auto-reply or bare "thanks" does not count.
+2. **At least one relevant international acknowledgment** — a substantive reply from a public-AI or evaluation peer/body that *engages the framing* — a pointer, an introduction, or real critique. An auto-reply or bare "thanks" does not count.
 3. **The one-pager has passed the overclaim audit** (below).
 
 **Hold / no-go — pause and rethink — if any:**

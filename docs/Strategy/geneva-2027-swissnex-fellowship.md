@@ -1,23 +1,23 @@
 # Geneva 2027 — Swissnex/Mercator "Geneva Loading" fellowship (channel assessment)
 
-Discussion note (2026-06-25; channel state updated 2026-07-28). A time-boxed route into the **Geneva AI Summit 2027** ran in summer 2026: the Swissnex San Francisco × Stiftung Mercator Schweiz **"Geneva Loading…"** preparatory fellowship. **Its application window closed 12 Jul 2026** (selection was slated for mid-August 2026). This note records the channel, fit, and fallback as a Geneva-2027 route; the artifact-first logic below is channel-neutral and outlives the window. Re-verify programme state before citing.
+Discussion note (2026-06-25; channel state updated 2026-09-22). A time-boxed route into the **Geneva AI Summit 2027** ran in summer 2026: the Swissnex San Francisco × Stiftung Mercator Schweiz **"Geneva Loading…"** preparatory fellowship. **Its application window closed 12 Jul 2026 and Swissnex has published the selected twelve-person cohort.** This note records the closed channel and the channel-neutral artifact logic that outlives it.
 
-Companions: [routes map](geneva-2027-options.md), [initiation strategy](initiation-strategy.md), [verified findings](../Evidence/verified-findings.md), and [actor map](../Evidence/actors-and-landscape.md).
+Companions: [routes map](geneva-2027-options.md), [initiation strategy](initiation-strategy.md), [verified findings](../Evidence/verified-findings.md), and [linked sources](../Evidence/linked-sources.md).
 
-## The channel (application window closed 12 Jul 2026)
+## The channel (closed; cohort selected)
 
 | | |
 |---|---|
 | **Run by** | Swissnex in San Francisco + Stiftung Mercator Schweiz |
 | **Who** | Swiss-based academics, researchers, civil-society leaders, AI practitioners, and journalists shaping Swiss AI discourse or policy; fluent English |
 | **Output** | Public policy brief, white paper, article, or similar |
-| **Calendar** | Prep day in Switzerland (Sept 2026) → Silicon Valley immersion **16–20 Nov 2026** → official summit side-event slot in Geneva, **Q2 2027** |
+| **Calendar** | Prep day in Zurich **30 Sep 2026** → Silicon Valley immersion **16–20 Nov 2026** → summit side event in Geneva, **21–22 Jun 2027** |
 | **Support** | CHF 2,000 travel subsidy; access to Silicon Valley labs/companies |
-| **Application window** | Closed **12 Jul 2026**; selection was slated for mid-August 2026 |
+| **Application window** | Closed **12 Jul 2026**; selected twelve-person cohort now published |
 | **Contact** | Maulde Cuérel, AI & Tech Foresight Program Manager (Swissnex SF) |
 | **Entry format (as run)** | Four free-text answers (~1,050 words total) via a form; no attachments, so any output had to be reachable from a public link |
 
-Sources: [Swissnex SF](https://swissnex.org/sanfrancisco/news/geneva-loading-preparing-for-the-ai-summit-2027/) · [Digital Watch](https://dig.watch/processes/2027-geneva-ai-summit).
+Sources: [Swissnex SF — current programme and cohort](https://swissnex.org/sanfrancisco/news/preparing-for-the-ai-summit-2027/) · [Digital Watch](https://dig.watch/processes/2027-geneva-ai-summit).
 
 ## Why it fits
 
@@ -41,11 +41,11 @@ Main risks: the channel may not be available or taken up, real time cost, and op
 
 **Build one artifact and make it useful regardless of any single channel:** the **Geneva 2027 Public AI Governance & Evidence Package**, about two pages.
 
-- **Programme calendar:** SF immersion **16–20 Nov 2026**, a Sept prep day (TBD), and an H1-2027 Geneva side-event. The fallback below applies if this channel is not used.
+- **Programme calendar:** prep day **30 Sep 2026**, SF immersion **16–20 Nov 2026**, and a Geneva side event **21–22 Jun 2027**. The selected cohort is public; this is no longer an available application route.
 - **The package outlives the window:** the keystone memo remains the "specific output" core for any successor call or adjacent channel; published work must stay reachable from a public link.
 - **In parallel:** one substance conversation — an Apertus/SNAI governance question or neutral-convenor scoping.
-- **Mid-August branch:** if a selection materialises via this (now-closed) channel, the fellowship becomes the spine (SF input sharpens the memo; side event + cohort amplify); if not, the memo and first conversation route to the official consultation window, pre-sprint, and a possible parliamentary flank.
-- **When the summit's next input window opens:** the *Road to Geneva* pre-event registration launches in **August 2026** per OFCOM (form-plus-approval, no stated deadline; a "Call for Issues" follows in autumn 2026, side-event proposals in early 2027 — monitor genevaaisummit.swiss / dig.watch): submit the memo if the content remains current. *(The end-2026 federal milestone often cited is the separate Council of Europe AI Convention implementing-law consultation, not the summit.)*
+- **Closed-channel branch:** because the cohort has been selected, any independent package should use another channel rather than implying pending fellowship status.
+- **Current official on-ramp:** the [*Road to Geneva* pre-event page and form](https://www.genevaaisummit.swiss/pre-events/) are live (form-plus-approval, no stated deadline; a "Call for Issues" is announced for autumn 2026 and side-event proposals for early 2027). Use the route only if the content remains current. *(The end-2026 federal milestone often cited is the separate Council of Europe AI Convention implementing-law consultation, not the summit.)*
 
 **Fallback without the SF week:** keep the effort bounded around one public artifact and attach it to whichever Geneva 2027 channel opens first. The low-effort ladder is:
 

@@ -2,6 +2,15 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-09-22
+
+- **Public disclosure and freshness cleanup prepared** — Removed unsupported public assertions about a July scoping conversation; retired the mixed actor directory and person-level relationship map from active public navigation while preserving honest tombstones and Git history; moved their complete working copies to the private Charter repository. The public privacy draft now keeps association approval work in private administration while retaining the registered service address by maintainer decision.
+- **Mutable routes refreshed** — Updated the live *Road to Geneva* pre-event route, the closed Swissnex cohort channel, and expired Prototype Fund, Swiss AI Call 4, and European AI & Society Fund opportunities from official sources. Regenerated the RAISD research-fit PDF without upcoming-deadline language, aligned the homepage and roadmap with the current EGA focus, and marked Public AI technical/legal research as a dated July 2026 snapshot with repaired source links.
+
+## 2026-09-21
+
+- **Stewardship and copyright clarified** — The [About page](docs/About.md#stewardship-and-governance) distinguishes association stewardship from copyright ownership and links the existing attribution and licence terms.
+
 ## 2026-09-19
 
 - **Evidence-Gated Agents routing decision adopted** — View 2 of the [project overview](docs/Assurance/Concepts/evidence-gated-agents.md#selected-prototype-dynamic-decision-examination) now routes only responses containing a consequential decision or an instruction to act into the gate. Ordinary answers bypass it with a six-field, content-free routing record rather than a receipt; an evidence-based trigger judgment remains a later extension. The integration and its trigger fixtures remain unimplemented.
