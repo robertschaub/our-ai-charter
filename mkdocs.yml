@@ -22,7 +22,7 @@ copyright: >
   Original documentary content © Robert Schaub and contributors, licensed CC BY 4.0. Repository-support software is MIT licensed. The initiative's name and any trust mark are reserved.
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css?v=20260922-2
 
 theme:
   name: material
