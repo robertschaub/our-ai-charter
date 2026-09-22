@@ -1,10 +1,6 @@
-> **Status: PUBLISHED 2026-09-12** — Die Korrektur zur Vertragswirkung wurde am 14.09.2026 erneut veröffentlicht und geprüft.
+**PUBLISHED 2026-09-12 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504528739402301440/)**
 
-[LinkedIn-Artikel](https://www.linkedin.com/pulse/die-schweizer-f-35a-fixpreisfalle-w%C3%BCrde-ki-heute-robert-schaub-pzpee/) · [Begleitpost](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504528739402301440/)
-
-[Englische Fassung](f35-fixed-price-evidence.md)
-
-## Begleitpost für LinkedIn
+---
 
 ### Die Schweizer F-35A-Fixpreisfalle – Würde KI heute hineintappen?
 
@@ -37,11 +33,13 @@ Am 8. September 2026 kam die Geschäftsprüfungskommission des Nationalrates zum
 
 ---
 
+![Eine F-35A über einer Vertragsseite mit Lupe. Die Überschrift lautet: «Fixpreis? Was sagen die Belege?»](f35-fixed-price-evidence-cover.de.jpg)
+
+---
+
 # Die Schweizer F-35A-Fixpreisfalle – Würde KI heute hineintappen?
 
 *Was die Schweizer F-35A-Beschaffung darüber zeigt, welche KI-Antworten wir freigeben sollten.*
-
-![Eine F-35A über einer Vertragsseite mit Lupe. Die Überschrift lautet: «Fixpreis? Was sagen die Belege?»](f35-fixed-price-evidence-cover.de.jpg)
 
 *Der Streit betrifft das Zusammenspiel von Fixpreisklausel und Standardbedingungen – und damit das Kostenrisiko der Schweiz.*
 

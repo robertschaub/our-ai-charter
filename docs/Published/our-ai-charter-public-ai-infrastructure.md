@@ -1,5 +1,4 @@
-> **Status: PUBLISHED 2026-07-28** — mirror of the LinkedIn article *Our AI Charter: From Open Models to Accountable Public AI Infrastructure*, published 28 July 2026. This repository copy was revised 29 July 2026 to add the runtime decision path and 30 July 2026 to clarify its user-facing step labels. The accompanying feed post (above) and cover are mirrored here.
-> Canonical article: [https://www.linkedin.com/pulse/our-ai-charter-from-open-models-accountable-public-robert-schaub-qafie/](https://www.linkedin.com/pulse/our-ai-charter-from-open-models-accountable-public-robert-schaub-qafie/)
+**PUBLISHED 2026-07-28 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7487951694866345984-FPSP)**
 
 ---
 
@@ -20,11 +19,11 @@ Project: https://robertschaub.github.io/our-ai-charter/
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 
-_[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7487951694866345984-FPSP)._
-
 ---
 
 ![Our AI Charter — four pillars of a federated public AI network, with lifecycle governance and separated human roles](our-ai-charter-public-ai-infrastructure.png)
+
+---
 
 # Our AI Charter: From Open Models to Accountable Public AI Infrastructure
 

@@ -1,7 +1,4 @@
-> **Status: PUBLISHED 2026-08-06** — mirror of the LinkedIn article *The Public AI We Need: Sovereign, Inspectable and Accountable*, published 6 August 2026. It brings the essential argument of the ten earlier Our AI Charter articles into one place and closes with a grouped reading index linking each of them. The accompanying feed post (above the article) and the cover are mirrored here. Sources were checked before publication; the three LinkedIn post URLs in the reading index were fetched and confirmed on 2026-08-06.
-> Canonical article: [https://www.linkedin.com/pulse/public-ai-we-need-sovereign-inspectable-accountable-robert-schaub-vskve](https://www.linkedin.com/pulse/public-ai-we-need-sovereign-inspectable-accountable-robert-schaub-vskve)
-
-## Accompanying feed post
+**PUBLISHED 2026-08-06 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_publicai-digitalsovereignty-aiaccountability-ugcPost-7491102398682279936-Fhjz)**
 
 ---
 
@@ -31,11 +28,11 @@ The earlier articles that discuss different aspects in detail are listed at the 
 
 `#PublicAI #DigitalSovereignty #AIAccountability`
 
-_[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_publicai-digitalsovereignty-aiaccountability-ugcPost-7491102398682279936-Fhjz)._
-
 ---
 
 ![The Public AI We Need: choose providers, trace the evidence, and challenge the decision](the-public-ai-we-need.png)
+
+---
 
 # The Public AI We Need: Sovereign, Inspectable and Accountable
 

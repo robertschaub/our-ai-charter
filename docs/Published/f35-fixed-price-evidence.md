@@ -1,10 +1,6 @@
-> **Status: PUBLISHED 2026-09-12** — The contract-effect correction was republished and verified on 2026-09-14.
+**PUBLISHED 2026-09-12 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504514082520252416/)**
 
-[LinkedIn article](https://www.linkedin.com/pulse/swiss-f-35a-fixed-price-trap-would-ai-fall-today-robert-schaub-huoye/) · [Accompanying post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504514082520252416/)
-
-[German version](f35-fixed-price-evidence.de.md)
-
-## Accompanying feed post
+---
 
 ### The Swiss F-35A fixed-price trap - Would AI fall into it today?
 
@@ -37,11 +33,13 @@ On 8 September 2026, the National Council’s oversight committee concluded that
 
 ---
 
+![An F-35A above a contract page and magnifying glass, with the words “Fixed price? Show me the evidence.”](f35-fixed-price-evidence-cover.jpg)
+
+---
+
 # The Swiss F-35A fixed-price trap - Would AI fall into it today?
 
 *What Switzerland’s F-35A purchase can teach us about the answers we allow AI to give.*
-
-![An F-35A above a contract page and magnifying glass, with the words “Fixed price? Show me the evidence.”](f35-fixed-price-evidence-cover.jpg)
 
 *The dispute concerns how the fixed-price clause and standard terms interact, and what that means for Switzerland’s cost exposure.*
 

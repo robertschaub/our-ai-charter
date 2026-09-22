@@ -1,5 +1,4 @@
-> **Status: PUBLISHED 2026-07-23** — mirror of the LinkedIn article *Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?*, published 23 July 2026. The accompanying feed post (above) is mirrored here; eight public comments (below) are documented; source-checked through 2026-07-27. A marked repository note (2026-08-08) defining *runtime governance* was added to this copy; the live article does not carry it.
-> Canonical article: [https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
+**PUBLISHED 2026-07-23 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_runtime-ai-governance-gets-when-right-the-activity-7485969016478478336-K0gt/)**
 
 ---
 
@@ -27,6 +26,8 @@ But a technical gate is only as trustworthy as the institutions around it. Where
 ---
 
 ![A public runtime gate surrounded by five separated roles: rulemaker, operator, record keeper, independent reviewer, and remedy decider, with sealed evidence held outside the gate](when-vs-who-ai-governance.png)
+
+---
 
 # Runtime AI Governance Gets *When* Right. The Harder Question Is *Who Gets to Check?*
 

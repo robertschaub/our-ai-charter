@@ -1,7 +1,6 @@
-> **Status: PUBLISHED 2026-07-31** — mirror of the LinkedIn article *AI and Empathy: Dialogue, Correction and Human Answerability*, published 31 July 2026. The accompanying feed post and cover are mirrored here; sources were checked before publication.
-> Canonical article: [https://www.linkedin.com/pulse/ai-empathy-dialogue-correction-human-answerability-robert-schaub-highe/](https://www.linkedin.com/pulse/ai-empathy-dialogue-correction-human-answerability-robert-schaub-highe/) · Feed post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7488909411894149120/](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488909411894149120/)
+**PUBLISHED 2026-07-31 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488909411894149120/)**
 
-## Accompanying feed post
+---
 
 𝗔𝗜 𝗠𝘂𝘀𝘁 𝗟𝗲𝗮𝗿𝗻 𝗘𝗺𝗽𝗮𝘁𝗵𝘆!
 
@@ -46,6 +45,8 @@ Builder companion: [*How We Can Build AI That Acts with Empathy*](https://www.li
 ---
 
 ![AI and Empathy: an affected person corrects an attentive decision-maker's proposed path in close dialogue, while AI keeps the person's words distinct from interpretation and connects consequences to independent review and remedy.](empathy-is-a-practice.png)
+
+---
 
 # AI and Empathy: Dialogue, Correction and Human Answerability
 

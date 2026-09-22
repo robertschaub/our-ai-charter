@@ -1,15 +1,14 @@
-> **Status: PUBLISHED 2026-06-20** — verbatim mirror of the LinkedIn article published 20 June 2026.
-> Canonical article: [https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze)
+**PUBLISHED 2026-06-20 to LinkedIn [Post](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)**
 
 ---
 
 Ein offenes Schweizer KI-Modell ist ein starker Impuls. Doch wie sichern wir unsere digitale Souveränität und Resilienz langfristig? Die Schweiz als internationale Brückenbauerin für eine freiheitliche und unabhängige KI-Infrastruktur. Die Bausteine stehen bereit. Zum Artikel ↓
 
-_[Original-Feed-Post auf LinkedIn](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)._
-
 ---
 
 ![KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.png)
+
+---
 
 # KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken
 

@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-22
 
+- **Published article openings simplified** — Standardized all 15 article pages to show only the LinkedIn publication line, post content, picture and article content in that order, separated by horizontal rules. Removed redundant status narratives, section labels and repeated post-link captions while preserving the publication/translation distinction and substantive article and discussion content; aligned the README and contributor guidance with the lean format.
+
 - **Public working tree organized by durable subject** — Removed the active `docs/Strategy/` and `docs/wip/` sections without renaming `docs/Published/`. Promoted current public evidence, concepts, background and outreach drafts into their subject folders; moved the runtime implementation specifications beside the public runtime code; and removed operational strategy, dated snapshots, handoffs and retirement stubs from the active public tree. Git history remains the public version record. As an accepted consequence, the two former `docs/wip/` empathy redirect URLs no longer resolve; their current articles remain under `docs/Published/`.
 
 - **Repository licensing scoped by content type** — Retained CC BY 4.0 for original documentary content, canonicalized its legal text and restored a root copy for GitHub detection; assigned MIT to repository-support software and machine configuration; reserved the initiative name and trust marks; added SPDX headers; removed an empty `package-lock.json` stub that pinned no dependencies, together with its map entry; and made mixed-file, production-record, machine-generated-media, contribution and third-party-material terms explicit.

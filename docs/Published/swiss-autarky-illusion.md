@@ -1,5 +1,4 @@
-> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the English LinkedIn article *The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone*, published 24 July 2026 as the English edition of [the German original](schweizer-autarkie-illusion.md). The accompanying feed post (above the article) is mirrored in plain text; all figures were source-checked through 2026-07-24. The feed post's public comment exchange and two related public comments — on ICT4Peace's NCS input and on a sovereignty-versus-autarky post — are documented below through 2026-08-04.
-> Canonical article: [https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc](https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc)
+**PUBLISHED 2026-07-24 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_digitalsovereignty-publicai-aigovernance-ugcPost-7486430520470360065-TDNr)**
 
 ---
 
@@ -19,11 +18,11 @@ The better answer combines domestic capabilities with shared infrastructure, ope
 
 `#DigitalSovereignty #PublicAI #AIGovernance #Apertus #TrustworthyAI #Switzerland`
 
-_[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_digitalsovereignty-publicai-aigovernance-ugcPost-7486430520470360065-TDNr)._
-
 ---
 
 ![Autarky is not sovereignty: an isolated Swiss system contrasted with a resilient network.](swiss-autarky-illusion.png)
+
+---
 
 # The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone
 

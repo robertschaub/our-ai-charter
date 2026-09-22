@@ -1,7 +1,6 @@
-> **Status: PUBLISHED 2026-07-31** — mirror of the LinkedIn article *How We Can Build AI That Acts with Empathy*, published 31 July 2026. The accompanying feed post and cover are mirrored here; sources were checked before publication.
-> Canonical article: [https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/](https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/) · Feed post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7488907212669743104/](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488907212669743104/)
+**PUBLISHED 2026-07-31 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488907212669743104/)**
 
-## Accompanying feed post
+---
 
 𝗛𝗼𝘄 𝗖𝗮𝗻 𝗪𝗲 𝗕𝘂𝗶𝗹𝗱 𝗔𝗜 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘀 𝘄𝗶𝘁𝗵 𝗘𝗺𝗽𝗮𝘁𝗵𝘆?
 
@@ -39,6 +38,8 @@ Full article below ↓
 ---
 
 ![AI builders train for perspective-taking, tune for truthfulness and agency, adapt only with consent, and improve through governed, testable releases while keeping said, inferred, confirmed and permitted memory separate.](how-to-build-ai-that-acts-with-empathy.png)
+
+---
 
 # How We Can Build AI That Acts with Empathy
 

@@ -1,7 +1,6 @@
-> **Status: PUBLISHED 2026-07-30** — mirror of the LinkedIn article *When Should Runtime AI Governance Interrupt?*, published 30 July 2026. The accompanying feed post, cover, and related public discussion are mirrored here. A marked repository note (2026-08-08) defining *runtime governance* was added to this copy; the live article does not carry it.
-> Canonical article: [https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc](https://www.linkedin.com/pulse/when-should-runtime-ai-governance-interrupt-robert-schaub-mc2sc)
+**PUBLISHED 2026-07-30 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_ai-trustworthyai-aigovernance-activity-7488606064989360129-JukJ)**
 
-## Accompanying feed post
+---
 
 𝗪𝗵𝗲𝗻 𝗦𝗵𝗼𝘂𝗹𝗱 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 𝗔𝗜 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗜𝗻𝘁𝗲𝗿𝗿𝘂𝗽𝘁?
 
@@ -36,11 +35,11 @@ Full article below ↓
 
 #AI #TrustworthyAI #AIGovernance #AgenticAI #PublicAI #AIAccountability
 
-_[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_ai-trustworthyai-aigovernance-activity-7488606064989360129-JukJ)._
-
 ---
 
 ![Two connected AI-governance clocks explicitly labeled System Lifecycle and Action Path: the outer lifecycle runs Design, Deploy, Operate, Incident, and Remedy; the inner path visually separates each navy activity from its orange-capsule gate—Plan/Authorize, Prepare/Submit, Check/Verify, Decide/Commit, and Review/Rely—with machine-enforced entry and commitment gates outside the acting model, a loop from Verify back to Entry for new inputs, a human branch only on escalation, and a sealed action record feeding review and remedy](when-should-runtime-ai-governance-interrupt.png)
+
+---
 
 # When Should Runtime AI Governance Interrupt?
 

@@ -1,5 +1,4 @@
-> **Status: PUBLISHED 2026-06-22** — verbatim mirror of the LinkedIn article published 22 June 2026 (project links embedded as published).
-> Canonical article: [https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne)
+**PUBLISHED 2026-06-22 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7474731926705283072-O1zl)**
 
 ---
 
@@ -30,11 +29,11 @@ Add or tag them in the comments (I've listed a few to start), and let's connect 
 
 `#PublicAI #AIGovernance #DigitalSovereignty #OpenModels #TrustworthyAI`
 
-_[Original feed post on LinkedIn](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7474731926705283072-O1zl) — opening line verified against this mirror, 2026-08-06._
-
 ---
 
 ![The Public AI Network](the-public-ai-network.png)
+
+---
 
 # The Public AI Network: Building Sovereignty and Resilience for Free Societies
 

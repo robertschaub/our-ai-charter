@@ -1,5 +1,4 @@
-> **Status: PUBLISHED 2026-07-24** — verbatim mirror of the LinkedIn article *Die Schweizer Autarkie-Illusion: Warum digitale Souveränität nicht im Alleingang entsteht*, published 24 July 2026. The accompanying feed post (above the article) is mirrored in plain text; all figures source-checked through 2026-07-24.
-> Canonical article: [https://www.linkedin.com/pulse/die-schweizer-autarkieillusion-warum-digitale-nicht-im-robert-schaub-1267e](https://www.linkedin.com/pulse/die-schweizer-autarkieillusion-warum-digitale-nicht-im-robert-schaub-1267e)
+**PUBLISHED 2026-07-24 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:activity:7486373846992986112/)**
 
 ---
 
@@ -19,11 +18,11 @@ Die bessere Antwort verbindet eigene Fähigkeiten mit gemeinsamer Infrastruktur,
 
 `#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz`
 
-_[Original-Feed-Post auf LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7486373846992986112/)._
-
 ---
 
 ![Autarkie ist nicht Souveränität: Ein isoliertes Schweizer System steht einem resilienten Verbund gegenüber.](schweizer-autarkie-illusion.png)
+
+---
 
 # Die Schweizer Autarkie-Illusion: Warum digitale Souveränität nicht im Alleingang entsteht
 

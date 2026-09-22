@@ -1,9 +1,6 @@
-> **Status: PUBLISHED 2026-07-19** — repository source for the LinkedIn post and article *A Practical Test for Power*, published 19 July 2026. The live article was partly updated 20 July 2026; this refined source does not match every live passage verbatim.
-> Canonical article: [https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we) · Feed post: [https://www.linkedin.com/feed/update/urn:li:ugcPost:7484672865079058433/](https://www.linkedin.com/feed/update/urn:li:ugcPost:7484672865079058433/)
+**PUBLISHED 2026-07-19 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7484672865079058433/)**
 
 ---
-
-<!-- POST COPY -->
 
 **A Practical Test for Power**
 
@@ -21,11 +18,11 @@ The same test applies to AI governance: who is responsible, who bears the cost, 
 
 *Full article below ↓*
 
+---
+
 ![A balanced scale links people affected by workplace, family, school, institutional, movement and wartime power with five safeguards: equal dignity, freedom of conscience, due process, civilian protection and accountability.](a-practical-test-for-power.png)
 
 ---
-
-<!-- ARTICLE -->
 
 # A practical test for power
 
