@@ -1,7 +1,5 @@
 **PUBLISHED 2026-08-06 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_publicai-digitalsovereignty-aiaccountability-ugcPost-7491102398682279936-Fhjz)**
-
----
-
+***
 𝗧𝗵𝗲 𝗣𝘂𝗯𝗹𝗶𝗰 𝗔𝗜 𝗪𝗲 𝗡𝗲𝗲𝗱: 𝗦𝗼𝘃𝗲𝗿𝗲𝗶𝗴𝗻, 𝗜𝗻𝘀𝗽𝗲𝗰𝘁𝗮𝗯𝗹𝗲 𝗮𝗻𝗱 𝗔𝗰𝗰𝗼𝘂𝗻𝘁𝗮𝗯𝗹𝗲
 
 A public agency can assess grant applications with an open model, on approved infrastructure, under domestic control — and the applicant who is refused still cannot see which evidence decided the case.
@@ -26,14 +24,10 @@ Full article below ↓
 
 The earlier articles that discuss different aspects in detail are listed at the end.
 
-`#PublicAI #DigitalSovereignty #AIAccountability`
-
----
-
+\#PublicAI #DigitalSovereignty #AIAccountability
+***
 ![The Public AI We Need: choose providers, trace the evidence, and challenge the decision](the-public-ai-we-need.png)
-
----
-
+***
 # The Public AI We Need: Sovereign, Inspectable and Accountable
 
 *The essential argument of Our AI Charter—from sovereignty and public infrastructure to runtime governance, empathy, and remedy.*
@@ -196,7 +190,6 @@ The Charter is public because its claims should be contestable from the beginnin
 
 **Built by many. Accountable to all.**
 
----
 ## Earlier articles and posts
 
 The earlier articles behind this synthesis, grouped by the part of the argument they develop:

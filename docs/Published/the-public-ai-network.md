@@ -1,7 +1,5 @@
 **PUBLISHED 2026-06-22 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7474731926705283072-O1zl)**
-
----
-
+***
 _Open, publicly-funded AI models now exist across many regions — but real sovereignty and resilience come from what free societies build around them: shared standards, genuine accountability, and public compute, developed in the open._
 
 AI is becoming infrastructure — and the real question isn't which model wins this quarter, but whether free societies can inspect, shape, and contest the systems they rely on. That is democratic resilience.
@@ -27,14 +25,10 @@ _So I'd like to open a conversation — and help connect the people and projects
 
 Add or tag them in the comments (I've listed a few to start), and let's connect the dots. 👇
 
-`#PublicAI #AIGovernance #DigitalSovereignty #OpenModels #TrustworthyAI`
-
----
-
+\#PublicAI #AIGovernance #DigitalSovereignty #OpenModels #TrustworthyAI
+***
 ![The Public AI Network](the-public-ai-network.png)
-
----
-
+***
 # The Public AI Network: Building Sovereignty and Resilience for Free Societies
 
 _Open, publicly-funded AI models now exist across many regions — but real sovereignty and resilience come from what free societies build around them: shared standards, genuine accountability, and public compute, developed in the open._
@@ -89,6 +83,5 @@ _Compute & coordination:_ [Public AI Inference Utility](https://publicai.co/), [
 
 _Working paper, updated 22 June 2026. Work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter)._
 
----
 
 _Sources: [Linked sources & charter relevance](../Evidence/linked-sources.md). Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) ([English translation](ai-sovereignty-and-resilience.md)) — the sovereignty thread; [Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.md) — the accountability thread._

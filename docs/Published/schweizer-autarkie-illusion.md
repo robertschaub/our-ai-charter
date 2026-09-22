@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-24 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:activity:7486373846992986112/)**
-
----
-
+***
 **Die Schweizer Autarkie-Illusion: Warum digitale Souveränität nicht im Alleingang entsteht**
 
 *Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht — was die Schweizer Geschichte dazu lehrt, und woran sich jede Souveränitätspolitik messen lassen muss.*
@@ -16,14 +14,10 @@ Die bessere Antwort verbindet eigene Fähigkeiten mit gemeinsamer Infrastruktur,
 
 **Warum das zur Schweizer Neutralität passt — im Artikel. ↓**
 
-`#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz`
-
----
-
+\#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz
+***
 ![Autarkie ist nicht Souveränität: Ein isoliertes Schweizer System steht einem resilienten Verbund gegenüber.](schweizer-autarkie-illusion.png)
-
----
-
+***
 # Die Schweizer Autarkie-Illusion: Warum digitale Souveränität nicht im Alleingang entsteht
 
 *Der Ruf nach digitaler Unabhängigkeit ist berechtigt. Die Antwort «alles selber machen» ist es nicht — was die Schweizer Geschichte dazu lehrt, und woran sich jede Souveränitätspolitik messen lassen muss.*
@@ -109,12 +103,10 @@ Die Frage an jede digitale Souveränitätspolitik ist also nicht: *Wie viel davo
 
 Deshalb nochmals, als Kompass: **Autarkie ist nicht Souveränität. Souveränität entsteht im Verbund — wenn wir Regeln mitsetzen, Systeme unabhängig prüfen und im Ernstfall wechseln können.**
 
-`#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz`
+\#DigitaleSouveränität #PublicAI #AIGovernance #Apertus #TrustworthyAI #Schweiz
 
----
 
 *Vertiefung und Quellen: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/) — dort insbesondere [The Public AI Network](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (EN) und [KI-Souveränität und Resilienz](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) (DE).*
 
----
 
 _[English edition](swiss-autarky-illusion.md)._

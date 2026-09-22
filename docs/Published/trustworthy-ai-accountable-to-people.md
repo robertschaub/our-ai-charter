@@ -1,7 +1,5 @@
 **PUBLISHED 2026-06-14 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_trustworthy-ai-accountable-to-people-activity-7471667943433646080-vmAn)**
-
----
-
+***
 AI is becoming infrastructure — the thing the world learns, decides, and creates with. So who controls it? Days ago, we got an uncomfortable answer: Anthropic disabled worldwide access to two frontier models — Claude Fable 5 and Mythos 5 — after a government order.
 
 We argue about who can turn AI off. But can we believe it when it's on? Should every country have to build or back its own AI just to control and trust it?
@@ -12,16 +10,12 @@ I've written a short, first-draft manifesto for what that could look like: five 
 
 If you build AI, fund it, study it, govern it, teach it, or simply rely on it — you belong here. 👇 Let me know your thoughts and ideas.
 
-`#AI #TrustworthyAI #AIGovernance #OpenSource #PublicAI`
+\#AI #TrustworthyAI #AIGovernance #OpenSource #PublicAI
 
 _The Anthropic access event this post cites is attributed to [Anthropic's public statement](https://www.anthropic.com/news/fable-mythos-access)._
-
----
-
+***
 ![Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.png)
-
----
-
+***
 # Trustworthy AI, Accountable to People
 
 ## What just happened
@@ -96,19 +90,16 @@ The world has already declared what AI must respect — the Universal Declaratio
 
 It is already beginning — Apertus and Sarvam, Latam-GPT and Lelapa, Mistral and Cohere. The pieces exist. What's missing is us, deciding to connect them on purpose.
 
----
 
 Trustworthy AI isn't a product we're sold. It's infrastructure we hold in common — dependable, and answerable for what it tells us.
 
 **Built by many. Accountable to all.**
 
----
 
 If you build AI, fund it, study it, govern it, teach it, or rely on it — you belong in this conversation. Bring what you have.
 
 *Working draft, updated 19 June 2026. Source and work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter).*
 
----
 
 ## Accompanying comment — who would actually certify this?
 

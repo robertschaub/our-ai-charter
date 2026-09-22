@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-30 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_ai-trustworthyai-aigovernance-activity-7488606064989360129-JukJ)**
-
----
-
+***
 𝗪𝗵𝗲𝗻 𝗦𝗵𝗼𝘂𝗹𝗱 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 𝗔𝗜 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗜𝗻𝘁𝗲𝗿𝗿𝘂𝗽𝘁?
 
 Ask a person to approve every step and the system trains them to stop reading. Approve nothing after launch and a live agent can move beyond what anyone assessed.
@@ -33,14 +31,10 @@ Which transition must not occur without which evidence, whose authority, and wha
 
 Full article below ↓
 
-#AI #TrustworthyAI #AIGovernance #AgenticAI #PublicAI #AIAccountability
-
----
-
+\#AI #TrustworthyAI #AIGovernance #AgenticAI #PublicAI #AIAccountability
+***
 ![Two connected AI-governance clocks explicitly labeled System Lifecycle and Action Path: the outer lifecycle runs Design, Deploy, Operate, Incident, and Remedy; the inner path visually separates each navy activity from its orange-capsule gate—Plan/Authorize, Prepare/Submit, Check/Verify, Decide/Commit, and Review/Rely—with machine-enforced entry and commitment gates outside the acting model, a loop from Verify back to Entry for new inputs, a human branch only on escalation, and a sealed action record feeding review and remedy](when-should-runtime-ai-governance-interrupt.png)
-
----
-
+***
 # When Should Runtime AI Governance Interrupt?
 
 *Companion to [Runtime AI Governance Gets When Right. The Harder Question Is Who Gets to Check?](when-vs-who-ai-governance.md). That article argued for independent institutions around the runtime gate. This one opens the gate itself.*
@@ -190,11 +184,10 @@ Govern every authority-bearing transition. Preserve the action-scoped record. Ke
 
 **Built by many. Accountable to all.**
 
-`#AI #AIGovernance #AgenticAI #PublicAI #TrustworthyAI #AIAccountability`
+\#AI #AIGovernance #AgenticAI #PublicAI #TrustworthyAI #AIAccountability
 
 *Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
 
----
 
 ## Related public discussion
 

@@ -1,7 +1,5 @@
 **PUBLISHED 2026-09-12 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504528739402301440/)**
-
----
-
+***
 ### Die Schweizer F-35A-Fixpreisfalle – Würde KI heute hineintappen?
 
 Schweiz, September 2022. Das Parlament will rund sechs Milliarden Franken für 36 F-35 bewilligen. Der Bundesrat sagt: Der Preis ist fix.
@@ -27,16 +25,12 @@ Am 8. September 2026 kam die Geschäftsprüfungskommission des Nationalrates zum
 
 **Evidence-Gated Agents sollen solche Fallen verhindern.** Ein ungeklärter Widerspruch würde eine vorbehaltlose Fixpreis-Zusicherung stoppen. Je nach Belegen könnte die Antwort die Aussage bestätigen, einschränken oder verwerfen – oder festhalten, dass die Belege nicht ausreichen. Jede freigegebene Antwort erhielte einen Freigabenachweis («Receipt»): die Zusammenfassung des Entscheidungsprotokolls mit Belegen, Prüfungen, Gründen und der Person, die die Freigabe erteilt hat.
 
-#AIGovernance #Verantwortung #Belege #Schweiz
+\#AIGovernance #Verantwortung #Belege #Schweiz
 
 𝘋𝘦𝘳 𝘨𝘢𝘯𝘻𝘦 𝘈𝘳𝘵𝘪𝘬𝘦𝘭 𝘶𝘯𝘵𝘦𝘯 ↓
-
----
-
+***
 ![Eine F-35A über einer Vertragsseite mit Lupe. Die Überschrift lautet: «Fixpreis? Was sagen die Belege?»](f35-fixed-price-evidence-cover.de.jpg)
-
----
-
+***
 # Die Schweizer F-35A-Fixpreisfalle – Würde KI heute hineintappen?
 
 *Was die Schweizer F-35A-Beschaffung darüber zeigt, welche KI-Antworten wir freigeben sollten.*
@@ -124,7 +118,6 @@ Ein solches Konzept kann nicht versprechen, dass es den Kaufentscheid oder den P
 - [A Practical Test for Power](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we) — Wie sich Entscheidungen an ihren Folgen messen lassen und daran, ob Betroffene sie anfechten und Abhilfe erhalten können.
 - [The Public AI We Need: Sovereign, Inspectable and Accountable](https://www.linkedin.com/pulse/public-ai-we-need-sovereign-inspectable-accountable-robert-schaub-vskve) — Wie Belege, unabhängige Überprüfung und Korrektur in den umfassenderen Vorschlag für öffentliche KI-Infrastruktur passen.
 
----
 
 ## Hinweis zur Datei – alternatives Bild zum Begleitpost
 

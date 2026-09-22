@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-31 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488907212669743104/)**
-
----
-
+***
 𝗛𝗼𝘄 𝗖𝗮𝗻 𝗪𝗲 𝗕𝘂𝗶𝗹𝗱 𝗔𝗜 𝗧𝗵𝗮𝘁 𝗔𝗰𝘁𝘀 𝘄𝗶𝘁𝗵 𝗘𝗺𝗽𝗮𝘁𝗵𝘆?
 
 We cannot currently demonstrate that AI feels empathy. But builders can design systems that represent a person’s stated perspective faithfully, communicate care, check their interpretations, and protect human agency—without pretending to possess feelings.
@@ -33,14 +31,10 @@ The full article turns these principles into a builder guideline for pretraining
 
 Full article below ↓
 
-#AI #AIEngineering #TrustworthyAI #AIGovernance #Empathy #OpenModels
-
----
-
+\#AI #AIEngineering #TrustworthyAI #AIGovernance #Empathy #OpenModels
+***
 ![AI builders train for perspective-taking, tune for truthfulness and agency, adapt only with consent, and improve through governed, testable releases while keeping said, inferred, confirmed and permitted memory separate.](how-to-build-ai-that-acts-with-empathy.png)
-
----
-
+***
 # How We Can Build AI That Acts with Empathy
 
 *The honest target is not artificial feeling. It is grounded, correctable behaviour that protects human agency.*
@@ -161,6 +155,6 @@ Ordinary dialogue may improve the next response. It must not silently rewrite th
 
 That is not artificial feeling. It is disciplined, testable, and accountable design.
 
-`#AI #AIEngineering #TrustworthyAI #AIGovernance #Empathy #OpenModels`
+\#AI #AIEngineering #TrustworthyAI #AIGovernance #Empathy #OpenModels
 
 *Companion article: [AI and Empathy: Dialogue, Correction and Human Answerability](https://www.linkedin.com/pulse/ai-empathy-dialogue-correction-human-answerability-robert-schaub-highe/) · Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*

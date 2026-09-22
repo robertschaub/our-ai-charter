@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-31 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7488909411894149120/)**
-
----
-
+***
 𝗔𝗜 𝗠𝘂𝘀𝘁 𝗟𝗲𝗮𝗿𝗻 𝗘𝗺𝗽𝗮𝘁𝗵𝘆!
 
 By “learn,” I do not mean acquire human feelings. I mean that AI systems must be trained, tuned, and designed to practise perspective-taking: listen, distinguish what people say from what the system infers, remain correctable, and make human consequences visible.
@@ -40,14 +38,10 @@ Full article below ↓
 
 Builder companion: [*How We Can Build AI That Acts with Empathy*](https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/).
 
-#AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights
-
----
-
+\#AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights
+***
 ![AI and Empathy: an affected person corrects an attentive decision-maker's proposed path in close dialogue, while AI keeps the person's words distinct from interpretation and connects consequences to independent review and remedy.](empathy-is-a-practice.png)
-
----
-
+***
 # AI and Empathy: Dialogue, Correction and Human Answerability
 
 *AI can be built to support dialogue and make human consequences visible. It cannot replace affected voices or make power legitimate.*
@@ -176,7 +170,7 @@ That is empathy made iterative, transparent, and answerable.
 
 **Built by many. Accountable to all.**
 
-`#AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights`
+\#AI #TrustworthyAI #AIGovernance #AIAccountability #Empathy #HumanRights
 
 *Builder companion: [How We Can Build AI That Acts with Empathy](https://www.linkedin.com/pulse/how-we-can-build-ai-acts-empathy-robert-schaub-w6wye/).*
 

@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-22
 
+- **Published article rendering corrected** — Rendered every hashtag row as ordinary text instead of a Markdown heading or inline-code span. Standardized all 15 mirrors to exactly three consistently placed `***` separators—after the publication line, after the post and after the picture—and removed blank source lines around each cover while preserving image accessibility text and GitHub-compatible rendering.
+
 - **Published article openings simplified** — Standardized all 15 article pages to show only the LinkedIn publication line, post content, picture and article content in that order, separated by horizontal rules. Removed redundant status narratives, section labels and repeated post-link captions while preserving the publication/translation distinction and substantive article and discussion content; aligned the README and contributor guidance with the lean format.
 
 - **Public working tree organized by durable subject** — Removed the active `docs/Strategy/` and `docs/wip/` sections without renaming `docs/Published/`. Promoted current public evidence, concepts, background and outreach drafts into their subject folders; moved the runtime implementation specifications beside the public runtime code; and removed operational strategy, dated snapshots, handoffs and retirement stubs from the active public tree. Git history remains the public version record. As an accepted consequence, the two former `docs/wip/` empathy redirect URLs no longer resolve; their current articles remain under `docs/Published/`.

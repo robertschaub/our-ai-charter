@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-24 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_digitalsovereignty-publicai-aigovernance-ugcPost-7486430520470360065-TDNr)**
-
----
-
+***
 **The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone**
 
 *The call for digital independence is justified. "Do everything ourselves" is not the answer — what Swiss history teaches us, and the test every sovereignty policy must pass.*
@@ -16,14 +14,10 @@ The better answer combines domestic capabilities with shared infrastructure, ope
 
 **Why this aligns with Swiss neutrality — in the article. ↓**
 
-`#DigitalSovereignty #PublicAI #AIGovernance #Apertus #TrustworthyAI #Switzerland`
-
----
-
+\#DigitalSovereignty #PublicAI #AIGovernance #Apertus #TrustworthyAI #Switzerland
+***
 ![Autarky is not sovereignty: an isolated Swiss system contrasted with a resilient network.](swiss-autarky-illusion.png)
-
----
-
+***
 # The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone
 
 *The call for digital independence is justified. "Do everything ourselves" is not the answer — what Swiss history teaches us, and the test every sovereignty policy must pass.*
@@ -109,17 +103,14 @@ The question for every digital-sovereignty policy is therefore not: *How much of
 
 So, once more, as a compass: **Autarky is not sovereignty. Sovereignty is built through a network — when we can help set the rules, inspect systems independently, and switch in a crisis.**
 
-`#DigitalSovereignty #PublicAI #AIGovernance #Apertus #TrustworthyAI #Switzerland`
+\#DigitalSovereignty #PublicAI #AIGovernance #Apertus #TrustworthyAI #Switzerland
 
----
 
 *Further reading and sources: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/) — especially [The Public AI Network](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (EN) and [AI Sovereignty and Resilience](https://de.linkedin.com/pulse/ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-nutzen-um-robert-schaub-aohze) (DE).*
 
----
 
 _German original: [Die Schweizer Autarkie-Illusion](schweizer-autarkie-illusion.md)._
 
----
 
 ## Accompanying comments
 
@@ -159,7 +150,6 @@ Richiello called this the real dividing line: infrastructure can be financed, te
 
 Angelo Richiello Now recorded: the network overview names competence as the condition beneath all four pillars. [https://robertschaub.github.io/our-ai-charter/network-overview/](https://robertschaub.github.io/our-ai-charter/network-overview/)
 
----
 
 ## Related public comments
 
@@ -190,7 +180,6 @@ but to act as a credible host and bridge-builder for internationally co-stewarde
 
 The next NCS could make this operational.
 
----
 
 **Robert Schaub — comment on the Durable Leverage Framework** (posted 2026-08-04)
 

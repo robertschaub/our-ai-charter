@@ -1,15 +1,9 @@
 **TRANSLATION of PUBLISHED 2026-06-20 to LinkedIn [Post](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)**
-
----
-
+***
 An open Swiss AI model is a strong impetus. But how do we secure our digital sovereignty and resilience over the long term? Switzerland as an international bridge-builder for a free and independent AI infrastructure. The building blocks are ready. Read the article ↓
-
----
-
+***
 ![AI Sovereignty and Resilience](ki-souveraenitaet-und-resilienz.png)
-
----
-
+***
 # AI Sovereignty and Resilience: Using Switzerland's Innovation Hub to Strengthen the Values of Free Societies Internationally
 
 Marcel Salathé has, in recent weeks, reinvigorated the debate around an open Swiss AI model with a strong contribution. The impetus to invest substantially in our digital sovereignty is important, and I share it. For such an undertaking to achieve its full impact, however, I would like to add two central goals to the debate:
@@ -33,6 +27,5 @@ Because true digital sovereignty and resilience unfold only within a network: th
 
 — Robert Schaub
 
----
 
 _German original: [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md)._

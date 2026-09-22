@@ -1,15 +1,9 @@
 **PUBLISHED 2026-06-20 to LinkedIn [Post](https://de.linkedin.com/posts/robertschaub_ki-souver%C3%A4nit%C3%A4t-und-resilienz-den-schweizer-activity-7473522097890422785-R5Gd)**
-
----
-
+***
 Ein offenes Schweizer KI-Modell ist ein starker Impuls. Doch wie sichern wir unsere digitale Souveränität und Resilienz langfristig? Die Schweiz als internationale Brückenbauerin für eine freiheitliche und unabhängige KI-Infrastruktur. Die Bausteine stehen bereit. Zum Artikel ↓
-
----
-
+***
 ![KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.png)
-
----
-
+***
 # KI-Souveränität und Resilienz: Den Schweizer Innovationsstandort nutzen, um international freiheitliche Werte zu stärken
 
 Marcel Salathé hat die Diskussion um ein offenes Schweizer KI-Modell in den vergangenen Wochen mit einem starken Beitrag neu belebt. Der Impuls, massgeblich in unsere digitale Souveränität zu investieren, ist wichtig und ich teile ihn. Damit ein solches Vorhaben seine volle Wirkung entfalten kann, möchte ich die Debatte jedoch um zwei zentrale Ziele ergänzen:
@@ -33,6 +27,5 @@ Denn echte digitale Souveränität und Resilienz entfalten sich erst im Netzwerk
 
 — Robert Schaub
 
----
 
 _[English translation](ai-sovereignty-and-resilience.md). Companion to [Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.md) — the evaluation-and-accountability thread to this one's public-AI-sovereignty thread; both are facets of [Our AI Charter](../index.md)._

@@ -1,7 +1,5 @@
 **PUBLISHED 2026-09-12 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504514082520252416/)**
-
----
-
+***
 ### The Swiss F-35A fixed-price trap - Would AI fall into it today?
 
 Switzerland, September 2022. Parliament is about to approve about six billion francs — sechs Milliarden Franken — for thirty-six F-35 jets. The government says the price is fixed.
@@ -27,16 +25,12 @@ On 8 September 2026, the National Council’s oversight committee concluded that
 
 **Evidence-Gated Agents are designed to prevent such traps.** An unresolved contradiction would stop an unqualified “fixed price” assurance. Depending on the evidence, the answer could confirm, qualify or reject the claim — or explain that the evidence is insufficient. Each released answer would carry a receipt: a summary of the decision record, showing the evidence, checks, reasons and who authorised the release.
 
-#AIGovernance #Accountability #Evidence #Switzerland
+\#AIGovernance #Accountability #Evidence #Switzerland
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
-
----
-
+***
 ![An F-35A above a contract page and magnifying glass, with the words “Fixed price? Show me the evidence.”](f35-fixed-price-evidence-cover.jpg)
-
----
-
+***
 # The Swiss F-35A fixed-price trap - Would AI fall into it today?
 
 *What Switzerland’s F-35A purchase can teach us about the answers we allow AI to give.*
@@ -124,7 +118,6 @@ No such design can promise that it would have changed the purchase or its price.
 - [A Practical Test for Power](https://www.linkedin.com/pulse/practical-test-power-robert-schaub-va1we) — How to judge decisions by their consequences and whether those affected can challenge them and obtain remedy.
 - [The Public AI We Need: Sovereign, Inspectable and Accountable](https://www.linkedin.com/pulse/public-ai-we-need-sovereign-inspectable-accountable-robert-schaub-vskve) — How evidence, independent review and correction fit into the wider proposal for public AI infrastructure.
 
----
 
 ## Repository note — alternative feed image
 

@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-28 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_publicai-aigovernance-digitalsovereignty-ugcPost-7487951694866345984-FPSP)**
-
----
-
+***
 𝗢𝘂𝗿 𝗔𝗜 𝗖𝗵𝗮𝗿𝘁𝗲𝗿: 𝗙𝗿𝗼𝗺 𝗢𝗽𝗲𝗻 𝗠𝗼𝗱𝗲𝗹𝘀 𝘁𝗼 𝗔𝗰𝗰𝗼𝘂𝗻𝘁𝗮𝗯𝗹𝗲 𝗣𝘂𝗯𝗹𝗶𝗰 𝗔𝗜 𝗜𝗻𝗳𝗿𝗮𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲
 
 Our AI Charter is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.
@@ -15,16 +13,12 @@ Our AI Charter is a proposal for an international network of open AI models unde
 
 Project: https://robertschaub.github.io/our-ai-charter/
 
-`#PublicAI #AIGovernance #DigitalSovereignty #TrustworthyAI #AIAccountability #OpenModels #Geneva2027`
+\#PublicAI #AIGovernance #DigitalSovereignty #TrustworthyAI #AIAccountability #OpenModels #Geneva2027
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
-
----
-
+***
 ![Our AI Charter — four pillars of a federated public AI network, with lifecycle governance and separated human roles](our-ai-charter-public-ai-infrastructure.png)
-
----
-
+***
 # Our AI Charter: From Open Models to Accountable Public AI Infrastructure
 
 **Our AI Charter is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.**
@@ -148,4 +142,4 @@ The project is public because its claims should be contestable from the beginnin
 - [Runtime AI Governance Gets *When* Right. The Harder Question Is *Who Gets to Check?*](https://www.linkedin.com/pulse/runtime-ai-governance-gets-when-right-harder-question-robert-schaub-z6ahe/)
 - [The Swiss Autarky Illusion: Why Digital Sovereignty Cannot Be Built Alone](https://www.linkedin.com/pulse/swiss-autarky-illusion-why-digital-sovereignty-cannot-robert-schaub-tiamc)
 
-`#PublicAI #AIGovernance #DigitalSovereignty #TrustworthyAI #AIAccountability #OpenModels #Geneva2027`
+\#PublicAI #AIGovernance #DigitalSovereignty #TrustworthyAI #AIAccountability #OpenModels #Geneva2027

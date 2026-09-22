@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-19 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7484672865079058433/)**
-
----
-
+***
 **A Practical Test for Power**
 
 *Power becomes visible where its consequences land:* on a worker who cannot safely refuse, a student who cannot appeal, a family member cast out for changing belief, or civilians treated as expendable.
@@ -14,16 +12,12 @@ It begins with our own power and must also hold in war. In Israel and Palestine,
 
 The same test applies to AI governance: who is responsible, who bears the cost, and can those affected obtain an explanation, challenge an automated decision and secure correction?
 
-#AIGovernance #Accountability #HumanRights #EthicalLeadership #CivilianProtection
+\#AIGovernance #Accountability #HumanRights #EthicalLeadership #CivilianProtection
 
 *Full article below ↓*
-
----
-
+***
 ![A balanced scale links people affected by workplace, family, school, institutional, movement and wartime power with five safeguards: equal dignity, freedom of conscience, due process, civilian protection and accountability.](a-practical-test-for-power.png)
-
----
-
+***
 # A practical test for power
 
 *From managers and families to movements and states at war, follow decisions to those who bear their costs—and ask whether each use of power is legitimate, answerable and bound by firm limits.*
@@ -94,7 +88,6 @@ The test requires no shared religion or comprehensive worldview. It requires equ
 
 Three principles organize the seven questions. First: is this use of power legitimate, and what does it do to those who bear its consequences? Second: are those affected heard, and is power answerable through safe challenge, independent review, remedy and, after repeated failures, limitation or removal? Third: which limits will it not cross, even for a good goal? Wherever power is exercised, humanity and mercy must have the final say.
 
----
 
 ## Sources
 

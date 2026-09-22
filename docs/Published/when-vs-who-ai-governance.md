@@ -1,7 +1,5 @@
 **PUBLISHED 2026-07-23 to LinkedIn [Post](https://www.linkedin.com/posts/robertschaub_runtime-ai-governance-gets-when-right-the-activity-7485969016478478336-K0gt/)**
-
----
-
+***
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 𝗔𝗜 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗚𝗲𝘁𝘀 𝘞𝘩𝘦𝘯 𝗥𝗶𝗴𝗵𝘁. 𝗧𝗵𝗲 𝗛𝗮𝗿𝗱𝗲𝗿 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗜𝘀 𝘞𝘩𝘰 𝗚𝗲𝘁𝘀 𝘁𝗼 𝗖𝗵𝗲𝗰𝗸?  
   
 The window from vulnerability discovery to a weaponized exploit is collapsing from weeks to hours, according to a security briefing reviewed by more than 250 CISOs.  
@@ -22,13 +20,9 @@ But a technical gate is only as trustworthy as the institutions around it. Where
 [**#AI**](https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED) [**#TrustworthyAI**](https://www.linkedin.com/search/results/all/?keywords=%23trustworthyai&origin=HASH_TAG_FROM_FEED) [**#AIGovernance**](https://www.linkedin.com/search/results/all/?keywords=%23aigovernance&origin=HASH_TAG_FROM_FEED) [**#PublicAI**](https://www.linkedin.com/search/results/all/?keywords=%23publicai&origin=HASH_TAG_FROM_FEED) [**#AgenticAI**](https://www.linkedin.com/search/results/all/?keywords=%23agenticai&origin=HASH_TAG_FROM_FEED)
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
-
----
-
+***
 ![A public runtime gate surrounded by five separated roles: rulemaker, operator, record keeper, independent reviewer, and remedy decider, with sealed evidence held outside the gate](when-vs-who-ai-governance.png)
-
----
-
+***
 # Runtime AI Governance Gets *When* Right. The Harder Question Is *Who Gets to Check?*
 
 *A [security briefing reviewed by more than 250 CISOs](https://www.sans.org/press/announcements/emergency-strategy-briefing-ai-driven-vulnerability-discovery-compresses-exploit-timelines) warns that AI-assisted vulnerability discovery is compressing exploit timelines. "Govern at runtime" is part of the answer. But a technical gate is not the same thing as public accountability.*
@@ -87,11 +81,10 @@ This is a working proposal from a small, unfunded, model-plural effort, intended
 
 **Built by many. Accountable to all.**
 
-`#AI #TrustworthyAI #AIGovernance #PublicAI #AgenticAI`
+\#AI #TrustworthyAI #AIGovernance #PublicAI #AgenticAI
 
 *Source and further work: [Our AI Charter](https://robertschaub.github.io/our-ai-charter/).*
 
----
 
 ## Accompanying comments
 
