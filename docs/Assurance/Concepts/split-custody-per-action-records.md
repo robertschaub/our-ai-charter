@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** — design note answering one open question raised by Stuart-Mueller & Woodward's *The Wrong Layer* (July 2026): how custody of per-action AI records should work when the liability-bearing institution and the harmed person are different parties.
+> **Status: DRAFT** — design proposal, not an adopted custody model or operating service.
 
 # Split custody for per-action records
 
-*Working notes — 2026-07-18; public discussion updated 2026-07-27 · public-safe · cross-model-reviewed (design refined 2026-07-18). Companions: [Charter Commitments](../Assurance/Framework/charter-commitments.md) (consequential-action baseline), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md).*
+*Working notes — 2026-07-18; public discussion updated 2026-07-27 · public-safe · cross-model-reviewed (design refined 2026-07-18). Companions: [Charter Commitments](../Framework/charter-commitments.md) (consequential-action baseline), [evaluation protocol](../Protocol/grounding-faithfulness-and-contestability.md), [control-and-evidence layer](../../Infrastructure/control-and-evidence-layer.md).*
 
 ## The question
 
@@ -73,7 +73,7 @@ Reading: the deployer executes and carries liability; the affected person bears 
 ## Charter tie-in
 
 - **Contestability with teeth.** Operational duty 6's notice/review/remedy and the contestability module get a concrete custody mechanism: a right to challenge is ceremonial if the challenger can never reach the evidence (the paper's own point about "the evidence the worker never gets").
-- **Who accredits the custodian** is an assurance-chain question — standard → assessor → accreditor → peer, no one checking their own work — i.e. exactly the [certification model's](../Assurance/Framework/certification-model.md) territory. The custodian role slots into that chain rather than requiring a new authority.
+- **Who accredits the custodian** is an assurance-chain question — standard → assessor → accreditor → peer, no one checking their own work — i.e. exactly the [certification model's](../Framework/certification-model.md) territory. The custodian role slots into that chain rather than requiring a new authority.
 - **Capture resistance.** Purpose limitation needs statute, not scheme rules — a US court has [declined to let Annex 13 block discovery](https://condonlaw.com/2021/02/texas-federal-court-rules-that-boeing-cannot-withhold-otherwise-discoverable-documents-and-information-based-on-the-icao-annex-13/) — matching the Charter's position that material control interventions must be attributable and reviewable, never secret and unilateral.
 
 ## Public discussion record
@@ -106,7 +106,7 @@ A second reply was [published on LinkedIn](https://www.linkedin.com/feed/update/
 >
 > Certificate Transparency, EU tachographs and aviation recorder custody supply pieces, not the whole.
 >
-> https://robertschaub.github.io/our-ai-charter/wip/split-custody-per-action-records/
+> https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/split-custody-per-action-records/
 >
 > Still open: absent an effective regulator or court, who accredits and can replace the fiduciary, and what makes its decisions binding?
 

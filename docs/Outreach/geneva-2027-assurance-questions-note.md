@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** — question-led entry artifact for standing-building (the lower-risk first move from the [Apertus engagement plan](apertus-fit-and-engagement-plan.md)). The assertive package + ask is the [keystone memo](geneva-2027-keystone-memo.md), for later. Promotable to `Outreach/` once reviewers and a carrier conversation exist.
+> **Status: DRAFT** — question-led discussion note; no partner, carrier, or endorsement is claimed.
 
 # Assurance & governance questions for public-interest open AI
 
-*A Geneva 2027 discussion note. Working notes — 2026-06-29 · WIP · public-safe. Companions: [keystone memo](geneva-2027-keystone-memo.md), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) ([1-pager](../Assurance/Protocol/one-pager.md)), [engagement plan](apertus-fit-and-engagement-plan.md), [channel demand](../Evidence/geneva-2027-channel-demand.md).*
+*A Geneva 2027 discussion note, prepared 2026-06-29. Companions: [keystone memo](geneva-2027-keystone-memo.md), [evaluation protocol](../Assurance/Protocol/grounding-faithfulness-and-contestability.md) ([1-pager](../Assurance/Protocol/one-pager.md)), and [channel demand](../Evidence/geneva-2027-channel-demand.md).*
 
 ## What this is — and is not
 

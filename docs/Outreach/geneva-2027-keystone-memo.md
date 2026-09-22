@@ -1,8 +1,8 @@
-> **Status: WORKING NOTES** — keystone memo assembled from the companions below; not yet anchored into the curated set. Promotable to a `DRAFT` in `Outreach/` once a carrier group and a concrete first deliverable exist.
+> **Status: DRAFT** — forwardable proposal; no carrier group, partnership, funding, or implementation is claimed.
 
 # Geneva 2027 — Public AI Governance & Evidence Package
 
-*Forwardable keystone memo (~2 pp). Spine for Geneva-2027 channels — the live [*Road to Geneva* pre-events track](https://www.genevaaisummit.swiss/pre-events/), the closed [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/preparing-for-the-ai-summit-2027/) channel, and downstream routes. Assembled from the [non-paper](../Outreach/non-paper.en.md), the [initiation strategy](../Strategy/initiation-strategy.md), the [evaluation protocol one-pager](../Assurance/Protocol/one-pager.md), and the [Geneva 2027 routes map](../Strategy/geneva-2027-options.md) — see also the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md).*
+*Forwardable keystone memo (~2 pp) for Geneva 2027 discussion channels, including the live [*Road to Geneva* pre-events track](https://www.genevaaisummit.swiss/pre-events/) and the closed [Swissnex "Geneva Loading…" fellowship](https://swissnex.org/sanfrancisco/news/preparing-for-the-ai-summit-2027/). It builds on the [non-paper](non-paper.en.md), the [evaluation protocol one-pager](../Assurance/Protocol/one-pager.md), and the public [channel-demand evidence](../Evidence/geneva-2027-channel-demand.md).*
 
 ## In one line
 
@@ -46,7 +46,7 @@ This stays in service of the core goal — *not* "Switzerland first", no commerc
 
 ## Honest status
 
-Founder-led, Phase 1 (public drafting). A public article collection and an evaluation method are published; **no coalition or external mandate is claimed.** The maintainer's current implementation focus is Evidence-Gated Agents, so this broader Geneva package remains a conditional route rather than the active build. No standard, certification body, audit authority, or active pilot is claimed. The work is **unfunded**; the positive funding path is in-kind first → a pilot-scale grant tied to one deliverable → company money last and filtered (see the *Financing* section of the [initiation strategy](../Strategy/initiation-strategy.md)).
+Founder-led, Phase 1 (public drafting). A public article collection and an evaluation method are published; **no coalition or external mandate is claimed.** The maintainer's current implementation focus is Evidence-Gated Agents, so this broader Geneva package remains a conditional route rather than the active build. No standard, certification body, audit authority, or active pilot is claimed. The work is **unfunded**; a plausible sequence would be in-kind support first, then a pilot-scale grant tied to one deliverable, with company money last and filtered.
 
 ---
 

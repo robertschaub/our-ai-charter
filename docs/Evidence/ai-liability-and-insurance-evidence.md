@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — one grounded research pass (2026-08-06) on how product-liability law and the insurance market treat evidence about AI systems. Every load-bearing quote below was read at its issuing source, not taken from a summary; each row carries a grade, and assessments are labelled as such. Re-verify before relying on anything here.
+*Evidence note: one grounded research pass (2026-08-06) on how product-liability law and the insurance market treat evidence about AI systems. Every load-bearing quotation was checked at its issuing source; assessments are labelled. Re-verify before relying on time-sensitive claims.*
 
 # AI liability and insurance: who can compel evidence
 

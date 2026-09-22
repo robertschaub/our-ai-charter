@@ -79,7 +79,7 @@ The proposed network remains in **Phase 1: public drafting and connection-buildi
 
 Robert Schaub’s current development focus is EGA, which draws on the separate FactHarbor Alpha and runtime proof-of-concept foundations. The dynamic decision-release path is the selected prototype direction; its API and Runtime integration remain to be built and tested. See the [current status and next step](index.md#where-the-work-stands).
 
-The network proposal’s target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The [initiation strategy](Strategy/initiation-strategy.md) sets the route: **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
+The network proposal’s target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The public [package draft](Outreach/geneva-2027-keystone-memo.md) applies the route **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
 
 ## How to take part now
 

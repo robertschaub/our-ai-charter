@@ -14,7 +14,7 @@ _Englische Fassung: [action-plan.en.md](action-plan.en.md)._
 
 ## Zeitliche Abfolge (Sequenz)
 
-Die ausführliche 30/60/90-Tage-Sequenz ist in der [Initiation Strategy](../Strategy/initiation-strategy.md) festgehalten (massgebliche Fassung). Diese Kurzfassung dient nur der Ansprache: Die Bitte klein halten, kein Mandat suggerieren, Detailfragen zur Roadmap auf die Strategie zurückführen.
+Diese Kurzfassung dient der Ansprache: Die Bitte klein halten, kein Mandat suggerieren und die detaillierte Sequenzierung als interne Planung behandeln, nicht als öffentliche Zusage.
 
 - **0–30 Tage:** Non-Paper finalisieren; erste Orientierungsgespräche mit Befürwortern eines offenen Schweizer Modells führen; prüfen, ob ein neutraler Convenor auf Organisationsebene Mehrwert schafft. Ziel: drei glaubwürdige Unterstützer:innen und ein öffentlich vertretbares Stakeholder-Bild. Der publizierte LinkedIn-Artikel ist ein vorhandenes öffentliches Signal, aber kein Ersatz für direkte Gespräche.
 - **31–60 Tage:** Entscheiden, ob und mit wem ein neutral moderierter Klärungsprozess (Pre-Sprint) rund um ein Geneva 2027 Public AI Governance & Evidence Package aufgesetzt wird.

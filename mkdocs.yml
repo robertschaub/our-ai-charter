@@ -3,7 +3,7 @@
 #
 # Published content lives in docs/ (MkDocs requires docs_dir to be a child of
 # the config file's directory). Repo-meta files (README, AGENTS, CHANGELOG,
-# CONTRIBUTING, SECURITY, LICENSE.md, LICENSES, NOTICE) stay at the repo root and are not
+# CONTRIBUTING, SECURITY, LICENSE, LICENSE.md, LICENSES, NOTICE) stay at the repo root and are not
 # part of the website. Navigation is defined explicitly below.
 
 site_name: Our AI Charter™
@@ -134,12 +134,17 @@ nav:
           - "Evidence-Gated Agents — research and evaluation": Assurance/Concepts/evidence-requirements-research.md
           - "Assurance cases (obligation prototypes)": Assurance/Concepts/assurance-cases.md
           - "Capabilities & Assurance Interface": Assurance/Concepts/capabilities-and-assurance-interface.md
+          - "Ambient and agentic AI controls": Assurance/Concepts/ambient-agentic-ai-control.md
+          - "Split custody for per-action records": Assurance/Concepts/split-custody-per-action-records.md
+          - "Representation error and correction routes": Assurance/Concepts/representation-error-and-correction-routes.md
       - Protocol:
           - "Grounding, Faithfulness & Contestability": Assurance/Protocol/grounding-faithfulness-and-contestability.md
           - One-pager: Assurance/Protocol/one-pager.md
       - Background:
           - Risk & vulnerability audit: Assurance/Background/risk-and-vulnerability-audit.md
           - What the world has already declared: Assurance/Background/what-the-world-has-already-declared.md
+          - What the runtime layer adds: Assurance/Background/what-the-runtime-layer-adds.md
+          - "JusticeTree VBE ↔ Charter crosswalk": Assurance/Background/justice-tree-vbe-charter-crosswalk.md
   - Articles:
       - Article index: Published/index.md
       - "The Swiss F-35A fixed-price trap - Would AI fall into it today?": Published/f35-fixed-price-evidence.md
@@ -157,17 +162,9 @@ nav:
       - The Public AI Network: Published/the-public-ai-network.md
       - "AI Sovereignty and Resilience (EN)": Published/ai-sovereignty-and-resilience.md
       - "KI-Souveränität und Resilienz (DE)": Published/ki-souveraenitaet-und-resilienz.md
-  - Strategy:
-      - Initiation strategy: Strategy/initiation-strategy.md
-      - "Landscape & positioning (build vs. join)": Strategy/landscape-and-positioning.md
-      - Geneva 2027 — contribution routes and partners: Strategy/geneva-2027-options.md
-      - Geneva 2027 — Swissnex/Mercator fellowship & plan: Strategy/geneva-2027-swissnex-fellowship.md
-      - Digital-sovereignty motions (24.3209 + 26.3221): Strategy/digital-sovereignty-motions.md
-      - Swiss Action-Plan contribution: Strategy/swiss-action-plan-contribution.md
-      - Artifacts roadmap (inputs + end-products): Strategy/final-artifacts-roadmap.md
-      - Funder & collaborator engagement: Strategy/funder-and-collaborator-engagement.md
-      - Hugging Face — overlap & cooperation options: Strategy/hugging-face-synergies.md
   - Outreach:
+      - "Geneva 2027 — governance and evidence package": Outreach/geneva-2027-keystone-memo.md
+      - "Geneva 2027 — assurance questions": Outreach/geneva-2027-assurance-questions-note.md
       - "RAISD — exploratory research fit": Outreach/swiss-ai-raisd-fit-note.en.md
       - "Non-Paper (EN)": Outreach/non-paper.en.md
       - "Non-Paper (DE)": Outreach/non-paper.de.md
@@ -182,24 +179,6 @@ nav:
       - Verified findings: Evidence/verified-findings.md
       - Linked sources: Evidence/linked-sources.md
       - "Geneva 2027 — channel demand": Evidence/geneva-2027-channel-demand.md
-  - Draft notes:
-      - Overview: wip/README.md
-      - "Geneva 2027 — keystone memo": wip/geneva-2027-keystone-memo.md
-      - "Apertus — fit & engagement plan": wip/apertus-fit-and-engagement-plan.md
-      - "Metagov & Public AI — assurance landscape": wip/metagov-public-ai-landscape.md
-      - "Public AI — what they build": wip/public-ai-what-they-build.md
-      - "Public AI — gaps table (forwardable)": wip/public-ai-gaps-table.md
-      - "Geneva 2027 — assurance questions note": wip/geneva-2027-assurance-questions-note.md
-      - "Evaluation proof-of-concept — scope": wip/evaluation-poc-scope.md
-      - "Copyright-clean open/public LLM strategy": wip/copyright-clean-open-llm-strategy.md
-      - "AI liability & insurance — who can compel evidence": wip/ai-liability-and-insurance-evidence.md
-      - "Ambient agentic AI — control rules": wip/ambient-agentic-ai-control.md
-      - "Split custody for per-action records": wip/split-custody-per-action-records.md
-      - "System-use decision record — pre-ingress": wip/system-use-decision-record.md
-      - "System-use decision — implementation handoff": wip/system-use-decision-implementation-handoff.md
-      - "Runtime gates POC — specification": wip/runtime-gates-poc-spec.md
-      - "Representation error and the correction route": wip/representation-error-and-correction-routes.md
-      - "What the runtime layer adds": wip/what-the-runtime-layer-adds.md
-      - "JusticeTree VBE ↔ Charter — symmetric runtime crosswalk": wip/justice-tree-vbe-charter-crosswalk.md
+      - "AI liability and insurance evidence": Evidence/ai-liability-and-insurance-evidence.md
   - About: About.md
   - Privacy: privacy.md

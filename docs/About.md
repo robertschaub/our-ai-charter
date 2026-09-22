@@ -21,4 +21,4 @@ The association binds itself to the standards this program asks of public AI inf
 
 The association’s stewardship does not itself transfer copyright. Robert Schaub holds copyright in his own contributions; other contributions remain subject to their respective rights holders. See [NOTICE](https://github.com/robertschaub/our-ai-charter/blob/main/NOTICE) and the [license map](https://github.com/robertschaub/our-ai-charter/blob/main/LICENSE.md) for copyright attribution and reuse terms.
 
-Private administrative work — legal, finance, banking, fundraising, Verein operations, personal correspondence, and explicitly INTERNAL material — is kept outside the public repositories. Public Charter cooperation, outreach, strategy, and governance notes remain here by default.
+Private administrative work — legal, finance, banking, fundraising, Verein operations, personal correspondence, operational strategy, superseded working records, and explicitly INTERNAL material — is kept outside the public repositories. Current public drafts remain here only when they have a durable subject home and a clear public reader.

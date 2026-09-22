@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES**
+> **Status: DRAFT** — proposed policy and technical-control model; not adopted Charter text or legal advice.
 
 # From ambient observation to accountable action
 
@@ -242,7 +242,7 @@ The amendment should establish at least these non-waivable requirements:
 
 ## 6. A capability ladder for proportionate duties
 
-Not every device operation needs a confirmation. A law that interrupts every low-risk act will train people to approve blindly. The correct rule is **trace wide, escalate narrow**: preserve inspectability across the chain, but require active escalation when authority or potential harm increases. This follows the repository's [user-workflow governance reference model](../Assurance/Concepts/user-workflow-governance.md).
+Not every device operation needs a confirmation. A law that interrupts every low-risk act will train people to approve blindly. The correct rule is **trace wide, escalate narrow**: preserve inspectability across the chain, but require active escalation when authority or potential harm increases. This follows the repository's [user-workflow governance reference model](user-workflow-governance.md).
 
 | Level | Capability | Example | Default control |
 |---|---|---|---|
@@ -279,11 +279,11 @@ sequenceDiagram
     R-->>U: Human-readable result, cancellation, challenge route
 ```
 
-Any fresh confirmation or human review in this sequence should follow the runtime model's [human intervention contract](../Assurance/Concepts/user-workflow-governance.md#human-intervention-contract), so the trigger, authorized role, response bound, safe default, record, and monitoring consequence are declared rather than improvised.
+Any fresh confirmation or human review in this sequence should follow the runtime model's [human intervention contract](user-workflow-governance.md#human-intervention-contract), so the trigger, authorized role, response bound, safe default, record, and monitoring consequence are declared rather than improvised.
 
 ### 7.1 The mandate object
 
-The [Charter Commitments](../Assurance/Framework/charter-commitments.md) establish the consequential-action baseline as a cross-cutting obligation; this mandate object is one implementation candidate. A standardized mandate should carry at least:
+The [Charter Commitments](../Framework/charter-commitments.md) establish the consequential-action baseline as a cross-cutting obligation; this mandate object is one implementation candidate. A standardized mandate should carry at least:
 
 - principal and authorized agent identity;
 - authority chain from the principal through each delegated agent, tool, and connected service, including whether subdelegation is permitted and its scope at every hop;
@@ -318,7 +318,7 @@ Auditability must not become an instruction to centralize every intimate convers
 - **integrity proof:** hashes, signatures, timestamps, version and policy identifiers;
 - **access control:** who can retrieve which evidence and under what authority.
 
-This repository's [split-custody proposal](split-custody-per-action-records.md) develops that allocation. The [public-interest control-and-evidence layer](../Infrastructure/control-and-evidence-layer.md) places the same mechanism in a broader institutional architecture.
+This repository's [split-custody proposal](split-custody-per-action-records.md) develops that allocation. The [public-interest control-and-evidence layer](../../Infrastructure/control-and-evidence-layer.md) places the same mechanism in a broader institutional architecture.
 
 ## 8. What the human must be able to inspect and change
 

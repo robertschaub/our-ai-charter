@@ -15,14 +15,14 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 ## Start here
 
-- **Public-AI policy, partners, or funding** → [The Public AI Network](docs/Published/the-public-ai-network.md) → [Overview](docs/network-overview.md) → [initiation strategy](docs/Strategy/initiation-strategy.md).
+- **Public-AI policy or cooperation** → [The Public AI Network](docs/Published/the-public-ai-network.md) → [Overview](docs/network-overview.md) → [Geneva 2027 discussion package](docs/Outreach/geneva-2027-keystone-memo.md).
 - **Swiss sovereignty framing** → [KI-Souveränität und Resilienz](docs/Published/ki-souveraenitaet-und-resilienz.md) ([EN](docs/Published/ai-sovereignty-and-resilience.md)).
 - **Build human-accountable AI** → [Evidence-Gated Agents: overview, flowcharts and illustrative receipts](docs/Assurance/Concepts/evidence-gated-agents.md) → [runtime governance: when to interrupt](docs/Published/when-should-runtime-ai-governance-interrupt.md) → [builder guideline for empathic AI](docs/Published/how-to-build-ai-that-acts-with-empathy.md) → [Charter Commitments](docs/Assurance/Framework/charter-commitments.md) → [evaluation protocol](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md).
 - **Critique or contribution** → [CONTRIBUTING](CONTRIBUTING.md), then open an issue against the specific claim, route, or method.
 
 ## Document index
 
-Status is shown inline here. Page banners appear only on published pages, normative drafts, outreach/parliamentary drafts, and `docs/wip/` working notes.
+Status is shown inline here. Page banners appear only on published pages and on normative or outreach drafts. The public tree has no WIP or archive section; Git history preserves superseded public versions.
 
 ### Articles
 
@@ -51,21 +51,14 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 - **[Federated public AI infrastructure — pilot & rollout](docs/Infrastructure/pilot-and-rollout.md)** — *DRAFT*. Geneva 2027 MVP, development sequence, open decisions, and framing.
 - **[Public-interest control & evidence layer](docs/Infrastructure/control-and-evidence-layer.md)** — *DRAFT*. Cooperator one-pager: the legitimacy/accountability layer (policy broker, evidence plane, assurance & adjudication) the network adds on top of existing compute.
 
-### Strategy, outreach, evidence
+### Outreach and evidence
 
-- **[Initiation strategy](docs/Strategy/initiation-strategy.md)** — *DRAFT*. Current proposition, anchors, alliance-first route, pre-sprint, Geneva 2027 package, asks, guardrails, and the 30/60/90 roadmap.
-- **[Landscape & positioning (build vs. join)](docs/Strategy/landscape-and-positioning.md)** — *DRAFT*. Is the grounding-faithfulness wedge still open, and should the initiative build or join? Competitor scan, where-to-federate, ISO 42001 positioning, and an obsolescence watch list.
-- **[Geneva 2027 routes](docs/Strategy/geneva-2027-options.md)** — *DRAFT*. Realistic channels into the summit and the actors tied to each route.
-- **[Swissnex/Mercator fellowship plan](docs/Strategy/geneva-2027-swissnex-fellowship.md)** — *DRAFT*. Closed-channel record of the time-boxed fellowship (application window closed; twelve-person cohort published) and the channel-neutral, artifact-first plan that outlives it.
-- **[Digital-sovereignty motions](docs/Strategy/digital-sovereignty-motions.md)** — *DRAFT*. How motions 24.3209 and 26.3221 create a policy window for governance and evidence.
-- **[Swiss AI Action-Plan contribution](docs/Strategy/swiss-action-plan-contribution.md)** — *DRAFT*. Go/no-go bar and overclaim audit for a possible contributor input.
-- **[Artifacts roadmap](docs/Strategy/final-artifacts-roadmap.md)** — *DRAFT*. Near-term **inputs to assemble (I1–I5)** and the **durable end-products (#1–#7)** the initiative could ultimately ship — evaluation toolkit, service charter, report index, procurement clause, trust mark — by tier, with go/no-go gates and input→output seeding.
-- **[Funder & collaborator engagement](docs/Strategy/funder-and-collaborator-engagement.md)** — *DRAFT*. Approach for co-producer and funder outreach: map-and-warm not ask, the collaborator/funder split, the ranked Swiss and international cost-bearer map with closed doors recorded, the discipline, and when a funding ask becomes appropriate.
-- **[Hugging Face overlap & cooperation options](docs/Strategy/hugging-face-synergies.md)** — *DRAFT*. Where the Hub, Public AI inference, and the Charter's control-and-evidence layer complement one another; a deployment-evidence pilot, reusable evidence profile, boundaries, and concrete engagement asks.
+- **[Geneva 2027 governance and evidence package](docs/Outreach/geneva-2027-keystone-memo.md)** · **[Assurance and governance questions](docs/Outreach/geneva-2027-assurance-questions-note.md)** — *DRAFT*. Two outward-facing discussion artifacts: a bounded package proposal and a lower-commitment question-led note. Neither claims a carrier, partnership, funding, or implementation.
 - **[RAISD exploratory research fit](docs/Outreach/swiss-ai-raisd-fit-note.en.md)** — *DRAFT*. Shareable docking note for testing whether provenance, evidence, contestability, and correction requirements could complement RAISD's research on AI-mediated democratic information; funding and compute are possible later vehicles, not the premise, and no collaboration is claimed.
 - **[Non-Paper](docs/Outreach/non-paper.en.md)** ([DE](docs/Outreach/non-paper.de.md)) · **[Action Plan](docs/Outreach/action-plan.en.md)** ([DE](docs/Outreach/action-plan.de.md)) · **[Postulate](docs/Outreach/postulat.en.md)** ([DE](docs/Outreach/postulat.de.md)) · **[Policy-sprint 1-pager (DE)](docs/Outreach/policy-sprint-1pager.de.md)** · **[Policy-sprint presentation (DE)](docs/Outreach/policy-sprint-praesentation.de.md)** ([EN](docs/Outreach/policy-sprint-presentation.en.md), slides [DE](docs/Outreach/policy-sprint-slides.de.html)/[EN](docs/Outreach/policy-sprint-slides.en.html)) — *DRAFT*. Outreach and parliamentary materials.
 - **[Verified findings](docs/Evidence/verified-findings.md)** · **[Linked sources](docs/Evidence/linked-sources.md)** — *DRAFT*. Source-checked evidence and cited-source relevance.
 - **[Geneva 2027 channel demand](docs/Evidence/geneva-2027-channel-demand.md)** — *DRAFT*. What each Geneva 2027 channel accepts as a contribution, including the live *Road to Geneva* pre-event form and the closed Swissnex fellowship; re-verify before submitting.
+- **[AI liability and insurance evidence](docs/Evidence/ai-liability-and-insurance-evidence.md)** — *EVIDENCE NOTE, 2026-08-06*. Source-graded research on who can compel evidence about AI systems; re-verify time-sensitive claims.
 
 ### AI Assurance & Certification
 
@@ -78,8 +71,9 @@ The trust-and-evidence layer: can a deployed AI show its work, answer for its us
 - **[Evidence-Gated Agents — project overview](docs/Assurance/Concepts/evidence-gated-agents.md)** — *DRAFT, non-normative*. Goals, intended users and possible development paths for AI-assisted decisions, with authority, dynamic evidence examination, controlled release and challenge; current foundations, selected prototype and open research, with flowcharts and fictional receipt examples.
 - **[AI-derived evidence requirements: research questions and evaluation](docs/Assurance/Concepts/evidence-requirements-research.md)** — *DRAFT, non-normative*. AI-derived evidence requirements, separate adequacy review and proposed comparisons of reliability, usefulness and enforcement.
 - **[Charter structure and views](docs/Assurance/Concepts/charter-structure-and-views.md)** · **[User-workflow governance](docs/Assurance/Concepts/user-workflow-governance.md)** · **[Assurance cases](docs/Assurance/Concepts/assurance-cases.md)** · **[Capabilities & Assurance Interface](docs/Assurance/Concepts/capabilities-and-assurance-interface.md)** — *DRAFT*. Concept notes that map obligations, duties, runtime, reader-facing lenses, the obligation→duty assurance-case prototypes, and the demand-side "check" surface.
-- **[Risk and vulnerability audit](docs/Assurance/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/Assurance/Background/what-the-world-has-already-declared.md)** — *DRAFT*. Background reference: the risks the Charter must make inspectable, and the declarations it makes checkable.
-- **[Draft notes](docs/wip/README.md)** — *WORKING NOTES*. Provisional public-safe material not yet anchored into the curated set, including the EU-led ambient/agentic-control proposal, the evidence-backed system-use decision record, runtime proof-of-concept specifications, the graded research pass on AI liability and insurance evidence, bounded external-architecture comparisons, and the discipline map answering the runtime-layer objection.
+- **[Ambient and agentic AI controls](docs/Assurance/Concepts/ambient-agentic-ai-control.md)** · **[Split custody for action records](docs/Assurance/Concepts/split-custody-per-action-records.md)** · **[Representation error and correction](docs/Assurance/Concepts/representation-error-and-correction-routes.md)** — *DRAFT / CONCEPT NOTES*. Proposed control, record-custody, and correction-route designs; none is an operating scheme.
+- **[Risk and vulnerability audit](docs/Assurance/Background/risk-and-vulnerability-audit.md)** · **[What the world has already declared](docs/Assurance/Background/what-the-world-has-already-declared.md)** · **[What the runtime layer adds](docs/Assurance/Background/what-the-runtime-layer-adds.md)** · **[JusticeTree VBE crosswalk](docs/Assurance/Background/justice-tree-vbe-charter-crosswalk.md)** — *BACKGROUND*. Public-source context, objections, comparisons, and limits.
+- **[Runtime implementation specification](https://github.com/robertschaub/ai-charter-runtime/blob/main/docs/spec/runtime-gates-poc-spec.md)** — *CURRENT SPECIFICATION*. The implementation-specific specification and system-use companion now live beside the public runtime code they govern.
 
 ## How to help
 

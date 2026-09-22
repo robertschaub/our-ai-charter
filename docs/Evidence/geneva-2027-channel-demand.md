@@ -1,6 +1,6 @@
 # Geneva 2027 — channel demand (what each channel accepts)
 
-*Compiled from public web sources; channel state re-verified against the official summit and Swissnex pages on 2026-09-22. Companion to the [artifacts roadmap](../Strategy/final-artifacts-roadmap.md). Re-verify before an external submission.*
+*Compiled from public web sources; channel state re-verified against the official summit and Swissnex pages on 2026-09-22. Re-verify before an external submission.*
 
 Of the channels a Swiss public-interest contributor could use, **two have accepted written artifacts** (§§1–2); the official ***Road to Geneva* pre-events programme** (§2b) currently accepts a **hosted event** through its designated form. The official page listed **90 approved pre-events across 15 countries on six continents** on 2026-09-22. Those totals are a changing snapshot, not a project result.
 

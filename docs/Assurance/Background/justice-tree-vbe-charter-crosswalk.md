@@ -1,4 +1,4 @@
-> **Status: WORKING NOTES** — public-source design comparison, not an endorsement, partnership, interoperability claim, or assessment of either implementation.
+*Public-source design comparison, not an endorsement, partnership, interoperability claim, or assessment of either implementation.*
 
 # JusticeTree VBE and Our AI Charter — symmetric runtime crosswalk
 
@@ -127,12 +127,12 @@ These are gaps in the reviewed **public evidence**, not claims about undisclosed
 
 **Our AI Charter**
 
-- [Charter Commitments](../Assurance/Framework/charter-commitments.md) — draft consequential-action baseline.
-- [When Should Runtime AI Governance Interrupt?](../Published/when-should-runtime-ai-governance-interrupt.md) — two clocks, five gates, enforcement boundaries, and limits.
-- [Runtime AI Governance Gets *When* Right — the Harder Question Is *Who Gets to Check?*](../Published/when-vs-who-ai-governance.md) — institutional roles.
-- [User-workflow governance](../Assurance/Concepts/user-workflow-governance.md) — gate, UX, and intervention semantics.
-- [Runtime gates POC specification](runtime-gates-poc-spec.md) — detailed protocol and declared limits.
-- [Split custody for per-action records](split-custody-per-action-records.md) — integrity, content, access, survivability, and omission limits.
+- [Charter Commitments](../Framework/charter-commitments.md) — draft consequential-action baseline.
+- [When Should Runtime AI Governance Interrupt?](../../Published/when-should-runtime-ai-governance-interrupt.md) — two clocks, five gates, enforcement boundaries, and limits.
+- [Runtime AI Governance Gets *When* Right — the Harder Question Is *Who Gets to Check?*](../../Published/when-vs-who-ai-governance.md) — institutional roles.
+- [User-workflow governance](../Concepts/user-workflow-governance.md) — gate, UX, and intervention semantics.
+- [Runtime gates POC specification](https://github.com/robertschaub/ai-charter-runtime/blob/main/docs/spec/runtime-gates-poc-spec.md) — detailed protocol and declared limits.
+- [Split custody for per-action records](../Concepts/split-custody-per-action-records.md) — integrity, content, access, survivability, and omission limits.
 
 **Established control antecedents**
 

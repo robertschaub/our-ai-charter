@@ -12,7 +12,7 @@ _German version: [action-plan.de.md](action-plan.de.md)._
 
 ## Sequence (timeline)
 
-The detailed 30/60/90-day sequence is recorded in the [Initiation Strategy](../Strategy/initiation-strategy.md) (the authoritative version). This short form is for outreach only: keep the ask small, avoid implying a mandate, and route detailed roadmap questions back to the strategy.
+This short form is for outreach: keep the ask small, avoid implying a mandate, and treat detailed sequencing as internal planning rather than a public commitment.
 
 - **0–30 days:** Finalise the Non-Paper; hold first orientation conversations with proponents of an open Swiss model; assess whether an organisational neutral-convenor route would add value. Goal: three credible supporters and a public-interest stakeholder picture. The published LinkedIn article is an existing public signal, but no substitute for direct conversations.
 - **31–60 days:** Decide whether and with whom to set up a neutrally moderated clarification process (pre-sprint) around a Geneva 2027 Public AI Governance & Evidence Package.

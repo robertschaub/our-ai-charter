@@ -107,7 +107,7 @@ What exists is a public, inspectable body of work:
 - a [federated infrastructure architecture](https://robertschaub.github.io/our-ai-charter/Infrastructure/architecture/) and [pilot sequence](https://robertschaub.github.io/our-ai-charter/Infrastructure/pilot-and-rollout/);
 - draft [Charter obligations](https://robertschaub.github.io/our-ai-charter/Assurance/Framework/charter-commitments/);
 - a first [evaluation method](https://robertschaub.github.io/our-ai-charter/Assurance/Protocol/grounding-faithfulness-and-contestability/); and
-- a public [strategy](https://robertschaub.github.io/our-ai-charter/Strategy/initiation-strategy/) and [evidence base](https://robertschaub.github.io/our-ai-charter/Evidence/verified-findings/) that can be criticised, corrected, or stopped if it does not earn support.
+- a public [strategy](https://robertschaub.github.io/our-ai-charter/network-overview/) and [evidence base](https://robertschaub.github.io/our-ai-charter/Evidence/verified-findings/) that can be criticised, corrected, or stopped if it does not earn support.
 
 That maturity boundary is not a disclaimer at the edge of the project. It is part of the proposition: public-interest AI governance should distinguish clearly between what is proposed, what has been independently checked, and what is actually operating.
 
