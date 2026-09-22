@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 name: Deploy docs to GitHub Pages
 
 on:

@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: MIT
 # our-ai-charter is a PUBLIC repository. This guard blocks commits that add
 # content carrying an internal/confidential/private banner — a tool-agnostic backstop
 # for agents without their own commit guard (Codex, Gemini, Copilot).

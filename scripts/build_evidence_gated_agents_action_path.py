@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: CC-BY-4.0
+# SPDX-License-Identifier: MIT
 """Build the public Evidence-Gated Agents action-path PDF."""
 
 from pathlib import Path

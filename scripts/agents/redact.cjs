@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MIT
 'use strict';
 
 // Deterministic privacy backstop for outbound model calls.

@@ -1,8 +1,9 @@
+# SPDX-License-Identifier: MIT
 # MkDocs configuration for the Our AI Charter website.
 #
 # Published content lives in docs/ (MkDocs requires docs_dir to be a child of
 # the config file's directory). Repo-meta files (README, AGENTS, CHANGELOG,
-# CONTRIBUTING, SECURITY, LICENSE, NOTICE) stay at the repo root and are not
+# CONTRIBUTING, SECURITY, LICENSE.md, LICENSES, NOTICE) stay at the repo root and are not
 # part of the website. Navigation is defined explicitly below.
 
 site_name: Our AI Charter™
@@ -18,7 +19,7 @@ docs_dir: docs
 site_dir: site
 
 copyright: >
-  Document texts © Robert Schaub and contributors, licensed CC BY 4.0. The initiative's name and any trust mark are reserved.
+  Original documentary content © Robert Schaub and contributors, licensed CC BY 4.0. Repository-support software is MIT licensed. The initiative's name and any trust mark are reserved.
 
 extra_css:
   - stylesheets/extra.css

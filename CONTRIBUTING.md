@@ -24,3 +24,11 @@ Builders, funders, convenors, supporters, and policy backers — see **[How to t
 - Propose a change to a specific document via a pull request.
 
 Be specific, cite sources, and prefer the smallest concrete improvement over a grand rewrite.
+
+## Licensing contributions
+
+By submitting a contribution for inclusion, you agree that it may be
+distributed under the license assigned to its destination in
+[`LICENSE.md`](LICENSE.md), and you confirm that you have the necessary rights.
+You retain copyright in your contribution. Identify third-party material and
+its applicable terms in the contribution.

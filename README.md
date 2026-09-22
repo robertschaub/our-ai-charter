@@ -91,4 +91,6 @@ The repository-specific **[privacy notice](docs/privacy.md)** is a draft prepare
 
 ## License
 
-Document texts are licensed **[CC BY 4.0](LICENSE)**. The initiative's name and any trust mark are **reserved** — see **[NOTICE](NOTICE)**.
+See the **[license map](LICENSE.md)**: original documentary content is licensed
+**CC BY 4.0**, repository-support software is licensed **MIT**, and the
+initiative's name and any trust mark are **reserved** under **[NOTICE](NOTICE)**.
