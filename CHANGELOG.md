@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-22
 
+- **Unused F-35A alternative feed images removed** — Deleted the repository-only alternative-image appendices from both language variants and removed their now-orphaned image and prompt files. The published post image, article cover, article text and related links remain unchanged.
+
 - **Published article rendering corrected** — Rendered every hashtag row as ordinary text instead of a Markdown heading or inline-code span. Standardized all 15 mirrors to exactly three consistently placed `***` separators—after the publication line, after the post and after the picture—and removed blank source lines around each cover while preserving image accessibility text and GitHub-compatible rendering.
 
 - **Published article openings simplified** — Standardized all 15 article pages to show only the LinkedIn publication line, post content, picture and article content in that order, separated by horizontal rules. Removed redundant status narratives, section labels and repeated post-link captions while preserving the publication/translation distinction and substantive article and discussion content; aligned the README and contributor guidance with the lean format.
