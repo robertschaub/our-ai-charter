@@ -27,6 +27,8 @@ extra_css:
 theme:
   name: material
   language: en
+  # Use Material's system-font stack; do not send visitors to Google Fonts.
+  font: false
   icon:
     repo: fontawesome/brands/github
   features:
