@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: MIT */
-/* Widen the shared page grid while keeping readable margins on large screens. */
+/* Let the page grid grow with the viewport. */
 .md-grid {
-  max-width: 80rem;
+  max-width: none;
 }
 
 /* ==========================================================================
