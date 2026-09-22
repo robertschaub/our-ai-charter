@@ -13,7 +13,7 @@ the content-specific assignments below.
 |---|---|---|
 | Written documentation and guidance, including Markdown documents, `NOTICE`, authored HTML publications and presentations, issue and pull-request templates, and agent or skill instructions under `.agents/`, `.claude/agents/`, `.claude/skills/`, and `.codex/agents/` | [Creative Commons Attribution 4.0 International](LICENSES/CC-BY-4.0.txt) | `CC-BY-4.0` |
 | Project graphics, publication artifacts, and their accompanying production records under `docs/`, `output/`, and `outputs/`, excluding the reserved brand identifiers described below unless an adjacent notice says otherwise | [Creative Commons Attribution 4.0 International](LICENSES/CC-BY-4.0.txt) | `CC-BY-4.0` |
-| Repository-support software and machine configuration, including `scripts/`, `.githooks/`, `.github/workflows/`, `docs/stylesheets/`, `.claude/settings.json`, `.codex/hooks.json`, `mkdocs.yml`, `package-lock.json`, `.gitattributes`, `.gitignore`, and `.github/CODEOWNERS` | [MIT License](LICENSES/MIT.txt) | `MIT` |
+| Repository-support software and machine configuration, including `scripts/`, `.githooks/`, `.github/workflows/`, `docs/stylesheets/`, `.claude/settings.json`, `.codex/hooks.json`, `mkdocs.yml`, `.gitattributes`, `.gitignore`, and `.github/CODEOWNERS` | [MIT License](LICENSES/MIT.txt) | `MIT` |
 
 The Creative Commons license applies only to copyright and related rights held
 by the respective contributor. Third-party material retains its own license or
