@@ -1,4 +1,9 @@
 /* SPDX-License-Identifier: MIT */
+/* Widen the shared page grid while keeping readable margins on large screens. */
+.md-grid {
+  max-width: 1440px;
+}
+
 /* ==========================================================================
    Our AI Charter — custom styles
    ========================================================================== */

@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-22
 
+- **Site content widened** — Increased the MkDocs Material page grid limit to 1440px so articles have more room on large screens.
+
 - **Privacy notice draft simplified** — Disabled visitor-side Google Fonts requests in favour of Material's system-font stack. Tightened the draft to current website, GitHub, browser-local, and Infomaniak email processing; removed the personal postal address, hypothetical future services, generic security and children sections, and incomplete GDPR boilerplate; and stated the limit of GitHub's published Pages-specific location information. Draft status is unchanged.
 
 - **Unused F-35A alternative feed images removed** — Deleted the repository-only alternative-image appendices from both language variants and removed their now-orphaned image and prompt files. The published post image, article cover, article text and related links remain unchanged.
