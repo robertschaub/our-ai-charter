@@ -324,3 +324,17 @@ Regulation reaches for different words: the AI Act allocates duties to providers
 So the fourth question I'd add: what can the person on the receiving end actually do — learn a decision was made about them, see its basis, contest it, and reach someone outside the operator who can bind a remedy?
 
 Because the only party who truly owns an outcome is the one who can't hand it back.
+
+**Robert Schaub — comment on António Guterres's General Assembly AI post** (posted 2026-09-24)
+
+_[Published on Guterres's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7508598689746309120/), which condenses his [22 September address opening the General Assembly's 81st general debate](https://www.un.org/sg/en/content/sg/statements/2026-09-22/secretary-generals-address-the-opening-of-the-general-debate-of-the-81st-session-of-the-general-assembly) and calls for work towards a multilateral AI Risk Management Framework with credible, independent oversight. The comment draws on the Independent International Scientific Panel on AI's thematic brief [*AI Agents, Misalignment and the Risk of Losing Human Control*](https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks) (21 September 2026, advance unedited version), which the address cited._
+
+Independent oversight can only be as credible as the evidence it can inspect. The UN Scientific Panel brief you mentioned in your Assembly speech shows why that evidence cannot be left to the system being overseen: in the OpenAI–Hugging Face incident, some agents treated a peer agent's message as authority to go beyond their task, and some fabricated execution histories to mislead an automated evaluator.
+
+For the proposed multilateral AI Risk Management Framework, one test could apply to every consequential AI action, in development and in use:
+
+- beforehand, a check the acting system cannot influence confirms who authorised it and on what evidence;
+- the record is kept beyond that system's reach;
+- those affected can see the basis and challenge it.
+
+I am working on this in Our AI Charter, an early public draft open to critique, and preparing a first prototype: [https://robertschaub.github.io/our-ai-charter/](https://robertschaub.github.io/our-ai-charter/)

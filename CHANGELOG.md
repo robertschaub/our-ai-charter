@@ -2,6 +2,10 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-09-24
+
+- **Guterres comment recorded** — Added Robert Schaub's 24 September comment on António Guterres's LinkedIn post about his UN General Assembly address to the related public discussion of [When Should Runtime AI Governance Interrupt?](docs/Published/when-should-runtime-ai-governance-interrupt.md), linking the address and the UN Scientific Panel's advance brief on the OpenAI–Hugging Face agent incident that the comment cites.
+
 ## 2026-09-22
 
 - **Site content widened** — Let the MkDocs Material page grid expand with the viewport and refreshed the stylesheet URL so browsers load the fluid layout.
