@@ -1,7 +1,5 @@
 # Privacy notice
 
-Last updated: 22 September 2026
-
 Our AI Charter is a public research and documentation project. Its website is a static GitHub Pages site. It has no user accounts, submission forms, payment functions, advertising, project-controlled audience analytics, or externally hosted fonts or media.
 
 ## 1. Controller and scope
