@@ -1,37 +1,29 @@
-# Licensing
+# our-ai-charter licensing
 
-This repository uses licenses by content type. The full license texts are in
-[`LICENSES/`](LICENSES/).
+Full unchanged texts: [GNU AGPL version 3](LICENSES/AGPL-3.0-only.txt) and [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt). The root [LICENSE](LICENSE) repeats CC BY-SA 4.0; the material assignments below determine which licence applies. AGPL assignments are version 3 only.
 
-The root [`LICENSE`](LICENSE) repeats the canonical CC BY 4.0 text so GitHub
-can detect the repository's dominant documentary license. It does not override
-the content-specific assignments below.
+| Original material | Licence |
+|---|---|
+| General Charter texts, documentary specifications, guidance, publications, diagrams, original graphics, README files, issue/PR templates and agent/skill instructions | CC BY-SA 4.0 |
+| Authored HTML publications and presentations, including their embedded presentation styles/scripts; original documentary production records in `docs/`, `output/` and `outputs/` | CC BY-SA 4.0 |
+| Reusable repository-support software in `scripts/`, `.githooks/`, `.github/workflows/`, `docs/stylesheets/`; build/configuration files including `mkdocs.yml`, `.claude/settings.json`, `.codex/hooks.json`, `.gitattributes`, `.gitignore`, `.github/CODEOWNERS` | AGPL-3.0-only |
 
-## License map
+The explicit authored-HTML assignment above governs those complete publication files. Reusable software in the listed software paths remains AGPL-3.0-only.
 
-| Material | License | SPDX identifier |
-|---|---|---|
-| Written documentation and guidance, including Markdown documents, `NOTICE`, authored HTML publications and presentations, issue and pull-request templates, and agent or skill instructions under `.agents/`, `.claude/agents/`, `.claude/skills/`, and `.codex/agents/` | [Creative Commons Attribution 4.0 International](LICENSES/CC-BY-4.0.txt) | `CC-BY-4.0` |
-| Project graphics, publication artifacts, and their accompanying production records under `docs/`, `output/`, and `outputs/`, excluding the reserved brand identifiers described below unless an adjacent notice says otherwise | [Creative Commons Attribution 4.0 International](LICENSES/CC-BY-4.0.txt) | `CC-BY-4.0` |
-| Repository-support software and machine configuration, including `scripts/`, `.githooks/`, `.github/workflows/`, `docs/stylesheets/`, `.claude/settings.json`, `.codex/hooks.json`, `mkdocs.yml`, `.gitattributes`, `.gitignore`, and `.github/CODEOWNERS` | [MIT License](LICENSES/MIT.txt) | `MIT` |
+## Rights and alternative licences
 
-The Creative Commons license applies only to copyright and related rights held
-by the respective contributor. Third-party material retains its own license or
-other applicable terms and should be identified where it appears.
+Robert Schaub remains the sole copyright holder of his own protectable original contributions. Other contributors retain copyright in theirs. These grants cover only rights controlled by the relevant rights holder; acting for FactHarbor Verein does not itself transfer copyright.
 
-Some graphics may be machine-generated or machine-assisted, and their
-copyright status may vary by jurisdiction. Any CC BY 4.0 grant covers only
-rights actually held by the respective contributor.
+Commercial use is permitted when it complies with the applicable public licence. Robert may separately grant alternative permissions, including closed-use permissions, for rights he owns or is authorised to license. Their scope, duration and compensation are negotiated individually in writing. No alternative licence is promised or granted by this notice.
 
-An explicit path assignment in the table governs the whole file. In particular,
-authored HTML publications and presentations remain CC BY 4.0 even when they
-contain embedded presentation styles or scripts; reusable code in the listed
-software paths is MIT licensed.
+Contributions by people other than Robert Schaub require explicit acceptance of the [contributor copyright agreement](CONTRIBUTOR-AGREEMENT.md) for the identified material. It provides nonexclusive public- and alternative-licensing authority without transferring ownership. Third-party rights must be cleared separately.
 
-Contributors retain copyright in their contributions and license them under
-the license assigned to the destination material above. The initiative name
-and any trust mark, badge, certification name, or associated brand identity
-are not licensed for reuse; see [`NOTICE`](NOTICE).
+## Scope
 
-A CC BY 4.0 copyright license for a graphic does not grant trademark or other
-brand-identity rights in a name or mark that it contains.
+The standard licence texts are unchanged. AGPL source obligations arise under its distribution and modified-network-interaction provisions. CC BY-SA governs protected documentary expression and shared adaptations. Neither licence requires every private productive use or independent implementation of ideas to be published. No additional approval or publication condition is imposed by this map.
+
+Material type governs over a directory default: documentary README files in software directories use CC BY-SA; executable code and operative configuration in documentation directories use AGPL. Explicit third-party notices take precedence. Dependencies, quotations, licence texts and other third-party material retain their applicable terms. Generated material is covered only to the extent protectable rights are held.
+
+Robert's original documentary expression incorporated into original project software is also offered under AGPL-3.0-only. Incorporating another author's expression needs compatible permission; CC BY-SA alone is not a direct permission to relicense it under AGPL.
+
+These copyright licences grant no branding or endorsement right in project names, logos or trust marks. Uses permitted independently by law remain unaffected. Preserve required copyright, attribution and third-party notices, including [NOTICE](NOTICE).

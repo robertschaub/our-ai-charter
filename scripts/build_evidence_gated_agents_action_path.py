@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: AGPL-3.0-only
 """Build the public Evidence-Gated Agents action-path PDF."""
 
 from pathlib import Path

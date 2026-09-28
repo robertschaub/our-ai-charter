@@ -27,8 +27,4 @@ Be specific, cite sources, and prefer the smallest concrete improvement over a g
 
 ## Licensing contributions
 
-By submitting a contribution for inclusion, you agree that it may be
-distributed under the license assigned to its destination in
-[`LICENSE.md`](LICENSE.md), and you confirm that you have the necessary rights.
-You retain copyright in your contribution. Identify third-party material and
-its applicable terms in the contribution.
+Contributors other than Robert Schaub retain ownership. Before inclusion, they must explicitly accept the [contributor copyright agreement](CONTRIBUTOR-AGREEMENT.md) for the identified contribution. It grants Robert Schaub nonexclusive permission for public and alternative licensing. Identify third-party material and any required employer or other rights-holder approval. Submission alone is not acceptance.

@@ -2,6 +2,10 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-09-28
+
+- **Licensing clarified** — Original software uses AGPL-3.0-only and original documentary material uses CC BY-SA 4.0, with unchanged standard texts, a material-based scope map and an explicit permission requirement for other contributors covering public and individually agreed alternative licensing.
+
 ## 2026-09-24
 
 - **Guterres comment recorded** — Added Robert Schaub's 24 September comment on António Guterres's LinkedIn post about his UN General Assembly address to the related public discussion of [When Should Runtime AI Governance Interrupt?](docs/Published/when-should-runtime-ai-governance-interrupt.md), linking the address and the UN Scientific Panel's advance brief on the OpenAI–Hugging Face agent incident that the comment cites.
@@ -20,7 +24,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 - **Public working tree organized by durable subject** — Removed the active `docs/Strategy/` and `docs/wip/` sections without renaming `docs/Published/`. Promoted current public evidence, concepts, background and outreach drafts into their subject folders; moved the runtime implementation specifications beside the public runtime code; and removed operational strategy, dated snapshots, handoffs and retirement stubs from the active public tree. Git history remains the public version record. As an accepted consequence, the two former `docs/wip/` empathy redirect URLs no longer resolve; their current articles remain under `docs/Published/`.
 
-- **Repository licensing scoped by content type** — Retained CC BY 4.0 for original documentary content, canonicalized its legal text and restored a root copy for GitHub detection; assigned MIT to repository-support software and machine configuration; reserved the initiative name and trust marks; added SPDX headers; removed an empty `package-lock.json` stub that pinned no dependencies, together with its map entry; and made mixed-file, production-record, machine-generated-media, contribution and third-party-material terms explicit.
+- **Repository licensing scoped by content type** — Canonicalized the legal texts, restored a root `LICENSE` copy for GitHub detection, reserved the initiative name and trust marks, added SPDX headers, removed an empty `package-lock.json` stub that pinned no dependencies, and made third-party-material terms explicit.
 - **Public disclosure and freshness cleanup prepared** — Removed unsupported public assertions about a July scoping conversation; retired the mixed actor directory and person-level relationship map from the public tree while preserving Git history; moved their complete working copies to the private Charter repository. The public privacy draft now keeps association approval work in private administration while retaining the registered service address by maintainer decision.
 - **Mutable routes refreshed** — Updated the live *Road to Geneva* pre-event route, the closed Swissnex cohort channel, and expired Prototype Fund, Swiss AI Call 4, and European AI & Society Fund opportunities from official sources. Regenerated the RAISD research-fit PDF without upcoming-deadline language, aligned the homepage and roadmap with the current EGA focus, and marked Public AI technical/legal research as a dated July 2026 snapshot with repaired source links.
 

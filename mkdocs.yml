@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: AGPL-3.0-only
 # MkDocs configuration for the Our AI Charter website.
 #
 # Published content lives in docs/ (MkDocs requires docs_dir to be a child of
@@ -19,7 +19,7 @@ docs_dir: docs
 site_dir: site
 
 copyright: >
-  Original documentary content © Robert Schaub and contributors, licensed CC BY 4.0. Repository-support software is MIT licensed. The initiative's name and any trust mark are reserved.
+  Original documentary content © Robert Schaub and contributors, licensed CC BY-SA 4.0. Repository-support software is AGPL-3.0-only licensed. The initiative's name and any trust mark are reserved.
 
 extra_css:
   - stylesheets/extra.css?v=20260922-3

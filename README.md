@@ -85,6 +85,4 @@ The repository-specific **[privacy notice](docs/privacy.md)** is a draft prepare
 
 ## License
 
-See the **[license map](LICENSE.md)**: original documentary content is licensed
-**CC BY 4.0**, repository-support software is licensed **MIT**, and the
-initiative's name and any trust mark are **reserved** under **[NOTICE](NOTICE)**.
+Original software is licensed under GNU AGPL version 3 only; original documentation and graphics use CC BY-SA 4.0. See [LICENSE.md](LICENSE.md) for the scope and third-party exceptions. Robert Schaub may separately agree alternative licences for rights he controls.
