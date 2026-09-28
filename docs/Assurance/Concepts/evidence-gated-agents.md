@@ -1,6 +1,6 @@
 # Evidence-Gated Agents
 
-*Project overview and development direction. EGA is at an early stage; this page explains its goals and does not define implementation obligations.*
+*Project overview and development direction. EGA is at an early stage; this page explains its goals and does not define implementation obligations. It does not change ai-charter-runtime's adopted specification, acceptance criteria or milestone scope.*
 
 <a id="evidence-gated-agents-aspiration-and-test"></a>
 
@@ -27,13 +27,13 @@ The central rule is: **before AI gives a consequential answer or takes a consequ
 
 The intended approach connects five responsibilities:
 
-1. **Establish authority and limits.** Accountable people define who may do what, for which purpose, using which data and tools. The basis of that authority must itself be reviewable.
+1. **Establish and verify authority.** Accountable people define and document who may authorise what, on which basis and through which delegation. Examine evidence that the issuer has the relevant authority and that the mandate covers the exact proposal, purpose, data, tools and limits. Check whether permission has expired, changed or been revoked. The authority basis itself must remain reviewable.
 2. **Use permitted information and examine the evidence.** Check both whether a source may be used and what it can establish. Make material claims, assumptions, supporting evidence, counterevidence and uncertainty visible. Assess whether that evidence is current and sufficient for the particular proposed use.
 3. **Control what proceeds.** Checks outside the acting model govern whether the exact proposal may be released or executed. Before acting, the executing service requests a fresh verification of the approval and checks that the intended action matches it.
 4. **Make the outcome inspectable.** Provide an accessible record connecting the answer or action, authority, evidence, decision and actual outcome, with access appropriate to the people involved.
 5. **Support challenge and correction.** Let affected people question the basis, route disputes to responsible reviewers, and revisit decisions when evidence or authority changes.
 
-The acting AI cannot authorise itself. Software can enforce recorded rules and decisions, while evidence adequacy and legitimate authority require accountable judgment. Human involvement should focus on decisions where a person can make a meaningful difference; an approval click cannot supply missing evidence.
+Authority checks are evidence checks too. Evidence supporting a proposal and evidence establishing permission to release or execute it answer different questions; neither can substitute for the other. The acting AI cannot authorise itself. Software can enforce recorded rules and decisions, while evidence adequacy and legitimate authority require accountable judgment. Human involvement should focus on decisions where a person can make a meaningful difference; an approval click cannot supply missing evidence.
 
 As an illustrative future use, a procurement team might review an AI-generated supplier recommendation. A claim about guaranteed performance would need evidence addressing that guarantee; a generally positive report would not settle it. If that premise remained unsupported, the recommendation should be held or narrowed and checked again. The record should show the evidence, who authorised the next step and what actually happened.
 
@@ -111,7 +111,7 @@ flowchart TD
 
 *Status on 19 September 2026: this integration is not implemented. The trigger fixtures and routing-record schema, FactHarbor API contract, release rule and Runtime compatibility are open preparation work; the homepage's [where the work stands](../../index.md#where-the-work-stands) carries the current status.*
 
-FactHarbor does not need to reproduce the agent's wording and does not decide the EGA release. It supplies the evidence record; the gate applies the release rule. A pending FactHarbor job, contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Completion never causes an automatic later release: a retry is a new attempt through all checks.
+FactHarbor does not need to reproduce the agent's wording and does not decide the EGA release. A predefined EGA evidence rule evaluates whether the completed result sufficiently supports the proposed decision. A pass proceeds to Commit; a pending job, contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Passing this rule does not replace authority or disclosure checks, establish the legitimacy of the mandate, or authorise a resulting action. Completion never causes an automatic later release: a retry is a new attempt through all checks.
 
 **Why Commit?** The service rechecks the bound request, decision, recipient and evidence result immediately before release. A changed or narrower decision cannot reuse an earlier approval; it must start a new attempt through every check.
 
