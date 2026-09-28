@@ -85,4 +85,4 @@ The repository-specific **[privacy notice](docs/privacy.md)** is a draft prepare
 
 ## License
 
-Original software is licensed under GNU AGPL version 3 only; original documentation and graphics use CC BY-SA 4.0. See [LICENSE.md](LICENSE.md) for the scope and third-party exceptions. Robert Schaub may separately agree alternative licences for rights he controls.
+Original software is licensed under GNU AGPL version 3 only; original documentation and graphics use CC BY-SA 4.0. See [Licensing guide](LICENSING.md) for the scope and third-party exceptions. Robert Schaub may separately agree alternative licences for rights he controls.

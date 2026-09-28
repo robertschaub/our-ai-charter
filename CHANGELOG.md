@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-28
 
+- **Licensing guide renamed** - Renamed the licence assignment guide to `LICENSING.md` and updated links to distinguish it from the standard licence text. Licence terms and material assignments are unchanged.
+
 - **Licensing clarified** — Original software uses AGPL-3.0-only and original documentary material uses CC BY-SA 4.0, with unchanged standard texts, a material-based scope map and an explicit permission requirement for other contributors covering public and individually agreed alternative licensing.
 
 ## 2026-09-24
