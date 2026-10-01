@@ -74,10 +74,10 @@ Use this repository for public Charter outputs, including authorized cross-repos
 
 ## GitHub repository posture
 
-- Repository visibility is **public**; non-public material belongs in a private administrative repository.
+- Repository visibility is **public**; handle non-public material only within the task's authorized access and disclosure scope.
 - Only the maintainer account should have direct repository access. Do not add collaborators, write deploy keys, webhooks, or GitHub Apps without explicit maintainer approval.
 - Public issues and pull requests are enabled for feedback. The website is built with **MkDocs Material** from the Markdown under `docs/` and published to GitHub Pages by [`.github/workflows/deploy-docs.yml`](.github/workflows/deploy-docs.yml) on every push to `main` (Pages source = "GitHub Actions"). The Markdown documents stay authoritative — the site is a presentation layer over them. Status banners appear on normative or outreach drafts; published article mirrors use the compact publication/post/picture/article opening defined above; evidence, background, and navigational pages carry neither. Wiki and Projects should stay disabled. GitHub Actions must stay enabled for the Pages build (official `actions/*` plus `mkdocs build`); editing that build pipeline is fine, but do not add unrelated workflows unless the maintainer requests them.
-- Do not copy FactHarbor's xWiki XAR import/export workflow or its bespoke viewer into this repo. The document set is small enough that MkDocs Material's built-in navigation and search suffice; keep the Markdown authoritative.
+- Keep Markdown authoritative. Use MkDocs Material's built-in navigation and search; do not add a parallel documentation publication system.
 - `main` should be protected against force-pushes and deletion. Personal-account repositories cannot restrict protected-branch push access to a named user, so the practical control is keeping collaborators and write-capable integrations empty.
 - GitHub secret scanning, push protection, Dependabot vulnerability alerts, and private vulnerability reporting should stay enabled.
 
@@ -117,3 +117,7 @@ The limited documentation-support tooling includes small helper scripts under [`
 ## Platform
 
 Windows. Use **PowerShell-compatible** commands (`$env:VAR`, not `$VAR`; `$null`, not `/dev/null`; backtick for line continuation).
+
+## Documentation sources
+
+Keep public setup, implementation contracts and contribution instructions usable from this checkout alone. Before changing document authority or retiring records, read any task-supplied reference brief and preserve current rules, unresolved work and provenance. Use additional material only within the task's explicit access and disclosure scope. Keep local reference locations, confidential records and dependencies on unpublished material out of public files and generated outputs.
