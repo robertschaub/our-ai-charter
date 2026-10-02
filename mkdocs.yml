@@ -22,7 +22,7 @@ copyright: >
   Original documentary content © Robert Schaub and contributors, licensed CC BY-SA 4.0. Repository-support software is AGPL-3.0-only licensed. The initiative's name and any trust mark are reserved.
 
 extra_css:
-  - stylesheets/extra.css?v=20260922-3
+  - stylesheets/extra.css?v=20261002-6
 
 theme:
   name: material
@@ -53,15 +53,15 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
