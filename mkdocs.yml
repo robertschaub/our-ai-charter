@@ -22,7 +22,7 @@ copyright: >
   Original documentary content © Robert Schaub and contributors, licensed CC BY-SA 4.0. Repository-support software is AGPL-3.0-only licensed. The initiative's name and any trust mark are reserved.
 
 extra_css:
-  - stylesheets/extra.css?v=20261002-6
+  - stylesheets/extra.css?v=20261002-7
 
 theme:
   name: material

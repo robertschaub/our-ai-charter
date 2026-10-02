@@ -102,17 +102,22 @@
 }
 
 .md-typeset .pillar-list {
-  --pillar-background: #f4f4e5;
-  --pillar-border: #b6b172;
-  --pillar-selected-background: #efefd7;
-  --pillar-selected-border: #9e9c58;
+  --pillar-background: #eaf4e9;
+  --pillar-border: #77a874;
 }
 
-[data-md-color-scheme="slate"] .md-typeset .pillar-list {
-  --pillar-background: #2e3128;
-  --pillar-border: #888855;
-  --pillar-selected-background: #373a2c;
-  --pillar-selected-border: #a6a56c;
+.md-typeset .pillar-list > ol > li:nth-child(3n + 2) {
+  --pillar-background: #fbe9ec;
+  --pillar-border: #be7c88;
+}
+
+.md-typeset .pillar-list > ol > li:nth-child(3n) {
+  --pillar-background: #fcf5df;
+  --pillar-border: #c9ac49;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pillar-list > ol > li {
+  background: color-mix(in srgb, var(--pillar-border) 15%, var(--md-default-bg-color));
 }
 
 .md-typeset .pillar-list > ol > li::before {
@@ -126,11 +131,6 @@
 
 .md-typeset .pillar-list p {
   margin: .2rem 0;
-}
-
-.md-typeset .pillar-list li:has(.pillar-focus) {
-  border-left-color: var(--pillar-selected-border);
-  background: var(--pillar-selected-background);
 }
 
 @media screen and (max-width: 44.9375em) {
