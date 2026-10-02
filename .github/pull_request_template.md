@@ -22,7 +22,7 @@ Why?
 
 - [ ] No private, internal, unpublished-confidential, or personal data is included.
 - [ ] No secrets, credentials, tokens, `.env` files, or local machine artifacts are included.
-- [ ] Personal correspondence and explicitly INTERNAL material stayed in `our-ai-charter-internal`; finance/legal/banking/fundraising/Verein records stayed in `FactHarbor-internal`. Public Charter cooperation/outreach/strategy/governance notes remain here by default.
+- [ ] New content is intentionally public under the task's disclosure authority. Working drafts, correspondence, strategy and confidential administrative records remain in their authorized non-public homes; removing a status marker does not grant publication permission.
 
 ## Verification
 

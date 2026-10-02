@@ -49,9 +49,9 @@ This repository is **public**, and it is the home for current, intentionally pub
 
 ## Where new files go (route by content, not by cwd)
 
-This is the home for current public Charter material, whether published or draft: manifesto, charter, protocol, articles/posts/comments, public background, evidence, concepts, infrastructure, and outward-facing proposals. Route each document to its durable subject folder; unpublished does not itself mean private.
+This is the home for intentionally public Charter material: manifesto, charter, protocol, approved outward-facing drafts, articles/posts/comments, evidence, concepts and infrastructure. New unspecified drafts and working records default to their assigned non-public home. Route public deliverables by audience and task authority, not cwd, filename or absence of an INTERNAL marker.
 
-- Personal DM/email correspondence with individuals acting privately, operational strategy, superseded working records, and material explicitly marked INTERNAL remain in an authorized private home. Official organisational communications are not private merely because unpublished; inspect sensitivity and disclosure authority before use.
+- Personal DM/email correspondence with individuals acting privately, operational strategy, superseded working records, and material explicitly marked INTERNAL remain in an authorized private home. Official organisational communications also require an audience and disclosure check before publication.
 - Confidential finance/legal/banking/fundraising/Verein records, including the Charter's, remain outside this public repo.
 - Never move currently private content here, remove an INTERNAL marker, or commit unclear material on your own judgment. Access permission is not disclosure permission. Keep sensitive content out even temporarily; report a misroute privately rather than choosing an unassigned destination.
 - Use repository-relative/public links only. Public work must be self-contained and must not depend on private checkouts or machine paths.
@@ -109,8 +109,8 @@ The limited documentation-support tooling includes small helper scripts under [`
 
 - `node scripts/agents/invoke-gpt.cjs --prompt "…" [--system "…"] [--model gpt-5.5] [--max-tokens N]` — OpenAI; needs `OPENAI_API_KEY`.
 - `node scripts/agents/invoke-gemini.cjs --prompt "…" [--system "…"] [--model gemini-3.1-pro-preview]` — Google; needs `GOOGLE_GENERATIVE_AI_API_KEY`.
-- `node scripts/agents/invoke-claude.cjs --prompt "…"` — spawns the local `claude` CLI (Opus, max effort); extra `claude` flags pass through.
-- Prompts can be piped via stdin instead of `--prompt`. Set `FH_INVOKE_{GPT,GEMINI,CLAUDE}_DRY_RUN=1` to print the request without sending it.
+- Claude review uses the [subscription invocation procedure](https://github.com/robertschaub/FactHarbor/blob/main/Docs/AGENTS/Policies/Tool_Strengths.md#calling-claude-code-from-codex): explicit user-selected model, subscription authentication check, sanitized child environment, bounded tools and captured result/model verification. Never fall back to API credentials or silently select a model.
+- For the GPT/Gemini helpers, prompts can be piped via stdin instead of `--prompt`. Set `FH_INVOKE_{GPT,GEMINI}_DRY_RUN=1` to print the request without sending it.
 - **Keys** load from the environment or a gitignored `.env.local` / `.env` at the repo root — never commit them (`.env*`, `*.key`, `*.pem` are already ignored).
 - These make **plain, ungrounded** calls (no web search). For a *grounded* review, enable the model's own web/search tooling instead.
 
@@ -121,3 +121,9 @@ Windows. Use **PowerShell-compatible** commands (`$env:VAR`, not `$VAR`; `$null`
 ## Documentation sources
 
 Keep public setup, implementation contracts and contribution instructions usable from this checkout alone. Before changing document authority or retiring records, read any task-supplied reference brief and preserve current rules, unresolved work and provenance. Use additional material only within the task's explicit access and disclosure scope. Keep local reference locations, confidential records and dependencies on unpublished material out of public files and generated outputs.
+
+Use the current task or a verified, human-adopted workspace profile for cross-repository scope. Durable working notes, detailed investigations, handoffs and unpublished prototypes use their assigned non-public record home unless clearly authorized as public. Existing public source, tests, operative configuration and contribution contracts stay here. A public cwd or a missing confidentiality marker does not select a public destination. If an assigned record home is unavailable, preserve permitted pending work outside this checkout and report the persistence gap; never recreate a private collection here.
+
+Select the primary checkout for the main deliverable. Explicitly read root and nested instructions for every target repository, run commands with an explicit working directory, and verify each tool's served source/revision. Additional-directory access does not load all instructions, hooks or skills; if required write controls cannot be verified, continue that write in a fresh target-primary session. A code worktree does not isolate a paired documentation checkout. Keep separate revisions and one owner per shared record.
+
+Contributors without an assigned private home may use the public record paths for intentionally public, public-safe work; uncertain or non-public material stays in the authorized task/chat scope.

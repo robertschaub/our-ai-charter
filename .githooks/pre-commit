@@ -23,8 +23,8 @@ done
 if [ -n "$violations" ]; then
 	echo "pre-commit BLOCKED: confidentiality marker found in this PUBLIC repo:" >&2
 	printf '%s' "$violations" >&2
-	echo "Move the file to a private sibling (our-ai-charter-internal for Charter material; FactHarbor-internal for finance/legal/Verein), or remove the internal banner if it is genuinely public." >&2
-	echo "Deliberate override: git commit --no-verify" >&2
+	echo "Keep this material outside the public checkout in its authorized record home. Removing a confidentiality banner does not grant publication permission." >&2
+	echo "Deliberate override (only with explicit task authority): git commit --no-verify" >&2
 	exit 1
 fi
 exit 0
