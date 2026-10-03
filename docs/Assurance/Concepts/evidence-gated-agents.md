@@ -156,4 +156,4 @@ Success means useful, supported answers and actions with fewer unjustified relea
 
 - <a id="aspiration-mostly-generic-evidence-gated-agents"></a> [AI-derived evidence requirements](evidence-requirements-research.md#aspiration-mostly-generic-evidence-gated-agents)
 - <a id="test-of-the-aspiration"></a> [Research questions and evaluation](evidence-requirements-research.md#test-of-the-aspiration)
-- <a id="path-from-the-prototype-to-wider-use"></a> [Prototype-to-research coverage](evidence-requirements-research.md#path-from-the-prototype-to-wider-use)
+- <a id="path-from-the-prototype-to-wider-use"></a> [What the first prototype can tell us](evidence-requirements-research.md#path-from-the-prototype-to-wider-use)

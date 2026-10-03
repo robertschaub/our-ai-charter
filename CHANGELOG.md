@@ -4,6 +4,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-03
 
+- **EGA research page clarified** — Separated research from prototype evaluation, explained check inputs and outputs, added related research, structured-method comparisons and a decision-sufficiency example, and retained comparison rules, protocol-publication commitments and existing section links. Made explicit that research goals do not amend Runtime's adopted specification, acceptance criteria or milestones.
 - All five homepage pillars now share Pillar 3's pale yellow background and gold border, including its dark-mode treatment.
 - Pillar 1 is highlighted with a gold outline and a "Current Focus" badge.
 

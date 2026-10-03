@@ -1,66 +1,105 @@
-# AI-derived evidence requirements: research questions and evaluation
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+# Evidence requirements: what EGA needs to demonstrate
 
-*Non-normative concept note and proposed evaluation, 2026-09-13. Reliability and generality remain to be demonstrated; this note does not define implementation obligations.*
+**Can AI work out what evidence a decision needs—and notice when something important is missing?** This research strand of [Evidence-Gated Agents (EGA)](evidence-gated-agents.md) asks how to reduce unsupported answers while preserving useful, well-supported ones.
 
-This research strand is part of [Evidence-Gated Agents](evidence-gated-agents.md). The project overview explains its wider goals, intended users and possible development paths.
+A supplier may have good references and a fast average response time. Both facts could be correct while a recommendation requiring a guaranteed two-hour response remains unsupported. A useful answer would identify the missing contractual guarantee, explain what can still be concluded and qualify or withhold that recommendation. Here the criterion is stated; the harder research question is whether the workflow finds relevant premises when they are implicit.
 
-## Aspiration: mostly generic evidence-gated agents
+<a id="aspiration-mostly-generic-evidence-gated-agents"></a>
 
-Evidence-Gated Agents aims to use AI to determine what must be established before a consequential answer or action is justified, and to assess whether the available evidence meets those requirements.
+## The research question
 
-“Mostly generic” means that the same process should work across different questions without people writing a bespoke evidence checklist for each one. Accountable people establish permissions, acceptance policies and relevant domain principles. AI applies those rules to the particular task.
+The ambition is to handle unfamiliar questions without people writing a bespoke evidence checklist for each one. Accountable people still establish permissions, acceptance policies and domain principles.
 
-The intended process is to:
+The proposed workflow identifies material claims, assumptions and dependencies; proposes evidence requirements; and has a **separate review challenge their adequacy**, including what the first pass missed. New or revised items receive reviewed requirements before searching permitted sources for support, counterevidence and gaps.
 
-1. Identify material claims, assumptions and dependencies in the proposed answer or action.
-2. Propose the evidence requirements needed to justify them.
-3. Have a separate review challenge whether the requirements adequately cover the proposed answer or action, including material claims, assumptions or dependencies omitted in step 1. New or revised inventory items return to step 2 and receive reviewed evidence requirements before the search in step 4.
-4. Search permitted sources and assess supporting evidence, counterevidence and unresolved gaps.
-5. Apply a separate, deterministic gate that enforces recorded requirements and review outcomes by rule: permit release, require revision or hold the proposal. The gate does not judge evidence adequacy, and a model verdict cannot itself authorize release. Material changes require renewed checks.
+Search may reveal a missing premise or show that a requirement is ill-posed. That discovery returns to requirement proposal and review before further evidence assessment or release. It cannot lower the evidence standard to fit what was found: any relaxed or removed requirement must be justified against the frozen policy, reviewed and recorded.
 
-The aspiration includes discovering requirements the answering assistant overlooked. It also includes recognising when the available evidence cannot support a confident conclusion. Agreement between AI reviewers does not itself establish that their requirements or conclusions are adequate.
+A separate deterministic gate then applies the recorded rule to the requirements, review outcomes and evidence assessment: permit release, require revision or hold the proposal. It makes no semantic judgment of its own, and a model verdict alone cannot authorize release. Material changes require renewed checks. Agreement between reviewers is not proof that their requirements or conclusions are adequate.
 
-## Test of the aspiration
+## What goes into a check—and what comes out?
 
-The central test is whether AI can derive and critically review adequate evidence requirements for unfamiliar tasks, then reduce unsupported releases while preserving useful, supported answers.
+Before the acting model receives a request, checks establish whether that system may be used for the purpose and whether the request and context may be sent to that provider/model. Current permission is checked again when the model's output enters the workflow. Accountable people supply the authority, disclosure rules and acceptance policy; the agent cannot invent these.
 
-Before any evaluated approach receives held-out material, publish a dated evaluation protocol under `docs/Assurance/Protocol/` and identify its Git commit in every run record. Fix the comparisons below, numeric thresholds, scoring and adjudication rules, sample selection, workflow, model configurations and resource limits. Include hashes of the frozen questions, reference requirements, reusable policies and domain context in that protocol commit; preserve failed attempts and report deviations separately.
+Evidence examination takes **the user's request, the agent's exact proposed answer or decision, and the relevant context permitted for this use**. The proposal is checked against the request: factual statements may be correct while the answer still fails to justify the requested decision.
 
-The evaluation should:
+| Check | Inputs | Outputs |
+|---|---|---|
+| **Authority and disclosure** | Request and purpose; exact proposal when available; who is acting and receiving the result; current mandate; information and destination service/provider. | Permission or stop for the relevant step, with reasons. Checks precede the acting-model call, evidence-service submission and release. Permission for one disclosure does not authorize the others. |
+| **Derive evidence requirements** — wider research | Request, exact proposal, permitted context and established domain/acceptance policies. | An inventory of material claims, assumptions and dependencies, with proposed evidence requirements for each. |
+| **Review those requirements** — wider research | The same task and proposal, the inventory and proposed requirements. | An assessment of their adequacy, including missing items, required revisions and unresolved disagreement. Revised items return for review before evidence search. This assessment is not release permission. |
+| **Examine the evidence** | Exact request and proposal, permitted context and sources, and the question whether evidence supports that proposal. In the wider research, reviewed requirements also guide search. | An evidence assessment and report: what supports or opposes each material component, source references, scope limits, uncertainty and known gaps. An incomplete examination remains incomplete; a completed job does not imply sufficient evidence. |
+| **Verify and control release** | The evidence result and applicable rule, exact proposal and recipient, and current authority, disclosure and freshness/binding checks. | Permission to release that exact proposal, or a stop with reasons. The release service checks permission again immediately before making it available. The assessment alone cannot authorize release. |
 
-- **Prevent question-specific checklist leakage.** Freeze reusable policies and domain context before held-out questions are authored or selected. Their authors must be separate from the question authors and have no access to the held-out questions. Permit no question-specific tuning. Include questions across domains with sufficient evidence, missing support, conflicting sources, misleading citations and changed evidence.
-- **Match comparison conditions.** Keep the acting model configuration fixed across approaches. Give each the same available sources, tools and resource limits, counting review-model usage within those limits. Add a human-reference approach: the proposed workflow receives the frozen human requirements instead of AI-derived requirements. Report the human preparation effort separately. Its requirements, outputs and assessor feedback must not reach the AI-derived approaches.
-- **Freeze contestable references and assess complete answers.** Domain-qualified reviewers prepare and freeze reference requirements before the protocol commit, with no exposure to evaluated system outputs. Preserve that version; the frozen adjudication rules may credit justified alternatives. Assess both requirement coverage and every material assertion in the released answer, including undeclared claims. Normalize answer presentation and remove approach-identifying metadata without changing substantive content. Blind reviewers where possible and report where blinding fails, including recognizable requirements or receipts. Record unresolved disagreements.
-- **Measure errors and usefulness together.** Report missed requirements, unsupported releases, unjustified blocking, useful qualified answers, successful reassessment after evidence changes, cost and latency. Record omissions shared by the answering and reviewing agents.
-- **Test enforcement separately.** Attempt release after a failed or omitted check, modification of an approved answer, and reuse of an approval after relevant evidence changes. Blocking these attempts demonstrates enforcement integrity; semantic adequacy requires its own evidence.
+The first prototype uses **human-defined evidence rules** in place of the two research-only steps. FactHarbor supplies an evidence result and report; the gate applies the human-defined rule to that result at verification. The rule is not an additional evidence-service input in the selected prototype.
 
-Each comparison supports a different claim:
+For the gated path, a receipt connects permitted evidence references, reasons and the recorded outcome. An assessment, release permission and actual release are distinct outputs. If release may have occurred but cannot be confirmed, the receipt records that uncertainty and names who must reconcile it. Availability is not proof of reading. Stop notices and receipts disclose only what their audience may see; reasons, previews and references must not expose withheld content or bypass access controls.
 
-| Claim | Comparison and success rule |
+In the supplier example, the input is the proposed recommendation plus the two-hour guarantee criterion and permitted context. An assessment might find references and response-time statistics but no applicable guarantee. The release rule then determines whether that exact recommendation must stop. A qualified or narrower answer is a **new proposal to check**, not an automatic rewrite by the gate. Releasing a recommendation does not authorize a purchase.
+
+<a id="path-from-the-prototype-to-wider-use"></a>
+
+## What the first prototype can tell us
+
+The selected prototype uses **human-defined evidence rules** and a dynamic FactHarbor examination of an exact proposed decision. Authority and disclosure checks precede that examination; a release requires fresh verification of the bound decision, recipient and result. It releases a decision, not a resulting action. **This integration is not yet implemented.**
+
+A preset, versioned trigger selects consequential responses for examination. Other responses follow an ordinary path with authority and disclosure checks and a minimal routing record, but no evidence examination or EGA receipt. Ambiguous routing stops. Misclassifying a consequential response as ordinary is a failure mode to assess.
+
+Its planned evaluation covers enforcement integrity, unsupported releases, unjustified stops, useful qualified answers, missed decision components, language differences, selected repeat-run variation, latency and failures. FactHarbor may miss a consequential component; an allowed release is not proof of completeness. Existing foundations are FactHarbor Alpha and a Runtime proof of concept that exercises gate mechanisms in a synthetic scenario; neither establishes the integration.
+
+The wider research asks whether AI can derive adequate requirements and whether separate requirement review improves them. The first prototype does not establish either capability. Additional domains, organisational sources or action workflows need their own scope, activation decision and evidence. See the [project overview](evidence-gated-agents.md#foundations-and-the-selected-next-step) for the existing foundations and selected direction.
+
+<a id="test-of-the-aspiration"></a>
+
+## What would count as progress?
+
+For the wider research, success means fewer unsupported releases **while keeping useful answers above a predeclared threshold**. Release means making an answer or decision available to its recipient; delivered explanations accompanying a stop are also assessed. Measure and report missed requirements and claims, unsupported releases, omissions shared by the answering and reviewing agents, unjustified blocking, useful qualified answers, successful reassessment after evidence changes, cost and latency.
+
+The comparisons below test different claims. Blanket refusal cannot count as success; neither removing requirement review nor comparing with human requirements alone establishes general requirement derivation. Scoring must distinguish factual support, missing premises and whether the conclusion is justified under the declared task criteria.
+
+An unsupported release includes a released answer whose material conclusion is unjustified, or whose omissions make the decision basis misleading—not only unsupported factual statements. Report results for each kind of failure, including when only one kind improves.
+
+| Research claim | Evidence needed |
 |---|---|
-| **The full workflow improves release quality.** | Compare it with both an ordinary research agent and an agent with a general critique step. Primary success requires the predeclared reduction in unsupported releases against each, while meeting the predeclared usefulness threshold. |
-| **Requirement review adds value.** | Compare the full workflow with the proposed workflow with its requirement-review step removed. Claim an incremental review benefit only if it meets the predeclared requirement-coverage improvement threshold while satisfying the release-quality and usefulness thresholds. |
-| **AI-derived requirements approach the human reference.** | Compare the full workflow with the human-reference approach, reporting gaps in requirement coverage, release quality and usefulness. Treat this as a diagnostic comparison; any claim of matching the reference requires predeclared noninferiority margins. The reference is not an infallible oracle. |
-| **The workflow generalizes within the claimed scope.** | Predeclare the domains or task families covered by the claim. The same frozen workflow must meet the primary release-quality and usefulness success rules within every declared group. Report results and uncertainty for each group; pooled success alone is insufficient. |
+| The full workflow improves release quality | A predeclared reduction in unsupported releases against **each** of two baselines—an ordinary research agent and an agent with general critique—while meeting the predeclared usefulness threshold. |
+| The workflow improves on closely related structured methods | A predeclared reduction in unsupported releases against **each** included structured comparator—task-specific rubric generation and structured rubric-based verification—while meeting the predeclared usefulness threshold under matched conditions. An excluded or incompatible method supports no superiority claim about that method. |
+| Requirement review adds value | Compare the full workflow with the same workflow without requirement review. Meet the predeclared requirement-coverage improvement threshold and the release-quality and usefulness thresholds. |
+| AI-derived requirements approach a human reference | Compare coverage, release quality and usefulness with the proposed workflow using frozen human-prepared requirements in place of AI-derived requirements. This is diagnostic; a claim of matching the reference needs a predeclared maximum acceptable shortfall (a noninferiority margin). The reference is not an infallible oracle. |
+| The workflow generalizes within its claimed scope | Predeclare domains or task families. The same frozen workflow must meet release-quality and usefulness rules in **every** declared group. Report results and uncertainty by group; pooled success is insufficient. |
 
-Blanket refusal cannot count as success. Neither the review ablation nor the human-reference comparison alone establishes generic requirement derivation.
+The original comparisons remain necessary. A claim of progress beyond closely related methods additionally requires the structured comparisons and success rule above. Publish the selection and any adaptation or exclusion rationale before evaluation.
+
+## Related research
+
+Existing work supplies useful methods and comparisons, rather than validation of EGA's proposed combination:
+
+- [FActScore](https://aclanthology.org/2023.emnlp-main.741/) and [SAFE](https://arxiv.org/abs/2403.18802v4) assess individual factual claims against knowledge sources. [ICAT](https://aclanthology.org/2025.findings-acl.693/) also examines coverage of expected aspects. These inform separate measures for support and omissions; factual accuracy alone does not establish decision sufficiency.
+- [AutoSciRub](https://arxiv.org/abs/2608.31076v1), a work-in-progress preprint, derives task-specific rubrics before scientific research and uses them for verification and revision. [DeepVerifier](https://arxiv.org/abs/2601.15808v2) uses structured rubrics and verification feedback to improve research answers. Their methods make them relevant structured comparisons alongside general critique, although their tasks and reported results do not establish EGA's broader claims.
+- A [critical survey of self-correction](https://aclanthology.org/2024.tacl-1.78/) identifies reliable external feedback and fair evaluation as central concerns. Its findings motivate testing the added value of requirement review rather than assuming that another model pass corrects omissions.
+
+The open question is whether the proposed combination improves requirement coverage and justified, useful releases under the declared conditions. Separate tests must establish enforcement integrity.
+
+## Evaluation commitments
 
 Claims of generality must remain limited to the task families, domains and conditions actually tested.
 
-## Path from the prototype to wider use
+Before any approach in the wider research receives held-out material—evaluation questions kept from it during development—publish a dated protocol under `docs/Assurance/Protocol/` in the public Charter repository and cite its Git commit in every run record. Fix the comparisons, numeric thresholds, scoring and adjudication rules, sample selection, workflow, model configurations and resource limits. Include hashes of the frozen questions, reference requirements, reusable policies and domain context in that protocol commit. Preserve failed attempts and report deviations separately.
 
-The dynamic decision-examination path is the selected prototype direction; its API and Runtime integration are not yet implemented. In the table below, **Prototype** means selected for the first integrated experiment, **Later extension** remains outside that prototype, and **Aspiration** identifies research intent whose reliability has not been established.
+<details markdown="1">
+<summary><strong>How the comparisons will remain fair and inspectable</strong></summary>
 
-| Intended step | Exists | Prototype | Later extension | Aspiration |
-|---|---|---|---|---|
-| Identify material decision components and dependencies | No general coverage claim established here | FactHarbor decomposes the exact proposed decision; evaluation compares the result with the complete decision and reports omissions | Additional independent detection with its own acceptance threshold | Reliable identification across unfamiliar decisions and tasks |
-| Propose evidence requirements | No general derivation claim established here | People set the action-specific evidence policy | Organisation-defined policies and authority basis | AI-derived requirements adequate for the proposed use |
-| Separately review adequacy | No adequacy-review capability established by the gate | Outside prototype scope | No implementation commitment | The separate review remains a central research question |
-| Find and assess evidence | FactHarbor Alpha is an existing, separate evidence foundation | One dynamic FactHarbor examination per attempt supplies supporting and opposing evidence, limitations and uncertainty | Governed acquisition using permitted organisation-specific sources and controlled reuse where justified | Reliable assessment across unfamiliar tasks |
-| Enforce checks before release | The separate runtime proof of concept exercises gate mechanisms in a synthetic scenario | One governed real effect type: release of the exact checked decision, with stop and release receipts | Governed agent/tool hops, a fresh authorization and executor check for each external effect, broader lifecycle control and institutional review/remedy | Reliable application across the claimed tasks and scales |
+- **Prevent checklist leakage.** Freeze reusable policies and domain context before held-out questions are authored or selected. Their authors must be separate from question authors and have no access to held-out questions. Permit no question-specific tuning.
+- **Cover different evidence conditions.** Include sufficient evidence, missing support, conflicting sources, misleading citations and changed evidence across the declared domains.
+- **Match conditions.** Keep the acting model configuration, available sources, tools and resource limits the same across approaches; count review-model usage within those limits.
+- **Separate the human reference.** Feed frozen human requirements to the proposed workflow in place of AI-derived requirements. Keep its requirements, outputs and assessor feedback away from AI-derived approaches, and report human preparation effort separately.
+- **Freeze contestable references.** Domain-qualified reviewers prepare and freeze reference requirements before the protocol commit, without exposure to system outputs. Preserve that edition; frozen adjudication rules may credit justified alternatives.
+- **Assess complete answers.** Assess both requirement coverage and every material assertion in the released answer, including undeclared claims. Normalize presentation and remove approach-identifying metadata without changing substance. Blind reviewers where possible and report failures of blinding, including recognizable requirements or receipts; record unresolved disagreements.
+- **Test enforcement separately.** Attempt release after failed or omitted checks, modification of an approved answer, and reuse of an approval after relevant evidence changes. Blocking these attempts demonstrates enforcement integrity; semantic adequacy needs its own evidence.
 
-Existing foundations and the selected prototype direction are described in the [project overview](evidence-gated-agents.md) and the [runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime/blob/cad927a697814b20c327bf61c49b9d38cfc7470e/README.md#honest-limits--read-this-first). They do not establish the integration or generic evidence adequacy.
+</details>
 
-The columns describe coverage, not a delivery sequence. Each extension needs its own scope, activation decision and evidence. One effect type can involve multiple attempts, revisions and releases. Successful gate enforcement does not establish adequate AI-derived requirements or independent adequacy review; those questions retain the separate evaluation described above.
+The [Charter Commitments](../Framework/charter-commitments.md) provide the governing principles; [user-workflow governance](user-workflow-governance.md) describes authority, evidence and action controls. The [Runtime specification](https://github.com/robertschaub/ai-charter-runtime/blob/main/docs/spec/runtime-gates-poc-spec.md) governs the separate, bounded runtime work.
 
-The [Charter Commitments](../Framework/charter-commitments.md) state the governing principles and obligations. The [user-workflow governance model](user-workflow-governance.md) describes the surrounding authority, evidence and action controls. The [runtime gates proof-of-concept specification](https://github.com/robertschaub/ai-charter-runtime/blob/main/docs/spec/runtime-gates-poc-spec.md) defines the bounded runtime work on which this research builds.
+These research goals do not amend ai-charter-runtime's adopted specification, acceptance criteria or milestones. Any Runtime extension requires a separately scoped, reviewed and approved specification or ADR change.
+
+*This revision reorganizes the [earlier research note](https://github.com/robertschaub/our-ai-charter/blob/bb83a2c32ba785f9e10adc38a5217c164e8e54bb/docs/Assurance/Concepts/evidence-requirements-research.md) and adds related-method comparisons, a decision-sufficiency example and an evidence-discovered requirement loop. Its evaluation commitments remain in place.*
