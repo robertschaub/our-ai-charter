@@ -17,7 +17,7 @@ Our AI Charter is an **early public proposal for an international network of ope
 
 <div class="pillar-list" markdown>
 
-1. **[Accountable AI decisions and actions](Assurance/Concepts/evidence-gated-agents.md){ .pillar-focus }**
+1. **[Accountable AI decisions and actions](Assurance/Concepts/evidence-gated-agents.md){ .pillar-focus }** <span class="pillar-focus-badge">Current Focus</span>
 
     Who may authorise a consequential answer or action, on what evidence and within which limits? Its approval, refusal and execution outcome should be inspectable and open to challenge.
 

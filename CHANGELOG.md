@@ -2,6 +2,11 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-10-03
+
+- All five homepage pillars now share Pillar 3's pale yellow background and gold border, including its dark-mode treatment.
+- Pillar 1 is highlighted with a gold outline and a "Current Focus" badge.
+
 ## 2026-10-02
 
 - **Homepage pillar colors aligned** — Applied FactHarbor's green, rose, and yellow card palette to the five connected pillars, with matching borders and dark-mode backgrounds.
