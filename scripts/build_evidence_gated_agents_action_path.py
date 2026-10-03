@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 """Build the public Evidence-Gated Agents action-path PDF."""
 
+from math import hypot
 from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
@@ -15,6 +16,7 @@ from reportlab.pdfgen import canvas
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "output" / "pdf" / "evidence-gated-agents-dynamic-decision-path.pdf"
 TEMP = OUTPUT.with_name("evidence-gated-agents-action-path.rendering.pdf")
+OVERVIEW_URL = "https://github.com/robertschaub/our-ai-charter/blob/main/docs/Assurance/Concepts/evidence-gated-agents.md"
 W, H = landscape(A4)
 
 NAVY = HexColor("#102A43")
@@ -84,11 +86,13 @@ def arrow(c, x1, y1, x2, y2, color=INK):
     c.setFillColor(color)
     c.setLineWidth(1.4)
     c.line(x1, y1, x2, y2)
-    direction = 1 if x2 >= x1 else -1
+    dx, dy = x2 - x1, y2 - y1
+    length = hypot(dx, dy)
+    ux, uy = dx / length, dy / length
     p = c.beginPath()
     p.moveTo(x2, y2)
-    p.lineTo(x2 - direction * 6, y2 + 3.5)
-    p.lineTo(x2 - direction * 6, y2 - 3.5)
+    p.lineTo(x2 - 6 * ux - 3.5 * uy, y2 - 6 * uy + 3.5 * ux)
+    p.lineTo(x2 - 6 * ux + 3.5 * uy, y2 - 6 * uy - 3.5 * ux)
     p.close()
     c.drawPath(p, fill=1, stroke=0)
 
@@ -104,49 +108,70 @@ def header(c, title, subtitle, label, page):
     text(c, label, 665, 553, 130, 7.5, ORANGE, True, 9, True)
     c.setFillColor(MUTED)
     c.setFont("Arial", 6.8)
-    c.drawRightString(805, 14, f"Evidence-Gated Agents | 2026-09-16 | {page} of 2")
+    c.drawRightString(805, 14, f"Evidence-Gated Agents | 2026-09-30 | {page} of 2")
+    c.setFillColor(BLUE)
+    c.drawString(36, 14, "Source: Evidence-Gated Agents overview (authoritative Markdown)")
+    c.linkURL(OVERVIEW_URL, (36, 12, 240, 22), relative=0)
 
 
 def page_prototype(c):
     header(
         c,
         "Selected prototype: dynamic decision examination",
-        "A normal AI agent proposes the decision. FactHarbor examines its evidence. A separate gate decides release.",
-        "SELECTED DIRECTION",
+        "A preset rule routes consequential decisions or instructions to act into the gate.",
+        "PLANNED INTEGRATION",
         1,
     )
 
-    y, h = 366, 82
+    text(c, "Integration not implemented. Trigger fixtures, routing-record schema, API contract, release rule and Runtime compatibility remain open.", 36, 503, 770, 8.5, MUTED)
+
+    y, h = 397, 83
     nodes = [
-        (36, 112, "1  REQUEST", "Free request plus permitted relevant context", BLUE_BG, BLUE),
-        (168, 122, "2  NORMAL AI AGENT", "Proposes one exact decision; cannot release it", BLUE_BG, BLUE),
-        (310, 116, "3  CHECKS", "Authority and disclosure for this release", ORANGE_BG, ORANGE),
-        (446, 142, "4  FACTHARBOR", "One live examination: evidence for and against, limits and uncertainty", TEAL_BG, TEAL),
-        (608, 92, "5  EGA RULE", "Sufficiently supported?", ORANGE_BG, ORANGE),
-        (720, 86, "6  COMMIT", "Bind exact decision and recipient", GREEN_BG, GREEN),
+        (36, 128, "REQUEST", "Free request plus permitted relevant context", BLUE_BG, BLUE),
+        (186, 138, "NORMAL AI AGENT", "Proposes one exact response", BLUE_BG, BLUE),
+        (347, 174, "PRESET TRIGGER RULE", "Does the response contain a consequential decision or an instruction to act?", ORANGE_BG, ORANGE),
+        (578, 228, "ORDINARY ANSWER", "Release answer + minimal routing record.\nNo receipt; no request or response content retained in the record.", BLUE_BG, BLUE),
     ]
     for x, width, title, body, fill, stroke in nodes:
         card(c, x, y, width, h, title, body, fill, stroke)
     for left, right in zip(nodes, nodes[1:]):
         arrow(c, left[0] + left[1] + 2, y + h / 2, right[0] - 2, y + h / 2)
 
-    card(c, 574, 255, 214, 63, "RELEASE", "Only the exact checked decision is released. A release receipt records the path.", GREEN_BG, GREEN)
-    card(c, 54, 255, 430, 63, "STOP", "Failed disclosure or authority, pending analysis, contradiction, insufficient evidence, ambiguity or technical error. A stop receipt is still created.", RED_BG, RED)
-    arrow(c, 678, y - 2, 678, 320, GREEN)
-    c.setStrokeColor(RED)
-    c.setLineWidth(1.3)
-    c.line(368, y - 2, 368, 335)
-    c.line(368, 335, 269, 335)
-    c.line(269, 335, 269, 320)
-    c.setFillColor(RED)
-    c.circle(269, 320, 3, stroke=0, fill=1)
+    text(c, "No", 535, 449, 30, 8, BLUE, True)
+    text(c, "Yes", 443, 384, 35, 8, ORANGE, True)
+    c.setStrokeColor(INK)
+    c.setLineWidth(1.4)
+    c.line(434, 395, 434, 374)
+    c.line(434, 374, 100, 374)
+    arrow(c, 100, 374, 100, 353)
 
-    text(c, "WHAT IS PRESET AND WHAT IS DYNAMIC", 36, 225, 500, 10, NAVY, True)
-    card(c, 36, 82, 360, 125, "PRESET FOR THE PROTOTYPE", "Simple release rule; permitted data and disclosure boundaries; recipient and release contract; controlled German/English test requests; stop reasons; receipt schema.", WHITE, BLUE)
-    card(c, 414, 82, 392, 125, "DYNAMIC FOR EACH ATTEMPT", "Free request; exact agent decision; permitted relevant context; one new FactHarbor analysis; supporting and opposing evidence; limitations and uncertainty; release or stop outcome.", WHITE, TEAL)
+    y, h = 265, 86
+    nodes = [
+        (36, 128, "AUTHORIZE + SUBMIT", "Authority and disclosure checks for this release", ORANGE_BG, ORANGE),
+        (186, 152, "FACTHARBOR", "Evidence search and analysis; verdict + report with support, counterevidence, limits and uncertainty", TEAL_BG, TEAL),
+        (367, 125, "VERIFY: EGA RULE", "Does the completed result sufficiently support the exact decision?", ORANGE_BG, ORANGE),
+        (521, 124, "COMMIT", "Recheck bound request, decision, recipient and evidence result", GREEN_BG, GREEN),
+        (674, 132, "RELEASE", "Release only the checked decision + release receipt", GREEN_BG, GREEN),
+    ]
+    for x, width, title, body, fill, stroke in nodes:
+        card(c, x, y, width, h, title, body, fill, stroke)
+    for left, right in zip(nodes, nodes[1:]):
+        arrow(c, left[0] + left[1] + 2, y + h / 2, right[0] - 2, y + h / 2)
+    text(c, "Pass", 164, 319, 22, 6.4, INK, centre=True)
+    text(c, "Pass", 492, 319, 29, 6.4, INK, centre=True)
 
-    text(c, "BOUNDARY", 36, 62, 80, 7.5, ORANGE, True)
-    text(c, "The prototype releases a checked decision. It does not execute or authorize a resulting action. Controlled tests avoid multiple independent decision and effect paths.", 112, 62, 694, 7.4, INK, False, 9)
+    card(c, 36, 180, 770, 53, "STOP + RECEIPT", "Failed authority/disclosure, pending analysis, contradiction, insufficient evidence, ambiguity or technical error. Completion cannot release later; a retry starts a new attempt through all checks.", RED_BG, RED)
+    arrow(c, 100, y - 2, 100, 235, RED)
+    arrow(c, 429.5, y - 2, 429.5, 235, RED)
+    text(c, "Fail", 110, 246, 40, 7, RED)
+    text(c, "Fail / unclear / error", 439, 246, 125, 7, RED)
+
+    text(c, "WHAT IS PRESET AND WHAT IS DYNAMIC", 36, 159, 500, 10, NAVY, True)
+    card(c, 36, 76, 360, 68, "PRESET FOR THE PROTOTYPE", "Trigger rule; data and disclosure boundaries; recipient and release contract; controlled German/English requests. Release rule and routing/receipt schemas remain open preparation work.", WHITE, BLUE)
+    card(c, 414, 76, 392, 68, "DYNAMIC FOR GATED ATTEMPTS", "Exact decision; permitted context; one new FactHarbor analysis; supporting and opposing evidence; limits and uncertainty; release or stop outcome. Ordinary answers use only the routing record.", WHITE, TEAL)
+
+    text(c, "BOUNDARY", 36, 56, 80, 7.5, ORANGE, True)
+    text(c, "The gated path releases a checked decision. It does not execute or authorize a resulting action. Controlled tests select one clear, non-complex decision.", 112, 56, 694, 7.4, INK, False, 9)
 
 
 def page_product(c):
@@ -178,9 +203,9 @@ def page_product(c):
     c.setFillColor(RED)
     c.circle(542, 310, 3, stroke=0, fill=1)
 
-    text(c, "PROTOTYPE NOW", 36, 218, 250, 10, NAVY, True)
+    text(c, "SELECTED PROTOTYPE", 36, 218, 250, 10, NAVY, True)
     text(c, "LATER PRODUCT WORK", 430, 218, 300, 10, NAVY, True)
-    card(c, 36, 84, 350, 115, "ONE CONTROLLED DECISION RELEASE", "Free request; one exact decision; dynamic FactHarbor examination; simple release-or-stop rule; exact Commit binding; receipt for release and stop. Resulting actions remain outside scope.", WHITE, BLUE)
+    card(c, 36, 84, 350, 115, "ONE CONTROLLED DECISION RELEASE", "Preset trigger; ordinary answers bypass with a routing record, not a receipt. Gated decisions use dynamic FactHarbor examination, exact Commit binding and a release or stop receipt. Integration is planned; resulting actions remain outside scope.", WHITE, BLUE)
     card(c, 430, 84, 376, 115, "MULTIPLE DECISIONS AND EFFECTS", "Organisational identity and delegation; private permitted evidence; fresh control at agent and tool hand-offs; effect-specific authorization; lifecycle, recovery, challenge and accountable remedy.", WHITE, ORANGE)
 
     text(c, "KNOWN LIMIT", 36, 62, 90, 7.5, RED, True)
@@ -195,7 +220,7 @@ def metadata():
     writer.add_metadata(
         {
             "/Title": "Evidence-Gated Agents - selected prototype and later action path",
-            "/Subject": "Dynamic decision examination in the selected prototype and later effect authorization",
+            "/Subject": "Preset routing and dynamic decision examination in the planned prototype; later effect authorization",
             "/Author": "Robert Schaub - FactHarbor Verein",
         }
     )

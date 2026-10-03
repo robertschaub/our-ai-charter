@@ -6,6 +6,10 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 - **Homepage pillar colors aligned** — Applied FactHarbor's green, rose, and yellow card palette to the five connected pillars, with matching borders and dark-mode backgrounds.
 
+## 2026-09-30
+
+- **EGA diagram routing aligned** — Updated the [current diagram PDF](output/pdf/evidence-gated-agents-dynamic-decision-path.pdf) and its generator to match the overview's preset trigger, ordinary-answer bypass and routing-record/receipt distinction. Corrected the gated release path through Commit and marked the integration as planned. The historical 5 September PDF is unchanged.
+
 ## 2026-09-28
 
 - **EGA authority evidence clarified** — The [project overview](docs/Assurance/Concepts/evidence-gated-agents.md) now distinguishes evidence supporting a proposal from evidence establishing authority and explains the limited role of the prototype's predefined EGA evidence rule. This clarification does not alter the Runtime's adopted specification, acceptance criteria or milestone scope.
