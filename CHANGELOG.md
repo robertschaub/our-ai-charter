@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-04
 
+- Updated the homepage status date and clarified the infrastructure pilot heading as an illustrative MVP rather than a Geneva 2027 delivery target.
+
 - Removed the Geneva article's website publication label and index dates. Publication labels and dates are reserved for externally published articles; repository-only articles use Git history.
 - Added the website article **Public AI, Built Together — Towards Geneva 2027**, connecting current EGA work to the wider movement and an open, conditional contribution path. Linked it from the homepage, network overview and article collection; checked official participation information on 2026-10-04.
 - Simplified public navigation by removing Outreach and Evidence tabs and outreach-planning pages. Retained the source bibliography and dated liability/insurance research under Assurance → Background; preserved the earlier findings URL with a notice for existing article links. Clarified the current EGA focus and distinguished longer-term network proposals from delivery commitments.

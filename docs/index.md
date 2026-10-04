@@ -52,7 +52,7 @@ Protect and strengthen free and fair societies in the digital age through public
 
 ## Where the work stands
 
-*As of 22 September 2026.*
+*As of 4 October 2026.*
 
 **Current focus — Evidence-Gated Agents.** Robert Schaub is defining and preparing the first EGA prototype. The public [project overview](Assurance/Concepts/evidence-gated-agents.md) explains the selected direction and its limits: dynamically examine a normal AI agent's exact proposed decision through FactHarbor before release. The integration is selected but not yet implemented.
 

@@ -2,7 +2,7 @@
 
 A conditional concept for the [federated public AI infrastructure](architecture.md), originally framed around Geneva 2027. The sequence below is retained for discussion; it is not the current implementation plan or a delivery commitment. The current development focus is [Evidence-Gated Agents](../Assurance/Concepts/evidence-gated-agents.md).
 
-## Geneva 2027 MVP
+## Illustrative MVP
 
 > A working **Public AI Compute & Evidence pilot**: one governed API, several public models, at least two independently operated nodes/providers, transparent quota rules, public model/node/evaluation cards, one constrained public-interest agent or evaluation use case, and a governance blueprint for expansion.
 
