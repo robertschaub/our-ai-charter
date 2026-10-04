@@ -133,7 +133,7 @@ nav:
       - Technical background:
           - What runtime controls add: Assurance/Background/what-the-runtime-layer-adds.md
           - "JusticeTree VBE comparison (August 2026)": Assurance/Background/justice-tree-vbe-charter-crosswalk.md
-  - Assurance:
+  - Trust & Accountability:
       - Overview: Assurance/index.md
       - Charter commitments: Assurance/Framework/charter-commitments.md
       - Evaluating AI answers:

@@ -4,7 +4,7 @@
 
 # Future certification: independence and oversight
 
-This proposal explores how a future Charter assessment scheme could keep rulemaking, assessment and oversight independent. For the distinction between commitments, evaluation and certification, start with the [Assurance overview](../index.md).
+This proposal explores how a future Charter assessment scheme could keep rulemaking, assessment and oversight independent. For the distinction between commitments, evaluation and certification, start with the [Trust & Accountability overview](../index.md).
 
 This is a **future-state model**, not a scheme that exists today, and the phased steps below are proposals — not work that is underway or scheduled. No pilot evaluations have been run; there is no Trust Mark, certificate, accredited assessor, or certification body. The current work is drafting and building connections.
 

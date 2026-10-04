@@ -1,4 +1,8 @@
-# Assurance: commitments, evidence and oversight
+<a id="assurance-commitments-evidence-and-oversight"></a>
+
+# Trust & Accountability
+
+*What people should be able to demand from AI—and how those commitments could be checked.*
 
 When people rely on AI, they need to know what it is allowed to do, what supports its claims, who answers for failures, and how to challenge a result. **Assurance means examining evidence for a specific claim about a system, within a stated scope and with clear limits.** A promise or published policy alone does not show that a control works.
 

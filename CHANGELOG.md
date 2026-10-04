@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-04
 
+- Renamed the Assurance menu and overview to **Trust & Accountability**, added a public-facing subtitle and updated link labels. The `/Assurance/` URL and previous heading anchor remain valid.
+
 - Added an Assurance landing page separating draft commitments, proposed evaluation and future certification. Put the method summary first, moved workflow and runtime background into EGA navigation, and linked the public-AI bibliography from Network. Reordered Charter v0.19 for public reading and added section headings without changing its commitments or definitions. Clarified proposed certification authority, removed outreach framing, and retained the dated published reply in an expandable source record; existing page URLs remain available.
 
 - Regrouped Assurance navigation into Framework, Evaluation, Runtime governance, and Background & research; placed EGA research with its overview. Kept page URLs and public material available. Consolidated CAI into Charter structure and views with a compatibility page, tightened correction-route source history while retaining attribution and limitations, aligned assurance-case evidence depth with the Charter baseline, and distinguished the August JusticeTree comparison from the current public Runtime description. Moved Privacy under About.

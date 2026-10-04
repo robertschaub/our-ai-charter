@@ -57,7 +57,7 @@ Public AI as co-stewarded, capture-resistant infrastructure for sovereignty, res
 
 The trust-and-evidence layer: can a deployed AI show its work, answer for its use, and leave evidence others can check?
 
-Start with the [Assurance overview](docs/Assurance/index.md): draft commitments, evaluation methods and future certification have distinct purposes and maturity. The website separates **Charter commitments**, **Evaluating AI answers**, **Future certification**, and **Research and supporting evidence**. EGA has its own overview, research, proposed workflow and technical background. Existing page URLs are retained.
+Start with the [Trust & Accountability overview](docs/Assurance/index.md): draft commitments, evaluation methods and future certification have distinct purposes and maturity. The website separates **Charter commitments**, **Evaluating AI answers**, **Future certification**, and **Research and supporting evidence**. EGA has its own overview, research, proposed workflow and technical background. Existing page URLs are retained.
 
 - **[Charter Commitments](docs/Assurance/Framework/charter-commitments.md)** — *DRAFT v0.19*. Five obligations, eight operational duties, and a per-action baseline for consequential AI, now covering decision rationale, control-chain integrity, change-impact comparison, correction lineage, and the authority basis and source admissibility a consequential decision needs; plus module candidates, an assurance stack, and open decisions.
 - **[Grounding-Faithfulness & Contestability](docs/Assurance/Protocol/grounding-faithfulness-and-contestability.md)** — *DRAFT v0.3*. First evaluation module; start with the [method summary](docs/Assurance/Protocol/one-pager.md).
