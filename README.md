@@ -22,13 +22,13 @@ Website: **[robertschaub.github.io/our-ai-charter](https://robertschaub.github.i
 
 ## Document index
 
-Status is shown inline here. Normative and outreach drafts use page banners; published article mirrors use a compact publication line followed by post, picture, and article. The public tree has no WIP or archive section; Git history preserves superseded public versions.
+Status is shown inline here. Normative and outreach drafts use page banners; externally published article mirrors use a compact publication line followed by post, picture, and article. The public tree has no WIP or archive section; Git history preserves superseded public versions.
 
 ### Articles
 
-Articles published on this website, alongside mirrors and translations of external articles. Browse the compact [published-article index](docs/Published/index.md); status is shown inline below and in each article's opening publication line.
+Articles published on this website, alongside mirrors and translations of external articles. Browse the compact [published-article index](docs/Published/index.md); external publication dates are shown below and in the mirrored articles. Articles published only in this repository or on its website use Git history instead of publication labels or dates.
 
-- **[Public AI, Built Together — Towards Geneva 2027](docs/Published/public-ai-towards-geneva-2027.md)** — *WEBSITE ARTICLE* (2026-10-04). The wider movement, current EGA contribution and open routes to a useful Geneva contribution, subject to scope, collaborators and resources.
+- **[Public AI, Built Together — Towards Geneva 2027](docs/Published/public-ai-towards-geneva-2027.md)** — The wider movement, current EGA contribution and open routes to a useful Geneva contribution, subject to scope, collaborators and resources.
 
 - **[The Swiss F-35A fixed-price trap - Would AI fall into it today?](docs/Published/f35-fixed-price-evidence.md)** ([German version](docs/Published/f35-fixed-price-evidence.de.md)) — *PUBLISHED* (EN and DE, 2026-09-12; corrected 2026-09-14). The corrected contract-effect wording is live in the English [article](https://www.linkedin.com/pulse/swiss-f-35a-fixed-price-trap-would-ai-fall-today-robert-schaub-huoye/) and [post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504514082520252416/) and the German [article](https://www.linkedin.com/pulse/die-schweizer-f-35a-fixpreisfalle-w%C3%BCrde-ki-heute-robert-schaub-pzpee/) and [post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7504528739402301440/).
 

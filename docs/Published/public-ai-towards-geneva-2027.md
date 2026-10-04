@@ -1,5 +1,3 @@
-**PUBLISHED 2026-10-04 on this website**
-
 # Public AI, Built Together — Towards Geneva 2027
 
 A public library introducing AI, a municipality using it to prepare decisions, and a small organisation working in a less widely served language face related questions. Can they choose a suitable system, understand its limits, protect the information entrusted to them, and challenge an answer that affects someone? Can they retain those abilities when a provider changes its terms or withdraws a service?
