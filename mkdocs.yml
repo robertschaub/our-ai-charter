@@ -132,7 +132,6 @@ nav:
       - Proposed user workflow: Assurance/Concepts/user-workflow-governance.md
       - Technical background:
           - What runtime controls add: Assurance/Background/what-the-runtime-layer-adds.md
-          - "JusticeTree VBE comparison (August 2026)": Assurance/Background/justice-tree-vbe-charter-crosswalk.md
   - Trust & Accountability:
       - Overview: Assurance/index.md
       - Charter commitments: Assurance/Framework/charter-commitments.md
