@@ -4,6 +4,10 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-04
 
+- Added an Assurance landing page separating draft commitments, proposed evaluation and future certification. Put the method summary first, moved workflow and runtime background into EGA navigation, and linked the public-AI bibliography from Network. Reordered Charter v0.19 for public reading and added section headings without changing its commitments or definitions. Clarified proposed certification authority, removed outreach framing, and retained the dated published reply in an expandable source record; existing page URLs remain available.
+
+- Regrouped Assurance navigation into Framework, Evaluation, Runtime governance, and Background & research; placed EGA research with its overview. Kept page URLs and public material available. Consolidated CAI into Charter structure and views with a compatibility page, tightened correction-route source history while retaining attribution and limitations, aligned assurance-case evidence depth with the Charter baseline, and distinguished the August JusticeTree comparison from the current public Runtime description. Moved Privacy under About.
+
 - Updated the homepage status date and clarified the infrastructure pilot heading as an illustrative MVP rather than a Geneva 2027 delivery target.
 
 - Removed the Geneva article's website publication label and index dates. Publication labels and dates are reserved for externally published articles; repository-only articles use Git history.

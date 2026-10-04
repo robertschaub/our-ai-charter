@@ -29,7 +29,7 @@ Our AI Charter is an **early public proposal for an international network of ope
 
     Documented sources, rights, restrictions and access conditions, handled collectively where possible.
 
-4. **[Shared assurance and evaluation](Assurance/Framework/charter-commitments.md)**
+4. **[Shared assurance and evaluation](Assurance/index.md)**
 
     Checkable claims about AI systems and their operation, independent evaluation and review, correction and remedy.
 

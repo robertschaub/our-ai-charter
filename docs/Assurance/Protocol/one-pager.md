@@ -4,7 +4,7 @@
 
 **A pilot protocol for deployed systems that answer with cited sources - not a certification, standard, mark, or product.** v0.3 - 2026-08-10 - Robert Schaub, FactHarbor association (Verein), Zurich
 
-_Full protocol: [grounding-faithfulness-and-contestability.md](grounding-faithfulness-and-contestability.md). Phase 1 is an open method contribution. FactHarbor is a paused alpha prototype, not an assessor or operating scheme._
+_Read the [full draft evaluation protocol](grounding-faithfulness-and-contestability.md). Phase 1 is an open method contribution. FactHarbor is a paused alpha prototype, not an assessor or operating scheme._
 
 ## The gap
 

@@ -125,30 +125,31 @@ nav:
       - Federated infrastructure: Infrastructure/architecture.md
       - Pilot & rollout: Infrastructure/pilot-and-rollout.md
       - Control & evidence layer: Infrastructure/control-and-evidence-layer.md
-  - Evidence-Gated Agents: Assurance/Concepts/evidence-gated-agents.md
+      - Sources and further reading: Evidence/linked-sources.md
+  - Evidence-Gated Agents:
+      - Overview: Assurance/Concepts/evidence-gated-agents.md
+      - What the research needs to demonstrate: Assurance/Concepts/evidence-requirements-research.md
+      - Proposed user workflow: Assurance/Concepts/user-workflow-governance.md
+      - Technical background:
+          - What runtime controls add: Assurance/Background/what-the-runtime-layer-adds.md
+          - "JusticeTree VBE comparison (August 2026)": Assurance/Background/justice-tree-vbe-charter-crosswalk.md
   - Assurance:
-      - Charter Commitments: Assurance/Framework/charter-commitments.md
-      - Certification model: Assurance/Framework/certification-model.md
-      - Concepts:
-          - "Structuring the Charter — obligations, planes, lenses": Assurance/Concepts/charter-structure-and-views.md
-          - "Governance from the AI user's workflow": Assurance/Concepts/user-workflow-governance.md
-          - "Evaluation methods → institutional requirements": Assurance/Concepts/evaluation-to-institutional-requirements.md
-          - "EGA research — what needs to be demonstrated": Assurance/Concepts/evidence-requirements-research.md
-          - "Assurance cases (obligation prototypes)": Assurance/Concepts/assurance-cases.md
-          - "Capabilities & Assurance Interface": Assurance/Concepts/capabilities-and-assurance-interface.md
-          - "Ambient and agentic AI controls": Assurance/Concepts/ambient-agentic-ai-control.md
-          - "Split custody for per-action records": Assurance/Concepts/split-custody-per-action-records.md
-          - "Representation error and correction routes": Assurance/Concepts/representation-error-and-correction-routes.md
-      - Protocol:
-          - "Grounding, Faithfulness & Contestability": Assurance/Protocol/grounding-faithfulness-and-contestability.md
-          - One-pager: Assurance/Protocol/one-pager.md
-      - Background:
-          - Risk & vulnerability audit: Assurance/Background/risk-and-vulnerability-audit.md
-          - What the world has already declared: Assurance/Background/what-the-world-has-already-declared.md
-          - What the runtime layer adds: Assurance/Background/what-the-runtime-layer-adds.md
-          - "JusticeTree VBE ↔ Charter crosswalk": Assurance/Background/justice-tree-vbe-charter-crosswalk.md
-          - "Public AI sources": Evidence/linked-sources.md
-          - "AI liability and insurance evidence": Evidence/ai-liability-and-insurance-evidence.md
+      - Overview: Assurance/index.md
+      - Charter commitments: Assurance/Framework/charter-commitments.md
+      - Evaluating AI answers:
+          - Method summary: Assurance/Protocol/one-pager.md
+          - Full draft protocol: Assurance/Protocol/grounding-faithfulness-and-contestability.md
+          - Applying the method in organisations: Assurance/Concepts/evaluation-to-institutional-requirements.md
+      - Future certification: Assurance/Framework/certification-model.md
+      - Research and supporting evidence:
+          - How obligations and evidence fit together: Assurance/Concepts/charter-structure-and-views.md
+          - Worked assurance cases: Assurance/Concepts/assurance-cases.md
+          - Rights foundations: Assurance/Background/what-the-world-has-already-declared.md
+          - Risks the Charter must address: Assurance/Background/risk-and-vulnerability-audit.md
+          - "Ambient and agentic controls (proposal)": Assurance/Concepts/ambient-agentic-ai-control.md
+          - "Custody of action records (proposal)": Assurance/Concepts/split-custody-per-action-records.md
+          - "Correction routes (proposal)": Assurance/Concepts/representation-error-and-correction-routes.md
+          - AI liability and insurance evidence: Evidence/ai-liability-and-insurance-evidence.md
   - Articles:
       - Article index: Published/index.md
       - "Public AI, Built Together — Towards Geneva 2027": Published/public-ai-towards-geneva-2027.md

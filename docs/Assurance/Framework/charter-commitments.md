@@ -1,4 +1,4 @@
-> **Status: DRAFT (v0.19)**
+> **Status: DRAFT**
 
 # Charter Commitments
 **A public charter for trustworthy AI — built together, answerable to people.**
@@ -7,13 +7,13 @@ _Draft v0.19 (2026-08-10). Open for comment._
 
 ---
 
-**Preamble**
+## Preamble
 
 Artificial intelligence has become critical infrastructure for how the world learns, decides, and creates. Too much of it now depends on a few providers, in a few jurisdictions, whose offerings can be withdrawn, constrained, or redirected by forces no user controls. The answer is not retreat into rival camps, but cooperation — a shared, trustworthy foundation for AI that is open, plural, secure, and answerable to people. A network, not a fortress.
 
 We commit to building that foundation together, and to being held to the values, obligations, and duties below.
 
-**Our values**
+## Our values
 
 - **Humanity** — we serve people and the common good first.
 - **Justice** — power over AI must be accountable and fairly shared.
@@ -21,7 +21,101 @@ We commit to building that foundation together, and to being held to the values,
 - **Truth** — we are honest, transparent, and verifiable, and we stand against manipulation.
 - **Solidarity** — we build together, support one another, and steward the shared commons.
 
-**Ways to take part**
+## What people need to be able to demand
+
+People who use, buy, study, regulate, or are affected by AI need more than promises. They need to know:
+
+- **What is this system for?** The intended uses, prohibited uses, misuse boundaries, assessed version, affected groups, known limits, and risk context.
+- **Who controls it?** The operator, material dependencies, models, data, tools, cloud/compute dependencies, and any power to update, restrict, recall, or shut it down, including external orders or pressure to use those powers.
+- **What data and rights does it depend on?** Training, retrieval, adaptation, and evaluation sources, rights basis, opt-outs, privacy treatment, licensed restrictions, and unresolved provenance gaps.
+- **Who is accountable?** The entity that answers when the system is deployed, procured, embedded in a public workflow, used on personal data, misused, or involved in a safety, security, privacy, or discrimination incident.
+- **How can people challenge it?** The routes for objection, review, correction, reversal, withdrawal, or escalation where harm, data use, discrimination, consequential decisions, restrictions, or shutdowns are involved.
+- **Who can inspect it?** The boundary between public transparency, confidential audit, lawful oversight, protected research access, red-team evidence, security testing, and privacy controls.
+- **Can its claims and failures be checked?** The evidence trail for material factual claims, consequential decisions, restriction decisions, security/privacy/misuse incidents, disparate failure rates, material changes, corrections, withdrawals, and exit paths.
+
+Those needs are the bridge from the manifesto's five public obligations to concrete operational duties.
+
+## Five public obligations
+
+1. **Purpose-bound.** The system says what it is for, what it must not be used for, who may be affected, and what risks are known.
+2. **Answerable to people.** A named human institution is responsible; consequential uses have notice, review, challenge, and remedy.
+3. **Safe, secure, private, and resilient.** The system protects people, data, infrastructure, continuity, and public-interest reliance.
+4. **Fair in practice.** Where a system may materially affect people, rights, opportunities, or access to services, it is tested and monitored for materially uneven or discriminatory performance across affected groups, languages, regions, and contexts; known limits and credible harm signals are disclosed, escalated, mitigated, corrected, constrained, or withdrawn where necessary.
+5. **Open to evidence and correction.** Material claims, recommendations, decisions, and risk-relevant behavior leave enough evidence for appropriate review: claims, sources where used, uncertainty signals, limits, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks are inspectable by responsible parties, triaged, and acted on proportionately.
+
+**How the pieces fit:** the five public obligations are the promise; the operational duties are the audit categories; modules are what a pilot report actually tests. In Phase 1, a pilot may assess only one or several modules, and must mark the rest **not assessed**. A future certification baseline would decide which duties must be assessed for a full Trust Mark claim.
+
+## Assurance stack
+
+A future Charter claim should be structured in three layers:
+
+1. **Provider-declared legal scope (the legal floor).** The assessed release declares its legal-scope map: markets, role, use-case, risk category, domain rules, and required legal artefacts. The EU AI Act and comparable regimes may set mandatory duties for a declared scope; the Charter is a complementary evidence and public-interest layer, not a substitute legal route. The Charter does not certify legal compliance, provide legal advice, replace regulators, notified bodies, courts, lawyers, or domain certification, or grant market-entry permission. The evaluator or future assessor checks that the public claim is limited to the declared scope and records missing, disputed, or out-of-scope legal artefacts as limitations. Regulators, courts, notified bodies, domain certification bodies, and the provider's own legal assessment decide legal compliance.
+2. **Common Charter baseline.** The five public obligations are translated into operational duties that can be checked consistently across jurisdictions. This baseline covers the minimum expectations any assessed release must meet to claim Charter alignment, even where local law is weaker, silent, or fragmented.
+3. **Public-interest modules.** Modules test the Charter's distinctive public-interest concerns in greater depth — the candidates listed under **Public-interest module candidates** below (factual grounding, contestability, coercive-control transparency, AI-app security, privacy and provenance, fairness, resource and public-access impacts, and creator/copyright fairness). Modules are optional only where the risk is not material to the assessed release. A module marked **not assessed** does not waive baseline duties, and a full Charter alignment claim cannot omit material modules.
+
+## Operational duties
+
+These duties structure pilot reports and, if the scheme matures, would form a future certification baseline:
+
+Evidence should be proportionate to risk, scale, and organisational form. A small open-source project may satisfy some duties through named maintainers, public issue processes, documented decisions, and lightweight records. A high-risk or institutionally deployed system needs stronger governance, impact assessment, monitoring, and retained evidence.
+
+1. **Policy, leadership, and accountable ownership.** The organisation, project, or deployer has an AI policy or equivalent public rules, a named accountable owner or maintainer group, responsible roles or governance body, jurisdiction, contact route, management review or maintainer review, and retained evidence for public claims, harms, incidents, and unsupported capability or marketing claims.
+2. **Purpose, scope, impact, and misuse boundaries.** The assessed system, version, intended uses, prohibited uses, foreseeable misuse, affected groups, known limits, legal-scope map, risk tier, impact assessment, resource or access constraints, and residual risks are stated before making a pilot or future Trust Mark claim.
+3. **Risk register, release assessment, and residual risk.** A living risk and vulnerability register records material risks, owners, mitigations, monitoring, evidence, residual risks, unresolved findings, and re-check or withdrawal triggers. A privacy-preserving release risk assessment is published before making a claim for an assessed release, updated for assessor-reviewable material updates and material incidents, and checked for currentness during active-deployment surveillance. It states issue date, assessed release ID, last evaluator or assessor review, surveillance cadence, validity period, material-change triggers, claim status, legal-scope map, responsibility map, and modules covered or not assessed. Each assessed area is labelled by **assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed.**
+4. **Control, dependencies, continuity, and exit.** The operator, material providers, jurisdictions, critical dependencies, models, APIs, tools, plugins, retrieval sources, datasets, subprocessors, cloud/compute dependencies, access controls, fallback limits, regional or resource availability limits, continuity plans, and exit paths are mapped and kept reviewable. Material external orders, coercive pressure, emergency demands, restrictions, recalls, shutdowns, or other control interventions are documented, scoped, time-limited where possible, and logged for public, assessor, or lawful oversight review. If a material control intervention cannot be disclosed publicly and also cannot be independently reviewed under confidentiality or lawful oversight, the affected system does not keep a Charter alignment claim for that scope.
+5. **Safety, security, privacy, and data governance.** Safety controls, hazard analysis where relevant, cyber and LLM threat models, misuse or abuse monitoring, prompt-injection and output-handling tests, tool/agent permission boundaries, supply-chain controls, incident response, privacy controls, data minimisation, lawful basis or consent where required, sensitive-data controls, retention, access/deletion routes, and data or model provenance records are documented and reviewable.
+6. **Fairness, inclusion, human oversight, and remedy.** The system identifies affected groups, monitors disparate failure/refusal/error patterns where relevant, tests performance across relevant groups, languages, regions, contexts, and accessibility needs, publishes limitations, and provides escalation or remedy routes. Consequential uses require notice, declared and time-bounded escalation routes, meaningful human review or override where risk warrants it, and privacy-preserving outcome records.
+7. **Transparency, explanation, provenance, and claim integrity.** Users are told when AI is materially involved; generated, materially altered, or synthetic content is marked or labelled where relevant; public limits and uncertainty are understandable; factual and consequential claims are traceable to sources or documented evidence, and where a class of claim has a source entitled to establish it, that source is identified or its absence recorded; training, retrieval, or data-source provenance is retained where relevant; unsupported claims are corrected; and reports clearly mark what was assessed, not assessed, documented, implementation-checked, or effectiveness-tested.
+8. **Lifecycle monitoring, change control, incidents, and withdrawal.** The system maintains material-change logs, reassessments, drift or currentness checks, third-party incident handling, correction records, security/privacy/misuse/abuse incident records, disparate-performance records where relevant, rollback or withdrawal records, and documented exit paths. Where a material change to an authority source, policy, rule set, evidence corpus, or verification logic could alter outcomes, its effects are assessed before deployment against a stable set of relevant prior cases or, where none exist, documented comparison cases; material differences are recorded and reviewed. Where evidence, a source, or a rule is corrected or withdrawn, proportionate, access-controlled lineage identifies affected decisions, public claims, and derived material so that reliance can be reopened, corrected, or withdrawn rather than left standing. Silent material changes, repeated failures, hidden failures, false evidence, or unjustified redactions trigger withdrawal of the pilot listing or future mark claim.
+
+## Consequential-action baseline
+
+When an assessed release can propose, prepare, or perform a consequential action, duties 2 and 4–8 apply to each action path as well as to the release as a whole. Evidence must show:
+
+1. **Distinguishable stages.** Observation, inference, recommendation, preparation, authorization, commitment, and external effect are technically distinguishable and governable.
+2. **A structured proposal.** Before commitment, the system records the declared objective, proposed action, target or recipient, exact parameters, material inputs and derived claims, data to be disclosed, cost or obligation, material consequences, reversibility, and any commercial influence relevant to the recommendation. It also records any material alternative, contrary evidence, or applicable rule considered but not used and the reason it was not used. Each material input identifies its source and that source's admissibility for the fact the input is used to establish, or is marked unattributed. Recording standing is not the same as enforcing it; enforcement follows point 4.
+3. **Provable authority.** The action mandate is specific, purpose-bound, no broader than necessary, time-limited, and revocable. The authority chain includes every agent or service that receives delegated power, the permitted scope of any subdelegation, and the current state and ordering of overlapping or changed mandates. The mandate also records its authority basis, so the root of the chain can be reviewed rather than assumed.
+4. **Independent admissibility and complete mediation.** Every consequential action path is checked against the current mandate, applicable policy and version, relevant constraints, and system state by a component that does not rely on the acting model to approve its own request. The result is allow, deny, or escalate for the required human decision; ambiguity, missing authority, or a **declared evidentiary precondition** resting only on a non-entitled or unattributed source fails closed. That evidentiary rule bites only where a policy or rule names the fact as a precondition for the decision: absent such a declaration, standing is recorded and reported rather than enforced, and a claim for which no source is entitled to establish the fact is never failed on that ground. Which facts a decision requires is a property of the declared rule, not something the checking component may infer.
+5. **A human-intervention contract.** Each material escalation path states the triggering event and rule; relevant action, system, mandate, and policy state; exact decision; authorized role, competence and independence requirements, and an authorized substitute or no-substitute rule; evidence and options shown; response bound and safe no-response default; permitted dispositions; and record and monitoring consequences. Routing follows the authority required, not mere human availability. Where the decision would grant or extend authority, no response fails closed; only a declared reversible fallback already within existing authority may proceed. Every authorization, review, override, or remedy decision produced under the contract is recorded as an intervention event; declared patterns or thresholds in timeliness, overrides, divergence, outcomes, denials, or repeated escalations trigger re-scoping, re-authorization, independent review, constraint, suspension, or withdrawal as applicable.
+6. **Verification at commitment.** The executing service verifies the exact current authority and approved parameters before the effect becomes binding. A broader, substituted, expired, revoked, changed, or replayed request is blocked.
+7. **An action-and-effect record.** A privacy-preserving, tamper-evident record joins the proposal, authority chain, policy and admissibility decision, commitment status, external effect, and human-intervention event. Its integrity evidence covers the components that make, record, and verify the decision, together with the applicable rule set and material configuration in force, so that changes to enforcement or verification are as detectable as changes to a record. An appropriate receipt or extract states what it evidences, what it does not, whether its coverage is complete or pending, and whether it has been independently confirmed; evidence that cannot be checked is reported as unconfirmed, not verified. It also provides routes for cancellation, reversal or compensation where possible, challenge, and remedy. An interrupted multi-step workflow has a named recovery owner responsible for cancellation, reversal, or compensation when partial commitment cannot be cleanly undone.
+
+A deterministic authorization gate can prove that declared rules were applied; it cannot by itself establish that those rules are lawful, fair, or legitimate. Human accountability, independent review, affected-person access, and remedy remain required. The [agentic-control proposal](../Concepts/ambient-agentic-ai-control.md#7-a-compliant-technical-control-plane) develops one implementation path, while the [split-custody proposal](../Concepts/split-custody-per-action-records.md) addresses record integrity, access, and survivability.
+
+## Public-interest module candidates
+
+The common baseline should stay small enough to pilot, but it must not hide important gaps. A pilot or future audit should therefore state which modules were assessed, which were not assessed, and which are not relevant to the release. Candidate modules include:
+
+- **Factual grounding, uncertainty, correction, and source quality** for systems that make factual or consequential claims.
+- **Contestability, human oversight, remedy, and affected-person outcomes** for consequential deployments.
+- **Coercive-control, restriction, shutdown, and manipulation transparency** where public reliance, state pressure, platform pressure, or infrastructure dependency is material.
+- **AI application security, prompt-injection resistance, tool/agent permissions, abuse monitoring, and red-team evidence** for deployed systems exposed to users, tools, or external content.
+- **Privacy, data governance, provenance, subprocessor transparency, access/deletion routes, and consent or lawful-basis evidence** where personal, confidential, or customer data is processed.
+- **Fairness, inclusion, language, regional, accessibility, and affected-group performance** where unequal error, refusal, or impact patterns are plausible.
+- **Resource, environmental, continuity, and public-interest access impacts** where compute, energy, water, cost, or regional availability materially affects reliance.
+- **Creator and copyright fairness** where training, retrieval, generated content, or data reuse raises rights-reservation, opt-out, attribution, compensation, licensing, or objection questions.
+
+## Risk coverage baseline
+
+A system cannot satisfy the Charter while hiding critical infrastructure dependencies, security and prompt-injection weaknesses, sensitive-data leakage, data/provenance gaps, discriminatory failure patterns, misuse or abuse incidents, material updates, resource or access constraints, or lack of continuity planning. These are not optional extras; they are the real-world risks the operational duties must make inspectable. Resource and global-access constraints belong in the baseline as disclosure; deeper environmental or global-equity impact assurance may require specialised modules.
+
+Any pilot evaluation or future certification audit should therefore require the **risk and vulnerability register** and **release risk assessment** defined in operational duty 3 above — published before a claim, updated for assessor-reviewable material updates and material incidents, and labelled by assurance depth. The full evidence pack may contain confidential security, privacy, legal, or proprietary material; the public assessment discloses safe summaries plus material risk classes and severity or residual-risk bands where useful. It should not imply that one module substitutes for another, that **not assessed** waives baseline duties, or that every measure is effective unless a defined module tested that effectiveness.
+
+Each duty and module should state both the required and achieved assurance depth. **Documented** alone supports only a readiness note for material risks, not a future Trust Mark. Material risks require at least **evidence observed**; consequential or high-risk claims require **implementation checked** or **effectiveness tested** where feasible. Unreviewed material changes suspend or narrow the public claim until reviewed.
+
+This is the protection against authoritarian switch-off orders or manipulation: not a fantasy that private systems can ignore every lawful state act, but a requirement that material control interventions are attributable, proportionate, evidenced, logged, reviewable, and paired with continuity or exit planning when public reliance is material. If neither public disclosure nor confidential independent review is possible, the affected scope cannot carry a Charter alignment claim. Secret, unilateral, unreviewable control is not compatible with the Charter.
+
+Because state regulation is not uniform across jurisdictions, these Charter Commitments cannot simply sit above one shared legal floor. A future **common Charter baseline** would be the minimum set of operational duties any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the voluntary Charter baseline. The provider-declared legal scope, common Charter baseline, and public-interest modules must be reported separately so a reader can see what was legally scoped, what was baseline-assessed, and what was module-tested.
+
+## Independent and fair by design
+
+If a conformity scheme is created, audits should be conducted by accredited, independent assessors against a published standard. The audited party must not unilaterally select or influence the assessor. Fees should be fixed, outcome-independent, conflict-disclosed, and, where possible, paid through steward assignment, escrow, rotation, or a public funding pool. A **subsidised and peer-verification tier** should keep any future Mark within reach of small, open-source, and Global-South builders, so trust is never a privilege of the well-funded. These rules remove the reward for passing; what would positively reward questioning or stopping remains an open design question (see the [certification model](certification-model.md)).
+
+## How this binds us
+
+These are obligations and operational duties to be checked, not admired. In the current phase, they guide draft evaluation and public critique. In Phase 1, reports may say only that a named release was evaluated under a named method, duty, or module, with a stated result. They may not claim Charter alignment, certification, or Trust Mark status. A pilot report can only speak for the system, version, use-case, legal scope, operational duties, and modules it assessed; missing areas must be marked as not assessed. In any future conformity scheme, these duties would create a common baseline for the Charter, but they would not certify legal compliance in every jurisdiction. If a Trust Mark is created, it is earned through independent audit and may be withdrawn. Values with teeth — or they are only words.
+
+## Ways to take part
 
 _Today only the **Supporter** step is open — publicly endorsing the commitments. Member, Pilot participant, and Trust Mark register interest in steps that don't exist yet._
 
@@ -32,7 +126,19 @@ _Today only the **Supporter** step is open — publicly endorsing the commitment
 
 _These are the assurance roles for committing organisations. For the wider network — builders, funders, convenors, advocates, and supporters — see [How to take part now](../../network-overview.md#how-to-take-part-now)._
 
-**Key terms**
+## An open invitation
+
+These Charter Commitments belong to no single company or country. National and regional public-AI efforts can be strong nodes in this network when they meet the Charter's co-stewardship and capture-resistance expectations: partners need meaningful routes to inspect, challenge, and help shape the work without becoming dependent on one state, company, funder, host institution, or audited party. Any trustworthy organisation — anywhere, subject to law and to these obligations and duties — that shares these values is invited to endorse it, help build the governance, or volunteer a system for pilot evaluation. Independent audit and any Mark come only if a conformity scheme is created. Individuals and institutions may endorse it as supporters.
+
+_Signed,_
+
+`______________________`  Organisation / Name
+
+`______________________`  Role · Date · Jurisdiction
+
+---
+
+## Key terms
 
 **"Assessed release"** means the named system, version, use-case, and material configuration under evaluation, including the model or service, prompts or system instructions where relevant, retrieval corpus, tool permissions, user notices, logging, correction route, and material dependencies.
 
@@ -53,112 +159,6 @@ _These are the assurance roles for committing organisations. For the wider netwo
 **"Authority basis"** means what confers the principal's own authority at the root of that chain: the conferring instrument, decision, or role, its scope and jurisdiction where relevant, and a reference to the supporting evidence with its assurance depth. It is recorded with the mandate and may be marked **not assessed**. A cryptographic binding proves a mandate was issued as stated; it cannot show that the issuer held the authority the mandate asserts.
 
 **"Source admissibility"** means whether the party that supplied a material input is entitled to establish the fact the input is used for — a court for its own judgment, a register for what it registers, a person for their own testimony, interpretation, or permission. It is distinct from whether the input was permitted to enter the system, and distinct from the source's general credibility. Three cases stay distinct, because collapsing them manufactures a signal that is not there: **no source is entitled** to establish the claim at all, which is recorded and from which no adverse inference follows; an entitled source exists and **this input is not it**; and standing is simply **unknown**, recorded as unattributed. Only the last two carry an adverse signal.
-
-<a id="what-people-need-to-be-able-to-demand"></a>
-
-**What people need to be able to demand**
-
-People who use, buy, study, regulate, or are affected by AI need more than promises. They need to know:
-
-- **What is this system for?** The intended uses, prohibited uses, misuse boundaries, assessed version, affected groups, known limits, and risk context.
-- **Who controls it?** The operator, material dependencies, models, data, tools, cloud/compute dependencies, and any power to update, restrict, recall, or shut it down, including external orders or pressure to use those powers.
-- **What data and rights does it depend on?** Training, retrieval, adaptation, and evaluation sources, rights basis, opt-outs, privacy treatment, licensed restrictions, and unresolved provenance gaps.
-- **Who is accountable?** The entity that answers when the system is deployed, procured, embedded in a public workflow, used on personal data, misused, or involved in a safety, security, privacy, or discrimination incident.
-- **How can people challenge it?** The routes for objection, review, correction, reversal, withdrawal, or escalation where harm, data use, discrimination, consequential decisions, restrictions, or shutdowns are involved.
-- **Who can inspect it?** The boundary between public transparency, confidential audit, lawful oversight, protected research access, red-team evidence, security testing, and privacy controls.
-- **Can its claims and failures be checked?** The evidence trail for material factual claims, consequential decisions, restriction decisions, security/privacy/misuse incidents, disparate failure rates, material changes, corrections, withdrawals, and exit paths.
-
-Those needs are the bridge from the manifesto's five public obligations to concrete operational duties.
-
-**Five public obligations**
-
-1. **Purpose-bound.** The system says what it is for, what it must not be used for, who may be affected, and what risks are known.
-2. **Answerable to people.** A named human institution is responsible; consequential uses have notice, review, challenge, and remedy.
-3. **Safe, secure, private, and resilient.** The system protects people, data, infrastructure, continuity, and public-interest reliance.
-4. **Fair in practice.** Where a system may materially affect people, rights, opportunities, or access to services, it is tested and monitored for materially uneven or discriminatory performance across affected groups, languages, regions, and contexts; known limits and credible harm signals are disclosed, escalated, mitigated, corrected, constrained, or withdrawn where necessary.
-5. **Open to evidence and correction.** Material claims, recommendations, decisions, and risk-relevant behavior leave enough evidence for appropriate review: claims, sources where used, uncertainty signals, limits, incidents, material changes, drift, complaints, corrections, withdrawals, and unresolved risks are inspectable by responsible parties, triaged, and acted on proportionately.
-
-**How the pieces fit:** the five public obligations are the promise; the operational duties are the audit categories; modules are what a pilot report actually tests. In Phase 1, a pilot may assess only one or several modules, and must mark the rest **not assessed**. A future certification baseline would decide which duties must be assessed for a full Trust Mark claim.
-
-**Assurance stack**
-
-A future Charter claim should be structured in three layers:
-
-1. **Provider-declared legal scope (the legal floor).** The assessed release declares its legal-scope map: markets, role, use-case, risk category, domain rules, and required legal artefacts. The EU AI Act and comparable regimes may set mandatory duties for a declared scope; the Charter is a complementary evidence and public-interest layer, not a substitute legal route. The Charter does not certify legal compliance, provide legal advice, replace regulators, notified bodies, courts, lawyers, or domain certification, or grant market-entry permission. The evaluator or future assessor checks that the public claim is limited to the declared scope and records missing, disputed, or out-of-scope legal artefacts as limitations. Regulators, courts, notified bodies, domain certification bodies, and the provider's own legal assessment decide legal compliance.
-2. **Common Charter baseline.** The five public obligations are translated into operational duties that can be checked consistently across jurisdictions. This baseline covers the minimum expectations any assessed release must meet to claim Charter alignment, even where local law is weaker, silent, or fragmented.
-3. **Public-interest modules.** Modules test the Charter's distinctive public-interest concerns in greater depth — the candidates listed under **Public-interest module candidates** below (factual grounding, contestability, coercive-control transparency, AI-app security, privacy and provenance, fairness, resource and public-access impacts, and creator/copyright fairness). Modules are optional only where the risk is not material to the assessed release. A module marked **not assessed** does not waive baseline duties, and a full Charter alignment claim cannot omit material modules.
-
-**Operational duties** (to structure pilot reports and, if the scheme matures, form a future certification baseline):
-
-Evidence should be proportionate to risk, scale, and organisational form. A small open-source project may satisfy some duties through named maintainers, public issue processes, documented decisions, and lightweight records. A high-risk or institutionally deployed system needs stronger governance, impact assessment, monitoring, and retained evidence.
-
-1. **Policy, leadership, and accountable ownership.** The organisation, project, or deployer has an AI policy or equivalent public rules, a named accountable owner or maintainer group, responsible roles or governance body, jurisdiction, contact route, management review or maintainer review, and retained evidence for public claims, harms, incidents, and unsupported capability or marketing claims.
-2. **Purpose, scope, impact, and misuse boundaries.** The assessed system, version, intended uses, prohibited uses, foreseeable misuse, affected groups, known limits, legal-scope map, risk tier, impact assessment, resource or access constraints, and residual risks are stated before making a pilot or future Trust Mark claim.
-3. **Risk register, release assessment, and residual risk.** A living risk and vulnerability register records material risks, owners, mitigations, monitoring, evidence, residual risks, unresolved findings, and re-check or withdrawal triggers. A privacy-preserving release risk assessment is published before making a claim for an assessed release, updated for assessor-reviewable material updates and material incidents, and checked for currentness during active-deployment surveillance. It states issue date, assessed release ID, last evaluator or assessor review, surveillance cadence, validity period, material-change triggers, claim status, legal-scope map, responsibility map, and modules covered or not assessed. Each assessed area is labelled by **assurance depth: documented, evidence observed, implementation checked, effectiveness tested, or not assessed.**
-4. **Control, dependencies, continuity, and exit.** The operator, material providers, jurisdictions, critical dependencies, models, APIs, tools, plugins, retrieval sources, datasets, subprocessors, cloud/compute dependencies, access controls, fallback limits, regional or resource availability limits, continuity plans, and exit paths are mapped and kept reviewable. Material external orders, coercive pressure, emergency demands, restrictions, recalls, shutdowns, or other control interventions are documented, scoped, time-limited where possible, and logged for public, assessor, or lawful oversight review. If a material control intervention cannot be disclosed publicly and also cannot be independently reviewed under confidentiality or lawful oversight, the affected system does not keep a Charter alignment claim for that scope.
-5. **Safety, security, privacy, and data governance.** Safety controls, hazard analysis where relevant, cyber and LLM threat models, misuse or abuse monitoring, prompt-injection and output-handling tests, tool/agent permission boundaries, supply-chain controls, incident response, privacy controls, data minimisation, lawful basis or consent where required, sensitive-data controls, retention, access/deletion routes, and data or model provenance records are documented and reviewable.
-6. **Fairness, inclusion, human oversight, and remedy.** The system identifies affected groups, monitors disparate failure/refusal/error patterns where relevant, tests performance across relevant groups, languages, regions, contexts, and accessibility needs, publishes limitations, and provides escalation or remedy routes. Consequential uses require notice, declared and time-bounded escalation routes, meaningful human review or override where risk warrants it, and privacy-preserving outcome records.
-7. **Transparency, explanation, provenance, and claim integrity.** Users are told when AI is materially involved; generated, materially altered, or synthetic content is marked or labelled where relevant; public limits and uncertainty are understandable; factual and consequential claims are traceable to sources or documented evidence, and where a class of claim has a source entitled to establish it, that source is identified or its absence recorded; training, retrieval, or data-source provenance is retained where relevant; unsupported claims are corrected; and reports clearly mark what was assessed, not assessed, documented, implementation-checked, or effectiveness-tested.
-8. **Lifecycle monitoring, change control, incidents, and withdrawal.** The system maintains material-change logs, reassessments, drift or currentness checks, third-party incident handling, correction records, security/privacy/misuse/abuse incident records, disparate-performance records where relevant, rollback or withdrawal records, and documented exit paths. Where a material change to an authority source, policy, rule set, evidence corpus, or verification logic could alter outcomes, its effects are assessed before deployment against a stable set of relevant prior cases or, where none exist, documented comparison cases; material differences are recorded and reviewed. Where evidence, a source, or a rule is corrected or withdrawn, proportionate, access-controlled lineage identifies affected decisions, public claims, and derived material so that reliance can be reopened, corrected, or withdrawn rather than left standing. Silent material changes, repeated failures, hidden failures, false evidence, or unjustified redactions trigger withdrawal of the pilot listing or future mark claim.
-
-**Consequential-action baseline**
-
-When an assessed release can propose, prepare, or perform a consequential action, duties 2 and 4–8 apply to each action path as well as to the release as a whole. Evidence must show:
-
-1. **Distinguishable stages.** Observation, inference, recommendation, preparation, authorization, commitment, and external effect are technically distinguishable and governable.
-2. **A structured proposal.** Before commitment, the system records the declared objective, proposed action, target or recipient, exact parameters, material inputs and derived claims, data to be disclosed, cost or obligation, material consequences, reversibility, and any commercial influence relevant to the recommendation. It also records any material alternative, contrary evidence, or applicable rule considered but not used and the reason it was not used. Each material input identifies its source and that source's admissibility for the fact the input is used to establish, or is marked unattributed. Recording standing is not the same as enforcing it; enforcement follows point 4.
-3. **Provable authority.** The action mandate is specific, purpose-bound, no broader than necessary, time-limited, and revocable. The authority chain includes every agent or service that receives delegated power, the permitted scope of any subdelegation, and the current state and ordering of overlapping or changed mandates. The mandate also records its authority basis, so the root of the chain can be reviewed rather than assumed.
-4. **Independent admissibility and complete mediation.** Every consequential action path is checked against the current mandate, applicable policy and version, relevant constraints, and system state by a component that does not rely on the acting model to approve its own request. The result is allow, deny, or escalate for the required human decision; ambiguity, missing authority, or a **declared evidentiary precondition** resting only on a non-entitled or unattributed source fails closed. That evidentiary rule bites only where a policy or rule names the fact as a precondition for the decision: absent such a declaration, standing is recorded and reported rather than enforced, and a claim for which no source is entitled to establish the fact is never failed on that ground. Which facts a decision requires is a property of the declared rule, not something the checking component may infer.
-5. **A human-intervention contract.** Each material escalation path states the triggering event and rule; relevant action, system, mandate, and policy state; exact decision; authorized role, competence and independence requirements, and an authorized substitute or no-substitute rule; evidence and options shown; response bound and safe no-response default; permitted dispositions; and record and monitoring consequences. Routing follows the authority required, not mere human availability. Where the decision would grant or extend authority, no response fails closed; only a declared reversible fallback already within existing authority may proceed. Every authorization, review, override, or remedy decision produced under the contract is recorded as an intervention event; declared patterns or thresholds in timeliness, overrides, divergence, outcomes, denials, or repeated escalations trigger re-scoping, re-authorization, independent review, constraint, suspension, or withdrawal as applicable.
-6. **Verification at commitment.** The executing service verifies the exact current authority and approved parameters before the effect becomes binding. A broader, substituted, expired, revoked, changed, or replayed request is blocked.
-7. **An action-and-effect record.** A privacy-preserving, tamper-evident record joins the proposal, authority chain, policy and admissibility decision, commitment status, external effect, and human-intervention event. Its integrity evidence covers the components that make, record, and verify the decision, together with the applicable rule set and material configuration in force, so that changes to enforcement or verification are as detectable as changes to a record. An appropriate receipt or extract states what it evidences, what it does not, whether its coverage is complete or pending, and whether it has been independently confirmed; evidence that cannot be checked is reported as unconfirmed, not verified. It also provides routes for cancellation, reversal or compensation where possible, challenge, and remedy. An interrupted multi-step workflow has a named recovery owner responsible for cancellation, reversal, or compensation when partial commitment cannot be cleanly undone.
-
-A deterministic authorization gate can prove that declared rules were applied; it cannot by itself establish that those rules are lawful, fair, or legitimate. Human accountability, independent review, affected-person access, and remedy remain required. The [agentic-control proposal](../Concepts/ambient-agentic-ai-control.md#7-a-compliant-technical-control-plane) develops one implementation path, while the [split-custody proposal](../Concepts/split-custody-per-action-records.md) addresses record integrity, access, and survivability.
-
-**Public-interest module candidates**
-
-The common baseline should stay small enough to pilot, but it must not hide important gaps. A pilot or future audit should therefore state which modules were assessed, which were not assessed, and which are not relevant to the release. Candidate modules include:
-
-- **Factual grounding, uncertainty, correction, and source quality** for systems that make factual or consequential claims.
-- **Contestability, human oversight, remedy, and affected-person outcomes** for consequential deployments.
-- **Coercive-control, restriction, shutdown, and manipulation transparency** where public reliance, state pressure, platform pressure, or infrastructure dependency is material.
-- **AI application security, prompt-injection resistance, tool/agent permissions, abuse monitoring, and red-team evidence** for deployed systems exposed to users, tools, or external content.
-- **Privacy, data governance, provenance, subprocessor transparency, access/deletion routes, and consent or lawful-basis evidence** where personal, confidential, or customer data is processed.
-- **Fairness, inclusion, language, regional, accessibility, and affected-group performance** where unequal error, refusal, or impact patterns are plausible.
-- **Resource, environmental, continuity, and public-interest access impacts** where compute, energy, water, cost, or regional availability materially affects reliance.
-- **Creator and copyright fairness** where training, retrieval, generated content, or data reuse raises rights-reservation, opt-out, attribution, compensation, licensing, or objection questions.
-
-**Risk coverage baseline**
-
-A system cannot satisfy the Charter while hiding critical infrastructure dependencies, security and prompt-injection weaknesses, sensitive-data leakage, data/provenance gaps, discriminatory failure patterns, misuse or abuse incidents, material updates, resource or access constraints, or lack of continuity planning. These are not optional extras; they are the real-world risks the operational duties must make inspectable. Resource and global-access constraints belong in the baseline as disclosure; deeper environmental or global-equity impact assurance may require specialised modules.
-
-Any pilot evaluation or future certification audit should therefore require the **risk and vulnerability register** and **release risk assessment** defined in operational duty 3 above — published before a claim, updated for assessor-reviewable material updates and material incidents, and labelled by assurance depth. The full evidence pack may contain confidential security, privacy, legal, or proprietary material; the public assessment discloses safe summaries plus material risk classes and severity or residual-risk bands where useful. It should not imply that one module substitutes for another, that **not assessed** waives baseline duties, or that every measure is effective unless a defined module tested that effectiveness.
-
-Each duty and module should state both the required and achieved assurance depth. **Documented** alone supports only a readiness note for material risks, not a future Trust Mark. Material risks require at least **evidence observed**; consequential or high-risk claims require **implementation checked** or **effectiveness tested** where feasible. Unreviewed material changes suspend or narrow the public claim until reviewed.
-
-This is the protection against authoritarian switch-off orders or manipulation: not a fantasy that private systems can ignore every lawful state act, but a requirement that material control interventions are attributable, proportionate, evidenced, logged, reviewable, and paired with continuity or exit planning when public reliance is material. If neither public disclosure nor confidential independent review is possible, the affected scope cannot carry a Charter alignment claim. Secret, unilateral, unreviewable control is not compatible with the Charter.
-
-Because state regulation is not uniform across jurisdictions, these Charter Commitments cannot simply sit above one shared legal floor. A future **common Charter baseline** would be the minimum set of operational duties any system carrying the Charter mark must meet, regardless of jurisdiction. Stricter local law prevails; weaker or silent local law does not lower the voluntary Charter baseline. The provider-declared legal scope, common Charter baseline, and public-interest modules must be reported separately so a reader can see what was legally scoped, what was baseline-assessed, and what was module-tested.
-
-**Independent and fair by design**
-
-If a conformity scheme is created, audits should be conducted by accredited, independent assessors against a published standard. The audited party must not unilaterally select or influence the assessor. Fees should be fixed, outcome-independent, conflict-disclosed, and, where possible, paid through steward assignment, escrow, rotation, or a public funding pool. A **subsidised and peer-verification tier** should keep any future Mark within reach of small, open-source, and Global-South builders, so trust is never a privilege of the well-funded. These rules remove the reward for passing; what would positively reward questioning or stopping remains an open design question (see the [certification model](certification-model.md)).
-
-**How this binds us**
-
-These are obligations and operational duties to be checked, not admired. In the current phase, they guide draft evaluation and public critique. In Phase 1, reports may say only that a named release was evaluated under a named method, duty, or module, with a stated result. They may not claim Charter alignment, certification, or Trust Mark status. A pilot report can only speak for the system, version, use-case, legal scope, operational duties, and modules it assessed; missing areas must be marked as not assessed. In any future conformity scheme, these duties would create a common baseline for the Charter, but they would not certify legal compliance in every jurisdiction. If a Trust Mark is created, it is earned through independent audit and may be withdrawn. Values with teeth — or they are only words.
-
-**An open invitation**
-
-These Charter Commitments belong to no single company or country. National and regional public-AI efforts can be strong nodes in this network when they meet the Charter's co-stewardship and capture-resistance expectations: partners need meaningful routes to inspect, challenge, and help shape the work without becoming dependent on one state, company, funder, host institution, or audited party. Any trustworthy organisation — anywhere, subject to law and to these obligations and duties — that shares these values is invited to endorse it, help build the governance, or volunteer a system for pilot evaluation. Independent audit and any Mark come only if a conformity scheme is created. Individuals and institutions may endorse it as supporters.
-
-_Signed,_
-
-`______________________`  Organisation / Name
-
-`______________________`  Role · Date · Jurisdiction
-
----
 
 ## Open decisions (next phase)
 

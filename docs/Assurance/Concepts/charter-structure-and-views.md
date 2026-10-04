@@ -1,6 +1,8 @@
+> **Status: DRAFT**
+
 # Structuring the Charter: obligations as spine, views as lenses
 
-*Map, not specification. The binding detail lives in the [Charter Commitments](../Framework/charter-commitments.md); this note explains where new material belongs and how the parts relate.*
+*Map of a draft framework. The [Charter Commitments](../Framework/charter-commitments.md) contain the proposed obligations and duties; this note explains how they relate to evidence, assessment and system use.*
 
 ## Resolution
 
@@ -61,10 +63,24 @@ Modules are triggered, not optional decoration. Every assessed system gets a bas
 The outward surfaces are concepts, not interface specs:
 
 - **Find** — discovery and navigation across the network's **AI systems** and the providers behind them, based on scoped assurance depth rather than an "approved" badge. The directory must remain plural and neutral: the index is a chokepoint, and a captured registry is a captured market.
-- **Check** — a [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md): what a system says it is for, what has been assured, and what is not verified.
+- **Check** — a [Capabilities & Assurance Interface](#capabilities-and-assurance-interface): what a system says it is for, what has been assured, and what is not verified.
 - **Watch** — runtime inspection at least-exposure: each audience sees only its slice (own session, affected-person decision, assessor sample, regulator access, public aggregate). Inspection must be verifiable rather than self-reported, privacy-bounded (confirm behaviour without exposing content), and itself assessed — the assurance plane checks that inspection is adequate.
 
 These surfaces steer discovery, procurement, and trust. They are governed public-power surfaces, not neutral plumbing.
+
+<a id="capabilities-and-assurance-interface"></a>
+
+### Check: Capabilities & Assurance Interface (CAI)
+
+*Concept and public-interest profile, not a running interface, API or new standard. Consolidated from the 2026-06-28 design sketch, shaped by a GPT-5.5 / Gemini 3.1 exchange; schemas, signing and log mechanisms remain out of scope.*
+
+A person or their agent needs to distinguish **what a system says it can do** from **which Charter obligations have been independently assured**, at what depth and how recently. A machine-readable label can spread false confidence as readily as warranted confidence: CAI must never become a global "trusted / safe / compliant" badge or "queryable certification."
+
+- **Separate the claims.** Keep provider-declared capabilities and independently assured findings visibly distinct, each with its own provenance. Bind assured claims to the exact assessed version; a changed system falls out of scope instead of inheriting assurance.
+- **Make scrutiny possible.** Claims must be publicly checkable, scoped and labelled by assurance depth and currentness, countering fake assessors and conflicting accounts given to buyers and regulators. Unconfirmed status is **unknown**, never valid; stale claims expire. Build on existing attestation and transparency practices, adding the Charter's public-interest profile rather than a new standard.
+- **Respect the institutional dependency.** Independent assurance needs accredited assessors, revocation and enforceable consequences such as delisting or procurement exclusion. A format cannot supply that trust infrastructure.
+
+**Possible in Phase 1:** the self-declared half—purpose, limits, prohibited uses, operating envelope and version, plus a link to the human-readable release risk assessment. Assured fields remain **not-yet-independently-attested**. **Deferred until a mature Phase-2 conformity scheme:** independently signed obligation statuses, public scrutiny records and revocation. These are design directions, not claims that either service exists.
 
 ## Accountability
 
@@ -83,7 +99,7 @@ Without this leg, the system only produces claims. With it, claims are answerabl
 - [Assurance cases](assurance-cases.md) — the five obligation-to-duty crosswalk prototypes.
 - [Control-and-evidence layer](../../Infrastructure/control-and-evidence-layer.md) — policy broker plus evidence plane.
 - [User-workflow governance](user-workflow-governance.md) — runtime reference model.
-- [Capabilities & Assurance Interface](capabilities-and-assurance-interface.md) — demand-side check surface.
+- [Capabilities & Assurance Interface](#capabilities-and-assurance-interface) — demand-side check surface, described above.
 
 ## What this is
 

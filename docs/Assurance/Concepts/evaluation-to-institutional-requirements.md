@@ -1,3 +1,5 @@
+> **Status: DRAFT**
+
 # From evaluation methods to institutional requirements
 
 *Discussion crosswalk, 2026-08-04. Untested: no real-system validation or pilot has run. Not a standard, certification, legal-compliance assessment, or adopted requirement.*

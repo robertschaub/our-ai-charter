@@ -1,32 +1,15 @@
-# Capabilities & Assurance Interface (CAI) — a design direction
+---
+search:
+  exclude: true
+---
 
-*Design sketch (2026-06-28), shaped by a GPT-5.5 / Gemini 3.1 exchange — **concepts and principles, not interfaces** (mechanisms deliberately out of scope at this stage). Late-phase: the self-declared half could accompany Phase 1, the assured half needs a mature Phase-2 scheme. Companion to [charter-structure-and-views.md](charter-structure-and-views.md): the demand side's *check* surface.*
+# Capabilities & Assurance Interface (CAI)
 
-A way for a person or their agent to ask, of one deployed system: **what is it for** (capabilities) and **what has been assured** (assurance). The "check" step of the demand side.
+<a id="capabilities-assurance-interface-cai-a-design-direction"></a>
+<a id="what-it-is"></a>
+<a id="the-central-danger"></a>
+<a id="the-principles"></a>
+<a id="buildable-now-vs-deferred"></a>
+<a id="what-this-is"></a>
 
-## What it is
-
-Picture every deployed system carrying a **public label** in two halves. **Capabilities:** what the system is for, its limits, prohibited uses, operating envelope, and version — *declared by the provider.* **Assurance:** which Charter obligations have been *independently verified*, at what depth, and how recently. A person — or the agent acting for them — can ask a system both questions and get a scoped, honest answer before relying on it.
-
-**"CAI" names the concept and its public-interest profile, not a running system.** The *interface* here is conceptual — what the label must carry and what each field means — not an API, a wire format, or a spec. The Charter's contribution is that profile: binding the label to the obligations and to honest assurance-depth labels. What it must never become is a single green light — and that danger comes first.
-
-## The central danger
-
-A machine-readable assurance surface propagates **false confidence as fast as true confidence.** Agents and procurement systems will read a green light and act on it, ignoring scope, depth, and freshness. So the CAI is worth having **only as a scoped, honest, freshness-checked claim surface — never an "AI trust API" or badge.** "Queryable certification" is the phrase to avoid.
-
-## The principles
-
-- **Profile, don't invent.** The form already exists in supply-chain-attestation and transparency practice; the Charter contributes only the *public-interest profile* — binding it to the obligations and assurance-depth labels — not a new standard.
-- **Decouple capabilities from assurance.** Self-declared capabilities must not borrow assurance's credibility: keep **self-declared** and **independently-assured** fields visibly distinct, each carrying its own provenance. Bind every assured claim to the **exact assessed version**, so a changed system falls **out of scope** rather than silently inheriting the old claim.
-- **Public scrutiny by default.** An assurance claim must be **publicly checkable**, not privately asserted — that is what counters the fake-assessor and the "one story to the buyer, another to the regulator" failures.
-- **Scoped and fail-safe.** No global "trusted / safe / compliant" verdict; every claim carries its **scope, depth, and currentness**. When status cannot be confirmed, the honest answer is **"unknown," never "valid"** — and a stale "valid" must expire, not linger.
-- **The trust stack is the real dependency.** The hard part is not the format; it is the **institutional trust infrastructure** — accredited assessors, revocation, and enforcement with teeth (delisting, procurement exclusion). That is why the **assured half** waits on a **mature Phase-2 conformity scheme** — riding on a maturing certification model — not mere packaging of existing content.
-
-## Buildable now vs deferred
-
-- **Now — the self-declared half only:** a provider publishes its **capabilities** (purpose, prohibited uses, operating envelope, version, limits) plus a **link to the human-readable release risk assessment**, with assured fields marked **not-yet-independently-attested**. Safe, because it claims nothing it cannot back.
-- **Deferred — the assured half:** independently-signed obligation statuses, public-scrutiny records, and revocation — which wait on the assessor ecosystem and trust stack above.
-
-## What this is
-
-A design **direction** and a **profile** — the demand side's *check* surface, read alongside *find* (discovery) and *watch* (runtime inspection) in the [structure map](charter-structure-and-views.md). Mechanisms (schemas, signing, logs) are intentionally left out at this stage.
+The CAI design direction is now part of [Charter structure and views → Check: Capabilities & Assurance Interface](charter-structure-and-views.md#capabilities-and-assurance-interface), alongside the related find and watch concepts. It remains a conceptual profile, not an operating interface or certification service.

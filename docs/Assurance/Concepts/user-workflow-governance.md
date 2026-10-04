@@ -1,3 +1,5 @@
+> **Status: DRAFT**
+
 # Governance from the AI user's workflow
 
 *Runtime reference model. Where the [control-and-evidence layer](../../Infrastructure/control-and-evidence-layer.md) asks what an operator must prove, this asks what a person using AI must decide, trace, and escalate.*

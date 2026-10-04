@@ -4,6 +4,8 @@
 
 *Working notes — 2026-08-02 · JusticeTree pages and Charter sources rechecked on that date. JusticeTree's branded terms identify its published work; they are not adopted as Charter terminology.*
 
+**Reading this comparison today (2026-10-04):** the tables and source-status statements below describe the design material reviewed on 2026-08-02, including that edition of the POC specification. The [current EGA overview](../Concepts/evidence-gated-agents.md#foundations-and-the-selected-next-step) now describes a Runtime proof of concept exercising gates and receipts in simulated scenarios; it does not establish the planned EGA integration. This comparison has not been rerun, and it supports no comparative effectiveness claim.
+
 ## Scope and evidence rule
 
 This note compares two **public designs** for controlling a consequential action before effect. Teresa Villa's LinkedIn post poses ten implementation questions for Validation Before Execution™ (VBE), paraphrased in the table headers below; the questions are not themselves answers. This note attributes an answer to JusticeTree only where a reviewed JusticeTree page supplies it.
@@ -17,7 +19,7 @@ The same rule applies to both sides:
 | Side | Public material compared | Maturity boundary used here |
 |---|---|---|
 | **JusticeTree** | Published VBE framework, four volumes, pipeline, How JusticeTree Works, Architecture Center, simulator and Pilot 001 design | JusticeTree says the framework is published, operational validation tools are in development, the simulator is educational, and Pilot 001 is not operational. |
-| **Our AI Charter** | Draft consequential-action baseline, published runtime article, workflow reference model, and working POC/custody specifications | This note tests the public rules, not an implementation. The POC specification declares synthetic effects, minimal cryptography, simulated institutions, and no independent reviewer or remedy decider; its code has not yet been built — M0 is the first milestone. |
+| **Our AI Charter** | Draft consequential-action baseline, published runtime article, workflow reference model, and working POC/custody specifications | At the 2026-08-02 review, this note examined public rules, not an implementation. The reviewed POC specification declared synthetic effects, minimal cryptography, simulated institutions, and no independent reviewer or remedy decider; code had not yet been built and M0 was the first milestone. See the update above for the current public description. |
 
 JusticeTree's Technology & Attribution page states that JusticeTree owns VBE and that TraceStack™ belongs to Quantum Inquiry and is used under a non-commercial reference licence. This review did not inspect that licence text. No public reuse licence for VBE specifications or test assets was identified on the reviewed pages; compare and cite rather than copy them without permission.
 
@@ -25,7 +27,7 @@ JusticeTree's Technology & Attribution page states that JusticeTree owns VBE and
 
 - **Strong convergence:** both designs separate recommendation from permission, test current authority and supporting evidence before consequence, keep unresolved actions non-executing, and require a traceable decision record.
 - **Different public emphasis:** VBE organizes the release question around **authority, evidence, timing, and execution**. The Charter connects lifecycle governance to five action/gate pairs — **Plan → Authorize; Prepare → Submit; Check → Verify; Decide → Commit; Review → Rely** — and specifies service-side enforcement, intervention, effect records, challenge, and lifecycle feedback in more detail.
-- **No implementation conclusion:** greater public detail is not proof of working control, and the converse also holds: JusticeTree publishes a running educational demonstrator of its scenario paths, while the Charter has no equivalent artifact at any maturity. This review found no execution results that support a comparative effectiveness claim for either side.
+- **No implementation conclusion:** greater public detail is not proof of working control. At the 2026-08-02 review, JusticeTree published an educational demonstrator of its scenario paths; no equivalent Charter artifact was available to this comparison. The later Runtime proof of concept does not retrospectively validate either design here. This review found no execution results that support a comparative effectiveness claim for either side.
 
 ## Ten-question crosswalk
 

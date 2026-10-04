@@ -1,8 +1,10 @@
+> **Status: DRAFT**
+
 # Assurance cases — the five obligations as obligation→duty bridges
 
 *Prototype crosswalks (2026-06-28), consolidated from five separate `wip/` notes. They validate the instrument in [charter-structure-and-views.md](charter-structure-and-views.md); per that note they should **graduate into a certification-model annex** once an obligation is piloted — this is working design, not settled normative text. Each routes to the [Charter Commitments](../Framework/charter-commitments.md)' eight duties and modules, inventing no new controls.*
 
-Each obligation is a **Claims → Arguments → Evidence** view: the public **claim**, the **duties** that argue it, the **module/evidence** that proves it, and the remedy owed — with the obligation's status **derived** from those duty/module findings, never scored on its own. A **view over the duties**, not a new control layer. "Min. depth" is the minimum assurance depth for a **high-stakes** tier; lower tiers relax it.
+Each obligation is a **Claims → Arguments → Evidence** view: the public **claim**, the **duties** that argue it, the **module/evidence** that proves it, and the remedy owed — with the obligation's status **derived** from those duty/module findings, never scored on its own. A **view over the duties**, not a new control layer. "Min. depth" gives prototype row minima for a **high-stakes** tier, subject to the [Charter Commitments](../Framework/charter-commitments.md): material risks require at least **evidence observed**, and consequential or high-risk claims require **implementation checked** or **effectiveness tested** where feasible. Lower tiers may relax a row only within those baseline requirements.
 
 ## Obligation 1 — Purpose-bound
 
@@ -33,7 +35,7 @@ Remedy is mostly **narrowing or withdrawal**; individual harm from an out-of-pur
 | **D7 — transparency** | notice that AI is materially involved; an understandable explanation | notice + explanation artefacts | evidence-observed |
 | **D8 — incidents, withdrawal** | incidents/appeals logged; escalation + withdrawal that work | incident + appeal records | implementation-checked |
 | **D4 — control** *(supporting)* | who can restrict/recall/shut down — no hidden powers | restriction-transparency module | evidence-observed |
-| **D3 — risk register** *(supporting)* | consequential-use risk registered, tiered, monitored | release risk assessment | documented |
+| **D3 — risk register** *(supporting)* | consequential-use risk registered, tiered, monitored | release risk assessment | evidence-observed |
 
 **Remedy splits individual vs collective:** individual — correct → reconsider under human review → reverse/compensate, with a published response time; **collective/systemic** — repeated failures, disparate error rates, or group-level harm trigger regulator- or representative-review (a person cannot appeal a *pattern*).
 

@@ -1,23 +1,29 @@
 > **Status: DRAFT**
 
-# How could "trustworthy AI" be certified? — an assurance-stack model
+<a id="how-could-trustworthy-ai-be-certified-an-assurance-stack-model"></a>
 
-_Companion to the "Trustworthy AI, Accountable to People" manifesto, for the first question every expert asks: "Who certifies? Who's the authority?" Draft updated 2026-09-10. Grounded in how certification works in other industries._
+# Future certification: independence and oversight
+
+This proposal explores how a future Charter assessment scheme could keep rulemaking, assessment and oversight independent. For the distinction between commitments, evaluation and certification, start with the [Assurance overview](../index.md).
 
 This is a **future-state model**, not a scheme that exists today, and the phased steps below are proposals — not work that is underway or scheduled. No pilot evaluations have been run; there is no Trust Mark, certificate, accredited assessor, or certification body. The current work is drafting and building connections.
 
-## Short answer: no single authority — and that's the design.
+<a id="short-answer-no-single-authority-and-thats-the-design"></a>
 
-Credible certification never rests on one anointed body's say-so. It rests on a **separation of powers**, so no one can mark their own homework. That structure — not a central authority with a kill-switch — is what makes a mark trustworthy. So the honest answer to "who appointed you?" is: *no one did. That's the point.*
+## Separate roles and accountable authority
 
-## The model every mature scheme uses — four separated roles
+The proposed **separation of powers** is intended to prevent an operator, assessor, funder or standard-setter from controlling its own assessment. Independence would need evidence: how roles are appointed, whose interests they represent, what they may decide, how conflicts are managed, and how affected people can challenge decisions. A diagram of separate roles does not by itself establish legitimate authority.
+
+<a id="the-model-every-mature-scheme-uses-four-separated-roles"></a>
+
+## Four proposed roles and their precedents
 
 1. **Standard-setter** — writes the rules. *(ISO/IEC; FSC; Fairtrade International; the IFCN Code of Principles.)*
 2. **Certifier / audit body** — audits a system against the standard; independent of the audited party. *(FLOCERT for Fairtrade; IFCN's region-matched external assessors.)*
 3. **Accreditor** — accredits and polices the certifiers; can suspend them. *(National accreditation bodies; IOAS, which both accredits and suspends organic certifiers.)*
 4. **Peer-review of accreditors** — keeps accreditors honest and mutually recognised worldwide. *(The IAF, peer-evaluating accreditation bodies against ISO/IEC 17011.)*
 
-"Who checks the checkers?" → the accreditor. "Who checks them?" → peer review. That chain is why a label can be trusted **without anyone holding absolute power over it.**
+Accreditation and peer review offer ways to scrutinise assessors and their overseers. Their scope, independence and effectiveness would need to be established for any future Charter scheme; these precedents do not mean that it is already accredited or recognised.
 
 ## For AI, this is already emerging — and it's thin
 
@@ -77,19 +83,19 @@ No voluntary mark can stop a state, court, platform, or infrastructure provider 
 
 ## Who could drive this?
 
-Certification schemes are rarely founded as standalone authorities — they're **convened by a credible initiator and incubated inside or beside a neutral host:**
+Existing initiatives illustrate several possible stewardship arrangements:
 - **A mission-driven NGO stewards it** — Reporters Without Borders drove the Journalism Trust Initiative; Poynter runs the IFCN code; Fairtrade International and FSC are dedicated nonprofits.
-- **A neutral host incubates it** — the Linux Foundation hosts OpenSSF and open-model work; OASIS hosts the Coalition for Secure AI; CEN hosted JTI's standard. A host gives legal shelter and instant neutrality without founding a new institution.
+- **A neutral host incubates it** — the Linux Foundation hosts OpenSSF and open-model work; OASIS hosts the Coalition for Secure AI; CEN hosted JTI's standard. A host can provide legal and administrative support; neutrality would depend on its governance and conflicts of interest.
 - **A multi-stakeholder coalition runs it** — the CA/Browser Forum (browsers + certificate authorities); the AI Alliance; the Digital Public Goods Alliance.
 - **A public anchor can lend context or convening legitimacy** — UNESCO, the Council of Europe, or relevant EU assurance structures, without implying endorsement, legal approval, or that the Charter certifies legal compliance.
 
-**Realistic model here:** *you convene; you don't run an audit empire.* The initiator is the founder + early manifesto signatories as a small founding coalition. Treat the host question as a two-track outreach hypothesis, not a settled decision: journalism and fact-checking bodies such as RSF/JTI, IFCN/Poynter, or EFCSN can supply information-integrity legitimacy and process analogues; neutral open-standards or open-source hosts such as OASIS, the Linux Foundation, a CEN-style workshop route, or the Digital Public Goods Alliance can supply stewardship infrastructure depending on scope. Substance should be anchored with measurement and public-interest AI partners such as MLCommons, the AI Alliance, and Current AI. The verified analogues are mixed: RSF convened JTI and CEN published it as CWA 17493; Poynter hosts IFCN; the Linux Foundation consolidated existing open-source-security efforts into OpenSSF; and OASIS hosts CoSAI. They support the pattern, but they are not one template.
+These examples illustrate different functions: information-integrity assessment, standards stewardship, technical measurement and public-interest representation. RSF convened JTI and CEN published it as CWA 17493; Poynter hosts IFCN; the Linux Foundation consolidated existing open-source-security efforts into OpenSSF; and OASIS hosts CoSAI. They are references, not prospective-partner commitments or endorsements. No host or coalition is established by this proposal. Any future selection would need published criteria, a clear mandate and conflict-of-interest safeguards.
 
 Where the Charter is applied to public AI infrastructure, legal form is secondary to stewardship. A credible host or steward should let partners inspect evidence, challenge claims, participate in governance, and support the work only under disclosed, capped, conflict-managed funding rules. Model operation, standard-setting, evaluation, accreditation, and funding decisions should be institutionally separate or strongly firewalled; the steward maintains the standard and registry, but does not audit or operate the infrastructure itself.
 
 ## How would it be financed?
 
-The one rule from every scheme: **diversify — never let one stream dominate.** Single-source funding is capture: the Marine Stewardship Council draws most of its revenue from logo licensing (a structural incentive to over-certify), and fact-checking's reliance on a few platform funders nearly collapsed when Meta exited its program in 2025.
+**Diversify funding and limit any one funder's influence.** Dependence on a single funder or on passing audits creates a risk of capture. Funding sources, caps and safeguards would need to be disclosed and tested against the scheme's actual incentives.
 
 The working mix:
 - **Public-interest seed funding** to bootstrap (Germany's Sovereign Tech Fund; the EU/UNESCO-backed Journalism Trust Initiative).
@@ -111,27 +117,31 @@ _(Funding figures here are illustrative — verify before citing; they shift yea
 
 ## The honest part
 
-Standing up the full pyramid is hard and slow — which is exactly why Phase 1 matters. And the deepest legitimacy question answers itself: authority here is **manufactured by structure and transparency** (independent layers, public registry, revocation history), not granted to anyone.
+A certification scheme would need a legitimate mandate, independent scrutiny, participation by affected people and effective challenge and remedy. Published rules, a public registry and a revocation history would make its decisions inspectable; they would not, on their own, establish legitimacy or effectiveness.
 
 One incentive question remains open — raised by Angelo Richiello in the public discussion of the [runtime-governance article](../../Published/when-vs-who-ai-governance.md): the rules above remove the reward for *passing* (outcome-independent fees, no pay-to-pass, diversified funding), but nothing yet rewards *questioning or stopping*. Where speed and deployment keep paying while a justified stop pays no one, oversight can drift from real to symbolic even with cleanly separated roles — and, as the same discussion noted, formal incentives rarely reward constructive dissent, so making responsible challenge count as a recognised contribution is organisational culture as much as scheme design. Candidate directions, none adopted here yet: reviewer compensation independent of throughput and verdict; protected escalation routes; and demand-side consequences that make a justified stop valuable to those relying on the mark (the demand-side enforcement above).
 
 ## Public discussion record
 
-The following reply was [published on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7485727693569982466/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287486003307099078657%2Curn%3Ali%3AugcPost%3A7485727693569982466%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287487570736052645889%2Curn%3Ali%3AugcPost%3A7485727693569982466%29) on 2026-07-27 in Andrew Woodward's hardware-rooted audit-trail discussion, replying to his proposal to train people who already hold relevant credentials. It is mirrored verbatim:
+The dated reply below concerns personnel credentials, a separate question from assurance of an AI release. It is retained as a publication record; its source checks describe July 2026, not a current accreditation assessment.
 
-> Andrew Woodward Yes—the personnel-certification framework exists, distinct from management-system certification. ISO/IEC 17024 governs bodies certifying people under schemes that specify competence requirements.
->
-> ISACA's AAIA follows your existing-titles logic: an active CISA, or an active designation from ISACA's closed audit/accountancy list plus an IT-audit or IT-advisory role focus. No experience-only route.
->
-> Current ANAB ISO/IEC 17024 scopes include AI credentials: CompTIA's DataAI and SecAI+, and SISA's CSPAI. So the standard does not categorically exclude AI credentials. The audit-side gap here is AAIA, absent from ISACA's current ANAB scope; separately, IAPP's handbook says AIGP is not ANAB-accredited. That is ANAB-specific, not worldwide.
->
-> Competence is only half. A review regime also needs published decision criteria and an applicable challenge route. Your example shows the distinction: the coder can cite public CMS rules, while a beneficiary can appeal an appealable coverage or payment determination.
->
-> A small group can start the function. My model still does not reward justified questioning or stopping.
->
-> https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/
+??? note "Published reply and sources — 27 July 2026"
 
-_Primary-source check, 2026-07-27: [ISO/IEC 17024:2026](https://www.iso.org/standard/17024), [AAIA's current eligibility rules](https://www.isaca.org/credentialing/aaia), the current ANAB scopes for [CompTIA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=93&prgID=201&statusID=4), [SISA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=182567&prgID=201&statusID=4), [ISACA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=96&prgID=201&statusID=4), and [IAPP](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=2162&prgID=201&statusID=4), IAPP's [Candidate Handbook v5.3.2](https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blteb8b5d531fd78971/IAPP-Certification_Handbook.pdf), and CMS's [Original Medicare appeals guidance](https://www.cms.gov/medicare/appeals-grievances/fee-for-service). The comment's negative accreditation statements are deliberately ANAB-specific._
+    The following reply was [published on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7485727693569982466/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287486003307099078657%2Curn%3Ali%3AugcPost%3A7485727693569982466%29&dashReplyUrn=urn%3Ali%3Afsd_comment%3A%287487570736052645889%2Curn%3Ali%3AugcPost%3A7485727693569982466%29) on 2026-07-27 in Andrew Woodward's hardware-rooted audit-trail discussion, replying to his proposal to train people who already hold relevant credentials. It is mirrored verbatim:
+
+    > Andrew Woodward Yes—the personnel-certification framework exists, distinct from management-system certification. ISO/IEC 17024 governs bodies certifying people under schemes that specify competence requirements.
+    >
+    > ISACA's AAIA follows your existing-titles logic: an active CISA, or an active designation from ISACA's closed audit/accountancy list plus an IT-audit or IT-advisory role focus. No experience-only route.
+    >
+    > Current ANAB ISO/IEC 17024 scopes include AI credentials: CompTIA's DataAI and SecAI+, and SISA's CSPAI. So the standard does not categorically exclude AI credentials. The audit-side gap here is AAIA, absent from ISACA's current ANAB scope; separately, IAPP's handbook says AIGP is not ANAB-accredited. That is ANAB-specific, not worldwide.
+    >
+    > Competence is only half. A review regime also needs published decision criteria and an applicable challenge route. Your example shows the distinction: the coder can cite public CMS rules, while a beneficiary can appeal an appealable coverage or payment determination.
+    >
+    > A small group can start the function. My model still does not reward justified questioning or stopping.
+    >
+    > https://robertschaub.github.io/our-ai-charter/Assurance/Framework/certification-model/
+
+    _Primary-source check, 2026-07-27: [ISO/IEC 17024:2026](https://www.iso.org/standard/17024), [AAIA's current eligibility rules](https://www.isaca.org/credentialing/aaia), the current ANAB scopes for [CompTIA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=93&prgID=201&statusID=4), [SISA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=182567&prgID=201&statusID=4), [ISACA](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=96&prgID=201&statusID=4), and [IAPP](https://anabpd.ansi.org/accreditation/credentialing/personnel-certification/AllDirectoryDetails?OrgId=2162&prgID=201&statusID=4), IAPP's [Candidate Handbook v5.3.2](https://assets.contentstack.io/v3/assets/bltd4dd5b2d705252bc/blteb8b5d531fd78971/IAPP-Certification_Handbook.pdf), and CMS's [Original Medicare appeals guidance](https://www.cms.gov/medicare/appeals-grievances/fee-for-service). The comment's negative accreditation statements are deliberately ANAB-specific._
 
 ---
 _Sources: ISO/IEC 17065; ISO/IEC 42001, ISO/IEC 42005, and ISO/IEC 42006; the IAF (International Accreditation Forum); [EU AI Act Art. 43](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-43) (conformity assessment and notified-body routes), [Art. 53](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53) (GPAI provider obligations), and [Art. 55](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55) (GPAI systemic-risk obligations); and certification, standards, and public-interest analogues including Fairtrade/FLOCERT, GOTS/IOAS, [IFCN/Poynter](https://ifcncodeofprinciples.poynter.org/about), [EFCSN](https://efcsn.com/code-of-standards/), [JTI](https://journalismtrustinitiative.org/jti-the-standard/) and [CWA 17493](https://www.cencenelec.eu/media/CEN-CENELEC/CWAs/ICT/cwa17493.pdf), [OpenSSF/Linux Foundation](https://www.linuxfoundation.org/blog/blog/open-source-security-foundation-openssf-reflection-and-future), [OASIS/CoSAI](https://www.oasis-open.org/2024/07/18/introducing-cosai/), [DPGA](https://www.digitalpublicgoods.net/standard), [MLCommons AILuminate](https://mlcommons.org/benchmarks/ailuminate/), [AI Alliance Trusted Evals](https://thealliance.ai/core-projects/trusted-evals), and [Current AI](https://www.currentai.org/)._

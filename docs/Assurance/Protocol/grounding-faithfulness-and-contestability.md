@@ -11,6 +11,8 @@
 
 ## Status of this document
 
+For a short introduction, read the [method summary](one-pager.md); the [Assurance overview](../index.md) distinguishes this method from the broader Charter and future certification.
+
 This is an early, openly‑published draft, released to be argued with — not a finished standard, and not something anyone is yet certified against. It has been pressure‑tested once by an adversarial multi‑model review and revised accordingly, but it has **not** been validated against real systems, and **no pilot evaluation has been run or is scheduled.** Treat every number (sample sizes, thresholds, fees) as illustrative, pending per‑use‑case calibration with a statistician. The goal of publishing now is to recruit critique and co‑authors, and to contribute the method *into* existing bodies rather than to found a new one. **How to engage is at the end.**
 
 ## Abstract
