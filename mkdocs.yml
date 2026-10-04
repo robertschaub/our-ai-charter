@@ -147,8 +147,11 @@ nav:
           - What the world has already declared: Assurance/Background/what-the-world-has-already-declared.md
           - What the runtime layer adds: Assurance/Background/what-the-runtime-layer-adds.md
           - "JusticeTree VBE ↔ Charter crosswalk": Assurance/Background/justice-tree-vbe-charter-crosswalk.md
+          - "Public AI sources": Evidence/linked-sources.md
+          - "AI liability and insurance evidence": Evidence/ai-liability-and-insurance-evidence.md
   - Articles:
       - Article index: Published/index.md
+      - "Public AI, Built Together — Towards Geneva 2027": Published/public-ai-towards-geneva-2027.md
       - "The Swiss F-35A fixed-price trap - Would AI fall into it today?": Published/f35-fixed-price-evidence.md
       - "Die Schweizer F-35A-Fixpreisfalle (DE)": Published/f35-fixed-price-evidence.de.md
       - "The Public AI We Need: Sovereign, Inspectable and Accountable": Published/the-public-ai-we-need.md
@@ -164,23 +167,5 @@ nav:
       - The Public AI Network: Published/the-public-ai-network.md
       - "AI Sovereignty and Resilience (EN)": Published/ai-sovereignty-and-resilience.md
       - "KI-Souveränität und Resilienz (DE)": Published/ki-souveraenitaet-und-resilienz.md
-  - Outreach:
-      - "Geneva 2027 — governance and evidence package": Outreach/geneva-2027-keystone-memo.md
-      - "Geneva 2027 — assurance questions": Outreach/geneva-2027-assurance-questions-note.md
-      - "RAISD — exploratory research fit": Outreach/swiss-ai-raisd-fit-note.en.md
-      - "Non-Paper (EN)": Outreach/non-paper.en.md
-      - "Non-Paper (DE)": Outreach/non-paper.de.md
-      - "Action Plan (EN)": Outreach/action-plan.en.md
-      - "Aktionsplan (DE)": Outreach/action-plan.de.md
-      - "Postulate (EN)": Outreach/postulat.en.md
-      - "Postulat (DE)": Outreach/postulat.de.md
-      - "Policy-sprint 1-pager (DE)": Outreach/policy-sprint-1pager.de.md
-      - "Policy-sprint presentation (DE)": Outreach/policy-sprint-praesentation.de.md
-      - "Policy-sprint presentation (EN)": Outreach/policy-sprint-presentation.en.md
-  - Evidence:
-      - Verified findings: Evidence/verified-findings.md
-      - Linked sources: Evidence/linked-sources.md
-      - "Geneva 2027 — channel demand": Evidence/geneva-2027-channel-demand.md
-      - "AI liability and insurance evidence": Evidence/ai-liability-and-insurance-evidence.md
   - About: About.md
   - Privacy: privacy.md

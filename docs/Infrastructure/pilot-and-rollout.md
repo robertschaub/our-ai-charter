@@ -1,6 +1,6 @@
 # Federated public AI infrastructure — pilot & rollout
 
-Strategy for standing up the [federated public AI infrastructure](architecture.md): Geneva 2027 MVP, development sequence, open decisions, and framing. Proposed, not yet built.
+A conditional concept for the [federated public AI infrastructure](architecture.md), originally framed around Geneva 2027. The sequence below is retained for discussion; it is not the current implementation plan or a delivery commitment. The current development focus is [Evidence-Gated Agents](../Assurance/Concepts/evidence-gated-agents.md).
 
 ## Geneva 2027 MVP
 

@@ -2,6 +2,11 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-10-04
+
+- Added the website article **Public AI, Built Together — Towards Geneva 2027**, connecting current EGA work to the wider movement and an open, conditional contribution path. Linked it from the homepage, network overview and article collection; checked official participation information on 2026-10-04.
+- Simplified public navigation by removing Outreach and Evidence tabs and outreach-planning pages. Retained the source bibliography and dated liability/insurance research under Assurance → Background; preserved the earlier findings URL with a notice for existing article links. Clarified the current EGA focus and distinguished longer-term network proposals from delivery commitments.
+
 ## 2026-10-03
 
 - **EGA research page clarified** — Separated research from prototype evaluation, explained check inputs and outputs, added related research, structured-method comparisons and a decision-sufficiency example, and retained comparison rules, protocol-publication commitments and existing section links. Made explicit that research goals do not amend Runtime's adopted specification, acceptance criteria or milestones.

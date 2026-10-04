@@ -60,12 +60,12 @@ Protect and strengthen free and fair societies in the digital age through public
 
 **Selected prototype direction.** A bounded German/English path will let a normal AI agent answer a free request, ask FactHarbor to examine whether evidence supports the exact proposed decision, and release or stop that decision under checks outside the acting model. Every release and stop produces an inspectable receipt. The prototype releases decisions but does not execute resulting actions; API and Runtime integration remain to be implemented. See the [prototype scope](Assurance/Concepts/evidence-gated-agents.md#selected-prototype-dynamic-decision-examination).
 
-**Broader network and assurance work.** The proposed international network and certification scheme remain in public drafting and connection-building; neither is operational and no systems are Charter-certified. The public [Geneva 2027 governance and evidence package](Outreach/geneva-2027-keystone-memo.md) describes a conditional discussion route, pursued internationally from a Swiss starting point. Building a partner mandate remains a prerequisite for wider network implementation.
+**Broader network and assurance work.** The proposed international network and certification scheme remain public concepts; neither is operational and no systems are Charter-certified. Alongside EGA development, we remain open to cooperation with the wider public-AI movement and a useful contribution to Geneva 2027. Specific participation and deliverables would depend on agreed scope, collaborators and resources. Read [Public AI, Built Together — Towards Geneva 2027](Published/public-ai-towards-geneva-2027.md).
 
 ## How to help
 
 1. **Build or test** — Explore [Evidence-Gated Agents](Assurance/Concepts/evidence-gated-agents.md) and contribute practical use cases, development or evaluation expertise.
-2. **Scrutinise the work** — Challenge specific claims, gaps or design choices against the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [supporting evidence](Evidence/verified-findings.md).
+2. **Scrutinise the work** — Challenge specific claims, gaps or design choices against the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md).
 3. **Connect people and institutions** — Introduce a potential collaborator, neutral convenor or policymaker. The [network overview](network-overview.md#how-to-take-part-now) explains the public cooperation route.
 4. **Back a concrete step** — Help fund a clearly scoped deliverable or support it in relevant policy venues.
 

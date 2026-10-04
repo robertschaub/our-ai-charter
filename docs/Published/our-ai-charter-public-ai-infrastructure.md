@@ -21,6 +21,8 @@ Project: https://robertschaub.github.io/our-ai-charter/
 ***
 # Our AI Charter: From Open Models to Accountable Public AI Infrastructure
 
+*Editorial note, 2026-10-04: This article reflects its publication date. The current development focus is [Evidence-Gated Agents](../Assurance/Concepts/evidence-gated-agents.md). [Public AI, Built Together — Towards Geneva 2027](public-ai-towards-geneva-2027.md) explains the continuing open path; the earlier proposals below are not current delivery commitments.*
+
 **Our AI Charter is a proposal for an international network of open AI models under shared public obligations, backed by an independent governance-and-evidence layer.**
 
 Participating providers would commit to common public obligations, backed by an independent governance-and-evidence layer and a shared way to find, compare, and reach the systems that take part.

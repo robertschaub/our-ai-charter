@@ -31,6 +31,8 @@ Add or tag them in the comments (I've listed a few to start), and let's connect 
 ***
 # The Public AI Network: Building Sovereignty and Resilience for Free Societies
 
+*Editorial note, 2026-10-04: This article reflects its publication date. The current development focus is [Evidence-Gated Agents](../Assurance/Concepts/evidence-gated-agents.md). [Public AI, Built Together — Towards Geneva 2027](public-ai-towards-geneva-2027.md) explains the continuing open path; the earlier proposals below are not current delivery commitments.*
+
 _Open, publicly-funded AI models now exist across many regions — but real sovereignty and resilience come from what free societies build around them: shared standards, genuine accountability, and public compute, developed in the open._
 
 AI is fast becoming infrastructure — the layer through which people learn, work, govern, and make sense of the world. But unlike the infrastructures before it, most of it is owned by a handful of private firms, and much of how it works is hidden from the people who depend on it. The question is not only which model performs best this quarter, but whether people and democratic institutions can inspect, shape, and contest the systems they increasingly rely on. That makes the push for open, public-interest AI more than a technology story: it is about whether free societies keep the capacity to govern their own digital space.
@@ -84,4 +86,4 @@ _Compute & coordination:_ [Public AI Inference Utility](https://publicai.co/), [
 _Working paper, updated 22 June 2026. Work in progress: [robertschaub/our-ai-charter](https://github.com/robertschaub/our-ai-charter)._
 
 
-_Sources: [Linked sources & charter relevance](../Evidence/linked-sources.md). Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) ([English translation](ai-sovereignty-and-resilience.md)) — the sovereignty thread; [Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.md) — the accountability thread._
+_Sources: [Sources and further reading](../Evidence/linked-sources.md). Companions: the German article [KI-Souveränität und Resilienz](ki-souveraenitaet-und-resilienz.md) ([English translation](ai-sovereignty-and-resilience.md)) — the sovereignty thread; [Trustworthy AI, Accountable to People](trustworthy-ai-accountable-to-people.md) — the accountability thread._

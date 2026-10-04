@@ -30,6 +30,8 @@ The earlier articles that discuss different aspects in detail are listed at the 
 ***
 # The Public AI We Need: Sovereign, Inspectable and Accountable
 
+*Editorial note, 2026-10-04: This article reflects its publication date. The current development focus is [Evidence-Gated Agents](../Assurance/Concepts/evidence-gated-agents.md). [Public AI, Built Together — Towards Geneva 2027](public-ai-towards-geneva-2027.md) explains the continuing open path; the earlier proposals below are not current delivery commitments.*
+
 *The essential argument of Our AI Charter—from sovereignty and public infrastructure to runtime governance, empathy, and remedy.*
 
 A public agency assesses grant applications with an open model, on approved infrastructure, under domestic control. Every ownership and control box is ticked. And the applicant who is refused still cannot see which evidence decided the case, or challenge it.

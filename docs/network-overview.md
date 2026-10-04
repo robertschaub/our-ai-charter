@@ -79,7 +79,7 @@ The proposed network remains in **Phase 1: public drafting and connection-buildi
 
 Robert Schaub’s current development focus is EGA, which draws on the separate FactHarbor Alpha and runtime proof-of-concept foundations. The dynamic decision-release path is the selected prototype direction; its API and Runtime integration remain to be built and tested. See the [current status and next step](index.md#where-the-work-stands).
 
-The network proposal’s target is a **Geneva 2027 Public AI Governance & Evidence Package**: a neutral clarification process, governance blueprint, one bounded evidence-and-evaluation pilot outline, and roundtable path. The public [package draft](Outreach/geneva-2027-keystone-memo.md) applies the route **alliance and mandate first, lawmaking later**; Switzerland is a possible host, node, and bridge — not owner.
+The broader network remains open to cooperation with the public-AI movement. Geneva 2027 is one possible setting for a bounded contribution, developed with willing collaborators and resources appropriate to the work. The federation sequence above remains a concept rather than the current delivery plan; Switzerland is a possible host, node and bridge, with international co-stewardship. See [Public AI, Built Together — Towards Geneva 2027](Published/public-ai-towards-geneva-2027.md) for the public invitation and official participation routes.
 
 ## How to take part now
 
@@ -89,7 +89,7 @@ Taking part today means publicly supporting the commitments, contributing, testi
 - **Contributors** — critique, research, translate, or improve a draft through GitHub.
 - **Connectors** — open one useful door to a neutral convenor, institutional anchor, partner, or venue.
 - **Funders** — support one deliverable or contribute compute, staff, or a venue without controlling rules or findings.
-- **Policy and institutional leaders** — test the question through procurement, policy, a pre-sprint, or Geneva 2027.
+- **Policy and institutional leaders** — critique the proposed public obligations and accountability requirements, or explore a bounded contribution to the [Geneva 2027 process](Published/public-ai-towards-geneva-2027.md#an-open-path-to-geneva).
 - **Supporters** — publicly endorse the [Charter Commitments](Assurance/Framework/charter-commitments.md), the one assurance step open today; member, pilot, and future mark steps only register interest.
 - **Users and the public** — apply the [checkable questions](Assurance/Framework/charter-commitments.md#what-people-need-to-be-able-to-demand) when choosing, buying, evaluating, or challenging AI.
 

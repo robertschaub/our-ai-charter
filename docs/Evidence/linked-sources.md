@@ -1,113 +1,52 @@
-# Linked sources in the "Public AI Network" article — strategic map + relevance to *Our AI Charter*
+# Public AI: sources and further reading
 
-**Source article:** [The Public AI Network: Building Sovereignty and Resilience for Free Societies](../Published/the-public-ai-network.md) — [published on LinkedIn](https://www.linkedin.com/pulse/public-ai-network-building-sovereignty-resilience-free-robert-schaub-ggpne) (Robert Schaub, 22 June 2026).  
-**Compiled:** 2026-06-22. **Last source-audit update:** 2026-07-04.
-**Purpose:** identify which cited initiatives are mature enough to matter for the public-AI governance and infrastructure effort, and where *Our AI Charter* can add a trust-and-evidence layer.
+References accompanying [The Public AI Network](../Published/the-public-ai-network.md), published on 2026-06-22. This bibliography retains the original source links; it is not a ranking of potential partners or a claim of affiliation. The earlier source review dates from June–July 2026. This editorial revision (2026-10-04) does not reverify the initiatives' current status.
 
-## Yardstick
+## Public-AI initiatives and infrastructure
 
-Each initiative below is read against the Charter's five obligations and three-layer assurance model, defined in the [Charter Commitments](../Assurance/Framework/charter-commitments.md). The question is practical: does this source help public-AI projects show purpose, accountability, safety, fairness, evidence, and correction?
+- [Public AI Network / PAINT](https://publicai.network/) — public-AI network and publications.
+- [Metagov](https://metagov.org/) — digital-governance research.
+- [Apertus / Swiss AI Initiative](https://www.swiss-ai.org/apertus) — Swiss open-model programme.
+- [Public AI Inference Utility](https://publicai.co/) — access to open models.
+- [Current AI](https://www.currentai.org) — public-interest AI initiative.
+- [AI Alliance — Project Tapestry](https://thealliance.ai/projects/tapestry) — federated-training work.
+- [EuroHPC AI Factories](https://www.eurohpc-ju.europa.eu/ai-factories_en) — European compute infrastructure.
+- [Mozilla.ai](https://www.mozilla.ai/) — open-source AI tooling.
 
----
+## Models, data and provenance
 
-## Strategic map — priority, maturity, and contribution potential
+- [OLMo](https://allenai.org/olmo)
+- [Common Corpus](https://huggingface.co/datasets/PleIAs/common_corpus)
+- [Common Pile](https://blog.eleuther.ai/common-pile/)
+- [Data Provenance Initiative](https://www.dataprovenance.org/)
+- [BLOOM](https://huggingface.co/bigscience/bloom)
+- [EuroLLM](https://eurollm.io/)
+- [ALIA](https://alia.gob.es/)
+- [LLM-jp](https://huggingface.co/llm-jp)
+- [SEA-LION](https://sea-lion.ai/)
+- [Masakhane](https://www.masakhane.io/)
+- [LatamGPT](https://www.latamgpt.org/)
+- [Sarvam](https://www.sarvam.ai/)
 
-The sources span operational anchors, standards and legal foundations, regional examples, and emerging efforts. The practical question: **which can help turn the Charter from principles into a credible public trust-and-evidence layer for public-interest AI?**
+## Evaluation, openness and public-interest research
 
-### Tier 1 — closest strategic fit and most mature anchors
+- [AI Verify Foundation](https://aiverifyfoundation.sg) — evaluation and testing resources.
+- [MLCommons AILuminate](https://mlcommons.org/ailuminate/) — safety evaluation.
+- [OSI Open Source AI Definition](https://opensource.org/ai) — openness criteria.
+- [Model Openness Framework](https://isitopen.ai/) — model-release documentation and openness.
+- [Open Future](https://openfuture.eu/) — digital-commons policy.
+- [HIIG Public-Interest AI](https://www.hiig.de/en/project/public-interest-ai/) — research on public-interest AI.
+- [Digital Public Goods Alliance](https://www.digitalpublicgoods.net/) — digital-public-good criteria and registry.
 
-| Priority | Initiative | Why it matters most | Where the Charter contribution could be effective |
-|---:|---|---|---|
-| 1 | **Public AI Network / PAINT** — https://publicai.network/ | Closest conceptual match: AI as public infrastructure, public access, public accountability, and permanent public goods. | Provide a simple trust-and-evidence framework that public-AI initiatives can use to explain why they are public-interest, accountable, and correctable. |
-| 2 | **Apertus / Swiss AI Initiative** — https://www.swiss-ai.org/apertus | Strongest Swiss technical proof point for sovereign, open, public AI. | Create an evaluation card for Apertus-like models: what is open, documented, testable, risky, and publicly challengeable. |
-| 3 | **Public AI Inference Utility** — https://publicai.co/ | Makes open models usable as infrastructure, not merely downloadable artifacts. | Define public-service expectations for inference utilities: model origin, usage limits, safeguards, incident reporting, and redress channels. |
-| 4 | **Current AI** — https://www.currentai.org | International funding and coalition bridge for public-interest AI. | Position the Charter as a lightweight assurance package for grantees and public-interest AI projects. |
+## Policy and institutional references
 
-### Tier 2 — best tools for making the Charter practical
-
-| Priority | Initiative | Why it matters most | Where the Charter contribution could be effective |
-|---:|---|---|---|
-| 5 | **AI Verify Foundation** — https://aiverifyfoundation.sg | Practical AI governance testing, evaluation tooling, red-teaming, and reporting. | Use it as a model for Charter pilot evaluations that combine process checks, technical tests, expert review, and public reporting. |
-| 6 | **MLCommons AILuminate** — https://mlcommons.org/ailuminate/ | Credible benchmark ecosystem for safety, risk, and reliability testing. | Use it as part of the Charter's common-baseline layer, while explaining results with context and limits instead of simple labels. |
-| 7 | **OSI Open Source AI Definition** — https://opensource.org/ai | Helps distinguish real openness from openwashing. | Translate openness into plain language: open weights are not enough; public-interest AI needs enough information to study, modify, evaluate, and challenge the system. |
-| 8 | **Model Openness Framework** — https://isitopen.ai/ | Turns openness into something that can be scored and compared. | Build simple openness evidence cards: what is released, under what license, with what documentation, and what is still missing. |
-
-### Tier 3 — strongest evidence sources and technical precedents
-
-| Initiative | Why it matters | Where the Charter contribution could be effective |
-|---|---|---|
-| **OLMo** — https://allenai.org/olmo | One of the strongest examples of a genuinely open model lifecycle: data, code, process, evaluation tools, logs, and intermediate artifacts. | Use it as a reference case for what high-evidence openness should look like. |
-| **Common Corpus** — https://huggingface.co/datasets/PleIAs/common_corpus | Shows that large-scale training-data provenance and licensing metadata are possible. | Make provenance visible in every Charter assessment: origin, rights, known gaps, and verification trail. |
-| **Common Pile** — https://blog.eleuther.ai/common-pile/ | Demonstrates the possibility of competitive models trained on openly licensed and public-domain text. | Support the claim that trustworthiness and capability do not have to be opposites. |
-| **Data Provenance Initiative** — https://www.dataprovenance.org/ | Provides methods and tools for tracing AI dataset origin, licensing, and downstream use. | Add concrete provenance checks to the Charter's evidence layer. |
-
-### Tier 4 — legal and normative foundation
-
-| Initiative | Why it matters | Where the Charter contribution could be effective |
-|---|---|---|
-| **EU AI Act** — https://artificialintelligenceact.eu | Binding legal floor for many AI systems in Europe. | Frame the Charter as a bridge between legal compliance and public trust: law defines requirements; the Charter defines public evidence. |
-| **EU AI Continent Action Plan** ([Open Future observatory](https://openfuture.eu/observatory/ai-continent-action-plan/)) | The EU's flagship AI **policy/funding** programme (Apr 2025): ~€200bn (incl. €50bn InvestAI, €20bn for AI Gigafactories), EuroHPC-based compute, and a "Buy European AI" procurement push — industrial policy, not a legal floor. | Industrial-sovereignty context to contrast: the tracked plan carries no explicit accountability or independent-audit mechanism — the gap the Charter's assurance layer fills. |
-| **Council of Europe Framework Convention on AI** — https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence | Human-rights, democracy, and rule-of-law foundation. | Strengthen the democratic argument: public AI must remain answerable to people and institutions governed by law. |
-| **OECD AI Policy Observatory** — https://oecd.ai/ | Intergovernmental policy tools, metrics, and incident monitoring. | Use as a source of tested policy instruments and metrics. |
-| **UNESCO Recommendation on the Ethics of AI** — https://www.unesco.org/en/artificial-intelligence/recommendation-ethics | Near-universal ethics reference adopted by UNESCO Member States. | Use as a broad legitimacy anchor for fairness, transparency, accountability, privacy, and human oversight. |
-| **ISO/IEC JTC 1/SC 42** — https://www.iso.org/committee/6794475.html | International AI standardization across governance, lifecycle, trustworthiness, and testing. | Use as an alignment reference for auditability, risk controls, and testing practices. |
-
-### Tier 5 — strategic deadline and international stage
-
-| Initiative | Why it matters | Where the Charter contribution could be effective |
-|---|---|---|
-| **Geneva 2027 AI Summit** — https://dig.watch/processes/2027-geneva-ai-summit | Strongest political opportunity and natural international stage for a Swiss-linked public-AI initiative. | Prepare a realistic **Public AI Trust & Evidence Package**: model openness cards, evaluation pilots, governance templates, and public-interest assurance criteria. |
-| **UN Global Digital Compact** — https://www.un.org/global-digital-compact/en | Global governance context for digital cooperation and AI. | Connect the Charter to multilateral coordination without trying to create a new regulator. |
-| **UN Independent International Scientific Panel on AI** — https://www.un.org/independent-international-scientific-panel-ai/en | Global scientific evidence body (co-chairs Bengio & Ressa); its **first report (1 Jul 2026)** finds "current safeguards cannot keep pace" and that by the time evidence is clear "it may be too late to act on it" — the Charter's own evidence-timeliness thesis, from the highest-authority body. Next annual report May 2027. | Align the Charter with independent evidence and correction; the timeliness finding is directly citable. |
-| **UN Global Dialogue on AI Governance** — https://www.un.org/global-dialogue-ai-governance/en | Standing global forum; **inaugural session 6–7 Jul 2026 in Geneva**, back-to-back with the **ITU AI for Good Summit (7–10 Jul 2026)** — the live multilateral AI moment, a year before the 2027 summit. Second Dialogue May 2027, New York. | Offer a practical bottom-up contribution: a way for public-AI projects to show evidence of trustworthiness, not only make policy declarations. |
-
-### Tier 6 — regional public-AI examples and future partners
-
-| Initiative | Why it matters | Where the Charter contribution could be effective |
-|---|---|---|
-| **EuroLLM** — https://eurollm.io/ | Publicly funded multilingual European model effort. | Use as a European example of public multilingual AI. |
-| **ALIA** — https://alia.gob.es/ | Spanish public AI infrastructure for Spanish and co-official languages. | Use as an example of state-backed public AI with named institutional responsibility. |
-| **LLM-jp** — https://huggingface.co/llm-jp | Large Japanese open collaboration with academic and industry participation. | Use as an example of nationally coordinated open model development. |
-| **SEA-LION** — https://sea-lion.ai/ | Southeast Asian open model family focused on regional languages and inclusion. | Use as a strong example of plural, language-sensitive public AI. |
-| **Masakhane** — https://www.masakhane.io/ | African-language NLP movement built by and for African communities. | Use as a community-governance example for language justice and local agency. |
-| **LatamGPT** — https://www.latamgpt.org/ | Latin American regional language-model initiative. | Use as a future partner/example for regional sovereignty and inclusion. |
-| **AI Alliance — Project Tapestry** — https://thealliance.ai/projects/tapestry | Promising federated-training concept with data-sovereignty logic. | Monitor as a future technical partner and use its federated-sovereignty idea in infrastructure thinking. |
-| **Sarvam** — https://www.sarvam.ai/ | Sovereign AI example from India, but more commercial and only partly open. | Use as a comparison case: sovereignty alone is not enough; public AI also needs openness, accountability, and evidence. |
-
-### Also cited — context, not near-term anchors
-
-Cited in the article as background rather than near-term anchors:
-
-| Initiative | Relevance to the Charter |
-|---|---|
-| **Metagov** — https://metagov.org/ | Digital-governance lab; public-governance tooling and institutional-design ideas. |
-| **BLOOM** — https://huggingface.co/bigscience/bloom | 2022 open-science precedent for large multilingual models. |
-| **EuroHPC AI Factories** — https://www.eurohpc-ju.europa.eu/ai-factories_en | European public-compute ecosystem for AI development. |
-| **Mozilla.ai** — https://www.mozilla.ai/ | Open-source AI tooling, model choice, local deployment, and user control. |
-| **Open Future** — https://openfuture.eu/ | Digital-commons and public-digital-infrastructure policy. |
-| **HIIG Public-Interest AI** — https://www.hiig.de/en/project/public-interest-ai/ | Academic framing and evidence base for public-interest AI. |
-| **Digital Public Goods Alliance** — https://www.digitalpublicgoods.net/ | Digital-public-good standard and registry; public-good criteria. |
-
----
-
-## Where my contribution could be strongest
-
-The useful gap is not another model or legal standard. It is the **trust-and-evidence layer** between technical projects, public institutions, funders, and citizens.
-
-The Charter can contribute:
-
-1. **Public-interest framing** — why public AI matters for sovereignty, resilience, democracy, and human agency.
-2. **Assurance structure** — five obligations and a three-layer model that keeps legal scope, baseline duties, and modules separate.
-3. **Evidence cards** — short profiles of what is open, tested, risky, unresolved, and accountable.
-4. **Pilot evaluations** — narrow tests using existing tools and independent review.
-5. **Geneva 2027 package** — a cooperation artifact others can adopt, critique, and improve.
-
-Core message: public AI needs public evidence, accountability, and correction mechanisms, not only open models.
-
----
-
-## Notes on method
-
-- Summaries are distilled from the linked initiatives' own descriptions and from the earlier working-draft source review.
-- This document intentionally prioritizes strategic usefulness over equal-length treatment of every link.
-- **Apertus link note:** the project site is now `apertus-ai.org` — the earlier Latin-V domain `apertvs.ai` 308-redirects there, to the `www` host (re-verified 2026-07-28). `apertus.ai` (plain U, no hyphen) remains **unaffiliated** — a German commercial AI-hosting/consulting firm — never "correct" links to it.
+- [EU AI Act — independent reference site](https://artificialintelligenceact.eu)
+- [EU AI Continent Action Plan — Open Future analysis](https://openfuture.eu/observatory/ai-continent-action-plan/)
+- [Council of Europe Framework Convention on AI](https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence)
+- [OECD AI Policy Observatory](https://oecd.ai/)
+- [UNESCO Recommendation on the Ethics of AI](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
+- [ISO/IEC JTC 1/SC 42](https://www.iso.org/committee/6794475.html)
+- [Geneva 2027 AI Summit — Digital Watch process page](https://dig.watch/processes/2027-geneva-ai-summit)
+- [UN Global Digital Compact](https://www.un.org/global-digital-compact/en)
+- [UN Independent International Scientific Panel on AI](https://www.un.org/independent-international-scientific-panel-ai/en)
+- [UN Global Dialogue on AI Governance](https://www.un.org/global-dialogue-ai-governance/en)
