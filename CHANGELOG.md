@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-04
 
+- Removed generated PDF exports and their diagram helper from the current tree; historical diagram references now use pinned public revisions.
+
 - Renamed the Assurance menu and overview to **Trust & Accountability**, added a public-facing subtitle and updated link labels. The `/Assurance/` URL and previous heading anchor remain valid.
 
 - Added an Assurance landing page separating draft commitments, proposed evaluation and future certification. Put the method summary first, moved workflow and runtime background into EGA navigation, and linked the public-AI bibliography from Network. Reordered Charter v0.19 for public reading and added section headings without changing its commitments or definitions. Clarified proposed certification authority, removed outreach framing, and retained the dated published reply in an expandable source record; existing page URLs remain available.
@@ -28,7 +30,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-09-30
 
-- **EGA diagram routing aligned** — Updated the [current diagram PDF](output/pdf/evidence-gated-agents-dynamic-decision-path.pdf) and its generator to match the overview's preset trigger, ordinary-answer bypass and routing-record/receipt distinction. Corrected the gated release path through Commit and marked the integration as planned. The historical 5 September PDF is unchanged.
+- **EGA diagram routing aligned** — Updated the [30 September diagram PDF](https://github.com/robertschaub/our-ai-charter/blob/87757dcf6e3eadfda3723b932f46415f3a873762/output/pdf/evidence-gated-agents-dynamic-decision-path.pdf) and its generator to match the overview's preset trigger, ordinary-answer bypass and routing-record/receipt distinction. Corrected the gated release path through Commit and marked the integration as planned. The historical 5 September PDF is unchanged.
 
 ## 2026-09-28
 
@@ -80,7 +82,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 - **Detailed EGA working drafts moved out of the public site** — Removed the user-needs/requirements and technical-specification drafts from public navigation and links. The public project overview and research note remain self-contained; no implementation baseline was adopted by the move.
 
-- **Evidence-Gated Agents prototype direction updated** — Replaced the prepared-corpus and evidence-bundle prototype path with dynamic examination of the normal AI agent's exact decision through one FactHarbor run per attempt. Updated the overview, [current diagrams](output/pdf/evidence-gated-agents-dynamic-decision-path.pdf), requirements, specification and research crosswalk; separated prototype decision release from later action authorization and retained the integration as unfinished work. The stable `evidence-gated-agents-action-path.pdf` path continues to serve the submitted 5 September diagram, also available at its [immutable commit](https://github.com/robertschaub/our-ai-charter/blob/c54fae6c78a4dffa138c349aaddfc7a01944a192/output/pdf/evidence-gated-agents-action-path.pdf).
+- **Evidence-Gated Agents prototype direction updated** — Replaced the prepared-corpus and evidence-bundle prototype path with dynamic examination of the normal AI agent's exact decision through one FactHarbor run per attempt. Updated the overview, [16 September diagrams](https://github.com/robertschaub/our-ai-charter/blob/dd3e196b94718f10f19b0a21a133d69525e044a2/output/pdf/evidence-gated-agents-dynamic-decision-path.pdf), requirements, specification and research crosswalk; separated prototype decision release from later action authorization and retained the integration as unfinished work. The submitted 5 September diagram remains available at its [immutable commit](https://github.com/robertschaub/our-ai-charter/blob/c54fae6c78a4dffa138c349aaddfc7a01944a192/output/pdf/evidence-gated-agents-action-path.pdf).
 
 ## 2026-09-14
 
@@ -124,7 +126,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 - **Cross-repository agent work clarified** — agents ask once for missing repository/read-write scope, continue under that task approval, and use authorized direct reads when MCP is unavailable. Access remains separate from public disclosure permission.
 
 ## 2026-09-05
-- **Two-page action-path diagrams published** — the [Evidence-Gated Agents PDF as published on 5 September](output/pdf/evidence-gated-agents-action-path.pdf) includes the submitted prototype design and a possible later product, with their scope labels and corrected legend. Its stable path retains those reviewed bytes; the [selected 16 September design](output/pdf/evidence-gated-agents-dynamic-decision-path.pdf) is published separately.
+- **Two-page action-path diagrams published** — the [Evidence-Gated Agents PDF as published on 5 September](https://github.com/robertschaub/our-ai-charter/blob/c54fae6c78a4dffa138c349aaddfc7a01944a192/output/pdf/evidence-gated-agents-action-path.pdf) includes the submitted prototype design and a possible later product, with their scope labels and corrected legend. Its pinned revision retains those reviewed bytes; the [selected 16 September design](https://github.com/robertschaub/our-ai-charter/blob/dd3e196b94718f10f19b0a21a133d69525e044a2/output/pdf/evidence-gated-agents-dynamic-decision-path.pdf) is published separately.
 
 ## 2026-09-04
 - **Supplementary action-path legend corrected** — the two-page Prototype Fund attachment now distinguishes amber organisational/later scope from purple non-allow resolution paths, so retained escalation and fresh-proposal paths are no longer mislabeled as future-only functionality. Diagram logic and funded scope are unchanged.
