@@ -2,6 +2,8 @@
 
 Published articles and translations from Our AI Charter. The synthesis brings the essential argument into one place; the earlier articles are grouped by the part of the argument they develop.
 
+- **[Evidence-Gated Agents: Before We Rely on an AI Recommendation](evidence-gated-agents-before-we-rely.md)** — 2026-10-05 · Why a well-cited recommendation can still lack the evidence a decision needs; existing foundations, the next integration milestone and opportunities to contribute.
+
 - **[Public AI, Built Together — Towards Geneva 2027](public-ai-towards-geneva-2027.md)** — The wider public-AI movement, the current EGA contribution and an open path to Geneva through useful, bounded cooperation.
 
 - **[The Public AI We Need: Sovereign, Inspectable and Accountable](the-public-ai-we-need.md)** — 2026-08-06 · Synthesis of the ten earlier articles: sovereignty without autarky, the four pillars, answerable power, runtime gates, separated roles, correctable perspective, and the Phase-1 boundary.

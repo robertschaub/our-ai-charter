@@ -4,6 +4,10 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-05
 
+- Published **Evidence-Gated Agents: Before We Rely on an AI Recommendation** on LinkedIn and in the article collection, with its accompanying post, full-frame cover and simplified illustration. Linked it to the living project overview and article navigation.
+
+- Consolidated the EGA overview around current foundations, the next integration and evaluation milestone, and cooperation opportunities. Added the evidence-and-oversight illustration and privacy explanation; reduced decorative planting and foreground terraces to enlarge the workflow and its labels. Detailed flows and fictional receipts remain available in expandable sections. Preserved prototype/research limits, sources and existing overview anchors.
+
 - Clarified the EGA overview's intended checks for consequential content in summaries, distinguishing source fidelity, factual support and decision authority; added specific human-review requests and the proposed scope of private-evidence checking.
 
 ## 2026-10-04
