@@ -4,15 +4,9 @@
 
 An AI recommendation can be well cited—and still miss the evidence your decision needs.
 
-A supplier's excellent average response time does not establish the contractual guarantee your organisation requires.
-
 Evidence-Gated Agents (EGA) connects evidence examination with control over whether a consequential recommendation may be released. Its design actively searches for missing support, checks authority and preserves a basis for inspection and challenge.
 
 Two foundations already exist: FactHarbor Alpha searches and analyses evidence; a separate Runtime proof of concept demonstrates controls outside the acting AI. The next milestone is to integrate and evaluate them in one bounded recommendation workflow.
-
-The practical question: fewer unsupported recommendations, while retaining useful answers at an acceptable cost and delay?
-
-That creates a concrete opportunity for workflow partners, engineers, researchers and funders. A first conversation can start with a workflow description and synthetic examples.
 
 Explore the project and the cooperation opportunity:
 https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-agents/
