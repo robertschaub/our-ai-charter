@@ -4,7 +4,7 @@
 
 An AI recommendation can sound convincing—but is there enough evidence to justify following it?
 
-Evidence-Gated Agents (EGA) connects evidence examination with control over whether a consequential recommendation may be released. Its design actively searches for missing support, checks authority and preserves a basis for inspection and challenge.
+Evidence-Gated Agents (EGA) connects evidence examination with control over whether a consequential recommendation may be released. Its design actively searches for supporting evidence and contradicting evidence, checks authority and preserves a basis for inspection and challenge.
 
 Two foundations already exist: FactHarbor Alpha searches and analyses evidence; a separate Runtime proof of concept demonstrates controls outside the acting AI. The next milestone is to integrate and evaluate them in one bounded recommendation workflow.
 
