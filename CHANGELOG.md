@@ -2,6 +2,10 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-10-05
+
+- Clarified the EGA overview's intended checks for consequential content in summaries, distinguishing source fidelity, factual support and decision authority; added specific human-review requests and the proposed scope of private-evidence checking.
+
 ## 2026-10-04
 
 - Retired the dated JusticeTree VBE comparison from the current public collection and navigation; preserved the direct XACML attribution in the runtime background note.
