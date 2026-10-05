@@ -74,8 +74,7 @@ Both paths would need evidence of practical usefulness and suitability in their 
 
 ## What the project aims to make possible
 
-<details markdown="1">
-<summary>Design responsibilities and consequential content in summaries</summary>
+### Design responsibilities and consequential content in summaries
 
 The central rule is: **before AI gives a consequential answer or takes a consequential action, it must have permission and enough evidence to justify it.**
 
@@ -92,8 +91,6 @@ Authority checks are evidence checks too. Evidence supporting a proposal and evi
 Consequential decisions and instructions can also appear inside summaries or other apparently descriptive outputs. The intended checks would examine whether an output preserves the source’s meaning, including conditions, material risks, dissent and unresolved questions. A recommendation must not silently become an approved decision, or a forecast an established fact.
 
 Faithfulness to a source and support for its factual claims require separate examination. Accurately reporting what someone stated or agreed does not establish that the underlying claims are true. Permission to release the report also does not establish authority for the decision it describes. Where essential judgment or approval is missing, a request for human review should identify the specific unresolved issue.
-
-</details>
 
 ### View 1 — EGA target model: evidence and authority before release or action
 
