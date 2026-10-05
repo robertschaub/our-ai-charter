@@ -1,7 +1,5 @@
 # Evidence-Gated Agents
 
-> **Status: DRAFT**
-
 <a id="project-overview"></a>
 <a id="evidence-gated-agents-aspiration-and-test"></a>
 
