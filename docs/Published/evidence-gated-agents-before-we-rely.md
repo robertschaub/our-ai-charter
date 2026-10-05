@@ -2,7 +2,7 @@
 
 ***
 
-An AI recommendation can be well cited—and still miss the evidence your decision needs.
+An AI recommendation can sound convincing—but is there enough evidence to justify following it?
 
 Evidence-Gated Agents (EGA) connects evidence examination with control over whether a consequential recommendation may be released. Its design actively searches for missing support, checks authority and preserves a basis for inspection and challenge.
 
