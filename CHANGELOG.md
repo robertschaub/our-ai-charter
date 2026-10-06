@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-06
 
+- Linked the homepage's reddish current-focus label to Evidence-Gated Agents.
+
 - Added the article's extended output-release illustration under 'How the design works' on the EGA concept page, after the wider overview image, reusing the shared image asset.
 
 - Moved Released and Held to the right of EGA in the full article illustration and clarified the release label as 'Released within authorised scope'.

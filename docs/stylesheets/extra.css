@@ -13,6 +13,9 @@
   --md-accent-fg-color--transparent: #3461a91a;
   --charter-heading-color: #274777;
   --charter-active-bg: #e8effb;
+  --charter-focus-bg: #fbe5e5;
+  --charter-focus-color: #9b3038;
+  --charter-focus-border: #d9a3a7;
 }
 
 [data-md-color-scheme="slate"] {
@@ -21,6 +24,9 @@
   --md-accent-fg-color--transparent: #a6c5ff1a;
   --charter-heading-color: #c5d8ff;
   --charter-active-bg: #4276c826;
+  --charter-focus-bg: #542a32;
+  --charter-focus-color: #ffbdc3;
+  --charter-focus-border: #a66a73;
 }
 
 .md-typeset h1,
@@ -137,14 +143,26 @@
 .md-typeset .pillar-focus-badge {
   display: inline-block;
   padding: .15rem .6rem;
+  border: 1px solid var(--charter-focus-border);
   border-radius: 999px;
-  background: var(--md-typeset-a-color);
-  color: var(--md-default-bg-color);
+  background: var(--charter-focus-bg);
+  color: var(--charter-focus-color);
   font-size: .65rem;
   font-weight: 700;
   letter-spacing: .02em;
   line-height: 1.6;
-  white-space: nowrap;
+  white-space: normal;
+}
+
+.md-typeset .pillar-focus-label {
+  font-weight: 400;
+}
+
+.md-typeset .pillar-focus-badge:hover,
+.md-typeset .pillar-focus-badge:focus-visible {
+  color: var(--charter-focus-color);
+  text-decoration: underline;
+  text-underline-offset: .15em;
 }
 
 @media screen and (max-width: 44.9375em) {
