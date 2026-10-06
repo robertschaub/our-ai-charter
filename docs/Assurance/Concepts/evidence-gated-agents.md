@@ -27,13 +27,13 @@ The selected prototype routes consequential decisions and instructions into evid
 
 [![EGA design: active evidence requests reach external and internal confidential sources; permitted evidence feeds Working AI and EGA. Checks before use and before release control the boundary to the world it affects. Human judgment is conditional. Five separate oversight roles support accountability, with independent custody of a sealed decision record.](evidence-gated-agents-release-workflow.png)](evidence-gated-agents-release-workflow.png)
 
-*Wider EGA design; select the illustration to view it larger. The first integration governs recommendation release. Confidential-source integration and the wider governance arrangements remain to be implemented and evaluated.*
+*Wider EGA design. The first integration governs recommendation release. Confidential-source integration and the wider governance arrangements remain to be implemented and evaluated.*
 
 ## How the design works
 
 [![EGA output-release diagram: permitted evidence sources feed a retrieval-only evidence service. EGA requests evidence, analyses support, contradiction and gaps, and checks authority and disclosure before releasing or holding a claim, decision or action instruction. Outputs are released within authorised scope. Released and Held appear to the right of EGA. Decision-record access is restricted, and data protection applies to information throughout the system and whenever it is sent or shared.](../../Published/evidence-gated-agents-before-we-rely.png)](../../Published/evidence-gated-agents-before-we-rely.png)
 
-*The output-release design; select the illustration to view it larger. The first integration targets consequential recommendations and instructions, without executing resulting actions. Integration and confidential-source handling remain to be built.*
+*The output-release design. The first integration targets consequential recommendations and instructions, without executing resulting actions. Integration and confidential-source handling remain to be built.*
 
 The output being gated is a **claim, decision or action instruction**. Releasing an instruction makes it available to an authorised recipient; it does not authorise or execute the resulting action. The first prototype retains the consequential-decision/instruction trigger described above.
 
