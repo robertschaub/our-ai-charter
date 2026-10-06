@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-06
 
+- Added the article's extended output-release illustration to the EGA concept page, reusing the shared image asset.
+
 - Moved Released and Held to the right of EGA in the full article illustration and clarified the release label as 'Released within authorised scope'.
 
 - Displayed the full EGA illustration inline in the article mirror, alongside the cover, instead of making it available only through a cover-image link.
