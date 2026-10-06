@@ -15,10 +15,8 @@ https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 ***
-[![Broader EGA design: Working AI submits a claim, decision or action instruction. The evidence service returns search results; EGA analyses support, contradiction and gaps and applies evidence, authority and disclosure rules. It releases the checked claim, decision or action instruction, or holds it. Releasing an instruction does not authorise execution; the resulting action requires its own authority and evidence checks. Restricted decision records support inspection and challenge; data protection applies throughout the system.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely.png)
+[![EGA cover: Working AI submits a claim, decision or action instruction. The evidence service retrieves search results; EGA analyses the output and controls release or hold, with a restricted decision record.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely-cover.png)
 ***
-
-*The diagrams show the output-release gate for claims, decisions and action instructions. The first integration targets consequential recommendations and instructions; it does not execute resulting actions. Integration and confidential-source handling remain to be built.*
 
 # Evidence-Gated Agents: Before We Rely on an AI Recommendation
 
@@ -37,6 +35,10 @@ For the supplier example, an unsupported guarantee means holding the recommendat
 Routine checks run automatically within agreed limits. Human judgment is reserved for cases where the stakes justify interruption, an authorised person can make a difference, and the issue cannot be resolved within existing authority. Approval cannot replace missing evidence or permission.
 
 The same evidence-service interface can support public sources and specialised company/private sources. Data protection applies across the system, including outgoing requests, search results, released outputs and record views. **Access, processing and disclosure are separate permissions**; checks precede use by a model or service and each disclosure. Decision records need limited content, access and retention. Separate oversight responsibilities keep operation, custody, independent review and remedy from resting with one operator; records support scrutiny rather than guaranteeing truth or effective remedy.
+
+[![EGA output-release diagram: permitted evidence sources feed a retrieval-only evidence service. EGA requests evidence, analyses support, contradiction and gaps, and checks authority and disclosure before releasing or holding a claim, decision or action instruction. Release does not authorise execution. Decision-record access is restricted, and data protection applies to information throughout the system and whenever it is sent or shared.](evidence-gated-agents-before-we-rely.png)](evidence-gated-agents-before-we-rely.png)
+
+*The diagrams show the output-release gate for claims, decisions and action instructions. The first integration targets consequential recommendations and instructions; it does not execute resulting actions. Integration and confidential-source handling remain to be built.*
 
 ## Two foundations, one concrete milestone
 

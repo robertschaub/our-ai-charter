@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-06
 
+- Displayed the full EGA illustration inline in the article mirror, alongside the cover, instead of making it available only through a cover-image link.
+
 - Refreshed the EGA article artwork in a light sculptural style, retaining editable SVG layout sources. Broadened the diagrams to claims, decisions and action instructions; clarified restricted record access and system-wide data protection. Aligned the overview and article with the gated-output terminology while preserving the first integration’s consequential-decision/instruction trigger and excluding resulting-action execution.
 
 - Clarified the EGA responsibility boundary: the evidence service retrieves material through public/private-source implementations; EGA analyses support, contradiction and gaps, retaining its verdict as an input to separate release controls. Aligned the overview, research note, article and diagrams; implementation integration remains open.
