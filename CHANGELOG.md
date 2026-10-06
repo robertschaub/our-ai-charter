@@ -2,6 +2,10 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-10-06
+
+- Replaced the EGA article's illustrations with a coordinated cover and detailed diagram showing the evidence service, supporting and contradicting evidence, release checks and hold routes. Preserved editable SVGs and their shared source; kept the project overview illustration unchanged.
+
 ## 2026-10-05
 
 - Removed the EGA overview's draft banner and matching index label; development status and implementation limits remain explicit in the text.

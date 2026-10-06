@@ -15,7 +15,7 @@ https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 ***
-[![EGA consequential-recommendation design: Working AI submits a recommendation to a separate amber EGA boundary. EGA searches or requests permitted external and internal confidential evidence, checks evidence and authority, and releases the recommendation or holds it. Access, processing and disclosure permissions apply before evidence use.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely.png)
+[![EGA recommendation design: Working AI proposes a recommendation. A separate amber EGA boundary requests supporting and contradicting evidence from an evidence service, checks evidence, authority and disclosure, then releases or holds the recommendation. A record supports inspection and challenge. FactHarbor Alpha and the Runtime proof of concept are existing foundations; integration remains the next milestone. Open the image for the fuller illustration, including confidential-source permissions and next steps after a hold.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely.png)
 ***
 
 *EGA recommendation design. Integration and confidential-source handling remain to be built. Releasing a recommendation does not execute an action.*
