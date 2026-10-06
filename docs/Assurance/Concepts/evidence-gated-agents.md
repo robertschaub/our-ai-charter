@@ -9,7 +9,7 @@
 
 An AI assistant recommends a supplier, citing satisfied customers and strong average performance. Neither establishes the contractual response-time guarantee your organisation needs. A useful answer identifies that gap; a consequential recommendation should not pass simply because it sounds convincing.
 
-**Evidence-Gated Agents (EGA) connects active evidence examination with controls outside the acting AI.** The design searches for or requests missing support, checks authority and governs whether a consequential recommendation may be released. The broader aim includes authorised actions, inspectable records and routes to challenge and correct decisions.
+**Evidence-Gated Agents (EGA) connects active evidence examination with controls outside the acting AI.** The design searches for supporting and contradicting evidence, checks authority and governs release of consequential AI output: a claim, decision or action instruction. The broader aim includes authorised actions, inspectable records and routes to challenge and correct decisions.
 
 ## Foundations and the selected next step
 
@@ -19,7 +19,7 @@ An AI assistant recommends a supplier, citing satisfied customers and strong ave
 | **[Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first)** | A runnable proof of concept demonstrates controls outside the acting model, using synthetic scenarios and local test effects. It does not yet call FactHarbor. |
 | **[Our AI Charter](../Framework/charter-commitments.md)** | The principles connecting authority, evidence, privacy, independent oversight and remedy. |
 
-**The next milestone is to integrate and evaluate these foundations in one bounded recommendation workflow.** FactHarbor examines an exact proposed decision; separate controls apply human-defined evidence rules and check permission to release it. This integration remains to be built. Releasing a recommendation does not authorise or execute the resulting action.
+**The next milestone is to integrate and evaluate these foundations in one bounded recommendation workflow.** EGA analyses the exact proposed decision using retrieved material; separate controls apply human-defined evidence rules and check permission to release it. FactHarbor provides existing retrieval and analytical capabilities for this integration. This integration remains to be built. Releasing a recommendation does not authorise or execute the resulting action.
 
 The selected prototype routes consequential decisions and instructions into evidence examination. Ordinary answers retain authority and disclosure checks and a minimal routing record, without full evidence examination or an EGA receipt. Automatically deriving adequate evidence requirements for unfamiliar decisions is [wider research](evidence-requirements-research.md), not an established capability of this first integration.
 
@@ -31,15 +31,21 @@ The selected prototype routes consequential decisions and instructions into evid
 
 ## How the design works
 
+The output being gated is a **claim, decision or action instruction**. Releasing an instruction makes it available to an authorised recipient; it does not authorise or execute the resulting action. The first prototype retains the consequential-decision/instruction trigger described above.
+
 The design places checks outside the acting AI at [two points](../../Published/when-should-runtime-ai-governance-interrupt.md#the-when-has-two-clocks): **before use**, whether the chosen model or tool may process the information for the stated purpose; **before release**, whether the exact proposal has adequate support, current authority and disclosure permission. Evidence supporting a recommendation and evidence establishing authority answer different questions. Neither replaces the other; the acting AI cannot authorise itself.
 
-Evidence gathering is active: EGA initiates searches through an evidence service or requires missing evidence before release. If the supplier guarantee is unsupported, the recommendation is held. A qualified alternative needs its own check. An evidence service supplies an assessment; separate controls decide release.
+Evidence gathering is active: EGA searches through an evidence service or requests missing material before release. The service returns what it finds, with sources and search coverage; EGA analyses whether it supports or contradicts the exact output and identifies gaps. Its analytical verdict and reasons inform the release controls, alongside authority and disclosure checks. If the supplier guarantee is unsupported, the recommendation is held. A qualified alternative needs its own check.
+
+The evidence-service interface can have a general public-source implementation and specialised implementations for company/private sources. Query-relevance ranking and faithful extraction are permitted, with traceable sources and visible selection limits; the service does not judge support or contradiction. Permission to retrieve remains distinct from permission to send material to a retrieval, extraction or analysis processor and to disclose it to a recipient.
 
 Routine checks run automatically within agreed limits. Human judgment is called for when the stakes justify interruption, someone with the necessary authority can make a difference, and the issue cannot be resolved within existing authority. The request identifies the unresolved decision. Human approval cannot replace missing evidence or authority.
 
-### Protecting evidence and accountability
+<a id="protecting-evidence-and-accountability"></a>
 
-Permission to consult a confidential record does not automatically permit sending it to an external AI service or revealing it in an answer. **Access, processing and disclosure are separate permissions.** The [privacy commitments](../Framework/charter-commitments.md) call for using only the information needed for the permitted purpose. Decision records also need limited content, access and retention; accountability must not become an unrestricted copy of confidential evidence.
+### Data protection and accountability
+
+Data protection applies throughout the system, including every outgoing request, search result, released output and record view. Permission to consult a confidential record does not automatically permit sending it to an external AI service or revealing it in an answer. **Access, processing and disclosure are separate permissions.** The [privacy commitments](../Framework/charter-commitments.md) call for using only the information needed for the permitted purpose. Decision records also need limited content, access and retention; accountability must not become an unrestricted copy of confidential evidence.
 
 The [governance design](../../Published/when-vs-who-ai-governance.md) separates rulemaking, operation, record custody, independent review and remedy, so the operator does not control the whole chain. These are continuing responsibilities, not five approvals for every answer. A custodian preserves a sealed record without unilateral access; binding remedies require legal or contractual authority. Records support scrutiny, but do not themselves establish truth, legitimate authority or effective remedy.
 
@@ -97,7 +103,7 @@ Faithfulness to a source and support for its factual claims require separate exa
 <details markdown="1">
 <summary>Open the wider design flow and current foundation</summary>
 
-**Purpose:** show the complete intended EGA pattern, not current end-to-end functionality. A separate evidence service — FactHarbor in the selected prototype — searches and analyses evidence and returns a verdict and report. The EGA gate then applies authority, disclosure and evidence rules; the evidence service does not decide release or execution.
+**Purpose:** show the complete intended EGA pattern, not current end-to-end functionality. The evidence service retrieves material through a defined interface. EGA analysis interprets support, contradiction, uncertainty and gaps and produces the analytical verdict/report. Release controls apply evidence, authority and disclosure rules. FactHarbor offers existing retrieval and analysis capabilities; their integration behind these logical boundaries remains to be specified and implemented.
 
 ```mermaid
 flowchart TD
@@ -108,10 +114,12 @@ flowchart TD
     PRE --> P{"Pass?"}
     P -->|No| N1["Stop + receipt"]
     P -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact proposal"]
-    subgraph ES["Evidence service"]
-        SEA["Evidence search<br/>and analysis"] --> VR["Evidence verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
+    subgraph ES["Evidence-service interface"]
+        SEA["Retrieve permitted material<br/>with provenance and limits"]
     end
-    Q --> SEA
+    Q --> EA["EGA evidence analysis"]
+    EA <-->|scoped retrieval requests / results| SEA
+    EA --> VR["Analytical verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
     VR --> POST["Verify + Commit:<br/>evidence and binding checks"]
     POST --> D{"Pass?"}
     D -->|No / unclear / changed| N2["Stop + receipt"]
@@ -134,7 +142,7 @@ flowchart TD
 <details markdown="1">
 <summary>Open the selected prototype flow and release rules</summary>
 
-**Purpose:** show the planned bounded integration in which FactHarbor performs evidence search and analysis, returns its verdict and report, and reusable Runtime controls decide whether the exact agent decision may be released. Unlike View 1, this path does not execute a resulting action.
+**Purpose:** show the planned bounded integration: EGA analysis examines an exact proposed decision using retrieved material, then reusable Runtime controls apply the evidence rule and check release permission. FactHarbor is a foundation for retrieval and analysis, but its complete analysis API is not the retrieval-only service. Component separation or a transitional analytical adapter remains an implementation investigation. Unlike View 1, this path does not execute a resulting action.
 
 The controlled evaluation selects requests expected to yield one clear, non-complex decision. Free requests remain available for exploration. A decision may contain related components, but the prototype does not test several independent decision and effect paths.
 
@@ -150,12 +158,12 @@ flowchart TD
     PRE --> P{"Pass?"}
     P -->|No| N1["Stop receipt"]
     P -->|Yes| Q["Verification request:<br/>request + permitted context<br/>+ exact decision"]
-    subgraph ES["Evidence service"]
-        subgraph FH["FactHarbor"]
-            F["Evidence search<br/>and analysis"] --> FR["Verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
-        end
+    ES["Evidence-service interface:<br/>retrieve material with<br/>provenance and retrieval limits"]
+    subgraph EA["EGA analysis — planned FactHarbor reuse"]
+        F["Examine exact decision<br/>against retrieved material"] --> FR["Analytical verdict + report:<br/>support, counterevidence,<br/>limits, uncertainty"]
     end
     Q --> F
+    F <-->|scoped retrieval requests / results| ES
     FR --> V["Verify:<br/>apply the EGA evidence rule"]
     V --> D{"Pass?"}
     D -->|No / unclear / error| N2["Stop receipt"]
@@ -166,7 +174,7 @@ flowchart TD
 
 *Status on 19 September 2026: this integration is not implemented. The trigger fixtures and routing-record schema, FactHarbor API contract, release rule and Runtime compatibility are open preparation work; the homepage's [where the work stands](../../index.md#where-the-work-stands) carries the current status.*
 
-FactHarbor does not need to reproduce the agent's wording and does not decide the EGA release. A predefined EGA evidence rule evaluates whether the completed result sufficiently supports the proposed decision. A pass proceeds to Commit; a pending job, contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Passing this rule does not replace authority or disclosure checks, establish the legitimacy of the mandate, or authorise a resulting action. Completion never causes an automatic later release: a retry is a new attempt through all checks.
+EGA analysis does not need to reproduce the agent's wording and does not authorise release. A predefined EGA evidence rule evaluates its bound verdict and component assessments through an explicitly reviewed mapping. The controls infer no new semantic conclusion; missing or uninterpretable required fields stop release. A pass proceeds to Commit; a pending job, material unresolved contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Counterevidence can coexist with a supported, already qualified exact decision when its significance is addressed under the rule; a report caveat cannot repair an unsupported assertion. Passing this rule does not replace authority or disclosure checks, establish the legitimacy of the mandate, or authorise a resulting action. Completion never causes an automatic later release: a retry is a new attempt through all checks.
 
 **Why Commit?** The service rechecks the bound request, decision, recipient and evidence result immediately before release. A changed or narrower decision cannot reuse an earlier approval; it must start a new attempt through every check.
 

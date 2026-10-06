@@ -15,10 +15,10 @@ https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 ***
-[![EGA recommendation design: Working AI proposes a recommendation. A separate amber EGA boundary requests supporting and contradicting evidence from an evidence service, checks evidence, authority and disclosure, then releases or holds the recommendation. A record supports inspection and challenge. FactHarbor Alpha and the Runtime proof of concept are existing foundations; integration remains the next milestone. Open the image for the fuller illustration, including confidential-source permissions and next steps after a hold.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely.png)
+[![Broader EGA design: Working AI submits a claim, decision or action instruction. The evidence service returns search results; EGA analyses support, contradiction and gaps and applies evidence, authority and disclosure rules. It releases the checked claim, decision or action instruction, or holds it. Releasing an instruction does not authorise execution; the resulting action requires its own authority and evidence checks. Restricted decision records support inspection and challenge; data protection applies throughout the system.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely.png)
 ***
 
-*EGA recommendation design. Integration and confidential-source handling remain to be built. Releasing a recommendation does not execute an action.*
+*The diagrams show the output-release gate for claims, decisions and action instructions. The first integration targets consequential recommendations and instructions; it does not execute resulting actions. Integration and confidential-source handling remain to be built.*
 
 # Evidence-Gated Agents: Before We Rely on an AI Recommendation
 
@@ -30,13 +30,13 @@ A useful answer identifies that gap. But recognising it is only part of the prob
 
 ## Evidence before reliance
 
-EGA's design places checks outside the acting AI. It initiates searches through an evidence service or requests missing support, then checks the exact recommendation against evidence, current authority and disclosure permissions. An evidence assessment alone does not authorise release.
+EGA's design places checks outside the acting AI to govern release of a claim, decision or action instruction. An evidence service returns material from permitted sources, with source references and search coverage; EGA analyses support, contradiction and gaps for the exact output. Its analytical verdict and reasons inform release controls alongside current authority and disclosure permissions. A favourable verdict alone does not authorise release.
 
 For the supplier example, an unsupported guarantee means holding the recommendation. A narrower alternative needs its own check. The selected prototype targets consequential recommendations and instructions; ordinary answers follow a lighter path with authority and disclosure checks.
 
 Routine checks run automatically within agreed limits. Human judgment is reserved for cases where the stakes justify interruption, an authorised person can make a difference, and the issue cannot be resolved within existing authority. Approval cannot replace missing evidence or permission.
 
-Confidential evidence is part of the wider design, with distinct permissions to **access, process and disclose** it. Checks must precede use by a model or service, as well as release of its answer. Decision records need limited content, access and retention. Separate oversight responsibilities keep operation, custody, independent review and remedy from resting with one operator; records support scrutiny rather than guaranteeing truth or effective remedy.
+The same evidence-service interface can support public sources and specialised company/private sources. Data protection applies across the system, including outgoing requests, search results, released outputs and record views. **Access, processing and disclosure are separate permissions**; checks precede use by a model or service and each disclosure. Decision records need limited content, access and retention. Separate oversight responsibilities keep operation, custody, independent review and remedy from resting with one operator; records support scrutiny rather than guaranteeing truth or effective remedy.
 
 ## Two foundations, one concrete milestone
 
@@ -44,7 +44,7 @@ Confidential evidence is part of the wider design, with distinct permissions to 
 
 The separate [Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first) is a runnable proof of concept demonstrating controls outside the acting model. Its synthetic scenarios include refusing an action outside the recorded mandate even after human approval. These demonstrations use local test effects.
 
-**The next milestone connects these foundations in one bounded recommendation workflow.** FactHarbor supplies the evidence assessment; separate controls apply human-defined evidence rules and check release permission. This integration remains to be built and evaluated. Releasing a supplier recommendation does not authorise a purchase. Wider confidential-source and independent-governance arrangements also require development.
+**The next milestone connects these foundations in one bounded recommendation workflow.** FactHarbor provides existing retrieval and analytical capabilities for EGA; separate controls apply human-defined evidence rules and check release permission. The exact component integration remains to be specified. This integration remains to be built and evaluated. Releasing a supplier recommendation does not authorise a purchase. Wider confidential-source and independent-governance arrangements also require development.
 
 The evaluation asks whether the combination reduces unsupported recommendations while retaining useful answers. It will need to expose unnecessary stops, missed decision components, cost and delay—not just successful examples. The result should support a decision to continue, revise or stop that line of work.
 
