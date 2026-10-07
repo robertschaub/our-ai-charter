@@ -8,7 +8,7 @@
 
 **Trace wide, escalate narrow.** Keep a reviewable record of the workflow, but interrupt the user only when a human decision can materially change the outcome. Escalating everything trains people to click "allow all"; good tracing is what earns the right to escalate less.
 
-> **Escalate only when all three hold:** a human can change the outcome, the stakes justify interruption, and the AI cannot responsibly resolve it alone. Otherwise: trace and proceed.
+> **Escalate only when all three hold:** a human can change the outcome, the stakes justify interruption, and the AI cannot responsibly resolve it alone. Otherwise, trace and proceed only within valid authority and satisfied requirements; if a required check fails, remain blocked even when human escalation would not help.
 
 ## Five steps
 
@@ -19,7 +19,7 @@ The user-facing workflow uses ordinary verbs: **plan the use → prepare the inp
 | **1. Plan → Authorize** | Is AI — and this system — right for the purpose, and what is at stake? | purpose, provider/system suitability, authority, limits, risk tier |
 | **2. Prepare → Submit** | May these data, sources, and instructions enter the system safely? | input provenance, privacy, IP/confidentiality, trust boundary |
 | **3. Check → Verify** | What is it claiming, is the evidence sound enough for this use, and was its source in a position to establish it? | evidence, source validity and standing, uncertainty |
-| **4. Decide → Commit** | Should this exact output affect a decision or external action? | consequence, fairness, notice, human sign-off |
+| **4. Decide → Commit** | Should this exact output affect a decision or external action? | consequence, fairness, notice, human sign-off where needed |
 | **5. Review → Rely** | What happened, can it be challenged or corrected, and should reliance continue? | effects, complaint, remedy, correction, reliance |
 
 ## Conditions across every step
@@ -44,6 +44,8 @@ Loops and chains re-enter **Submit** and **Verify**: each model/tool hop can add
 **Two different permissions, easily conflated.** *Submit* asks whether an input **may enter** — privacy, IP, confidentiality, trust boundary. *Verify* asks something else: whether whoever supplied it was **entitled to establish** the fact it is now being used for. A document can be entirely admissible to read and still not be the thing that settles the question, so admission to the workflow is not standing and must not be recorded as though it were. The same rule applies to people and is the sharper case: a person has standing over their own testimony, interpretation, and permission, and a third party's facts are resolved by cited evidence or routed to that party — never by bare assertion, because no sign-off can supply a missing evidentiary basis. Where standing cannot be established, carry the input forward as **unattributed** rather than as evidence — and where no source is entitled to establish the claim at all, record that instead of holding it against the input, because absence of an entitled source is a fact about the claim, not a defect in the citation.
 
 **Authority needs the same treatment as evidence.** *Authorize* establishes what the user and system may do, but the authority at the root of that grant has a basis too — a role, an instrument, a decision — and it should be recorded and reviewable rather than assumed from the fact that a grant exists. A signed permission proves someone granted it, never that they held what they granted.
+
+EGA presents these as instances of one repeated check: may this proposed transition proceed under its applicable requirements? Any check may obtain permitted evidence, including evidence establishing authority or permission. Trusted rules select the requirements; the acting AI cannot select a bypass. The overview branches **Proceed / Do not proceed** express the decision for that step, without replacing the operational gates, technical verdicts, attempt states or recovery obligations below. “Human judgement where needed” is a conditional route for a specific unresolved issue, within the person's authority; it is not required for every refusal and cannot substitute for missing evidence or authority, or reopen a stopped attempt.
 
 ## Escalation triggers
 

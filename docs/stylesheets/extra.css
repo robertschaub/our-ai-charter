@@ -203,3 +203,8 @@
   border-bottom-width: .1rem;
   margin: 2em 0;
 }
+
+/* Detailed EGA flows retain legible labels on narrow screens. */
+.md-typeset .ega-flow { overflow-x: auto; margin: 1em 0; }
+.md-typeset .ega-flow .mermaid { min-width: 65rem; }
+@media print { .md-typeset .ega-flow .mermaid { min-width: 0; } }

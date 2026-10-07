@@ -2,6 +2,16 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-10-07
+
+- Republished the EGA article and accompanying LinkedIn post with recurring checks, evidence retrieval for authority and permission, conditional human judgement and updated illustrations. Synchronised the mirror, publication links and indexes.
+
+- Aligned the detailed EGA workflows: separate admission and routing, explicit ordinary-delivery refusal, uncertain examination submission, and conditional human judgement across stop branches. Clarified planning before the prototype entry point and that lack of escalation never permits a failed check to proceed.
+
+- Consolidated EGA as repeated checks with applicable requirements, evidence retrieval available to every check (including authority and permission), and common Proceed / Do not proceed overview branches with conditional human judgement visible in the extended diagrams. Aligned the overview, article illustrations, research and technical design while preserving distinct lifecycle and recovery rules.
+
+- Reconciled EGA diagrams with permission checks before model use, retrieval-only evidence services, EGA analysis and bound release/action controls. Updated the wider illustration and editable article layout; showed Working AI planning and preparing within existing permission before the first displayed gate and aligned recurring entry/effect checks with the runtime-interruption article; kept detailed flows legible on narrow screens and clarified stopped attempts and temporary-ruling re-verification.
+
 ## 2026-10-06
 
 - Linked the homepage's reddish current-focus label to Evidence-Gated Agents.

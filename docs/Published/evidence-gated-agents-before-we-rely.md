@@ -1,56 +1,58 @@
-**PUBLISHED 2026-10-05 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7512953020503105536/)**
+**PUBLISHED 2026-10-07 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7513710861446873088/)**
 
 ***
 
 An AI recommendation can sound convincing—but is there enough evidence to justify following it?
 
-Evidence-Gated Agents (EGA) connects evidence examination with control over whether a consequential recommendation may be released. Its design actively searches for supporting evidence and contradicting evidence, checks authority and preserves a basis for inspection and challenge.
+Evidence-Gated Agents (EGA) connects evidence examination with controls outside the acting AI. Its design repeats the same check at relevant boundaries: before using information, releasing output or taking action.
 
-Two foundations already exist: FactHarbor Alpha searches and analyses evidence; a separate Runtime proof of concept demonstrates controls outside the acting AI. The next milestone is to integrate and evaluate them in one bounded recommendation workflow.
+Any check can seek evidence, including evidence of permission and authority. EGA analyses supporting and contradicting evidence, checks the applicable requirements and records the basis for Proceed or Do not proceed—with human judgement where needed.
 
-Explore the project and the cooperation opportunity:
+Two foundations already exist: FactHarbor Alpha and the Our AI Charter Runtime proof of concept. The next milestone connects them in one bounded recommendation workflow and tests whether it reduces unsupported recommendations while retaining useful answers.
+
+Explore the design and cooperation opportunity:
 https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-agents/
 
 \#EvidenceGatedAgents #ResponsibleAI #AIAccountability
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 ***
-[![EGA cover: Working AI submits a claim, decision or action instruction. The evidence service retrieves search results; EGA analyses the output and controls release or hold, with a restricted decision record.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely-cover.png)
+[![EGA cover: Working AI submits a claim, decision or action instruction. The evidence service retrieves search results; EGA assesses the output, authority and disclosure, then decides Proceed or Do not proceed. The evidence service is available to every EGA check; decision records have restricted access.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely-cover.png)
 ***
 
 # Evidence-Gated Agents: Before We Rely on an AI Recommendation
 
 Imagine choosing a supplier for a service that must respond within a guaranteed time. An AI assistant recommends one, citing satisfied customers and excellent average performance. Neither establishes the guarantee your decision depends on.
 
-A useful answer identifies that gap. But recognising it is only part of the problem: what prevents an unsupported recommendation from being released as ready to rely on?
+A useful answer identifies that gap. But what prevents an unsupported recommendation from being released as ready to rely on?
 
-**Evidence-Gated Agents (EGA) connects evidence examination with control over whether a consequential recommendation may proceed.** The aim is practical: help people make better-grounded decisions while retaining control and a route to challenge mistakes.
+**Evidence-Gated Agents (EGA) connects evidence examination with controls outside the acting AI.** Its design governs whether a claim, decision or action instruction may proceed—and preserves a basis for inspection and challenge.
 
-## Evidence before reliance
+## The same check at each relevant boundary
 
-EGA's design places checks outside the acting AI to govern release of a claim, decision or action instruction. An evidence service returns material from permitted sources, with source references and search coverage; EGA analyses support, contradiction and gaps for the exact output. Its analytical verdict and reasons inform release controls alongside current authority and disclosure permissions. A favourable verdict alone does not authorise release.
+Working AI can plan and prepare within existing permission. EGA checks recur when it proposes a protected step: using new information, sending content to a service, releasing output or taking action. Each check asks: **may this step proceed under its applicable requirements?** Trusted rules select those requirements; the acting AI cannot authorise itself.
 
-For the supplier example, an unsupported guarantee means holding the recommendation. A narrower alternative needs its own check. The selected prototype targets consequential recommendations and instructions; ordinary answers follow a lighter path with authority and disclosure checks.
+Any EGA check can request evidence, including evidence of permission, authority or delegation. The evidence service returns what it finds, with source references and search coverage. **EGA assesses supporting evidence, contradicting evidence and gaps.** The service does not decide what the material proves or whether the step may proceed.
 
-Routine checks run automatically within agreed limits. Human judgment is reserved for cases where the stakes justify interruption, an authorised person can make a difference, and the issue cannot be resolved within existing authority. Approval cannot replace missing evidence or permission.
+For the supplier example, missing evidence of the required guarantee means the recommendation does not proceed. A narrower recommendation needs a new check. A favourable analytical verdict alone cannot replace authority or permission to disclose the content.
 
-The same evidence-service interface can support public sources and specialised company/private sources. Data protection applies across the system, including outgoing requests, search results, released outputs and record views. **Access, processing and disclosure are separate permissions**; checks precede use by a model or service and each disclosure. Decision records need limited content, access and retention. Separate oversight responsibilities keep operation, custody, independent review and remedy from resting with one operator; records support scrutiny rather than guaranteeing truth or effective remedy.
+**Proceed** means within the checked scope. **Do not proceed** records the reason and next permitted route. Human judgement is sought where an authorised person can resolve a specific issue and the stakes justify interruption. It cannot supply missing evidence or reopen a stopped attempt.
 
-[![EGA output-release diagram: permitted evidence sources feed a retrieval-only evidence service. EGA requests evidence, analyses support, contradiction and gaps, and checks authority and disclosure before releasing or holding a claim, decision or action instruction. Outputs are released within authorised scope. Released and Held appear to the right of EGA. Decision-record access is restricted, and data protection applies to information throughout the system and whenever it is sent or shared.](evidence-gated-agents-before-we-rely.png)](evidence-gated-agents-before-we-rely.png)
+The evidence-service interface can support public sources and specialised company/private sources. Access, processing and disclosure are separate permissions. Data protection applies throughout the system, including outgoing requests, released content and records. Decision-record access is restricted; separate oversight responsibilities support inspection, challenge and correction.
 
-*The diagrams show the output-release gate for claims, decisions and action instructions. The first integration targets consequential recommendations and instructions; it does not execute resulting actions. Integration and confidential-source handling remain to be built.*
+[![Output-release instance of the EGA check: a retrieval-only evidence service is available to every check, including authority and permission checks. EGA analyses the claim, decision or action instruction and applies evidence, authority and disclosure requirements. The decision branches are Proceed within checked scope or Do not proceed with a reason, next permitted route and human judgement where needed. Decision-record access is restricted and data protection applies throughout the system.](evidence-gated-agents-before-we-rely.png)](evidence-gated-agents-before-we-rely.png)
+
+*Output release is one instance of the recurring EGA check. The wider design also covers before-use and action boundaries. Integration and confidential-source handling remain to be built.*
 
 ## Two foundations, one concrete milestone
 
-[FactHarbor Alpha](https://github.com/robertschaub/FactHarbor#what-is-factharbor) already searches and analyses supporting and opposing evidence, making sources and uncertainty visible. It remains an Alpha with documented quality limitations.
+[FactHarbor Alpha](https://github.com/robertschaub/FactHarbor#what-is-factharbor) already searches and analyses evidence, exposing sources and uncertainty. It remains an Alpha with documented quality limitations.
 
-The separate [Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first) is a runnable proof of concept demonstrating controls outside the acting model. Its synthetic scenarios include refusing an action outside the recorded mandate even after human approval. These demonstrations use local test effects.
+The separate [Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first) is a runnable proof of concept demonstrating controls outside the acting model. Its synthetic scenarios include refusing an action outside the recorded mandate even after human approval; demonstrations use local test effects.
 
-**The next milestone connects these foundations in one bounded recommendation workflow.** FactHarbor provides existing retrieval and analytical capabilities for EGA; separate controls apply human-defined evidence rules and check release permission. The exact component integration remains to be specified. This integration remains to be built and evaluated. Releasing a supplier recommendation does not authorise a purchase. Wider confidential-source and independent-governance arrangements also require development.
+**The next milestone connects these foundations in one bounded recommendation workflow.** EGA analysis uses a human-defined evidence checklist; separate controls apply the evidence rules and check release permission. The exact component integration remains to be specified, built and evaluated. The first prototype releases a checked recommendation; it does not execute the resulting action. Ordinary answers retain authority and disclosure checks without the full consequential-output examination.
 
-The evaluation asks whether the combination reduces unsupported recommendations while retaining useful answers. It will need to expose unnecessary stops, missed decision components, cost and delay—not just successful examples. The result should support a decision to continue, revise or stop that line of work.
-
-Automatically identifying adequate evidence requirements for unfamiliar decisions is a [broader research question](../Assurance/Concepts/evidence-requirements-research.md). Its reliability remains to be demonstrated; the first integration cannot establish it alone.
+Evaluation must reveal unsupported releases, unnecessary stops, missed decision components, useful answers, cost and delay. Automatically identifying adequate evidence requirements for unfamiliar decisions remains a [broader research question](../Assurance/Concepts/evidence-requirements-research.md).
 
 ## Where cooperation can make a difference
 
@@ -60,4 +62,4 @@ Cooperation agreements would define the workflow, success criteria and reporting
 
 **Bring a workflow, contribute expertise, or explore supporting the next stage.** A first conversation can use a brief description and synthetic examples; no confidential records are needed. Contact [Robert Schaub](https://www.linkedin.com/in/robertschaub/) or [info@factharbor.ch](mailto:info@factharbor.ch).
 
-The [EGA project page](../Assurance/Concepts/evidence-gated-agents.md) brings together the design, current scope, supporting work and the FactHarbor association's stewardship commitments.
+The [EGA project page](../Assurance/Concepts/evidence-gated-agents.md) brings together the design, scope, supporting work and stewardship commitments.

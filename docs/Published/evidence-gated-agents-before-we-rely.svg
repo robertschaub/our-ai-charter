@@ -1,57 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1770" viewBox="0 0 1600 1770" role="img" aria-labelledby="title desc"><title id="title">Evidence-Gated Agents — checks before a claim, decision or action instruction proceeds</title><desc id="desc">Broader EGA design, still to be integrated and evaluated. Authorised external and internal confidential sources feed a retrieval-only evidence service; confidential-source handling requires development. EGA analyses the retrieved material for support, contradiction and gaps, then checks evidence sufficiency, authority and disclosure outside the acting AI. The output — a claim, decision or action instruction — may be released, or held for more evidence, revision and rechecking, or authorised human judgment when needed. A limited decision record supports inspection, challenge and correction. Releasing an instruction does not authorise its execution; the resulting action requires its own authority and evidence checks.</desc><!-- SPDX-License-Identifier: CC-BY-SA-4.0 --><defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#F7FAFA"/><stop offset="1" stop-color="#FFFCF6"/></linearGradient><linearGradient id="cool" x2="0.7" y2="1"><stop stop-color="#F7FBFF"/><stop offset="1" stop-color="#E7F0FA"/></linearGradient><linearGradient id="mint" x2="1" y2="1"><stop stop-color="#F0FAF7"/><stop offset="1" stop-color="#DFF1EC"/></linearGradient><linearGradient id="warm" x2="1" y2="1"><stop stop-color="#FFF9F4"/><stop offset="1" stop-color="#F7E8DF"/></linearGradient><linearGradient id="gate" x2="1" y2="1"><stop stop-color="#FFF9E7"/><stop offset="1" stop-color="#F5D88F"/></linearGradient><linearGradient id="edge"><stop stop-color="#F8BD49"/><stop offset="1" stop-color="#D78B1C"/></linearGradient><filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#183648" flood-opacity=".08"/></filter><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#087F82"/></marker><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#326CA2"/></marker><marker id="rust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#A34E30"/></marker><marker id="slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#506775"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
-<rect x="0" y="0" width="1600" height="1770" rx="0" fill="url(#paper)" stroke="none" stroke-width="2" />
-<rect x="70" y="59" width="8" height="119" rx="4" fill="#DA9829" stroke="none" stroke-width="2" />
-<text x="99" y="110" font-size="66" fill="#173146" font-weight="700" text-anchor="start">Evidence-Gated Agents</text>
-<text x="101" y="169" font-size="29" fill="#506775" font-weight="400" text-anchor="start">Checks before AI output is released</text>
-<path d="M73 238 H112" fill="none" stroke="#087F82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="130" y="249" font-size="31" fill="#506775" font-weight="400" text-anchor="start">Controls outside the acting AI</text>
-<rect x="70" y="310" width="535" height="308" rx="22" fill="#FFFFFF" stroke="#BDCEDB" stroke-width="2" />
-<g transform="translate(96 334) scale(0.7)" fill="none" stroke="#326CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
-<text x="145" y="370" font-size="37" fill="#173146" font-weight="700" text-anchor="start">Evidence sources</text>
-<text x="99" y="418" font-size="32" fill="#506775" font-weight="400" text-anchor="start">External sources</text>
-<text x="99" y="460" font-size="32" fill="#506775" font-weight="400" text-anchor="start">Internal confidential sources</text>
-<g transform="translate(99 487) scale(0.75)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
-<text x="143" y="520" font-size="32" fill="#326CA2" font-weight="600" text-anchor="start">Authorized Access</text>
-<path d="M613 450 H688" fill="none" stroke="#087F82" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
-<rect x="704" y="310" width="826" height="308" rx="22" fill="url(#cool)" stroke="#AEC7DE" stroke-width="2" filter="url(#shadow)"/>
-<text x="738" y="374" font-size="46" fill="#326CA2" font-weight="700" text-anchor="start">Evidence service</text>
-<text x="738" y="441" font-size="42" fill="#173146" font-weight="600" text-anchor="start">Finds evidence on request</text>
-<text x="738" y="497" font-size="34" fill="#506775" font-weight="400" text-anchor="start">Includes sources &amp; search coverage</text>
-<path d="M845 717 V632" fill="none" stroke="#326CA2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)" stroke-dasharray="12 12"/>
-<text x="822" y="678" font-size="25" fill="#326CA2" font-weight="500" text-anchor="end">Search request</text>
-<path d="M1100 632 V717" fill="none" stroke="#326CA2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)"/>
-<text x="1122" y="678" font-size="26" fill="#326CA2" font-weight="500" text-anchor="start">Search results</text>
-<rect x="70" y="793" width="385" height="237" rx="24" fill="url(#mint)" stroke="#ACD7D0" stroke-width="2" filter="url(#shadow)"/>
-<g transform="translate(100 825) scale(0.7)" fill="none" stroke="#087F82" stroke-width="3" stroke-linecap="round"><rect x="10" y="10" width="40" height="40" rx="9"/><rect x="21" y="21" width="18" height="18" rx="4"/><path d="M20 1 V10 M20 50 V59 M1 20 H10 M50 20 H59"/><path d="M30 1 V10 M30 50 V59 M1 30 H10 M50 30 H59"/><path d="M40 1 V10 M40 50 V59 M1 40 H10 M50 40 H59"/></g>
-<text x="167" y="864" font-size="38" fill="#087F82" font-weight="700" text-anchor="start">Working AI</text>
-<text x="101" y="913" font-size="23" fill="#506775" font-weight="400" text-anchor="start">Output to be checked</text>
-<text x="101" y="950" font-size="29" fill="#173146" font-weight="400" text-anchor="start">Claim, decision</text>
-<text x="101" y="987" font-size="29" fill="#173146" font-weight="400" text-anchor="start">or action instruction</text>
-<path d="M464 907 H547" fill="none" stroke="#087F82" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
-<rect x="575" y="745" width="965" height="470" rx="30" fill="#E7BE67" stroke="none" stroke-width="2" /><rect x="565" y="735" width="965" height="470" rx="30" fill="url(#gate)" stroke="#D99629" stroke-width="3" filter="url(#shadow)"/><rect x="565" y="735" width="14" height="470" rx="7" fill="url(#edge)" stroke="none" stroke-width="2" /><g transform="translate(1418 772)" fill="none" stroke="#BE8120" stroke-width="3" opacity=".55"><path d="M36 0 L67 12 V38 Q66 60 36 77 Q6 60 5 38 V12 Z"/><path d="M8 27 H64 M8 43 H64 M19 59 H53 M36 11 V27 M22 27 V43 M50 27 V43 M36 43 V59"/></g><text x="607" y="815" font-size="72" fill="#A96106" font-weight="700" text-anchor="start">EGA</text><text x="608" y="857" font-size="29" fill="#A96106" font-weight="400" text-anchor="start">Analysis + release controls</text><rect x="597" y="888" width="901" height="64" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" /><text x="620" y="929" font-size="31" fill="#173146" font-weight="700" text-anchor="start">Evidence</text><text x="830" y="929" font-size="27" fill="#506775" font-weight="400" text-anchor="start">Analyse support, contradiction &amp; gaps</text><rect x="597" y="967" width="901" height="64" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" /><text x="620" y="1008" font-size="31" fill="#173146" font-weight="700" text-anchor="start">Authority</text><text x="830" y="1008" font-size="27" fill="#506775" font-weight="400" text-anchor="start">Within the current mandate?</text><rect x="597" y="1046" width="901" height="64" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" /><text x="620" y="1087" font-size="31" fill="#173146" font-weight="700" text-anchor="start">Disclosure</text><text x="830" y="1087" font-size="27" fill="#506775" font-weight="400" text-anchor="start">Permitted to release this content?</text>
-<text x="607" y="1170" font-size="26" fill="#173146" font-weight="600" text-anchor="start">Foundations: FactHarbor Alpha + Our AI Charter Runtime PoC</text>
-<g transform="translate(0 54)">
-<path d="M775 1170 V1212 H438 V1232" fill="none" stroke="#087F82" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
-<path d="M1315 1170 V1232" fill="none" stroke="#A34E30" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#rust)"/>
-<rect x="70" y="1246" width="535" height="200" rx="22" fill="url(#mint)" stroke="#9ACCC4" stroke-width="2" />
-<text x="99" y="1293" font-size="39" fill="#087F82" font-weight="700" text-anchor="start">Released</text>
-<text x="99" y="1337" font-size="27" fill="#173146" font-weight="400" text-anchor="start">Claim, decision or</text>
-<text x="99" y="1371" font-size="27" fill="#173146" font-weight="400" text-anchor="start">action instruction</text>
-<text x="99" y="1413" font-size="23" fill="#506775" font-weight="400" text-anchor="start">Release does not authorise execution.</text>
-<rect x="649" y="1246" width="881" height="200" rx="22" fill="url(#warm)" stroke="#D9AF9D" stroke-width="2" />
-<text x="682" y="1293" font-size="38" fill="#A34E30" font-weight="700" text-anchor="start">Held — resolve the gap</text>
-<text x="682" y="1349" font-size="26" fill="#173146" font-weight="400" text-anchor="start">Request evidence • Revise and recheck</text>
-<text x="682" y="1401" font-size="27" fill="#506775" font-weight="400" text-anchor="start">Authorised human judgment when needed</text>
-<rect x="70" y="1485" width="710" height="175" rx="22" fill="#FFFFFF" stroke="#BDCEDB" stroke-width="2" />
-<g transform="translate(99 1513) scale(0.7)" fill="none" stroke="#506775" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
-<text x="145" y="1547" font-size="33" fill="#173146" font-weight="700" text-anchor="start">Decision record</text>
-<text x="99" y="1594" font-size="29" fill="#173146" font-weight="400" text-anchor="start">Inspect • Challenge • Correct</text>
-<g transform="translate(99 1603) scale(0.65)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
-<text x="137" y="1633" font-size="26" fill="#326CA2" font-weight="400" text-anchor="start">Restricted access</text>
-<rect x="810" y="1485" width="720" height="175" rx="22" fill="#F2F6FA" stroke="#BDCEDB" stroke-width="2" />
-<g transform="translate(840 1515) scale(0.7)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
-<text x="885" y="1547" font-size="31" fill="#173146" font-weight="700" text-anchor="start">System-wide data protection</text>
-<text x="839" y="1594" font-size="26" fill="#173146" font-weight="400" text-anchor="start">Protect information during use and storage,</text>
-<text x="839" y="1633" font-size="26" fill="#173146" font-weight="400" text-anchor="start">and whenever it is sent or shared.</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="2040" height="1260" viewBox="0 0 2040 1260" role="img" aria-labelledby="title desc"><title id="title">Evidence-Gated Agents — output-release checks</title><desc id="desc">Editable layout of the article illustration. This detail begins after the separate permission checks before model use. A retrieval-only evidence service returns found material with sources and search coverage. EGA analyses support, contradiction and gaps and checks evidence, authority and disclosure. Proceed and Do not proceed are to the right of EGA, with human judgement where needed inside the latter box. Restricted decision records and system-wide data protection support accountability. Design, not implemented integration.</desc><!-- SPDX-License-Identifier: CC-BY-SA-4.0 --><defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#F7FAFA"/><stop offset="1" stop-color="#FFFCF6"/></linearGradient><linearGradient id="cool" x2="0.7" y2="1"><stop stop-color="#F7FBFF"/><stop offset="1" stop-color="#E7F0FA"/></linearGradient><linearGradient id="mint" x2="1" y2="1"><stop stop-color="#F0FAF7"/><stop offset="1" stop-color="#DFF1EC"/></linearGradient><linearGradient id="warm" x2="1" y2="1"><stop stop-color="#FFF9F4"/><stop offset="1" stop-color="#F7E8DF"/></linearGradient><linearGradient id="gate" x2="1" y2="1"><stop stop-color="#FFF9E7"/><stop offset="1" stop-color="#F5D88F"/></linearGradient><linearGradient id="edge"><stop stop-color="#F8BD49"/><stop offset="1" stop-color="#D78B1C"/></linearGradient><filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#183648" flood-opacity=".08"/></filter><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#087F82"/></marker><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#326CA2"/></marker><marker id="rust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#A34E30"/></marker><marker id="slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#506775"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="2040" height="1260" rx="0" fill="url(#paper)" stroke="none" stroke-width="2" />
+<rect x="65" y="55" width="8" height="125" rx="4" fill="#DA9829" stroke="none" stroke-width="2" />
+<text x="98" y="110" font-size="68" fill="#173146" font-weight="700" text-anchor="start">Evidence-Gated Agents</text>
+<text x="100" y="170" font-size="38" fill="#506775" font-weight="400" text-anchor="start">Checks before AI output is released</text>
+<rect x="65" y="245" width="520" height="240" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
+<g transform="translate(95 273) scale(0.85)" fill="none" stroke="#326CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
+<text x="157" y="311" font-size="38" fill="#173146" font-weight="700" text-anchor="start">Evidence sources</text>
+<text x="97" y="365" font-size="30" fill="#506775" font-weight="400" text-anchor="start">External sources</text>
+<text x="97" y="409" font-size="30" fill="#506775" font-weight="400" text-anchor="start">Internal confidential sources</text>
+<g transform="translate(95 433) scale(0.65)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
+<text x="136" y="464" font-size="27" fill="#326CA2" font-weight="600" text-anchor="start">Authorised access</text>
+<path d="M596 365 H677" fill="none" stroke="#087F82" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="695" y="245" width="680" height="240" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
+<g transform="translate(727 273) scale(0.85)" fill="none" stroke="#326CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
+<text x="790" y="312" font-size="42" fill="#173146" font-weight="700" text-anchor="start">Evidence service</text>
+<text x="730" y="370" font-size="35" fill="#173146" font-weight="600" text-anchor="start">Finds material on request</text>
+<text x="730" y="417" font-size="29" fill="#506775" font-weight="400" text-anchor="start">Includes sources &amp; search coverage</text>
+<path d="M887 558 V495" fill="none" stroke="#326CA2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)" stroke-dasharray="12 12"/>
+<text x="868" y="533" font-size="24" fill="#326CA2" font-weight="500" text-anchor="end">Search request</text>
+<path d="M1123 495 V558" fill="none" stroke="#326CA2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="1141" y="533" font-size="24" fill="#326CA2" font-weight="500" text-anchor="start">Search results</text>
+<rect x="65" y="646" width="420" height="295" rx="24" fill="url(#mint)" stroke="#9ACCC4" stroke-width="2" />
+<g transform="translate(95 674) scale(0.95)" fill="none" stroke="#087F82" stroke-width="3" stroke-linecap="round"><rect x="10" y="10" width="40" height="40" rx="9"/><rect x="21" y="21" width="18" height="18" rx="4"/><path d="M20 1 V10 M20 50 V59 M1 20 H10 M50 20 H59"/><path d="M30 1 V10 M30 50 V59 M1 30 H10 M50 30 H59"/><path d="M40 1 V10 M40 50 V59 M1 40 H10 M50 40 H59"/></g>
+<text x="180" y="718" font-size="40" fill="#087F82" font-weight="700" text-anchor="start">Working AI</text>
+<text x="97" y="782" font-size="27" fill="#506775" font-weight="400" text-anchor="start">Output to be checked</text>
+<text x="97" y="835" font-size="32" fill="#173146" font-weight="400" text-anchor="start">Claim, decision</text>
+<text x="97" y="879" font-size="32" fill="#173146" font-weight="400" text-anchor="start">or action instruction</text>
+<path d="M495 792 H573" fill="none" stroke="#087F82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="590" y="575" width="785" height="420" rx="26" fill="url(#gate)" stroke="#D99629" stroke-width="3" filter="url(#shadow)"/>
+<text x="625" y="655" font-size="69" fill="#A96106" font-weight="700" text-anchor="start">EGA check</text>
+<text x="626" y="703" font-size="34" fill="#A96106" font-weight="400" text-anchor="start">Before output release</text>
+<rect x="618" y="731" width="730" height="56" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" />
+<text x="640" y="768" font-size="28" fill="#173146" font-weight="700" text-anchor="start">Evidence</text>
+<text x="827" y="768" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Support, contradiction &amp; gaps</text>
+<rect x="618" y="799" width="730" height="56" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" />
+<text x="640" y="836" font-size="28" fill="#173146" font-weight="700" text-anchor="start">Authority</text>
+<text x="827" y="836" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Within the current mandate?</text>
+<rect x="618" y="867" width="730" height="56" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" />
+<text x="640" y="904" font-size="28" fill="#173146" font-weight="700" text-anchor="start">Disclosure</text>
+<text x="827" y="904" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Permitted content &amp; recipient?</text>
+<text x="625" y="963" font-size="23" fill="#173146" font-weight="600" text-anchor="start">Foundations: FactHarbor Alpha + Our AI Charter Runtime PoC</text>
+<path d="M1386 680 H1459" fill="none" stroke="#087F82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
+<path d="M1386 875 H1459" fill="none" stroke="#A34E30" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#rust)"/>
+<rect x="1476" y="575" width="500" height="195" rx="24" fill="url(#mint)" stroke="#9ACCC4" stroke-width="2" />
+<g transform="translate(1505 602) scale(0.8)" fill="none" stroke="#087F82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
+<text x="1564" y="645" font-size="42" fill="#087F82" font-weight="700" text-anchor="start">Proceed</text>
+<text x="1508" y="694" font-size="26" fill="#173146" font-weight="400" text-anchor="start">Claim, decision or action instruction</text>
+<text x="1508" y="740" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Release within checked scope.</text>
+<rect x="1476" y="800" width="500" height="195" rx="24" fill="url(#warm)" stroke="#D9AF9D" stroke-width="2" />
+<text x="1508" y="849" font-size="35" fill="#A34E30" font-weight="700" text-anchor="start">Do not proceed</text>
+<text x="1508" y="898" font-size="24" fill="#173146" font-weight="400" text-anchor="start">Reason recorded</text>
+<text x="1508" y="945" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Next permitted route</text>
+<g transform="translate(1508 957)" fill="none" stroke="#506775" stroke-width="2"><circle cx="10" cy="6" r="5"/><path d="M1 23 V20 A9 9 0 0 1 19 20 V23 Z"/></g>
+<text x="1540" y="977" font-size="23" fill="#506775" font-weight="400" text-anchor="start">Human judgement where needed</text>
+<rect x="65" y="1060" width="905" height="155" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
+<g transform="translate(98 1087) scale(0.7)" fill="none" stroke="#326CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
+<text x="155" y="1119" font-size="34" fill="#173146" font-weight="700" text-anchor="start">Decision record</text>
+<text x="98" y="1165" font-size="29" fill="#173146" font-weight="400" text-anchor="start">Inspect · Challenge · Correct</text>
+<g transform="translate(620 1141) scale(0.7)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
+<text x="666" y="1175" font-size="28" fill="#326CA2" font-weight="400" text-anchor="start">Restricted access</text>
+<rect x="1000" y="1060" width="976" height="155" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
+<g transform="translate(1033 1082) scale(0.8)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
+<text x="1093" y="1120" font-size="34" fill="#173146" font-weight="700" text-anchor="start">System-wide data protection</text>
+<text x="1033" y="1166" font-size="29" fill="#173146" font-weight="400" text-anchor="start">Protect information during use and storage,</text>
+<text x="1033" y="1200" font-size="29" fill="#173146" font-weight="400" text-anchor="start">and whenever it is sent or shared.</text>
+<text x="730" y="462" font-size="27" fill="#326CA2">Available to every EGA check</text>
 </g></svg>

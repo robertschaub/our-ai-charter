@@ -19,13 +19,15 @@ A separate deterministic gate then applies the recorded rule to the requirements
 
 ## What goes into a check—and what comes out?
 
+EGA repeats a common check pattern at protected transitions, with applicable requirements selected by trusted rules. Any check may retrieve permitted evidence, including evidence of permission and authority; retrieved material does not itself grant permission. A reusable check does not imply automatic derivation of adequate evidence requirements, which remains the research question here.
+
 Before the acting model receives a request, checks establish whether that system may be used for the purpose and whether the request and context may be sent to that provider/model. Current permission is checked again when the model's output enters the workflow. Accountable people supply the authority, disclosure rules and acceptance policy; the agent cannot invent these.
 
 Evidence examination takes **the user's request, the agent's exact proposed answer or decision, and the relevant context permitted for this use**. The proposal is checked against the request: factual statements may be correct while the answer still fails to justify the requested decision.
 
 | Check | Inputs | Outputs |
 |---|---|---|
-| **Authority and disclosure** | Request and purpose; exact proposal when available; who is acting and receiving the result; current mandate; information and destination service/provider. | Permission or stop for the relevant step, with reasons. Checks precede the acting-model call, evidence-service submission and release. Permission for one disclosure does not authorize the others. |
+| **Authority and disclosure** | Request and purpose; exact proposal when available; who is acting and receiving the result; current mandate and evidence of its basis, scope and validity; information and destination service/provider. | Permission or stop for the relevant step, with reasons. Checks precede the acting-model call, evidence-service submission and release. Permission for one disclosure does not authorize the others. |
 | **Derive evidence requirements** — wider research | Request, exact proposal, permitted context and established domain/acceptance policies. | An inventory of material claims, assumptions and dependencies, with proposed evidence requirements for each. |
 | **Review those requirements** — wider research | The same task and proposal, the inventory and proposed requirements. | An assessment of their adequacy, including missing items, required revisions and unresolved disagreement. Revised items return for review before evidence search. This assessment is not release permission. |
 | **Retrieve material** | EGA-defined search/reference requests, authorised source scope and permitted retrieval/extraction processing. | Documents, faithful passages or structured source records with provenance and retrieval limits. The service does not classify support/contradiction or judge adequacy. No matches is not proof that evidence is absent. |
@@ -44,7 +46,7 @@ In the supplier example, the input is the proposed recommendation plus the two-h
 
 The selected prototype uses **human-defined evidence rules** and a dynamic EGA examination of an exact proposed decision, with planned reuse of FactHarbor capabilities. Authority and disclosure checks precede that examination; a release requires fresh verification of the bound decision, recipient and result. It releases a decision, not a resulting action. **This integration is not yet implemented.**
 
-A preset, versioned trigger selects consequential responses for examination. Other responses follow an ordinary path with authority and disclosure checks and a minimal routing record, but no evidence examination or EGA receipt. Ambiguous routing stops. Misclassifying a consequential response as ordinary is a failure mode to assess.
+A preset, versioned trigger selects consequential responses for examination. Other responses follow an ordinary path with authority and disclosure checks and a minimal routing record, but no consequential-output evidence examination or EGA receipt. Ambiguous routing stops. Misclassifying a consequential response as ordinary is a failure mode to assess.
 
 Its planned evaluation covers enforcement integrity, unsupported releases, unjustified stops, useful qualified answers, missed decision components, language differences, selected repeat-run variation, latency and failures. FactHarbor may miss a consequential component; an allowed release is not proof of completeness. Existing foundations are FactHarbor Alpha and a Runtime proof of concept that exercises gate mechanisms in a synthetic scenario; neither establishes the integration.
 
