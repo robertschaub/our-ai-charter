@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-08
 
+- Reorganised the two detailed EGA design flows into connected phases with distinct recovery routes. Clarified ordinary delivery, release authorisation, exact-response binding and the retained prototype trigger limitation; improved diagram readability in the page and on narrow screens.
+
 - Replaced the EGA concept-page workflow illustration with the version using continuous, clearer box borders.
 
 - Replaced the LinkedIn EGA article cover with a wide architectural view of recurring checks and synchronized the mirror cover and alternative text; retained the inline output-release illustration.

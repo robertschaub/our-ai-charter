@@ -104,136 +104,231 @@ Faithfulness to a source and support for its factual claims require separate exa
 
 ### View 1 — EGA target model: evidence and authority before release or action
 
-<details markdown="1">
+<details markdown="1" class="ega-design" id="target-model-flow">
 <summary>Open the wider design flow and current foundation</summary>
 
-**Purpose:** show a consequential output/action path within the wider EGA design, not every possible route or current end-to-end functionality. Applicable requirements determine whether full output examination is needed; View 2 also shows ordinary routing. The drawn retrieval connection illustrates output examination; every check may request permitted material, including authority evidence. The overview uses Proceed / Do not proceed; this technical flow retains stage-specific stops, commitment states and uncertain outcomes. The evidence service retrieves material through a defined interface. EGA analysis interprets support, contradiction, uncertainty and gaps and produces the analytical verdict/report. Release controls apply evidence, authority and disclosure rules. FactHarbor offers existing retrieval and analysis capabilities; their integration behind these logical boundaries remains to be specified and implemented.
+**Purpose:** follow one consequential output or action through the wider target design. This is a proposed flow, not implemented end-to-end functionality. The two panels join at **A**; the split introduces no additional gate.
 
-<div class="ega-flow" role="region" aria-label="Detailed EGA control flow" tabindex="0" markdown="1">
+#### 1. Prepare and examine
+
+The request and context are already permitted. New inputs, processors or uses still require applicable checks. The first check covers authority, input origin/integrity and permitted processing; examination permission covers current authority and processor permissions.
+
+<div class="ega-flow" role="region" aria-label="Target model: preparation and examination" tabindex="0" markdown="1">
 
 ```mermaid
-%%{init: {"flowchart": {"curve": "linear", "nodeSpacing": 50, "rankSpacing": 55, "padding": 12, "wrappingWidth": 285}, "htmlLabels": false}}%%
+%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
 flowchart TD
-    U(["Request + permitted context"]) --> P["Working AI plans and prepares<br/>Within existing permission"]
-    P --> IN{{"EGA check · next step + inputs<br/>Authority + input checks<br/>Permitted processing?"}}
-    IN -->|Yes| A["Working AI carries out permitted work<br/>and proposes output or action<br/>Withheld pending checks"]
-    IN -->|No / unresolved| S1["Stop before proposed use<br/>Scoped record"]
-    A --> PRE{{"EGA check · admission + examination:<br/>current authority and processor permissions?"}}
-    PRE -->|Yes| EA["EGA analysis<br/>Support, contradiction and gaps"]
-    PRE -->|No / unresolved| S2["Stop + scoped record"]
-    EA <-->|Permitted requests / found material| ES["Evidence service · retrieval only<br/>Available to every EGA check<br/>Sources and search coverage"]
-    EA -->|Submission acceptance unknown| JX["Stop; reconcile examination job<br/>No speculative resubmission"]
-    EA -->|Assessment / evaluation deadline| G{{"EGA check · release / action rule satisfied?<br/>Evidence + authority + disclosure"}}
-    G -->|Yes| C{{"Fresh verification + commitment<br/>Exact effect and recipient bound?"}}
-    G -->|No / unresolved| S3["Do not proceed<br/>Reason recorded; revised content rechecked"]
-    C -->|Not bound| S4["Stop before effect"]
-    C -->|Bound| E["Executor validates one-use binding<br/>Release output OR perform authorised action"]
-    C -->|Binding uncertain| BX["Binding uncertain<br/>Record; reconcile; no blind retry"]
-    E -->|Outcome established| O["Record actual outcome<br/>Success, no effect or known failure"]
-    E -->|Outcome uncertain| X["Record uncertainty<br/>Reconcile; no blind retry"]
-    O --> R(["Inspect · Challenge · Correct<br/>Review ongoing reliance"])
-    X -.-> R
-    BX -.-> R
-    classDef process fill:#f0f5fc,stroke:#7895ba,color:#17344c,stroke-width:1.5px
-    classDef control fill:#fff4d9,stroke:#bf8a32,color:#573b14,stroke-width:1.5px
-    classDef evidence fill:#e6f5f2,stroke:#459389,color:#154e48,stroke-width:1.5px
-    classDef stop fill:#fff0eb,stroke:#c67b65,color:#803e2c,stroke-width:1.5px
-    classDef result fill:#eaf4e5,stroke:#739266,color:#31572e,stroke-width:1.5px
-    classDef uncertain fill:#f4effa,stroke:#9a81b5,color:#5d427b,stroke-width:1.5px
-    class U,P,A,E process
-    class IN,PRE,G,C control
-    class EA,ES evidence
-    class S1,S2,S3,S4,JX stop
-    class O,R result
-    class X,BX uncertain
+ P["Working AI plans and prepares<br/>Within existing permission"]:::work
+ P --> I{{"Next step and inputs<br/>permitted?"}}:::gate
+ I -->|Yes| W["Working AI performs permitted work<br/>Exact proposal withheld"]:::work
+ I -->|No / unresolved| S["Do not proceed<br/>Reason + permitted route"]:::stop
+ W --> X{{"Examination permitted?"}}:::gate
+ X -->|No / unresolved| S
+ X -->|Yes| A["EGA analysis<br/>Support, contradiction and gaps"]:::evidence
+ A <-->|Permitted search / results| ES["Evidence service<br/>Material, sources, coverage"]:::evidence
+ A -->|Assessment / deadline| C(["A · Continue to release / action checks"]):::link
+ A -->|Acceptance unknown| U["R1 · Withhold; reconcile examination"]:::uncertain
+
+classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
+classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
+classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
+classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
+classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
+classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
+classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
 ```
 
 </div>
 
-Every stop has a scoped reason and inspection route. Human judgement is conditional at any stage where an authorised person can resolve a specific issue; it neither bypasses missing evidence or authority nor reopens a stopped attempt. Uncertain job acceptance, commitment and effects require their own reconciliation.
+
+**Evidence service:** returns found material, sources and search coverage. EGA analysis interprets support, contradiction, uncertainty and gaps. The illustrated exchange is available to **any EGA check**, including checks of permission and authority, through an already permitted retrieval route.
+
+#### 2. Control release or action, then record the outcome
+
+<div class="ega-flow" role="region" aria-label="Target model: release or action and outcomes" tabindex="0" markdown="1">
+
+```mermaid
+%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
+flowchart TD
+ A(["A · From examination"]):::link --> G{{"Release / action rules satisfied?<br/>Evidence, authority, disclosure"}}:::gate
+ G -->|No / unresolved| S["Do not proceed<br/>Reason + permitted route"]:::stop
+ G -->|Yes| C{{"Fresh verification + commitment<br/>Bind exact effect and recipient / target"}}:::gate
+ C -->|Failed check / not bound| S
+ C -->|Binding unknown| U["R2 · Reconcile commitment"]:::uncertain
+ C -->|Bound| E["Validate one-use binding<br/>Attempt exact release OR action"]:::work
+ E -->|Outcome known| O["Record actual outcome<br/>Success, no effect or known failure"]:::result
+ E -->|Outcome unknown| V["R3 · Reconcile effect"]:::uncertain
+ O --> R(["Inspect · Challenge · Correct<br/>Review ongoing reliance"]):::result
+
+classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
+classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
+classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
+classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
+classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
+classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
+classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
+```
+
+</div>
+
+
+**Do not proceed:** withhold the proposed step and record a scoped reason and permitted next route. An eligible held issue can receive authorised human judgment where useful, followed by fresh checks. A closed attempt stays closed; changed proposals require a new attempt. Neither human judgment nor an analytical verdict bypasses required evidence or authority.
+
+**Commitment and outcome are different.** Authority is freshly checked at the commitment boundary. The executor then validates the exact one-use binding; this is not a promise of another authority adjudication after commitment. Record confirmed no effect or known failure as such, preserving any commitment history. R1–R3 use the distinct recovery routes below.
 
 <a id="existing-runtime-foundation"></a>
 <a id="view-1-existing-runtime-control-of-one-proposed-action"></a>
-**Current foundation:** FactHarbor Alpha already performs evidence search and analysis and produces an inspectable verdict and report. Separately, the unfinished Runtime demonstrates gates and receipts outside the acting model using simulated scenarios and a local test action. It does not implement the complete View 1 path or call FactHarbor. See the [Runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
+**Current foundation:** FactHarbor Alpha supplies existing retrieval and analysis capabilities. The unfinished Runtime demonstrates controls and receipts using simulated scenarios and a local test action. Their EGA integration remains to be specified and implemented; see the [Runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
 
 </details>
 
 <a id="selected-prototype-dynamic-decision-examination"></a>
 ### View 2 — Selected EGA prototype: FactHarbor check before decision release
 
-**Scope and limits:** one clear decision, human-defined evidence rules, recommendation release only. The integration is unimplemented. Model-assisted evidence analysis may miss consequential components; release is not proof of truth or completeness.
+**Scope and limits:** one clear decision, human-defined evidence rules, recommendation release only. The integration is unimplemented. Model-assisted analysis can miss consequential components; release is not proof of truth or completeness.
 
-<details markdown="1">
+<details markdown="1" class="ega-design" id="prototype-flow">
 <summary>Open the selected prototype flow and release rules</summary>
 
-**Purpose:** show the planned bounded integration: EGA analysis examines an exact proposed decision using retrieved material, then reusable Runtime controls apply the evidence rule and check release permission. FactHarbor is a foundation for retrieval and analysis, but its complete analysis API is not the retrieval-only service. Component separation or a transitional analytical adapter remains an implementation investigation. Unlike View 1, this path does not execute a resulting action.
+**Purpose:** follow the selected prototype from admission of a new model call to controlled release. Earlier planning may already have occurred within existing permission, as in View 1. Panels join at **B** and **C**; these are continuation points, not new gates.
 
-This prototype flow starts at admission to a new acting-model call. Earlier Working AI planning, shown in View 1, must already be permitted; it does not bypass the checks for new inputs or processing. Authority uses synthetic mandates here; broader evidence retrieval for authority checks is not an additional prototype prerequisite.
+#### 1. Admit and route the response
 
-The controlled evaluation selects requests expected to yield one clear, non-complex decision. Free requests remain available for exploration. A decision may contain related components, but the prototype does not test several independent decision and effect paths.
-
-A preset trigger rule selects full consequential-output evidence examination for a response containing a consequential decision or an instruction to act. An ordinary answer retains authority and disclosure checks, bypasses consequential-output evidence examination and leaves a minimal routing record — trigger decision, rule version, request and response fingerprints, timestamp and attempt ID — without retaining the request or response content. This routing record is not a receipt. Making the trigger judgment itself evidence-based and reviewable is a later extension.
-
-<div class="ega-flow" role="region" aria-label="Detailed EGA control flow" tabindex="0" markdown="1">
+<div class="ega-flow" role="region" aria-label="Prototype: admission and routing" tabindex="0" markdown="1">
 
 ```mermaid
-%%{init: {"flowchart": {"curve": "linear", "nodeSpacing": 50, "rankSpacing": 55, "padding": 12, "wrappingWidth": 285}, "htmlLabels": false}}%%
+%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
 flowchart TD
-    U(["Request + permitted context"]) --> IN{{"EGA check · before model use<br/>Purpose, provider and data permitted?"}}
-    IN -->|Yes| A["Working AI plans, prepares<br/>and proposes exact response<br/>Withheld from recipient"]
-    IN -->|No / unresolved| S1["Stop before disclosure<br/>Scoped record"]
-    A --> AD{{"EGA check · output admission<br/>Approval still current?"}}
-    AD -->|No / unresolved| S2["Stop + scoped explanation<br/>Revised request starts a new attempt"]
-    AD -->|Yes| T{{"Trusted preset routing"}}
-    T -->|Ambiguous| S2
-    T -->|Ordinary| OC{{"EGA check · ordinary delivery<br/>Current authority + disclosure pass?"}}
-    OC -->|Yes| O["Ordinary answer + routing record"]
-    OC -->|No / unresolved| S2
-    T -->|Consequential decision / instruction| PRE{{"EGA check · examination permission<br/>Authority + processor permissions<br/>Examination permitted?"}}
-    PRE -->|Yes| EA["EGA analysis · one examination<br/>Approved checklist + exact decision<br/>Assess each requirement; find gaps"]
-    PRE -->|No / unresolved| S3["Stop + scoped record"]
-    EA <-->|Permitted requests / found material| ES["Evidence service · retrieval only<br/>Sources and search coverage"]
-    EA -->|Submission acceptance unknown| JX["Stop; reconcile examination job<br/>No speculative resubmission"]
-    EA -->|Assessment / evaluation deadline| V{{"EGA check · evidence rule<br/>Complete, bound assessment<br/>Evidence rule satisfied?"}}
-    V -->|Yes| C{{"Fresh verification + commitment<br/>Exact release bound?"}}
-    V -->|No / pending / error| S4["Stop this attempt<br/>Late results cannot revive it"]
-    C -->|Not bound| S5["Stop before release"]
-    C -->|Bound| E["Validate one-use binding<br/>Attempt exact recipient-view release"]
-    C -->|Binding uncertain| BX["Binding uncertain<br/>Record; reconcile; no blind retry"]
-    E -->|Outcome established| R["Record release, no effect<br/>or known failure"]
-    E -->|Outcome uncertain| X["Record uncertainty<br/>Reconcile; no blind resend"]
-    R --> I(["Restricted receipt<br/>Inspect · Challenge · Correct"])
-    X -.-> I
-    BX -.-> I
-    classDef process fill:#f0f5fc,stroke:#7895ba,color:#17344c,stroke-width:1.5px
-    classDef control fill:#fff4d9,stroke:#bf8a32,color:#573b14,stroke-width:1.5px
-    classDef evidence fill:#e6f5f2,stroke:#459389,color:#154e48,stroke-width:1.5px
-    classDef stop fill:#fff0eb,stroke:#c67b65,color:#803e2c,stroke-width:1.5px
-    classDef result fill:#eaf4e5,stroke:#739266,color:#31572e,stroke-width:1.5px
-    classDef uncertain fill:#f4effa,stroke:#9a81b5,color:#5d427b,stroke-width:1.5px
-    class U,A,O,E process
-    class IN,AD,T,OC,PRE,V,C control
-    class EA,ES evidence
-    class S1,S2,S3,S4,S5,JX stop
-    class R,I result
-    class X,BX uncertain
+ U(["Request + permitted context"]):::work --> I{{"Model use permitted?<br/>Purpose, provider and data"}}:::gate
+ I -->|No / unresolved| S["Stop this attempt<br/>Scoped reason + record"]:::stop
+ I -->|Yes| W["Working AI drafts exact response<br/>Withheld from recipient"]:::work
+ W --> A{{"Output admission<br/>Permission still current?"}}:::gate
+ A -->|No / unresolved| S
+ A -->|Yes| T{{"Trusted preset routing"}}:::gate
+ T -->|Ambiguous| S
+ T -->|Decision / instruction| B(["B · Continue to examination"]):::link
+ T -->|Ordinary| O{{"Delivery permitted?<br/>Exact content + recipient<br/>Current authority + disclosure"}}:::gate
+ O -->|No / unresolved| S
+ O -->|Yes| D["Attempt ordinary delivery<br/>Minimal routing record"]:::work
+ D -->|Outcome unknown| R["R3 · Reconcile delivery"]:::uncertain
+ D -->|Outcome known| K["Record outcome as appropriate<br/>No consequential receipt"]:::result
+
+classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
+classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
+classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
+classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
+classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
+classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
+classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
 ```
 
 </div>
 
-All stop branches retain the same scoped explanation and inspection route described in View 1. Human judgement is conditional, and revised proposals start a new attempt; no stop automatically becomes a human approval request.
 
-*Selected design, not an implemented integration. Semantic responsibilities are defined; exact trigger fixtures, interface schemas, evidence criteria, timing and Runtime compatibility remain preparation work. See [where the work stands](../../index.md#where-the-work-stands).*
+**Ordinary routing bypasses full evidence examination only.** Delivery still protects the exact content, recipient and current permission. It does not require consequential Commit universally. Established delivery outcomes are recorded as appropriate; uncertain delivery uses R3 without adding a consequential receipt. Its content-free routing record contains the trigger decision, rule version, request/response fingerprints, timestamp and attempt ID; it is not a consequential receipt.
 
-If only a temporary gate ruling expires during analysis, fresh verification may occur within the same still-open attempt under unchanged, valid authority and bindings. This never extends a deadline, renews an expired mandate or revives a stopped attempt. No protected step may rely on the expired ruling; exact timing and compatibility remain to be specified.
+**Retained trigger limitation:** full examination is selected for a consequential decision or instruction to act. A standalone consequential factual claim can remain outside this trigger. Broadening that scope is a separate decision; ambiguous routing stops the attempt.
 
-EGA analysis does not need to reproduce the agent's wording and does not authorise release. A predefined EGA evidence rule evaluates its bound verdict and component assessments through an explicitly reviewed mapping. The controls infer no new semantic conclusion; missing or uninterpretable required fields stop release. A pass proceeds to Commit; a pending job, material unresolved contradiction, insufficient evidence, ambiguous output or technical error stops the attempt. Counterevidence can coexist with a supported, already qualified exact decision when its significance is addressed under the rule; a report caveat cannot repair an unsupported assertion. Passing this rule does not replace authority or disclosure checks, establish the legitimacy of the mandate, or authorise a resulting action. Completion never causes an automatic later release: a retry is a new attempt through all checks.
+#### 2. Examine the exact response
 
-**Why Commit?** The service rechecks the bound request, decision, recipient and evidence result immediately before release. A changed or narrower decision cannot reuse an earlier approval; it must start a new attempt through every check.
+<div class="ega-flow" role="region" aria-label="Prototype: evidence examination" tabindex="0" markdown="1">
 
-The gated path's real effect is releasing the checked decision. It does not execute a resulting action or check authority for that action. Each later action needs fresh verification of its applicable authority and evidence; an existing mandate may cover it without another human approval.
+```mermaid
+%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
+flowchart TD
+ B(["B · Decision / instruction route"]):::link --> P{{"Examination permitted?<br/>Authority + processors"}}:::gate
+ P -->|No / unresolved| S["Stop this attempt<br/>Scoped reason + record"]:::stop
+ P -->|Yes| A["EGA analysis · one examination<br/>Exact response + approved checklist"]:::evidence
+ A <-->|Permitted search / results| ES["Evidence service<br/>Material, sources, coverage"]:::evidence
+ A -->|Acceptance unknown| U["R1 · Withhold; reconcile examination"]:::uncertain
+ A -->|Assessment / deadline| G{{"Complete, bound assessment<br/>Evidence rule satisfied?"}}:::gate
+ G -->|No / error / incomplete at deadline| S
+ G -->|Yes| C(["C · Continue to release control"]):::link
 
-**Known limit:** FactHarbor's decomposition is model-assisted and may miss a consequential component. The evaluation compares the complete decision with the components FactHarbor identified and reports omissions, language differences and selected repeat-run variation. A release is not proof that the decision is true or complete.
+classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
+classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
+classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
+classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
+classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
+classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
+classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
+```
+
+</div>
+
+
+The examination is bound to the complete recipient-visible response and approved checklist. EGA analysis assesses every approved checklist requirement and examines the identified components, dependencies and gaps; the evidence service retrieves material without judging support or contradiction. Every applicable check may request permitted evidence. This prototype uses synthetic mandates; wider authority retrieval is not an additional prerequisite.
+
+**The evidence rule evaluates the bound analysis; it does not authorise release.** Missing or uninterpretable required fields, known material coverage gaps, unresolved material contradiction, insufficient evidence or technical error stop release. A qualified decision may pass with counterevidence if the rule's requirements are met; a caveat in the analysis cannot repair an unsupported assertion in the response.
+
+An accepted examination may remain pending within its evaluation window. A complete usable assessment is required by the deadline; late results never revive a stopped attempt. A temporary ruling may be refreshed only in a still-open, uncommitted attempt with unchanged valid authority and bindings, without extending the deadline or renewing a mandate. No protected step relies on an expired ruling.
+
+#### 3. Authorise and bind release, then record the outcome
+
+<div class="ega-flow" role="region" aria-label="Prototype: release control and outcomes" tabindex="0" markdown="1">
+
+```mermaid
+%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
+flowchart TD
+ C(["C · Evidence rule passed"]):::link --> F{{"Authorise release + commit<br/>Fresh authority + disclosure<br/>Bind exact response and recipient"}}:::gate
+ F -->|Refused / not bound| S["Stop before release<br/>Scoped reason + record"]:::stop
+ F -->|Binding unknown| U["R2 · Reconcile commitment"]:::uncertain
+ F -->|Bound| E["Validate one-use binding<br/>Attempt exact recipient-view release"]:::work
+ E -->|Outcome known| O["Record release, no effect<br/>or known failure"]:::result
+ E -->|Outcome unknown| V["R3 · Reconcile delivery"]:::uncertain
+ O --> R(["Restricted receipt<br/>Inspect · Challenge · Correct"]):::result
+
+classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
+classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
+classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
+classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
+classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
+classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
+classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
+```
+
+</div>
+
+
+The release control adjudicates current release authority and disclosure permission, then binds the request and permitted context, exact response, recipient and evidence result. Unresolved release permission prevents binding; unknown binding status uses R2. Grouped or separate ruling and binding remains an implementation choice. A different or narrower response starts a new attempt through all checks. Binding and later validation follow the commitment boundary described in View 1; an error after binding does not erase the commitment or prove that nothing was released.
+
+Release means making the checked response available to the intended recipient. It does not mean that the recipient read it, and does not execute or authorise a resulting action. A later action needs its applicable checks; an existing mandate may cover it without another human approval.
+
+**Prototype stops close this attempt.** Keep stage-appropriate records and disclose only a permitted explanation. Authorised human judgment can resolve a specific issue where useful; a subsequent attempt still passes all applicable checks. R1–R3 remain separate recovery obligations, even after an attempt closes.
+
+**Preparation still open:** exact routing fixtures, schemas, criteria, timing and Runtime compatibility. FactHarbor's complete analytical API is not a retrieval-only service; component separation or a transitional adapter remains an implementation investigation. Controlled evaluation uses one clear decision, not several independent decision/effect paths. Component detection remains fallible; evaluation must measure omissions and variation.
+
+</details>
+
+<details markdown="1" class="ega-design" id="recovery-routes">
+<summary>Recovery routes used by both views — R1, R2 and R3</summary>
+
+Each route is entered from its matching labelled uncertainty exit above; they are not sequential steps.
+
+<div class="ega-flow" role="region" aria-label="Three distinct uncertainty recovery routes" tabindex="0" markdown="1">
+
+```mermaid
+%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
+flowchart LR
+ J["R1 · Examination acceptance unknown"]:::uncertain --> JR["Establish submission / job status<br/>It may already be running"]:::work
+ C["R2 · Commitment unknown"]:::uncertain --> CR["Establish binding status<br/>It may already be committed"]:::work
+ E["R3 · Effect / delivery unknown"]:::uncertain --> ER["Establish actual outcome<br/>The effect may have occurred"]:::work
+
+classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
+classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
+classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
+classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
+classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
+classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
+classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
+```
+
+</div>
+
+
+**No blind resubmission, new token or resend.** A new attempt ID does not remove duplication risk. Record established status or remaining uncertainty, preserve existing commitment history, and retain inspection, challenge and correction routes. Closing an attempt does not end reconciliation of a possibly running job. Recovery never makes a late result an automatic release or reopens a closed attempt; any next step must follow its applicable contract and checks.
+
+Records are restricted and stage-appropriate; early stops do not invent a decision, examination or receipt that never existed. Explanations reveal only what their recipient may see. Data protection applies throughout processing, retrieval, release and records.
 
 </details>
 
