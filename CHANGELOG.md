@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-08
 
+- Streamlined the EGA concept page around one overview diagram, clarified the prototype trigger limitation and pending-at-deadline example, retained detailed safeguards in expandable sections, marked the proposed operating model as DRAFT, and focused the invitation on experienced co-developers, sponsors and funders.
+
 - Rebuilt both EGA illustrations as editable vector masters with high-resolution PNG exports, preserving their workflows and replacing distorted text, icons and connectors.
 
 - Added explicit end and remain-stopped exits to the coordinated EGA illustrations and detailed flows. Aligned captions, alternative text, workflow and article wording with optional continuation or permitted revision, retained reconciliation duties, and clarified independent custody of decision records.

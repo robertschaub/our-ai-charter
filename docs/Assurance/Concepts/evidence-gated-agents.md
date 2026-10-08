@@ -1,3 +1,5 @@
+> **Status: DRAFT**
+
 # Evidence-Gated Agents
 
 <a id="project-overview"></a>
@@ -5,11 +7,17 @@
 
 **Before we rely on an AI recommendation, does the evidence justify it—for this purpose?**
 
-[Read the short introduction](../../Published/evidence-gated-agents-before-we-rely.md), or explore the foundations, next milestone and design below.
-
 An AI assistant recommends a supplier, citing satisfied customers and strong average performance. Neither establishes the contractual response-time guarantee your organisation needs. A useful answer identifies that gap; a consequential recommendation should not pass simply because it sounds convincing.
 
-**Evidence-Gated Agents (EGA) connects active evidence examination with controls outside the acting AI.** The design searches for supporting and contradicting evidence, checks authority and governs release of consequential AI output: a claim, decision or action instruction. The broader aim includes authorised actions, inspectable records and routes to challenge and correct decisions.
+**Evidence-Gated Agents (EGA) is a proposed design connecting evidence examination with controls outside the acting AI.** It checks the evidence and authority needed before a consequential claim, decision or action instruction may proceed, and preserves a basis for inspection, challenge and correction. The wider design includes authorised actions; the first integration targets recommendation release.
+
+[Read the short introduction](../../Published/evidence-gated-agents-before-we-rely.md), or explore the foundations, design, next milestone and [co-development and funding](#where-to-contribute) below.
+
+## Who it is for and what it could become
+
+EGA is intended for people preparing or reviewing decisions, organisations responsible for AI-supported work, and developers integrating controls into their systems. People receiving or affected by the results need to understand their basis and have a route to question them.
+
+The work could support configurable applications or reusable components. The [longer-term development section](#longer-term-development-and-open-research) distinguishes these possibilities from the selected first integration.
 
 ## Foundations and the selected next step
 
@@ -19,39 +27,63 @@ An AI assistant recommends a supplier, citing satisfied customers and strong ave
 | **[Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first)** | A runnable proof of concept demonstrates controls outside the acting model, using synthetic scenarios and local test effects. It does not yet call FactHarbor. |
 | **[Our AI Charter](../Framework/charter-commitments.md)** | The principles connecting authority, evidence, privacy, independent oversight and remedy. |
 
-**The next milestone is to integrate and evaluate these foundations in one bounded recommendation workflow.** EGA analyses the exact proposed decision using retrieved material; separate controls apply human-defined evidence rules and check permission to release it. FactHarbor provides existing retrieval and analytical capabilities for this integration. This integration remains to be built. Releasing a recommendation does not authorise or execute the resulting action.
+**The next milestone is to integrate and evaluate these foundations in one bounded recommendation workflow.** The integration remains to be built. It would use FactHarbor's existing retrieval and analytical capabilities to examine the exact proposed decision; separate controls would apply human-defined evidence rules and check permission to release it. It would release a checked recommendation, not execute or authorise the resulting action.
 
-The selected prototype routes consequential decisions and instructions into evidence examination. Ordinary answers retain authority and disclosure checks and a minimal routing record, without full consequential-output evidence examination or an EGA receipt. Automatically deriving adequate evidence requirements for unfamiliar decisions is [wider research](evidence-requirements-research.md), not an established capability of this first integration.
-
-**The cooperation opportunity:** bring a workflow, contribute engineering or evaluation expertise, or support the integration and its assessment. [See the milestone and how to contribute](#where-to-contribute).
-
-[![Full EGA design: Working AI prepares within existing permission; two example boundary checks can request evidence. Proceed leads to the checked step and an outcome record. Do not proceed leads to remaining stopped with a reason recorded. Separate dashed routes optionally return to Working AI for further work or permitted revision and rechecking. Human judgment is conditional; affected people, independent custody of decision records and five oversight roles remain visible.](evidence-gated-agents-release-workflow.png)](evidence-gated-agents-release-workflow.png)
-
-*Wider EGA design. The same EGA check pattern recurs for new inputs, processors, recipients and effects. Working AI plans and prepares within existing permission before the first illustrated check. Every check may request evidence, including evidence of permission and authority. Proceed and Do not proceed describe the gate decision. Solid exits end with an outcome record or a stopped step and its recorded reason. Dashed returns are optional: further work faces applicable checks, and permitted revision starts a new attempt. The rejected step stays withheld and closed attempts stay closed. Human judgement is requested where needed, within the person’s authority. [Lifecycle governance](../../Published/when-should-runtime-ai-governance-interrupt.md#the-when-has-two-clocks) surrounds this path. The first integration remains recommendation release only; integration, confidential-source handling and wider governance remain to be implemented and evaluated.*
+The selected prototype routes consequential decisions and instructions into full evidence examination. **A standalone consequential factual claim can remain outside that trigger.** Other answers still face authority and disclosure checks and retain a minimal routing record, without full consequential-output examination or an EGA receipt. Automatically deriving adequate evidence requirements for unfamiliar decisions remains [wider research](evidence-requirements-research.md).
 
 ## How the design works
 
-[![Simplified EGA design: Working AI proposes a step; an EGA check applies evidence, authority and permission requirements. Proceed leads to the checked step and an outcome record; Do not proceed leads to remaining stopped with the reason recorded. Dashed returns optionally allow further work or permitted revision and rechecking. Crossing lines do not join. Human judgment, affected people and oversight remain visible.](../../Published/evidence-gated-agents-before-we-rely.png)](../../Published/evidence-gated-agents-before-we-rely.png)
+[![Full EGA design: Working AI prepares within existing permission; two example boundary checks can request evidence. Proceed leads to the checked step and an outcome record. Do not proceed leads to remaining stopped with a reason recorded. Separate dashed routes optionally return to Working AI for further work or permitted revision and rechecking. Human judgment is conditional; affected people, independent custody of decision records and five oversight roles remain visible.](evidence-gated-agents-release-workflow.png)](evidence-gated-agents-release-workflow.png)
 
-*Simplified view of the same recurring check. Solid paths lead to an outcome record after the checked step, or to remaining stopped with the reason recorded. Dashed returns are optional: further work if needed, or permitted revision followed by applicable checks. Crossing lines do not join. Ending the workflow does not cancel required reconciliation of an uncertain examination, commitment or effect. The first integration targets consequential recommendation release, without executing resulting actions. Integration and confidential-source handling remain to be built.*
+*The wider EGA design, showing checks at two example boundaries. Solid arrows show the main workflow and stop routes. Dashed returns indicate optional further work or permitted revision and rechecking. Crossing lines do not join.*
 
-The output being gated is a **claim, decision or action instruction**. Releasing an instruction makes it available to an authorised recipient; it does not authorise or execute the resulting action. The first prototype retains the consequential-decision/instruction trigger described above.
+Working AI plans and prepares within existing permission. An **EGA check** recurs whenever a proposed step crosses a relevant boundary—for example, using new inputs, sending material to a processor, releasing output or taking action. It asks: **may this step proceed under its applicable requirements?** Trusted rules select the checks for that transition, including authority, input integrity, evidence adequacy and data protection. The acting AI cannot choose an easier check or authorise itself. The diagram's two checks illustrate a recurring pattern; the [operational gates](user-workflow-governance.md#five-steps) retain their distinct responsibilities.
 
-The design repeats an **EGA check** outside the acting AI whenever a proposed step crosses a relevant boundary: **may this step proceed under its applicable requirements?** Trusted rules select the checks for that transition, such as authority, input integrity, evidence adequacy and data protection. Before-use and before-release/action checks are instances of this pattern, not the only two points at which it runs. This preserves the [operational gates](user-workflow-governance.md#five-steps) and their distinct responsibilities; the acting AI cannot select an easier check or authorise itself.
+Any check may request evidence, including evidence of permission, authority or delegation. The **evidence service retrieves material**, with source references and search coverage. **EGA analysis assesses what it establishes:** validity, support, contradiction, uncertainty and gaps. Its verdict and reasons inform the applicable controls; evidence supporting a recommendation and evidence establishing permission cannot substitute for each other. In the supplier example, missing evidence of the required guarantee means the recommendation does not proceed.
 
-Any EGA check may request evidence through the evidence service, including material establishing permission, authority or delegation. Retrieval itself requires an already-permitted access and processing route; it cannot retroactively authorise its own disclosure. The service returns found material with sources and search coverage; EGA assesses what it establishes, including validity, support, contradiction and gaps. Its analytical verdict and reasons inform the applicable gate controls. Evidence supporting a recommendation and evidence establishing authority answer different questions; neither substitutes for the other. If the supplier guarantee is unsupported, the recommendation does not proceed. Where permitted, Working AI can prepare a qualified alternative; the changed proposal starts a new attempt through all applicable checks.
+- **Proceed:** carry out the checked step within its scope and record the actual outcome. The workflow can then end or return to permitted preparation for further work. Each new protected step faces its applicable checks.
+- **Do not proceed:** withhold the proposed step and record a scoped reason and permitted next route. Remaining stopped is a valid endpoint. Where feedback and correction work are permitted, Working AI may prepare a corrected or narrower proposal; it starts a new attempt through all applicable checks. The rejected step stays withheld and closed attempts stay closed.
 
-The evidence-service interface can have a general public-source implementation and specialised implementations for company/private sources. Query-relevance ranking and faithful extraction are permitted, with traceable sources and visible selection limits; the service does not judge support or contradiction. Permission to retrieve remains distinct from permission to send material to a retrieval, extraction or analysis processor and to disclose it to a recipient.
+An unknown outcome needs reconciliation before any next step that could duplicate work or effects. Ending a workflow or starting a new attempt does not remove that obligation. The [correction](#permitted-correction) and [recovery](#recovery-routes) sections distinguish permitted revision from unresolved examination, commitment or delivery status. [Lifecycle governance](../../Published/when-should-runtime-ai-governance-interrupt.md#the-when-has-two-clocks) also continues beyond an individual step.
 
-Routine checks run automatically within agreed limits. Human judgment is called for when the stakes justify interruption, someone with the necessary authority can make a difference, and the issue cannot be resolved within existing authority. The request identifies the unresolved decision. Human approval cannot replace missing evidence or authority, or reopen a stopped attempt.
+Routine checks run automatically within agreed limits. Human judgment is requested when the stakes justify interruption, someone with the necessary authority can make a difference, and the issue cannot be resolved within existing authority. The request identifies the unresolved decision. Human approval cannot supply missing evidence or authority, or reopen a stopped attempt.
 
 <a id="protecting-evidence-and-accountability"></a>
 
 ### Data protection and accountability
 
-Data protection applies throughout the system, including every outgoing request, search result, released output and record view. Permission to consult a confidential record does not automatically permit sending it to an external AI service or revealing it in an answer. **Access, processing and disclosure are separate permissions.** The [privacy commitments](../Framework/charter-commitments.md) call for using only the information needed for the permitted purpose. Decision records also need limited content, access and retention; accountability must not become an unrestricted copy of confidential evidence.
+**Access, processing and disclosure are separate permissions.** Permission to consult a record does not automatically permit sending it to a retrieval, extraction or analysis service, or revealing it to a recipient. Retrieval must itself use an already-permitted route; evidence found later cannot retroactively authorise the request that exposed it.
 
-The [governance design](../../Published/when-vs-who-ai-governance.md) separates rulemaking, operation, record custody, independent review and remedy, so the operator does not control the whole chain. These are continuing responsibilities, not five approvals for every answer. The record keeper provides independent custody of decision records, preserving sealed records without unilateral access; binding remedies require legal or contractual authority. Records support scrutiny, but do not themselves establish truth, legitimate authority or effective remedy.
+Data protection applies to outgoing requests, search results, released output and record views. The [privacy commitments](../Framework/charter-commitments.md) call for using only the information needed for the permitted purpose. Decision records also need limited content, access and retention; accountability must not become an unrestricted copy of confidential evidence.
+
+The [governance design](../../Published/when-vs-who-ai-governance.md) separates rulemaking, operation, record custody, independent review and remedy. These are continuing responsibilities, not five approvals for every answer. Independent custody keeps the operator from controlling the entire record and review chain; sealed records must be preserved without unilateral access. Binding remedies require legal or contractual authority. Records support scrutiny, but do not themselves establish truth, legitimate authority or effective remedy. Confidential-source handling and wider governance remain to be implemented and evaluated.
+
+<a id="what-the-project-aims-to-make-possible"></a>
+<a id="design-responsibilities-and-consequential-content-in-summaries"></a>
+
+<details markdown="1">
+<summary>Five design responsibilities</summary>
+
+The central rule is: **before AI gives a consequential answer or takes a consequential action, it must have permission and enough evidence to justify it.** The intended approach connects five responsibilities:
+
+1. **Establish and verify authority.** Accountable people define and document who may authorise what, on which basis and through which delegation. Examine evidence that the issuer has the relevant authority and that the mandate covers the exact proposal, purpose, data, tools and limits. Check whether permission has expired, changed or been revoked. The authority basis itself must remain reviewable.
+2. **Use permitted information and examine the evidence.** Check both whether a source may be used and what it can establish. Make material claims, assumptions, supporting evidence, counterevidence and uncertainty visible. Assess whether that evidence is current and sufficient for the particular proposed use.
+3. **Control what proceeds.** Checks outside the acting model govern whether the exact proposal may be released or executed. Before acting, the executing service requests a fresh verification of the approval and checks that the intended action matches it.
+4. **Make the outcome inspectable.** Provide an accessible record connecting the answer or action, authority, evidence, decision and actual outcome, with access appropriate to the people involved.
+5. **Support challenge and correction.** Let affected people question the basis, route disputes to responsible reviewers, and revisit decisions when evidence or authority changes.
+
+Software can enforce recorded rules and decisions, while evidence adequacy and legitimate authority require accountable judgment.
+
+</details>
+
+<details markdown="1">
+<summary>Consequential content in summaries</summary>
+
+Consequential decisions and instructions can also appear inside summaries or other apparently descriptive outputs. The intended checks would examine whether an output preserves the source’s meaning, including conditions, material risks, dissent and unresolved questions. A recommendation must not silently become an approved decision, or a forecast an established fact.
+
+Faithfulness to a source and support for its factual claims require separate examination. Accurately reporting what someone stated or agreed does not establish that the underlying claims are true. Permission to release the report also does not establish authority for the decision it describes. Where essential judgment or approval is missing, a request for human review should identify the specific unresolved issue.
+
+</details>
 
 ## The next development milestone
 
@@ -61,46 +93,21 @@ The [governance design](../../Published/when-vs-who-ai-governance.md) separates 
 - An assessment of unsupported releases, unnecessary stops, useful qualified answers, missed decision components, cost and delay.
 - Evidence for deciding whether to continue, revise or stop that line of work.
 
-The cooperation agreement would define the workflow, comparison, acceptance criteria and how successes and failures are reported, with confidentiality and publication arrangements suited to the cooperation. Those arrangements do not replace the wider research's [evaluation commitments](evidence-requirements-research.md#evaluation-commitments), including a published protocol before held-out testing and preservation of failed attempts.
+Co-development agreements would define the development scope, evaluation comparison, acceptance criteria and reporting of successes and failures, including confidentiality and publication arrangements. Those arrangements do not replace the wider research's [evaluation commitments](evidence-requirements-research.md#evaluation-commitments), including a published protocol before held-out testing and preservation of failed attempts.
 
-## Where to contribute
+<a id="where-to-contribute"></a>
 
-Workflow owners and domain specialists can define a useful recommendation and the evidence it needs. Engineers can connect the foundations. Researchers can shape and critically assess the evaluation. Funding enables focused development and assessment of this milestone.
+## Co-development and funding
 
-**Start with a brief workflow description or your area of contribution.** Contact [Robert Schaub on LinkedIn](https://www.linkedin.com/in/robertschaub/) or [info@factharbor.ch](mailto:info@factharbor.ch). A first conversation can use synthetic examples; no confidential records are needed. Work with private organisational evidence requires separately agreed access, handling and evaluation.
+We are looking for **experienced co-developers** to build and evaluate the first EGA integration.
+
+We also seek **sponsors and funders** to support the engineering and evaluation needed to reach this milestone.
+
+**Get in touch about co-development, sponsorship or funding.** Contact [Robert Schaub on LinkedIn](https://www.linkedin.com/in/robertschaub/) or [info@factharbor.ch](mailto:info@factharbor.ch). Initial discussions need no confidential records. Work with private organisational evidence requires separately agreed access, handling and evaluation.
 
 The work is stewarded by the FactHarbor association under its public [funding and independence commitments](../../About.md#stewardship-and-governance). Its purpose is to help people and organisations make and justify decisions while retaining control over AI and correcting errors: technology serving a free and fair society, democracy and justice.
 
-## Who it is for and what it could become
-
-The intended users include people preparing or reviewing decisions, organisations responsible for AI-supported work, and developers integrating controls into their systems. People receiving or affected by the resulting answers and actions also need to understand their basis and have a route to question them.
-
-Two possible development paths are being considered:
-
-- **Applications and services** that organisations could use directly and configure for their needs and working environments.
-- **Reusable architecture and components** that software providers or internal development teams could adapt and integrate into existing applications.
-
-Both paths would need evidence of practical usefulness and suitability in their intended settings.
-
-## What the project aims to make possible
-
-### Design responsibilities and consequential content in summaries
-
-The central rule is: **before AI gives a consequential answer or takes a consequential action, it must have permission and enough evidence to justify it.**
-
-The intended approach connects five responsibilities:
-
-1. **Establish and verify authority.** Accountable people define and document who may authorise what, on which basis and through which delegation. Examine evidence that the issuer has the relevant authority and that the mandate covers the exact proposal, purpose, data, tools and limits. Check whether permission has expired, changed or been revoked. The authority basis itself must remain reviewable.
-2. **Use permitted information and examine the evidence.** Check both whether a source may be used and what it can establish. Make material claims, assumptions, supporting evidence, counterevidence and uncertainty visible. Assess whether that evidence is current and sufficient for the particular proposed use.
-3. **Control what proceeds.** Checks outside the acting model govern whether the exact proposal may be released or executed. Before acting, the executing service requests a fresh verification of the approval and checks that the intended action matches it.
-4. **Make the outcome inspectable.** Provide an accessible record connecting the answer or action, authority, evidence, decision and actual outcome, with access appropriate to the people involved.
-5. **Support challenge and correction.** Let affected people question the basis, route disputes to responsible reviewers, and revisit decisions when evidence or authority changes.
-
-Authority checks are evidence checks too. Evidence supporting a proposal and evidence establishing permission to release or execute it answer different questions; neither can substitute for the other. The acting AI cannot authorise itself. Software can enforce recorded rules and decisions, while evidence adequacy and legitimate authority require accountable judgment. Human involvement should focus on decisions where a person can make a meaningful difference; an approval click cannot supply missing evidence.
-
-Consequential decisions and instructions can also appear inside summaries or other apparently descriptive outputs. The intended checks would examine whether an output preserves the source’s meaning, including conditions, material risks, dissent and unresolved questions. A recommendation must not silently become an approved decision, or a forecast an established fact.
-
-Faithfulness to a source and support for its factual claims require separate examination. Accurately reporting what someone stated or agreed does not establish that the underlying claims are true. Permission to release the report also does not establish authority for the decision it describes. Where essential judgment or approval is missing, a request for human review should identify the specific unresolved issue.
+## Detailed design and prototype
 
 ### View 1 — EGA target model: evidence and authority before release or action
 
@@ -145,6 +152,8 @@ classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
 
 
 **Evidence service:** returns found material, sources and search coverage. EGA analysis interprets support, contradiction, uncertainty and gaps. The illustrated exchange is available to **any EGA check**, including checks of permission and authority, through an already permitted retrieval route.
+
+The evidence-service interface could support public sources and specialised company/private sources. Query-relevance ranking and faithful extraction are permitted, with traceable sources and visible selection limits; judging support or contradiction belongs to EGA analysis.
 
 #### 2. Control release or action, then record the outcome
 
@@ -403,11 +412,11 @@ Records are restricted and stage-appropriate; early stops do not invent a decisi
 | Release | The checked decision was released to the specified recipient and the outcome was recorded. |
 | Inspect or challenge | Inspect the request, decision fingerprint, evidence result, gate decisions and recorded outcome. A linked view shows how to question it. |
 
-**Example 02, attempt 1: evidence still pending**
+**Example 02, attempt 1: evidence still pending at the deadline**
 
 | Visible item | Example |
 |---|---|
-| Decision | Verify stops release at 10:15. |
+| Decision | The evaluation deadline is reached at 10:15; Verify stops release. |
 | Reason | FactHarbor job FH-2 has not reached a terminal result (`evidence-pending`). |
 | Effect | No decision was released. A later FactHarbor result does not trigger automatic release. |
 | Inspect | The receipt links the request, exact decision, job state and stop reason. A new attempt must pass every check again. |
@@ -417,6 +426,8 @@ Links and fingerprints support checking the bound versions and recorded steps. T
 </details>
 
 ## Longer-term development and open research
+
+Two development paths remain open: applications and services that organisations could configure for their work, and reusable architecture and components for software providers and internal teams. Both need evidence of practical usefulness and suitability in their intended settings.
 
 Later work could extend the same approach to permitted organisational sources and further agent, tool and action workflows. Each extension would need suitable authority, privacy controls, evidence requirements and evaluation. Checking private records and organisational evidence would require authorised access and additional checking processes, still to be defined and tested. Effective independent review and remedy would also require institutions with the power to act.
 
