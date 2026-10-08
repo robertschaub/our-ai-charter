@@ -201,7 +201,7 @@ def inline():
     label(69,73,'Evidence-Gated Agents',51,bold=True)
     label(69,124,'Evidence before AI proceeds',34,bold=True)
     label(69,163,'The same check pattern at each relevant boundary',25,blue)
-    
+
     box(68,188,390,152)
     label(88,224,'Evidence sources',30,bold=True)
     label(88,254,'Public and permitted private sources',20,blue)
@@ -217,7 +217,7 @@ def inline():
     label(741,305,'Available to every EGA check',21,blue)
     line('M557 312 H1090',blue,1)
     label(823,331,'Evidence for claims, permissions and authority',18,blue,anchor='middle')
-    
+
     # The two example boundaries request evidence from the same broad service.
     for xreq,xresult in [(534,575),(930,971)]:
         line(f'M{xreq} 400 V360',blue,6,'7 5')
@@ -227,7 +227,7 @@ def inline():
     label(506,389,'results',17,blue,anchor='end')
     label(992,368,'Request /',17,blue)
     label(992,389,'results',17,blue)
-    
+
     box(68,402,162,196)
     icon('brain',111,416,1.13,teal)
     label(149,521,'Working AI',25,bold=True,anchor='middle')
@@ -236,7 +236,7 @@ def inline():
     label(149,589,'permission',18,blue,anchor='middle')
     arrow(40,476,68,476,teal,14,24)
     arrow(230,476,269,476,teal,14,24)
-    
+
     # Simple flat gold frames match the simplified cover.
     box(269,403,296,194,cream,gold,8,5)
     a.append(f'<g transform="translate(287 416) scale(.76)" fill="none" stroke="{gold}" stroke-width="3" stroke-linejoin="round"><path d="M32 3 L57 13 V34 Q57 53 32 66 Q7 53 7 34 V13 Z M32 17 V54 M21 29 H43 M21 41 H43"/></g>')
@@ -248,7 +248,7 @@ def inline():
         label(291,y+21,title,12.5,blue,True)
         label(403,y+21,detail,13,blue)
     arrow(565,476,599,476,teal,14,23)
-    
+
     box(599,402,210,196)
     icon('brain',646,418,.95,teal)
     icon('doc',717,425,.79)
@@ -256,7 +256,7 @@ def inline():
     label(704,551,'Carry out permitted work',17,blue,anchor='middle')
     label(704,575,'Propose the next step',18,blue,anchor='middle')
     arrow(809,476,838,476,teal,14,23)
-    
+
     box(838,403,258,194,cream,gold,8,5)
     a.append(f'<g transform="translate(853 418) scale(.7)" fill="none" stroke="{gold}" stroke-width="3" stroke-linejoin="round"><path d="M32 3 L57 13 V34 Q57 53 32 66 Q7 53 7 34 V13 Z M32 17 V54 M21 29 H43 M21 41 H43"/></g>')
     label(914,443,'EGA check',28,bold=True)
@@ -269,7 +269,7 @@ def inline():
         for i,d in enumerate(details):
             label(949,y+(14 if len(details)==2 else 22)+i*15,d,12.5,blue)
     arrow(1096,476,1117,476,teal,13,20)
-    
+
     box(1117,402,185,196,mint,teal)
     a.append(f'<circle cx="1155" cy="451" r="25" fill="{teal}"/>')
     line('M1143 451 L1152 460 L1169 441','white',6)
@@ -287,7 +287,7 @@ def inline():
     icon('doc',1343,450,.68,teal)
     label(1395,470,'End · record',18,bold=True)
     label(1395,497,'outcome',20,bold=True)
-    
+
     # Either refusal feeds the same stop branch. The exit stays straight.
     line('M499 598 V639 Q499 659 518 659 H540',red,12)
     arrow(539,659,559,659,red,12,20)
@@ -303,14 +303,14 @@ def inline():
     icon('doc',1299,637,.77,red)
     label(1360,654,'Remain stopped',18,bold=True)
     label(1360,683,'Record reason',18,blue)
-    
+
     # The dotted association has no arrowheads: human judgement is conditional.
     line('M904 680 Q938 710 979 716',blue,4,'3 7')
     icon('people',982,697,.90)
     label(1055,712,'Authorised human',17,blue)
     label(1055,734,'judgement',17,blue)
     label(1055,756,'Where needed',17,blue)
-    
+
     line('M749 700 V722 Q749 742 728 742 H174 Q153 742 153 721 V618',blue,5,'12 7')
     a.append(f'<polygon points="141,618 153,598 165,618" fill="{blue}"/>')
     label(417,728,'Revise if permitted · recheck',22,blue,anchor='middle')
@@ -319,7 +319,7 @@ def inline():
     line('M1239 672 V760 Q1239 781 1218 781 H114 Q93 781 93 760 V618',teal,5,'12 7')
     a.append(f'<polygon points="81,618 93,598 105,618" fill="{teal}"/>')
     label(173,769,'Further work, if needed',21,teal)
-    
+
     box(69,810,1437,188)
     label(84,844,'Human accountability and oversight',29,bold=True)
     for x in [83,365,647,929,1211]:
