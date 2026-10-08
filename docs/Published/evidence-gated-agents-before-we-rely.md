@@ -64,8 +64,6 @@ Evaluation must reveal unsupported releases, unnecessary stops, missed decision 
 
 We are looking for **experienced co-developers** to build and evaluate the first EGA integration. We also seek **sponsors and funders** to support the engineering and evaluation needed to reach this milestone.
 
-Co-development agreements would define the development scope, evaluation comparison, acceptance criteria and reporting of successes and failures, including confidentiality and publication arrangements. The wider research retains its separate public evaluation commitments.
-
 **Get in touch about co-development, sponsorship or funding.** Contact [Robert Schaub](https://www.linkedin.com/in/robertschaub/) or [info@factharbor.ch](mailto:info@factharbor.ch). Initial discussions need no confidential records. Work with private organisational evidence requires separately agreed access, handling and evaluation.
 
 The [EGA project page](../Assurance/Concepts/evidence-gated-agents.md) brings together the design, scope, supporting work and stewardship commitments.

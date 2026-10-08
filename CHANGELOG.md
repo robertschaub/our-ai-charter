@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-08
 
+- Corrected the illustrated EGA cover's human-review arrow and shortened the continuation return from the green checkmark. Shortened the article's funding invitation and removed the EGA overview's draft banner and matching index label at the maintainer's request.
+
 - Replaced the EGA article's supplier example with a direct introduction to the proposed design, improved workflow readability, and added an illustrated cover based on the simplified diagram.
 
 - Aligned the homepage and EGA article invitations with the call for experienced co-developers, sponsors and funders.

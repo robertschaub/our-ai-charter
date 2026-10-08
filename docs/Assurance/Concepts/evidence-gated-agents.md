@@ -1,5 +1,3 @@
-> **Status: DRAFT**
-
 # Evidence-Gated Agents
 
 <a id="project-overview"></a>
