@@ -25,15 +25,15 @@ The selected prototype routes consequential decisions and instructions into evid
 
 **The cooperation opportunity:** bring a workflow, contribute engineering or evaluation expertise, or support the integration and its assessment. [See the milestone and how to contribute](#where-to-contribute).
 
-[![Full EGA design: Working AI prepares within existing permission, passes a before-use check, carries out permitted work and submits a step for a release or action check. Both checks can request evidence. After the checked step, a continuation loop returns to preparation for further work and applicable checks. Refusals lead to Do not proceed, conditional human judgment and permitted revision before renewed checks. People receiving or affected by results, five oversight roles, restricted records and system-wide data protection are shown.](evidence-gated-agents-release-workflow.png)](evidence-gated-agents-release-workflow.png)
+[![Full EGA design: Working AI prepares within existing permission; two example boundary checks can request evidence. Proceed leads to the checked step and an outcome record. Do not proceed leads to remaining stopped with a reason recorded. Separate dashed routes optionally return to Working AI for further work or permitted revision and rechecking. Human judgment is conditional; affected people, independent custody of decision records and five oversight roles remain visible.](evidence-gated-agents-release-workflow.png)](evidence-gated-agents-release-workflow.png)
 
-*Wider EGA design. The same EGA check pattern recurs for new inputs, processors, recipients and effects. Working AI plans and prepares within existing permission before the first illustrated check. Every check may request evidence, including evidence of permission and authority. Proceed and Do not proceed describe the gate decision. After the checked step, Working AI may plan further work within current permission; new protected transitions require their applicable checks. If permitted, Working AI revises and submits a new proposal for applicable checks; the rejected step stays withheld and closed attempts stay closed. Human judgement is requested where needed, within the person’s authority. [Lifecycle governance](../../Published/when-should-runtime-ai-governance-interrupt.md#the-when-has-two-clocks) surrounds this path. The first integration remains recommendation release only; integration, confidential-source handling and wider governance remain to be implemented and evaluated.*
+*Wider EGA design. The same EGA check pattern recurs for new inputs, processors, recipients and effects. Working AI plans and prepares within existing permission before the first illustrated check. Every check may request evidence, including evidence of permission and authority. Proceed and Do not proceed describe the gate decision. Solid exits end with an outcome record or a stopped step and its recorded reason. Dashed returns are optional: further work faces applicable checks, and permitted revision starts a new attempt. The rejected step stays withheld and closed attempts stay closed. Human judgement is requested where needed, within the person’s authority. [Lifecycle governance](../../Published/when-should-runtime-ai-governance-interrupt.md#the-when-has-two-clocks) surrounds this path. The first integration remains recommendation release only; integration, confidential-source handling and wider governance remain to be implemented and evaluated.*
 
 ## How the design works
 
-[![Simplified EGA design: Working AI proposes a step within existing permission. An EGA check can request evidence and applies evidence, authority and permission requirements. Proceed stays within checked scope; Do not proceed gives a reason and permitted route. A continuation loop returns to Working AI after the checked step to plan further work; a separate revision loop permits correction and renewed checks. Human judgment, people receiving or affected by results, restricted records and oversight are visible.](../../Published/evidence-gated-agents-before-we-rely.png)](../../Published/evidence-gated-agents-before-we-rely.png)
+[![Simplified EGA design: Working AI proposes a step; an EGA check applies evidence, authority and permission requirements. Proceed leads to the checked step and an outcome record; Do not proceed leads to remaining stopped with the reason recorded. Dashed returns optionally allow further work or permitted revision and rechecking. Crossing lines do not join. Human judgment, affected people and oversight remain visible.](../../Published/evidence-gated-agents-before-we-rely.png)](../../Published/evidence-gated-agents-before-we-rely.png)
 
-*Simplified view of the same recurring check. After the checked step, Working AI may plan the next step; the continuation loop does not authorise a retry when an outcome is uncertain. Requirements depend on the proposed step; permitted revision returns a changed proposal through applicable checks in a new attempt. The first integration targets consequential recommendation release, without executing resulting actions. Integration and confidential-source handling remain to be built.*
+*Simplified view of the same recurring check. Solid paths lead to an outcome record after the checked step, or to remaining stopped with the reason recorded. Dashed returns are optional: further work if needed, or permitted revision followed by applicable checks. Crossing lines do not join. Ending the workflow does not cancel required reconciliation of an uncertain examination, commitment or effect. The first integration targets consequential recommendation release, without executing resulting actions. Integration and confidential-source handling remain to be built.*
 
 The output being gated is a **claim, decision or action instruction**. Releasing an instruction makes it available to an authorised recipient; it does not authorise or execute the resulting action. The first prototype retains the consequential-decision/instruction trigger described above.
 
@@ -51,7 +51,7 @@ Routine checks run automatically within agreed limits. Human judgment is called 
 
 Data protection applies throughout the system, including every outgoing request, search result, released output and record view. Permission to consult a confidential record does not automatically permit sending it to an external AI service or revealing it in an answer. **Access, processing and disclosure are separate permissions.** The [privacy commitments](../Framework/charter-commitments.md) call for using only the information needed for the permitted purpose. Decision records also need limited content, access and retention; accountability must not become an unrestricted copy of confidential evidence.
 
-The [governance design](../../Published/when-vs-who-ai-governance.md) separates rulemaking, operation, record custody, independent review and remedy, so the operator does not control the whole chain. These are continuing responsibilities, not five approvals for every answer. A custodian preserves a sealed record without unilateral access; binding remedies require legal or contractual authority. Records support scrutiny, but do not themselves establish truth, legitimate authority or effective remedy.
+The [governance design](../../Published/when-vs-who-ai-governance.md) separates rulemaking, operation, record custody, independent review and remedy, so the operator does not control the whole chain. These are continuing responsibilities, not five approvals for every answer. The record keeper provides independent custody of decision records, preserving sealed records without unilateral access; binding remedies require legal or contractual authority. Records support scrutiny, but do not themselves establish truth, legitimate authority or effective remedy.
 
 ## The next development milestone
 
@@ -129,6 +129,7 @@ flowchart TD
  A -->|Assessment / deadline| C(["A · Continue to release / action checks"]):::link
  A -->|Acceptance unknown| U["R1 · Withhold; reconcile examination"]:::uncertain
 
+ S --> END(["Remain stopped<br/>Reason recorded"]):::stop
  S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
 
 classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
@@ -160,8 +161,11 @@ flowchart TD
  C -->|Bound| E["Validate one-use binding<br/>Attempt exact release OR action"]:::work
  E -->|Outcome known| O["Record actual outcome<br/>Success, no effect or known failure"]:::result
  E -->|Outcome unknown| V["R3 · Reconcile effect"]:::uncertain
- O --> R(["Inspect · Challenge · Correct<br/>Review ongoing reliance"]):::result
+ O --> R["Retain record and review routes<br/>Inspect · Challenge · Correct"]:::result
+ R --> DONE(["End this workflow"]):::result
+ R -.->|Further work, if needed| NEXT(["Return to permitted preparation<br/>Applicable checks for each next step"]):::link
 
+ S --> END(["Remain stopped<br/>Reason recorded"]):::stop
  S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
 
 classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
@@ -177,6 +181,8 @@ classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
 
 
 **Do not proceed:** withhold the proposed step and record a scoped reason and permitted next route. Where correction is permitted, Working AI may receive a permitted explanation and prepare a corrected or narrower proposal within its current permission. The [REV correction route](#permitted-correction) returns the changed proposal through all applicable checks as a new attempt. An eligible held issue can receive authorised human judgment where useful. A closed attempt stays closed; neither revision, human judgment nor an analytical verdict bypasses required evidence or authority.
+
+**Finishing and continuing:** after the checked step, record its actual outcome. Then end this workflow or plan further work within current permission. Each new protected transition faces its applicable checks. Remaining stopped is also a valid endpoint; revision and human judgment are optional routes, not required next steps. Neither endpoint removes outstanding reconciliation or ongoing inspection, challenge and correction responsibilities.
 
 **Commitment and outcome are different.** Authority is freshly checked at the commitment boundary. The executor then validates the exact one-use binding; this is not a promise of another authority adjudication after commitment. Record confirmed no effect or known failure as such, preserving any commitment history. R1–R3 use the distinct recovery routes below.
 
@@ -216,7 +222,10 @@ flowchart TD
  O -->|Yes| D["Attempt ordinary delivery<br/>Minimal routing record"]:::work
  D -->|Outcome unknown| R["R3 · Reconcile delivery"]:::uncertain
  D -->|Outcome known| K["Record outcome as appropriate<br/>No consequential receipt"]:::result
+ K --> DONE(["End this workflow"]):::result
+ K -.->|Further work, if needed| NEXT(["New request within current permission<br/>Return to admission and routing"]):::link
 
+ S --> END(["Remain stopped<br/>Reason recorded"]):::stop
  S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
 
 classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
@@ -251,6 +260,7 @@ flowchart TD
  G -->|No / error / incomplete at deadline| S
  G -->|Yes| C(["C · Continue to release control"]):::link
 
+ S --> END(["Remain stopped<br/>Reason recorded"]):::stop
  S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
 
 classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
@@ -284,8 +294,11 @@ flowchart TD
  F -->|Bound| E["Validate one-use binding<br/>Attempt exact recipient-view release"]:::work
  E -->|Outcome known| O["Record release, no effect<br/>or known failure"]:::result
  E -->|Outcome unknown| V["R3 · Reconcile delivery"]:::uncertain
- O --> R(["Restricted receipt<br/>Inspect · Challenge · Correct"]):::result
+ O --> R["Restricted receipt<br/>Inspect · Challenge · Correct"]:::result
+ R --> DONE(["End this workflow"]):::result
+ R -.->|Further work, if needed| NEXT(["New request within current permission<br/>Return to admission and routing"]):::link
 
+ S --> END(["Remain stopped<br/>Reason recorded"]):::stop
  S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
 
 classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
@@ -313,7 +326,7 @@ Release means making the checked response available to the intended recipient. I
 <details markdown="1" class="ega-design" id="permitted-correction">
 <summary>Permitted correction — REV: revise and check a new proposal</summary>
 
-REV is an optional route from a refusal whose status is known. The rejected step remains withheld. It does not authorise the correction work or any additional access, processing or disclosure.
+REV is an optional route from a refusal whose status is known. The workflow may instead end with the step withheld and the scoped reason recorded. REV does not authorise the correction work or any additional access, processing or disclosure.
 
 <div class="ega-flow" role="region" aria-label="Permitted correction and a new checked attempt" tabindex="0" markdown="1">
 

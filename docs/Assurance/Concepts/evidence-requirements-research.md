@@ -15,7 +15,7 @@ The proposed workflow identifies material claims, assumptions and dependencies; 
 
 Search may reveal a missing premise or show that a requirement is ill-posed. That discovery returns to requirement proposal and review before further evidence assessment or release. It cannot lower the evidence standard to fit what was found: any relaxed or removed requirement must be justified against the frozen policy, reviewed and recorded.
 
-A separate deterministic gate then applies the recorded rule to the requirements, review outcomes and evidence assessment: permit or withhold release. Withholding records the reason and permitted next route, which may include Working AI revising the proposal within its existing permission. A revised proposal starts a new attempt through all applicable checks. The gate makes no semantic judgment of its own, and a model verdict alone cannot authorize release. Agreement between reviewers is not proof that their requirements or conclusions are adequate.
+A separate deterministic gate then applies the recorded rule to the requirements, review outcomes and evidence assessment: permit or withhold release. Withholding records the reason; the workflow may end with the step stopped, or follow an optional permitted route such as Working AI revising the proposal within its existing permission. A revised proposal starts a new attempt through all applicable checks. The gate makes no semantic judgment of its own, and a model verdict alone cannot authorize release. Agreement between reviewers is not proof that their requirements or conclusions are adequate.
 
 ## What goes into a check—and what comes out?
 

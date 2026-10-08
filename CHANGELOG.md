@@ -4,6 +4,8 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-08
 
+- Added explicit end and remain-stopped exits to the coordinated EGA illustrations and detailed flows. Aligned captions, alternative text, workflow and article wording with optional continuation or permitted revision, retained reconciliation duties, and clarified independent custody of decision records.
+
 - Unified the EGA illustrations into full and simplified views with matching gold frames, separate next-step and permitted-revision loops and visible human involvement and affected people. Updated page captions and image descriptions; retained earlier image URLs for compatibility.
 
 - Clarified permitted Working AI revision after an EGA refusal across illustrations, phased flows and explanatory text. Changed proposals return through applicable checks in a new attempt; closed attempts and uncertain-outcome reconciliation retain their existing rules.
