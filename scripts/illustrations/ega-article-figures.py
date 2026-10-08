@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: AGPL-3.0-only
-"""Editable SVG article figures. The simplified cover is the current vector master.
-Run with --figure cover (default); --figure inline regenerates the older detailed layout.
+"""Editable vector masters for the simplified and detailed EGA diagrams.
+Run with --figure cover (default) or --figure inline.
 This script writes SVGs only; publication PNGs are exported separately.
 """
 from pathlib import Path
@@ -8,11 +8,6 @@ from html import escape
 
 ROOT = Path(__file__).resolve().parents[2] / 'docs' / 'Published'
 INK = '#173146'
-MUTED = '#506775'
-TEAL = '#087F82'
-BLUE = '#326CA2'
-AMBER = '#A96106'
-RUST = '#A34E30'
 
 def text(x, y, value, size=32, color=INK, weight=400, anchor='start'):
     return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}" text-anchor="{anchor}">{escape(value)}</text>'
@@ -20,61 +15,10 @@ def text(x, y, value, size=32, color=INK, weight=400, anchor='start'):
 def rect(x,y,w,h,fill='#fff',stroke='none',r=24,sw=2,extra=''):
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" fill="{fill}" stroke="{stroke}" stroke-width="{sw}" {extra}/>'
 
-def path(d,color=TEAL,sw=6,arrow=False,dash=False):
-    marker = {'#087F82':'teal','#326CA2':'blue','#A34E30':'rust','#506775':'slate'}[color]
-    return f'<path d="{d}" fill="none" stroke="{color}" stroke-width="{sw}" stroke-linecap="round" stroke-linejoin="round"'+(f' marker-end="url(#{marker})"' if arrow else '')+(' stroke-dasharray="12 12"' if dash else '')+'/>'
-
-def doc_icon(x,y,color=TEAL,scale=1):
-    return f'<g transform="translate({x} {y}) scale({scale})" fill="none" stroke="{color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>'
-
-def chip(x,y,color=TEAL,scale=1):
-    return f'<g transform="translate({x} {y}) scale({scale})" fill="none" stroke="{color}" stroke-width="3" stroke-linecap="round"><rect x="10" y="10" width="40" height="40" rx="9"/><rect x="21" y="21" width="18" height="18" rx="4"/>'+''.join(f'<path d="M{n} 1 V10 M{n} 50 V59 M1 {n} H10 M50 {n} H59"/>' for n in [20,30,40])+'</g>'
-
-def lock(x,y,scale=1):
-    return f'<g transform="translate({x} {y}) scale({scale})" fill="none" stroke="{BLUE}" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>'
-
-def init(w,h,title,desc):
-    defs = '<defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#F7FAFA"/><stop offset="1" stop-color="#FFFCF6"/></linearGradient><linearGradient id="cool" x2="0.7" y2="1"><stop stop-color="#F7FBFF"/><stop offset="1" stop-color="#E7F0FA"/></linearGradient><linearGradient id="mint" x2="1" y2="1"><stop stop-color="#F0FAF7"/><stop offset="1" stop-color="#DFF1EC"/></linearGradient><linearGradient id="warm" x2="1" y2="1"><stop stop-color="#FFF9F4"/><stop offset="1" stop-color="#F7E8DF"/></linearGradient><linearGradient id="gate" x2="1" y2="1"><stop stop-color="#FFF9E7"/><stop offset="1" stop-color="#F5D88F"/></linearGradient><linearGradient id="edge"><stop stop-color="#F8BD49"/><stop offset="1" stop-color="#D78B1C"/></linearGradient><filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#183648" flood-opacity=".08"/></filter>'
-    for name,color in [('teal',TEAL),('blue',BLUE),('rust',RUST),('slate',MUTED)]:
-        defs += f'<marker id="{name}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="{color}"/></marker>'
-    defs += '</defs>'
-    return [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc"><title id="title">{escape(title)}</title><desc id="desc">{escape(desc)}</desc><!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->{defs}<g font-family="Arial, Helvetica, sans-serif">',rect(0,0,w,h,'url(#paper)',r=0)]
-
-def gate(x,y,w,h,detail=False):
-    a=[rect(x+10,y+10,w,h,'#E7BE67',r=30),rect(x,y,w,h,'url(#gate)','#D99629',30,3, 'filter="url(#shadow)"'),rect(x,y,14,h,'url(#edge)',r=7)]
-    # A restrained boundary emblem, without a tick or implied certification.
-    a += [f'<g transform="translate({x+w-112} {y+37})" fill="none" stroke="#BE8120" stroke-width="3" opacity=".55"><path d="M36 0 L67 12 V38 Q66 60 36 77 Q6 60 5 38 V12 Z"/><path d="M8 27 H64 M8 43 H64 M19 59 H53 M36 11 V27 M22 27 V43 M50 27 V43 M36 43 V59"/></g>']
-    a += [text(x+42,y+80,'EGA',72,AMBER,700),text(x+43,y+122,'Analysis + release controls',29,AMBER)]
-    if detail:
-        for i,(label,question) in enumerate([('Evidence','Analyse support, contradiction & gaps'),('Authority','Within the current mandate?'),('Disclosure','Permitted to release this content?')]):
-            yy=y+153+i*79
-            a += [rect(x+32,yy,w-64,64,'#FFFCF2','#E9C884',12),text(x+55,yy+41,label,31,INK,700),text(x+265,yy+41,question,27,MUTED)]
-    else:
-        for xx,label,ww in [(x+32,'Evidence',165),(x+208,'Authority',170),(x+389,'Disclosure',179)]:
-            a += [rect(xx,y+156,ww,55,'#FFFBEE','#E9C884',13),text(xx+ww/2,y+193,label,29,INK,600,'middle')]
-    return ''.join(a)
-
-def save(name,a,w,h):
-    a.append('</g></svg>')
-    stem = 'evidence-gated-agents-before-we-rely' + ('-cover' if name == 'ega-cover' else '')
-    (ROOT/f'{stem}.svg').write_text('\n'.join(a),encoding='utf-8')
-
-
-def cover():
-    """Current simplified diagram: fixed geometry, native text and vector icons.
-
-    Export the resulting SVG to a 2400 x 1350 PNG for the article cover.
-    Edit these coordinates rather than painting over a previously exported PNG.
-    """
+def vector_tools(a):
+    """Shared text, flat shapes and icon primitives for both diagrams."""
     navy, blue, teal, red, gold = '#10175E', '#086DD9', '#00A4BD', '#EA233B', '#F4B900'
     pale, mint, cream = '#EAF6FF', '#EDF9FB', '#FFF8E3'
-    a = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="945" viewBox="0 0 1680 945" role="img" aria-labelledby="title desc">',
-         '<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->',
-         '<title id="title">Evidence-Gated Agents — evidence before AI proceeds</title>',
-         '<desc id="desc">Working AI plans within existing permission and proposes a step to an EGA check. Evidence sources feed an evidence service available to every check. Proceed permits the checked step, followed by an outcome record, with optional further work returning to Working AI. Do not proceed leads to remaining stopped and recording the reason. Permitted revision returns to Working AI for rechecking. Human judgement is conditional. People receiving or affected by results and human accountability remain visible. Crossing lines do not join.</desc>',
-         '<rect width="1680" height="945" fill="white"/>',
-         '<g font-family="Arial, Helvetica, sans-serif">']
-
     def label(x, y, value, size=24, color=navy, bold=False, anchor='start'):
         a.append(text(x,y,value,size,color,700 if bold else 400,anchor))
 
@@ -112,6 +56,26 @@ def cover():
             'brain':'<path d="M32 10 C17 -2 6 9 10 20 C-2 24 1 38 10 42 C0 55 14 68 28 60 M32 10 C47 -2 58 9 54 20 C66 24 63 38 54 42 C64 55 50 68 36 60 M32 8 V63 M10 20 Q24 17 22 31 M10 42 Q24 42 20 54 M54 20 Q40 17 42 31 M54 42 Q40 42 44 54"/>',
         }
         a.append(f'<g transform="translate({x} {y}) scale({scale})" color="{color}" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">{shapes[kind]}</g>')
+
+    return label, box, line, arrow, icon
+
+
+def cover():
+    """Current simplified diagram: fixed geometry, native text and vector icons.
+
+    Export the resulting SVG to a 2400 x 1350 PNG for the article cover.
+    Edit these coordinates rather than painting over a previously exported PNG.
+    """
+    navy, blue, teal, red, gold = '#10175E', '#086DD9', '#00A4BD', '#EA233B', '#F4B900'
+    pale, mint, cream = '#EAF6FF', '#EDF9FB', '#FFF8E3'
+    a = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="945" viewBox="0 0 1680 945" role="img" aria-labelledby="title desc">',
+         '<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->',
+         '<title id="title">Evidence-Gated Agents — evidence before AI proceeds</title>',
+         '<desc id="desc">Working AI plans within existing permission and proposes a step to an EGA check. Evidence sources feed an evidence service available to every check. Proceed permits the checked step, followed by an outcome record, with optional further work returning to Working AI. Do not proceed leads to remaining stopped and recording the reason. Permitted revision returns to Working AI for rechecking. Human judgement is conditional. People receiving or affected by results and human accountability remain visible. Crossing lines do not join.</desc>',
+         '<rect width="1680" height="945" fill="white"/>',
+         '<g font-family="Arial, Helvetica, sans-serif">']
+
+    label, box, line, arrow, icon = vector_tools(a)
 
     # Header and all content share the accepted left margin.
     box(82,28,10,99,gold,'none',5)
@@ -226,27 +190,164 @@ def cover():
 
 
 def inline():
-    w,h=1600,1770
-    a=init(w,h,'Evidence-Gated Agents — checks before a claim, decision or action instruction proceeds','Broader EGA design, still to be integrated and evaluated. Authorised external and internal confidential sources feed a retrieval-only evidence service; confidential-source handling requires development. EGA analyses the retrieved material for support, contradiction and gaps, then checks evidence sufficiency, authority and disclosure outside the acting AI. The output — a claim, decision or action instruction — may be released, or held for more evidence, revision and rechecking, or authorised human judgment when needed. A limited decision record supports inspection, challenge and correction. Releasing an instruction does not authorise its execution; the resulting action requires its own authority and evidence checks.')
-    a += [rect(70,59,8,119,'#DA9829',r=4),text(99,110,'Evidence-Gated Agents',66,INK,700),text(101,169,'Checks before AI output is released',29,MUTED)]
-    a += [path('M73 238 H112',TEAL,4),text(130,249,'Controls outside the acting AI',31,MUTED)]
-    # Source access and system-wide confidential handling are separate concerns.
-    a += [rect(70,310,535,308,'#FFFFFF','#BDCEDB',22),doc_icon(96,334,BLUE,.7),text(145,370,'Evidence sources',37,INK,700),text(99,418,'External sources',32,MUTED),text(99,460,'Internal confidential sources',32,MUTED),lock(99,487,.75),text(143,520,'Authorized Access',32,BLUE,600)]
-    a += [path('M613 450 H688',TEAL,5,True)]
-    a += [rect(704,310,826,308,'url(#cool)','#AEC7DE',22,2,'filter="url(#shadow)"'),text(738,374,'Evidence service',46,BLUE,700),text(738,441,'Finds evidence on request',42,INK,600),text(738,497,'Includes sources & search coverage',34,MUTED)]
-    a += [path('M845 717 V632',BLUE,5,True,True),text(822,678,'Search request',25,BLUE,500,'end'),path('M1100 632 V717',BLUE,5,True),text(1122,678,'Search results',26,BLUE,500)]
-    a += [rect(70,793,385,237,'url(#mint)','#ACD7D0',24,2,'filter="url(#shadow)"'),chip(100,825,TEAL,.7),text(167,864,'Working AI',38,TEAL,700),text(101,913,'Output to be checked',23,MUTED),text(101,950,'Claim, decision',29,INK),text(101,987,'or action instruction',29,INK)]
-    a += [path('M464 907 H547',TEAL,6,True),gate(565,735,965,470,True)]
-    a += [text(607,1170,'Foundations: FactHarbor Alpha + Our AI Charter Runtime PoC',26,INK,600)]
-    a += ['<g transform="translate(0 54)">']
-    # Both outcomes follow the same boundary; no compulsory human approval chain.
-    a += [path('M775 1170 V1212 H438 V1232',TEAL,5,True),path('M1315 1170 V1232',RUST,5,True)]
-    a += [rect(70,1246,535,200,'url(#mint)','#9ACCC4',22),text(99,1293,'Released',39,TEAL,700),text(99,1337,'Claim, decision or',27,INK),text(99,1371,'action instruction',27,INK),text(99,1413,'Release does not authorise execution.',23,MUTED)]
-    a += [rect(649,1246,881,200,'url(#warm)','#D9AF9D',22),text(682,1293,'Held — resolve the gap',38,RUST,700),text(682,1349,'Request evidence • Revise and recheck',26,INK),text(682,1401,'Authorised human judgment when needed',27,MUTED)]
-    a += [rect(70,1485,710,175,'#FFFFFF','#BDCEDB',22),doc_icon(99,1513,MUTED,.7),text(145,1547,'Decision record',33,INK,700),text(99,1594,'Inspect • Challenge • Correct',29,INK),lock(99,1603,.65),text(137,1633,'Restricted access',26,BLUE)]
-    a += [rect(810,1485,720,175,'#F2F6FA','#BDCEDB',22),lock(840,1515,.7),text(885,1547,'System-wide data protection',31,INK,700),text(839,1594,'Protect information during use and storage,',26,INK),text(839,1633,'and whenever it is sent or shared.',26,INK)]
-    a += ['</g>']
-    save('ega-inline',a,w,h)
+    """Current detailed diagram; export at width 2400, preserving aspect ratio."""
+    navy, blue, teal, red, gold = '#10175E', '#086DD9', '#00A4BD', '#EA233B', '#F4B900'
+    pale, mint, cream = '#EAF6FF', '#EDF9FB', '#FFF8E3'
+
+    a=['<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1064" viewBox="0 0 1536 1064" role="img" aria-labelledby="title desc">','<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->','<title id="title">Evidence-Gated Agents — the same check at each relevant boundary</title>','<desc id="desc">The full EGA design. Evidence sources feed a retrieval service available to every check. Working AI plans within existing permission, faces a check before this use, performs permitted work, and faces another check before release or action. Proceed permits the checked step and leads to an outcome record, with an optional return for further work. Either check can refuse the step. Do not proceed leads to remaining stopped and recording the reason, with an optional permitted revision and recheck route. Human judgement is conditional. Affected people, independent custody of decision records and five oversight roles remain visible. Crossing lines do not join.</desc>','<rect width="1536" height="1064" fill="white"/>','<g font-family="Arial, Helvetica, sans-serif">']
+    label, box, line, arrow, icon = vector_tools(a)
+
+    box(46,28,10,96,gold,'none',5)
+    label(69,73,'Evidence-Gated Agents',51,bold=True)
+    label(69,124,'Evidence before AI proceeds',34,bold=True)
+    label(69,163,'The same check pattern at each relevant boundary',25,blue)
+    
+    box(68,188,390,152)
+    label(88,224,'Evidence sources',30,bold=True)
+    label(88,254,'Public and permitted private sources',20,blue)
+    for kind,x in [('doc',108),('globe',192),('database',279),('lock',365)]:
+        icon(kind,x,267,.88)
+    arrow(458,260,531,260,teal,14,25)
+    box(531,188,583,152)
+    icon('doc',580,215,1.1)
+    icon('search',650,246,.65)
+    label(741,222,'Evidence service',30,bold=True)
+    label(741,251,'Finds material on request',21,blue)
+    label(741,278,'Sources and search coverage',21,blue)
+    label(741,305,'Available to every EGA check',21,blue)
+    line('M557 312 H1090',blue,1)
+    label(823,331,'Evidence for claims, permissions and authority',18,blue,anchor='middle')
+    
+    # The two example boundaries request evidence from the same broad service.
+    for xreq,xresult in [(534,575),(930,971)]:
+        line(f'M{xreq} 400 V360',blue,6,'7 5')
+        a.append(f'<polygon points="{xreq-11},360 {xreq},341 {xreq+11},360" fill="{blue}"/>')
+        arrow(xresult,342,xresult,400,teal,11,21)
+    label(506,368,'Request /',17,blue,anchor='end')
+    label(506,389,'results',17,blue,anchor='end')
+    label(992,368,'Request /',17,blue)
+    label(992,389,'results',17,blue)
+    
+    box(68,402,162,196)
+    icon('brain',111,416,1.13,teal)
+    label(149,521,'Working AI',25,bold=True,anchor='middle')
+    label(149,548,'Plan & prepare',20,blue,True,'middle')
+    label(149,570,'Within existing',18,blue,anchor='middle')
+    label(149,589,'permission',18,blue,anchor='middle')
+    arrow(40,476,68,476,teal,14,24)
+    arrow(230,476,269,476,teal,14,24)
+    
+    # Simple flat gold frames match the simplified cover.
+    box(269,403,296,194,cream,gold,8,5)
+    a.append(f'<g transform="translate(287 416) scale(.76)" fill="none" stroke="{gold}" stroke-width="3" stroke-linejoin="round"><path d="M32 3 L57 13 V34 Q57 53 32 66 Q7 53 7 34 V13 Z M32 17 V54 M21 29 H43 M21 41 H43"/></g>')
+    label(355,444,'EGA check',29,bold=True)
+    label(355,469,'Before this use',19,blue)
+    for y,title,detail in [(479,'Authority','Purpose and scope'),(516,'Inputs','Origin, integrity and trust'),(553,'Data protection','Permitted processing')]:
+        box(283,y,108,32,'#E1F2FF','none',5)
+        box(396,y,156,32,'#E1F2FF','none',5)
+        label(291,y+21,title,12.5,blue,True)
+        label(403,y+21,detail,13,blue)
+    arrow(565,476,599,476,teal,14,23)
+    
+    box(599,402,210,196)
+    icon('brain',646,418,.95,teal)
+    icon('doc',717,425,.79)
+    label(704,522,'Working AI',27,bold=True,anchor='middle')
+    label(704,551,'Carry out permitted work',17,blue,anchor='middle')
+    label(704,575,'Propose the next step',18,blue,anchor='middle')
+    arrow(809,476,838,476,teal,14,23)
+    
+    box(838,403,258,194,cream,gold,8,5)
+    a.append(f'<g transform="translate(853 418) scale(.7)" fill="none" stroke="{gold}" stroke-width="3" stroke-linejoin="round"><path d="M32 3 L57 13 V34 Q57 53 32 66 Q7 53 7 34 V13 Z M32 17 V54 M21 29 H43 M21 41 H43"/></g>')
+    label(914,443,'EGA check',28,bold=True)
+    label(914,469,'Before release or action',15.5,blue)
+    for y,title,details in [(479,'Evidence',['Support, contradiction','and gaps']),(519,'Authority',['Current mandate']),(556,'Disclosure',['Permitted content','and recipient'])]:
+        h=35 if len(details)==2 else 32
+        box(850,y,88,h,'#E1F2FF','none',5)
+        box(942,y,142,h,'#E1F2FF','none',5)
+        label(858,y+22,title,14,blue,True)
+        for i,d in enumerate(details):
+            label(949,y+(14 if len(details)==2 else 22)+i*15,d,12.5,blue)
+    arrow(1096,476,1117,476,teal,13,20)
+    
+    box(1117,402,185,196,mint,teal)
+    a.append(f'<circle cx="1155" cy="451" r="25" fill="{teal}"/>')
+    line('M1143 451 L1152 460 L1169 441','white',6)
+    label(1189,453,'Proceed',24,bold=True)
+    label(1209,491,'Within checked scope',16,blue,anchor='middle')
+    label(1209,527,'Carry out the',18,blue,anchor='middle')
+    label(1209,552,'checked step',18,blue,anchor='middle')
+    line('M1209 402 V202 H1308',teal,11)
+    arrow(1308,202,1331,202,teal,11,22)
+    icon('people',1344,157,1.66)
+    label(1398,284,'People receiving or',19,blue,anchor='middle')
+    label(1398,309,'affected by the result',19,blue,anchor='middle')
+    arrow(1302,476,1327,476,teal,13,24)
+    box(1327,435,194,78,'white',teal,29,3.5)
+    icon('doc',1343,450,.68,teal)
+    label(1395,470,'End · record',18,bold=True)
+    label(1395,497,'outcome',20,bold=True)
+    
+    # Either refusal feeds the same stop branch. The exit stays straight.
+    line('M499 598 V639 Q499 659 518 659 H540',red,12)
+    arrow(539,659,559,659,red,12,20)
+    line('M936 598 V617 Q936 636 920 636',red,12)
+    arrow(924,636,904,636,red,12,20)
+    box(559,622,345,78,'#FFF4F5',red,12)
+    a.append(f'<circle cx="606" cy="661" r="27" fill="{red}"/>')
+    line('M595 650 L617 672 M617 650 L595 672','white',6)
+    label(648,654,'Do not proceed',26,bold=True)
+    label(648,682,'Reason and permitted next route',15.5,blue)
+    arrow(904,661,1282,661,red,10,24)
+    box(1282,625,224,76,'white',red,26,3)
+    icon('doc',1299,637,.77,red)
+    label(1360,654,'Remain stopped',18,bold=True)
+    label(1360,683,'Record reason',18,blue)
+    
+    # The dotted association has no arrowheads: human judgement is conditional.
+    line('M904 680 Q938 710 979 716',blue,4,'3 7')
+    icon('people',982,697,.90)
+    label(1055,712,'Authorised human',17,blue)
+    label(1055,734,'judgement',17,blue)
+    label(1055,756,'Where needed',17,blue)
+    
+    line('M749 700 V722 Q749 742 728 742 H174 Q153 742 153 721 V618',blue,5,'12 7')
+    a.append(f'<polygon points="141,618 153,598 165,618" fill="{blue}"/>')
+    label(417,728,'Revise if permitted · recheck',22,blue,anchor='middle')
+    # Break the dashed line at the solid exit, so the crossing is not a junction.
+    line('M1239 598 V650',teal,5,'12 7')
+    line('M1239 672 V760 Q1239 781 1218 781 H114 Q93 781 93 760 V618',teal,5,'12 7')
+    a.append(f'<polygon points="81,618 93,598 105,618" fill="{teal}"/>')
+    label(173,769,'Further work, if needed',21,teal)
+    
+    box(69,810,1437,188)
+    label(84,844,'Human accountability and oversight',29,bold=True)
+    for x in [83,365,647,929,1211]:
+        box(x,858,276,79,'white',blue,8,1.5)
+    # Deliberately simple native symbols match the cover's stroke style.
+    a.append(f'<g transform="translate(100 873)" fill="none" stroke="{blue}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 46 L37 17 M28 8 L45 25 M35 1 L53 19 M28 8 L35 1 M45 25 L53 19 M37 17 L44 10 M5 51 L13 51 M39 51 H63 M43 46 H59"/></g>')
+    label(179,887,'Rulemaker',21,blue)
+    label(179,917,'Sets criteria',18,blue)
+    icon('person',388,869,.88)
+    label(460,887,'Operator',21,blue)
+    label(460,917,'Oversees operation',18,blue)
+    icon('doc',668,869,.88)
+    label(737,881,'Record keeper',20,blue)
+    label(737,905,'Independent custody',17,blue)
+    label(737,927,'of decision records',17,blue)
+    icon('search',949,871,.85)
+    label(1017,887,'Independent reviewer',18,blue)
+    label(1017,917,'Assesses the basis',17,blue)
+    a.append(f'<g transform="translate(1227 871)" fill="none" stroke="{blue}" stroke-width="3.5" stroke-linejoin="round"><path d="M34 2 V61 M22 61 H46 M6 12 H62 M11 12 L1 39 H21 Z M57 12 L47 39 H67 Z"/><circle cx="34" cy="12" r="4" fill="{blue}"/></g>')
+    label(1307,887,'Remedy decider',19,blue)
+    label(1307,917,'Acts within mandate',17,blue)
+    box(83,943,1409,39,'white',blue,8,1.5)
+    icon('lock',94,945,.48,navy)
+    label(131,971,'Restricted decision records · Inspect · Challenge · Correct',20,blue)
+    line('M69 1027 H620 M972 1027 H1506',blue,1.8)
+    label(796,1034,'Data protection throughout',20,blue,anchor='middle')
+    a.append('</g></svg>')
+    (ROOT/'evidence-gated-agents-before-we-rely.svg').write_text('\n'.join(a),encoding='utf-8')
 
 if __name__ == '__main__':
     import argparse

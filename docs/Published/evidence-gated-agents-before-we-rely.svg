@@ -1,68 +1,173 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2040" height="1260" viewBox="0 0 2040 1260" role="img" aria-labelledby="title desc"><title id="title">Evidence-Gated Agents — output-release checks</title><desc id="desc">Editable layout of the article illustration. This detail begins after the separate permission checks before model use. A retrieval-only evidence service returns found material with sources and search coverage. EGA analyses support, contradiction and gaps and checks evidence, authority and disclosure. Proceed and Do not proceed are to the right of EGA, with human judgement where needed inside the latter box. Restricted decision records and system-wide data protection support accountability. Design, not implemented integration.</desc><!-- SPDX-License-Identifier: CC-BY-SA-4.0 --><defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#F7FAFA"/><stop offset="1" stop-color="#FFFCF6"/></linearGradient><linearGradient id="cool" x2="0.7" y2="1"><stop stop-color="#F7FBFF"/><stop offset="1" stop-color="#E7F0FA"/></linearGradient><linearGradient id="mint" x2="1" y2="1"><stop stop-color="#F0FAF7"/><stop offset="1" stop-color="#DFF1EC"/></linearGradient><linearGradient id="warm" x2="1" y2="1"><stop stop-color="#FFF9F4"/><stop offset="1" stop-color="#F7E8DF"/></linearGradient><linearGradient id="gate" x2="1" y2="1"><stop stop-color="#FFF9E7"/><stop offset="1" stop-color="#F5D88F"/></linearGradient><linearGradient id="edge"><stop stop-color="#F8BD49"/><stop offset="1" stop-color="#D78B1C"/></linearGradient><filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#183648" flood-opacity=".08"/></filter><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#087F82"/></marker><marker id="blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#326CA2"/></marker><marker id="rust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#A34E30"/></marker><marker id="slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#506775"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
-<rect x="0" y="0" width="2040" height="1260" rx="0" fill="url(#paper)" stroke="none" stroke-width="2" />
-<rect x="65" y="55" width="8" height="125" rx="4" fill="#DA9829" stroke="none" stroke-width="2" />
-<text x="98" y="110" font-size="68" fill="#173146" font-weight="700" text-anchor="start">Evidence-Gated Agents</text>
-<text x="100" y="170" font-size="38" fill="#506775" font-weight="400" text-anchor="start">Checks before AI output is released</text>
-<rect x="65" y="245" width="520" height="240" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
-<g transform="translate(95 273) scale(0.85)" fill="none" stroke="#326CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
-<text x="157" y="311" font-size="38" fill="#173146" font-weight="700" text-anchor="start">Evidence sources</text>
-<text x="97" y="365" font-size="30" fill="#506775" font-weight="400" text-anchor="start">External sources</text>
-<text x="97" y="409" font-size="30" fill="#506775" font-weight="400" text-anchor="start">Internal confidential sources</text>
-<g transform="translate(95 433) scale(0.65)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
-<text x="136" y="464" font-size="27" fill="#326CA2" font-weight="600" text-anchor="start">Authorised access</text>
-<path d="M596 365 H677" fill="none" stroke="#087F82" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
-<rect x="695" y="245" width="680" height="240" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
-<g transform="translate(727 273) scale(0.85)" fill="none" stroke="#326CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
-<text x="790" y="312" font-size="42" fill="#173146" font-weight="700" text-anchor="start">Evidence service</text>
-<text x="730" y="370" font-size="35" fill="#173146" font-weight="600" text-anchor="start">Finds material on request</text>
-<text x="730" y="417" font-size="29" fill="#506775" font-weight="400" text-anchor="start">Includes sources &amp; search coverage</text>
-<path d="M887 558 V495" fill="none" stroke="#326CA2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)" stroke-dasharray="12 12"/>
-<text x="868" y="533" font-size="24" fill="#326CA2" font-weight="500" text-anchor="end">Search request</text>
-<path d="M1123 495 V558" fill="none" stroke="#326CA2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)"/>
-<text x="1141" y="533" font-size="24" fill="#326CA2" font-weight="500" text-anchor="start">Search results</text>
-<rect x="65" y="646" width="420" height="295" rx="24" fill="url(#mint)" stroke="#9ACCC4" stroke-width="2" />
-<g transform="translate(95 674) scale(0.95)" fill="none" stroke="#087F82" stroke-width="3" stroke-linecap="round"><rect x="10" y="10" width="40" height="40" rx="9"/><rect x="21" y="21" width="18" height="18" rx="4"/><path d="M20 1 V10 M20 50 V59 M1 20 H10 M50 20 H59"/><path d="M30 1 V10 M30 50 V59 M1 30 H10 M50 30 H59"/><path d="M40 1 V10 M40 50 V59 M1 40 H10 M50 40 H59"/></g>
-<text x="180" y="718" font-size="40" fill="#087F82" font-weight="700" text-anchor="start">Working AI</text>
-<text x="97" y="782" font-size="27" fill="#506775" font-weight="400" text-anchor="start">Output to be checked</text>
-<text x="97" y="835" font-size="32" fill="#173146" font-weight="400" text-anchor="start">Claim, decision</text>
-<text x="97" y="879" font-size="32" fill="#173146" font-weight="400" text-anchor="start">or action instruction</text>
-<path d="M495 792 H573" fill="none" stroke="#087F82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
-<rect x="590" y="575" width="785" height="420" rx="26" fill="url(#gate)" stroke="#D99629" stroke-width="3" filter="url(#shadow)"/>
-<text x="625" y="655" font-size="69" fill="#A96106" font-weight="700" text-anchor="start">EGA check</text>
-<text x="626" y="703" font-size="34" fill="#A96106" font-weight="400" text-anchor="start">Before output release</text>
-<rect x="618" y="731" width="730" height="56" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" />
-<text x="640" y="768" font-size="28" fill="#173146" font-weight="700" text-anchor="start">Evidence</text>
-<text x="827" y="768" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Support, contradiction &amp; gaps</text>
-<rect x="618" y="799" width="730" height="56" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" />
-<text x="640" y="836" font-size="28" fill="#173146" font-weight="700" text-anchor="start">Authority</text>
-<text x="827" y="836" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Within the current mandate?</text>
-<rect x="618" y="867" width="730" height="56" rx="12" fill="#FFFCF2" stroke="#E9C884" stroke-width="2" />
-<text x="640" y="904" font-size="28" fill="#173146" font-weight="700" text-anchor="start">Disclosure</text>
-<text x="827" y="904" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Permitted content &amp; recipient?</text>
-<text x="625" y="963" font-size="23" fill="#173146" font-weight="600" text-anchor="start">Foundations: FactHarbor Alpha + Our AI Charter Runtime PoC</text>
-<path d="M1386 680 H1459" fill="none" stroke="#087F82" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
-<path d="M1386 875 H1459" fill="none" stroke="#A34E30" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#rust)"/>
-<rect x="1476" y="575" width="500" height="195" rx="24" fill="url(#mint)" stroke="#9ACCC4" stroke-width="2" />
-<g transform="translate(1505 602) scale(0.8)" fill="none" stroke="#087F82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
-<text x="1564" y="645" font-size="42" fill="#087F82" font-weight="700" text-anchor="start">Proceed</text>
-<text x="1508" y="694" font-size="26" fill="#173146" font-weight="400" text-anchor="start">Claim, decision or action instruction</text>
-<text x="1508" y="740" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Release within checked scope.</text>
-<rect x="1476" y="800" width="500" height="195" rx="24" fill="url(#warm)" stroke="#D9AF9D" stroke-width="2" />
-<text x="1508" y="849" font-size="35" fill="#A34E30" font-weight="700" text-anchor="start">Do not proceed</text>
-<text x="1508" y="898" font-size="24" fill="#173146" font-weight="400" text-anchor="start">Reason recorded</text>
-<text x="1508" y="945" font-size="26" fill="#506775" font-weight="400" text-anchor="start">Next permitted route</text>
-<g transform="translate(1508 957)" fill="none" stroke="#506775" stroke-width="2"><circle cx="10" cy="6" r="5"/><path d="M1 23 V20 A9 9 0 0 1 19 20 V23 Z"/></g>
-<text x="1540" y="977" font-size="23" fill="#506775" font-weight="400" text-anchor="start">Human judgement where needed</text>
-<rect x="65" y="1060" width="905" height="155" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
-<g transform="translate(98 1087) scale(0.7)" fill="none" stroke="#326CA2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2 H30 L42 14 V54 H4 Z M30 2 V14 H42 M13 26 H32 M13 35 H32 M13 44 H25"/></g>
-<text x="155" y="1119" font-size="34" fill="#173146" font-weight="700" text-anchor="start">Decision record</text>
-<text x="98" y="1165" font-size="29" fill="#173146" font-weight="400" text-anchor="start">Inspect · Challenge · Correct</text>
-<g transform="translate(620 1141) scale(0.7)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
-<text x="666" y="1175" font-size="28" fill="#326CA2" font-weight="400" text-anchor="start">Restricted access</text>
-<rect x="1000" y="1060" width="976" height="155" rx="24" fill="url(#cool)" stroke="#B9CDDF" stroke-width="2" />
-<g transform="translate(1033 1082) scale(0.8)" fill="none" stroke="#326CA2" stroke-width="3.5" stroke-linejoin="round"><rect x="4" y="19" width="32" height="28" rx="6"/><path d="M11 19 V12 A9 9 0 0 1 29 12 V19 M20 29 V36"/></g>
-<text x="1093" y="1120" font-size="34" fill="#173146" font-weight="700" text-anchor="start">System-wide data protection</text>
-<text x="1033" y="1166" font-size="29" fill="#173146" font-weight="400" text-anchor="start">Protect information during use and storage,</text>
-<text x="1033" y="1200" font-size="29" fill="#173146" font-weight="400" text-anchor="start">and whenever it is sent or shared.</text>
-<text x="730" y="462" font-size="27" fill="#326CA2">Available to every EGA check</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1064" viewBox="0 0 1536 1064" role="img" aria-labelledby="title desc">
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<title id="title">Evidence-Gated Agents — the same check at each relevant boundary</title>
+<desc id="desc">The full EGA design. Evidence sources feed a retrieval service available to every check. Working AI plans within existing permission, faces a check before this use, performs permitted work, and faces another check before release or action. Proceed permits the checked step and leads to an outcome record, with an optional return for further work. Either check can refuse the step. Do not proceed leads to remaining stopped and recording the reason, with an optional permitted revision and recheck route. Human judgement is conditional. Affected people, independent custody of decision records and five oversight roles remain visible. Crossing lines do not join.</desc>
+<rect width="1536" height="1064" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="46" y="28" width="10" height="96" rx="5" fill="#F4B900" stroke="none" stroke-width="2" />
+<text x="69" y="73" font-size="51" fill="#10175E" font-weight="700" text-anchor="start">Evidence-Gated Agents</text>
+<text x="69" y="124" font-size="34" fill="#10175E" font-weight="700" text-anchor="start">Evidence before AI proceeds</text>
+<text x="69" y="163" font-size="25" fill="#086DD9" font-weight="400" text-anchor="start">The same check pattern at each relevant boundary</text>
+<rect x="68" y="188" width="390" height="152" rx="14" fill="#EAF6FF" stroke="#086DD9" stroke-width="2" />
+<text x="88" y="224" font-size="30" fill="#10175E" font-weight="700" text-anchor="start">Evidence sources</text>
+<text x="88" y="254" font-size="20" fill="#086DD9" font-weight="400" text-anchor="start">Public and permitted private sources</text>
+<g transform="translate(108 267) scale(0.88)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 H39 L54 18 V65 H8 Z M39 3 V18 H54 M20 31 H42 M20 42 H42 M20 53 H36"/></g>
+<g transform="translate(192 267) scale(0.88)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="34" cy="34" r="30"/><ellipse cx="34" cy="34" rx="15" ry="30"/><path d="M4 34 H64 M10 16 Q34 28 58 16 M10 52 Q34 40 58 52"/></g>
+<g transform="translate(279 267) scale(0.88)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 15 V53 C8 67 56 67 56 53 V15"/><ellipse cx="32" cy="15" rx="24" ry="11"/><path d="M8 34 C8 49 56 49 56 34 M8 48 C8 63 56 63 56 48"/></g>
+<g transform="translate(365 267) scale(0.88)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="29" width="44" height="35" rx="4" fill="currentColor" stroke="none"/><path d="M20 29 V18 A12 12 0 0 1 44 18 V29"/><path d="M32 44 V51" stroke="white"/></g>
+<path d="M458 260 H506" fill="none" stroke="#00A4BD" stroke-width="14" stroke-linejoin="round"/>
+<polygon points="506,242.5 531,260 506,277.5" fill="#00A4BD"/>
+<rect x="531" y="188" width="583" height="152" rx="14" fill="#EAF6FF" stroke="#086DD9" stroke-width="2" />
+<g transform="translate(580 215) scale(1.1)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 H39 L54 18 V65 H8 Z M39 3 V18 H54 M20 31 H42 M20 42 H42 M20 53 H36"/></g>
+<g transform="translate(650 246) scale(0.65)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="27" cy="27" r="21"/><path d="M43 43 L62 62"/></g>
+<text x="741" y="222" font-size="30" fill="#10175E" font-weight="700" text-anchor="start">Evidence service</text>
+<text x="741" y="251" font-size="21" fill="#086DD9" font-weight="400" text-anchor="start">Finds material on request</text>
+<text x="741" y="278" font-size="21" fill="#086DD9" font-weight="400" text-anchor="start">Sources and search coverage</text>
+<text x="741" y="305" font-size="21" fill="#086DD9" font-weight="400" text-anchor="start">Available to every EGA check</text>
+<path d="M557 312 H1090" fill="none" stroke="#086DD9" stroke-width="1" stroke-linejoin="round"/>
+<text x="823" y="331" font-size="18" fill="#086DD9" font-weight="400" text-anchor="middle">Evidence for claims, permissions and authority</text>
+<path d="M534 400 V360" fill="none" stroke="#086DD9" stroke-width="6" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="523,360 534,341 545,360" fill="#086DD9"/>
+<path d="M575 342 V379" fill="none" stroke="#00A4BD" stroke-width="11" stroke-linejoin="round"/>
+<polygon points="560.3,379 575,400 589.7,379" fill="#00A4BD"/>
+<path d="M930 400 V360" fill="none" stroke="#086DD9" stroke-width="6" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="919,360 930,341 941,360" fill="#086DD9"/>
+<path d="M971 342 V379" fill="none" stroke="#00A4BD" stroke-width="11" stroke-linejoin="round"/>
+<polygon points="956.3,379 971,400 985.7,379" fill="#00A4BD"/>
+<text x="506" y="368" font-size="17" fill="#086DD9" font-weight="400" text-anchor="end">Request /</text>
+<text x="506" y="389" font-size="17" fill="#086DD9" font-weight="400" text-anchor="end">results</text>
+<text x="992" y="368" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">Request /</text>
+<text x="992" y="389" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">results</text>
+<rect x="68" y="402" width="162" height="196" rx="14" fill="#EAF6FF" stroke="#086DD9" stroke-width="2" />
+<g transform="translate(111 416) scale(1.13)" color="#00A4BD" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 10 C17 -2 6 9 10 20 C-2 24 1 38 10 42 C0 55 14 68 28 60 M32 10 C47 -2 58 9 54 20 C66 24 63 38 54 42 C64 55 50 68 36 60 M32 8 V63 M10 20 Q24 17 22 31 M10 42 Q24 42 20 54 M54 20 Q40 17 42 31 M54 42 Q40 42 44 54"/></g>
+<text x="149" y="521" font-size="25" fill="#10175E" font-weight="700" text-anchor="middle">Working AI</text>
+<text x="149" y="548" font-size="20" fill="#086DD9" font-weight="700" text-anchor="middle">Plan &amp; prepare</text>
+<text x="149" y="570" font-size="18" fill="#086DD9" font-weight="400" text-anchor="middle">Within existing</text>
+<text x="149" y="589" font-size="18" fill="#086DD9" font-weight="400" text-anchor="middle">permission</text>
+<path d="M40 476 H44" fill="none" stroke="#00A4BD" stroke-width="14" stroke-linejoin="round"/>
+<polygon points="44,459.2 68,476 44,492.8" fill="#00A4BD"/>
+<path d="M230 476 H245" fill="none" stroke="#00A4BD" stroke-width="14" stroke-linejoin="round"/>
+<polygon points="245,459.2 269,476 245,492.8" fill="#00A4BD"/>
+<rect x="269" y="403" width="296" height="194" rx="8" fill="#FFF8E3" stroke="#F4B900" stroke-width="5" />
+<g transform="translate(287 416) scale(.76)" fill="none" stroke="#F4B900" stroke-width="3" stroke-linejoin="round"><path d="M32 3 L57 13 V34 Q57 53 32 66 Q7 53 7 34 V13 Z M32 17 V54 M21 29 H43 M21 41 H43"/></g>
+<text x="355" y="444" font-size="29" fill="#10175E" font-weight="700" text-anchor="start">EGA check</text>
+<text x="355" y="469" font-size="19" fill="#086DD9" font-weight="400" text-anchor="start">Before this use</text>
+<rect x="283" y="479" width="108" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<rect x="396" y="479" width="156" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<text x="291" y="500" font-size="12.5" fill="#086DD9" font-weight="700" text-anchor="start">Authority</text>
+<text x="403" y="500" font-size="13" fill="#086DD9" font-weight="400" text-anchor="start">Purpose and scope</text>
+<rect x="283" y="516" width="108" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<rect x="396" y="516" width="156" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<text x="291" y="537" font-size="12.5" fill="#086DD9" font-weight="700" text-anchor="start">Inputs</text>
+<text x="403" y="537" font-size="13" fill="#086DD9" font-weight="400" text-anchor="start">Origin, integrity and trust</text>
+<rect x="283" y="553" width="108" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<rect x="396" y="553" width="156" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<text x="291" y="574" font-size="12.5" fill="#086DD9" font-weight="700" text-anchor="start">Data protection</text>
+<text x="403" y="574" font-size="13" fill="#086DD9" font-weight="400" text-anchor="start">Permitted processing</text>
+<path d="M565 476 H576" fill="none" stroke="#00A4BD" stroke-width="14" stroke-linejoin="round"/>
+<polygon points="576,459.9 599,476 576,492.1" fill="#00A4BD"/>
+<rect x="599" y="402" width="210" height="196" rx="14" fill="#EAF6FF" stroke="#086DD9" stroke-width="2" />
+<g transform="translate(646 418) scale(0.95)" color="#00A4BD" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 10 C17 -2 6 9 10 20 C-2 24 1 38 10 42 C0 55 14 68 28 60 M32 10 C47 -2 58 9 54 20 C66 24 63 38 54 42 C64 55 50 68 36 60 M32 8 V63 M10 20 Q24 17 22 31 M10 42 Q24 42 20 54 M54 20 Q40 17 42 31 M54 42 Q40 42 44 54"/></g>
+<g transform="translate(717 425) scale(0.79)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 H39 L54 18 V65 H8 Z M39 3 V18 H54 M20 31 H42 M20 42 H42 M20 53 H36"/></g>
+<text x="704" y="522" font-size="27" fill="#10175E" font-weight="700" text-anchor="middle">Working AI</text>
+<text x="704" y="551" font-size="17" fill="#086DD9" font-weight="400" text-anchor="middle">Carry out permitted work</text>
+<text x="704" y="575" font-size="18" fill="#086DD9" font-weight="400" text-anchor="middle">Propose the next step</text>
+<path d="M809 476 H815" fill="none" stroke="#00A4BD" stroke-width="14" stroke-linejoin="round"/>
+<polygon points="815,459.9 838,476 815,492.1" fill="#00A4BD"/>
+<rect x="838" y="403" width="258" height="194" rx="8" fill="#FFF8E3" stroke="#F4B900" stroke-width="5" />
+<g transform="translate(853 418) scale(.7)" fill="none" stroke="#F4B900" stroke-width="3" stroke-linejoin="round"><path d="M32 3 L57 13 V34 Q57 53 32 66 Q7 53 7 34 V13 Z M32 17 V54 M21 29 H43 M21 41 H43"/></g>
+<text x="914" y="443" font-size="28" fill="#10175E" font-weight="700" text-anchor="start">EGA check</text>
+<text x="914" y="469" font-size="15.5" fill="#086DD9" font-weight="400" text-anchor="start">Before release or action</text>
+<rect x="850" y="479" width="88" height="35" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<rect x="942" y="479" width="142" height="35" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<text x="858" y="501" font-size="14" fill="#086DD9" font-weight="700" text-anchor="start">Evidence</text>
+<text x="949" y="493" font-size="12.5" fill="#086DD9" font-weight="400" text-anchor="start">Support, contradiction</text>
+<text x="949" y="508" font-size="12.5" fill="#086DD9" font-weight="400" text-anchor="start">and gaps</text>
+<rect x="850" y="519" width="88" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<rect x="942" y="519" width="142" height="32" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<text x="858" y="541" font-size="14" fill="#086DD9" font-weight="700" text-anchor="start">Authority</text>
+<text x="949" y="541" font-size="12.5" fill="#086DD9" font-weight="400" text-anchor="start">Current mandate</text>
+<rect x="850" y="556" width="88" height="35" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<rect x="942" y="556" width="142" height="35" rx="5" fill="#E1F2FF" stroke="none" stroke-width="2" />
+<text x="858" y="578" font-size="14" fill="#086DD9" font-weight="700" text-anchor="start">Disclosure</text>
+<text x="949" y="570" font-size="12.5" fill="#086DD9" font-weight="400" text-anchor="start">Permitted content</text>
+<text x="949" y="585" font-size="12.5" fill="#086DD9" font-weight="400" text-anchor="start">and recipient</text>
+<path d="M1096 476 H1097" fill="none" stroke="#00A4BD" stroke-width="13" stroke-linejoin="round"/>
+<polygon points="1097,462.0 1117,476 1097,490.0" fill="#00A4BD"/>
+<rect x="1117" y="402" width="185" height="196" rx="14" fill="#EDF9FB" stroke="#00A4BD" stroke-width="2" />
+<circle cx="1155" cy="451" r="25" fill="#00A4BD"/>
+<path d="M1143 451 L1152 460 L1169 441" fill="none" stroke="white" stroke-width="6" stroke-linejoin="round"/>
+<text x="1189" y="453" font-size="24" fill="#10175E" font-weight="700" text-anchor="start">Proceed</text>
+<text x="1209" y="491" font-size="16" fill="#086DD9" font-weight="400" text-anchor="middle">Within checked scope</text>
+<text x="1209" y="527" font-size="18" fill="#086DD9" font-weight="400" text-anchor="middle">Carry out the</text>
+<text x="1209" y="552" font-size="18" fill="#086DD9" font-weight="400" text-anchor="middle">checked step</text>
+<path d="M1209 402 V202 H1308" fill="none" stroke="#00A4BD" stroke-width="11" stroke-linejoin="round"/>
+<path d="M1308 202 H1309" fill="none" stroke="#00A4BD" stroke-width="11" stroke-linejoin="round"/>
+<polygon points="1309,186.6 1331,202 1309,217.4" fill="#00A4BD"/>
+<g transform="translate(1344 157) scale(1.66)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="14" r="10"/><circle cx="10" cy="24" r="7"/><circle cx="54" cy="24" r="7"/><path d="M16 60 V43 A16 16 0 0 1 48 43 V60 Z M16 39 C4 32 0 43 0 50 V60 H16 M48 39 C60 32 64 43 64 50 V60 H48"/></g>
+<text x="1398" y="284" font-size="19" fill="#086DD9" font-weight="400" text-anchor="middle">People receiving or</text>
+<text x="1398" y="309" font-size="19" fill="#086DD9" font-weight="400" text-anchor="middle">affected by the result</text>
+<path d="M1302 476 H1303" fill="none" stroke="#00A4BD" stroke-width="13" stroke-linejoin="round"/>
+<polygon points="1303,459.2 1327,476 1303,492.8" fill="#00A4BD"/>
+<rect x="1327" y="435" width="194" height="78" rx="29" fill="white" stroke="#00A4BD" stroke-width="3.5" />
+<g transform="translate(1343 450) scale(0.68)" color="#00A4BD" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 H39 L54 18 V65 H8 Z M39 3 V18 H54 M20 31 H42 M20 42 H42 M20 53 H36"/></g>
+<text x="1395" y="470" font-size="18" fill="#10175E" font-weight="700" text-anchor="start">End · record</text>
+<text x="1395" y="497" font-size="20" fill="#10175E" font-weight="700" text-anchor="start">outcome</text>
+<path d="M499 598 V639 Q499 659 518 659 H540" fill="none" stroke="#EA233B" stroke-width="12" stroke-linejoin="round"/>
+<path d="M539 659 H539" fill="none" stroke="#EA233B" stroke-width="12" stroke-linejoin="round"/>
+<polygon points="539,645.0 559,659 539,673.0" fill="#EA233B"/>
+<path d="M936 598 V617 Q936 636 920 636" fill="none" stroke="#EA233B" stroke-width="12" stroke-linejoin="round"/>
+<path d="M924 636 H924" fill="none" stroke="#EA233B" stroke-width="12" stroke-linejoin="round"/>
+<polygon points="924,622.0 904,636 924,650.0" fill="#EA233B"/>
+<rect x="559" y="622" width="345" height="78" rx="12" fill="#FFF4F5" stroke="#EA233B" stroke-width="2" />
+<circle cx="606" cy="661" r="27" fill="#EA233B"/>
+<path d="M595 650 L617 672 M617 650 L595 672" fill="none" stroke="white" stroke-width="6" stroke-linejoin="round"/>
+<text x="648" y="654" font-size="26" fill="#10175E" font-weight="700" text-anchor="start">Do not proceed</text>
+<text x="648" y="682" font-size="15.5" fill="#086DD9" font-weight="400" text-anchor="start">Reason and permitted next route</text>
+<path d="M904 661 H1258" fill="none" stroke="#EA233B" stroke-width="10" stroke-linejoin="round"/>
+<polygon points="1258,644.2 1282,661 1258,677.8" fill="#EA233B"/>
+<rect x="1282" y="625" width="224" height="76" rx="26" fill="white" stroke="#EA233B" stroke-width="3" />
+<g transform="translate(1299 637) scale(0.77)" color="#EA233B" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 H39 L54 18 V65 H8 Z M39 3 V18 H54 M20 31 H42 M20 42 H42 M20 53 H36"/></g>
+<text x="1360" y="654" font-size="18" fill="#10175E" font-weight="700" text-anchor="start">Remain stopped</text>
+<text x="1360" y="683" font-size="18" fill="#086DD9" font-weight="400" text-anchor="start">Record reason</text>
+<path d="M904 680 Q938 710 979 716" fill="none" stroke="#086DD9" stroke-width="4" stroke-linejoin="round" stroke-dasharray="3 7"/>
+<g transform="translate(982 697) scale(0.9)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="14" r="10"/><circle cx="10" cy="24" r="7"/><circle cx="54" cy="24" r="7"/><path d="M16 60 V43 A16 16 0 0 1 48 43 V60 Z M16 39 C4 32 0 43 0 50 V60 H16 M48 39 C60 32 64 43 64 50 V60 H48"/></g>
+<text x="1055" y="712" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">Authorised human</text>
+<text x="1055" y="734" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">judgement</text>
+<text x="1055" y="756" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">Where needed</text>
+<path d="M749 700 V722 Q749 742 728 742 H174 Q153 742 153 721 V618" fill="none" stroke="#086DD9" stroke-width="5" stroke-linejoin="round" stroke-dasharray="12 7"/>
+<polygon points="141,618 153,598 165,618" fill="#086DD9"/>
+<text x="417" y="728" font-size="22" fill="#086DD9" font-weight="400" text-anchor="middle">Revise if permitted · recheck</text>
+<path d="M1239 598 V650" fill="none" stroke="#00A4BD" stroke-width="5" stroke-linejoin="round" stroke-dasharray="12 7"/>
+<path d="M1239 672 V760 Q1239 781 1218 781 H114 Q93 781 93 760 V618" fill="none" stroke="#00A4BD" stroke-width="5" stroke-linejoin="round" stroke-dasharray="12 7"/>
+<polygon points="81,618 93,598 105,618" fill="#00A4BD"/>
+<text x="173" y="769" font-size="21" fill="#00A4BD" font-weight="400" text-anchor="start">Further work, if needed</text>
+<rect x="69" y="810" width="1437" height="188" rx="14" fill="#EAF6FF" stroke="#086DD9" stroke-width="2" />
+<text x="84" y="844" font-size="29" fill="#10175E" font-weight="700" text-anchor="start">Human accountability and oversight</text>
+<rect x="83" y="858" width="276" height="79" rx="8" fill="white" stroke="#086DD9" stroke-width="1.5" />
+<rect x="365" y="858" width="276" height="79" rx="8" fill="white" stroke="#086DD9" stroke-width="1.5" />
+<rect x="647" y="858" width="276" height="79" rx="8" fill="white" stroke="#086DD9" stroke-width="1.5" />
+<rect x="929" y="858" width="276" height="79" rx="8" fill="white" stroke="#086DD9" stroke-width="1.5" />
+<rect x="1211" y="858" width="276" height="79" rx="8" fill="white" stroke="#086DD9" stroke-width="1.5" />
+<g transform="translate(100 873)" fill="none" stroke="#086DD9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 46 L37 17 M28 8 L45 25 M35 1 L53 19 M28 8 L35 1 M45 25 L53 19 M37 17 L44 10 M5 51 L13 51 M39 51 H63 M43 46 H59"/></g>
+<text x="179" y="887" font-size="21" fill="#086DD9" font-weight="400" text-anchor="start">Rulemaker</text>
+<text x="179" y="917" font-size="18" fill="#086DD9" font-weight="400" text-anchor="start">Sets criteria</text>
+<g transform="translate(388 869) scale(0.88)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="16" r="12"/><path d="M10 63 V51 A22 22 0 0 1 54 51 V63 Z"/></g>
+<text x="460" y="887" font-size="21" fill="#086DD9" font-weight="400" text-anchor="start">Operator</text>
+<text x="460" y="917" font-size="18" fill="#086DD9" font-weight="400" text-anchor="start">Oversees operation</text>
+<g transform="translate(668 869) scale(0.88)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3 H39 L54 18 V65 H8 Z M39 3 V18 H54 M20 31 H42 M20 42 H42 M20 53 H36"/></g>
+<text x="737" y="881" font-size="20" fill="#086DD9" font-weight="400" text-anchor="start">Record keeper</text>
+<text x="737" y="905" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">Independent custody</text>
+<text x="737" y="927" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">of decision records</text>
+<g transform="translate(949 871) scale(0.85)" color="#086DD9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="27" cy="27" r="21"/><path d="M43 43 L62 62"/></g>
+<text x="1017" y="887" font-size="18" fill="#086DD9" font-weight="400" text-anchor="start">Independent reviewer</text>
+<text x="1017" y="917" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">Assesses the basis</text>
+<g transform="translate(1227 871)" fill="none" stroke="#086DD9" stroke-width="3.5" stroke-linejoin="round"><path d="M34 2 V61 M22 61 H46 M6 12 H62 M11 12 L1 39 H21 Z M57 12 L47 39 H67 Z"/><circle cx="34" cy="12" r="4" fill="#086DD9"/></g>
+<text x="1307" y="887" font-size="19" fill="#086DD9" font-weight="400" text-anchor="start">Remedy decider</text>
+<text x="1307" y="917" font-size="17" fill="#086DD9" font-weight="400" text-anchor="start">Acts within mandate</text>
+<rect x="83" y="943" width="1409" height="39" rx="8" fill="white" stroke="#086DD9" stroke-width="1.5" />
+<g transform="translate(94 945) scale(0.48)" color="#10175E" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="29" width="44" height="35" rx="4" fill="currentColor" stroke="none"/><path d="M20 29 V18 A12 12 0 0 1 44 18 V29"/><path d="M32 44 V51" stroke="white"/></g>
+<text x="131" y="971" font-size="20" fill="#086DD9" font-weight="400" text-anchor="start">Restricted decision records · Inspect · Challenge · Correct</text>
+<path d="M69 1027 H620 M972 1027 H1506" fill="none" stroke="#086DD9" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="796" y="1034" font-size="20" fill="#086DD9" font-weight="400" text-anchor="middle">Data protection throughout</text>
 </g></svg>

@@ -4,7 +4,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-08
 
-- Rebuilt the simplified EGA illustration as an editable vector master with a high-resolution PNG export, preserving its workflow and replacing distorted text, icons and connectors.
+- Rebuilt both EGA illustrations as editable vector masters with high-resolution PNG exports, preserving their workflows and replacing distorted text, icons and connectors.
 
 - Added explicit end and remain-stopped exits to the coordinated EGA illustrations and detailed flows. Aligned captions, alternative text, workflow and article wording with optional continuation or permitted revision, retained reconciliation duties, and clarified independent custody of decision records.
 
