@@ -4,29 +4,31 @@
 
 An AI recommendation can sound convincing—but is there enough evidence to justify following it?
 
-Evidence-Gated Agents (EGA) connects evidence examination with controls outside the acting AI. Its design repeats the same check at relevant boundaries: before using information, releasing output or taking action.
+Evidence-Gated Agents (EGA) is a proposed design connecting evidence examination with controls outside the acting AI. Its design repeats the same check at relevant boundaries: before using information, releasing output or taking action.
 
 Any check can seek evidence, including evidence of permission and authority. EGA analyses supporting and contradicting evidence, checks the applicable requirements and records the basis for Proceed or Do not proceed—with human judgement where needed. Where permitted, Working AI can revise and submit a new proposal for checking; the rejected step stays blocked.
 
 Two foundations already exist: FactHarbor Alpha and the Our AI Charter Runtime proof of concept. The next milestone connects them in one bounded recommendation workflow and tests whether it reduces unsupported recommendations while retaining useful answers.
 
-Explore the design and cooperation opportunity:
+Explore the design, co-development and funding opportunities:
 https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-agents/
 
 \#EvidenceGatedAgents #ResponsibleAI #AIAccountability
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 ***
-[![Simplified EGA design: Working AI proposes a step; an EGA check applies evidence, authority and permission requirements. Proceed leads to the checked step and an outcome record; Do not proceed leads to remaining stopped with the reason recorded. Dashed returns optionally allow further work or permitted revision and rechecking. Crossing lines do not join. Human judgment, affected people and oversight remain visible.](evidence-gated-agents-before-we-rely.png)](evidence-gated-agents-before-we-rely.png)
+[![Illustrated EGA design: Working AI proposes a step to a golden EGA checkpoint for evidence, authority and applicable permissions. Evidence sources feed a separate evidence service. Proceed leads to the checked step and an outcome record; Do not proceed leads to remaining stopped with the reason recorded. Dashed returns allow optional further work or permitted revision and rechecking. Crossing lines do not join. Human judgement, affected people and oversight remain visible.](evidence-gated-agents-before-we-rely-illustrated.png)](evidence-gated-agents-before-we-rely-illustrated.png)
 ***
 
 # Evidence-Gated Agents: Before We Rely on an AI Recommendation
 
-Imagine choosing a supplier for a service that must respond within a guaranteed time. An AI assistant recommends one, citing satisfied customers and excellent average performance. Neither establishes the guarantee your decision depends on.
+AI can turn a question into a recommendation—and a recommendation into action. Before people rely on the result, they need more than a convincing explanation: evidence that supports the proposed step, authority to proceed, and a way to challenge what went wrong.
 
-A useful answer identifies that gap. But what prevents an unsupported recommendation from being released as ready to rely on?
+**Evidence-Gated Agents (EGA) is a proposed design that makes these checks part of the workflow.** The AI prepares a proposal. Evidence examination tests its basis, while controls outside the acting AI determine whether it may proceed under the applicable requirements.
 
-**Evidence-Gated Agents (EGA) connects evidence examination with controls outside the acting AI.** Its design governs whether a claim, decision or action instruction may proceed—and preserves a basis for inspection and challenge.
+A check can permit the step or stop it. Where revision is permitted, feedback can guide a revised proposal and a fresh check. The design preserves a record of the basis and outcome, with human judgement where needed.
+
+The aim is to make AI useful in work where decisions have consequences—and where people must be able to understand, question and correct them.
 
 ## The same check at each relevant boundary
 
@@ -34,9 +36,13 @@ Working AI can plan and prepare within existing permission. EGA checks recur whe
 
 Any EGA check can request evidence, including evidence of permission, authority or delegation. The evidence service returns what it finds, with source references and search coverage. **EGA assesses supporting evidence, contradicting evidence and gaps.** The service does not decide what the material proves or whether the step may proceed.
 
-For the supplier example, missing evidence of the required guarantee means the recommendation does not proceed. A narrower recommendation needs a new check. A favourable analytical verdict alone cannot replace authority or permission to disclose the content.
+Supporting evidence does not replace authority or permission to disclose information. A favourable analytical verdict alone is not enough to let the step proceed.
 
-**Proceed** permits the checked step within its scope. After that step, record the actual outcome. Then end the workflow or optionally plan further work within current permission; each new protected transition faces its applicable checks. **Do not proceed** withholds the step and records the reason. The workflow may end there; revision is an optional permitted route. Where permitted, Working AI receives feedback and prepares a corrected or narrower proposal within its current permission. The revised proposal must pass all applicable checks in a new attempt; the rejected step stays blocked and closed attempts stay closed. Ending the workflow does not cancel required reconciliation of an uncertain examination, commitment or delivery; reconcile before any next step that could duplicate work or effects. Human judgement is sought where an authorised person can resolve a specific issue and the stakes justify interruption. It cannot supply missing evidence or reopen a stopped attempt.
+**Proceed** permits the checked step within its scope. After that step, record the actual outcome. Then end the workflow or optionally plan further work within current permission; each new protected transition faces its applicable checks.
+
+**Do not proceed** withholds the step and records the reason. The workflow may end there; revision is an optional permitted route. Where permitted, Working AI receives feedback and prepares a corrected or narrower proposal within its current permission. The revised proposal must pass all applicable checks in a new attempt; the rejected step stays blocked and closed attempts stay closed.
+
+Ending the workflow does not cancel required reconciliation of an uncertain examination, commitment or delivery; reconcile before any next step that could duplicate work or effects. Human judgement is sought where an authorised person can resolve a specific issue and the stakes justify interruption. It cannot supply missing evidence or reopen a stopped attempt.
 
 The evidence-service interface can support public sources and specialised company/private sources. Access, processing and disclosure are separate permissions. Data protection applies throughout the system, including outgoing requests, released content and records. The record keeper provides independent custody of decision records, with restricted access. Separate oversight responsibilities support inspection, challenge and correction.
 
