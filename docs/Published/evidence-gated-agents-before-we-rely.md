@@ -48,11 +48,11 @@ The evidence-service interface can support public sources and specialised compan
 
 [![Full EGA design: Working AI prepares within existing permission; two example boundary checks can request evidence. Proceed leads to the checked step and an outcome record. Do not proceed leads to remaining stopped with a reason recorded. Separate dashed routes optionally return to Working AI for further work or permitted revision and rechecking. Human judgment is conditional; affected people, independent custody of decision records and five oversight roles remain visible.](../Assurance/Concepts/evidence-gated-agents-release-workflow.png)](../Assurance/Concepts/evidence-gated-agents-release-workflow.png)
 
-*The full design shows the same EGA check at two example boundaries. Solid paths end with an outcome record after the checked step, or with the step stopped and the reason recorded. Dashed returns show optional further work or permitted revision; new or revised proposals face applicable checks. Crossing lines do not join. People receiving or affected by the result remain visible alongside human judgment and oversight. The first integration remains recommendation release only; integration and confidential-source handling remain to be built.*
+*The full design shows the same EGA check at two example boundaries. Solid paths end with an outcome record after the checked step, or with the step stopped and the reason recorded. Dashed returns show optional further work or permitted revision; new or revised proposals face applicable checks. People receiving or affected by the result remain visible alongside human judgment and oversight.*
 
 ## Two foundations, one concrete milestone
 
-[FactHarbor Alpha](https://github.com/robertschaub/FactHarbor#what-is-factharbor) already searches and analyses evidence, exposing sources and uncertainty. It remains an Alpha with documented quality limitations.
+[FactHarbor Alpha](https://github.com/robertschaub/FactHarbor#what-is-factharbor) already searches and analyses evidence, exposing sources and uncertainty.
 
 The separate [Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first) is a runnable proof of concept demonstrating controls outside the acting model. Its synthetic scenarios include refusing an action outside the recorded mandate even after human approval; demonstrations use local test effects.
 
