@@ -64,10 +64,10 @@ Protect and strengthen free and fair societies in the digital age through public
 
 ## How to help
 
-1. **Build or test** — Explore [Evidence-Gated Agents](Assurance/Concepts/evidence-gated-agents.md) and contribute practical use cases, development or evaluation expertise.
+1. **Co-develop EGA** — We are looking for experienced co-developers to build and evaluate the first [Evidence-Gated Agents integration](Assurance/Concepts/evidence-gated-agents.md#co-development-and-funding).
 2. **Scrutinise the work** — Challenge specific claims, gaps or design choices against the [Charter Commitments](Assurance/Framework/charter-commitments.md) and [evaluation protocol](Assurance/Protocol/grounding-faithfulness-and-contestability.md).
 3. **Connect people and institutions** — Introduce a potential collaborator, neutral convenor or policymaker. The [network overview](network-overview.md#how-to-take-part-now) explains the public cooperation route.
-4. **Back a concrete step** — Help fund a clearly scoped deliverable or support it in relevant policy venues.
+4. **Sponsor or fund development** — We seek sponsors and funders to support the engineering and evaluation of the [first EGA integration](Assurance/Concepts/evidence-gated-agents.md#the-next-development-milestone).
 
 See [how to take part now](network-overview.md#how-to-take-part-now) for what each role can do, [CONTRIBUTING](https://github.com/robertschaub/our-ai-charter/blob/main/CONTRIBUTING.md) for working norms, and [About](About.md) for stewardship. For suspected secrets, private material, or personal data, contact [info@factharbor.ch](mailto:info@factharbor.ch) instead of opening a public issue.
 
