@@ -17,7 +17,7 @@ https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 ***
-[![EGA cover: Working AI submits a claim, decision or action instruction. The evidence service retrieves search results; EGA assesses the output, authority and disclosure, then decides Proceed or Do not proceed. The evidence service is available to every EGA check; decision records have restricted access.](evidence-gated-agents-before-we-rely-cover.png)](evidence-gated-agents-before-we-rely-cover.png)
+[![Architectural view of Evidence-Gated Agents: Working AI plans and prepares within existing permission and proposes a next step. EGA checks before use, release or action, requesting evidence as needed and applying the requirements for that step. Outcomes are Proceed within checked scope or Do not proceed, with human judgement where needed. Restricted decision records, data protection and five oversight roles support accountability. Conceptual design.](evidence-gated-agents-before-we-rely-architectural.png)](evidence-gated-agents-before-we-rely-architectural.png)
 ***
 
 # Evidence-Gated Agents: Before We Rely on an AI Recommendation

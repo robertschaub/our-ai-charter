@@ -2,6 +2,12 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-10-08
+
+- Replaced the EGA concept-page workflow illustration with the version using continuous, clearer box borders.
+
+- Replaced the LinkedIn EGA article cover with a wide architectural view of recurring checks and synchronized the mirror cover and alternative text; retained the inline output-release illustration.
+
 ## 2026-10-07
 
 - Republished the EGA article and accompanying LinkedIn post with recurring checks, evidence retrieval for authority and permission, conditional human judgement and updated illustrations. Synchronised the mirror, publication links and indexes.
