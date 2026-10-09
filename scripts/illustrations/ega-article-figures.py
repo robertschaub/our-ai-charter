@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: AGPL-3.0-only
-"""Editable vector masters for the simplified and detailed EGA diagrams.
+"""Shared current EGA overview and historical detailed article figure.
 Run with --figure cover (default) or --figure inline.
 This script writes SVGs only; publication PNGs are exported separately.
 """
@@ -51,6 +51,8 @@ def vector_tools(a):
             'globe':'<circle cx="34" cy="34" r="30"/><ellipse cx="34" cy="34" rx="15" ry="30"/><path d="M4 34 H64 M10 16 Q34 28 58 16 M10 52 Q34 40 58 52"/>',
             'database':'<path d="M8 15 V53 C8 67 56 67 56 53 V15"/><ellipse cx="32" cy="15" rx="24" ry="11"/><path d="M8 34 C8 49 56 49 56 34 M8 48 C8 63 56 63 56 48"/>',
             'person':'<circle cx="32" cy="16" r="12"/><path d="M10 63 V51 A22 22 0 0 1 54 51 V63 Z"/>',
+            'gavel':'<path d="M8 46 L37 17 M28 8 L45 25 M35 1 L53 19 M28 8 L35 1 M45 25 L53 19 M37 17 L44 10 M5 51 L13 51 M39 51 H63 M43 46 H59"/>',
+            'scales':'<path d="M34 2 V61 M22 61 H46 M6 12 H62 M11 12 L1 39 H21 Z M57 12 L47 39 H67 Z"/><circle cx="34" cy="12" r="4" fill="currentColor"/>',
             'people':'<circle cx="32" cy="14" r="10"/><circle cx="10" cy="24" r="7"/><circle cx="54" cy="24" r="7"/><path d="M16 60 V43 A16 16 0 0 1 48 43 V60 Z M16 39 C4 32 0 43 0 50 V60 H16 M48 39 C60 32 64 43 64 50 V60 H48"/>',
             'shield':'<path d="M32 3 L57 13 V34 Q57 53 32 66 Q7 53 7 34 V13 Z" fill="currentColor" stroke="none"/><path d="M20 33 L29 42 L45 24" stroke="white"/>',
             'brain':'<path d="M32 10 C17 -2 6 9 10 20 C-2 24 1 38 10 42 C0 55 14 68 28 60 M32 10 C47 -2 58 9 54 20 C66 24 63 38 54 42 C64 55 50 68 36 60 M32 8 V63 M10 20 Q24 17 22 31 M10 42 Q24 42 20 54 M54 20 Q40 17 42 31 M54 42 Q40 42 44 54"/>',
@@ -61,40 +63,44 @@ def vector_tools(a):
 
 
 def cover():
-    """Current simplified diagram: fixed geometry, native text and vector icons.
+    """Canonical overview for the public pages and independent documentation copies.
 
-    Export the resulting SVG to a 2400 x 1350 PNG for the article cover.
+    Optional PNG exports must preserve the SVG aspect ratio.
     Edit these coordinates rather than painting over a previously exported PNG.
     """
     navy, blue, teal, red, gold = '#10175E', '#086DD9', '#00A4BD', '#EA233B', '#F4B900'
     pale, mint, cream = '#EAF6FF', '#EDF9FB', '#FFF8E3'
-    a = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="945" viewBox="0 0 1680 945" role="img" aria-labelledby="title desc">',
+    a = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1195" viewBox="0 0 1680 1195" role="img" aria-labelledby="title desc">',
          '<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->',
          '<title id="title">Evidence-Gated Agents — evidence before AI proceeds</title>',
-         '<desc id="desc">Working AI plans within existing permission and proposes a step to an EGA check. Evidence sources feed an evidence service available to every check. Proceed permits the checked step, followed by an outcome record, with optional further work returning to Working AI. Do not proceed leads to remaining stopped and recording the reason. Permitted revision returns to Working AI for rechecking. Human judgement is conditional. People receiving or affected by results and human accountability remain visible. Crossing lines do not join.</desc>',
-         '<rect width="1680" height="945" fill="white"/>',
+         '<desc id="desc">Proposed wider design. Working AI plans within existing permission and proposes a step to an EGA check selected by trusted rules. Evidence sources feed a retrieval service; EGA assesses the material. Proceed permits only the checked step. Do not proceed keeps the step blocked, including while pending. Both branches feed one decision record and receipt, including actual or uncertain outcomes if attempted. Further work or revision requires permission and fresh applicable checks; uncertain effects require reconciliation before any potentially duplicating attempt. Human judgement informs the blocked branch without replacing evidence or authority. People receiving or affected by results and human accountability remain visible. Crossing lines do not join.</desc>',
+         '<rect width="1680" height="1195" fill="white"/>',
          '<g font-family="Arial, Helvetica, sans-serif">']
 
     label, box, line, arrow, icon = vector_tools(a)
 
     # Header and all content share the accepted left margin.
-    box(82,28,10,99,gold,'none',5)
-    label(110,76,'Evidence-Gated Agents',60,bold=True)
-    label(110,126,'Evidence before AI proceeds',40,bold=True)
-    label(110,164,'One check, repeated whenever needed',26,blue)
+    box(58,28,10,99,gold,'none',5)
+    label(86,76,'Evidence-Gated Agents',60,bold=True)
+    label(86,126,'Evidence before AI proceeds',40,bold=True)
+    label(86,164,'One check, repeated whenever needed',26,blue)
 
+    a.append('<g transform="translate(-30 0)">')
     box(88,188,404,170)
     label(290,227,'Evidence sources',32,bold=True,anchor='middle')
     label(290,260,'Public and permitted private sources',22,blue,anchor='middle')
     for kind,x in [('doc',141),('globe',225),('database',308),('lock',389)]:
         icon(kind,x,280,.92)
-    arrow(492,282,575,282)
+    a.append('</g>')
+    arrow(462,282,505,282,head=24)
+    a.append('<g transform="translate(-70 0)">')
     box(575,188,415,170)
     label(782.5,227,'Evidence service',32,bold=True,anchor='middle')
-    label(782.5,259,'Material, sources and search coverage',21,blue,anchor='middle')
-    label(782.5,287,'Available to every check',21,blue,anchor='middle')
-    icon('doc',700,299,.72)
-    icon('search',791,297,.78)
+    label(782.5,255,'Finds permitted material',21,blue,anchor='middle')
+    label(782.5,281,'Reports sources and search coverage',21,blue,anchor='middle')
+    label(782.5,307,'For claims, permissions and authority',20,blue,anchor='middle')
+    icon('doc',744,320,.4)
+    icon('search',798,320,.4)
 
     # Evidence request and result lanes stay separate.
     line('M735 397 V375',blue,7,'6 4')
@@ -102,7 +108,9 @@ def cover():
     arrow(840,358,840,400,blue,10,19)
     label(708,385,'Request',18,bold=True,anchor='end')
     label(866,385,'Results',18,bold=True)
+    a.append('</g>')
 
+    a.append('<g transform="translate(-30 0)">')
     box(88,438,320,216)
     label(248,480,'Working AI',34,bold=True,anchor='middle')
     label(248,515,'Plans and proposes',26,blue,True,'middle')
@@ -111,80 +119,113 @@ def cover():
     icon('doc',276,566,1.08)
     # Same centreline, shaft width and arrowhead for entry and proposal.
     arrow(46,541,88,541)
-    arrow(408,541,575,541)
-    label(492,484,'Proposed',24,teal,True,'middle')
-    label(492,515,'next step',24,teal,True,'middle')
+    a.append('</g>')
+    arrow(378,541,505,541)
+    label(442,484,'Proposed',24,teal,True,'middle')
+    label(442,515,'next step',24,teal,True,'middle')
 
-    box(575,401,415,276,cream,gold,14,6)
+    a.append('<g transform="translate(-70 0)">')
+    box(575,401,415,367,cream,gold,14,6)
     label(782.5,447,'EGA check',36,bold=True,anchor='middle')
     label(782.5,477,'Before use, release or action',23,blue,anchor='middle')
-    for yy,kind,title,detail in [(486,'doc','Evidence','Support, contradiction and gaps'),(541,'people','Authority','Within the mandate?'),(596,'shield','Applicable permissions','Access, processing and disclosure')]:
-        box(594,yy,377,51,'#E1F2FF','none',10)
+    for yy,kind,title,details in [
+        (486,'people','Authority',['Current mandate,','purpose and scope']),
+        (558,'doc','Inputs',['Origin, integrity and trust']),
+        (613,'search','Evidence',['Support, contradiction,','uncertainty and gaps']),
+        (685,'shield','Permissions',['Access, processing and disclosure']),
+    ]:
+        box(594,yy,377,68 if len(details)>1 else 51,'#E1F2FF','none',10)
         icon(kind,613,yy+7,.62)
         label(674,yy+23,title,22,blue,True)
-        label(674,yy+44,detail,18,blue)
-    label(782.5,669,'Requirements depend on the step',18,blue,anchor='middle')
+        for n,detail in enumerate(details):
+            label(674,yy+44+n*20,detail,18,blue)
+    label(782.5,759,'Trusted rules select checks for this step',18,blue,anchor='middle')
+    a.append('</g>')
 
-    arrow(990,466,1017,466,teal,14,24)
-    arrow(990,618,1017,618,red,14,24)
-    box(1017,412,383,106,mint,teal)
-    a.append(f'<circle cx="1072" cy="465" r="37" fill="{teal}"/>')
-    line('M1055 466 L1068 479 L1091 451','white',9)
-    label(1126,453,'Proceed',33,bold=True)
-    label(1126,483,'Within checked scope',21,blue)
-    label(1126,508,'Carry out the checked step',19,blue)
+    arrow(920,466,1025,466,teal,14,24)
+    arrow(920,618,1025,618,red,14,24)
+    a.append('<g transform="translate(-45 0)">')
+    box(1070,412,330,106,mint,teal)
+    a.append(f'<circle cx="1125" cy="465" r="37" fill="{teal}"/>')
+    line('M1108 466 L1121 479 L1144 451','white',9)
+    label(1180,453,'Proceed',33,bold=True)
+    label(1180,483,'Within checked scope',20,blue)
+    label(1180,508,'Carry out the checked step',17,blue)
+    a.append('</g>')
 
-    # Affected people stay outside the step box, above the outcome record.
-    line('M1331 412 V245 H1448',teal,12)
-    arrow(1448,245,1475,245,teal,12,26)
+    # Release has a recipient; the wider affected group is a separate association.
+    box(1100,188,310,102,mint,teal)
+    label(1255,230,'Permitted recipient',25,bold=True,anchor='middle')
+    label(1255,267,'Checked content only',22,blue,anchor='middle')
+    arrow(1331,412,1331,290,teal,12,26)
+    line('M1410 238 H1475',blue,3,'3 5')
     icon('people',1490,190,1.65)
     label(1545,310,'People receiving or',21,blue,anchor='middle')
     label(1545,338,'affected by the result',21,blue,anchor='middle')
-    arrow(1400,466,1428,466,teal,14,27)
-    box(1428,427,212,78,'white',teal,39,4)
-    icon('doc',1446,443,.69,teal)
-    label(1498,460,'End · record',19,bold=True)
-    label(1498,487,'outcome',21,bold=True)
+    label(1310,335,'On confirmed output',19,blue,anchor='end')
+    label(1310,360,'release',19,blue,anchor='end')
+    arrow(1355,466,1428,466,teal,14,27)
+    # One logical record for both branches, retaining the cover's right-hand layout.
+    box(1428,427,212,232,pale,blue,18,2)
+    label(1534,461,'Decision record',22,bold=True,anchor='middle')
+    label(1534,492,'/ receipt',22,bold=True,anchor='middle')
+    label(1534,535,'Reason or pending status',17,blue,anchor='middle')
+    label(1534,572,'If attempted:',19,blue,anchor='middle')
+    label(1534,603,'actual or uncertain',18,blue,anchor='middle')
+    label(1534,631,'outcome',19,blue,anchor='middle')
 
-    box(1017,573,266,94,'#FFF4F5',red)
-    a.append(f'<circle cx="1065" cy="620" r="32" fill="{red}"/>')
-    line('M1051 606 L1079 634 M1079 606 L1051 634','white',8)
-    label(1110,607,'Do not proceed',23,bold=True)
-    label(1110,634,'Reason and permitted',17,blue)
-    label(1110,656,'next route',17,blue)
-    arrow(1283,620,1428,620,red,10,25)
-    box(1428,581,212,78,'white',red,39,3)
-    icon('doc',1446,596,.69,red)
-    label(1498,612,'Remain stopped',16,bold=True)
-    label(1498,637,'Record reason',18,blue)
+    a.append('<g transform="translate(-45 0)">')
+    box(1070,573,330,106,'#FFF4F5',red)
+    a.append(f'<circle cx="1125" cy="620" r="32" fill="{red}"/>')
+    line('M1111 606 L1139 634 M1139 606 L1111 634','white',8)
+    label(1180,607,'Do not proceed',27,bold=True)
+    label(1180,638,'Keep the step blocked',19,blue)
+    label(1180,665,'No or pending',19,blue)
+    a.append('</g>')
+    arrow(1355,620,1428,620,red,10,25)
 
-    # An association to refusal, not an extra approval/exit flow.
-    line('M1268 667 L1282 679',blue,4,'3 7')
-    icon('person',1267,665,.72)
-    label(1290,730,'Authorised human',16,blue,True,'middle')
-    label(1290,750,'judgement',16,blue,True,'middle')
-    label(1290,769,'Where needed',16,blue,anchor='middle')
+    # Judgement points into the blocked outcome, never into an exit or override.
+    line('M1245 718 Q1160 710 1105 680 L1093 658',blue,3,'3 5')
+    a.append(f'<polygon points="1096,652 1080,652 1091,664" fill="{blue}"/>')
+    icon('people',1245,700,.8)
+    label(1315,716,'Authorised human',22,blue)
+    label(1315,744,'judgement',22,blue)
+    label(1315,772,'Where needed',22,blue)
 
     # Optional returns enter Working AI from its bottom edge.
-    line('M1145 667 V697 Q1145 716 1126 716 H934',blue,5,'12 7')
-    line('M616 716 H259 Q240 716 240 697 V675',blue,5,'12 7')
-    a.append(f'<polygon points="227,675 240,654 253,675" fill="{blue}"/>')
-    label(780,724,'Revise if permitted · recheck',23,blue,anchor='middle')
-    # Small underpass at the solid red exit line makes the non-junction explicit.
-    line('M1373 518 V610',teal,5,'12 7')
-    line('M1373 631 V755 Q1373 776 1352 776 H945',teal,5,'12 7')
-    line('M655 776 H188 Q166 776 166 754 V675',teal,5,'12 7')
-    a.append(f'<polygon points="153,675 166,654 179,675" fill="{teal}"/>')
-    label(800,784,'Further work, if needed',23,teal,anchor='middle')
+    line('M1080 679 V777 Q1080 796 1061 796 H934',blue,5,'12 7')
+    line('M616 796 H229 Q210 796 210 777 V675',blue,5,'12 7')
+    a.append(f'<polygon points="197,675 210,654 223,675" fill="{blue}"/>')
+    label(780,804,'Revise if permitted · recheck',23,blue,anchor='middle')
+    # Return starts at the checkmark; gaps cross refusal and revision without joining.
+    line('M1080 502 V526 Q1080 536 1070 536 H985 Q975 536 975 546 V606',teal,5,'12 7')
+    line('M975 630 V786 M975 806 V835 Q975 856 954 856 H945',teal,5,'12 7')
+    line('M655 856 H158 Q136 856 136 834 V675',teal,5,'12 7')
+    a.append(f'<polygon points="123,675 136,654 149,675" fill="{teal}"/>')
+    label(800,864,'Further work, if permitted',23,teal,anchor='middle')
 
-    box(88,802,1552,90)
-    icon('person',461,815,.95)
-    icon('locked_doc',544,814,.96)
-    line('M632 821 V875',navy,2)
-    label(656,846,'Human accountability and oversight',29,bold=True)
-    label(656,879,'Restricted records · Challenge · Remedy',24,blue)
-    line('M88 921 H681 M1000 921 H1640',blue,2)
-    label(841,928,'Data protection throughout',24,blue,anchor='middle')
+    # These are continuing responsibilities, not additional workflow gates.
+    box(58,882,1582,250)
+    label(74,918,'Human accountability and oversight',29,bold=True)
+    responsibilities = [
+        ('Rulemaker','gavel',['Sets criteria and','permitted scope']),
+        ('Operator','person',['Oversees operation','and follows the rules']),
+        ('Record keeper','locked_doc',['Provides independent','custody of decision','records']),
+        ('Independent reviewer','search',['Examines the basis','and handling of','decisions']),
+        ('Remedy decider','scales',['Decides corrections','or remedies within','mandate']),
+    ]
+    for n,(title,kind,lines) in enumerate(responsibilities):
+        x=74+n*312
+        box(x,935,302,135,'white',blue,8,1.5)
+        icon(kind,x+14,957,.65)
+        label(x+68,963,title,21,blue,True)
+        for row,value in enumerate(lines):
+            label(x+68,997+row*27,value,20,blue)
+    box(74,1080,1550,38,'white',blue,8,1.5)
+    icon('lock',84,1083,.43,navy)
+    label(123,1107,'Restricted decision records · Inspect · Challenge · Seek correction',23,blue)
+    line('M58 1171 H681 M1000 1171 H1640',blue,2)
+    label(841,1178,'Data protection throughout',24,blue,anchor='middle')
     a.append('</g></svg>')
     (ROOT/'evidence-gated-agents-before-we-rely-cover.svg').write_text('\n'.join(a),encoding='utf-8')
 

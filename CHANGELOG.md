@@ -4,6 +4,26 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-09
 
+- Restored the five accountability responsibilities, input checks and evidence-service scope in the shared EGA illustration, with explicit wider-design and prototype qualifications.
+
+- Consolidated the current EGA overview and article diagram onto the cover layout, with shared outcome recording and corrected continuation and human-judgement paths. Retained links to the original published illustrations.
+
+- Restored the example-free EGA opening and established diagram details: incoming preparation arrow, human judgement directed toward the blocked branch, evidence-source qualifier and conditional returns from the outcomes independently of their shared record.
+
+- Arranged the EGA overview illustration left to right, using the reading-column width and horizontal scrolling on narrow screens while retaining outcome records, external release and conditional continuation.
+
+- Made external recommendation release, people receiving or affected by the result, the conditional return for further work or revision and authorised human judgement where needed visible in the public EGA check-pattern illustration.
+
+- Introduced the common EGA check pattern before the public integration explanation, with a self-contained overview illustration and an expandable component map. Preserved separate release, revision and accountability views.
+
+- Added separate EGA views for continuation/revision and accountability, records on both release branches, and clearer pending, refusal and uncertain-outcome explanations. Distinguished wider-design responsibilities from the first prototype and connected correction with review of continued reliance.
+
+- Split the EGA overview diagram into a component map and a release workflow, separating connections from control flow while retaining the previous section anchor.
+
+- Distinguished draft handoff from control exchanges in the EGA communication diagram: asynchronous handoff is possible, while release remains blocked until the required permission is returned and validated.
+
+- Clarified the working AI, host application and EGA integration responsibilities. Updated the communication diagram to include EGA enforcement, explained mandatory delivery control and withheld streaming, and linked candidate Anthropic, OpenAI and Apertus integration mechanisms without claiming implemented compatibility.
+
 - Replaced the EGA overview’s sequence diagram with a simpler communication diagram: numbered exchanges distinguish the host, EGA checks and executor while retaining withholding, conditional release and outcome reporting.
 
 - Restored the EGA overview’s purpose connection and clarified reading paths to the illustrated introduction, prototype and research. Linked the article’s conceptual diagram to the host–EGA control-flow explanation.

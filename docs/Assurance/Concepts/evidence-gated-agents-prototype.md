@@ -45,7 +45,7 @@ This diagram shows the two routes, not every failure exit. Every permission or v
 | Independent controls | Apply the evidence rule and current authority/disclosure requirements to bound inputs; the analytical verdict is not permission. |
 | Release and record services | Request fresh binding of the permitted release, validate its one-use intent and record actual or uncertain availability to the recipient. |
 
-These are logical responsibilities, not selected deployment processes. Planned reuse of FactHarbor capabilities does not make its full analytical API a retrieval-only service. Component separation or a transitional adapter remains an implementation investigation.
+These are logical responsibilities, not selected deployment processes. An [EGA integration adapter in the host application](evidence-gated-agents.md#connecting-ega-to-an-ai-application) connects trusted routing, withholding, checks and controlled release. The host contains the working AI; the adapter operates outside that AI's control. Streaming must not disclose the withheld response. Provider hooks are candidate integration mechanisms, not a selected or tested adapter. Planned reuse of FactHarbor capabilities does not make its full analytical API a retrieval-only service. Component separation or a transitional adapter remains an implementation investigation.
 
 ### Admission and routing
 

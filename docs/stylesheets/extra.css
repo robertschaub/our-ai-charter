@@ -215,7 +215,26 @@
   border-radius: 8px;
 }
 .md-typeset .ega-flow .mermaid { min-width: 680px; width: 100%; margin: 0; }
-/* The compact communication view fits narrow screens without a wide canvas. */
-.md-typeset .ega-communication .mermaid { min-width: 0; max-width: 480px; margin: 0 auto; }
+.md-typeset .ega-simple .mermaid { min-width: 0; max-width: 560px; margin: 0 auto; }
+.md-typeset .ega-pattern { width: 100%; max-width: none; margin: 1.5em 0; overflow-x: auto; }
+.md-typeset .ega-pattern figcaption { width: 100%; max-width: none; margin: 1em 0; text-align: left; }
+.md-typeset .ega-pattern img,
+.md-typeset img[src$="evidence-gated-agents-before-we-rely-cover.svg"] { display: block; width: 100%; min-width: 720px; max-width: none; height: auto; margin: 0; }
+.md-typeset p:has(a > img[src$="evidence-gated-agents-before-we-rely-cover.svg"]) { overflow-x: auto; }
+.md-typeset .ega-accountability > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: .6rem;
+  padding: 0;
+  margin: 1em 0;
+  list-style: none;
+}
+.md-typeset .ega-accountability > ul > li {
+  margin: 0;
+  padding: .75rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 8px;
+  background: var(--md-code-bg-color);
+}
 @media (max-width: 680px) { .md-typeset .ega-flow { padding: 4px; } }
 @media print { .md-typeset .ega-flow .mermaid { min-width: 0; } }

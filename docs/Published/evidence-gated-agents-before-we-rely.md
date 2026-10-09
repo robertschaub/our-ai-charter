@@ -17,7 +17,7 @@ https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-
 
 𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
 ***
-[![Illustrated EGA design: Working AI proposes a step to a golden EGA checkpoint for evidence, authority and applicable permissions. Evidence sources feed a separate evidence service. Proceed leads to the checked step and an outcome record; Do not proceed leads to remaining stopped with the reason recorded. Dashed returns allow optional further work or permitted revision and rechecking. Crossing lines do not join. Human judgement, affected people and oversight remain visible.](evidence-gated-agents-before-we-rely-illustrated.png)](evidence-gated-agents-before-we-rely-illustrated.png)
+[![Illustrated EGA concept: Working AI, evidence sources and service, an EGA check, permitted progression or stopping, records, human judgement and people receiving or affected by the result.](evidence-gated-agents-before-we-rely-illustrated.png)](evidence-gated-agents-before-we-rely-illustrated.png)
 ***
 
 # Evidence-Gated Agents: Before We Rely on an AI Recommendation
@@ -34,6 +34,10 @@ The aim is to make AI useful in work where decisions have consequences—and whe
 
 Working AI can plan and prepare within existing permission. EGA checks recur when it proposes a protected step: using new information, sending content to a service, releasing output or taking action. Each check asks: **may this step proceed under its applicable requirements?** Trusted rules select those requirements; the acting AI cannot authorise itself.
 
+[![Shared EGA schematic: one recurring check, permitted evidence exchange, Proceed or Do not proceed, a shared decision record and receipt, permitted continuation or revision, human judgement and five accountability responsibilities.](evidence-gated-agents-before-we-rely-cover.svg)](evidence-gated-agents-before-we-rely-cover.svg)
+
+*Schematic updated 2026-10-09. The five accountability roles are responsibilities in the wider design, not consecutive approvals. The first prototype does not demonstrate independent record custody or independent review.*
+
 Any EGA check can request evidence, including evidence of permission, authority or delegation. The evidence service returns what it finds, with source references and search coverage. **EGA assesses supporting evidence, contradicting evidence and gaps.** The service does not decide what the material proves or whether the step may proceed.
 
 Supporting evidence does not replace authority or permission to disclose information. A favourable analytical verdict alone is not enough to let the step proceed.
@@ -46,9 +50,7 @@ Ending the workflow does not cancel required reconciliation of an uncertain exam
 
 The evidence-service interface can support public sources and specialised company/private sources. Access, processing and disclosure are separate permissions. Data protection applies throughout the system, including outgoing requests, released content and records. The record keeper provides independent custody of decision records, with restricted access. Separate oversight responsibilities support inspection, challenge and correction.
 
-[![Full EGA design: Working AI prepares within existing permission; two example boundary checks can request evidence. Proceed leads to the checked step and an outcome record. Do not proceed leads to remaining stopped with a reason recorded. Separate dashed routes optionally return to Working AI for further work or permitted revision and rechecking. Human judgment is conditional; affected people, independent custody of decision records and five oversight roles remain visible.](../Assurance/Concepts/evidence-gated-agents-release-workflow.png)](../Assurance/Concepts/evidence-gated-agents-release-workflow.png)
-
-*This conceptual view shows the same EGA check at two example boundaries. Solid paths end with an outcome record after the checked step, or with the step stopped and the reason recorded. Dashed returns show optional further work or permitted revision; new or revised proposals face applicable checks. People receiving or affected by the result remain visible alongside human judgment and oversight. The overview’s [host–EGA communication diagram](../Assurance/Concepts/evidence-gated-agents.md#how-the-design-works) explains who calls EGA, who controls the checking procedure and who enforces the returned decision.*
+**Repository note — 2026-10-09:** The post retains its original illustrated cover; the article uses the shared current schematic, updated after publication. The original [detailed illustration](../Assurance/Concepts/evidence-gated-agents-release-workflow.png) remains available as a publication record. The overview introduces the [common check pattern](../Assurance/Concepts/evidence-gated-agents.md#how-the-design-works), followed by focused views of components, release and records, continuation and revision, and human accountability. They distinguish the working AI from its host application and show EGA's integration, checking and controlled-delivery responsibilities. This reading aid was added after the LinkedIn publication.
 
 ## Two foundations, one concrete milestone
 
