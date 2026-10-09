@@ -4,7 +4,7 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-09
 
-- Shortened the EGA LinkedIn post and article for republication, retaining the illustrated post image, article schematic, control and accountability distinctions, and prototype limits. Marked the local revision as not yet republished.
+- Shortened the EGA LinkedIn post and article for republication, retaining the illustrated post image, article schematic, control and accountability distinctions, and prototype limits. Updated the existing LinkedIn article and accompanying post on 2026-10-09 and verified both live.
 
 - Restored the five accountability responsibilities, input checks and evidence-service scope in the shared EGA illustration, with explicit wider-design and prototype qualifications.
 

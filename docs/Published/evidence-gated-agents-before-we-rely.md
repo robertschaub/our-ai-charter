@@ -1,6 +1,6 @@
 **PUBLISHED 2026-10-07 to LinkedIn [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7513710861446873088/)**
 
-*Revised locally for republication on 2026-10-09; this version has not been republished on LinkedIn.*
+*Article and accompanying post updated on LinkedIn 2026-10-09.*
 
 ***
 
