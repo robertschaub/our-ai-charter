@@ -7,7 +7,7 @@
 
 AI can produce a convincing recommendation without establishing the facts or permissions needed to rely on it. EGA asks whether the exact proposed step meets the requirements for its intended use before it proceeds.
 
-**Evidence-Gated Agents (EGA) is a proposed design connecting evidence examination with controls outside the acting AI.** It checks the evidence and authority needed before a consequential claim, decision or action instruction may proceed, and preserves a basis for inspection, challenge and correction. The wider design includes authorised actions; the first integration targets recommendation release.
+**Evidence-Gated Agents (EGA) is a design connecting evidence examination with controls outside the acting AI.** It checks the evidence and authority needed before a consequential claim, decision or action instruction may proceed, and preserves a basis for inspection, challenge and correction. The wider design includes authorised actions; the first integration targets recommendation release.
 
 The aim is to help people make well-grounded decisions, retain control over AI and correct errors—technology serving a free and fair society, democracy and justice.
 
