@@ -28,7 +28,7 @@ Status is shown inline here. Normative and outreach drafts use page banners; ext
 
 Articles published on this website, alongside mirrors and translations of external articles. Browse the compact [published-article index](docs/Published/index.md); external publication dates are shown below and in the mirrored articles. Articles published only in this repository or on its website use Git history instead of publication labels or dates.
 
-- **[Evidence-Gated Agents: Before We Rely on an AI Recommendation](docs/Published/evidence-gated-agents-before-we-rely.md)** — *PUBLISHED* (2026-10-07). The evidence gap behind convincing recommendations, current foundations and a concrete cooperation milestone. Includes the accompanying post, cover and detailed illustration. [Article](https://www.linkedin.com/pulse/evidence-gated-agents-before-we-rely-ai-robert-schaub-c9bxe/) · [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7513710861446873088/).
+- **[Evidence-Gated Agents: Before We Rely on an AI Recommendation](docs/Published/evidence-gated-agents-before-we-rely.md)** — *PUBLISHED* (2026-10-07); revised locally for republication. A concise introduction to the checks, human accountability, existing foundations and first integration milestone. Includes the illustrated post and article schematic. [Article](https://www.linkedin.com/pulse/evidence-gated-agents-before-we-rely-ai-robert-schaub-c9bxe/) · [Post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7513710861446873088/).
 
 - **[Public AI, Built Together — Towards Geneva 2027](docs/Published/public-ai-towards-geneva-2027.md)** — The wider movement, current EGA contribution and open routes to a useful Geneva contribution, subject to scope, collaborators and resources.
 
