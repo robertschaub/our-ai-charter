@@ -28,7 +28,7 @@ Explore the project: https://robertschaub.github.io/our-ai-charter/Assurance/Con
 
 A convincing AI recommendation is not enough to justify following it. People need evidence supporting the proposed step, authority to proceed, and a way to inspect and challenge the result.
 
-**Evidence-Gated Agents (EGA) is a proposed design that puts these checks into the workflow.** The working AI prepares a proposal; controls outside that AI keep the protected step blocked until its applicable requirements are met.
+**Evidence-Gated Agents (EGA) is a design that puts these checks into the workflow.** The working AI prepares a proposal; controls outside that AI keep the protected step blocked until its applicable requirements are met.
 
 ## The same check at each relevant boundary
 
