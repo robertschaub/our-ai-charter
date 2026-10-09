@@ -22,7 +22,7 @@ copyright: >
   Original documentary content © Robert Schaub and contributors, licensed CC BY-SA 4.0. Repository-support software is AGPL-3.0-only licensed. The initiative's name and any trust mark are reserved.
 
 extra_css:
-  - stylesheets/extra.css?v=20261008-1
+  - stylesheets/extra.css?v=20261008-2
 
 theme:
   name: material
@@ -128,6 +128,7 @@ nav:
       - Sources and further reading: Evidence/linked-sources.md
   - Evidence-Gated Agents:
       - Overview: Assurance/Concepts/evidence-gated-agents.md
+      - First prototype: Assurance/Concepts/evidence-gated-agents-prototype.md
       - What the research needs to demonstrate: Assurance/Concepts/evidence-requirements-research.md
       - Proposed user workflow: Assurance/Concepts/user-workflow-governance.md
       - Technical background:

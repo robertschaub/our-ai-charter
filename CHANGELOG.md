@@ -2,7 +2,13 @@
 
 Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
+## 2026-10-09
+
+- Consolidated the EGA overview's host–gate explanation: accountable policy, trusted selection of checks, host enforcement, EGA's checking procedure and controlled release. The diagram distinguishes responsibilities, defines binding and preserves permission, evidence, deadline and recovery safeguards; exact integration choices remain open.
+
 ## 2026-10-08
+
+- Simplified the EGA overview around core concepts and recurring checks, added a separate first-prototype description with workflow, fictional receipts and evaluation commitments, and shortened duplicated research detail. Preserved public safeguards, research commitments, shared assets and legacy links. Made the introductory diagram an explicit control flow with permission before work, evidence examination, fresh authority before release or action, stop paths and outcome recording; the supplier example explains the checks for new readers.
 
 - Corrected the illustrated EGA cover's human-review arrow and shortened the continuation return from the green checkmark. Shortened the article's funding invitation and removed the EGA overview's draft banner and matching index label at the maintainer's request.
 

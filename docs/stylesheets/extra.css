@@ -204,23 +204,16 @@
   margin: 2em 0;
 }
 
-/* EGA phase diagrams fit the reading column; narrow screens scroll the
+/* EGA diagrams fit the reading column; narrow screens scroll the
    figure rather than compressing its labels. Mermaid uses a shadow root. */
 .md-typeset .ega-flow {
   overflow-x: auto;
   margin: 1em 0;
   padding: 12px;
-  background: #fff;
-  border: 1px solid #d8e0e7;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px;
 }
-.md-typeset .ega-flow .mermaid { min-width: 580px; width: 100%; margin: 0; }
-.md-typeset .ega-design > summary { font-size: .85rem; }
-.md-typeset .ega-design h4 {
-  margin-top: 1.7em;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--md-default-fg-color--lighter);
-}
-.md-typeset .ega-design { font-size: .8rem; }
+.md-typeset .ega-flow .mermaid { min-width: 680px; width: 100%; margin: 0; }
 @media (max-width: 680px) { .md-typeset .ega-flow { padding: 4px; } }
 @media print { .md-typeset .ega-flow .mermaid { min-width: 0; } }

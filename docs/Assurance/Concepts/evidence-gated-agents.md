@@ -9,429 +9,179 @@ An AI assistant recommends a supplier, citing satisfied customers and strong ave
 
 **Evidence-Gated Agents (EGA) is a proposed design connecting evidence examination with controls outside the acting AI.** It checks the evidence and authority needed before a consequential claim, decision or action instruction may proceed, and preserves a basis for inspection, challenge and correction. The wider design includes authorised actions; the first integration targets recommendation release.
 
-[Read the short introduction](../../Published/evidence-gated-agents-before-we-rely.md), or explore the foundations, design, next milestone and [co-development and funding](#where-to-contribute) below.
+Start with the concepts below, the [first prototype](evidence-gated-agents-prototype.md), or [what the research needs to demonstrate](evidence-requirements-research.md). The [short illustrated introduction](../../Published/evidence-gated-agents-before-we-rely.md) explains the motivation.
 
 ## Who it is for and what it could become
 
-EGA is intended for people preparing or reviewing decisions, organisations responsible for AI-supported work, and developers integrating controls into their systems. People receiving or affected by the results need to understand their basis and have a route to question them.
-
-The work could support configurable applications or reusable components. The [longer-term development section](#longer-term-development-and-open-research) distinguishes these possibilities from the selected first integration.
-
-## Foundations and the selected next step
-
-| What exists | What it contributes |
-|---|---|
-| **[FactHarbor Alpha](https://github.com/robertschaub/FactHarbor#what-is-factharbor)** | Searches and analyses supporting and opposing evidence, with sources and uncertainty visible. It remains an [invite-gated Alpha with documented quality limitations](https://github.com/robertschaub/FactHarbor/blob/main/CONTRIBUTING.md#known-limits). |
-| **[Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first)** | A runnable proof of concept demonstrates controls outside the acting model, using synthetic scenarios and local test effects. It does not yet call FactHarbor. |
-| **[Our AI Charter](../Framework/charter-commitments.md)** | The principles connecting authority, evidence, privacy, independent oversight and remedy. |
-
-**The next milestone is to integrate and evaluate these foundations in one bounded recommendation workflow.** The integration remains to be built. It would use FactHarbor's existing retrieval and analytical capabilities to examine the exact proposed decision; separate controls would apply human-defined evidence rules and check permission to release it. It would release a checked recommendation, not execute or authorise the resulting action.
-
-The selected prototype routes consequential decisions and instructions into full evidence examination. **A standalone consequential factual claim can remain outside that trigger.** Other answers still face authority and disclosure checks and retain a minimal routing record, without full consequential-output examination or an EGA receipt. Automatically deriving adequate evidence requirements for unfamiliar decisions remains [wider research](evidence-requirements-research.md).
-
-## How the design works
-
-[![Full EGA design: Working AI prepares within existing permission; two example boundary checks can request evidence. Proceed leads to the checked step and an outcome record. Do not proceed leads to remaining stopped with a reason recorded. Separate dashed routes optionally return to Working AI for further work or permitted revision and rechecking. Human judgment is conditional; affected people, independent custody of decision records and five oversight roles remain visible.](evidence-gated-agents-release-workflow.png)](evidence-gated-agents-release-workflow.png)
-
-*The wider EGA design, showing checks at two example boundaries. Solid arrows show the main workflow and stop routes. Dashed returns indicate optional further work or permitted revision and rechecking. Crossing lines do not join.*
-
-Working AI plans and prepares within existing permission. An **EGA check** recurs whenever a proposed step crosses a relevant boundary—for example, using new inputs, sending material to a processor, releasing output or taking action. It asks: **may this step proceed under its applicable requirements?** Trusted rules select the checks for that transition, including authority, input integrity, evidence adequacy and data protection. The acting AI cannot choose an easier check or authorise itself. The diagram's two checks illustrate a recurring pattern; the [operational gates](user-workflow-governance.md#five-steps) retain their distinct responsibilities.
-
-Any check may request evidence, including evidence of permission, authority or delegation. The **evidence service retrieves material**, with source references and search coverage. **EGA analysis assesses what it establishes:** validity, support, contradiction, uncertainty and gaps. Its verdict and reasons inform the applicable controls; evidence supporting a recommendation and evidence establishing permission cannot substitute for each other. In the supplier example, missing evidence of the required guarantee means the recommendation does not proceed.
-
-- **Proceed:** carry out the checked step within its scope and record the actual outcome. The workflow can then end or return to permitted preparation for further work. Each new protected step faces its applicable checks.
-- **Do not proceed:** withhold the proposed step and record a scoped reason and permitted next route. Remaining stopped is a valid endpoint. Where feedback and correction work are permitted, Working AI may prepare a corrected or narrower proposal; it starts a new attempt through all applicable checks. The rejected step stays withheld and closed attempts stay closed.
-
-An unknown outcome needs reconciliation before any next step that could duplicate work or effects. Ending a workflow or starting a new attempt does not remove that obligation. The [correction](#permitted-correction) and [recovery](#recovery-routes) sections distinguish permitted revision from unresolved examination, commitment or delivery status. [Lifecycle governance](../../Published/when-should-runtime-ai-governance-interrupt.md#the-when-has-two-clocks) also continues beyond an individual step.
-
-Routine checks run automatically within agreed limits. Human judgment is requested when the stakes justify interruption, someone with the necessary authority can make a difference, and the issue cannot be resolved within existing authority. The request identifies the unresolved decision. Human approval cannot supply missing evidence or authority, or reopen a stopped attempt.
-
-<a id="protecting-evidence-and-accountability"></a>
-
-### Data protection and accountability
-
-**Access, processing and disclosure are separate permissions.** Permission to consult a record does not automatically permit sending it to a retrieval, extraction or analysis service, or revealing it to a recipient. Retrieval must itself use an already-permitted route; evidence found later cannot retroactively authorise the request that exposed it.
-
-Data protection applies to outgoing requests, search results, released output and record views. The [privacy commitments](../Framework/charter-commitments.md) call for using only the information needed for the permitted purpose. Decision records also need limited content, access and retention; accountability must not become an unrestricted copy of confidential evidence.
-
-The [governance design](../../Published/when-vs-who-ai-governance.md) separates rulemaking, operation, record custody, independent review and remedy. These are continuing responsibilities, not five approvals for every answer. Independent custody keeps the operator from controlling the entire record and review chain; sealed records must be preserved without unilateral access. Binding remedies require legal or contractual authority. Records support scrutiny, but do not themselves establish truth, legitimate authority or effective remedy. Confidential-source handling and wider governance remain to be implemented and evaluated.
-
-<a id="what-the-project-aims-to-make-possible"></a>
-<a id="design-responsibilities-and-consequential-content-in-summaries"></a>
-
-<details markdown="1">
-<summary>Five design responsibilities</summary>
-
-The central rule is: **before AI gives a consequential answer or takes a consequential action, it must have permission and enough evidence to justify it.** The intended approach connects five responsibilities:
-
-1. **Establish and verify authority.** Accountable people define and document who may authorise what, on which basis and through which delegation. Examine evidence that the issuer has the relevant authority and that the mandate covers the exact proposal, purpose, data, tools and limits. Check whether permission has expired, changed or been revoked. The authority basis itself must remain reviewable.
-2. **Use permitted information and examine the evidence.** Check both whether a source may be used and what it can establish. Make material claims, assumptions, supporting evidence, counterevidence and uncertainty visible. Assess whether that evidence is current and sufficient for the particular proposed use.
-3. **Control what proceeds.** Checks outside the acting model govern whether the exact proposal may be released or executed. Before acting, the executing service requests a fresh verification of the approval and checks that the intended action matches it.
-4. **Make the outcome inspectable.** Provide an accessible record connecting the answer or action, authority, evidence, decision and actual outcome, with access appropriate to the people involved.
-5. **Support challenge and correction.** Let affected people question the basis, route disputes to responsible reviewers, and revisit decisions when evidence or authority changes.
-
-Software can enforce recorded rules and decisions, while evidence adequacy and legitimate authority require accountable judgment.
-
-</details>
-
-<details markdown="1">
-<summary>Consequential content in summaries</summary>
-
-Consequential decisions and instructions can also appear inside summaries or other apparently descriptive outputs. The intended checks would examine whether an output preserves the source’s meaning, including conditions, material risks, dissent and unresolved questions. A recommendation must not silently become an approved decision, or a forecast an established fact.
-
-Faithfulness to a source and support for its factual claims require separate examination. Accurately reporting what someone stated or agreed does not establish that the underlying claims are true. Permission to release the report also does not establish authority for the decision it describes. Where essential judgment or approval is missing, a request for human review should identify the specific unresolved issue.
-
-</details>
-
-## The next development milestone
-
-**Does the combined approach reduce unsupported recommendations while retaining useful answers?** A bounded integration and evaluation would deliver:
-
-- A working path demonstrating when a consequential recommendation is released or stopped.
-- An assessment of unsupported releases, unnecessary stops, useful qualified answers, missed decision components, cost and delay.
-- Evidence for deciding whether to continue, revise or stop that line of work.
-
-Co-development agreements would define the development scope, evaluation comparison, acceptance criteria and reporting of successes and failures, including confidentiality and publication arrangements. Those arrangements do not replace the wider research's [evaluation commitments](evidence-requirements-research.md#evaluation-commitments), including a published protocol before held-out testing and preservation of failed attempts.
-
-<a id="where-to-contribute"></a>
-
-## Co-development and funding
-
-We are looking for **experienced co-developers** to build and evaluate the first EGA integration.
-
-We also seek **sponsors and funders** to support the engineering and evaluation needed to reach this milestone.
-
-**Get in touch about co-development, sponsorship or funding.** Contact [Robert Schaub on LinkedIn](https://www.linkedin.com/in/robertschaub/) or [info@factharbor.ch](mailto:info@factharbor.ch). Initial discussions need no confidential records. Work with private organisational evidence requires separately agreed access, handling and evaluation.
-
-The work is stewarded by the FactHarbor association under its public [funding and independence commitments](../../About.md#stewardship-and-governance). Its purpose is to help people and organisations make and justify decisions while retaining control over AI and correcting errors: technology serving a free and fair society, democracy and justice.
-
-## Detailed design and prototype
-
-### View 1 — EGA target model: evidence and authority before release or action
-
-<details markdown="1" class="ega-design" id="target-model-flow">
-<summary>Open the wider design flow and current foundation</summary>
-
-**Purpose:** follow one consequential output or action through the wider target design. This is a proposed flow, not implemented end-to-end functionality. The two panels join at **A**; the split introduces no additional gate.
-
-#### 1. Prepare and examine
-
-The request and context are already permitted. New inputs, processors or uses still require applicable checks. The first check covers authority, input origin/integrity and permitted processing; examination permission covers current authority and processor permissions.
-
-<div class="ega-flow" role="region" aria-label="Target model: preparation and examination" tabindex="0" markdown="1">
-
-```mermaid
-%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
-flowchart TD
- P["Working AI plans and prepares<br/>Within existing permission"]:::work
- P --> I{{"Next step and inputs<br/>permitted?"}}:::gate
- I -->|Yes| W["Working AI performs permitted work<br/>Exact proposal withheld"]:::work
- I -->|No / unresolved| S["Do not proceed<br/>Reason + permitted route"]:::stop
- W --> X{{"Examination permitted?"}}:::gate
- X -->|No / unresolved| S
- X -->|Yes| A["EGA analysis<br/>Support, contradiction and gaps"]:::evidence
- A <-->|Permitted search / results| ES["Evidence service<br/>Material, sources, coverage"]:::evidence
- A -->|Assessment / deadline| C(["A · Continue to release / action checks"]):::link
- A -->|Acceptance unknown| U["R1 · Withhold; reconcile examination"]:::uncertain
-
- S --> END(["Remain stopped<br/>Reason recorded"]):::stop
- S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
-
-classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
-classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
-classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
-classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
-classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
-classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
-classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
-```
-
-</div>
-
-
-**Evidence service:** returns found material, sources and search coverage. EGA analysis interprets support, contradiction, uncertainty and gaps. The illustrated exchange is available to **any EGA check**, including checks of permission and authority, through an already permitted retrieval route.
-
-The evidence-service interface could support public sources and specialised company/private sources. Query-relevance ranking and faithful extraction are permitted, with traceable sources and visible selection limits; judging support or contradiction belongs to EGA analysis.
-
-#### 2. Control release or action, then record the outcome
-
-<div class="ega-flow" role="region" aria-label="Target model: release or action and outcomes" tabindex="0" markdown="1">
-
-```mermaid
-%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
-flowchart TD
- A(["A · From examination"]):::link --> G{{"Release / action rules satisfied?<br/>Evidence, authority, disclosure"}}:::gate
- G -->|No / unresolved| S["Do not proceed<br/>Reason + permitted route"]:::stop
- G -->|Yes| C{{"Fresh verification + commitment<br/>Bind exact effect and recipient / target"}}:::gate
- C -->|Failed check / not bound| S
- C -->|Binding unknown| U["R2 · Reconcile commitment"]:::uncertain
- C -->|Bound| E["Validate one-use binding<br/>Attempt exact release OR action"]:::work
- E -->|Outcome known| O["Record actual outcome<br/>Success, no effect or known failure"]:::result
- E -->|Outcome unknown| V["R3 · Reconcile effect"]:::uncertain
- O --> R["Retain record and review routes<br/>Inspect · Challenge · Correct"]:::result
- R --> DONE(["End this workflow"]):::result
- R -.->|Further work, if needed| NEXT(["Return to permitted preparation<br/>Applicable checks for each next step"]):::link
-
- S --> END(["Remain stopped<br/>Reason recorded"]):::stop
- S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
-
-classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
-classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
-classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
-classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
-classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
-classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
-classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
-```
-
-</div>
-
-
-**Do not proceed:** withhold the proposed step and record a scoped reason and permitted next route. Where correction is permitted, Working AI may receive a permitted explanation and prepare a corrected or narrower proposal within its current permission. The [REV correction route](#permitted-correction) returns the changed proposal through all applicable checks as a new attempt. An eligible held issue can receive authorised human judgment where useful. A closed attempt stays closed; neither revision, human judgment nor an analytical verdict bypasses required evidence or authority.
-
-**Finishing and continuing:** after the checked step, record its actual outcome. Then end this workflow or plan further work within current permission. Each new protected transition faces its applicable checks. Remaining stopped is also a valid endpoint; revision and human judgment are optional routes, not required next steps. Neither endpoint removes outstanding reconciliation or ongoing inspection, challenge and correction responsibilities.
-
-**Commitment and outcome are different.** Authority is freshly checked at the commitment boundary. The executor then validates the exact one-use binding; this is not a promise of another authority adjudication after commitment. Record confirmed no effect or known failure as such, preserving any commitment history. R1–R3 use the distinct recovery routes below.
+EGA is intended for people preparing or reviewing decisions, organisations responsible for AI-supported work, and developers integrating controls into their systems. People receiving or affected by results need to understand their basis and have a route to question them. The work could support configurable applications or reusable components; both remain development directions.
 
 <a id="existing-runtime-foundation"></a>
 <a id="view-1-existing-runtime-control-of-one-proposed-action"></a>
-**Current foundation:** FactHarbor Alpha supplies existing retrieval and analysis capabilities. The unfinished Runtime demonstrates controls and receipts using simulated scenarios and a local test action. Their EGA integration remains to be specified and implemented; see the [Runtime's documented limits](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first).
+## Foundations and the selected next step
 
-</details>
+| Foundation | What exists today |
+|---|---|
+| **[FactHarbor Alpha](https://github.com/robertschaub/FactHarbor#what-is-factharbor)** | Searches and analyses supporting and opposing evidence, with sources and uncertainty visible. It remains an [invite-gated Alpha with quality limitations](https://github.com/robertschaub/FactHarbor/blob/main/CONTRIBUTING.md#known-limits). |
+| **[Our AI Charter Runtime](https://github.com/robertschaub/ai-charter-runtime#honest-limits--read-this-first)** | A runnable proof of concept demonstrates controls outside the acting model, using synthetic scenarios and local test effects. It does not yet call FactHarbor. |
+| **[Our AI Charter](../Framework/charter-commitments.md)** | The principles connecting authority, evidence, privacy, independent oversight and remedy. |
 
-<a id="selected-prototype-dynamic-decision-examination"></a>
-### View 2 — Selected EGA prototype: FactHarbor check before decision release
+**The next milestone is one bounded recommendation workflow integrating and evaluating these foundations. The integration remains to be built.** It would use human-defined evidence rules, examine the exact proposed decision and control its release. It would not execute or authorise the resulting action.
 
-**Scope and limits:** one clear decision, human-defined evidence rules, recommendation release only. The integration is unimplemented. Model-assisted analysis can miss consequential components; release is not proof of truth or completeness.
+<a id="target-model-flow"></a>
+<a id="view-1-ega-target-model-evidence-and-authority-before-release-or-action"></a>
+## How the design works
 
-<details markdown="1" class="ega-design" id="prototype-flow">
-<summary>Open the selected prototype flow and release rules</summary>
+**The working AI proposes an answer or action; the host controls whether it can be released or executed.** The host is the application or runtime in which the AI operates. When trusted rules route a check to EGA, the host calls it and withholds the requested operation. EGA controls the checking procedure until it returns a decision; the host then enforces that decision outside the acting AI. Returning control is not permission to proceed.
 
-**Purpose:** follow the selected prototype from admission of a new model call to controlled release. Earlier planning may already have occurred within existing permission, as in View 1. Panels join at **B** and **C**; these are continuation points, not new gates.
+### Where checks apply—and who chooses them
 
-#### 1. Admit and route the response
+Accountable people establish permissions, disclosure rules and acceptance policy. **Trusted rules select the applicable checks; the working AI cannot exempt its own proposal.** The first prototype uses human-defined evidence requirements. Automatically deriving adequate requirements for unfamiliar decisions remains a [research question](evidence-requirements-research.md#the-research-question).
 
-<div class="ega-flow" role="region" aria-label="Prototype: admission and routing" tabindex="0" markdown="1">
+For recommendation release, enforcement means the host holds the answer and permits delivery only under the required checks. An unchecked alternative delivery path would defeat that boundary. This is a design requirement to test against [omitted checks, bypass and replay](evidence-gated-agents-prototype.md#evaluation-and-reporting), not an established guarantee. Wider tool and action workflows need their own scope and evaluation.
+
+The prototype's [preset routing rule](evidence-gated-agents-prototype.md#admission-and-routing) sends consequential decisions and instructions through full evidence examination. Ordinary responses still need delivery permission; ambiguous routing withholds the response. Applying that rule to content can be wrong: misrouting must be measured separately from enforcement failure. Standalone consequential factual claims can remain outside the trigger.
+
+### One EGA call before recommendation release
+
+In the supplier example, the host withholds the recommendation while EGA checks whether the permitted evidence establishes the required response-time guarantee and whether this exact answer may be released. Customer satisfaction alone does not establish that guarantee.
+
+A **binding** ties permission to one exact release—including its answer, recipient, permitted context and evidence result—and is valid for one use. The executor validates it before attempting delivery. The diagram groups these checking responsibilities to explain the handoff, rather than specifying the service calls used to request commitment. Whether ruling and binding use grouped or separate calls remains an [open integration choice](evidence-gated-agents-prototype.md#limits-and-preparation-still-open).
+
+<div class="ega-flow" role="region" aria-label="Host calls EGA for a recommendation-release check, then enforces the returned decision; scroll horizontally on narrow screens" tabindex="0" markdown="1">
 
 ```mermaid
-%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
-flowchart TD
- U(["Request + permitted context"]):::work --> I{{"Model use permitted?<br/>Purpose, provider and data"}}:::gate
- I -->|No / unresolved| S["Stop this attempt<br/>Scoped reason + record"]:::stop
- I -->|Yes| W["Working AI drafts exact response<br/>Withheld from recipient"]:::work
- W --> A{{"Output admission<br/>Permission still current?"}}:::gate
- A -->|No / unresolved| S
- A -->|Yes| T{{"Trusted preset routing"}}:::gate
- T -->|Ambiguous| S
- T -->|Decision / instruction| B(["B · Continue to examination"]):::link
- T -->|Ordinary| O{{"Delivery permitted?<br/>Exact content + recipient<br/>Current authority + disclosure"}}:::gate
- O -->|No / unresolved| S
- O -->|Yes| D["Attempt ordinary delivery<br/>Minimal routing record"]:::work
- D -->|Outcome unknown| R["R3 · Reconcile delivery"]:::uncertain
- D -->|Outcome known| K["Record outcome as appropriate<br/>No consequential receipt"]:::result
- K --> DONE(["End this workflow"]):::result
- K -.->|Further work, if needed| NEXT(["New request within current permission<br/>Return to admission and routing"]):::link
-
- S --> END(["Remain stopped<br/>Reason recorded"]):::stop
- S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
-
-classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
-classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
-classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
-classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
-classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
-classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
-classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
+%%{init: {"sequence": {"mirrorActors": false, "actorMargin": 35, "width": 145, "messageMargin": 30}}}%%
+sequenceDiagram
+    participant H as Host
+    participant G as EGA checks
+    participant X as Executor and records
+    H->>H: Hold the proposed release
+    H->>+G: Request checks for this release
+    G->>G: Check authority, scope<br/>and examination permission
+    opt Initial checks pass
+        G->>G: Assess permitted evidence<br/>Apply evidence requirements
+        opt Evidence rule passes
+            G->>G: Verify current release permission<br/>Bind the exact release
+        end
+    end
+    G-->>-H: Return decision and record the host may see<br/>Binding only if checks pass
+    alt Release permitted
+        H->>X: Request the checked release<br/>with its binding
+        X->>X: Validate binding<br/>Attempt delivery only if valid
+        X-->>H: Record and report outcome,<br/>failure or uncertainty
+    else Release not permitted
+        H->>H: Keep release withheld<br/>Record refusal or reconcile uncertainty
+    end
 ```
 
 </div>
 
+*Read downward for time; the columns show responsibility. The bar in EGA's column marks control from call to return. “opt” means continue only if its condition holds; “alt” and “else” show the two possible results. On narrow screens, scroll horizontally.*
 
-**Ordinary routing bypasses full evidence examination only.** Delivery still protects the exact content, recipient and current permission. It does not require consequential Commit universally. Established delivery outcomes are recorded as appropriate; uncertain delivery uses R3 without adding a consequential receipt. Its content-free routing record contains the trigger decision, rule version, request/response fingerprints, timestamp and attempt ID; it is not a consequential receipt.
+Permission to prepare an answer does not authorise disclosing it to another service. The host needs permission for any disclosure made by the gate call; EGA checks permission for examination before involving retrieval or analysis processors. The final authority check protects the exact release. These are distinct checks, and an existing mandate can cover them without another human approval. [Authority and disclosure checks](evidence-requirements-research.md#what-goes-into-a-checkand-what-comes-out) apply before model use, examination and release.
 
-**Retained trigger limitation:** full examination is selected for a consequential decision or instruction to act. A standalone consequential factual claim can remain outside this trigger. Broadening that scope is a separate decision; ambiguous routing stops the attempt.
+In the prototype, an accepted examination can remain pending within its evaluation window. If no usable assessment is available by the deadline, the attempt stops without release; a late result cannot reopen it. If submission, commitment or delivery status is unknown, follow the [recovery rules](#recovery-routes) before anything that could duplicate work or effects.
 
-#### 2. Examine the exact response
-
-<div class="ega-flow" role="region" aria-label="Prototype: evidence examination" tabindex="0" markdown="1">
-
-```mermaid
-%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
-flowchart TD
- B(["B · Decision / instruction route"]):::link --> P{{"Examination permitted?<br/>Authority + processors"}}:::gate
- P -->|No / unresolved| S["Stop this attempt<br/>Scoped reason + record"]:::stop
- P -->|Yes| A["EGA analysis · one examination<br/>Exact response + approved checklist"]:::evidence
- A <-->|Permitted search / results| ES["Evidence service<br/>Material, sources, coverage"]:::evidence
- A -->|Acceptance unknown| U["R1 · Withhold; reconcile examination"]:::uncertain
- A -->|Assessment / deadline| G{{"Complete, bound assessment<br/>Evidence rule satisfied?"}}:::gate
- G -->|No / error / incomplete at deadline| S
- G -->|Yes| C(["C · Continue to release control"]):::link
-
- S --> END(["Remain stopped<br/>Reason recorded"]):::stop
- S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
-
-classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
-classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
-classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
-classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
-classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
-classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
-classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
-```
-
-</div>
+The diagram describes logical responsibilities in the proposed integration, not deployed services. EGA includes evidence analysis and independent controls; their different roles are set out below. Its checks can use permitted evidence to establish authority, but later evidence cannot authorise an earlier disclosure. A changed proposal starts a new attempt through applicable checks; permitted revision and human review cannot bypass them.
 
 
-The examination is bound to the complete recipient-visible response and approved checklist. EGA analysis assesses every approved checklist requirement and examines the identified components, dependencies and gaps; the evidence service retrieves material without judging support or contradiction. Every applicable check may request permitted evidence. This prototype uses synthetic mandates; wider authority retrieval is not an additional prerequisite.
+<a id="1-prepare-and-examine"></a>
+### Evidence for the particular decision
 
-**The evidence rule evaluates the bound analysis; it does not authorise release.** Missing or uninterpretable required fields, known material coverage gaps, unresolved material contradiction, insufficient evidence or technical error stop release. A qualified decision may pass with counterevidence if the rule's requirements are met; a caveat in the analysis cannot repair an unsupported assertion in the response.
+Any check may request evidence, including evidence of permission, authority or delegation. **Finding material and judging what it establishes are different responsibilities.**
 
-An accepted examination may remain pending within its evaluation window. A complete usable assessment is required by the deadline; late results never revive a stopped attempt. A temporary ruling may be refreshed only in a still-open, uncommitted attempt with unchanged valid authority and bindings, without extending the deadline or renewing a mandate. No protected step relies on an expired ruling.
+| Responsibility | Contribution to the design |
+|---|---|
+| Working AI | Prepares an exact proposal within existing permission. |
+| Evidence service | Retrieves permitted material, source references and search limits; it does not judge support or contradiction. |
+| EGA analysis | Assesses support, contradiction, uncertainty, dependencies and gaps for the intended use. |
+| Independent controls | Apply the applicable authority, evidence and disclosure rules; an analytical verdict is an input, not permission. |
+| Executor and records | Perform the checked step within its binding and preserve the actual outcome for scoped inspection. |
 
-#### 3. Authorise and bind release, then record the outcome
+Evidence supporting a recommendation cannot substitute for permission to release it or act on it.
 
-<div class="ega-flow" role="region" aria-label="Prototype: release control and outcomes" tabindex="0" markdown="1">
-
-```mermaid
-%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
-flowchart TD
- C(["C · Evidence rule passed"]):::link --> F{{"Authorise release + commit<br/>Fresh authority + disclosure<br/>Bind exact response and recipient"}}:::gate
- F -->|Refused / not bound| S["Stop before release<br/>Scoped reason + record"]:::stop
- F -->|Binding unknown| U["R2 · Reconcile commitment"]:::uncertain
- F -->|Bound| E["Validate one-use binding<br/>Attempt exact recipient-view release"]:::work
- E -->|Outcome known| O["Record release, no effect<br/>or known failure"]:::result
- E -->|Outcome unknown| V["R3 · Reconcile delivery"]:::uncertain
- O --> R["Restricted receipt<br/>Inspect · Challenge · Correct"]:::result
- R --> DONE(["End this workflow"]):::result
- R -.->|Further work, if needed| NEXT(["New request within current permission<br/>Return to admission and routing"]):::link
-
- S --> END(["Remain stopped<br/>Reason recorded"]):::stop
- S -.->|If correction permitted| REV(["REV · Permitted correction"]):::link
-
-classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
-classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
-classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
-classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
-classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
-classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
-classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
-```
-
-</div>
-
-
-The release control adjudicates current release authority and disclosure permission, then binds the request and permitted context, exact response, recipient and evidence result. Unresolved release permission prevents binding; unknown binding status uses R2. Grouped or separate ruling and binding remains an implementation choice. A different or narrower response starts a new attempt through all checks. Binding and later validation follow the commitment boundary described in View 1; an error after binding does not erase the commitment or prove that nothing was released.
-
-Release means making the checked response available to the intended recipient. It does not mean that the recipient read it, and does not execute or authorise a resulting action. A later action needs its applicable checks; an existing mandate may cover it without another human approval.
-
-**Prototype stops close this attempt.** Keep stage-appropriate records and disclose only a permitted explanation. Where correction is permitted, [REV](#permitted-correction) returns a revised request or response to model admission and trusted routing in a new attempt, not directly to examination or release. Authorised human judgment can resolve a specific issue where useful. R1–R3 remain separate recovery obligations, even after an attempt closes.
-
-**Preparation still open:** exact routing fixtures, schemas, criteria, timing and Runtime compatibility. FactHarbor's complete analytical API is not a retrieval-only service; component separation or a transitional adapter remains an implementation investigation. Controlled evaluation uses one clear decision, not several independent decision/effect paths. Component detection remains fallible; evaluation must measure omissions and variation.
-
-</details>
-
-<details markdown="1" class="ega-design" id="permitted-correction">
-<summary>Permitted correction — REV: revise and check a new proposal</summary>
-
-REV is an optional route from a refusal whose status is known. The workflow may instead end with the step withheld and the scoped reason recorded. REV does not authorise the correction work or any additional access, processing or disclosure.
-
-<div class="ega-flow" role="region" aria-label="Permitted correction and a new checked attempt" tabindex="0" markdown="1">
-
-```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
-flowchart TD
- F(["REV · Known refusal"]):::link --> P{{"Feedback and correction work<br/>permitted?"}}:::gate
- P -->|No / unresolved| S["Remain stopped<br/>Record permitted next route"]:::stop
- P -->|Yes| W["Working AI receives permitted feedback<br/>Revises within current permission"]:::work
- W --> N["Changed proposal · new attempt<br/>Applicable admission and routing<br/>Evidence and release / action checks"]:::work
-
-classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
-classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
-classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
-classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
-```
-
-</div>
-
-In View 1, revision returns to permitted preparation and the applicable boundary checks. In View 2, a revised request or response starts at model admission and trusted routing; it cannot inherit the old response's routing or bound assessment. If the original model or provider is not permitted, it cannot receive the feedback or perform the revision. In View 2, refreshing a temporary ruling within an unchanged, still-open attempt remains subject to the existing deadline, authority and binding limits.
-
-Unknown examination, commitment or delivery status follows **R1–R3**, not REV. Establish the relevant status before a next step that could duplicate work or effects; a new attempt ID does not remove that risk. This correction route specifies no automatic retry policy or expanded authority.
-
-</details>
-
-<details markdown="1" class="ega-design" id="recovery-routes">
-<summary>Recovery routes used by both views — R1, R2 and R3</summary>
-
-Each route is entered from its matching labelled uncertainty exit above; they are not sequential steps.
-
-<div class="ega-flow" role="region" aria-label="Three distinct uncertainty recovery routes" tabindex="0" markdown="1">
-
-```mermaid
-%%{init: {"theme":"base","themeCSS":".edgeLabel .label rect{fill:#fff!important;opacity:1!important}","themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#52687b"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":38,"padding":14,"wrappingWidth":190},"htmlLabels":false}}%%
-flowchart LR
- J["R1 · Examination acceptance unknown"]:::uncertain --> JR["Establish submission / job status<br/>It may already be running"]:::work
- C["R2 · Commitment unknown"]:::uncertain --> CR["Establish binding status<br/>It may already be committed"]:::work
- E["R3 · Effect / delivery unknown"]:::uncertain --> ER["Establish actual outcome<br/>The effect may have occurred"]:::work
-
-classDef work fill:#edf4fc,stroke:#6d8fb8,color:#17344c,stroke-width:1.4px
-classDef gate fill:#fff3d5,stroke:#b98528,color:#513707,stroke-width:1.5px
-classDef evidence fill:#e6f5f2,stroke:#39877e,color:#174c46,stroke-width:1.4px
-classDef stop fill:#fff0e9,stroke:#c07155,color:#803721,stroke-width:1.4px
-classDef result fill:#edf5e8,stroke:#678950,color:#304d22,stroke-width:1.4px
-classDef uncertain fill:#f3eefb,stroke:#9476b7,color:#533779,stroke-width:1.4px
-classDef link fill:#fff,stroke:#54768e,color:#24465e,stroke-width:2px
-```
-
-</div>
-
-
-**No blind resubmission, new token or resend.** A new attempt ID does not remove duplication risk. Record established status or remaining uncertainty, preserve existing commitment history, and retain inspection, challenge and correction routes. Closing an attempt does not end reconciliation of a possibly running job. Recovery never makes a late result an automatic release or reopens a closed attempt; any next step must follow its applicable contract and checks.
-
-Records are restricted and stage-appropriate; early stops do not invent a decision, examination or receipt that never existed. Explanations reveal only what their recipient may see. Data protection applies throughout processing, retrieval, release and records.
-
-</details>
-
-### What an inspectable receipt could show
-
+<a id="design-responsibilities-and-consequential-content-in-summaries"></a>
 <details markdown="1">
-<summary>Open fictional receipt examples</summary>
+<summary>When a summary contains consequential content</summary>
 
-![An illustrative record links proposal, evidence, authority and outcome, with inspection, challenge and correction.](evidence-gated-agents-inspectable-record.png)
+A summary can contain a decision or instruction. **Faithfulness to a source, support for its factual claims and sufficiency for a decision require separate examination.** Accurately reporting what someone said does not establish that their claims are true. A recommendation must not silently become an approved decision, or a forecast an established fact; conditions, risks, dissent and unresolved questions remain relevant.
 
-**Fictional, shortened display examples, not generated receipts.** All identifiers, times and outcomes below are invented. These examples illustrate visible outcomes; they are not a complete receipt schema.
-
-**Example 01, attempt 1: decision released**
-
-| Visible item | Example |
-|---|---|
-| Decision and authority | “Method A is recommended for the described test; this does not apply to other conditions.” Demo mandate M1 permits release to the test recipient. |
-| Evidence examination | FactHarbor job FH-1 found supporting evidence and a limitation on transfer to other conditions; sources and uncertainty are visible. |
-| Checks | Authority, disclosure and the simple evidence rule pass at 10:15. Commit binds the exact decision and recipient. |
-| Release | The checked decision was released to the specified recipient and the outcome was recorded. |
-| Inspect or challenge | Inspect the request, decision fingerprint, evidence result, gate decisions and recorded outcome. A linked view shows how to question it. |
-
-**Example 02, attempt 1: evidence still pending at the deadline**
-
-| Visible item | Example |
-|---|---|
-| Decision | The evaluation deadline is reached at 10:15; Verify stops release. |
-| Reason | FactHarbor job FH-2 has not reached a terminal result (`evidence-pending`). |
-| Effect | No decision was released. A later FactHarbor result does not trigger automatic release. |
-| Inspect | The receipt links the request, exact decision, job state and stop reason. A new attempt must pass every check again. |
-
-Links and fingerprints support checking the bound versions and recorded steps. They do not prove the answer true, the authority legitimate, the oversight independent or the answer read by its recipient. Complete independent review and remedy require more than a receipt.
+Permission to release a report does not establish authority for the decision it describes. Where essential judgment is missing, human review identifies the particular unresolved issue rather than supplying missing evidence by sign-off.
 
 </details>
+
+<a id="2-control-release-or-action-then-record-the-outcome"></a>
+### Authority, binding and actual outcomes
+
+Accountable people establish authority and its basis, purpose, delegation and limits. A signed grant alone does not prove its issuer held that authority. Permission may expire, change or be revoked; its basis remains reviewable.
+
+In the wider action design, authority is freshly verified at the commitment boundary and bound to the exact proposal. The executor then validates the one-use binding; this is not another authority adjudication after commitment. Record confirmed success, confirmed no effect, known failure or uncertainty, preserving commitment history. An error does not prove that nothing happened. Each later protected step faces its own applicable checks; an existing mandate may cover it without another human approval.
+
+Routine checks run within agreed limits. Human judgment is conditional: the stakes justify interruption, an authorised person can resolve a specific issue, and existing authority is insufficient to resolve it automatically. It cannot supply missing evidence or authority or reopen a closed attempt. The [operational gates and lifecycle responsibilities](user-workflow-governance.md) remain distinct from this common check pattern.
+
+<a id="protecting-evidence-and-accountability"></a>
+<a id="what-the-project-aims-to-make-possible"></a>
+### Data protection and accountability
+
+**Access, processing and disclosure are separate permissions.** Permission to consult a record does not automatically permit sending it to a retrieval, extraction or analysis service, or revealing it to a recipient. Retrieval uses an already-permitted route; evidence found later cannot retroactively authorise the request that exposed it.
+
+Data protection covers requests, search results, released output and record views. Records need bounded content, access and retention; accountability must not become an unrestricted copy of confidential evidence. The [Charter's privacy commitments](../Framework/charter-commitments.md) apply throughout, including using only the information needed for the permitted purpose.
+
+The design connects five responsibilities: establish authority; examine permitted evidence; control what proceeds; make outcomes inspectable; support challenge, correction and review of reliance when evidence or authority changes. The [governance model](../../Published/when-vs-who-ai-governance.md) separates rulemaking, operation, record custody, independent review and remedy—not five approvals for every answer. The design calls for independent custody so the operator cannot control the whole record/review chain; sealed records must be protected against unilateral access. Binding remedies require legal or contractual authority. Records support scrutiny; they do not themselves establish truth, legitimate authority or effective remedy. Confidential-source handling and effective wider governance remain to be implemented and evaluated.
+
+<a id="permitted-correction"></a>
+### Correction after a known refusal
+
+Remaining stopped is a valid endpoint. Where feedback and correction work are permitted, Working AI may prepare a corrected or narrower proposal within its current permission. This **REV** route grants no extra access, processing or disclosure. An unpermitted model or provider cannot receive the feedback or perform the revision.
+
+In the wider design, revision returns to permitted preparation and applicable boundary checks. In the [first prototype](evidence-gated-agents-prototype.md#correction-and-uncertain-outcomes), a revised request or response starts at model admission and trusted routing, with no inherited routing or bound assessment. The rejected step stays withheld and closed attempts stay closed. REV describes no automatic retry policy.
+
+<a id="recovery-routes"></a>
+### When the outcome is unknown
+
+Unknown status requires reconciliation rather than treating the step as a known refusal. These are distinct routes, not consecutive stages:
+
+| Route | What is unknown | What needs establishing |
+|---|---|---|
+| **R1** | Examination acceptance | Submission/job status: work may already be running. |
+| **R2** | Commitment | Binding status: the effect may already be committed. |
+| **R3** | Effect or delivery | Actual outcome: the effect may already have occurred. |
+
+**No blind resubmission, new token or resend.** Resolve the relevant status before a next step that could duplicate work or effects; a new attempt ID does not remove that risk. Preserve commitment history, inspection, challenge and correction. Closing an attempt does not end reconciliation of possibly running work. Late results never automatically release or reopen a closed attempt; each next step follows its applicable contract and checks.
+
+Records are stage-appropriate and restricted. Early stops do not invent a decision, examination or receipt that never existed. Reasons and previews reveal only what their recipient may see.
+
+<a id="detailed-design-and-prototype"></a>
+<a id="selected-prototype-dynamic-decision-examination"></a>
+<a id="view-2-selected-ega-prototype-factharbor-check-before-decision-release"></a>
+<a id="prototype-flow"></a>
+## First prototype
+
+The selected integration examines one clear decision against human-defined evidence rules and controls recommendation release. Model-assisted analysis can miss consequential components; passing is not proof of truth or completeness. Standalone consequential factual claims can remain outside the retained decision/instruction trigger.
+
+The [First prototype page](evidence-gated-agents-prototype.md) explains the bounded German/English workflow, component responsibilities, current limits and planned evaluation.
+
+- <a id="1-admit-and-route-the-response"></a> [Admission and trusted routing](evidence-gated-agents-prototype.md#admission-and-routing)
+- <a id="2-examine-the-exact-response"></a> [Examination of the exact response](evidence-gated-agents-prototype.md#examination-and-the-evidence-rule)
+- <a id="3-authorise-and-bind-release-then-record-the-outcome"></a> [Release permission, binding and outcomes](evidence-gated-agents-prototype.md#release-and-recording)
+- <a id="what-an-inspectable-receipt-could-show"></a> [Fictional receipt examples](evidence-gated-agents-prototype.md#what-an-inspectable-receipt-could-show)
+
+## The next development milestone
+
+**Does the combined approach reduce unsupported recommendations while retaining useful answers?** Build and evaluate the bounded release/stop path, report successes and failures, and use the results to decide whether to continue, revise or stop. The [prototype evaluation and reporting commitments](evidence-gated-agents-prototype.md#evaluation-and-reporting) define what to measure and preserve the wider research's public-protocol commitments.
+
+<a id="where-to-contribute"></a>
+## Co-development and funding
+
+We are looking for **experienced co-developers** to build and evaluate the first integration, and **sponsors and funders** to support that work.
+
+Contact [Robert Schaub on LinkedIn](https://www.linkedin.com/in/robertschaub/) or [info@factharbor.ch](mailto:info@factharbor.ch). Initial discussions need no confidential records. Private organisational evidence requires separately agreed access, handling and evaluation. FactHarbor association stewards the work under its public [funding and independence commitments](../../About.md#stewardship-and-governance).
 
 ## Longer-term development and open research
 
-Two development paths remain open: applications and services that organisations could configure for their work, and reusable architecture and components for software providers and internal teams. Both need evidence of practical usefulness and suitability in their intended settings.
+Configurable applications and reusable components both need evidence of usefulness in their intended settings. Later work could extend the approach to permitted organisational sources and further agent, tool and action workflows. Each extension needs suitable authority, privacy controls, evidence requirements and evaluation; effective independent review and remedy also require institutions able to act.
 
-Later work could extend the same approach to permitted organisational sources and further agent, tool and action workflows. Each extension would need suitable authority, privacy controls, evidence requirements and evaluation. Checking private records and organisational evidence would require authorised access and additional checking processes, still to be defined and tested. Effective independent review and remedy would also require institutions with the power to act.
-
-One research strand asks whether AI can identify adequate evidence requirements for unfamiliar questions, discover overlooked assumptions and have those requirements critically reviewed, without people writing a separate checklist for every question. This could broaden reuse; its reliability remains to be demonstrated.
-
-Success means useful, supported answers and actions with fewer unjustified releases, understandable records and workable correction routes. Testing must also expose unnecessary blocking, missed claims, cost and practical limitations. Enforcing a gate does not establish that an answer is true, and agreement between AI reviewers does not establish that their judgment is adequate.
+The wider research asks whether AI can derive adequate evidence requirements for unfamiliar questions and critically review them. That capability is not established by the first prototype. Success means useful, supported results with fewer unjustified releases, understandable records and workable correction, while exposing unjustified stops, missed claims, cost and practical limits. Model agreement and gate enforcement alone do not establish adequacy or truth.
 
 ## Research detail
 
@@ -439,4 +189,4 @@ Success means useful, supported answers and actions with fewer unjustified relea
 - <a id="test-of-the-aspiration"></a> [Research questions and evaluation](evidence-requirements-research.md#test-of-the-aspiration)
 - <a id="path-from-the-prototype-to-wider-use"></a> [What the first prototype can tell us](evidence-requirements-research.md#path-from-the-prototype-to-wider-use)
 
-For related context: [when runtime governance should interrupt](../../Published/when-should-runtime-ai-governance-interrupt.md), [who provides independent oversight](../../Published/when-vs-who-ai-governance.md), and [what the runtime layer adds](../Background/what-the-runtime-layer-adds.md).
+Related context: [when runtime governance should interrupt](../../Published/when-should-runtime-ai-governance-interrupt.md), [who provides independent oversight](../../Published/when-vs-who-ai-governance.md), and [what the runtime layer adds](../Background/what-the-runtime-layer-adds.md).
