@@ -48,7 +48,7 @@ The evidence-service interface can support public sources and specialised compan
 
 [![Full EGA design: Working AI prepares within existing permission; two example boundary checks can request evidence. Proceed leads to the checked step and an outcome record. Do not proceed leads to remaining stopped with a reason recorded. Separate dashed routes optionally return to Working AI for further work or permitted revision and rechecking. Human judgment is conditional; affected people, independent custody of decision records and five oversight roles remain visible.](../Assurance/Concepts/evidence-gated-agents-release-workflow.png)](../Assurance/Concepts/evidence-gated-agents-release-workflow.png)
 
-*The full design shows the same EGA check at two example boundaries. Solid paths end with an outcome record after the checked step, or with the step stopped and the reason recorded. Dashed returns show optional further work or permitted revision; new or revised proposals face applicable checks. People receiving or affected by the result remain visible alongside human judgment and oversight.*
+*This conceptual view shows the same EGA check at two example boundaries. Solid paths end with an outcome record after the checked step, or with the step stopped and the reason recorded. Dashed returns show optional further work or permitted revision; new or revised proposals face applicable checks. People receiving or affected by the result remain visible alongside human judgment and oversight. The overview’s [host–EGA communication diagram](../Assurance/Concepts/evidence-gated-agents.md#how-the-design-works) explains who calls EGA, who controls the checking procedure and who enforces the returned decision.*
 
 ## Two foundations, one concrete milestone
 

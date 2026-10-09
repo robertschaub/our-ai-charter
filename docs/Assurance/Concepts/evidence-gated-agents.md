@@ -9,7 +9,13 @@ An AI assistant recommends a supplier, citing satisfied customers and strong ave
 
 **Evidence-Gated Agents (EGA) is a proposed design connecting evidence examination with controls outside the acting AI.** It checks the evidence and authority needed before a consequential claim, decision or action instruction may proceed, and preserves a basis for inspection, challenge and correction. The wider design includes authorised actions; the first integration targets recommendation release.
 
-Start with the concepts below, the [first prototype](evidence-gated-agents-prototype.md), or [what the research needs to demonstrate](evidence-requirements-research.md). The [short illustrated introduction](../../Published/evidence-gated-agents-before-we-rely.md) explains the motivation.
+The aim is to help people make well-grounded decisions, retain control over AI and correct errors—technology serving a free and fair society, democracy and justice.
+
+This overview explains the core concepts and host–EGA handoff. Choose a further reading path:
+
+- [Illustrated introduction](../../Published/evidence-gated-agents-before-we-rely.md): motivation, recurring checks and human oversight.
+- [First prototype](evidence-gated-agents-prototype.md): proposed behaviour, limitations, receipts and evaluation.
+- [Research](evidence-requirements-research.md): open questions and the evidence needed to demonstrate progress.
 
 ## Who it is for and what it could become
 
@@ -45,40 +51,26 @@ The prototype's [preset routing rule](evidence-gated-agents-prototype.md#admissi
 
 In the supplier example, the host withholds the recommendation while EGA checks whether the permitted evidence establishes the required response-time guarantee and whether this exact answer may be released. Customer satisfaction alone does not establish that guarantee.
 
-A **binding** ties permission to one exact release—including its answer, recipient, permitted context and evidence result—and is valid for one use. The executor validates it before attempting delivery. The diagram groups these checking responsibilities to explain the handoff, rather than specifying the service calls used to request commitment. Whether ruling and binding use grouped or separate calls remains an [open integration choice](evidence-gated-agents-prototype.md#limits-and-preparation-still-open).
+A **binding** ties permission to one exact release—including the request, its answer, recipient, permitted context and evidence result—and is valid for one use. The executor validates it before attempting delivery. The diagram groups these checking responsibilities to explain the handoff, rather than specifying the service calls used to request commitment. Whether ruling and binding use grouped or separate calls remains an [open integration choice](evidence-gated-agents-prototype.md#limits-and-preparation-still-open).
 
-<div class="ega-flow" role="region" aria-label="Host calls EGA for a recommendation-release check, then enforces the returned decision; scroll horizontally on narrow screens" tabindex="0" markdown="1">
+<div class="ega-flow ega-communication" role="region" aria-label="Communication diagram: numbered exchanges between host, EGA checks, and executor" tabindex="0" markdown="1">
 
 ```mermaid
-%%{init: {"sequence": {"mirrorActors": false, "actorMargin": 35, "width": 145, "messageMargin": 30}}}%%
-sequenceDiagram
-    participant H as Host
-    participant G as EGA checks
-    participant X as Executor and records
-    H->>H: Hold the proposed release
-    H->>+G: Request checks for this release
-    G->>G: Check authority, scope<br/>and examination permission
-    opt Initial checks pass
-        G->>G: Assess permitted evidence<br/>Apply evidence requirements
-        opt Evidence rule passes
-            G->>G: Verify current release permission<br/>Bind the exact release
-        end
-    end
-    G-->>-H: Return decision and record the host may see<br/>Binding only if checks pass
-    alt Release permitted
-        H->>X: Request the checked release<br/>with its binding
-        X->>X: Validate binding<br/>Attempt delivery only if valid
-        X-->>H: Record and report outcome,<br/>failure or uncertainty
-    else Release not permitted
-        H->>H: Keep release withheld<br/>Record refusal or reconcile uncertainty
-    end
+flowchart TB
+    G["EGA checks<br/>Run the checking procedure"]
+    H["Host<br/>Hold the proposed release"]
+    X["Executor and records<br/>Validate binding before delivery"]
+    G -->|"2 · Decision and permitted record<br/>Binding only if allowed"| H
+    H -->|"1 · Request checks"| G
+    H -->|"3 · If allowed: request release<br/>with binding"| X
+    X -->|"4 · Report actual outcome<br/>or uncertainty"| H
 ```
 
 </div>
 
-*Read downward for time; the columns show responsibility. The bar in EGA's column marks control from call to return. “opt” means continue only if its condition holds; “alt” and “else” show the two possible results. On narrow screens, scroll horizontally.*
+*Communication diagram: boxes are participants; numbered arrows are messages. Follow 1 → 2, then 3 → 4 only if release is permitted. EGA controls checking between 1 and 2; the host enforces the returned decision. If release is not permitted, it stays withheld. The executor attempts delivery only after validating the binding and records success, failure or uncertainty.*
 
-Permission to prepare an answer does not authorise disclosing it to another service. The host needs permission for any disclosure made by the gate call; EGA checks permission for examination before involving retrieval or analysis processors. The final authority check protects the exact release. These are distinct checks, and an existing mandate can cover them without another human approval. [Authority and disclosure checks](evidence-requirements-research.md#what-goes-into-a-checkand-what-comes-out) apply before model use, examination and release.
+Permission to prepare an answer does not authorise disclosing it to another service. The host needs permission for any disclosure made by the gate call; EGA checks permission for examination before involving retrieval or analysis processors. After the evidence rule passes, release authority is freshly verified at commitment before the exact release is bound. These are distinct checks, and an existing mandate can cover them without another human approval. [Authority and disclosure checks](evidence-requirements-research.md#what-goes-into-a-checkand-what-comes-out) apply before model use, examination and release.
 
 In the prototype, an accepted examination can remain pending within its evaluation window. If no usable assessment is available by the deadline, the attempt stops without release; a late result cannot reopen it. If submission, commitment or delivery status is unknown, follow the [recovery rules](#recovery-routes) before anything that could duplicate work or effects.
 

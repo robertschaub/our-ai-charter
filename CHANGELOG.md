@@ -4,6 +4,12 @@ Notable changes to the charter and its drafts. Dates are ISO (YYYY-MM-DD).
 
 ## 2026-10-09
 
+- Replaced the EGA overview’s sequence diagram with a simpler communication diagram: numbered exchanges distinguish the host, EGA checks and executor while retaining withholding, conditional release and outcome reporting.
+
+- Restored the EGA overview’s purpose connection and clarified reading paths to the illustrated introduction, prototype and research. Linked the article’s conceptual diagram to the host–EGA control-flow explanation.
+
+- Made the original request explicit in the EGA overview’s release-binding definition, consistent with the prototype description.
+
 - Consolidated the EGA overview's host–gate explanation: accountable policy, trusted selection of checks, host enforcement, EGA's checking procedure and controlled release. The diagram distinguishes responsibilities, defines binding and preserves permission, evidence, deadline and recovery safeguards; exact integration choices remain open.
 
 ## 2026-10-08

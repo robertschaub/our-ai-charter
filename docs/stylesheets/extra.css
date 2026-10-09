@@ -215,5 +215,7 @@
   border-radius: 8px;
 }
 .md-typeset .ega-flow .mermaid { min-width: 680px; width: 100%; margin: 0; }
+/* The compact communication view fits narrow screens without a wide canvas. */
+.md-typeset .ega-communication .mermaid { min-width: 0; max-width: 480px; margin: 0 auto; }
 @media (max-width: 680px) { .md-typeset .ega-flow { padding: 4px; } }
 @media print { .md-typeset .ega-flow .mermaid { min-width: 0; } }
