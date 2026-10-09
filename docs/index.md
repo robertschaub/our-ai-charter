@@ -11,7 +11,7 @@ hide:
 **Trustworthy AI for free, fair, and resilient societies.**
 </div>
 
-Our AI Charter is an **early public proposal for an international network of open AI models under shared public obligations**. The proposal includes a shared way to find, check and use participating AI systems, with governance and evidence separate from service provision.
+Our AI Charter is a **public initiative for an international network of open AI models under shared public obligations**. The initiative aims to provide a shared way to find, check and use participating AI systems, with governance and evidence separate from service provision.
 
 ## Five connected pillars
 
