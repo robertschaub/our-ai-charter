@@ -4,22 +4,22 @@
 
 ***
 
-An AI recommendation can sound convincing—but is there enough evidence to justify following it?
+**An AI recommendation can sound convincing—but is there enough evidence to justify following it?**
 
-Evidence-Gated Agents (EGA) is a proposed design for checking evidence, authority and permissions before AI uses information, releases output or takes action. Controls outside the acting AI keep the proposed step blocked until its requirements are met. Both permission and refusal leave a record; permitted revisions face fresh checks.
+**Evidence-Gated Agents (EGA)** is a design for checking evidence, authority, and permissions before AI uses information, releases output, or takes action.<br>
+Controls outside the acting AI keep the proposed step blocked until its requirements are met. Both permission and refusal leave a record; permitted revisions face fresh checks.
 
-FactHarbor Alpha and the Our AI Charter Runtime proof of concept provide two existing foundations. Their integration remains to be built and evaluated, starting with checked recommendation release—not execution of the recommended action.
+FactHarbor Alpha and the Our AI Charter Runtime proof of concept provide two existing foundations.<br>
+Their integration remains to be built and evaluated, starting with checked recommendation release—not execution of the recommended action.
 
-**Co-development and funding**
-
-We’re seeking **experienced co-developers, sponsors and funders** to build and evaluate the first integration. Contact [Robert Schaub](https://www.linkedin.com/in/robertschaub/) or [info@factharbor.ch](mailto:info@factharbor.ch).
-
-Explore the project:
-https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-agents/
+**Co-development and funding**<br>
+We’re seeking experienced co-developers, sponsors, and funders to build and evaluate the first integration.<br>
+Contact Robert Schaub or [info@factharbor.ch](mailto:info@factharbor.ch).<br>
+Explore the project: https://robertschaub.github.io/our-ai-charter/Assurance/Concepts/evidence-gated-agents/
 
 \#EvidenceGatedAgents #ResponsibleAI #AIAccountability
 
-𝘍𝘶𝘭𝘭 𝘢𝘳𝘵𝘪𝘤𝘭𝘦 𝘣𝘦𝘭𝘰𝘸 ↓
+*Full article below ↓*
 ***
 [![Illustrated EGA concept: Working AI, evidence sources and service, an EGA check, permitted progression or stopping, records, human judgement and people receiving or affected by the result.](evidence-gated-agents-before-we-rely-illustrated.png)](evidence-gated-agents-before-we-rely-illustrated.png)
 ***
